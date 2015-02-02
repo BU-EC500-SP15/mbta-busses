@@ -18,14 +18,12 @@ As an employee of the MBTA, I want to better understand how the Key Bus Route Pr
  
 ### Scope and Features of the Project:
 - Compare pertinent data pre- and post-KBRP to see how the changes impacted bus service. Specifically, we will be looking at these key areas:
-
---* Overall travel time for each trip for key routes
---* Incremental travel time for each trip (per station or every few stations)
---* Variation between scheduled arrival times and actual arrival times
---* Headway between buses
---* Average speed of key bus routes
---* Rate of passenger entries
-
+  - Overall travel time for each trip for key routes
+  - Incremental travel time for each trip (per station or every few stations)
+  - Variation between scheduled arrival times and actual arrival times
+  - Headway between buses
+  - Average speed of key bus routes
+  - Rate of passenger entries
 - Visualization of the data. Must be clear and concise. It may also be interactive (if time permits).
  
 ### Solution concept:
