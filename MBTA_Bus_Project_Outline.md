@@ -1,4 +1,4 @@
-# MBTA Bus Performance: Data Capture and Analysis Outline
+## MBTA Bus Performance: Data Capture and Analysis Outline
 
 https://docs.google.com/a/bu.edu/document/d/1Yow5tvJqMRiCaCxUQpYQptxXOEuehuKt91Y38R4DMbs/edit
  
