@@ -3,9 +3,9 @@
 https://docs.google.com/a/bu.edu/document/d/1Yow5tvJqMRiCaCxUQpYQptxXOEuehuKt91Y38R4DMbs/edit
  
 ### Vision and Goals of the Project:
-MBTA Bus Performance is a project in collaboration with the MBTA staff to identify patterns, insights, and new uses for data that can provide analysis to support MBTA service-delivery. Goals of the project include:
+[MBTA Bus Performance](https://okrieg.github.io/EC500/PROJECTS/MBTABusPerformance.html) is a project in collaboration with the MBTA staff to identify patterns, insights, and new uses for data that can provide analysis to support MBTA service-delivery. Goals of the project include:
 - A scalable, incremental system that ingests and analyzes transit data, which updates at least once a day
-- Visualization of MBTA data in the form of static map representations and bar graphs.
+- [Visualization of MBTA data](http://mbtaviz.github.io/) in the form of static map representations and bar graphs.
 - Use the data from GTFS and Transit Master to compare key bus route travel time pre- and post-Key Bus Route Program (KBRP) project
 - Observe trends in the data and try to understand the problems the MBTA key bus routes continue to experience
 - Recommend solutions to the problems detected to make the buses run more efficiently
@@ -32,6 +32,7 @@ A final report that includes several bar graphs and charts highlighting the diff
 In the report, recommendations to improve bus efficiency will be made.
 
 Global Architectural Structure Of the Project and a Walkthrough:
+
 Below is a description of the system components that are building blocks of the architectural design:
 - MBTA datasets: The sources of data are taken from GTFS, Transit Master, and Smart Bus Mart.
 - GTFS: General Transit Feed Specification contains operation schedules and other associated geographic information.
@@ -43,7 +44,10 @@ Below is a description of the system components that are building blocks of the 
 - d3.js: JavaScript library that uses digital data to drive the creation of dynamic and interactive graphical forms on the web browser.
 
 ![](img/MBTA Bus Performance - Layer Diagram.png)
- 
+Figure 1: MBTA Project architecture. 
+
+Figure 1 presents the architectural design for the MBTA project. Beginning at the Ingestion layer, MBTA data or publicly available data in the form of GTFS, Transit Master, and Smart Bus Mart is ingested into an HDFS.  From the HDFS, the contents move towards the analysis layer where the files are processed by Hadoop MapReduce functions to output Statistics and Insights. Lastly, those Statistics and Insights head into the Visualization layer where visualizations via d3.js are produced.
+
 ### Acceptance criteria:
 
 We should at a minimum complete the data analysis between the pre- and post-KBRP eras and present the differences in our final report. We should be able to identify which problems have been fixed and which ones persist.
