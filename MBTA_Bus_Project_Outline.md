@@ -52,7 +52,7 @@ Figure 1 presents the architectural design for the MBTA project. Beginning at th
 
 We should at a minimum complete the data analysis between the pre- and post-KBRP eras and present the differences in our final report. We should be able to identify which problems have been fixed and which ones persist.
  
-### Release Planning: (We need to work on this)
+### Release Planning:
 
 Detailed notes and plans are on Trello board:
 https://trello.com/b/iFDLD6Vq/mbta-bus-performance-data-capture-and-analysis
