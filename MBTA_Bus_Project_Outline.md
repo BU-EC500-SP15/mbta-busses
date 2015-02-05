@@ -24,7 +24,7 @@ As an employee of the MBTA, I want to better understand how the Key Bus Route Pr
   - Headway between buses
   - Average speed of key bus routes
   - Rate of passenger entries
-- Visualization of the data. Must be clear and concise. It may also be interactive (if time permits).
+- Visualization of the data. Must be clear and concise so as to be accessible to MBTA employees. It may also be interactive (if time permits).
  
 ### Solution concept:
 
