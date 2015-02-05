@@ -35,11 +35,10 @@ Global Architectural Structure Of the Project and a Walkthrough:
 
 Below is a description of the system components that are building blocks of the architectural design:
 - MBTA datasets: The sources of data are taken from GTFS, Transit Master, and Smart Bus Mart.
-- GTFS: General Transit Feed Specification contains operation schedules and other associated geographic information.
+- GTFS: General Transit Feed Specification defines a common format for public transportation schedules and associated geographic information.
 - Transit Master: TM Main contains information similar to GTFS’ and keys that explain the identifiers used for different bus routes. TM Daily Log contains data of time point crossing, including latitude and longitude coordinates for every bus every 60 seconds.
 - Smart Bus Mart: The set contains reporting data with aggregation based on the on time performance standard.
 - HDFS: Hadoop Distributed File System is a distributed file system, fault-tolerant, designed to be deployed on low-cost hardware.
-- GTFS: General Transit Feed Specification defines a common format for public transportation schedules and associated geographic information.
 - Hadoop: Open-source software framework for storing and processing big data on distributed file systems on large clusters. Allows massive data storage and faster processing.
 - d3.js: JavaScript library that uses digital data to drive the creation of dynamic and interactive graphical forms on the web browser.
 
@@ -61,15 +60,15 @@ Meeting notes and documentation are on Github:
 https://github.com/BU-EC500-SP15/mbta-busses/tree/master
 
 Release #1 (due by Week 5):
-User stories: Create visualizations with GTFS data.
+User stories: Create visualizations with GTFS data.  Parse the data using delimeters.  Remove irrelevant data (i.e. subway, commuter rail, ferries, etc).  [We do not need the Transit Master data until after Week 5.]
 
 Release #2 (due by Week 7): 
-Scrub our personal information from Transit Master. Complete data ingestion from MBTA’s data. We do not need the Transit Master data until after Week 5.
+Scrub out personal information from Transit Master. Complete data ingestion from MBTA’s data. 
 
 Release #3 (due by Week 9):
-Complete analytics with MapReduce and Hadoop.
+Complete analytics with MapReduce and Hadoop.  Compare GTFS data against Transit Master data.  Identify anomalies and/or trends.  Compare pre- and post-KBRP data to identify if/where improvements were made.  
 
 Release #4 and #5 (due by Week 11 and 13):
-Visualizations and extra features based on what the MBTA personnel determine is needed.
+Visualizations and extra features based on what the MBTA personnel determine is needed.  Recommend changes to improve bus service.  
 
 
