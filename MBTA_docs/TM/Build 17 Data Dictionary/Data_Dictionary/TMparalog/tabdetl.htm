@@ -1,0 +1,230 @@
+<HTML>
+<BODY bgcolor="#ffffff" text="#000000">
+<A NAME = "report_body"></A>
+<A NAME = "LOGGED_DISPATCH_PARATRIP"></A>
+<TABLE WIDTH=100% CELLPADDING=1 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="lightblue" ><B><FONT SIZE=5 FACE="Arial">LOGGED_DISPATCH_PARATRIP</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=14% bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">Definition</FONT></B></TD>
+<TD VALIGN = TOP><FONT SIZE=2 FACE="Arial">Daily logged messages for ParaTransit vehicles.</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP  WIDTH=14% bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">Note</FONT></B></TD>
+<TD VALIGN = TOP><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP WIDTH=14 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">DDL Code</FONT></B></TD>
+<TD><TT>CREATE TABLE LOGGED_DISPATCH_PARATRIP(</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp MDT_ID&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NOT NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp MSG_TYPE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NOT NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp EVENT_ID&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NOT NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp ACTIVITY&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp smallint&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp SCHEDULED_TIME&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp ESTIMATED_TIME&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp LOAD_TIME&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp FARE_AMOUNT&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp CLIENT_ID&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp CURB_DOOR_BED&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp smallint&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp LATITUDE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp LONGITUDE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp CLIENT_NAME_SIZE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp CLIENT_ADDRESS_SIZE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp COMMENT_SIZE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp MOBILITY_AID_SIZE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp CLIENT_CODE_SIZE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp ELIGIBILITY_CODE_SIZE&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp DISABILITY_CODE_SIZE&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp PASSENGER_INFO_SIZE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp int&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NULL,</TT><BR><TT>&nbsp&nbsp&nbsp&nbsp INFO_BUFFER&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp varchar(256)&nbsp&nbsp&nbsp&nbsp NULL</TT><BR><TT>) ON TMPARALOG_DATA</TT><BR><TT>go</TT><BR><TT></TT><BR><TT></TT><BR><TT></TT></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="lightblue" ><B><FONT SIZE=4 FACE="Arial">Columns</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=180 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">ColumnName</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=150 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">Domain</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=180 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">Datatype</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=80 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">NULL</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=210 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">Definition</FONT></B></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">MDT_ID</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">MSG_TYPE</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">EVENT_ID</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">NO</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">ACTIVITY</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">smallint</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">SCHEDULED_TIME</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">ESTIMATED_TIME</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">LOAD_TIME</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">FARE_AMOUNT</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">CLIENT_ID</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">CURB_DOOR_BED</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">smallint</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">LATITUDE</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">LONGITUDE</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">CLIENT_NAME_SIZE</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">CLIENT_ADDRESS_SIZE</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">COMMENT_SIZE</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">MOBILITY_AID_SIZE</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">CLIENT_CODE_SIZE</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">ELIGIBILITY_CODE_SIZE</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">DISABILITY_CODE_SIZE</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">PASSENGER_INFO_SIZE</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">int</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">INFO_BUFFER</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">varchar(256)</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">YES</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial"></FONT></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="lightblue" ><B><FONT SIZE=4 FACE="Arial">Primary and Unique Keys</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=180 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">Key Name</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=120 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">Key Type</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=500 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">Keys</FONT></B></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="lightblue" ><B><FONT SIZE=4 FACE="Arial">Foreign Keys</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=180 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">Parent Table</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=180 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">Child Table</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=120 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">Type</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=320 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">Foreign Keys</FONT></B></TD>
+</TR>
+</TABLE>
+<P>
+<TABLE WIDTH=100% CELLPADDING=3 BORDER=2>
+<TR>
+<TD VALIGN=TOP BGCOLOR="lightblue" ><B><FONT SIZE=4 FACE="Arial">Storage</FONT></B></TD>
+</TR>
+</TABLE>
+<TABLE WIDTH=100% CELLPADDING=2 BORDER=2>
+<TR>
+<TD VALIGN=TOP  WIDTH=200 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">STORAGE OPTION</FONT></B></TD>
+<TD VALIGN=TOP  WIDTH=600 bgcolor=lemonchiffon><B><FONT SIZE=2 FACE="Arial">STORAGE VALUE</FONT></B></TD>
+</TR>
+<TR>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">FILEGROUP</FONT></TD>
+<TD VALIGN=TOP ><FONT SIZE=2 FACE="Arial">TMPARALOG_DATA</FONT></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

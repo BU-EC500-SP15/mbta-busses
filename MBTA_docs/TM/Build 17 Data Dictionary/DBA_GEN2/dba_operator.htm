@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Database Administration - Operators</title>
+
+
+<meta name="Microsoft Theme" content="indust 011, default">
+<meta name="Microsoft Border" content="tl, default">
+</head>
+
+<body background="../_themes/indust/indtextb.jpg" bgcolor="#FFFFFF" text="#000000" link="#3366CC" vlink="#666666" alink="#996600"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p>&nbsp;</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p>&nbsp;</p>
+<!--mstheme--></font></td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<!--webbot bot="Include" U-Include="../main/header.htm" TAG="BODY" startspan -->
+
+<h1 align="center"><!--mstheme--><font color="#000066"><font face="Tahoma">TransitMaster&#153;</font><br>
+<font size="5" face="Tahoma"><strong>Technical Reference </strong></font><!--mstheme--></font></h1>
+
+<p align="center"><font face="Tahoma">[ Welcome | <a href="../main/dba.htm">DBA</a> | <a href="../Data_Dictionary/data_dictionary_main.htm">Data Dictionary</a>
+]</font></p>
+
+<!--msthemeseparator--><p align="center"><img src="../_themes/indust/indhorsa.gif" width="600" height="10"></p>
+<!--webbot bot="Include" endspan i-checksum="18781" -->
+<b><font SIZE="2">
+
+<p ALIGN="left"></font><font size="3"><font face="Tahoma"><a href="../index.htm">Technical
+Reference</a> : <a href="../main/dba.htm">Database Administration</a> : <a href="dba_gen2.htm">GEN
+2</a> : SQL Server Agent, Operators, and Alerts</font></b></p>
+</font>
+
+<p ALIGN="left"><big><strong><a name="Top">SQL</a> Server Agent and Email Notifies</strong></big></p>
+
+<p ALIGN="left"><small>The SQL Server Agent can send an email message to a database
+administrator when a configured event occurs.&nbsp; To enable the Agent to send an email,
+you must identify the mail server account where the messages will originate.&nbsp; To set
+this up in Enterprise Manager, right click on &quot;SQL Server Agent&quot; and select
+&quot;Properties&quot;.&nbsp; On the General tab of the SQL Server Agent Properties
+window, identify the NT account that the SQL Server Agent should use when the service is
+started, and specify an email user account for sending messages.&nbsp; [ <a href="../images/agent1.gif" target="_blank">Show Me</a> ]</small></p>
+
+<p ALIGN="left"><big><strong>Operators</strong></big></p>
+
+<p ALIGN="left"><small>SQL Server provides an Alert facility to notify a database
+administrator when a configured event has occurred.&nbsp; Each database administrator that
+is to receive an email or page is set up as an Operator.&nbsp; To add an Operator to the
+database server using Enterprise Manager, select Management, then select SQL Server Agent,
+and then select Operators.&nbsp; A list of operators will appear in the panel to the
+right.&nbsp; Right-click on &quot;Operators&quot; and select &quot;New Operator...&quot;.
+[ <a href="../images/operators1.gif" target="_blank">Show Me</a> ]</small></p>
+
+<p ALIGN="left"><strong><big>Alerts</big></strong></p>
+
+<p ALIGN="left"><small>Database server errors can be trapped by the SQL Server Agent.
+&nbsp; For each alert, or event, a response is defined.&nbsp; To add an Alert to the
+database server using Enterprise Manager, select Management, then select SQL Server Agent,
+and then select Alerts.&nbsp; A list of alerts will appear in the panel to the right.
+&nbsp; Right-click on&nbsp; &quot;Alerts&quot; and select &quot;New Alert...&quot;. &nbsp;
+[ <a href="../images/alert1.gif" target="_blank">Show Me</a> ]</small></p>
+
+<p ALIGN="left"><small>There are two tabs in the Alert Properties window.&nbsp; In the <a href="../images/alert2.gif" target="_blank">General</a> tab, identify the type of message
+that should trigger the alert.&nbsp; In the <a href="../images/alert3.gif" target="_blank">Response</a>
+tab, identify the response the Agent should take when the alert is triggered.&nbsp; You
+may choose to email or page an Operator and/or run a script.</small></p>
+
+<p><font size="3" face="Tahoma">[ <a href="dba_operator.htm#Top">Top</a> ]</font></p>
+<!--webbot bot="Include" u-include="../main/footer.htm" tag="BODY" startspan --><!--msthemeseparator--><p align="center"><img src="../_themes/indust/indhorsa.gif" width="600" height="10"></p>
+
+<h5><!--mstheme--><font color="#333399"><font face="Tahoma">TransitMaster&#153; is a trademark of Siemens Transportation
+Systems, Inc. All other products mentioned are registered trademarks of their respective
+companies.<br>
+<br>
+Copyright © 2000 - 2003 Siemens Transportation, Inc. All rights reserved.<br>
+Build 17<br>
+Last modified: April 3, 2003.</font><!--mstheme--></font></h5>
+
+<!--webbot bot="Include" endspan i-checksum="39960" -->
+
+<!--mstheme--></font><!--msnavigation--></td></tr><!--msnavigation--></table></body>
+</html>

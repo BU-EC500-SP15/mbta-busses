@@ -1,0 +1,305 @@
+.mstheme-bannertxt A:active
+{
+	color: rgb(255,255,255);
+}
+.mstheme-bannertxt A:link
+{
+	color: rgb(255,255,255);
+}
+.mstheme-bannertxt A:visited
+{
+	color: rgb(255,255,255);
+}
+.mstheme-bannertxt-g
+{
+	font-family: "Trebuchet MS", Arial, Helvetica;
+	font-size: 6;
+	color: rgb(255,255,255);
+	background-image: url(indbannd.gif);
+}
+.mstheme-bannertxt-g A:active
+{
+	color: rgb(255,255,255);
+}
+.mstheme-bannertxt-g A:link
+{
+	color: rgb(255,255,255);
+}
+.mstheme-bannertxt-g A:visited
+{
+	color: rgb(255,255,255);
+}
+.mstheme-bannertxt-s
+{
+	font-family: "Trebuchet MS", Arial, Helvetica;
+	font-size: 6;
+	color: rgb(255,255,255);
+
+}
+.mstheme-bannertxt-s A:active
+{
+	color: rgb(255,255,255);
+}
+.mstheme-bannertxt-s A:link
+{
+	color: rgb(255,255,255);
+}
+.mstheme-bannertxt-s A:visited
+{
+	color: rgb(255,255,255);
+}
+.mstheme-horiz-navtxt A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-horiz-navtxt A:link
+{
+	color: rgb(0,0,0);
+}
+.mstheme-horiz-navtxt A:visited
+{
+	color: rgb(0,0,0);
+}
+.mstheme-horiz-navtxt-g
+{
+	font-family: "Trebuchet MS", Arial, Helvetica;
+	font-size: 2;
+	color: rgb(0,0,0);
+	background-image: url(indhbudd.gif);
+}
+.mstheme-horiz-navtxt-g A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-horiz-navtxt-g A:link
+{
+	color: rgb(0,0,0);
+}
+.mstheme-horiz-navtxt-g A:visited
+{
+	color: rgb(0,0,0);
+}
+.mstheme-horiz-navtxt-gs
+{
+	font-family: "Trebuchet MS", Arial, Helvetica;
+	font-size: 2;
+	color: rgb(0,0,0);
+	background-image: url(indhbusd.gif);
+}
+.mstheme-horiz-navtxt-gs A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-horiz-navtxt-gs A:link
+{
+	color: rgb(0,0,0);
+}
+.mstheme-horiz-navtxt-gs A:visited
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxthome A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxthome A:link
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxthome A:visited
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxthome-g
+{
+	font-family: Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+	background-image: url(indhombd.gif);
+}
+.mstheme-navtxthome-g A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxthome-g A:link
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxthome-g A:visited
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtnext A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtnext A:link
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtnext A:visited
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtnext-g
+{
+	font-family: Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+	background-image: url(indnexbd.gif);
+}
+.mstheme-navtxtnext-g A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtnext-g A:link
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtnext-g A:visited
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtprev A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtprev A:link
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtprev A:visited
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtprev-g
+{
+	font-family: Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+	background-image: url(indprebd.gif);
+}
+.mstheme-navtxtprev-g A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtprev-g A:link
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtprev-g A:visited
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtup A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtup A:link 
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtup A:visited
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtup-g
+{
+	font-family: Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+	background-image: url(indupbd.gif);
+}
+.mstheme-navtxtup-g A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtup-g A:link
+{
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtup-g A:visited
+{
+	color: rgb(0,0,0);
+}
+.mstheme-topbar-font A:active
+{
+	color: rgb(204,204,204);
+}
+.mstheme-topbar-font A:link
+{
+	color: rgb(204,204,204);
+}
+.mstheme-topbar-font A:visited
+{
+	color: rgb(204,204,204);
+}
+.mstheme-topbar-font-g
+{
+	font-family: Arial, Helvetica;
+	font-size: 1;
+	color: rgb(204,204,204);
+	background-image: url(indglob.gif);
+}
+.mstheme-topbar-font-g A:active
+{
+	color: rgb(204,204,204);
+}
+.mstheme-topbar-font-g A:link
+{
+	color: rgb(204,204,204);
+}
+.mstheme-topbar-font-g A:visited
+{
+	color: rgb(204,204,204);
+}
+.mstheme-vert-navtxt A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-vert-navtxt A:link
+{
+	color: rgb(0,0,0);
+}
+.mstheme-vert-navtxt A:visited
+{
+	color: rgb(0,0,0);
+}
+.mstheme-vert-navtxt-g
+{
+	font-family: "Trebuchet MS", Arial, Helvetica;
+	font-size: 2;
+	color: rgb(0,0,0);
+	background-image: url(indvbudd.gif);
+}
+.mstheme-vert-navtxt-g A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-vert-navtxt-g A:link
+{
+	color: rgb(0,0,0);
+}
+.mstheme-vert-navtxt-g A:visited
+{
+	color: rgb(0,0,0);
+}
+.mstheme-vert-navtxt-gs
+{
+	font-family: "Trebuchet MS", Arial, Helvetica;
+	font-size: 2;
+	color: rgb(0,0,0);
+	background-image: url(indvbusd.gif);
+}
+.mstheme-vert-navtxt-gs A:active
+{
+	color: rgb(0,0,0);
+}
+.mstheme-vert-navtxt-gs A:link
+{
+	color: rgb(0,0,0);
+}
+.mstheme-vert-navtxt-gs A:visited
+{
+	color: rgb(0,0,0);
+}

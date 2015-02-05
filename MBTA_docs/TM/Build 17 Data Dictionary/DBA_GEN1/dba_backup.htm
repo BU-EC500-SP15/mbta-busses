@@ -1,0 +1,322 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Database Administration - Backup</title>
+
+<meta name="Microsoft Theme" content="indust 011, default">
+<meta name="Microsoft Border" content="tl, default">
+</head>
+
+<body background="../_themes/indust/indtextb.jpg" bgcolor="#FFFFFF" text="#000000" link="#3366CC" vlink="#666666" alink="#996600"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p>&nbsp;</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p>&nbsp;</p>
+<!--mstheme--></font></td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<!--webbot bot="Include" U-Include="../Main/header.htm" TAG="BODY" startspan -->
+
+<h1 align="center"><!--mstheme--><font color="#000066"><font face="Tahoma">TransitMaster&#153;</font><br>
+<font size="5" face="Tahoma"><strong>Technical Reference </strong></font><!--mstheme--></font></h1>
+
+<p align="center"><font face="Tahoma">[ Welcome | <a href="../Main/dba.htm">DBA</a> | <a href="../Data_Dictionary/data_dictionary_main.htm">Data Dictionary</a>
+]</font></p>
+
+<!--msthemeseparator--><p align="center"><img src="../_themes/indust/indhorsa.gif" width="600" height="10"></p>
+<!--webbot bot="Include" endspan i-checksum="14685" -->
+<b><font FACE="Arial" SIZE="2">
+
+<p ALIGN="left"></font><font FACE="Arial" size="3"><a href="../index.htm">Technical
+Reference</a> : <a href="../Main/dba.htm">Database Administration</a> : <a href="dba_gen1.htm">GEN
+1</a> : Backup</b></p>
+</font><font FACE="Arial" SIZE="2">
+
+<p>There are two recommended backup procedures. The total number of disks and their
+replacement frequency has been listed at the end of each of the two recommended
+procedures.&nbsp; In addition to the disk space specifications, we recommend the use of a
+RAID disk subsystem (Redundant Array of Independent Disks).</p>
+
+<p>All examples are based upon a fleet size of 50 buses. The numbers have been
+extrapolated to included up to 200 buses, and can expand further as needs arise.</font></p>
+<b><font FACE="Arial" SIZE="2">
+
+<p ALIGN="CENTER"></font><font FACE="Arial" size="3">Recommended Backup Matrix #1
+(primary)</p>
+</b>
+
+<p></font><font FACE="Arial" SIZE="2">This is the recommended backup procedure, and is
+structured to aid in the successful retention of all data for a one-year period. <strong>NOTE</strong>
+that the<b><i> daily log databases</i></b> are different from the <i><b>summary database</b></i>.
+The daily logs are dynamically created during overnight processing, and are not specified
+during system installation. They must be backed up manually during each backup period.
+Also note that 2 tapes are used for each backup SET. This is for redundancy as each tape
+within a set stores a number of consecutive daily logs. Each backup SET should last for
+the predetermined amount of time. For example, a 50 bus fleet would be able to use one SET
+of daily backup tapes for a full 6 months. At the end of 6 months, the first SET is put
+aside in a secure location, and the second SET begins to be used. Each tape within a Daily
+Log Database backup SET will mirror the other. [ <a href="dba_backup_M1.htm">Detail</a> ]</font></p>
+<b><font FACE="Arial" SIZE="2">
+
+<p ALIGN="CENTER"></font><font FACE="Arial" size="3">Recommended Backup Matrix #2
+(secondary)</p>
+</font></b><font FACE="Arial" SIZE="2">
+
+<p>This is the alternate backup procedure, as it is structured for properties who have
+security issues present when dealing with weekend backups. <strong>NOTE</strong> that the <i><b>daily
+log databases</b></i> are different from the <i><b>summary database</b></i>. The daily
+logs are dynamically created during overnight processing, and are not specified during
+system installation. They must be backed up manually during each backup period (typically
+daily). Also note that 2 tapes are used for each backup SET. This is for redundancy as
+each tape within a set stores a number of consecutive daily logs. Each backup SET should
+last for the predetermined amount of time. For example, a 50 bus fleet would be able to
+use one SET of daily backup tapes for a full 6 months. At the end of 6 months, the first
+SET is put aside in a secure location, and the second SET begins to be used. Each tape
+within a Daily Log Database backup SET will mirror the other. [ <a href="dba_backup_M2.htm">Detail</a> ]</font></p>
+<b><font FACE="Arial" SIZE="2">
+
+<p ALIGN="CENTER"></font><font FACE="Arial" size="3">General Backup Procedures</b></p>
+
+<p></font><font FACE="Arial" SIZE="2">&nbsp;<b>General Daily Log Backup Outline</b></p>
+
+<p>Backup procedures are performed from within the SQL Enterprise Manager. An automated
+scheduler accomplishes the backup of the summary, configuration, and incident databases.
+The daily logs, however, must be manually backed up according to the adopted schedule. The
+following is the recommended procedure for backup operations.</p>
+<b>
+
+<p>Detailed Backup Instructions</b></p>
+
+<p>The following is the detailed procedure by which SQL databases can be backed up for
+mass / remote storage. It contains 3 steps. </p>
+
+<ol>
+  <li>Creation of the backup device.</li>
+  <li>Manual Backup of databases (used for daily log databases only)</li>
+  <li>Scheduled Backup of databases (used for all remaining TransitMaster databases)</li>
+</ol>
+
+<ol TYPE="I">
+  <li>Create a backup device pointing to the tape drive being utilized for storage</li>
+</ol>
+
+<blockquote>
+  <blockquote>
+    <p><img SRC="../images/Image6.gif" WIDTH="376" HEIGHT="154"></p>
+  </blockquote>
+</blockquote>
+
+<ol TYPE="a">
+  <ol TYPE="a">
+    <li>Upon opening the SQL Enterprise Manager, expand the server tree by clicking on the
+      &quot;+&quot; symbol next to the server name.</li>
+    <p><img SRC="../images/Image7.gif" WIDTH="483" HEIGHT="293"></p>
+    <li>Right click on the &quot;Backup Devices&quot; line</li>
+  </ol>
+</ol>
+
+<ol TYPE="i">
+  <blockquote>
+    <blockquote>
+      <ol TYPE="i">
+        <li>select &quot;<u>N</u>ew Backup Devices&quot;</li>
+      </ol>
+    </blockquote>
+  </blockquote>
+</ol>
+
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <p><img SRC="../images/Image8.gif" WIDTH="481" HEIGHT="322"></p>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<ol TYPE="a">
+  <ol TYPE="a">
+    <li>select the &quot;<u>T</u>ape Backup Device&quot; button</li>
+  </ol>
+</ol>
+
+<ol TYPE="i">
+  <blockquote>
+    <blockquote>
+      <ol TYPE="i">
+        <li>in the <u>L</u>ocation box type the network location of the drive and its designation.
+          For example: a drive residing on the SQL server may be &quot;\\TM_SQLSERVER\TAPE0&quot;.</li>
+        <li>In the <u>N</u>ame box type in the device name. </li>
+      </ol>
+    </blockquote>
+  </blockquote>
+</ol>
+
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <p>We recommend that you simply call it &quot;tapebackup&quot; as each physical device
+            must be named uniquely. In other words, you cannot have multiple devices pointing to the
+            same drive. </p>
+          </blockquote>
+        </blockquote>
+        <p><img SRC="../images/Image9.gif" WIDTH="328" HEIGHT="196"></p>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<ol TYPE="a">
+  <ol TYPE="a">
+    <li>the new backup device should now be listed in the Backup Device tree. (if the tree is
+      not expanded you may do so by clicking on the &quot;+&quot; symbol next to the name)</li>
+  </ol>
+</ol>
+
+<ol TYPE="I">
+  <li>&nbsp;</li>
+  <li>Manual Backup of Database information</li>
+</ol>
+
+<ol TYPE="a">
+  <ol TYPE="a">
+    <li>Insert the appropriate tape into the drive</li>
+    <li>Expand the SQL tree within Enterprise Manager to display the databases</li>
+    <li>Right Click on the database to backup and select <u>B</u>ackup/Restore&#133;</li>
+    <p><img SRC="../images/Image10.gif" WIDTH="491" HEIGHT="305"></p>
+    <li>Select the appropriate backup device name (tape device)</li>
+    <li>If this is NOT the only database to be placed on this tape, and it is NOT the first of
+      the databases, make certain that the &quot;Initialize device&quot; box IS NOT CHECKED</li>
+    <p><img SRC="../images/Image11.gif" WIDTH="532" HEIGHT="375"></p>
+    <li>Once the device has been selected, and the appropriate initialization choice has been
+      made, select <u>B</u>ackup Now.</li>
+    <li>When activity has ceased, and the application says that the backup was successful,
+      replace tape 1 with tape 2 and repeat the previous backup procedures.</li>
+    <li>Upon completion of the daily log backup, remove all daily log tapes and replace them
+      with the next tape to be used in the Automatic Database Backup Procedure used for all
+      other summary information. The Automatic Database Backup Procedure is listed below.</li>
+  </ol>
+</ol>
+
+<p>*Please note that if the daily log tape is left in the drive after the final manual
+backup for the day, the Automatic Database Backup Procedure will ERASE that tape during
+night-time processing to overwrite it with databases selected below in the automatic
+procedure. Thus it is VITAL when the final daily log tape is finished that it be replaced
+with the appropriate automatic tape.</p>
+
+<p>**The manual database backup procedure MUST be initiated NO earlier than 6 am, and NO
+later than 10 am to ensure proper system load control** </p>
+
+<ol START="3" TYPE="I">
+  <li>Automatic Database Backup Procedure setup</li>
+</ol>
+
+<ol TYPE="a">
+  <ol TYPE="a">
+    <li>Insert the appropriate tape into the drive</li>
+    <li>Expand the SQL tree within Enterprise Manager to display the databases</li>
+    <li>Right Click on the database to backup and select <u>B</u>ackup/Restore&#133;</li>
+  </ol>
+</ol>
+
+<blockquote>
+  <blockquote>
+    <p>This procedure will be repeated for the following databases:</p>
+    <p>tembdb<br>
+    Pulloutinfo<br>
+    Scheddb<br>
+    Scheddb2<br>
+    TMCFGDB<br>
+    TMINCDB<br>
+    TMSummary</p>
+    <p><img SRC="../images/Image10.gif" WIDTH="433" HEIGHT="352"></p>
+  </blockquote>
+</blockquote>
+
+<ol TYPE="a">
+  <ol TYPE="a">
+    <li>Select the appropriate backup device name for automated backups</li>
+    <p><img SRC="../images/Image12.gif" WIDTH="389" HEIGHT="291"></p>
+    <li>The following conditions apply when determining whether or not to initialize the device:</li>
+  </ol>
+</ol>
+
+<ol TYPE="i">
+  <blockquote>
+    <blockquote>
+      <ol TYPE="i">
+        <li>Always set up the backup procedure using the TMSUMMARY database first as this database
+          is the ONLY automated database that initializes.</li>
+        <li>The following databases are also automated, but ARE NOT to be set for Initialize Device:</li>
+      </ol>
+    </blockquote>
+  </blockquote>
+</ol>
+
+<ol>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <ol>
+            <li>Pulloutinfo</li>
+            <li>Scheddb</li>
+            <li>Scheddb2</li>
+            <li>TMCFGDB</li>
+            <li>TMINCDB</li>
+            <li>TMSummary</li>
+          </ol>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</ol>
+
+<ol TYPE="a">
+  <ol TYPE="a">
+    <li>Once the device has been selected, and the proper setting for initialization has been
+      determined, click on <u>S</u>chedule</li>
+    <li>Set the Schedule frequency to Recurring</li>
+    <p><img SRC="../images/Image13.gif" WIDTH="387" HEIGHT="283"></p>
+    <li>Within the Chose Ch<u>a</u>nge from the Schedule Backup window in order to set the
+      recurrence frequency to daily. Set the daily frequency value to the appropriate value
+      listed below:<br>
+    </li>
+    <p>1. Pulloutinfo Midnight<br>
+    2. TMCFGDB 12:15 am<br>
+    3. TMINCDB 12:30 am<br>
+    4. Scheddb 12:45 am<br>
+    5. Scheddb2 1:00 am<br>
+    6. TMSummary 1:15 am</p>
+    <p>Due to the fact that Pulloutinfo through Scheddb2 are small databases, they should be
+    addressed first, and should not take the entire 15 minutes. The TMSummary backup will not
+    adversely affect system loads as long as the tape device physically resides on the SQL
+    Server</p>
+    <p><img SRC="../images/Image14.gif" WIDTH="449" HEIGHT="369"></p>
+    <li>Once you have completed setting the time schedule for the automated backup procedures,
+      click the <u>O</u>k key until you are back to the Backup/Restore window.</li>
+    <li>From within the Backup/Restore window, click &quot;Close&quot; to activate the schedule.</li>
+    <li>Make certain that the above procedure is followed to create the schedule for ALL
+      TransitMaster databases OTHER than the daily log files.</font></li>
+  </ol>
+</ol>
+
+<p><font face="Tahoma" size="3">[<a href="dba_backup.htm#Top"> Top</a> ]</font></p>
+<!--webbot bot="Include" u-include="../Main/footer.htm" tag="BODY" startspan -->
+<!--msthemeseparator--><p align="center"><img src="../_themes/indust/indhorsa.gif" width="600" height="10"></p>
+
+<h5><!--mstheme--><font color="#333399"><font face="Tahoma">TransitMaster&#153; is a trademark of Siemens Transportation
+Systems, Inc. All other products mentioned are registered trademarks of their respective
+companies.<br>
+<br>
+Copyright © 2000 - 2001 Siemens Transportation, Inc. All rights reserved.<br>
+Build 14 Patch 6<br>
+Last modified: November 12, 2001.</font><!--mstheme--></font></h5>
+<!--webbot bot="Include" endspan i-checksum="30036" -->
+
+<!--mstheme--></font><!--msnavigation--></td></tr><!--msnavigation--></table></body>
+</html>

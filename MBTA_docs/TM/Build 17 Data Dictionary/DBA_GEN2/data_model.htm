@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>Database Administration - Data Model</title>
+
+
+<meta name="Microsoft Theme" content="indust 011, default">
+<meta name="Microsoft Border" content="tl, default">
+</head>
+
+<body background="../_themes/indust/indtextb.jpg" bgcolor="#FFFFFF" text="#000000" link="#3366CC" vlink="#666666" alink="#996600"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p>&nbsp;</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p>&nbsp;</p>
+<!--mstheme--></font></td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<!--webbot bot="Include" U-Include="../main/header.htm" TAG="BODY" startspan -->
+
+<h1 align="center"><!--mstheme--><font color="#000066"><font face="Tahoma">TransitMaster&#153;</font><br>
+<font size="5" face="Tahoma"><strong>Technical Reference </strong></font><!--mstheme--></font></h1>
+
+<p align="center"><font face="Tahoma">[ Welcome | <a href="../main/dba.htm">DBA</a> | <a href="../Data_Dictionary/data_dictionary_main.htm">Data Dictionary</a>
+]</font></p>
+
+<!--msthemeseparator--><p align="center"><img src="../_themes/indust/indhorsa.gif" width="600" height="10"></p>
+<!--webbot bot="Include" endspan i-checksum="18781" -->
+
+<b><font SIZE="2">
+
+<p ALIGN="left"></font><font face="Tahoma"><a href="../index.htm">Technical
+Reference</a> : <a href="../main/dba.htm">Database Administration</a> : <a href="dba_gen2.htm">TM
+02</a> : Data Model</font></b></p>
+
+<p ALIGN="left"><strong><big>Maintaining the ER/Studio Data Model</big> </strong></p>
+
+<p ALIGN="left"><small>The entity relationship diagram and data dictionary for the
+relational database that supports the TransitMaster system are maintained using
+Embarcadero ER/Studio program.&nbsp; ER/Studio is also used to generate trigger code, stored
+procedure code, and DDL needed to create the physical databases.&nbsp;</small></p>
+
+<p ALIGN="left"><small>The data model is organized into functional areas, which are
+referred to as &quot;subject areas&quot; within ER/Studio.&nbsp;</small></p>
+
+<p ALIGN="left"><small>In order for the code generation to work properly, the following
+steps must be followed when a new table is added to the data model.</small></p>
+
+<!--mstheme--></font><!--msthemelist--><table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="../_themes/indust/indbul1a.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>Add the table and columns, including the table and column
+    definitions (&quot;comment&quot;).&nbsp; Table and column names should be 25 characters
+    for ease of use and portability.&nbsp; Attach default values and validation rules to each
+    column where appropriate.</small></p>
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="../_themes/indust/indbul1a.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>For all foreign key relationships, modify the foreign key
+    constraint name.&nbsp; The naming scheme adopted for this project is&nbsp; FK&lt;parent
+    table&gt;&lt;child table&gt;.&nbsp; The length of the name should be 30 characters or
+    less, so you may need to abbreviate the parent and/or child table names.&nbsp; For
+    example, the foreign key constraint that enforces the relationship between the
+    TRANSIT_DIVISION and BLOCK tables is named FKTRANSIT_DIV_BLOCK</small>.</p>
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="../_themes/indust/indbul1a.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>If the table's primary key is an artificial key, set the
+    entity-level &quot;GET_PK&quot; UDP (logical diagram) to identify the name of the primary
+    key column that will automatically be populated by a trigger.&nbsp; </small></p>
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="../_themes/indust/indbul1a.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>For each column, set the &quot;FIRST_COL&quot; user defined
+    property (UDP).&nbsp; The first column in the table must be Y and all other columns must
+    be N.&nbsp; This UDP is used by the post-script that generates the UPDATE procedure for
+    each table.</small></p>
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="../_themes/indust/indbul1a.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>Identify the filegroup (SQL Server) or tablespace (Oracle) for
+    the table and each index.&nbsp; Generate an index for each foreign key column (check the
+    &quot;Show FK Indexes box). [ <a href="images/phyprop.gif" target="_blank">Show Me</a> ]</small></p>
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="../_themes/indust/indbul1a.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>Attach the appropriate scripts to the table.&nbsp; Most tables
+    use the script that creates a database trigger to assign the primary key to each new row,
+    and three scripts to create stored procedures to handle the INSERT/UPDATE/DELETE tasks for
+    each table.&nbsp; [ <a href="images/scripts.gif" target="_blank">Show Me</a> ] </small></p>
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="../_themes/indust/indbul1a.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>Add the table as a member of the TMmain, TMdailylog,
+    TMreporting, or TMparalog subject area, depending on the physical database in which the table will be
+    created.&nbsp; The baseline scripts for each database are generated from these three
+    subject areas.</small></p>
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+<!--msthemelist--></table><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+
+<p ALIGN="left"><big><strong>Generating the scripts for each physical database </strong></big></p>
+
+<p ALIGN="left"><small>The DDL scripts used to create the objects for each database
+(TMmain, TMdailylog, and TMreporting) are generated from a specific subject area within
+the data model.&nbsp; Follow these steps to generate the DDL scripts.</small></p>
+
+<!--mstheme--></font><!--msthemelist--><table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="../_themes/indust/indbul1a.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>Switch to the subject area for the database you wish to generate
+    the scripts for.</small></p>
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="../_themes/indust/indbul1a.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>On the menu bar, click Database &gt; Generate
+    Database...&nbsp; Step through the wizard screens choosing the desired</small></p>
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+<!--msthemelist--></table><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<!--mstheme--></font><table border="0" cellpadding="0" cellspacing="0" width="100%" msimagelist>
+  <tr msimagelist>
+    <td valign="baseline" width="42" msimagelist><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><img src="../images/info.jpg" width="32" height="31" hspace="5"><!--mstheme--></font></td>
+    <td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>The
+    &quot;PROC p_get_pk.sql&quot; script must be executed before the 1-2-3 scripts in a
+    database.&nbsp; This script creates the pre-requisite KEY_CONTROL table and P_GET_PK
+    stored procedure.</small></p>
+      <!--mstheme--></font></td msimagelist>
+  </tr>
+</table msimagelist><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p ALIGN="left"><strong><big>Updating the data dictionary</big></strong></p>
+<p ALIGN="left"><small>The data model images and dictionary reports that appear
+within this site are generated using ER/Studio by <a href="http://www.embarcadero.com">Embarcadero
+Technologies Inc.&nbsp;</a> Following are the tasks performed using this tool:</small></p>
+
+<!--mstheme--></font><!--msthemelist--><table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="../_themes/indust/indbul1a.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>Import the ERX file from ERwin.</small></p>
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="../_themes/indust/indbul1a.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>Unbind all defaults, rules, user datatypes, and
+    domains.</small></p>
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="../_themes/indust/indbul1a.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>For each sub-model that has changed, make cosmetic
+    changes for table and relationship line placement.&nbsp; Then export the
+    image (.jpg) and substitute the image file in this documentation (ie. import
+    into Microsoft FrontPage).</small></p>
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="../_themes/indust/indbul1a.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><p ALIGN="left"><small>Select the sub-model for the database (ex. TMmain).&nbsp;
+    Then run the &quot;HTML Reports&quot; function in ER/Studio.&nbsp; Import
+    the following files that were created into the appropriate directory (ex.
+    TMmain, TMdailylog, etc.) within this documentation:<br>
+    <br>
+    tablist.htm<br>
+    tabdetl.htm<br>
+    idxlist.htm<br>
+    idxdetl.htm<br>
+    <br>
+    In the tablist.htm file, replace &quot;reports\tabdetl&quot; with &quot;tabdetl&quot;
+    in the HTML code.<br>
+    In the idxlist.htm file, replace &quot;reports\idxdetl&quot; with &quot;idxdetl&quot;
+    in the HTML code.<br>
+    <br>
+    Repeat this step for each database that has changed.</small></p>
+  <!--mstheme--></font><!--msthemelist--></td></tr>
+<!--msthemelist--></table><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<!--webbot bot="Include" u-include="../main/footer.htm" tag="BODY" startspan --><!--msthemeseparator--><p align="center"><img src="../_themes/indust/indhorsa.gif" width="600" height="10"></p>
+
+<h5><!--mstheme--><font color="#333399"><font face="Tahoma">TransitMaster&#153; is a trademark of Siemens Transportation
+Systems, Inc. All other products mentioned are registered trademarks of their respective
+companies.<br>
+<br>
+Copyright © 2000 - 2003 Siemens Transportation, Inc. All rights reserved.<br>
+Build 17<br>
+Last modified: April 3, 2003.</font><!--mstheme--></font></h5>
+
+<!--webbot bot="Include" endspan i-checksum="39960" -->
+<!--mstheme--></font><!--msnavigation--></td></tr><!--msnavigation--></table></body>
+</html>

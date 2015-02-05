@@ -1,0 +1,505 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Database Administration - Backup - Method 2</title>
+
+<meta name="Microsoft Theme" content="indust 011, default">
+<meta name="Microsoft Border" content="tl, default">
+</head>
+
+<body background="../_themes/indust/indtextb.jpg" bgcolor="#FFFFFF" text="#000000" link="#3366CC" vlink="#666666" alink="#996600"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p>&nbsp;</p>
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<p>&nbsp;</p>
+<!--mstheme--></font></td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+<!--webbot bot="Include" U-Include="../Main/header.htm" TAG="BODY" startspan -->
+
+<h1 align="center"><!--mstheme--><font color="#000066"><font face="Tahoma">TransitMaster&#153;</font><br>
+<font size="5" face="Tahoma"><strong>Technical Reference </strong></font><!--mstheme--></font></h1>
+
+<p align="center"><font face="Tahoma">[ Welcome | <a href="../Main/dba.htm">DBA</a> | <a href="../Data_Dictionary/data_dictionary_main.htm">Data Dictionary</a>
+]</font></p>
+
+<!--msthemeseparator--><p align="center"><img src="../_themes/indust/indhorsa.gif" width="600" height="10"></p>
+<!--webbot bot="Include" endspan i-checksum="14685" -->
+<b><font FACE="Arial" SIZE="2">
+
+<p ALIGN="left"></font><font FACE="Arial" size="3"><a href="../index.htm">Technical
+Reference</a> : <a href="../Main/dba.htm">Database Administration</a> : <a href="dba_gen1.htm">GEN
+1</a>: <a href="dba_backup.htm">Backup</a> : Method 2</b></p>
+</font><b><font FACE="Arial" SIZE="2">
+
+<p ALIGN="CENTER"></font><font FACE="Arial" size="3">Recommended Backup Matrix #2
+(secondary)</p>
+</font></b><font FACE="Arial" SIZE="2">
+
+<p>This is the alternate backup procedure, as it is structured for properties who have
+security issues present when dealing with weekend backups. <strong>NOTE</strong> that the <i><b>daily
+log databases</b></i> are different from the <i><b>summary database</b></i>. The daily
+logs are dynamically created during overnight processing, and are not specified during
+system installation. They must be backed up manually during each backup period (typically
+daily). Also note that 2 tapes are used for each backup SET. This is for redundancy as
+each tape within a set stores a number of consecutive daily logs. Each backup SET should
+last for the predetermined amount of time. For example, a 50 bus fleet would be able to
+use one SET of daily backup tapes for a full 6 months. At the end of 6 months, the first
+SET is put aside in a secure location, and the second SET begins to be used. Each tape
+within a Daily Log Database backup SET will mirror the other. [ Detail ]&nbsp;</font></p>
+<font FACE="Arial" SIZE="2">
+
+<p><strong>Backup of Daily Log Databases (this is a manual operation to be performed
+daily):</strong></p>
+
+<blockquote>
+  <blockquote>
+    <p>Daily Log File backup &#150; Placing redundant data on 2 tapes each day. The following
+    is an example of the procedure that would be used on a fleet with 50 buses:</p>
+    <blockquote>
+      <blockquote>
+        <p>Due to the fleet size of 50 buses, it has been determined from data flow that each SET
+        of Daily Log backup tapes will last for 6 months. Each day it would be necessary to place
+        tape 1 of &quot;SET 1&quot; into the tape device and run a backup on the latest daily
+        information. This step is repeated for tape 2 of &quot;SET 1&quot; after tape 1 has
+        completed the backup procedure. When or more daily logs reside on the system, it is
+        necessary to delete all logs over 10 days old after backup. Thus after 5 days of backing
+        up from 01/01/98, both tapes 1 and 2 of &quot;SET 1&quot; would have the following
+        databases:</p>
+        <p>Log19980101<br>
+        Log19980102<br>
+        Log19980103<br>
+        Log19980104<br>
+        Log19980105</p>
+        <p>Set 1 = 2 mirrored tapes for January thru June<br>
+        Set 2 = 2 mirrored tapes for July thru December</p>
+      </blockquote>
+    </blockquote>
+    <p>Each tape will last for the time frame specified at the end of this document. The
+    recommended frequency of backing up Daily Log databases is listed below.</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <ol>
+    <li>Friday/Saturday/Sunday &#150; backup on Monday with tapes 1 and 2</li>
+    <li>Monday &#150; backup on Tuesday with tapes 1 and 2</li>
+    <li>Tuesday &#150; backup on Wednesday with tapes 1 and 2</li>
+    <li>Wednesday &#150; backup on Thursday with tapes 1 and 2</li>
+    <li>Thursday &#150; backup on Friday with tapes 1 and 2</li>
+  </ol>
+</blockquote>
+
+<p><strong>Backup of TMSummary, TMCFGDB, and TMINCDB </strong></p>
+
+<p>This operation is to be scheduled by the system administrator, actual database names
+may vary. The execution of this procedure relies upon the replacement of tapes each day
+according to the schedule listed below. December will not have a monthly tape due to the
+fact that each tape is essentially a full backup of the data accrued rather than an
+incremental backup from the previous date; therefore, December 31<sup>st</sup> would use
+the year end tapes. Two tapes are recommended for the year end backup for &nbsp;
+redundancy.</p>
+
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <p>Daily use &#150; 5 tapes</p>
+        <p>Yearend use &#150; 2 tapes</p>
+      </blockquote>
+    </blockquote>
+    <p>Procedure &#150; placing data on 1 tape each day. The tapes should be used as follows:</p>
+  </blockquote>
+  <ol>
+    <li>Monday &#150; Reuse each Monday</li>
+    <li>Tuesday &#150; Reuse each Tuesday</li>
+    <li>Wednesday &#150; Reuse each Wednesday</li>
+    <li>Thursday &#150; Reuse each Thursday</li>
+    <li>Friday &#150; Reuse each Friday, backs up Friday / Saturday / Sunday</li>
+    <li>Year End Tape 1 &#150; Use on December 31</li>
+    <li>Year End Tape 2 &#150; Use on December 31</li>
+  </ol>
+</blockquote>
+
+<p><b>Backup Scheduling Example</b></p>
+
+<p>The following page contains a graphical representation of three months worth of backup
+procedures using the matrix listed above. By beginning with October of 1998 we are able to
+show the various scenarios which may be encountered using the different backup sets.
+Listed below are the properties for the calendar that is represented on the next page.
+Please note that whenever Month End or Yearend falls, you will utilize the tapes for Month
+End and Yearend &#150; NOT the corresponding daily tape, or weekly tape.</p>
+
+<p>Fleet size: 50 buses</p>
+
+<p>Backup Tape Sets:</p>
+
+<p>Daily Log Databases: SET 1&#151;1,2 2 tapes used 1/1/98 thru 6/30/98</p>
+
+<p>SET 2&#151;1,2 2 tapes used 7/1/98 thru 12/31/98</p>
+
+<p>Summary Databases: 5 Daily tapes MO, TU, WE, TH, FR</p>
+
+<p>(Saturday and Sunday will reside on the</p>
+
+<p>Friday tape, as it would be left in the system)</p>
+
+<p>2 Year End Tapes YE1, YE2</p>
+
+<p></font>&nbsp;</p>
+<div align="center"><center>
+
+<!--mstheme--></font><table BORDER="1" CELLSPACING="1" CELLPADDING="7" WIDTH="590" bordercolordark="#000000" bordercolorlight="#666666">
+  <tr>
+    <td VALIGN="TOP" COLSPAN="7" HEIGHT="26"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><p ALIGN="CENTER">&nbsp;</p>
+    </font><font SIZE="5"><b><p ALIGN="CENTER">October 1998</b></font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="22"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">Sunday</b></font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="22"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">Monday</b></font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="22"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">Tuesday</b></font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="22"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">Wednesday</b></font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="22"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">Thursday</b></font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="22"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">Friday</b></font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="22"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">Saturday</b></font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">1</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TH</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">2</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">3</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">4</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">5</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">MO</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">6</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TU</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">7</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">WE</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">8</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TH</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">9</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">10</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">11</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">12</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">MO</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">13</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TU</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">14</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">WE</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">15</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TH</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">16</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">17</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">18</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">19</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">MO</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">20</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TU</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">21</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">WE</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">22</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TH</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">23</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">24</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">25</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">26</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">MO</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">27</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TU</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">28</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">WE</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">29</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TH</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">30</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">31</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td VALIGN="TOP" COLSPAN="7" HEIGHT="26"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font SIZE="5"><b><p ALIGN="CENTER">November 1998</b></font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">1</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">2</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">MO</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">3</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TU</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">4</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">WE</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">5</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TH</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">6</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">7</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">8</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">9</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">MO</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">10</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TU</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">11</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">WE</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">12</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TH</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">13</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">14</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">15</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">16</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">MO</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">17</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TU</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">18</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">WE</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">19</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TH</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">20</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">21</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">22</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">23</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">MO</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">24</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TU</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">25</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">WE</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">26</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TH</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">27</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">28</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">29</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">30</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">MO</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td VALIGN="TOP" COLSPAN="7" HEIGHT="26"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font SIZE="5"><b><p ALIGN="CENTER">December 1998</b></font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">1</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TU</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">2</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">WE</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">3</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TH</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">4</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">5</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">6</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">7</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">MO</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">8</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TU</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">9</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">WE</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">10</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TH</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">11</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">12</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">13</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">14</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">MO</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">15</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TU</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">16</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">WE</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">17</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TH</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">18</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">19</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">20</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">21</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">MO</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">22</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TU</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">23</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">WE</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">24</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TH</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">25</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">26</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">27</p>
+    </b><p ALIGN="CENTER">n/a</p>
+    <p ALIGN="CENTER">FR</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">28</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">MO</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">29</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">TU</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">30</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">WE</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><font FACE="Arial" SIZE="2"><b><p ALIGN="CENTER">31</p>
+    </b><p ALIGN="CENTER">SET 2&#151;1,2</p>
+    <p ALIGN="CENTER">YE&#151;1,2</font><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><!--mstheme--></font></td>
+    <td WIDTH="14%" VALIGN="TOP" HEIGHT="48"><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica"><!--mstheme--></font></td>
+  </tr>
+</table><!--mstheme--><font face="Trebuchet MS, Arial, Helvetica">
+</center></div><!--webbot bot="Include" u-include="../Main/footer.htm" tag="BODY" startspan -->
+<!--msthemeseparator--><p align="center"><img src="../_themes/indust/indhorsa.gif" width="600" height="10"></p>
+
+<h5><!--mstheme--><font color="#333399"><font face="Tahoma">TransitMaster&#153; is a trademark of Siemens Transportation
+Systems, Inc. All other products mentioned are registered trademarks of their respective
+companies.<br>
+<br>
+Copyright © 2000 - 2001 Siemens Transportation, Inc. All rights reserved.<br>
+Build 14 Patch 6<br>
+Last modified: November 12, 2001.</font><!--mstheme--></font></h5>
+<!--webbot bot="Include" endspan i-checksum="30036" -->
+
+<!--mstheme--></font><!--msnavigation--></td></tr><!--msnavigation--></table></body>
+</html>
