@@ -5,15 +5,15 @@ https://docs.google.com/a/bu.edu/document/d/1Yow5tvJqMRiCaCxUQpYQptxXOEuehuKt91Y
 ### Vision and Goals of the Project:
 [MBTA Bus Performance](https://okrieg.github.io/EC500/PROJECTS/MBTABusPerformance.html) is a project in collaboration with the MBTA staff to identify patterns, insights, and new uses for data that can provide analysis to support MBTA service-delivery. Goals of the project include:
 - A scalable, incremental system that ingests and analyzes transit data, which updates at least once a day
-- [Visualization of MBTA data](http://mbtaviz.github.io/) in the form of static map representations and bar graphs.
+- [Visualization of MBTA data](http://mbtaviz.github.io/) in the form of static map representations and bar graphs
 - Using the data from GTFS and Transit Master to compare key bus route travel time pre- and post-Key Bus Route Program (KBRP) project
 - Observing trends in the data and trying to understand the problems the MBTA key bus routes continue to experience
 - Recommending solutions to the problems detected to make the buses run more efficiently
  
-### Users/Personas of the Project
+#### Users/Personas of the Project
 At first, the users will be MBTA personnel, but hopefully, the project will later be available to application developers, MBTA customers and MGHPCC contributing companies.
 
-### User Story
+#### User Story
 As an employee of the MBTA, I want to better understand how the Key Bus Route Program improved the travel times of bus users, so that I can continue to improve the experience of our passengers.
  
 ### Scope and Features of the Project:
@@ -32,7 +32,7 @@ MBTA Bus Performance
 A final report that includes several bar graphs and charts highlighting the differences between the pre- and post-KBRP data. The report will state which issues have been rectified, which are ongoing, and which new problems have been introduced.
 In the report, recommendations to improve bus efficiency will be made.
 
-Global Architectural Structure Of the Project and a Walkthrough:
+#### Global Architectural Structure Of the Project and a Walkthrough:
 
 Below is a description of the system components that are building blocks of the architectural design:
 - MBTA datasets: The sources of data are taken from GTFS, Transit Master, and Smart Bus Mart
@@ -55,7 +55,7 @@ Figure 2 presents the structure of the MBTA Bus Performance data within the Inge
 
 The Analysis layer will carefully look at data related to movement and on-time statuses of the MBTA buses. Hadoop MapReduce will process and sort the large collection of data into helpful analysis on but not limited to the [15 key bus routes](http://www.mbta.com/about_the_mbta/t_projects/?id=19047). The Visualization will use d3.js to produce a mapping of the MBTA key bus routes including visual performance and traffic inspection.
 
-Design Implications and Discussion
+#### Design Implications and Discussion
 
 Key design decisions and motivation behind them.
 - Hadoop: To process big data-sets from GTFS and MBTA, an engine like Hadoop provides the power to analyze large amounts of semi-structured data. Hadoop shines when it comes to large, distributed data processing tasks. The main motivation is that within the Analysis layer, we want to extract the data from the Ingestion layer, transform, and load it into a useful format for insight and visualization. Hadoop handles ETL (extract, transform, load) processes well by splitting integration tasks among servers in a cluster.
