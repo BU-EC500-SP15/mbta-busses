@@ -38,9 +38,9 @@ Below is a description of the system components that are building blocks of the 
 - MBTA datasets: The sources of data are taken from GTFS, Transit Master, and Smart Bus Mart
 - GTFS: General Transit Feed Specification defines a common format for public transportation schedules and associated geographic information
 - Transit Master: TM Main contains information similar to GTFS’ and keys that explain the identifiers used for different bus routes. TM Daily Log contains data of time point crossing, including latitude and longitude coordinates for every bus every 60 seconds
-- Smart Bus Mart: The set contains reporting data with aggregation based on the on time performance standard.
+- Smart Bus Mart: The set contains reporting data with aggregation based on the on time performance standard
 - HDFS: Hadoop Distributed File System is a distributed file system, fault-tolerant, designed to be deployed on low-cost hardware
-- Hadoop: Open-source software framework for storing and processing big data on distributed file systems on large clusters. Allows massive data storage and faster processing
+- Hadoop: Open-source software framework for storing and processing big data on distributed file systems on large clusters. Allows massive data storage and fast processing
 - d3.js: JavaScript library that uses digital data to drive the creation of dynamic and interactive graphical forms on the web browser
 
 ![](img/MBTA Bus Performance - Layer Diagram.png)
@@ -51,7 +51,7 @@ Figure 1 presents the architectural design for the MBTA Bus Performance project.
 ![](img/MBTA Data Model.png)
 ##### Figure 2: MBTA Bus Performance Data Model. The responsibility of the project includes analyzing GTFS, Transit Master, and Smart Bus data.
 
-Figure 2 presents the structure of the MBTA Bus Performance data within the Ingestion layer. From the two sources of GTFS and a combination of Transit Master & Smart Bus, we will unload that data and perform analysis, insights, and visualization. GTFS provides publicly available transit data. Massachusetts Green High Performance Computing Center ([MGHPCC](http://www.mghpcc.org/)) contains a selection of Transit Master & Smart Bus, which provide MBTA exact measurements and information.
+Figure 2 presents the structure of the MBTA Bus Performance data within the Ingestion layer. From the two sources of GTFS and a combination of Transit Master & Smart Bus, we will unload that data and perform analysis, insights, and visualization. GTFS provides publicly available transit data. Massachusetts Green High Performance Computing Center ([MGHPCC](http://www.mghpcc.org/)) contains a selection of Transit Master & Smart Bus data, which provide MBTA exact measurements and information.
 
 The Analysis layer will carefully look at data related to movement and on-time statuses of the MBTA buses. Hadoop MapReduce will process and sort the large collection of data into helpful analysis on but not limited to the [15 key bus routes](http://www.mbta.com/about_the_mbta/t_projects/?id=19047). The Visualization layer will use d3.js to produce a mapping of the MBTA key bus routes including visual performance and traffic inspection.
 
@@ -59,7 +59,7 @@ The Analysis layer will carefully look at data related to movement and on-time s
 
 Key design decisions and motivation behind them.
 - Hadoop: To process big data-sets from GTFS and MBTA, an engine like Hadoop provides the power to analyze large amounts of semi-structured data. Hadoop shines when it comes to large, distributed data processing tasks. The main motivation for using Hadoop is that within the Analysis layer, we want to extract the data from the Ingestion layer, transform, and load it into a useful format for insight and visualization. Hadoop handles ETL (extract, transform, load) processes well by splitting integration tasks among servers in a cluster.
-- d3.js: Within the visualization layer, d3.js provides a scalability and power to style and manipulate data into very useful graphics. The customizability of the JavaScript library provides the means to build any data visualization framework with the data processed and analyzed by Hadoop. The diversity of d3.js is accompanied by fast performance with little overhead while also supporting interaction and animation. An additional motivation is that d3.js also supports comma-separated values (CSV), the format of GTFS data.
+- d3.js: Within the visualization layer, d3.js provides scalability and power to style and manipulate data into very useful graphics. The customizability of the JavaScript library provides the means to build any data visualization framework with the data processed and analyzed by Hadoop. The diversity of d3.js is accompanied by fast performance with little overhead while also supporting interaction and animation. An additional motivation is that d3.js also supports comma-separated values (CSV), the format of GTFS data.
 
 ### Acceptance criteria:
 
