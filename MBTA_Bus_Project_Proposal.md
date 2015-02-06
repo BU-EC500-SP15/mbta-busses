@@ -53,12 +53,12 @@ Figure 1 presents the architectural design for the MBTA Bus Performance project.
 
 Figure 2 presents the structure of the MBTA Bus Performance data within the Ingestion layer. From the two sources of GTFS and a combination of Transit Master & Smart Bus, we will unload that data and perform analysis, insights, and visualization. GTFS provides publicly available transit data. Massachusetts Green High Performance Computing Center ([MGHPCC](http://www.mghpcc.org/)) contains a selection of Transit Master & Smart Bus, which provide MBTA exact measurements and information.
 
-The Analysis layer will carefully look at data related to movement and on-time statuses of the MBTA buses. Hadoop MapReduce will process and sort the large collection of data into helpful analysis on but not limited to the [15 key bus routes](http://www.mbta.com/about_the_mbta/t_projects/?id=19047). The Visualization will use d3.js to produce a mapping of the MBTA key bus routes including visual performance and traffic inspection.
+The Analysis layer will carefully look at data related to movement and on-time statuses of the MBTA buses. Hadoop MapReduce will process and sort the large collection of data into helpful analysis on but not limited to the [15 key bus routes](http://www.mbta.com/about_the_mbta/t_projects/?id=19047). The Visualization layer will use d3.js to produce a mapping of the MBTA key bus routes including visual performance and traffic inspection.
 
 #### Design Implications and Discussion
 
 Key design decisions and motivation behind them.
-- Hadoop: To process big data-sets from GTFS and MBTA, an engine like Hadoop provides the power to analyze large amounts of semi-structured data. Hadoop shines when it comes to large, distributed data processing tasks. The main motivation is that within the Analysis layer, we want to extract the data from the Ingestion layer, transform, and load it into a useful format for insight and visualization. Hadoop handles ETL (extract, transform, load) processes well by splitting integration tasks among servers in a cluster.
+- Hadoop: To process big data-sets from GTFS and MBTA, an engine like Hadoop provides the power to analyze large amounts of semi-structured data. Hadoop shines when it comes to large, distributed data processing tasks. The main motivation for using Hadoop is that within the Analysis layer, we want to extract the data from the Ingestion layer, transform, and load it into a useful format for insight and visualization. Hadoop handles ETL (extract, transform, load) processes well by splitting integration tasks among servers in a cluster.
 - d3.js: Within the visualization layer, d3.js provides a scalability and power to style and manipulate data into very useful graphics. The customizability of the JavaScript library provides the means to build any data visualization framework with the data processed and analyzed by Hadoop. The diversity of d3.js is accompanied by fast performance with little overhead while also supporting interaction and animation. An additional motivation is that d3.js also supports comma-separated values (CSV), the format of GTFS data.
 
 ### Acceptance criteria:
@@ -78,13 +78,10 @@ Release #1 (due by Week 5):
 User stories: Create visualizations with GTFS data. Parse the data using delimiters. Remove irrelevant data (i.e. subway, commuter rail, ferries, etc). [We do not need the Transit Master data until after Week 5.] The user can observe a mapping of the 15 key bus routes with visualizations of the bus on-time status or traffic.
 
 Release #2 (due by Week 7): 
-
-Scrub out personal information from Transit Master. After integrating data ingestion from MBTA’s data, the system has support for Transit Master and Smart Bus data. The user can see visualizations of the static data.
+Scrub out personal information from Transit Master. After integrating data ingestion from MBTA’s data, the system has support for Transit Master and Smart Bus data. The user can see visualizations of this static data.
 
 Release #3 (due by Week 9):
-
 Complete analytics with MapReduce and Hadoop. Compare GTFS data against Transit Master data. Identify anomalies and/or trends. Compare pre- and post-KBRP data to identify if/where improvements were made. The user can view analysis and insight reports on the effects on bus performance for the 15 key bus routes.
 
 Release #4 and #5 (due by Week 11 and 13):
-
 Visualizations and extra features based on what the MBTA personnel determine is needed. Recommend changes to improve bus service. The user can visit an interactive web interface where he or she can view and select a complete analysis and visualization of MBTA bus performance.
