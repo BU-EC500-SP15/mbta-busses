@@ -78,10 +78,13 @@ Release #1 (due by Week 5):
 User stories: Create visualizations with GTFS data. Parse the data using delimiters. Remove irrelevant data (i.e. subway, commuter rail, ferries, etc). [We do not need the Transit Master data until after Week 5.] The user can observe a mapping of the 15 key bus routes with visualizations of the bus on-time status or traffic.
 
 Release #2 (due by Week 7): 
+
 Scrub out personal information from Transit Master. After integrating data ingestion from MBTA’s data, the system has support for Transit Master and Smart Bus data. The user can see visualizations of this static data.
 
 Release #3 (due by Week 9):
+
 Complete analytics with MapReduce and Hadoop. Compare GTFS data against Transit Master data. Identify anomalies and/or trends. Compare pre- and post-KBRP data to identify if/where improvements were made. The user can view analysis and insight reports on the effects on bus performance for the 15 key bus routes.
 
 Release #4 and #5 (due by Week 11 and 13):
+
 Visualizations and extra features based on what the MBTA personnel determine is needed. Recommend changes to improve bus service. The user can visit an interactive web interface where he or she can view and select a complete analysis and visualization of MBTA bus performance.
