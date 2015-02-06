@@ -43,9 +43,14 @@ Below is a description of the system components that are building blocks of the 
 - d3.js: JavaScript library that uses digital data to drive the creation of dynamic and interactive graphical forms on the web browser.
 
 ![](img/MBTA Bus Performance - Layer Diagram.png)
-Figure 1: MBTA Project architecture. 
+##### Figure 1: MBTA Project architecture. 
 
 Figure 1 presents the architectural design for the MBTA project. Beginning at the Ingestion layer, MBTA data or publicly available data in the form of GTFS, Transit Master, and Smart Bus Mart is ingested into an HDFS.  From the HDFS, the contents move towards the analysis layer where the files are processed by Hadoop MapReduce functions to output Statistics and Insights. Lastly, those Statistics and Insights head into the Visualization layer where visualizations via d3.js are produced.
+
+![](img/MBTA Data Model.png)
+##### Figure 2: MBTA Data Model.
+
+Figure 2 presents the structure of the MBTA data. From the two sources of GTFS and a combination of Transit Master & Smart Bus, we will unload that data, performing analysis, insights, and visualization. 
 
 ### Acceptance criteria:
 
