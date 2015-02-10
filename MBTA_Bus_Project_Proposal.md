@@ -49,9 +49,9 @@ Below is a description of the system components that are building blocks of the 
 Figure 1 presents the architectural design for the MBTA Bus Performance project. Beginning at the Ingestion layer, MBTA data or publicly available data in the form of GTFS, Transit Master, and Smart Bus Mart is ingested into an HDFS.  From the HDFS, the contents move towards the Analysis layer where files are processed by Hadoop MapReduce functions to output Statistics and Insights. Lastly, those Statistics and Insights head into the Visualization layer where visualizations via d3.js are produced.
 
 ![](img/MBTA Data Model.png)
-##### Figure 2: MBTA Bus Performance Data Model. The responsibility of the project includes analyzing GTFS, Transit Master, and Smart Bus data.
+##### Figure 2: MBTA Bus Performance Data Model. The responsibility of the project includes analyzing GTFS, Transit Master, and Smart Bus Mart data.
 
-Figure 2 presents the structure of the MBTA Bus Performance data within the Ingestion layer. From the two sources of GTFS and a combination of Transit Master & Smart Bus, we will unload that data and perform analysis, insights, and visualization. GTFS provides publicly available transit data. Massachusetts Green High Performance Computing Center ([MGHPCC](http://www.mghpcc.org/)) contains a selection of Transit Master & Smart Bus Mart data, which provide MBTA exact measurements and information.
+Figure 2 presents the structure of the MBTA Bus Performance data within the Ingestion layer. From the two sources of GTFS and a combination of Transit Master & Smart Bus Mart, we will unload that data and perform analysis, insights, and visualization. GTFS provides publicly available transit data. Massachusetts Green High Performance Computing Center ([MGHPCC](http://www.mghpcc.org/)) contains a selection of Transit Master & Smart Bus Mart data, which provide MBTA exact measurements and information.
 
 The Analysis layer will carefully look at data related to movement and on-time statuses of the MBTA buses. Hadoop MapReduce will process and sort the large collection of data into helpful analysis on but not limited to the [15 key bus routes](http://www.mbta.com/about_the_mbta/t_projects/?id=19047). The Visualization layer will use d3.js to produce a mapping of the MBTA key bus routes including visual performance and traffic inspection.
 
@@ -79,7 +79,7 @@ User stories: Create visualizations with GTFS data. Parse the data using delimit
 
 Release #2 (due by Week 7): 
 
-Scrub out personal information from Transit Master. After integrating data ingestion from MBTA’s data, the system has support for Transit Master and Smart Bus data. The user can see visualizations of this static data.
+Scrub out personal information from Transit Master. After integrating data ingestion from MBTA’s data, the system has support for Transit Master and Smart Bus Mart data. The user can see visualizations of this static data.
 
 Release #3 (due by Week 9):
 
