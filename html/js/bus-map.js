@@ -1,4 +1,5 @@
 d3.csv("data/shapes.txt", function(d){
+	console.log(d);
 	return {
 		shape_id: d.shape_id,
 		shape_lat: d.shape_pt_lat,
