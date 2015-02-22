@@ -1,0 +1,31 @@
+/*
+svg{
+    padding: 100px;
+}
+*/
+
+#map-canvas{
+  height: 500px;
+}
+
+#list{
+  list-style-type: none;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.dot {
+  fill: white;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
