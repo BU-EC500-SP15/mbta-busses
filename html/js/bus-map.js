@@ -1,3 +1,4 @@
+// utilizing Google Map API to generate a map
 var map;
 
 function initialize() {
@@ -9,8 +10,246 @@ function initialize() {
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 }
 
+// Reva
+var route1 = [];
+var route15 = [];
+var route22 = [];
+var route23 = [];
+var route28 = [];
+var route57 = [];
+
+// Yue
+var route32 = [];
+var route39 = [];
+var route66 = [];
+var route71 = [];
+var route73 = [];
+var route77 = [];
+var route111 = [];
+var route116 = [];
+var route117 = []; 
+
+// called back function that can use parsed data
+function createMarker(data, array){
+
+    var connectedCoordinates = [];
+
+    for(var i = 0; i < data.length; i++){
+        var markerPosition = new google.maps.LatLng(data[i][2], data[i][3]);
+
+        var marker = new google.maps.Marker({
+            icon: ('img/bus.png'),
+            position: markerPosition,
+            map: map,
+            title: data[i][1]
+        });
+        // connectedCoordinates[i] = markerPosition;
+        connectedCoordinates.push(markerPosition);
+        array.push(marker);
+        // Debugging
+        /*
+        if(i == 10){
+            break;
+        }
+        */
+    }
+
+    // Debug test
+    /*
+    var flightPlanCoordinates = [
+        new google.maps.LatLng(42.363021, -71.058290),
+        new google.maps.LatLng(42.357494, -71.056252),
+        new google.maps.LatLng(42.350594, -71.075287),
+        new google.maps.LatLng(42.356728, -71.057480)
+    ];
+    */
+
+    /*
+    for(var i = 0; i < connectedCoordinates.length; i++){
+        console.log(connectedCoordinates[i]);
+    }
+
+    for(var i = 0; i < flightPlanCoordinates.length; i++){
+        console.log(flightPlanCoordinates[i]);
+    }
+    */
+
+    var connectedPath = new google.maps.Polyline({
+        path: connectedCoordinates,
+        geodesic: true,
+        strokeColor: '#1f98d9',
+        strokeOpacity: 1.0,
+        strokeWeight: 5
+    });
+    
+    connectedPath.setMap(map);
+}
+
+function parseData(url, array, callback){
+    Papa.parse(url, {
+        download: true,
+        dynamicTyping: true,
+        complete: function(results){
+            callback(results.data, array);
+        }
+    });
+}
+
+function clearData(array) {
+    console.log(array);
+    for (var i = 0; i < array.length; i++) {
+        array[i].setMap(null);
+    }
+    array.length = 0;
+}
+
+// parseData("data/route57_stops.csv", map);
+
+// list of checkbox listeners for each route
+// Reva's data files
+$('#route1').change(function() {
+    if($('#route1').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/route1_stops.txt", route1, createMarker);
+    }
+    else{
+        clearData(route1);
+    }
+});
+
+$('#route15').change(function() {
+    if($('#route15').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/route15_stops.txt", route15, createMarker);
+    }
+    else{
+        clearData(route15);
+    }
+});
+
+$('#route22').change(function() {
+    if($('#route22').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/route22_stops.txt", route22, createMarker);
+    }
+    else{
+        clearData(route22);
+    }
+});
+
+$('#route23').change(function() {
+    if($('#route23').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/route23_stops.txt", route23, createMarker);
+    }
+    else{
+        clearData(route23);
+    }
+});
+
+$('#route28').change(function() {
+    if($('#route28').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/route28_stops.txt", route28, createMarker);
+    }
+    else{
+        clearData(route28);
+    }
+});
+
+// Yue's data files
+$('#route32').change(function() {
+    if($('#route32').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/Result_15KeyRoute/result32/route32_stops.txt", route32, createMarker);
+    }
+    else{
+        clearData(route32);
+    }
+});
+
+$('#route39').change(function() {
+    if($('#route39').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/Result_15KeyRoute/result39/route39_stops.txt", route39, createMarker);
+    }
+    else{
+        clearData(route39);
+    }
+});
+
+$('#route66').change(function() {
+    if($('#route66').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/Result_15KeyRoute/result66/route66_stops.txt", route66, createMarker);
+    }
+    else{
+        clearData(route66);
+    }
+});
+
+$('#route71').change(function() {
+    if($('#route71').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/Result_15KeyRoute/result71/route71_stops.txt", route71, createMarker);
+    }
+    else{
+        clearData(route71);
+    }
+});
+
+$('#route73').change(function() {
+    if($('#route73').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/Result_15KeyRoute/result73/route73_stops.txt", route73, createMarker);
+    }
+    else{
+        clearData(route73);
+    }
+});
+
+$('#route77').change(function() {
+    if($('#route77').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/Result_15KeyRoute/result77/route77_stops.txt", route77, createMarker);
+    }
+    else{
+        clearData(route77);
+    }
+});
+
+$('#route111').change(function() {
+    if($('#route111').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/Result_15KeyRoute/result111/route111_stops.txt", route111, createMarker);
+    }
+    else{
+        clearData(route111);
+    }
+});
+
+$('#route116').change(function() {
+    if($('#route116').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/Result_15KeyRoute/result116/route116_stops.txt", route116, createMarker);
+    }
+    else{
+        clearData(route116);
+    }
+});
+
+$('#route117').change(function() {
+    if($('#route117').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/Result_15KeyRoute/result117/route117_stops.txt", route117, createMarker);
+    }
+    else{
+        clearData(route117);
+    }
+});
 
 // manually grab the CSV file and process data
+/*
 $(document).ready(function(){
     $.ajax({
         type: "GET",
@@ -37,14 +276,12 @@ function processData(text){
         lines.push(tarr);
     }
 }
+*/
 
-function routes(){
-    // infowindow = new google.maps.InfoWindow;
-
-}
-
+// loading the Google Map
 google.maps.event.addDomListener(window, 'load', initialize);
 
+// utilizing the d3.js visualization for bus routes
 d3.csv("data/shapes.txt", function(d){
 
 	var margin = {top: 10, right: 10, bottom: 20, left: 40},
