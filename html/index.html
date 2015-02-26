@@ -6,99 +6,199 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Logo -->
-    <link rel="shortcut icon" href="img/logo.jpg">
+    <link rel="shortcut icon" href="img/favicon.ico">
 
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <link href= "http://fonts.googleapis.com/css?family=Ubuntu|Open+Sans:400,600" rel="stylesheet" />
+
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <link href='styles/main.css' rel='stylesheet' type='text/css'>
 
     <!--Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <title>MBTA Bus Performance</title>
 </head>
-<body>
-    <div class="jumbotron" style="margin-top: -30px">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-8">
-                    <h3 class="boxes">15 MBTA Key Bus Routes</h3>
-                    <div id="map-canvas"></div>
-                </div>
-                <div class="col-md-4">
-                    <ul id="list">
-                        <li>
-                        <input type="checkbox" id="route1">
-                        <label class="boxes" for="route1">Bus Route 1</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route15">
-                        <label class="boxes" for="route15">Bus Route 15</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route22">
-                        <label class="boxes" for="route22">Bus Route 22</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route23">
-                        <label class="boxes" for="route23">Bus Route 23</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route28">
-                        <label class="boxes" for="route28">Bus Route 28</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route32">
-                        <label class="boxes" for="route32">Bus Route 32</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route39">
-                        <label class="boxes" for="route39">Bus Route 39</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route57">
-                        <label class="boxes" for="route57">Bus Route 57</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route66">
-                        <label class="boxes" for="route66">Bus Route 66</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route71">
-                        <label class="boxes" for="route71">Bus Route 71</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route73">
-                        <label class="boxes" for="route73">Bus Route 73</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route77">
-                        <label class="boxes" for="route77">Bus Route 77</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route111">
-                        <label class="boxes" for="route111">Bus Route 111</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route116">
-                        <label class="boxes" for="route116">Bus Route 116</label>
-                        </li>
-                        <li>
-                        <input type="checkbox" id="route117">
-                        <label class="boxes" for="route117">Bus Route 117</label>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+
+<body data-spy="scroll" data-target="#navigation" id="home">
+  <div class="navbar-wrapper" style="z-index: 30">
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#"><img src = "img/MBTA.svg.png" height = "30px" style= "margin-top: 12px"></a>
+            <a class="navbar-brand" href="#">MBTA Bus Performance</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Visualization</a></li>
+              <li><a href="#about">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Analysis</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Add-ons</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Support</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Background image -->
+  <div class = "jumbotron" style="background-color: white">
+    <div style = "margin-top: 80px;">
+      <img src = "img/logo-mbta.png" class="img-responsive center-block"/>
+    </div>
+  </div>
+
+  <!-- The People -->
+  <div class="full-width section-people loading" style="margin-bottom: 10%;">
+    <div class="container">
+      
     </div>
 
-    <script src = "js/d3.min.js"></script>
-    <script src = "js/jquery-2.1.3.min.js"></script>
-    <script type = "text/javascript" src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyA-klagRI08vJ54c1emqvfH7M0s9Gz5b_Q"></script>
-    <script src = "js/papaparse.min.js"></script>
-    <script src = "js/bus-map.js"></script>
-    <script src = "js/bootstrap.min.js"></script>
+    <!-- Turnstile summary table - map on the left, table on the right -->
+    <div class="turnstile-viz spacing">
+      <h4 class="text-center">MBTA Key Bus Route 1</h4>
+      </br>
+      <div class="fixed-left" data-top="0">
+        <div class="glyph clearfix"></div>
+        <div class="key circles clearfix"></div>
+        <div class="side-caption clearfix">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-md-8">
+        <div id="map-canvas"></div>   
+      </div>
+      <div class = "col-md-2">
+        <h4>MBTA 15 Key Bus Routes</h4>
+        </br>
+        <ul id="list">
+          <li>
+          <input type="checkbox" id="route1">
+          <label class="boxes" for="route1">Bus Route 1</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route15">
+          <label class="boxes" for="route15">Bus Route 15</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route22">
+          <label class="boxes" for="route22">Bus Route 22</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route23">
+          <label class="boxes" for="route23">Bus Route 23</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route28">
+          <label class="boxes" for="route28">Bus Route 28</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route32">
+          <label class="boxes" for="route32">Bus Route 32</label>
+          </li>
+        </ul>
+      </div>
+      <div class = "col-md-2">
+        <ul id="list">
+          <li>
+          <input type="checkbox" id="route39">
+          <label class="boxes" for="route39">Bus Route 39</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route57">
+          <label class="boxes" for="route57">Bus Route 57</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route66">
+          <label class="boxes" for="route66">Bus Route 66</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route71">
+          <label class="boxes" for="route71">Bus Route 71</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route73">
+          <label class="boxes" for="route73">Bus Route 73</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route77">
+          <label class="boxes" for="route77">Bus Route 77</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route111">
+          <label class="boxes" for="route111">Bus Route 111</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route116">
+          <label class="boxes" for="route116">Bus Route 116</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route117">
+          <label class="boxes" for="route117">Bus Route 117</label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id = "end" class = "navbar navbar-inverse">
+    <div class = "container">
+      <a style="font-size: 14px" href = "#" class = "navbar-text pull-right">Terms of use</a>
+      <p style="font-size: 14px" class = "navbar-text pull-left">&copy; 2015 - MBTA Bus Performance. All rights reserved.</p>
+    </div>
+  </div>
+
+
+  <!-- 3rd Party Dependencies -->
+  <script src="bower_components/es6-shim/es6-shim.min.js"></script>
+  <script src="bower_components/underscore/underscore.min.js"></script>
+  <script src="bower_components/moment/min/moment.min.js"></script>
+  <script src="bower_components/d3/d3.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+  <!-- D3 Plugins -->
+  <script src="js/horizon.js"></script>
+  <script src="bower_components/d3-tip/index.js"></script>
+
+  <!-- Custom Code -->
+  <script src="js/common.js"></script>
+  <script src="js/files.js"></script>
+  <script src="js/dataloader.js"></script>
+  <script src="js/fixed.js"></script>
+  <script src="js/header.js"></script>
+
+  <!-- MBTA Visualization -->
+  <script src = "js/the-people.js"></script>
+  
+  <!-- Google Map API -->
+  <script type = "text/javascript" src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyA-klagRI08vJ54c1emqvfH7M0s9Gz5b_Q"></script>
+
+  <!-- Our stuff -->
+  <script src = "js/papaparse.min.js"></script>
+  <script src = "js/bus-map.js"></script>
+  <script src = "js/bootstrap.min.js"></script>
 
 </body>
 </html>

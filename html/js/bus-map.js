@@ -157,6 +157,17 @@ $('#route28').change(function() {
     }
 });
 
+$('#route57').change(function() {
+    if($('#route57').prop("checked")) {
+        // run the function with the csv and a callback
+        parseData("data/GTFS_Ordered_Data/result57/route57_stops.txt", route57, createMarker);
+    }
+    else{
+        clearData(route57);
+    }
+});
+
+
 // Yue's data files
 $('#route32').change(function() {
     if($('#route32').prop("checked")) {
@@ -282,6 +293,7 @@ function processData(text){
 google.maps.event.addDomListener(window, 'load', initialize);
 
 // utilizing the d3.js visualization for bus routes
+/*
 d3.csv("data/shapes.txt", function(d){
 
 	var margin = {top: 10, right: 10, bottom: 20, left: 40},
@@ -329,7 +341,7 @@ d3.csv("data/shapes.txt", function(d){
 	svg.append("path")
     	.attr("class", "line")
     	.attr("d", line);
-
+    */
     /*
     svg.selectAll(".dot")
     	.data(d)
@@ -349,4 +361,4 @@ d3.csv("data/shapes.txt", function(d){
 		shape_traveled: d.shape_dist_traveled
 	};
 	*/
-});
+//});
