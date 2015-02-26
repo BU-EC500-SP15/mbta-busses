@@ -31,6 +31,7 @@ var route117 = [];
 
 // called back function that can use parsed data
 function createMarker(data, array){
+    infowindow = new google.maps.InfoWindow;
 
     var connectedCoordinates = [];
 
@@ -43,6 +44,21 @@ function createMarker(data, array){
             map: map,
             title: data[i][1]
         });
+
+        /* var contentString = '<div id="content" style="width:400px; height:300px;">'+
+    '<p id="embedly-link" class=\"embedly-card\">'+ data[i][1] + '</>';
+
+        // Add the event listeners to inforwindow
+        google.maps.event.addListener(infowindow, 'domready', function () {
+            var embedlyLink = document.getElementById('embedly-link');
+            embedly.card(embedlyLink);
+        });
+
+        google.maps.event.addListener(airPollutionControlMarker, 'click', function() {
+            infowindow.setContent(contentString);
+            infowindow.open(map, marker);
+        }); */
+
         // connectedCoordinates[i] = markerPosition;
         connectedCoordinates.push(markerPosition);
         array.push(marker);
@@ -53,6 +69,7 @@ function createMarker(data, array){
         }
         */
     }
+
 
     // Debug test
     /*

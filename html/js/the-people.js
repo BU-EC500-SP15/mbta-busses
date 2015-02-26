@@ -370,6 +370,7 @@ VIZ.requiresData([
 
     var mapGlyph = mapGlyphContainer
         .attr('width', 2000)
+        //.attr('width', scale * (xRange[1] - xRange[0]) + margin.left + margin.right)
         .attr('height', scale * (yRange[1] - yRange[0]) + margin.top + margin.bottom)
       .appendOnce('g', 'map-container')
         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
