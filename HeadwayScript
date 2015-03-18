@@ -1,0 +1,44 @@
+REGISTER DateCalc.jar
+
+--ReadData into Tuple
+RawData = load 'oneday.csv' using PigStorage(',') as 
+(UNIQUE_ID,ServiceDate,RouteName:int,TripID:int,Block,RouteDirectionName:chararray,PatternName,StopOffset,StopName,Latitude,Longitude,MapLatitude,MapLongitude,MDTLatitude,MDTLongitude,ScheduledTime:chararray,ActArrivalTIme:chararray,ActDepartureTime:chararray,Variation,Vehicle,IsRevenue,CROSSING_TYPE_ID);
+
+--Refine Data for 15 Key Routes
+FilterData = FILTER RawData BY (RouteName == 27) OR (RouteName == 15) OR (RouteName == 22)
+							OR (RouteName == 23) OR (RouteName == 28) OR (RouteName == 32)
+							OR (RouteName == 39) OR (RouteName == 57) OR (RouteName == 66)
+							OR (RouteName == 71) OR (RouteName == 73) OR (RouteName == 77)
+							OR (RouteName == 111) OR (RouteName == 116) OR (RouteName == 117);
+
+
+--Data1 Find Current Train
+RefinedData = FOREACH FilterData GENERATE	RouteName,RouteDirectionName,StopName,TripID as AssTripID, 'CurTrain' as Timesign,
+											(int)(DateCalc.Convert(ScheduledTime)) as nOffTime,
+											(int)(DateCalc.Convert(ActArrivalTIme)) as nOnTime,
+											(int)(DateCalc.Convert(ActDepartureTime)) as nStopTime;
+--Data2 Find next Train                                             
+RefinedData2 = FOREACH FilterData GENERATE	RouteName,RouteDirectionName,StopName,TripID + 2 as AssTripID, 'NextTrain' as Timesign,
+											(int)(DateCalc.Convert(ScheduledTime)) as nOffTime,
+											(int)(DateCalc.Convert(ActArrivalTIme)) as nOnTime,
+											(int)(DateCalc.Convert(ActDepartureTime)) as nStopTime;                                           
+DESCRIBE RefinedData;
+-- Put the Datat Together
+AnalyzeData =  UNION RefinedData,RefinedData2;
+DESCRIBE AnalyzeData;
+
+-- Group for the Train and its next train
+GroupData = GROUP AnalyzeData BY (RouteName,RouteDirectionName,StopName, AssTripID);
+GruopTwoTime = FOREACH GroupData GENERATE FLATTEN(group) as (RouteName,RouteDirectionName,StopName, AssTripID) , MAX(AnalyzeData.nOffTime) - MIN(AnalyzeData.nOffTime)  as HeadWayTime,
+														   MAX(AnalyzeData.nOnTime) - MIN(AnalyzeData.nOnTime)  as HeadWayRealTime;
+DESCRIBE GruopTwoTime;
+
+-- Filter the wrong outcome
+Result = FILTER GruopTwoTime BY HeadWayTime > 0 AND HeadWayTime < 60;
+GroupResult = GROUP Result BY (RouteName,RouteDirectionName,StopName);
+DESCRIBE GroupResult;
+
+FinalAvgHeadTime = FOREACH GroupResult GENERATE group , AVG(Result.HeadWayTime) ,AVG(Result.HeadWayRealTime) ;
+DESCRIBE FinalAvgHeadTime;
+
+dump FinalAvgHeadTime;
