@@ -1,0 +1,31 @@
+REGISTER DateCalc.jar
+
+--ReadData into Tuple
+RawData = load 'oneday.csv' using PigStorage(',') as 
+(UNIQUE_ID,ServiceDate,RouteName:int,TripID,Block,RouteDirectionName:chararray,PatternName,StopOffset,StopName,Latitude,Longitude,MapLatitude,MapLongitude,MDTLatitude,MDTLongitude,ScheduledTime:chararray,ActArrivalTIme:chararray,ActDepartureTime:chararray,Variation,Vehicle,IsRevenue,CROSSING_TYPE_ID);
+
+FilterData = FILTER RawData BY (RouteName == 01) OR (RouteName == 15) OR (RouteName == 22)
+							OR (RouteName == 23) OR (RouteName == 28) OR (RouteName == 32)
+							OR (RouteName == 39) OR (RouteName == 57) OR (RouteName == 66)
+							OR (RouteName == 71) OR (RouteName == 73) OR (RouteName == 77)
+							OR (RouteName == 111) OR (RouteName == 116) OR (RouteName == 117);
+
+--Map1 DataSelction
+/*
+RefinedData = FOREACH FilterData GENERATE	RouteName,RouteDirectionName,StopName,
+											DateConvert.Convert(ScheduledTime) as nSchTime:double,
+											DateConvert.Convert(ActArrivalTIme) as nAvrTime:double,
+											DateConvert.Convert(ActDepartureTime) as nDepTime:double;
+											GroupData = GROUP RefinedData BY (RouteName,RouteDirectionName,StopName);
+--dump GroupData
+AnalyzeData =  FOREACH GroupData GENERATE group, SUM(RefinedData.nDepTime), SUM(RefinedData.nAvrTime), SUM(RefinedData.nSchTime);
+dump AnalyzeData;
+*/
+RefinedData = FOREACH FilterData GENERATE	RouteName,RouteDirectionName,StopName,
+											(int)(DateCalc.GetTimeDiff(ScheduledTime, ActArrivalTIme, ActDepartureTime)) as nOffTime,
+											(int)(DateCalc.GetIsOnTime(ScheduledTime, ActArrivalTIme, ActDepartureTime)) as nOnTime,
+											(int)(DateCalc.GetStopTime(ScheduledTime, ActArrivalTIme, ActDepartureTime)) as nStopTime;
+                                       
+GroupData = GROUP RefinedData BY (RouteName,RouteDirectionName,StopName);
+AnalyzeData =  FOREACH GroupData GENERATE group, AVG(RefinedData.nOffTime),  AVG(RefinedData.nOnTime), AVG(RefinedData.nStopTime);
+dump AnalyzeData;
