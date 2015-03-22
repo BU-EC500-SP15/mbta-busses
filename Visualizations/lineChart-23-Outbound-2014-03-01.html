@@ -25,7 +25,7 @@ body {
 
 </style>
 <body>
-<h2> 15, Inbound, Date=2014-03-01, Run Times (mins) </h2>
+<h2> 23, Outbound, Date=2014-03-01, Run Times (mins) </h2>
 <script src="http://d3js.org/d3.v3.js"></script>
 <script>
 
@@ -63,7 +63,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("data-15-Inbound-2014-03-01.tsv", function(error, data) {
+d3.tsv("data-23-Outbound-2014-03-01.tsv", function(error, data) {
   data.forEach(function(d) {
     d.date = parseDate(d.date);
     d.close = +d.close;
