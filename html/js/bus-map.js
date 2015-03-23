@@ -10,32 +10,49 @@ function initialize() {
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 }
 
-// Reva
 var route1 = [];
+var secondRoute1 = [];
+var connectedCoordinatesRoute1 = [];
+var secondConnectedCoordinatesRoute1 = [];
+var pathRoute1 = [];
+var secondPathRoute1 = [];
+
 var route15 = [];
+var secondRoute15 = [];
 var route22 = [];
+var secondRoute22 = [];
 var route23 = [];
+var secondRoute23 = [];
 var route28 = [];
+var secondRoute28 = [];
 var route57 = [];
+var secondRoute57 = [];
 
 // Yue
 var route32 = [];
+var secondRoute32 = [];
 var route39 = [];
+var secondRoute39 = [];
 var route66 = [];
+var secondRoute66 = [];
 var route71 = [];
+var secondRoute71 = [];
 var route73 = [];
+var secondRoute73 = [];
 var route77 = [];
+var secondRoute77 = [];
 var route111 = [];
+var secondRoute111 = [];
 var route116 = [];
+var secondRoute116 = [];
 var route117 = []; 
+var secondRoute117 = [];
 
 // called back function that can use parsed data
-function createMarker(data, array){
+function createMarker(data, array, connected, connectedLine){
     infowindow = new google.maps.InfoWindow;
 
-    var connectedCoordinates = [];
-
-    for(var i = 0; i < data.length; i++){
+    for(var i = 0; i < 23; i++){
         var markerPosition = new google.maps.LatLng(data[i][2], data[i][3]);
 
         var marker = new google.maps.Marker({
@@ -60,7 +77,7 @@ function createMarker(data, array){
         }); */
 
         // connectedCoordinates[i] = markerPosition;
-        connectedCoordinates.push(markerPosition);
+        connected.push(markerPosition);
         array.push(marker);
         // Debugging
         /*
@@ -69,7 +86,6 @@ function createMarker(data, array){
         }
         */
     }
-
 
     // Debug test
     /*
@@ -90,47 +106,89 @@ function createMarker(data, array){
         console.log(flightPlanCoordinates[i]);
     }
     */
+    // console.log(connectedLine);
 
-    var connectedPath = new google.maps.Polyline({
-        path: connectedCoordinates,
+    connectedPath = new google.maps.Polyline({
+        path: connected,
         geodesic: true,
         strokeColor: '#1f98d9',
         strokeOpacity: 1.0,
         strokeWeight: 5
     });
     
-    connectedPath.setMap(map);
+    pathRoute1 = connectedPath;
+    addLine(connectedPath);
 }
 
-function parseData(url, array, callback){
+function createMarker2(data, array, connected, connectedPath){
+    for(var i = 22; i < data.length; i++){
+        var markerPosition = new google.maps.LatLng(data[i][2], data[i][3]);
+
+        var marker = new google.maps.Marker({
+            icon: ('img/bus.png'),
+            position: markerPosition,
+            map: map,
+            title: data[i][1]
+        });
+
+        connected.push(markerPosition);
+        array.push(marker);
+    }
+
+    connectedPath = new google.maps.Polyline({
+        path: connected,
+        geodesic: true,
+        strokeColor: '#1f98d9',
+        strokeOpacity: 1.0,
+        strokeWeight: 5
+    });
+    
+    secondPathRoute1 = connectedPath;
+    addLine(connectedPath);
+}
+
+function parseData(url, array, connected, connectedPath, callback){
     Papa.parse(url, {
         download: true,
         dynamicTyping: true,
         complete: function(results){
-            callback(results.data, array);
+            callback(results.data, array, connected, connectedPath);
         }
     });
 }
 
+function addLine(connectedPath){
+    connectedPath.setMap(map);
+}
+
 function clearData(array) {
-    console.log(array);
+    // console.log(array);
     for (var i = 0; i < array.length; i++) {
         array[i].setMap(null);
     }
-    array.length = 0;
+    array = [];
+}
+
+function removeMarkersAndLines(route, secondRoute, pathRoute, secondPathRoute){
+    clearData(route);
+    clearData(secondRoute);
+    pathRoute.setMap(null);
+    secondPathRoute.setMap(null);
 }
 
 // parseData("data/route57_stops.csv", map);
 
 // list of checkbox listeners for each route
-// Reva's data files
 $('#route1').change(function() {
     if($('#route1').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("data/route1_stops.txt", route1, createMarker);
+        // pathRoute1 = [];
+        // secondPathRoute1 = [];
+        parseData("data/route1_stops.txt", route1, connectedCoordinatesRoute1, pathRoute1, createMarker);
+        parseData("data/route1_stops.txt", secondRoute1, secondConnectedCoordinatesRoute1, secondPathRoute1, createMarker2);
     }
     else{
-        clearData(route1);
+        removeMarkersAndLines(route1, secondRoute1, pathRoute1, secondPathRoute1);
     }
 });
 
