@@ -1,6 +1,0 @@
-About the TransitMaster documentation
-
-The "Build 17 data dictionary" is the best resource for understanding TMMain and TMDailyLog, even though it is out of date. You may encounter tables or fields in TMMain and TMDailyLog that are not in this document. 
-Logging.doc explains what the message_type_id value means (and what to expect from different message types) in logged_message, logged_message_short and logged_message_bs1.
-TMDataMart.pdf is less useful -- it's more up-to-date but contains less information and is about a database we're not providing. (That database derives its data from TMDailyLog and TMMain; it contains a subset of the information in them.) 
-
