@@ -1,0 +1,236 @@
+(15,Inbound,Dudley Station)	28.09090909090909	28.0
+(15,Inbound,Ashmont Station)	30.0	42.0
+(15,Inbound,Bowdoin St @ Geneva Ave)	27.363636363636363	27.363636363636363
+(15,Inbound,Dudley St @ Magazine St)	27.90909090909091	28.0
+(15,Inbound,Hancock St @ Bowdoin St)	27.636363636363637	27.545454545454547
+(15,Inbound,Columbia Rd @ Hancock St)	27.636363636363637	27.727272727272727
+(15,Inbound,Geneva Ave opp Vinson St)	30.0	33.0
+(15,Inbound,Ruggles Sta - Upper Level)	25.25	24.875
+(15,Inbound,Malcolm X Blvd @ Tremont St)	25.125	24.625
+(15,Inbound,Fields Corner Station @ Red Line)	24.125	23.0
+(15,Outbound,Dudley Station)	24.375	23.5
+(15,Outbound,Bowdoin St @ Geneva Ave)	24.875	24.0
+(15,Outbound,Hancock St @ Bowdoin St)	24.75	24.0
+(15,Outbound,Malcolm X Blvd @ King St)	24.375	23.625
+(15,Outbound,Ruggles Station - Lane 2)	24.375	22.5
+(15,Outbound,Dudley St @ Blue Hill Ave)	24.5	23.25
+(15,Outbound,Columbia Rd opp Cushing Ave)	24.75	24.0
+(15,Outbound,Fields Corner Station @ Red Line)	24.875	24.375
+(22,Inbound,Ashmont Station)	16.53846153846154	16.76923076923077
+(22,Inbound,1990 Columbus Ave)	16.181818181818183	16.272727272727273
+(22,Inbound,Talbot Ave @ Centre St)	16.53846153846154	16.307692307692307
+(22,Inbound,Seaver St @ Humboldt Ave)	16.0	15.833333333333334
+(22,Inbound,Ruggles Sta - Upper Level)	16.5	17.166666666666668
+(22,Inbound,Talbot Ave @ Nightingale St)	16.615384615384617	123.46153846153847
+(22,Inbound,Columbus Ave @ Malcolm X Blvd)	16.5	17.25
+(22,Inbound,Jackson Sq Station @ Orange Line)	16.416666666666668	17.0
+(22,Inbound,Blue Hill Ave @ Ellington St - Franklin Park Zoo)	16.0	15.75
+(22,Outbound,Ashmont Station)	17.181818181818183	17.181818181818183
+(22,Outbound,Seaver St opp Maple St)	16.75	17.333333333333332
+(22,Outbound,Talbot Ave @ Lithgow St)	17.181818181818183	17.272727272727273
+(22,Outbound,Ruggles Station - Lane 1)	15.818181818181818	16.90909090909091
+(22,Outbound,Blue Hill Ave @ Angell St)	17.0	17.09090909090909
+(22,Outbound,Seaver St opp Humboldt Ave)	16.75	17.333333333333332
+(22,Outbound,Columbus Ave @ Washington St)	16.75	17.333333333333332
+(22,Outbound,Jackson Sq Station @ Orange Line)	16.583333333333332	17.083333333333332
+(22,Outbound,Tremont St @ Roxbury Crossing Station)	16.583333333333332	17.083333333333332
+(23,Inbound,Dudley Station)	17.46153846153846	16.76923076923077
+(23,Inbound,Ashmont Station)	16.428571428571427	15.5
+(23,Inbound,Warren St @ Quincy St)	17.214285714285715	17.142857142857142
+(23,Inbound,Talbot Ave @ Centre St)	16.428571428571427	15.928571428571429
+(23,Inbound,Warren St @ Moreland St)	17.357142857142858	17.142857142857142
+(23,Inbound,Ruggles Sta - Upper Level)	18.454545454545453	17.454545454545453
+(23,Inbound,Warren St @ Sunderland St)	17.0	16.46153846153846
+(23,Inbound,Washington St @ Bowdoin St)	16.76923076923077	16.23076923076923
+(23,Inbound,Malcolm X Blvd @ Tremont St)	17.53846153846154	16.46153846153846
+(23,Inbound,Washington St @ Columbia Rd)	16.846153846153847	16.153846153846153
+(23,Outbound,Dudley Station)	17.142857142857142	17.0
+(23,Outbound,Ashmont Station)	17.615384615384617	17.076923076923077
+(23,Outbound,Warren St @ Dabney Pl)	17.214285714285715	17.142857142857142
+(23,Outbound,Talbot Ave @ Lithgow St)	17.714285714285715	117.57142857142857
+(23,Outbound,Warren St @ Crawford St)	17.285714285714285	17.214285714285715
+(23,Outbound,Warren St @ Townsend St)	17.357142857142858	17.285714285714285
+(23,Outbound,Malcolm X Blvd @ King St)	16.866666666666667	16.8
+(23,Outbound,Ruggles Station - Lane 1)	16.714285714285715	16.428571428571427
+(23,Outbound,Washington St @ Harvard St)	17.214285714285715	17.357142857142858
+(23,Outbound,Washington St @ Columbia Rd)	17.285714285714285	17.214285714285715
+(28,Inbound,Dudley Station)	27.41176470588235	27.176470588235293
+(28,Inbound,Warren St @ Quincy St)	20.88235294117647	22.41176470588235
+(28,Inbound,Warren St @ Moreland St)	27.41176470588235	27.176470588235293
+(28,Inbound,Blue Hill Ave @ Morton St)	20.176470588235293	21.58823529411765
+(28,Inbound,Ruggles Sta - Upper Level)	18.09090909090909	18.181818181818183
+(28,Inbound,Warren St @ Sunderland St)	26.27777777777778	26.666666666666668
+(28,Inbound,Blue Hill Ave @ Talbot Ave)	20.235294117647058	21.764705882352942
+(28,Inbound,Malcolm X Blvd @ Tremont St)	18.0	129.0
+(28,Inbound,Blue Hill Ave @ Fessenden St)	19.941176470588236	19.529411764705884
+(28,Inbound,Mattapan Station - South Busway)	19.88235294117647	19.470588235294116
+(28,Inbound,Blue Hill Ave @ Ellington St - Franklin Park Zoo)	21.0	22.4375
+(28,Outbound,Dudley Station)	16.666666666666668	16.8
+(28,Outbound,Warren St @ Dabney Pl)	16.733333333333334	16.933333333333334
+(28,Outbound,Warren St @ Crawford St)	16.666666666666668	17.933333333333334
+(28,Outbound,Warren St @ Townsend St)	16.8	110.4
+(28,Outbound,Malcolm X Blvd @ King St)	16.066666666666666	16.0
+(28,Outbound,Ruggles Station - Lane 1)	16.0	17.266666666666666
+(28,Outbound,Blue Hill Ave @ Angell St)	17.357142857142858	18.5
+(28,Outbound,Blue Hill Ave @ Morton St)	17.785714285714285	18.642857142857142
+(28,Outbound,Mattapan Station - South Busway)	18.384615384615383	18.076923076923077
+(28,Outbound,Blue Hill Ave @ Wellington Hill St)	17.785714285714285	18.714285714285715
+(28,Outbound,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo)	17.285714285714285	18.428571428571427
+(32,Inbound,Hyde Park Ave @ Oak Street)	24.0	166.1
+(32,Inbound,Hyde Park Ave @ Cummins Hwy)	23.09090909090909	25.363636363636363
+(32,Inbound,Hyde Park Ave @ Thatcher St)	24.0	26.8
+(32,Inbound,Hyde Park Ave @ Wolcott Square)	24.1	26.0
+(32,Inbound,Forest Hills Station Lower Busway)	23.6	25.7
+(32,Inbound,Hyde Park Ave @ American Legion Hwy)	23.9	26.4
+(32,Outbound,Hyde Park Ave @ Cummins Hwy)	21.25	137.33333333333334
+(32,Outbound,Hyde Park Ave @ Grant Place)	21.333333333333332	22.416666666666668
+(32,Outbound,Hyde Park Ave @ Greenwood Ave)	21.333333333333332	22.416666666666668
+(32,Outbound,Hyde Park Ave @ Wolcott Square)	24.5	25.5
+(32,Outbound,Forest Hills Station Lower Busway)	23.8	28.4
+(32,Outbound,807 Hyde Park Ave opp American Legion Hwy)	21.25	22.25
+(39,Inbound,Back Bay Station)	15.642857142857142	15.928571428571429
+(39,Inbound,360 Huntington Ave)	15.692307692307692	16.0
+(39,Inbound,Centre St @ Roseway)	15.615384615384615	15.615384615384615
+(39,Inbound,Forest Hills Station)	15.6	16.2
+(39,Inbound,South St @ Sedgwick St)	18.272727272727273	18.363636363636363
+(39,Inbound,Dalton St @ Boylston St)	15.846153846153847	16.076923076923077
+(39,Inbound,Boylston St @ Dartmouth St)	15.642857142857142	15.928571428571429
+(39,Inbound,S Huntington Ave @ Heath St)	15.428571428571429	15.285714285714286
+(39,Inbound,Huntington Ave @ Longwood Ave)	15.571428571428571	15.571428571428571
+(39,Inbound,Huntington Ave opp Fenwood Rd)	15.5	15.642857142857142
+(39,Outbound,775 Centre St)	15.5	16.0
+(39,Outbound,Back Bay Station)	15.0	15.615384615384615
+(39,Outbound,Forest Hills Station)	15.583333333333334	16.0
+(39,Outbound,Huntington Ave @ Opera Pl)	15.153846153846153	15.384615384615385
+(39,Outbound,Huntington Ave @ Fenwood Rd)	15.307692307692308	15.538461538461538
+(39,Outbound,Huntington Ave @ Belvidere St)	15.416666666666666	15.583333333333334
+(39,Outbound,Huntington Ave @ Longwood Ave)	15.307692307692308	15.615384615384615
+(39,Outbound,S Huntington Ave @ Moraine St)	15.333333333333334	15.75
+(39,Outbound,S Huntington Ave opp VA Hospital)	15.384615384615385	15.846153846153847
+(57,Inbound,Watertown Yard)	12.235294117647058	12.941176470588236
+(57,Inbound,Kenmore Station Busway)	13.1875	14.125
+(57,Inbound,Brighton Ave @ Comm Ave)	13.1875	13.4375
+(57,Inbound,Washington St @ Bacon St)	12.235294117647058	12.411764705882353
+(57,Inbound,Tremont St @ Washington St)	12.235294117647058	12.529411764705882
+(57,Inbound,Brighton Ave @ Cambridge St)	12.5625	12.8125
+(57,Inbound,Commonwealth Ave @ Carlton St)	13.25	13.5
+(57,Inbound,Washington St @ Chestnut Hill Ave)	12.4375	12.625
+(57,Outbound,Watertown Yard)	14.214285714285714	17.5
+(57,Outbound,Park St @ Tremont St)	14.285714285714286	17.571428571428573
+(57,Outbound,1079 Commonwealth Ave)	13.571428571428571	13.214285714285714
+(57,Outbound,Kenmore Station Busway)	13.5625	14.375
+(57,Outbound,Washington St @ Market St)	13.642857142857142	13.357142857142858
+(57,Outbound,Cambridge St @ N Beacon St)	13.642857142857142	13.285714285714286
+(57,Outbound,Tremont St @ Washington St)	14.285714285714286	113.92857142857143
+(57,Outbound,Commonwealth Ave @ University Rd)	13.8	104.0
+(66,Inbound,Dudley Station)	20.416666666666668	22.083333333333332
+(66,Inbound,Harvard St @ Beacon St)	19.25	19.666666666666668
+(66,Inbound,Washington St @ Walnut)	19.23076923076923	126.23076923076923
+(66,Inbound,Tremont St @ Columbus Ave)	19.846153846153847	21.53846153846154
+(66,Inbound,N Harvard St @ Western Ave)	18.46153846153846	18.23076923076923
+(66,Inbound,Brighton Ave @ Cambridge St)	18.53846153846154	18.384615384615383
+(66,Inbound,Huntington Ave opp Fenwood Rd)	19.76923076923077	21.692307692307693
+(66,Inbound,Harvard Ave @ Commonwealth Ave)	18.615384615384617	18.615384615384617
+(66,Inbound,Harvard Sq @ Garden St - Dawes Island)	18.416666666666668	19.583333333333332
+(66,Outbound,Dudley Station)	19.5	19.666666666666668
+(66,Outbound,Harvard St @ Beacon St)	19.384615384615383	20.23076923076923
+(66,Outbound,Washington St @ Pearl St)	19.5	20.0
+(66,Outbound,N Harvard St @ Western Ave)	21.166666666666668	141.16666666666666
+(66,Outbound,Cambridge St @ Craftsman St)	19.75	140.0
+(66,Outbound,Tremont St @ Huntington Ave)	19.5	19.916666666666668
+(66,Outbound,Harvard Ave @ Commonwealth Ave)	19.75	20.833333333333332
+(66,Outbound,Tremont St opp Roxbury Crossing Sta)	19.583333333333332	20.083333333333332
+(66,Outbound,Harvard Sq @ Garden St - Dawes Island)	21.5	138.08333333333334
+(71,Inbound,Watertown Sq Terminal)	16.428571428571427	21.214285714285715
+(71,Inbound,Mt Auburn St @ Parker St)	16.428571428571427	19.857142857142858
+(71,Inbound,Mt Auburn St opp Homer Ave)	16.4	19.266666666666666
+(71,Inbound,Mt Auburn St @ University Rd)	16.5	19.5
+(71,Inbound,Harvard Upper Busway @ Red Line)	16.5	19.642857142857142
+(71,Inbound,Mt Auburn St @ Mt Auburn Hospital)	16.4	19.466666666666665
+(71,Inbound,Waterhouse St @ Massachusetts Ave)	17.181818181818183	17.727272727272727
+(71,Outbound,Watertown Sq Terminal)	16.214285714285715	21.214285714285715
+(71,Outbound,Mt Auburn St @ Story St)	16.571428571428573	17.857142857142858
+(71,Outbound,Mt Auburn St @ Homer Ave)	16.571428571428573	17.857142857142858
+(71,Outbound,Mt Auburn St @ Marshall St)	16.133333333333333	20.533333333333335
+(71,Outbound,Mt Auburn St @ Longfellow Rd)	16.571428571428573	17.928571428571427
+(71,Outbound,Harvard Lower Busway @ Red Line)	16.571428571428573	17.857142857142858
+(71,Outbound,Waterhouse St @ Massachusetts Ave)	17.545454545454547	16.818181818181817
+(73,Inbound,Church St @ Lexington St)	19.153846153846153	18.692307692307693
+(73,Inbound,Mt Auburn St opp Homer Ave)	19.0	18.727272727272727
+(73,Inbound,Mt Auburn St @ University Rd)	19.0	18.90909090909091
+(73,Inbound,Harvard Upper Busway @ Red Line)	19.0	19.363636363636363
+(73,Inbound,Mt Auburn St @ Mt Auburn Hospital)	19.0	18.818181818181817
+(73,Inbound,Trapelo Rd @ Belmont St - Benton Square)	19.5	134.75
+(73,Outbound,Belmont St @ Oakley Rd)	18.25	17.833333333333332
+(73,Outbound,Mt Auburn St @ Story St)	19.416666666666668	19.0
+(73,Outbound,Church St @ Lexington St)	18.416666666666668	17.75
+(73,Outbound,Mt Auburn St @ Homer Ave)	17.923076923076923	17.53846153846154
+(73,Outbound,Mt Auburn St @ Longfellow Rd)	17.923076923076923	17.615384615384617
+(73,Outbound,Harvard Upper Busway @ Red Line)	17.923076923076923	17.153846153846153
+(77,Inbound,Eliot St @ Bennett St)	12.882352941176471	12.588235294117647
+(77,Inbound,Arlington Heights Busway)	14.866666666666667	15.933333333333334
+(77,Inbound,North Cambridge Carhouse)	112.0	131.0
+(77,Inbound,Massachusetts Ave @ Lake St)	13.235294117647058	13.235294117647058
+(77,Inbound,Massachusetts Ave @ Norris St)	12.705882352941176	12.647058823529411
+(77,Inbound,Massachusetts Ave @ Upland Rd)	11.45	12.4
+(77,Inbound,Massachusetts Ave @ Academy St)	13.235294117647058	13.176470588235293
+(77,Inbound,Harvard Lower Busway @ Red Line)	56.0	65.0
+(77,Inbound,Massachusetts Ave @ Appleton St)	13.176470588235293	13.235294117647058
+(77,Inbound,Massachusetts Ave @ Lafayette St)	12.5625	12.625
+(77,Inbound,Massachusetts Ave @ Waterhouse St)	11.5	12.25
+(77,Outbound,Arlington Heights Busway)	13.533333333333333	16.733333333333334
+(77,Outbound,North Cambridge Carhouse)	13.0	31.5
+(77,Outbound,Massachusetts Ave opp Lake St)	13.4375	15.75
+(77,Outbound,Massachusetts Ave @ Medford St)	13.4375	15.6875
+(77,Outbound,Harvard Upper Busway @ Red Line)	12.6	15.9
+(77,Outbound,Massachusetts Ave @ Cameron Ave)	13.666666666666666	13.666666666666666
+(77,Outbound,Massachusetts Ave opp Appleton St)	13.533333333333333	16.8
+(77,Outbound,Massachusetts Ave opp Boulevard Rd)	13.4375	15.8125
+(77,Outbound,Massachusetts Ave opp Waterhouse St)	13.210526315789474	16.31578947368421
+(77,Outbound,Massachusetts Ave @ Porter Red Line Sta)	13.333333333333334	16.555555555555557
+(111,Inbound,Haymarket Station)	10.88888888888889	10.61111111111111
+(111,Inbound,Elm St opp Haskell Ave)	12.0	10.4
+(111,Inbound,Arlington St @ Fifth St)	10.722222222222221	10.5
+(111,Inbound,Washington Ave @ Broadway)	10.68421052631579	10.526315789473685
+(111,Inbound,Washington Ave @ Cary Ave)	10.68421052631579	10.631578947368421
+(111,Inbound,78 Garfield Ave opp Clyde St)	11.25	10.4375
+(111,Inbound,N Washington St @ Medford St)	10.722222222222221	10.555555555555555
+(111,Inbound,Sagamore Ave @ Washington Ave)	11.176470588235293	10.235294117647058
+(111,Inbound,Tobin Bridge Timepoint -Southbound (Not a Stop))	10.722222222222221	10.555555555555555
+(111,Inbound,Rutherford Ramp Timepoint Southbound (Not a Stop))	10.722222222222221	10.555555555555555
+(111,Outbound,Haymarket Station)	11.933333333333334	11.466666666666667
+(111,Outbound,Beacon St @ Broadway)	11.470588235294118	11.235294117647058
+(111,Outbound,Elm St opp Haskell Ave)	11.0	9.352941176470589
+(111,Outbound,Garfield Ave @ Clyde St)	11.75	9.9375
+(111,Outbound,Hawthorne St @ Broadway)	10.823529411764707	10.352941176470589
+(111,Outbound,Washington Ave @ Cary Ave)	12.428571428571429	12.357142857142858
+(111,Outbound,Sagamore Ave @ Washington Ave)	12.428571428571429	12.428571428571429
+(111,Outbound,N Washington St @ Commercial St)	11.1875	97.5
+(111,Outbound,Tobin Bridge Timepoint - Northbound (Not a Stop))	10.9375	10.8125
+(111,Outbound,Rutherford Ramp Timepoint Northbound (Not a Stop))	11.933333333333334	103.86666666666666
+(116,Inbound,Maverick Station)	40.6	40.8
+(116,Inbound,Broadway @ Webster Ave)	40.0	40.0
+(116,Inbound,Wonderland West Busway)	39.75	39.0
+(116,Inbound,Broadway opp Central Ave)	39.75	40.0
+(116,Inbound,Meridian St @ Saratoga St)	40.6	40.6
+(116,Inbound,Washington Ave @ Broadway)	40.2	40.0
+(116,Outbound,Maverick Station)	39.5	37.5
+(116,Outbound,Broadway @ Webster Ave)	39.6	40.0
+(116,Outbound,Wonderland West Busway)	35.6	42.6
+(116,Outbound,Hawthorne St @ Broadway)	39.6	39.6
+(116,Outbound,Broadway opp Fernwood Ave)	39.6	40.0
+(116,Outbound,Meridian St @ Saratoga St)	39.6	39.2
+(117,Inbound,Maverick Station)	39.0	37.4
+(117,Inbound,Broadway @ Webster Ave)	39.0	38.8
+(117,Inbound,Central Ave @ Broadway)	35.857142857142854	38.57142857142857
+(117,Inbound,Wonderland West Busway)	36.0	35.285714285714285
+(117,Inbound,Meridian St @ Saratoga St)	38.6	37.4
+(117,Inbound,Washington Ave @ Broadway)	38.666666666666664	38.5
+(117,Inbound,Beach St @ Upham St - Bell Circle)	36.142857142857146	38.42857142857143
+(117,Outbound,49 Central Ave)	40.666666666666664	41.333333333333336
+(117,Outbound,Maverick Station)	41.25	40.0
+(117,Outbound,Broadway @ Webster Ave)	40.666666666666664	41.333333333333336
+(117,Outbound,Wonderland West Busway)	40.5	38.5
+(117,Outbound,Hawthorne St @ Broadway)	40.666666666666664	41.0
+(117,Outbound,Meridian St @ Saratoga St)	41.25	43.5
+(117,Outbound,Beach St @ Shirley Ave - Bell Circle)	40.5	38.25
