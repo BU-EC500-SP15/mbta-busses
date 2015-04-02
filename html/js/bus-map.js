@@ -117,7 +117,6 @@ var secondPathRoute117 = [];
 
 // called back function that can use parsed data
 function createMarker(data, array, connected, connectedLine){
-    infowindow = new google.maps.InfoWindow;
 
     for(var i = 0; i < 23; i++){
         var markerPosition = new google.maps.LatLng(data[i][2], data[i][3]);
@@ -143,6 +142,14 @@ function createMarker(data, array, connected, connectedLine){
             infowindow.open(map, marker);
         }); */
 
+        var contentString = '<div id="content">'+
+        data[i][1] +
+        '</div>'
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });    
+    
         // connectedCoordinates[i] = markerPosition;
         connected.push(markerPosition);
         array.push(marker);
@@ -152,6 +159,13 @@ function createMarker(data, array, connected, connectedLine){
             break;
         }
         */
+
+        var eventListener = new google.maps.event.addListener(marker, 'click', function() {
+            infowindow.setOptions({
+                content: contentString
+            });
+            infowindow.open(map, marker);
+        });
     }
 
     // Debug test
