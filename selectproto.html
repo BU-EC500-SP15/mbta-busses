@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<title>MBTA Key Bus Route Data Visualization</title>
+<head>
+	<link rel="stylesheet" href="/Visualizations/stylesheets/styles.css">	
+</head>
+<body>
+	<h1>MBTA Bus Data</h1>
+	<h3>Use the form below to generate a visualization of your desired bus data</h3>
+	<form method="GET" action="submit.php">
+	<fieldset>
+		<select style="width: 200px" id="route" name="route">
+			<option selected="prompt">Select desired key bus route</option>
+			<option value="1">1</option>
+			<option value="15">15</option>
+			<option value="22">22</option>
+			<option value="23">23</option>
+			<option value="28">28</option>
+			<option value="32">32</option>
+			<option value="39">39</option>
+			<option value="57">57</option>
+			<option value="66">66</option>
+			<option value="71">71</option>
+			<option value="73">73</option>
+			<option value="77">77</option>
+			<option value="111">111</option>
+			<option value="116">116</option>
+			<option value="117">117</option>
+		</select><br><br>
+		<input type="radio" name="in_out" value="Inbound">Inbound
+		<br>
+		<input type="radio" name="in_out" value="Outbound">Outbound
+	</fieldset>
+	<fieldset>
+		Enter date in YYYY-MM-DD format:<br>
+		<input type="text" name="date" value="YYYY-MM-DD">
+		<br><br>
+		<select style="width: 200px" id="chart-type" name="chart-type">
+			<option selected="prompt">Choose desired visualization:</option>
+			<option value="lineChart">Line Chart</option>
+			<option value="barChart">Bar Chart</option>
+			<option value="avgDiff">Average Difference between Scheduled and Actual Arrival</option>
+			<option value="headway">Headway Visualization</option>
+		</select>
+	</fieldset><br>
+	<button type="submit" value="Submit">Submit</button>
+</form>
+
+	
+	<p id="demo"></p>
+	<script>
+		function getSelectedText(elementId) {
+    		var elt = document.getElementById(elementId);
+
+    		if (elt.selectedIndex == -1)
+       	 	return null;
+
+    	return elt.options[elt.selectedIndex].text;
+		}
+
+		var text = getSelectedText('route');
+
+		//for inbound outbound radio buttons
+		var in_out_buttons = document.getElementsByName("in_out");
+
+		//document.getElementById("demo").innerHTML = text;
+
+		//var chosenRoute = document.getElementById("Route").selected;
+		//document.getElementById("demo").innerHTML = chosenRoute;
+	</script>
+
+</body>
+</html>

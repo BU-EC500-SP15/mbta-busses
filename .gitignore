@@ -1,1 +1,4 @@
 data/
+database/scripts/crossing data extraction.sql
+*.xls
+MBTA_docs/TM/TMDataMart.pdf
