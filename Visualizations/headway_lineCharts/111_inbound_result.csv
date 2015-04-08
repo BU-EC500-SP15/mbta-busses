@@ -1,0 +1,1019 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,313,111,Inbound,4241831,4244272,Sagamore Ave @ Washington Ave,7,10,-3
+1,3/1/2014,316,111,Inbound,4241831,4244272,Washington Ave @ Cary Ave,6,10,-4
+1,3/1/2014,319,111,Inbound,4241831,4244272,Washington Ave @ Broadway,4,10,-6
+1,3/1/2014,322,111,Inbound,4241831,4244272,Arlington St @ Fifth St,2,10,-8
+1,3/1/2014,324,111,Inbound,4241831,4244272,Tobin Bridge Timepoint -Southbound Not a Stop,2,10,-8
+1,3/1/2014,327,111,Inbound,4241831,4244272,Rutherford Ramp Timepoint Southbound Not a Stop,2,10,-8
+1,3/1/2014,329,111,Inbound,4241831,4244272,N Washington St @ Medford St,2,10,-8
+1,3/1/2014,332,111,Inbound,4241831,4244272,Haymarket Station,1,10,-9
+2,3/1/2014,322,111,Inbound,4244272,4241852,78 Garfield Ave opp Clyde St,10,10,0
+2,3/1/2014,323,111,Inbound,4244272,4241852,Sagamore Ave @ Washington Ave,11,10,1
+2,3/1/2014,326,111,Inbound,4244272,4241852,Washington Ave @ Cary Ave,11,10,1
+2,3/1/2014,329,111,Inbound,4244272,4241852,Washington Ave @ Broadway,13,10,3
+2,3/1/2014,332,111,Inbound,4244272,4241852,Arlington St @ Fifth St,14,10,4
+2,3/1/2014,334,111,Inbound,4244272,4241852,Tobin Bridge Timepoint -Southbound Not a Stop,14,10,4
+2,3/1/2014,337,111,Inbound,4244272,4241852,Rutherford Ramp Timepoint Southbound Not a Stop,14,10,4
+2,3/1/2014,339,111,Inbound,4244272,4241852,N Washington St @ Medford St,14,10,4
+2,3/1/2014,342,111,Inbound,4244272,4241852,Haymarket Station,14,10,4
+3,3/1/2014,332,111,Inbound,4241852,4241869,78 Garfield Ave opp Clyde St,11,10,1
+3,3/1/2014,333,111,Inbound,4241852,4241869,Sagamore Ave @ Washington Ave,10,10,0
+3,3/1/2014,336,111,Inbound,4241852,4241869,Washington Ave @ Cary Ave,10,10,0
+3,3/1/2014,339,111,Inbound,4241852,4241869,Washington Ave @ Broadway,9,10,-1
+3,3/1/2014,342,111,Inbound,4241852,4241869,Arlington St @ Fifth St,9,10,-1
+3,3/1/2014,344,111,Inbound,4241852,4241869,Tobin Bridge Timepoint -Southbound Not a Stop,10,10,0
+3,3/1/2014,347,111,Inbound,4241852,4241869,Rutherford Ramp Timepoint Southbound Not a Stop,9,10,-1
+3,3/1/2014,349,111,Inbound,4241852,4241869,N Washington St @ Medford St,8,10,-2
+3,3/1/2014,352,111,Inbound,4241852,4241869,Haymarket Station,9,10,-1
+4,3/1/2014,346,111,Inbound,4241869,4241779,Washington Ave @ Cary Ave,12,10,2
+4,3/1/2014,349,111,Inbound,4241869,4241779,Washington Ave @ Broadway,13,10,3
+4,3/1/2014,352,111,Inbound,4241869,4241779,Arlington St @ Fifth St,12,10,2
+4,3/1/2014,354,111,Inbound,4241869,4241779,Tobin Bridge Timepoint -Southbound Not a Stop,11,10,1
+4,3/1/2014,357,111,Inbound,4241869,4241779,Rutherford Ramp Timepoint Southbound Not a Stop,13,10,3
+4,3/1/2014,359,111,Inbound,4241869,4241779,N Washington St @ Medford St,14,10,4
+4,3/1/2014,362,111,Inbound,4241869,4241779,Haymarket Station,14,10,4
+5,3/1/2014,356,111,Inbound,4241779,4241812,Washington Ave @ Cary Ave,16,10,6
+5,3/1/2014,359,111,Inbound,4241779,4241812,Washington Ave @ Broadway,15,10,5
+5,3/1/2014,362,111,Inbound,4241779,4241812,Arlington St @ Fifth St,14,10,4
+5,3/1/2014,364,111,Inbound,4241779,4241812,Tobin Bridge Timepoint -Southbound Not a Stop,15,10,5
+5,3/1/2014,367,111,Inbound,4241779,4241812,Rutherford Ramp Timepoint Southbound Not a Stop,13,10,3
+5,3/1/2014,369,111,Inbound,4241779,4241812,N Washington St @ Medford St,13,10,3
+5,3/1/2014,372,111,Inbound,4241779,4241812,Haymarket Station,12,10,2
+6,3/1/2014,360,111,Inbound,4241812,4241833,Elm St opp Haskell Ave,2,10,-8
+6,3/1/2014,362,111,Inbound,4241812,4241833,78 Garfield Ave opp Clyde St,4,10,-6
+6,3/1/2014,363,111,Inbound,4241812,4241833,Sagamore Ave @ Washington Ave,3,10,-7
+6,3/1/2014,366,111,Inbound,4241812,4241833,Washington Ave @ Cary Ave,1,10,-9
+6,3/1/2014,369,111,Inbound,4241812,4241833,Washington Ave @ Broadway,0,10,-10
+6,3/1/2014,372,111,Inbound,4241812,4241833,Arlington St @ Fifth St,0,10,-10
+6,3/1/2014,374,111,Inbound,4241812,4241833,Tobin Bridge Timepoint -Southbound Not a Stop,0,10,-10
+6,3/1/2014,377,111,Inbound,4241812,4241833,Rutherford Ramp Timepoint Southbound Not a Stop,0,10,-10
+6,3/1/2014,379,111,Inbound,4241812,4241833,N Washington St @ Medford St,1,10,-9
+6,3/1/2014,382,111,Inbound,4241812,4241833,Haymarket Station,1,10,-9
+7,3/1/2014,370,111,Inbound,4241833,4241841,Elm St opp Haskell Ave,8,10,-2
+7,3/1/2014,372,111,Inbound,4241833,4241841,78 Garfield Ave opp Clyde St,10,10,0
+7,3/1/2014,373,111,Inbound,4241833,4241841,Sagamore Ave @ Washington Ave,10,10,0
+7,3/1/2014,376,111,Inbound,4241833,4241841,Washington Ave @ Cary Ave,13,10,3
+7,3/1/2014,379,111,Inbound,4241833,4241841,Washington Ave @ Broadway,14,10,4
+7,3/1/2014,382,111,Inbound,4241833,4241841,Arlington St @ Fifth St,16,10,6
+7,3/1/2014,384,111,Inbound,4241833,4241841,Tobin Bridge Timepoint -Southbound Not a Stop,16,10,6
+7,3/1/2014,387,111,Inbound,4241833,4241841,Rutherford Ramp Timepoint Southbound Not a Stop,17,10,7
+7,3/1/2014,389,111,Inbound,4241833,4241841,N Washington St @ Medford St,16,10,6
+7,3/1/2014,392,111,Inbound,4241833,4241841,Haymarket Station,17,10,7
+8,3/1/2014,380,111,Inbound,4241841,4241854,Elm St opp Haskell Ave,12,10,2
+8,3/1/2014,382,111,Inbound,4241841,4241854,78 Garfield Ave opp Clyde St,9,10,-1
+8,3/1/2014,383,111,Inbound,4241841,4241854,Sagamore Ave @ Washington Ave,10,10,0
+8,3/1/2014,386,111,Inbound,4241841,4241854,Washington Ave @ Cary Ave,7,10,-3
+8,3/1/2014,389,111,Inbound,4241841,4241854,Washington Ave @ Broadway,7,10,-3
+8,3/1/2014,392,111,Inbound,4241841,4241854,Arlington St @ Fifth St,6,10,-4
+8,3/1/2014,394,111,Inbound,4241841,4241854,Tobin Bridge Timepoint -Southbound Not a Stop,5,10,-5
+8,3/1/2014,397,111,Inbound,4241841,4241854,Rutherford Ramp Timepoint Southbound Not a Stop,5,10,-5
+8,3/1/2014,399,111,Inbound,4241841,4241854,N Washington St @ Medford St,4,10,-6
+8,3/1/2014,402,111,Inbound,4241841,4241854,Haymarket Station,4,10,-6
+9,3/1/2014,390,111,Inbound,4241854,4241871,Elm St opp Haskell Ave,7,10,-3
+9,3/1/2014,392,111,Inbound,4241854,4241871,78 Garfield Ave opp Clyde St,11,10,1
+9,3/1/2014,393,111,Inbound,4241854,4241871,Sagamore Ave @ Washington Ave,10,10,0
+9,3/1/2014,396,111,Inbound,4241854,4241871,Washington Ave @ Cary Ave,11,10,1
+9,3/1/2014,399,111,Inbound,4241854,4241871,Washington Ave @ Broadway,12,10,2
+9,3/1/2014,402,111,Inbound,4241854,4241871,Arlington St @ Fifth St,14,10,4
+9,3/1/2014,404,111,Inbound,4241854,4241871,Tobin Bridge Timepoint -Southbound Not a Stop,14,10,4
+9,3/1/2014,407,111,Inbound,4241854,4241871,Rutherford Ramp Timepoint Southbound Not a Stop,14,10,4
+9,3/1/2014,409,111,Inbound,4241854,4241871,N Washington St @ Medford St,15,10,5
+9,3/1/2014,412,111,Inbound,4241854,4241871,Haymarket Station,15,10,5
+10,3/1/2014,400,111,Inbound,4241871,4241781,Elm St opp Haskell Ave,16,10,6
+10,3/1/2014,402,111,Inbound,4241871,4241781,78 Garfield Ave opp Clyde St,11,10,1
+10,3/1/2014,403,111,Inbound,4241871,4241781,Sagamore Ave @ Washington Ave,12,10,2
+10,3/1/2014,406,111,Inbound,4241871,4241781,Washington Ave @ Cary Ave,13,10,3
+10,3/1/2014,409,111,Inbound,4241871,4241781,Washington Ave @ Broadway,12,10,2
+10,3/1/2014,412,111,Inbound,4241871,4241781,Arlington St @ Fifth St,12,10,2
+10,3/1/2014,414,111,Inbound,4241871,4241781,Tobin Bridge Timepoint -Southbound Not a Stop,12,10,2
+10,3/1/2014,417,111,Inbound,4241871,4241781,Rutherford Ramp Timepoint Southbound Not a Stop,12,10,2
+10,3/1/2014,419,111,Inbound,4241871,4241781,N Washington St @ Medford St,12,10,2
+10,3/1/2014,422,111,Inbound,4241871,4241781,Haymarket Station,12,10,2
+11,3/1/2014,410,111,Inbound,4241781,4241814,Elm St opp Haskell Ave,4,10,-6
+11,3/1/2014,412,111,Inbound,4241781,4241814,78 Garfield Ave opp Clyde St,9,10,-1
+11,3/1/2014,413,111,Inbound,4241781,4241814,Sagamore Ave @ Washington Ave,8,10,-2
+11,3/1/2014,416,111,Inbound,4241781,4241814,Washington Ave @ Cary Ave,8,10,-2
+11,3/1/2014,419,111,Inbound,4241781,4241814,Washington Ave @ Broadway,8,10,-2
+11,3/1/2014,422,111,Inbound,4241781,4241814,Arlington St @ Fifth St,5,10,-5
+11,3/1/2014,424,111,Inbound,4241781,4241814,Tobin Bridge Timepoint -Southbound Not a Stop,5,10,-5
+11,3/1/2014,427,111,Inbound,4241781,4241814,Rutherford Ramp Timepoint Southbound Not a Stop,5,10,-5
+11,3/1/2014,429,111,Inbound,4241781,4241814,N Washington St @ Medford St,4,10,-6
+11,3/1/2014,432,111,Inbound,4241781,4241814,Haymarket Station,3,10,-7
+12,3/1/2014,420,111,Inbound,4241814,4241835,Elm St opp Haskell Ave,9,10,-1
+12,3/1/2014,422,111,Inbound,4241814,4241835,78 Garfield Ave opp Clyde St,10,10,0
+12,3/1/2014,423,111,Inbound,4241814,4241835,Sagamore Ave @ Washington Ave,11,10,1
+12,3/1/2014,426,111,Inbound,4241814,4241835,Washington Ave @ Cary Ave,10,10,0
+12,3/1/2014,429,111,Inbound,4241814,4241835,Washington Ave @ Broadway,10,10,0
+12,3/1/2014,432,111,Inbound,4241814,4241835,Arlington St @ Fifth St,12,10,2
+12,3/1/2014,434,111,Inbound,4241814,4241835,Tobin Bridge Timepoint -Southbound Not a Stop,12,10,2
+12,3/1/2014,437,111,Inbound,4241814,4241835,Rutherford Ramp Timepoint Southbound Not a Stop,12,10,2
+12,3/1/2014,439,111,Inbound,4241814,4241835,N Washington St @ Medford St,13,10,3
+12,3/1/2014,442,111,Inbound,4241814,4241835,Haymarket Station,14,10,4
+13,3/1/2014,430,111,Inbound,4241835,4241843,Elm St opp Haskell Ave,12,10,2
+13,3/1/2014,432,111,Inbound,4241835,4241843,78 Garfield Ave opp Clyde St,10,10,0
+13,3/1/2014,433,111,Inbound,4241835,4241843,Sagamore Ave @ Washington Ave,9,10,-1
+13,3/1/2014,436,111,Inbound,4241835,4241843,Washington Ave @ Cary Ave,9,10,-1
+13,3/1/2014,439,111,Inbound,4241835,4241843,Washington Ave @ Broadway,9,10,-1
+13,3/1/2014,442,111,Inbound,4241835,4241843,Arlington St @ Fifth St,10,10,0
+13,3/1/2014,444,111,Inbound,4241835,4241843,Tobin Bridge Timepoint -Southbound Not a Stop,10,10,0
+13,3/1/2014,447,111,Inbound,4241835,4241843,Rutherford Ramp Timepoint Southbound Not a Stop,10,10,0
+13,3/1/2014,449,111,Inbound,4241835,4241843,N Washington St @ Medford St,10,10,0
+13,3/1/2014,452,111,Inbound,4241835,4241843,Haymarket Station,10,10,0
+14,3/1/2014,440,111,Inbound,4241843,4241856,Elm St opp Haskell Ave,7,10,-3
+14,3/1/2014,442,111,Inbound,4241843,4241856,78 Garfield Ave opp Clyde St,10,10,0
+14,3/1/2014,443,111,Inbound,4241843,4241856,Sagamore Ave @ Washington Ave,10,10,0
+14,3/1/2014,446,111,Inbound,4241843,4241856,Washington Ave @ Cary Ave,11,10,1
+14,3/1/2014,449,111,Inbound,4241843,4241856,Washington Ave @ Broadway,11,10,1
+14,3/1/2014,452,111,Inbound,4241843,4241856,Arlington St @ Fifth St,10,10,0
+14,3/1/2014,454,111,Inbound,4241843,4241856,Tobin Bridge Timepoint -Southbound Not a Stop,11,10,1
+14,3/1/2014,457,111,Inbound,4241843,4241856,Rutherford Ramp Timepoint Southbound Not a Stop,10,10,0
+14,3/1/2014,459,111,Inbound,4241843,4241856,N Washington St @ Medford St,10,10,0
+14,3/1/2014,462,111,Inbound,4241843,4241856,Haymarket Station,9,10,-1
+15,3/1/2014,450,111,Inbound,4241856,4241873,Elm St opp Haskell Ave,17,10,7
+15,3/1/2014,452,111,Inbound,4241856,4241873,78 Garfield Ave opp Clyde St,11,10,1
+15,3/1/2014,453,111,Inbound,4241856,4241873,Sagamore Ave @ Washington Ave,11,10,1
+15,3/1/2014,456,111,Inbound,4241856,4241873,Washington Ave @ Cary Ave,12,10,2
+15,3/1/2014,459,111,Inbound,4241856,4241873,Washington Ave @ Broadway,12,10,2
+15,3/1/2014,462,111,Inbound,4241856,4241873,Arlington St @ Fifth St,11,10,1
+15,3/1/2014,464,111,Inbound,4241856,4241873,Tobin Bridge Timepoint -Southbound Not a Stop,11,10,1
+15,3/1/2014,467,111,Inbound,4241856,4241873,Rutherford Ramp Timepoint Southbound Not a Stop,12,10,2
+15,3/1/2014,469,111,Inbound,4241856,4241873,N Washington St @ Medford St,12,10,2
+15,3/1/2014,472,111,Inbound,4241856,4241873,Haymarket Station,13,10,3
+16,3/1/2014,460,111,Inbound,4241873,4241783,Elm St opp Haskell Ave,6,10,-4
+16,3/1/2014,462,111,Inbound,4241873,4241783,78 Garfield Ave opp Clyde St,9,10,-1
+16,3/1/2014,463,111,Inbound,4241873,4241783,Sagamore Ave @ Washington Ave,9,10,-1
+16,3/1/2014,466,111,Inbound,4241873,4241783,Washington Ave @ Cary Ave,9,10,-1
+16,3/1/2014,469,111,Inbound,4241873,4241783,Washington Ave @ Broadway,9,10,-1
+16,3/1/2014,472,111,Inbound,4241873,4241783,Arlington St @ Fifth St,9,10,-1
+16,3/1/2014,474,111,Inbound,4241873,4241783,Tobin Bridge Timepoint -Southbound Not a Stop,9,10,-1
+16,3/1/2014,477,111,Inbound,4241873,4241783,Rutherford Ramp Timepoint Southbound Not a Stop,10,10,0
+16,3/1/2014,479,111,Inbound,4241873,4241783,N Washington St @ Medford St,10,10,0
+16,3/1/2014,482,111,Inbound,4241873,4241783,Haymarket Station,10,10,0
+17,3/1/2014,470,111,Inbound,4241783,4241816,Elm St opp Haskell Ave,7,10,-3
+17,3/1/2014,472,111,Inbound,4241783,4241816,78 Garfield Ave opp Clyde St,11,10,1
+17,3/1/2014,473,111,Inbound,4241783,4241816,Sagamore Ave @ Washington Ave,11,10,1
+17,3/1/2014,476,111,Inbound,4241783,4241816,Washington Ave @ Cary Ave,9,10,-1
+17,3/1/2014,479,111,Inbound,4241783,4241816,Washington Ave @ Broadway,8,10,-2
+17,3/1/2014,482,111,Inbound,4241783,4241816,Arlington St @ Fifth St,8,10,-2
+17,3/1/2014,484,111,Inbound,4241783,4241816,Tobin Bridge Timepoint -Southbound Not a Stop,7,10,-3
+17,3/1/2014,487,111,Inbound,4241783,4241816,Rutherford Ramp Timepoint Southbound Not a Stop,6,10,-4
+17,3/1/2014,489,111,Inbound,4241783,4241816,N Washington St @ Medford St,6,10,-4
+17,3/1/2014,492,111,Inbound,4241783,4241816,Haymarket Station,6,10,-4
+18,3/1/2014,480,111,Inbound,4241816,4241796,Elm St opp Haskell Ave,18,9,9
+18,3/1/2014,482,111,Inbound,4241816,4241796,78 Garfield Ave opp Clyde St,11,9,2
+18,3/1/2014,483,111,Inbound,4241816,4241796,Sagamore Ave @ Washington Ave,11,9,2
+18,3/1/2014,486,111,Inbound,4241816,4241796,Washington Ave @ Cary Ave,11,9,2
+18,3/1/2014,489,111,Inbound,4241816,4241796,Washington Ave @ Broadway,12,9,3
+18,3/1/2014,492,111,Inbound,4241816,4241796,Arlington St @ Fifth St,13,9,4
+18,3/1/2014,494,111,Inbound,4241816,4241796,Tobin Bridge Timepoint -Southbound Not a Stop,14,9,5
+18,3/1/2014,497,111,Inbound,4241816,4241796,Rutherford Ramp Timepoint Southbound Not a Stop,14,9,5
+18,3/1/2014,499,111,Inbound,4241816,4241796,N Washington St @ Medford St,14,9,5
+18,3/1/2014,502,111,Inbound,4241816,4241796,Haymarket Station,14,8,6
+19,3/1/2014,489,111,Inbound,4241796,4241837,Elm St opp Haskell Ave,7,9,-2
+19,3/1/2014,491,111,Inbound,4241796,4241837,78 Garfield Ave opp Clyde St,6,9,-3
+19,3/1/2014,492,111,Inbound,4241796,4241837,Sagamore Ave @ Washington Ave,6,9,-3
+19,3/1/2014,495,111,Inbound,4241796,4241837,Washington Ave @ Cary Ave,8,9,-1
+19,3/1/2014,498,111,Inbound,4241796,4241837,Washington Ave @ Broadway,8,9,-1
+19,3/1/2014,501,111,Inbound,4241796,4241837,Arlington St @ Fifth St,8,9,-1
+19,3/1/2014,503,111,Inbound,4241796,4241837,Tobin Bridge Timepoint -Southbound Not a Stop,8,8,0
+19,3/1/2014,506,111,Inbound,4241796,4241837,Rutherford Ramp Timepoint Southbound Not a Stop,7,8,-1
+19,3/1/2014,508,111,Inbound,4241796,4241837,N Washington St @ Medford St,7,8,-1
+19,3/1/2014,510,111,Inbound,4241796,4241837,Haymarket Station,7,8,-1
+20,3/1/2014,498,111,Inbound,4241837,4241858,Elm St opp Haskell Ave,3,9,-6
+20,3/1/2014,500,111,Inbound,4241837,4241858,78 Garfield Ave opp Clyde St,8,9,-1
+20,3/1/2014,501,111,Inbound,4241837,4241858,Sagamore Ave @ Washington Ave,9,10,-1
+20,3/1/2014,504,111,Inbound,4241837,4241858,Washington Ave @ Cary Ave,6,11,-5
+20,3/1/2014,507,111,Inbound,4241837,4241858,Washington Ave @ Broadway,5,11,-6
+20,3/1/2014,510,111,Inbound,4241837,4241858,Arlington St @ Fifth St,5,12,-7
+20,3/1/2014,511,111,Inbound,4241837,4241858,Tobin Bridge Timepoint -Southbound Not a Stop,5,12,-7
+20,3/1/2014,514,111,Inbound,4241837,4241858,Rutherford Ramp Timepoint Southbound Not a Stop,5,12,-7
+20,3/1/2014,516,111,Inbound,4241837,4241858,N Washington St @ Medford St,5,12,-7
+20,3/1/2014,518,111,Inbound,4241837,4241858,Haymarket Station,4,12,-8
+21,3/1/2014,507,111,Inbound,4241858,4241875,Elm St opp Haskell Ave,8,9,-1
+21,3/1/2014,509,111,Inbound,4241858,4241875,78 Garfield Ave opp Clyde St,10,9,1
+21,3/1/2014,511,111,Inbound,4241858,4241875,Sagamore Ave @ Washington Ave,10,9,1
+21,3/1/2014,515,111,Inbound,4241858,4241875,Washington Ave @ Cary Ave,16,9,7
+21,3/1/2014,518,111,Inbound,4241858,4241875,Washington Ave @ Broadway,18,9,9
+21,3/1/2014,522,111,Inbound,4241858,4241875,Arlington St @ Fifth St,19,9,10
+21,3/1/2014,523,111,Inbound,4241858,4241875,Tobin Bridge Timepoint -Southbound Not a Stop,19,9,10
+21,3/1/2014,526,111,Inbound,4241858,4241875,Rutherford Ramp Timepoint Southbound Not a Stop,20,9,11
+21,3/1/2014,528,111,Inbound,4241858,4241875,N Washington St @ Medford St,20,9,11
+21,3/1/2014,530,111,Inbound,4241858,4241875,Haymarket Station,21,9,12
+22,3/1/2014,516,111,Inbound,4241875,4241785,Elm St opp Haskell Ave,10,9,1
+22,3/1/2014,518,111,Inbound,4241875,4241785,78 Garfield Ave opp Clyde St,9,9,0
+22,3/1/2014,520,111,Inbound,4241875,4241785,Sagamore Ave @ Washington Ave,8,9,-1
+22,3/1/2014,524,111,Inbound,4241875,4241785,Washington Ave @ Cary Ave,6,9,-3
+22,3/1/2014,527,111,Inbound,4241875,4241785,Washington Ave @ Broadway,5,9,-4
+22,3/1/2014,531,111,Inbound,4241875,4241785,Arlington St @ Fifth St,4,9,-5
+22,3/1/2014,532,111,Inbound,4241875,4241785,Tobin Bridge Timepoint -Southbound Not a Stop,3,9,-6
+22,3/1/2014,535,111,Inbound,4241875,4241785,Rutherford Ramp Timepoint Southbound Not a Stop,3,9,-6
+22,3/1/2014,537,111,Inbound,4241875,4241785,N Washington St @ Medford St,2,9,-7
+22,3/1/2014,539,111,Inbound,4241875,4241785,Haymarket Station,2,9,-7
+23,3/1/2014,525,111,Inbound,4241785,4241818,Elm St opp Haskell Ave,13,9,4
+23,3/1/2014,527,111,Inbound,4241785,4241818,78 Garfield Ave opp Clyde St,10,9,1
+23,3/1/2014,529,111,Inbound,4241785,4241818,Sagamore Ave @ Washington Ave,10,9,1
+23,3/1/2014,533,111,Inbound,4241785,4241818,Washington Ave @ Cary Ave,9,9,0
+23,3/1/2014,536,111,Inbound,4241785,4241818,Washington Ave @ Broadway,9,9,0
+23,3/1/2014,540,111,Inbound,4241785,4241818,Arlington St @ Fifth St,10,9,1
+23,3/1/2014,541,111,Inbound,4241785,4241818,Tobin Bridge Timepoint -Southbound Not a Stop,10,9,1
+23,3/1/2014,544,111,Inbound,4241785,4241818,Rutherford Ramp Timepoint Southbound Not a Stop,10,9,1
+23,3/1/2014,546,111,Inbound,4241785,4241818,N Washington St @ Medford St,10,9,1
+23,3/1/2014,548,111,Inbound,4241785,4241818,Haymarket Station,11,9,2
+24,3/1/2014,534,111,Inbound,4241818,4241798,Elm St opp Haskell Ave,11,9,2
+24,3/1/2014,536,111,Inbound,4241818,4241798,78 Garfield Ave opp Clyde St,9,9,0
+24,3/1/2014,538,111,Inbound,4241818,4241798,Sagamore Ave @ Washington Ave,9,9,0
+24,3/1/2014,542,111,Inbound,4241818,4241798,Washington Ave @ Cary Ave,6,9,-3
+24,3/1/2014,545,111,Inbound,4241818,4241798,Washington Ave @ Broadway,7,9,-2
+24,3/1/2014,549,111,Inbound,4241818,4241798,Arlington St @ Fifth St,5,9,-4
+24,3/1/2014,550,111,Inbound,4241818,4241798,Tobin Bridge Timepoint -Southbound Not a Stop,6,9,-3
+24,3/1/2014,553,111,Inbound,4241818,4241798,Rutherford Ramp Timepoint Southbound Not a Stop,5,9,-4
+24,3/1/2014,555,111,Inbound,4241818,4241798,N Washington St @ Medford St,6,9,-3
+24,3/1/2014,557,111,Inbound,4241818,4241798,Haymarket Station,5,9,-4
+25,3/1/2014,543,111,Inbound,4241798,4241790,Elm St opp Haskell Ave,9,9,0
+25,3/1/2014,545,111,Inbound,4241798,4241790,78 Garfield Ave opp Clyde St,8,9,-1
+25,3/1/2014,547,111,Inbound,4241798,4241790,Sagamore Ave @ Washington Ave,8,9,-1
+25,3/1/2014,551,111,Inbound,4241798,4241790,Washington Ave @ Cary Ave,11,9,2
+25,3/1/2014,554,111,Inbound,4241798,4241790,Washington Ave @ Broadway,11,9,2
+25,3/1/2014,558,111,Inbound,4241798,4241790,Arlington St @ Fifth St,13,9,4
+25,3/1/2014,559,111,Inbound,4241798,4241790,Tobin Bridge Timepoint -Southbound Not a Stop,13,9,4
+25,3/1/2014,562,111,Inbound,4241798,4241790,Rutherford Ramp Timepoint Southbound Not a Stop,13,9,4
+25,3/1/2014,564,111,Inbound,4241798,4241790,N Washington St @ Medford St,13,9,4
+25,3/1/2014,566,111,Inbound,4241798,4241790,Haymarket Station,13,9,4
+26,3/1/2014,552,111,Inbound,4241790,4241860,Elm St opp Haskell Ave,3,9,-6
+26,3/1/2014,554,111,Inbound,4241790,4241860,78 Garfield Ave opp Clyde St,8,9,-1
+26,3/1/2014,556,111,Inbound,4241790,4241860,Sagamore Ave @ Washington Ave,8,9,-1
+26,3/1/2014,560,111,Inbound,4241790,4241860,Washington Ave @ Cary Ave,6,9,-3
+26,3/1/2014,563,111,Inbound,4241790,4241860,Washington Ave @ Broadway,5,10,-5
+26,3/1/2014,567,111,Inbound,4241790,4241860,Arlington St @ Fifth St,4,10,-6
+26,3/1/2014,568,111,Inbound,4241790,4241860,Tobin Bridge Timepoint -Southbound Not a Stop,4,11,-7
+26,3/1/2014,571,111,Inbound,4241790,4241860,Rutherford Ramp Timepoint Southbound Not a Stop,5,11,-6
+26,3/1/2014,573,111,Inbound,4241790,4241860,N Washington St @ Medford St,5,11,-6
+26,3/1/2014,575,111,Inbound,4241790,4241860,Haymarket Station,4,11,-7
+27,3/1/2014,561,111,Inbound,4241860,4241877,Elm St opp Haskell Ave,19,9,10
+27,3/1/2014,563,111,Inbound,4241860,4241877,78 Garfield Ave opp Clyde St,15,9,6
+27,3/1/2014,565,111,Inbound,4241860,4241877,Sagamore Ave @ Washington Ave,16,9,7
+27,3/1/2014,573,111,Inbound,4241860,4241877,Washington Ave @ Broadway,21,9,12
+27,3/1/2014,577,111,Inbound,4241860,4241877,Arlington St @ Fifth St,23,9,14
+27,3/1/2014,579,111,Inbound,4241860,4241877,Tobin Bridge Timepoint -Southbound Not a Stop,22,9,13
+27,3/1/2014,582,111,Inbound,4241860,4241877,Rutherford Ramp Timepoint Southbound Not a Stop,22,9,13
+27,3/1/2014,584,111,Inbound,4241860,4241877,N Washington St @ Medford St,22,9,13
+27,3/1/2014,586,111,Inbound,4241860,4241877,Haymarket Station,23,9,14
+28,3/1/2014,570,111,Inbound,4241877,4241787,Elm St opp Haskell Ave,1,9,-8
+28,3/1/2014,572,111,Inbound,4241877,4241787,78 Garfield Ave opp Clyde St,4,9,-5
+28,3/1/2014,574,111,Inbound,4241877,4241787,Sagamore Ave @ Washington Ave,3,9,-6
+28,3/1/2014,582,111,Inbound,4241877,4241787,Washington Ave @ Broadway,-2,9,-11
+28,3/1/2014,586,111,Inbound,4241877,4241787,Arlington St @ Fifth St,0,9,-9
+28,3/1/2014,588,111,Inbound,4241877,4241787,Tobin Bridge Timepoint -Southbound Not a Stop,1,9,-8
+28,3/1/2014,591,111,Inbound,4241877,4241787,Rutherford Ramp Timepoint Southbound Not a Stop,0,9,-9
+28,3/1/2014,593,111,Inbound,4241877,4241787,N Washington St @ Medford St,1,9,-8
+28,3/1/2014,595,111,Inbound,4241877,4241787,Haymarket Station,1,9,-8
+29,3/1/2014,579,111,Inbound,4241787,4241820,Elm St opp Haskell Ave,11,9,2
+29,3/1/2014,581,111,Inbound,4241787,4241820,78 Garfield Ave opp Clyde St,9,9,0
+29,3/1/2014,583,111,Inbound,4241787,4241820,Sagamore Ave @ Washington Ave,10,9,1
+29,3/1/2014,587,111,Inbound,4241787,4241820,Washington Ave @ Cary Ave,12,9,3
+29,3/1/2014,591,111,Inbound,4241787,4241820,Washington Ave @ Broadway,13,9,4
+29,3/1/2014,595,111,Inbound,4241787,4241820,Arlington St @ Fifth St,9,9,0
+29,3/1/2014,597,111,Inbound,4241787,4241820,Tobin Bridge Timepoint -Southbound Not a Stop,9,9,0
+29,3/1/2014,600,111,Inbound,4241787,4241820,Rutherford Ramp Timepoint Southbound Not a Stop,10,9,1
+29,3/1/2014,602,111,Inbound,4241787,4241820,N Washington St @ Medford St,9,9,0
+29,3/1/2014,604,111,Inbound,4241787,4241820,Haymarket Station,9,9,0
+30,3/1/2014,588,111,Inbound,4241820,4241800,Elm St opp Haskell Ave,14,9,5
+30,3/1/2014,590,111,Inbound,4241820,4241800,78 Garfield Ave opp Clyde St,14,9,5
+30,3/1/2014,592,111,Inbound,4241820,4241800,Sagamore Ave @ Washington Ave,13,9,4
+30,3/1/2014,596,111,Inbound,4241820,4241800,Washington Ave @ Cary Ave,12,9,3
+30,3/1/2014,600,111,Inbound,4241820,4241800,Washington Ave @ Broadway,13,9,4
+30,3/1/2014,604,111,Inbound,4241820,4241800,Arlington St @ Fifth St,15,9,6
+30,3/1/2014,606,111,Inbound,4241820,4241800,Tobin Bridge Timepoint -Southbound Not a Stop,14,9,5
+30,3/1/2014,609,111,Inbound,4241820,4241800,Rutherford Ramp Timepoint Southbound Not a Stop,14,9,5
+30,3/1/2014,611,111,Inbound,4241820,4241800,N Washington St @ Medford St,14,9,5
+30,3/1/2014,613,111,Inbound,4241820,4241800,Haymarket Station,15,9,6
+31,3/1/2014,597,111,Inbound,4241800,4241792,Elm St opp Haskell Ave,5,10,-5
+31,3/1/2014,599,111,Inbound,4241800,4241792,78 Garfield Ave opp Clyde St,5,10,-5
+31,3/1/2014,601,111,Inbound,4241800,4241792,Sagamore Ave @ Washington Ave,5,10,-5
+31,3/1/2014,605,111,Inbound,4241800,4241792,Washington Ave @ Cary Ave,4,10,-6
+31,3/1/2014,609,111,Inbound,4241800,4241792,Washington Ave @ Broadway,3,10,-7
+31,3/1/2014,613,111,Inbound,4241800,4241792,Arlington St @ Fifth St,2,10,-8
+31,3/1/2014,615,111,Inbound,4241800,4241792,Tobin Bridge Timepoint -Southbound Not a Stop,2,10,-8
+31,3/1/2014,618,111,Inbound,4241800,4241792,Rutherford Ramp Timepoint Southbound Not a Stop,2,10,-8
+31,3/1/2014,620,111,Inbound,4241800,4241792,N Washington St @ Medford St,2,10,-8
+31,3/1/2014,622,111,Inbound,4241800,4241792,Haymarket Station,2,10,-8
+32,3/1/2014,607,111,Inbound,4241792,4241862,Elm St opp Haskell Ave,7,10,-3
+32,3/1/2014,609,111,Inbound,4241792,4241862,78 Garfield Ave opp Clyde St,9,10,-1
+32,3/1/2014,611,111,Inbound,4241792,4241862,Sagamore Ave @ Washington Ave,9,10,-1
+32,3/1/2014,615,111,Inbound,4241792,4241862,Washington Ave @ Cary Ave,9,10,-1
+32,3/1/2014,619,111,Inbound,4241792,4241862,Washington Ave @ Broadway,9,10,-1
+32,3/1/2014,623,111,Inbound,4241792,4241862,Arlington St @ Fifth St,10,10,0
+32,3/1/2014,625,111,Inbound,4241792,4241862,Tobin Bridge Timepoint -Southbound Not a Stop,10,10,0
+32,3/1/2014,628,111,Inbound,4241792,4241862,Rutherford Ramp Timepoint Southbound Not a Stop,11,10,1
+32,3/1/2014,630,111,Inbound,4241792,4241862,N Washington St @ Medford St,12,10,2
+32,3/1/2014,632,111,Inbound,4241792,4241862,Haymarket Station,11,10,1
+33,3/1/2014,617,111,Inbound,4241862,4241879,Elm St opp Haskell Ave,15,10,5
+33,3/1/2014,619,111,Inbound,4241862,4241879,78 Garfield Ave opp Clyde St,12,10,2
+33,3/1/2014,621,111,Inbound,4241862,4241879,Sagamore Ave @ Washington Ave,12,10,2
+33,3/1/2014,625,111,Inbound,4241862,4241879,Washington Ave @ Cary Ave,16,10,6
+33,3/1/2014,629,111,Inbound,4241862,4241879,Washington Ave @ Broadway,17,10,7
+33,3/1/2014,633,111,Inbound,4241862,4241879,Arlington St @ Fifth St,15,10,5
+33,3/1/2014,635,111,Inbound,4241862,4241879,Tobin Bridge Timepoint -Southbound Not a Stop,16,10,6
+33,3/1/2014,638,111,Inbound,4241862,4241879,Rutherford Ramp Timepoint Southbound Not a Stop,15,10,5
+33,3/1/2014,640,111,Inbound,4241862,4241879,N Washington St @ Medford St,14,10,4
+33,3/1/2014,642,111,Inbound,4241862,4241879,Haymarket Station,14,10,4
+34,3/1/2014,627,111,Inbound,4241879,4241822,Elm St opp Haskell Ave,17,20,-3
+34,3/1/2014,629,111,Inbound,4241879,4241822,78 Garfield Ave opp Clyde St,20,20,0
+34,3/1/2014,631,111,Inbound,4241879,4241822,Sagamore Ave @ Washington Ave,21,20,1
+34,3/1/2014,635,111,Inbound,4241879,4241822,Washington Ave @ Cary Ave,18,20,-2
+34,3/1/2014,639,111,Inbound,4241879,4241822,Washington Ave @ Broadway,17,20,-3
+34,3/1/2014,643,111,Inbound,4241879,4241822,Arlington St @ Fifth St,21,20,1
+34,3/1/2014,645,111,Inbound,4241879,4241822,Tobin Bridge Timepoint -Southbound Not a Stop,21,20,1
+34,3/1/2014,648,111,Inbound,4241879,4241822,Rutherford Ramp Timepoint Southbound Not a Stop,20,20,0
+34,3/1/2014,650,111,Inbound,4241879,4241822,N Washington St @ Medford St,20,20,0
+34,3/1/2014,652,111,Inbound,4241879,4241822,Haymarket Station,21,20,1
+35,3/1/2014,647,111,Inbound,4241822,4241802,Elm St opp Haskell Ave,8,10,-2
+35,3/1/2014,649,111,Inbound,4241822,4241802,78 Garfield Ave opp Clyde St,8,10,-2
+35,3/1/2014,651,111,Inbound,4241822,4241802,Sagamore Ave @ Washington Ave,7,10,-3
+35,3/1/2014,655,111,Inbound,4241822,4241802,Washington Ave @ Cary Ave,4,10,-6
+35,3/1/2014,659,111,Inbound,4241822,4241802,Washington Ave @ Broadway,4,10,-6
+35,3/1/2014,663,111,Inbound,4241822,4241802,Arlington St @ Fifth St,0,10,-10
+35,3/1/2014,665,111,Inbound,4241822,4241802,Tobin Bridge Timepoint -Southbound Not a Stop,-1,10,-11
+35,3/1/2014,668,111,Inbound,4241822,4241802,Rutherford Ramp Timepoint Southbound Not a Stop,0,10,-10
+35,3/1/2014,670,111,Inbound,4241822,4241802,N Washington St @ Medford St,-1,10,-11
+35,3/1/2014,672,111,Inbound,4241822,4241802,Haymarket Station,2,10,-8
+36,3/1/2014,657,111,Inbound,4241802,4241794,Elm St opp Haskell Ave,5,10,-5
+36,3/1/2014,659,111,Inbound,4241802,4241794,78 Garfield Ave opp Clyde St,13,10,3
+36,3/1/2014,661,111,Inbound,4241802,4241794,Sagamore Ave @ Washington Ave,13,10,3
+36,3/1/2014,665,111,Inbound,4241802,4241794,Washington Ave @ Cary Ave,18,10,8
+36,3/1/2014,669,111,Inbound,4241802,4241794,Washington Ave @ Broadway,20,10,10
+36,3/1/2014,673,111,Inbound,4241802,4241794,Arlington St @ Fifth St,22,10,12
+36,3/1/2014,675,111,Inbound,4241802,4241794,Tobin Bridge Timepoint -Southbound Not a Stop,23,10,13
+36,3/1/2014,678,111,Inbound,4241802,4241794,Rutherford Ramp Timepoint Southbound Not a Stop,23,10,13
+36,3/1/2014,680,111,Inbound,4241802,4241794,N Washington St @ Medford St,23,10,13
+36,3/1/2014,682,111,Inbound,4241802,4241794,Haymarket Station,19,10,9
+37,3/1/2014,667,111,Inbound,4241794,4241864,Elm St opp Haskell Ave,12,10,2
+37,3/1/2014,669,111,Inbound,4241794,4241864,78 Garfield Ave opp Clyde St,9,10,-1
+37,3/1/2014,671,111,Inbound,4241794,4241864,Sagamore Ave @ Washington Ave,9,10,-1
+37,3/1/2014,675,111,Inbound,4241794,4241864,Washington Ave @ Cary Ave,6,10,-4
+37,3/1/2014,679,111,Inbound,4241794,4241864,Washington Ave @ Broadway,4,10,-6
+37,3/1/2014,683,111,Inbound,4241794,4241864,Arlington St @ Fifth St,4,10,-6
+37,3/1/2014,685,111,Inbound,4241794,4241864,Tobin Bridge Timepoint -Southbound Not a Stop,3,10,-7
+37,3/1/2014,688,111,Inbound,4241794,4241864,Rutherford Ramp Timepoint Southbound Not a Stop,3,10,-7
+37,3/1/2014,690,111,Inbound,4241794,4241864,N Washington St @ Medford St,4,10,-6
+37,3/1/2014,692,111,Inbound,4241794,4241864,Haymarket Station,5,10,-5
+38,3/1/2014,677,111,Inbound,4241864,4241881,Elm St opp Haskell Ave,22,10,12
+38,3/1/2014,679,111,Inbound,4241864,4241881,78 Garfield Ave opp Clyde St,12,10,2
+38,3/1/2014,681,111,Inbound,4241864,4241881,Sagamore Ave @ Washington Ave,13,10,3
+38,3/1/2014,685,111,Inbound,4241864,4241881,Washington Ave @ Cary Ave,13,10,3
+38,3/1/2014,689,111,Inbound,4241864,4241881,Washington Ave @ Broadway,13,10,3
+38,3/1/2014,693,111,Inbound,4241864,4241881,Arlington St @ Fifth St,11,10,1
+38,3/1/2014,695,111,Inbound,4241864,4241881,Tobin Bridge Timepoint -Southbound Not a Stop,12,10,2
+38,3/1/2014,698,111,Inbound,4241864,4241881,Rutherford Ramp Timepoint Southbound Not a Stop,11,10,1
+38,3/1/2014,700,111,Inbound,4241864,4241881,N Washington St @ Medford St,12,10,2
+38,3/1/2014,702,111,Inbound,4241864,4241881,Haymarket Station,12,10,2
+39,3/1/2014,687,111,Inbound,4241881,4241824,Elm St opp Haskell Ave,19,20,-1
+39,3/1/2014,689,111,Inbound,4241881,4241824,78 Garfield Ave opp Clyde St,20,20,0
+39,3/1/2014,691,111,Inbound,4241881,4241824,Sagamore Ave @ Washington Ave,21,20,1
+39,3/1/2014,695,111,Inbound,4241881,4241824,Washington Ave @ Cary Ave,23,20,3
+39,3/1/2014,699,111,Inbound,4241881,4241824,Washington Ave @ Broadway,26,20,6
+39,3/1/2014,703,111,Inbound,4241881,4241824,Arlington St @ Fifth St,28,20,8
+39,3/1/2014,705,111,Inbound,4241881,4241824,Tobin Bridge Timepoint -Southbound Not a Stop,28,20,8
+39,3/1/2014,708,111,Inbound,4241881,4241824,Rutherford Ramp Timepoint Southbound Not a Stop,29,20,9
+39,3/1/2014,710,111,Inbound,4241881,4241824,N Washington St @ Medford St,28,20,8
+39,3/1/2014,712,111,Inbound,4241881,4241824,Haymarket Station,27,20,7
+40,3/1/2014,707,111,Inbound,4241824,4241804,Elm St opp Haskell Ave,1,10,-9
+40,3/1/2014,709,111,Inbound,4241824,4241804,78 Garfield Ave opp Clyde St,8,10,-2
+40,3/1/2014,711,111,Inbound,4241824,4241804,Sagamore Ave @ Washington Ave,7,10,-3
+40,3/1/2014,715,111,Inbound,4241824,4241804,Washington Ave @ Cary Ave,7,10,-3
+40,3/1/2014,719,111,Inbound,4241824,4241804,Washington Ave @ Broadway,6,10,-4
+40,3/1/2014,723,111,Inbound,4241824,4241804,Arlington St @ Fifth St,8,10,-2
+40,3/1/2014,725,111,Inbound,4241824,4241804,Tobin Bridge Timepoint -Southbound Not a Stop,7,10,-3
+40,3/1/2014,728,111,Inbound,4241824,4241804,Rutherford Ramp Timepoint Southbound Not a Stop,7,10,-3
+40,3/1/2014,730,111,Inbound,4241824,4241804,N Washington St @ Medford St,8,10,-2
+40,3/1/2014,732,111,Inbound,4241824,4241804,Haymarket Station,9,10,-1
+41,3/1/2014,717,111,Inbound,4241804,4240564,Elm St opp Haskell Ave,17,10,7
+41,3/1/2014,719,111,Inbound,4241804,4240564,78 Garfield Ave opp Clyde St,13,10,3
+41,3/1/2014,721,111,Inbound,4241804,4240564,Sagamore Ave @ Washington Ave,12,10,2
+41,3/1/2014,725,111,Inbound,4241804,4240564,Washington Ave @ Cary Ave,12,10,2
+41,3/1/2014,729,111,Inbound,4241804,4240564,Washington Ave @ Broadway,11,10,1
+41,3/1/2014,733,111,Inbound,4241804,4240564,Arlington St @ Fifth St,7,10,-3
+41,3/1/2014,735,111,Inbound,4241804,4240564,Tobin Bridge Timepoint -Southbound Not a Stop,8,10,-2
+41,3/1/2014,738,111,Inbound,4241804,4240564,Rutherford Ramp Timepoint Southbound Not a Stop,8,10,-2
+41,3/1/2014,740,111,Inbound,4241804,4240564,N Washington St @ Medford St,8,10,-2
+41,3/1/2014,742,111,Inbound,4241804,4240564,Haymarket Station,8,10,-2
+42,3/1/2014,727,111,Inbound,4240564,4241866,Elm St opp Haskell Ave,2,10,-8
+42,3/1/2014,729,111,Inbound,4240564,4241866,78 Garfield Ave opp Clyde St,7,10,-3
+42,3/1/2014,731,111,Inbound,4240564,4241866,Sagamore Ave @ Washington Ave,6,10,-4
+42,3/1/2014,735,111,Inbound,4240564,4241866,Washington Ave @ Cary Ave,5,10,-5
+42,3/1/2014,739,111,Inbound,4240564,4241866,Washington Ave @ Broadway,4,10,-6
+42,3/1/2014,743,111,Inbound,4240564,4241866,Arlington St @ Fifth St,3,10,-7
+42,3/1/2014,745,111,Inbound,4240564,4241866,Tobin Bridge Timepoint -Southbound Not a Stop,3,10,-7
+42,3/1/2014,748,111,Inbound,4240564,4241866,Rutherford Ramp Timepoint Southbound Not a Stop,2,10,-8
+42,3/1/2014,750,111,Inbound,4240564,4241866,N Washington St @ Medford St,2,10,-8
+42,3/1/2014,752,111,Inbound,4240564,4241866,Haymarket Station,2,10,-8
+43,3/1/2014,737,111,Inbound,4241866,4241883,Elm St opp Haskell Ave,8,10,-2
+43,3/1/2014,739,111,Inbound,4241866,4241883,78 Garfield Ave opp Clyde St,8,10,-2
+43,3/1/2014,741,111,Inbound,4241866,4241883,Sagamore Ave @ Washington Ave,10,10,0
+43,3/1/2014,745,111,Inbound,4241866,4241883,Washington Ave @ Cary Ave,9,10,-1
+43,3/1/2014,749,111,Inbound,4241866,4241883,Washington Ave @ Broadway,10,10,0
+43,3/1/2014,753,111,Inbound,4241866,4241883,Arlington St @ Fifth St,13,10,3
+43,3/1/2014,755,111,Inbound,4241866,4241883,Tobin Bridge Timepoint -Southbound Not a Stop,12,10,2
+43,3/1/2014,758,111,Inbound,4241866,4241883,Rutherford Ramp Timepoint Southbound Not a Stop,13,10,3
+43,3/1/2014,760,111,Inbound,4241866,4241883,N Washington St @ Medford St,12,10,2
+43,3/1/2014,762,111,Inbound,4241866,4241883,Haymarket Station,11,10,1
+44,3/1/2014,747,111,Inbound,4241883,4240561,Elm St opp Haskell Ave,19,10,9
+44,3/1/2014,749,111,Inbound,4241883,4240561,78 Garfield Ave opp Clyde St,12,10,2
+44,3/1/2014,751,111,Inbound,4241883,4240561,Sagamore Ave @ Washington Ave,12,10,2
+44,3/1/2014,755,111,Inbound,4241883,4240561,Washington Ave @ Cary Ave,12,10,2
+44,3/1/2014,759,111,Inbound,4241883,4240561,Washington Ave @ Broadway,12,10,2
+44,3/1/2014,763,111,Inbound,4241883,4240561,Arlington St @ Fifth St,9,10,-1
+44,3/1/2014,765,111,Inbound,4241883,4240561,Tobin Bridge Timepoint -Southbound Not a Stop,9,10,-1
+44,3/1/2014,768,111,Inbound,4241883,4240561,Rutherford Ramp Timepoint Southbound Not a Stop,9,10,-1
+44,3/1/2014,770,111,Inbound,4241883,4240561,N Washington St @ Medford St,9,11,-2
+44,3/1/2014,772,111,Inbound,4241883,4240561,Haymarket Station,9,12,-3
+45,3/1/2014,757,111,Inbound,4240561,4241826,Elm St opp Haskell Ave,19,10,9
+45,3/1/2014,759,111,Inbound,4240561,4241826,78 Garfield Ave opp Clyde St,19,10,9
+45,3/1/2014,761,111,Inbound,4240561,4241826,Sagamore Ave @ Washington Ave,19,10,9
+45,3/1/2014,765,111,Inbound,4240561,4241826,Washington Ave @ Cary Ave,20,10,10
+45,3/1/2014,769,111,Inbound,4240561,4241826,Washington Ave @ Broadway,20,10,10
+45,3/1/2014,773,111,Inbound,4240561,4241826,Arlington St @ Fifth St,20,11,9
+45,3/1/2014,775,111,Inbound,4240561,4241826,Tobin Bridge Timepoint -Southbound Not a Stop,21,10,11
+45,3/1/2014,778,111,Inbound,4240561,4241826,Rutherford Ramp Timepoint Southbound Not a Stop,20,11,9
+45,3/1/2014,781,111,Inbound,4240561,4241826,N Washington St @ Medford St,20,11,9
+45,3/1/2014,784,111,Inbound,4240561,4241826,Haymarket Station,20,11,9
+46,3/1/2014,767,111,Inbound,4241826,4241806,Elm St opp Haskell Ave,3,9,-6
+46,3/1/2014,769,111,Inbound,4241826,4241806,78 Garfield Ave opp Clyde St,2,9,-7
+46,3/1/2014,771,111,Inbound,4241826,4241806,Sagamore Ave @ Washington Ave,2,9,-7
+46,3/1/2014,775,111,Inbound,4241826,4241806,Washington Ave @ Cary Ave,1,9,-8
+46,3/1/2014,779,111,Inbound,4241826,4241806,Washington Ave @ Broadway,0,8,-8
+46,3/1/2014,784,111,Inbound,4241826,4241806,Arlington St @ Fifth St,1,8,-7
+46,3/1/2014,785,111,Inbound,4241826,4241806,Tobin Bridge Timepoint -Southbound Not a Stop,0,8,-8
+46,3/1/2014,789,111,Inbound,4241826,4241806,Rutherford Ramp Timepoint Southbound Not a Stop,1,8,-7
+46,3/1/2014,792,111,Inbound,4241826,4241806,N Washington St @ Medford St,1,8,-7
+46,3/1/2014,795,111,Inbound,4241826,4241806,Haymarket Station,2,8,-6
+47,3/1/2014,776,111,Inbound,4241806,4240566,Elm St opp Haskell Ave,6,9,-3
+47,3/1/2014,778,111,Inbound,4241806,4240566,78 Garfield Ave opp Clyde St,6,9,-3
+47,3/1/2014,780,111,Inbound,4241806,4240566,Sagamore Ave @ Washington Ave,6,9,-3
+47,3/1/2014,784,111,Inbound,4241806,4240566,Washington Ave @ Cary Ave,5,9,-4
+47,3/1/2014,787,111,Inbound,4241806,4240566,Washington Ave @ Broadway,4,9,-5
+47,3/1/2014,792,111,Inbound,4241806,4240566,Arlington St @ Fifth St,4,9,-5
+47,3/1/2014,793,111,Inbound,4241806,4240566,Tobin Bridge Timepoint -Southbound Not a Stop,5,9,-4
+47,3/1/2014,797,111,Inbound,4241806,4240566,Rutherford Ramp Timepoint Southbound Not a Stop,5,9,-4
+47,3/1/2014,800,111,Inbound,4241806,4240566,N Washington St @ Medford St,6,9,-3
+47,3/1/2014,803,111,Inbound,4241806,4240566,Haymarket Station,5,9,-4
+48,3/1/2014,785,111,Inbound,4240566,4241868,Elm St opp Haskell Ave,4,9,-5
+48,3/1/2014,787,111,Inbound,4240566,4241868,78 Garfield Ave opp Clyde St,11,9,2
+48,3/1/2014,789,111,Inbound,4240566,4241868,Sagamore Ave @ Washington Ave,10,9,1
+48,3/1/2014,793,111,Inbound,4240566,4241868,Washington Ave @ Cary Ave,10,9,1
+48,3/1/2014,796,111,Inbound,4240566,4241868,Washington Ave @ Broadway,11,9,2
+48,3/1/2014,801,111,Inbound,4240566,4241868,Arlington St @ Fifth St,15,9,6
+48,3/1/2014,802,111,Inbound,4240566,4241868,Tobin Bridge Timepoint -Southbound Not a Stop,15,9,6
+48,3/1/2014,806,111,Inbound,4240566,4241868,Rutherford Ramp Timepoint Southbound Not a Stop,15,9,6
+48,3/1/2014,809,111,Inbound,4240566,4241868,N Washington St @ Medford St,14,9,5
+48,3/1/2014,812,111,Inbound,4240566,4241868,Haymarket Station,15,9,6
+49,3/1/2014,794,111,Inbound,4241868,4241885,Elm St opp Haskell Ave,14,9,5
+49,3/1/2014,796,111,Inbound,4241868,4241885,78 Garfield Ave opp Clyde St,7,9,-2
+49,3/1/2014,798,111,Inbound,4241868,4241885,Sagamore Ave @ Washington Ave,7,9,-2
+49,3/1/2014,802,111,Inbound,4241868,4241885,Washington Ave @ Cary Ave,8,9,-1
+49,3/1/2014,805,111,Inbound,4241868,4241885,Washington Ave @ Broadway,8,9,-1
+49,3/1/2014,810,111,Inbound,4241868,4241885,Arlington St @ Fifth St,4,9,-5
+49,3/1/2014,811,111,Inbound,4241868,4241885,Tobin Bridge Timepoint -Southbound Not a Stop,4,9,-5
+49,3/1/2014,815,111,Inbound,4241868,4241885,Rutherford Ramp Timepoint Southbound Not a Stop,3,9,-6
+49,3/1/2014,818,111,Inbound,4241868,4241885,N Washington St @ Medford St,3,9,-6
+49,3/1/2014,821,111,Inbound,4241868,4241885,Haymarket Station,2,9,-7
+50,3/1/2014,803,111,Inbound,4241885,4240563,Elm St opp Haskell Ave,21,18,3
+50,3/1/2014,805,111,Inbound,4241885,4240563,78 Garfield Ave opp Clyde St,21,18,3
+50,3/1/2014,807,111,Inbound,4241885,4240563,Sagamore Ave @ Washington Ave,22,18,4
+50,3/1/2014,811,111,Inbound,4241885,4240563,Washington Ave @ Cary Ave,22,18,4
+50,3/1/2014,814,111,Inbound,4241885,4240563,Washington Ave @ Broadway,24,18,6
+50,3/1/2014,820,111,Inbound,4241885,4240563,Tobin Bridge Timepoint -Southbound Not a Stop,22,18,4
+50,3/1/2014,824,111,Inbound,4241885,4240563,Rutherford Ramp Timepoint Southbound Not a Stop,23,18,5
+50,3/1/2014,827,111,Inbound,4241885,4240563,N Washington St @ Medford St,23,18,5
+50,3/1/2014,830,111,Inbound,4241885,4240563,Haymarket Station,23,18,5
+51,3/1/2014,821,111,Inbound,4240563,4241828,Elm St opp Haskell Ave,9,9,0
+51,3/1/2014,823,111,Inbound,4240563,4241828,78 Garfield Ave opp Clyde St,9,9,0
+51,3/1/2014,825,111,Inbound,4240563,4241828,Sagamore Ave @ Washington Ave,8,9,-1
+51,3/1/2014,829,111,Inbound,4240563,4241828,Washington Ave @ Cary Ave,6,9,-3
+51,3/1/2014,832,111,Inbound,4240563,4241828,Washington Ave @ Broadway,4,9,-5
+51,3/1/2014,838,111,Inbound,4240563,4241828,Tobin Bridge Timepoint -Southbound Not a Stop,6,9,-3
+51,3/1/2014,842,111,Inbound,4240563,4241828,Rutherford Ramp Timepoint Southbound Not a Stop,5,9,-4
+51,3/1/2014,845,111,Inbound,4240563,4241828,N Washington St @ Medford St,5,9,-4
+51,3/1/2014,848,111,Inbound,4240563,4241828,Haymarket Station,4,9,-5
+52,3/1/2014,830,111,Inbound,4241828,4241808,Elm St opp Haskell Ave,7,9,-2
+52,3/1/2014,832,111,Inbound,4241828,4241808,78 Garfield Ave opp Clyde St,7,9,-2
+52,3/1/2014,834,111,Inbound,4241828,4241808,Sagamore Ave @ Washington Ave,8,9,-1
+52,3/1/2014,838,111,Inbound,4241828,4241808,Washington Ave @ Cary Ave,12,9,3
+52,3/1/2014,841,111,Inbound,4241828,4241808,Washington Ave @ Broadway,12,9,3
+52,3/1/2014,846,111,Inbound,4241828,4241808,Arlington St @ Fifth St,13,9,4
+52,3/1/2014,847,111,Inbound,4241828,4241808,Tobin Bridge Timepoint -Southbound Not a Stop,13,9,4
+52,3/1/2014,851,111,Inbound,4241828,4241808,Rutherford Ramp Timepoint Southbound Not a Stop,13,9,4
+52,3/1/2014,854,111,Inbound,4241828,4241808,N Washington St @ Medford St,13,9,4
+52,3/1/2014,857,111,Inbound,4241828,4241808,Haymarket Station,15,9,6
+53,3/1/2014,839,111,Inbound,4241808,4240568,Elm St opp Haskell Ave,9,9,0
+53,3/1/2014,841,111,Inbound,4241808,4240568,78 Garfield Ave opp Clyde St,9,9,0
+53,3/1/2014,843,111,Inbound,4241808,4240568,Sagamore Ave @ Washington Ave,9,9,0
+53,3/1/2014,847,111,Inbound,4241808,4240568,Washington Ave @ Cary Ave,9,9,0
+53,3/1/2014,850,111,Inbound,4241808,4240568,Washington Ave @ Broadway,10,9,1
+53,3/1/2014,855,111,Inbound,4241808,4240568,Arlington St @ Fifth St,10,9,1
+53,3/1/2014,856,111,Inbound,4241808,4240568,Tobin Bridge Timepoint -Southbound Not a Stop,10,9,1
+53,3/1/2014,860,111,Inbound,4241808,4240568,Rutherford Ramp Timepoint Southbound Not a Stop,11,9,2
+53,3/1/2014,863,111,Inbound,4241808,4240568,N Washington St @ Medford St,11,9,2
+53,3/1/2014,866,111,Inbound,4241808,4240568,Haymarket Station,9,9,0
+54,3/1/2014,848,111,Inbound,4240568,4241893,Elm St opp Haskell Ave,9,9,0
+54,3/1/2014,850,111,Inbound,4240568,4241893,78 Garfield Ave opp Clyde St,8,9,-1
+54,3/1/2014,852,111,Inbound,4240568,4241893,Sagamore Ave @ Washington Ave,8,9,-1
+54,3/1/2014,856,111,Inbound,4240568,4241893,Washington Ave @ Cary Ave,5,9,-4
+54,3/1/2014,859,111,Inbound,4240568,4241893,Washington Ave @ Broadway,4,9,-5
+54,3/1/2014,864,111,Inbound,4240568,4241893,Arlington St @ Fifth St,4,9,-5
+54,3/1/2014,865,111,Inbound,4240568,4241893,Tobin Bridge Timepoint -Southbound Not a Stop,3,9,-6
+54,3/1/2014,869,111,Inbound,4240568,4241893,Rutherford Ramp Timepoint Southbound Not a Stop,3,9,-6
+54,3/1/2014,872,111,Inbound,4240568,4241893,N Washington St @ Medford St,3,9,-6
+54,3/1/2014,875,111,Inbound,4240568,4241893,Haymarket Station,4,9,-5
+55,3/1/2014,857,111,Inbound,4241893,4241887,Elm St opp Haskell Ave,6,9,-3
+55,3/1/2014,859,111,Inbound,4241893,4241887,78 Garfield Ave opp Clyde St,9,9,0
+55,3/1/2014,861,111,Inbound,4241893,4241887,Sagamore Ave @ Washington Ave,8,9,-1
+55,3/1/2014,865,111,Inbound,4241893,4241887,Washington Ave @ Cary Ave,8,9,-1
+55,3/1/2014,868,111,Inbound,4241893,4241887,Washington Ave @ Broadway,7,9,-2
+55,3/1/2014,873,111,Inbound,4241893,4241887,Arlington St @ Fifth St,6,9,-3
+55,3/1/2014,874,111,Inbound,4241893,4241887,Tobin Bridge Timepoint -Southbound Not a Stop,7,9,-2
+55,3/1/2014,878,111,Inbound,4241893,4241887,Rutherford Ramp Timepoint Southbound Not a Stop,6,9,-3
+55,3/1/2014,881,111,Inbound,4241893,4241887,N Washington St @ Medford St,6,9,-3
+55,3/1/2014,884,111,Inbound,4241893,4241887,Haymarket Station,7,9,-2
+56,3/1/2014,866,111,Inbound,4241887,4241933,Elm St opp Haskell Ave,24,18,6
+56,3/1/2014,868,111,Inbound,4241887,4241933,78 Garfield Ave opp Clyde St,24,18,6
+56,3/1/2014,870,111,Inbound,4241887,4241933,Sagamore Ave @ Washington Ave,24,18,6
+56,3/1/2014,874,111,Inbound,4241887,4241933,Washington Ave @ Cary Ave,27,18,9
+56,3/1/2014,877,111,Inbound,4241887,4241933,Washington Ave @ Broadway,28,18,10
+56,3/1/2014,882,111,Inbound,4241887,4241933,Arlington St @ Fifth St,32,18,14
+56,3/1/2014,883,111,Inbound,4241887,4241933,Tobin Bridge Timepoint -Southbound Not a Stop,32,18,14
+56,3/1/2014,887,111,Inbound,4241887,4241933,Rutherford Ramp Timepoint Southbound Not a Stop,33,18,15
+56,3/1/2014,890,111,Inbound,4241887,4241933,N Washington St @ Medford St,34,18,16
+56,3/1/2014,893,111,Inbound,4241887,4241933,Haymarket Station,36,18,18
+57,3/1/2014,884,111,Inbound,4241933,4241830,Elm St opp Haskell Ave,4,9,-5
+57,3/1/2014,886,111,Inbound,4241933,4241830,78 Garfield Ave opp Clyde St,2,9,-7
+57,3/1/2014,888,111,Inbound,4241933,4241830,Sagamore Ave @ Washington Ave,3,9,-6
+57,3/1/2014,892,111,Inbound,4241933,4241830,Washington Ave @ Cary Ave,0,9,-9
+57,3/1/2014,895,111,Inbound,4241933,4241830,Washington Ave @ Broadway,0,9,-9
+57,3/1/2014,900,111,Inbound,4241933,4241830,Arlington St @ Fifth St,0,9,-9
+57,3/1/2014,901,111,Inbound,4241933,4241830,Tobin Bridge Timepoint -Southbound Not a Stop,0,9,-9
+57,3/1/2014,905,111,Inbound,4241933,4241830,Rutherford Ramp Timepoint Southbound Not a Stop,0,9,-9
+57,3/1/2014,908,111,Inbound,4241933,4241830,N Washington St @ Medford St,-2,9,-11
+58,3/1/2014,914,111,Inbound,4241830,4240586,Rutherford Ramp Timepoint Southbound Not a Stop,-16,-18,2
+58,3/1/2014,917,111,Inbound,4241830,4240586,N Washington St @ Medford St,-16,-18,2
+59,3/1/2014,896,111,Inbound,4240586,4241810,Rutherford Ramp Timepoint Southbound Not a Stop,28,27,1
+59,3/1/2014,899,111,Inbound,4240586,4241810,N Washington St @ Medford St,28,27,1
+59,3/1/2014,902,111,Inbound,4240586,4241810,Haymarket Station,29,27,2
+60,3/1/2014,902,111,Inbound,4241810,4240570,Elm St opp Haskell Ave,5,9,-4
+60,3/1/2014,904,111,Inbound,4241810,4240570,78 Garfield Ave opp Clyde St,6,9,-3
+60,3/1/2014,906,111,Inbound,4241810,4240570,Sagamore Ave @ Washington Ave,6,9,-3
+60,3/1/2014,910,111,Inbound,4241810,4240570,Washington Ave @ Cary Ave,7,9,-2
+60,3/1/2014,913,111,Inbound,4241810,4240570,Washington Ave @ Broadway,6,9,-3
+60,3/1/2014,918,111,Inbound,4241810,4240570,Arlington St @ Fifth St,4,9,-5
+60,3/1/2014,919,111,Inbound,4241810,4240570,Tobin Bridge Timepoint -Southbound Not a Stop,4,9,-5
+60,3/1/2014,923,111,Inbound,4241810,4240570,Rutherford Ramp Timepoint Southbound Not a Stop,3,8,-5
+60,3/1/2014,926,111,Inbound,4241810,4240570,N Washington St @ Medford St,4,8,-4
+60,3/1/2014,929,111,Inbound,4241810,4240570,Haymarket Station,4,6,-2
+61,3/1/2014,911,111,Inbound,4240570,4241895,Elm St opp Haskell Ave,12,9,3
+61,3/1/2014,913,111,Inbound,4240570,4241895,78 Garfield Ave opp Clyde St,9,9,0
+61,3/1/2014,915,111,Inbound,4240570,4241895,Sagamore Ave @ Washington Ave,10,9,1
+61,3/1/2014,919,111,Inbound,4240570,4241895,Washington Ave @ Cary Ave,8,9,-1
+61,3/1/2014,922,111,Inbound,4240570,4241895,Washington Ave @ Broadway,9,9,0
+61,3/1/2014,927,111,Inbound,4240570,4241895,Arlington St @ Fifth St,11,8,3
+61,3/1/2014,928,111,Inbound,4240570,4241895,Tobin Bridge Timepoint -Southbound Not a Stop,11,8,3
+61,3/1/2014,931,111,Inbound,4240570,4241895,Rutherford Ramp Timepoint Southbound Not a Stop,12,8,4
+61,3/1/2014,934,111,Inbound,4240570,4241895,N Washington St @ Medford St,12,8,4
+61,3/1/2014,935,111,Inbound,4240570,4241895,Haymarket Station,12,8,4
+62,3/1/2014,920,111,Inbound,4241895,4241889,Elm St opp Haskell Ave,6,9,-3
+62,3/1/2014,922,111,Inbound,4241895,4241889,78 Garfield Ave opp Clyde St,7,9,-2
+62,3/1/2014,924,111,Inbound,4241895,4241889,Sagamore Ave @ Washington Ave,7,8,-1
+62,3/1/2014,928,111,Inbound,4241895,4241889,Washington Ave @ Cary Ave,6,9,-3
+62,3/1/2014,931,111,Inbound,4241895,4241889,Washington Ave @ Broadway,5,9,-4
+62,3/1/2014,935,111,Inbound,4241895,4241889,Arlington St @ Fifth St,2,9,-7
+62,3/1/2014,936,111,Inbound,4241895,4241889,Tobin Bridge Timepoint -Southbound Not a Stop,2,9,-7
+62,3/1/2014,939,111,Inbound,4241895,4241889,Rutherford Ramp Timepoint Southbound Not a Stop,1,9,-8
+62,3/1/2014,942,111,Inbound,4241895,4241889,N Washington St @ Medford St,2,9,-7
+62,3/1/2014,943,111,Inbound,4241895,4241889,Haymarket Station,1,9,-8
+63,3/1/2014,929,111,Inbound,4241889,4240588,Elm St opp Haskell Ave,10,9,1
+63,3/1/2014,931,111,Inbound,4241889,4240588,78 Garfield Ave opp Clyde St,10,9,1
+63,3/1/2014,932,111,Inbound,4241889,4240588,Sagamore Ave @ Washington Ave,9,9,0
+63,3/1/2014,937,111,Inbound,4241889,4240588,Washington Ave @ Cary Ave,10,9,1
+63,3/1/2014,940,111,Inbound,4241889,4240588,Washington Ave @ Broadway,10,9,1
+63,3/1/2014,944,111,Inbound,4241889,4240588,Arlington St @ Fifth St,13,9,4
+63,3/1/2014,945,111,Inbound,4241889,4240588,Tobin Bridge Timepoint -Southbound Not a Stop,13,9,4
+63,3/1/2014,948,111,Inbound,4241889,4240588,Rutherford Ramp Timepoint Southbound Not a Stop,14,9,5
+63,3/1/2014,951,111,Inbound,4241889,4240588,N Washington St @ Medford St,15,9,6
+63,3/1/2014,952,111,Inbound,4241889,4240588,Haymarket Station,16,9,7
+64,3/1/2014,938,111,Inbound,4240588,4241935,Elm St opp Haskell Ave,18,9,9
+64,3/1/2014,940,111,Inbound,4240588,4241935,78 Garfield Ave opp Clyde St,19,9,10
+64,3/1/2014,941,111,Inbound,4240588,4241935,Sagamore Ave @ Washington Ave,19,9,10
+64,3/1/2014,946,111,Inbound,4240588,4241935,Washington Ave @ Cary Ave,19,9,10
+64,3/1/2014,949,111,Inbound,4240588,4241935,Washington Ave @ Broadway,19,9,10
+64,3/1/2014,953,111,Inbound,4240588,4241935,Arlington St @ Fifth St,19,9,10
+64,3/1/2014,954,111,Inbound,4240588,4241935,Tobin Bridge Timepoint -Southbound Not a Stop,19,9,10
+64,3/1/2014,957,111,Inbound,4240588,4241935,Rutherford Ramp Timepoint Southbound Not a Stop,20,9,11
+64,3/1/2014,960,111,Inbound,4240588,4241935,N Washington St @ Medford St,18,9,9
+64,3/1/2014,961,111,Inbound,4240588,4241935,Haymarket Station,18,9,9
+65,3/1/2014,947,111,Inbound,4241935,4241963,Elm St opp Haskell Ave,1,9,-8
+65,3/1/2014,949,111,Inbound,4241935,4241963,78 Garfield Ave opp Clyde St,0,9,-9
+65,3/1/2014,950,111,Inbound,4241935,4241963,Sagamore Ave @ Washington Ave,0,9,-9
+65,3/1/2014,955,111,Inbound,4241935,4241963,Washington Ave @ Cary Ave,1,9,-8
+65,3/1/2014,958,111,Inbound,4241935,4241963,Washington Ave @ Broadway,1,9,-8
+65,3/1/2014,962,111,Inbound,4241935,4241963,Arlington St @ Fifth St,0,9,-9
+65,3/1/2014,963,111,Inbound,4241935,4241963,Tobin Bridge Timepoint -Southbound Not a Stop,0,9,-9
+65,3/1/2014,966,111,Inbound,4241935,4241963,Rutherford Ramp Timepoint Southbound Not a Stop,-1,9,-10
+65,3/1/2014,969,111,Inbound,4241935,4241963,N Washington St @ Medford St,0,9,-9
+65,3/1/2014,970,111,Inbound,4241935,4241963,Haymarket Station,0,9,-9
+66,3/1/2014,956,111,Inbound,4241963,4240572,Elm St opp Haskell Ave,10,9,1
+66,3/1/2014,958,111,Inbound,4241963,4240572,78 Garfield Ave opp Clyde St,12,9,3
+66,3/1/2014,959,111,Inbound,4241963,4240572,Sagamore Ave @ Washington Ave,13,9,4
+66,3/1/2014,964,111,Inbound,4241963,4240572,Washington Ave @ Cary Ave,12,9,3
+66,3/1/2014,967,111,Inbound,4241963,4240572,Washington Ave @ Broadway,12,9,3
+66,3/1/2014,971,111,Inbound,4241963,4240572,Arlington St @ Fifth St,13,9,4
+66,3/1/2014,972,111,Inbound,4241963,4240572,Tobin Bridge Timepoint -Southbound Not a Stop,13,9,4
+66,3/1/2014,975,111,Inbound,4241963,4240572,Rutherford Ramp Timepoint Southbound Not a Stop,13,9,4
+66,3/1/2014,978,111,Inbound,4241963,4240572,N Washington St @ Medford St,11,9,2
+66,3/1/2014,979,111,Inbound,4241963,4240572,Haymarket Station,10,9,1
+67,3/1/2014,965,111,Inbound,4240572,4241897,Elm St opp Haskell Ave,9,9,0
+67,3/1/2014,967,111,Inbound,4240572,4241897,78 Garfield Ave opp Clyde St,8,9,-1
+67,3/1/2014,968,111,Inbound,4240572,4241897,Sagamore Ave @ Washington Ave,7,9,-2
+67,3/1/2014,973,111,Inbound,4240572,4241897,Washington Ave @ Cary Ave,10,9,1
+67,3/1/2014,976,111,Inbound,4240572,4241897,Washington Ave @ Broadway,10,9,1
+67,3/1/2014,980,111,Inbound,4240572,4241897,Arlington St @ Fifth St,8,9,-1
+67,3/1/2014,981,111,Inbound,4240572,4241897,Tobin Bridge Timepoint -Southbound Not a Stop,8,10,-2
+67,3/1/2014,984,111,Inbound,4240572,4241897,Rutherford Ramp Timepoint Southbound Not a Stop,8,10,-2
+67,3/1/2014,987,111,Inbound,4240572,4241897,N Washington St @ Medford St,10,9,1
+67,3/1/2014,988,111,Inbound,4240572,4241897,Haymarket Station,10,9,1
+68,3/1/2014,974,111,Inbound,4241897,4241891,Elm St opp Haskell Ave,12,9,3
+68,3/1/2014,976,111,Inbound,4241897,4241891,78 Garfield Ave opp Clyde St,11,9,2
+68,3/1/2014,977,111,Inbound,4241897,4241891,Sagamore Ave @ Washington Ave,11,9,2
+68,3/1/2014,982,111,Inbound,4241897,4241891,Washington Ave @ Cary Ave,9,8,1
+68,3/1/2014,985,111,Inbound,4241897,4241891,Washington Ave @ Broadway,9,8,1
+68,3/1/2014,989,111,Inbound,4241897,4241891,Arlington St @ Fifth St,9,7,2
+68,3/1/2014,991,111,Inbound,4241897,4241891,Tobin Bridge Timepoint -Southbound Not a Stop,8,7,1
+68,3/1/2014,994,111,Inbound,4241897,4241891,Rutherford Ramp Timepoint Southbound Not a Stop,8,7,1
+68,3/1/2014,996,111,Inbound,4241897,4241891,N Washington St @ Medford St,6,7,-1
+68,3/1/2014,997,111,Inbound,4241897,4241891,Haymarket Station,6,7,-1
+69,3/1/2014,983,111,Inbound,4241891,4240590,Elm St opp Haskell Ave,11,9,2
+69,3/1/2014,985,111,Inbound,4241891,4240590,78 Garfield Ave opp Clyde St,11,9,2
+69,3/1/2014,986,111,Inbound,4241891,4240590,Sagamore Ave @ Washington Ave,11,10,1
+69,3/1/2014,990,111,Inbound,4241891,4240590,Washington Ave @ Cary Ave,10,9,1
+69,3/1/2014,993,111,Inbound,4241891,4240590,Washington Ave @ Broadway,10,9,1
+69,3/1/2014,996,111,Inbound,4241891,4240590,Arlington St @ Fifth St,10,9,1
+69,3/1/2014,998,111,Inbound,4241891,4240590,Tobin Bridge Timepoint -Southbound Not a Stop,11,9,2
+69,3/1/2014,1001,111,Inbound,4241891,4240590,Rutherford Ramp Timepoint Southbound Not a Stop,11,9,2
+69,3/1/2014,1003,111,Inbound,4241891,4240590,N Washington St @ Medford St,12,9,3
+69,3/1/2014,1004,111,Inbound,4241891,4240590,Haymarket Station,13,9,4
+70,3/1/2014,992,111,Inbound,4240590,4241937,Elm St opp Haskell Ave,14,9,5
+70,3/1/2014,994,111,Inbound,4240590,4241937,78 Garfield Ave opp Clyde St,14,9,5
+70,3/1/2014,996,111,Inbound,4240590,4241937,Sagamore Ave @ Washington Ave,14,9,5
+70,3/1/2014,999,111,Inbound,4240590,4241937,Washington Ave @ Cary Ave,17,9,8
+70,3/1/2014,1002,111,Inbound,4240590,4241937,Washington Ave @ Broadway,17,9,8
+70,3/1/2014,1005,111,Inbound,4240590,4241937,Arlington St @ Fifth St,16,9,7
+70,3/1/2014,1007,111,Inbound,4240590,4241937,Tobin Bridge Timepoint -Southbound Not a Stop,16,9,7
+70,3/1/2014,1010,111,Inbound,4240590,4241937,Rutherford Ramp Timepoint Southbound Not a Stop,16,9,7
+70,3/1/2014,1012,111,Inbound,4240590,4241937,N Washington St @ Medford St,15,9,6
+70,3/1/2014,1013,111,Inbound,4240590,4241937,Haymarket Station,13,9,4
+71,3/1/2014,1001,111,Inbound,4241937,4241965,Elm St opp Haskell Ave,2,9,-7
+71,3/1/2014,1003,111,Inbound,4241937,4241965,78 Garfield Ave opp Clyde St,2,9,-7
+71,3/1/2014,1005,111,Inbound,4241937,4241965,Sagamore Ave @ Washington Ave,3,9,-6
+71,3/1/2014,1008,111,Inbound,4241937,4241965,Washington Ave @ Cary Ave,2,9,-7
+71,3/1/2014,1011,111,Inbound,4241937,4241965,Washington Ave @ Broadway,1,9,-8
+71,3/1/2014,1014,111,Inbound,4241937,4241965,Arlington St @ Fifth St,2,9,-7
+71,3/1/2014,1016,111,Inbound,4241937,4241965,Tobin Bridge Timepoint -Southbound Not a Stop,2,9,-7
+71,3/1/2014,1019,111,Inbound,4241937,4241965,Rutherford Ramp Timepoint Southbound Not a Stop,2,9,-7
+71,3/1/2014,1021,111,Inbound,4241937,4241965,N Washington St @ Medford St,3,9,-6
+71,3/1/2014,1022,111,Inbound,4241937,4241965,Haymarket Station,4,9,-5
+72,3/1/2014,1010,111,Inbound,4241965,4240574,Elm St opp Haskell Ave,7,9,-2
+72,3/1/2014,1012,111,Inbound,4241965,4240574,78 Garfield Ave opp Clyde St,8,9,-1
+72,3/1/2014,1014,111,Inbound,4241965,4240574,Sagamore Ave @ Washington Ave,8,9,-1
+72,3/1/2014,1017,111,Inbound,4241965,4240574,Washington Ave @ Cary Ave,7,9,-2
+72,3/1/2014,1020,111,Inbound,4241965,4240574,Washington Ave @ Broadway,7,9,-2
+72,3/1/2014,1023,111,Inbound,4241965,4240574,Arlington St @ Fifth St,9,9,0
+72,3/1/2014,1025,111,Inbound,4241965,4240574,Tobin Bridge Timepoint -Southbound Not a Stop,8,9,-1
+72,3/1/2014,1028,111,Inbound,4241965,4240574,Rutherford Ramp Timepoint Southbound Not a Stop,8,9,-1
+72,3/1/2014,1030,111,Inbound,4241965,4240574,N Washington St @ Medford St,8,9,-1
+72,3/1/2014,1031,111,Inbound,4241965,4240574,Haymarket Station,8,9,-1
+73,3/1/2014,1019,111,Inbound,4240574,4241899,Elm St opp Haskell Ave,15,9,6
+73,3/1/2014,1021,111,Inbound,4240574,4241899,78 Garfield Ave opp Clyde St,16,9,7
+73,3/1/2014,1023,111,Inbound,4240574,4241899,Sagamore Ave @ Washington Ave,16,9,7
+73,3/1/2014,1026,111,Inbound,4240574,4241899,Washington Ave @ Cary Ave,16,9,7
+73,3/1/2014,1029,111,Inbound,4240574,4241899,Washington Ave @ Broadway,19,9,10
+73,3/1/2014,1032,111,Inbound,4240574,4241899,Arlington St @ Fifth St,18,9,9
+73,3/1/2014,1034,111,Inbound,4240574,4241899,Tobin Bridge Timepoint -Southbound Not a Stop,19,9,10
+73,3/1/2014,1037,111,Inbound,4240574,4241899,Rutherford Ramp Timepoint Southbound Not a Stop,18,9,9
+73,3/1/2014,1039,111,Inbound,4240574,4241899,N Washington St @ Medford St,18,9,9
+73,3/1/2014,1040,111,Inbound,4240574,4241899,Haymarket Station,18,9,9
+74,3/1/2014,1028,111,Inbound,4241899,4241913,Elm St opp Haskell Ave,8,18,-10
+74,3/1/2014,1030,111,Inbound,4241899,4241913,78 Garfield Ave opp Clyde St,7,18,-11
+74,3/1/2014,1032,111,Inbound,4241899,4241913,Sagamore Ave @ Washington Ave,6,18,-12
+74,3/1/2014,1035,111,Inbound,4241899,4241913,Washington Ave @ Cary Ave,5,18,-13
+74,3/1/2014,1038,111,Inbound,4241899,4241913,Washington Ave @ Broadway,3,18,-15
+74,3/1/2014,1041,111,Inbound,4241899,4241913,Arlington St @ Fifth St,2,18,-16
+74,3/1/2014,1043,111,Inbound,4241899,4241913,Tobin Bridge Timepoint -Southbound Not a Stop,1,18,-17
+74,3/1/2014,1046,111,Inbound,4241899,4241913,Rutherford Ramp Timepoint Southbound Not a Stop,2,18,-16
+74,3/1/2014,1048,111,Inbound,4241899,4241913,N Washington St @ Medford St,2,18,-16
+74,3/1/2014,1049,111,Inbound,4241899,4241913,Haymarket Station,2,18,-16
+75,3/1/2014,1046,111,Inbound,4241913,4241939,Elm St opp Haskell Ave,17,9,8
+75,3/1/2014,1048,111,Inbound,4241913,4241939,78 Garfield Ave opp Clyde St,16,9,7
+75,3/1/2014,1050,111,Inbound,4241913,4241939,Sagamore Ave @ Washington Ave,17,9,8
+75,3/1/2014,1053,111,Inbound,4241913,4241939,Washington Ave @ Cary Ave,17,9,8
+75,3/1/2014,1056,111,Inbound,4241913,4241939,Washington Ave @ Broadway,18,9,9
+75,3/1/2014,1059,111,Inbound,4241913,4241939,Arlington St @ Fifth St,19,9,10
+75,3/1/2014,1061,111,Inbound,4241913,4241939,Tobin Bridge Timepoint -Southbound Not a Stop,20,9,11
+75,3/1/2014,1064,111,Inbound,4241913,4241939,Rutherford Ramp Timepoint Southbound Not a Stop,19,9,10
+75,3/1/2014,1066,111,Inbound,4241913,4241939,N Washington St @ Medford St,19,9,10
+75,3/1/2014,1067,111,Inbound,4241913,4241939,Haymarket Station,19,9,10
+76,3/1/2014,1055,111,Inbound,4241939,4241967,Elm St opp Haskell Ave,6,9,-3
+76,3/1/2014,1057,111,Inbound,4241939,4241967,78 Garfield Ave opp Clyde St,6,9,-3
+76,3/1/2014,1059,111,Inbound,4241939,4241967,Sagamore Ave @ Washington Ave,5,9,-4
+76,3/1/2014,1062,111,Inbound,4241939,4241967,Washington Ave @ Cary Ave,6,9,-3
+76,3/1/2014,1065,111,Inbound,4241939,4241967,Washington Ave @ Broadway,4,9,-5
+76,3/1/2014,1068,111,Inbound,4241939,4241967,Arlington St @ Fifth St,3,9,-6
+76,3/1/2014,1070,111,Inbound,4241939,4241967,Tobin Bridge Timepoint -Southbound Not a Stop,3,9,-6
+76,3/1/2014,1073,111,Inbound,4241939,4241967,Rutherford Ramp Timepoint Southbound Not a Stop,4,9,-5
+76,3/1/2014,1075,111,Inbound,4241939,4241967,N Washington St @ Medford St,3,9,-6
+76,3/1/2014,1076,111,Inbound,4241939,4241967,Haymarket Station,3,9,-6
+77,3/1/2014,1064,111,Inbound,4241967,4242952,Elm St opp Haskell Ave,-14,9,-23
+77,3/1/2014,1066,111,Inbound,4241967,4242952,78 Garfield Ave opp Clyde St,3,9,-6
+77,3/1/2014,1068,111,Inbound,4241967,4242952,Sagamore Ave @ Washington Ave,3,9,-6
+77,3/1/2014,1071,111,Inbound,4241967,4242952,Washington Ave @ Cary Ave,3,9,-6
+77,3/1/2014,1074,111,Inbound,4241967,4242952,Washington Ave @ Broadway,3,9,-6
+77,3/1/2014,1077,111,Inbound,4241967,4242952,Arlington St @ Fifth St,3,9,-6
+77,3/1/2014,1079,111,Inbound,4241967,4242952,Tobin Bridge Timepoint -Southbound Not a Stop,3,9,-6
+77,3/1/2014,1082,111,Inbound,4241967,4242952,Rutherford Ramp Timepoint Southbound Not a Stop,3,9,-6
+77,3/1/2014,1084,111,Inbound,4241967,4242952,N Washington St @ Medford St,5,9,-4
+77,3/1/2014,1085,111,Inbound,4241967,4242952,Haymarket Station,5,9,-4
+78,3/1/2014,1073,111,Inbound,4242952,4241995,Elm St opp Haskell Ave,19,9,10
+78,3/1/2014,1075,111,Inbound,4242952,4241995,78 Garfield Ave opp Clyde St,12,9,3
+78,3/1/2014,1077,111,Inbound,4242952,4241995,Sagamore Ave @ Washington Ave,12,9,3
+78,3/1/2014,1080,111,Inbound,4242952,4241995,Washington Ave @ Cary Ave,13,9,4
+78,3/1/2014,1083,111,Inbound,4242952,4241995,Washington Ave @ Broadway,13,9,4
+78,3/1/2014,1086,111,Inbound,4242952,4241995,Arlington St @ Fifth St,15,9,6
+78,3/1/2014,1088,111,Inbound,4242952,4241995,Tobin Bridge Timepoint -Southbound Not a Stop,14,9,5
+78,3/1/2014,1091,111,Inbound,4242952,4241995,Rutherford Ramp Timepoint Southbound Not a Stop,14,9,5
+78,3/1/2014,1093,111,Inbound,4242952,4241995,N Washington St @ Medford St,13,9,4
+78,3/1/2014,1094,111,Inbound,4242952,4241995,Haymarket Station,13,9,4
+79,3/1/2014,1082,111,Inbound,4241995,4241901,Elm St opp Haskell Ave,21,9,12
+79,3/1/2014,1084,111,Inbound,4241995,4241901,78 Garfield Ave opp Clyde St,11,9,2
+79,3/1/2014,1086,111,Inbound,4241995,4241901,Sagamore Ave @ Washington Ave,11,9,2
+79,3/1/2014,1089,111,Inbound,4241995,4241901,Washington Ave @ Cary Ave,11,9,2
+79,3/1/2014,1092,111,Inbound,4241995,4241901,Washington Ave @ Broadway,12,9,3
+79,3/1/2014,1095,111,Inbound,4241995,4241901,Arlington St @ Fifth St,10,9,1
+79,3/1/2014,1097,111,Inbound,4241995,4241901,Tobin Bridge Timepoint -Southbound Not a Stop,11,9,2
+79,3/1/2014,1100,111,Inbound,4241995,4241901,Rutherford Ramp Timepoint Southbound Not a Stop,12,9,3
+79,3/1/2014,1102,111,Inbound,4241995,4241901,N Washington St @ Medford St,11,9,2
+79,3/1/2014,1103,111,Inbound,4241995,4241901,Haymarket Station,12,9,3
+80,3/1/2014,1091,111,Inbound,4241901,4241915,Elm St opp Haskell Ave,16,19,-3
+80,3/1/2014,1093,111,Inbound,4241901,4241915,78 Garfield Ave opp Clyde St,16,19,-3
+80,3/1/2014,1095,111,Inbound,4241901,4241915,Sagamore Ave @ Washington Ave,17,19,-2
+80,3/1/2014,1098,111,Inbound,4241901,4241915,Washington Ave @ Cary Ave,16,19,-3
+80,3/1/2014,1101,111,Inbound,4241901,4241915,Washington Ave @ Broadway,17,19,-2
+80,3/1/2014,1104,111,Inbound,4241901,4241915,Arlington St @ Fifth St,18,19,-1
+80,3/1/2014,1106,111,Inbound,4241901,4241915,Tobin Bridge Timepoint -Southbound Not a Stop,18,19,-1
+80,3/1/2014,1109,111,Inbound,4241901,4241915,Rutherford Ramp Timepoint Southbound Not a Stop,18,19,-1
+80,3/1/2014,1111,111,Inbound,4241901,4241915,N Washington St @ Medford St,19,19,0
+80,3/1/2014,1112,111,Inbound,4241901,4241915,Haymarket Station,18,19,-1
+81,3/1/2014,1110,111,Inbound,4241915,4241941,Elm St opp Haskell Ave,2,10,-8
+81,3/1/2014,1112,111,Inbound,4241915,4241941,78 Garfield Ave opp Clyde St,10,10,0
+81,3/1/2014,1114,111,Inbound,4241915,4241941,Sagamore Ave @ Washington Ave,9,10,-1
+81,3/1/2014,1117,111,Inbound,4241915,4241941,Washington Ave @ Cary Ave,8,10,-2
+81,3/1/2014,1120,111,Inbound,4241915,4241941,Washington Ave @ Broadway,7,10,-3
+81,3/1/2014,1123,111,Inbound,4241915,4241941,Arlington St @ Fifth St,6,10,-4
+81,3/1/2014,1125,111,Inbound,4241915,4241941,Tobin Bridge Timepoint -Southbound Not a Stop,6,10,-4
+81,3/1/2014,1128,111,Inbound,4241915,4241941,Rutherford Ramp Timepoint Southbound Not a Stop,8,10,-2
+81,3/1/2014,1130,111,Inbound,4241915,4241941,N Washington St @ Medford St,8,10,-2
+81,3/1/2014,1131,111,Inbound,4241915,4241941,Haymarket Station,9,10,-1
+82,3/1/2014,1141,111,Inbound,4241941,4241905,Haymarket Station,-23,-20,-3
+83,3/1/2014,1121,111,Inbound,4241905,4241969,Haymarket Station,32,30,2
+84,3/1/2014,1130,111,Inbound,4241969,4241997,Elm St opp Haskell Ave,22,13,9
+84,3/1/2014,1132,111,Inbound,4241969,4241997,78 Garfield Ave opp Clyde St,15,13,2
+84,3/1/2014,1134,111,Inbound,4241969,4241997,Sagamore Ave @ Washington Ave,15,13,2
+84,3/1/2014,1137,111,Inbound,4241969,4241997,Washington Ave @ Cary Ave,14,13,1
+84,3/1/2014,1140,111,Inbound,4241969,4241997,Washington Ave @ Broadway,13,13,0
+84,3/1/2014,1143,111,Inbound,4241969,4241997,Arlington St @ Fifth St,11,13,-2
+84,3/1/2014,1145,111,Inbound,4241969,4241997,Tobin Bridge Timepoint -Southbound Not a Stop,11,13,-2
+84,3/1/2014,1148,111,Inbound,4241969,4241997,Rutherford Ramp Timepoint Southbound Not a Stop,10,13,-3
+84,3/1/2014,1150,111,Inbound,4241969,4241997,N Washington St @ Medford St,10,13,-3
+84,3/1/2014,1151,111,Inbound,4241969,4241997,Haymarket Station,18,13,5
+85,3/1/2014,1143,111,Inbound,4241997,4241907,Elm St opp Haskell Ave,12,14,-2
+85,3/1/2014,1145,111,Inbound,4241997,4241907,78 Garfield Ave opp Clyde St,13,14,-1
+85,3/1/2014,1147,111,Inbound,4241997,4241907,Sagamore Ave @ Washington Ave,14,14,0
+85,3/1/2014,1150,111,Inbound,4241997,4241907,Washington Ave @ Cary Ave,15,14,1
+85,3/1/2014,1153,111,Inbound,4241997,4241907,Washington Ave @ Broadway,16,14,2
+85,3/1/2014,1156,111,Inbound,4241997,4241907,Arlington St @ Fifth St,17,14,3
+85,3/1/2014,1158,111,Inbound,4241997,4241907,Tobin Bridge Timepoint -Southbound Not a Stop,16,14,2
+85,3/1/2014,1161,111,Inbound,4241997,4241907,Rutherford Ramp Timepoint Southbound Not a Stop,17,13,4
+85,3/1/2014,1163,111,Inbound,4241997,4241907,N Washington St @ Medford St,17,14,3
+85,3/1/2014,1164,111,Inbound,4241997,4241907,Haymarket Station,9,14,-5
+86,3/1/2014,1157,111,Inbound,4241907,4241917,Elm St opp Haskell Ave,7,13,-6
+86,3/1/2014,1159,111,Inbound,4241907,4241917,78 Garfield Ave opp Clyde St,12,13,-1
+86,3/1/2014,1161,111,Inbound,4241907,4241917,Sagamore Ave @ Washington Ave,10,12,-2
+86,3/1/2014,1164,111,Inbound,4241907,4241917,Washington Ave @ Cary Ave,10,12,-2
+86,3/1/2014,1167,111,Inbound,4241907,4241917,Washington Ave @ Broadway,11,12,-1
+86,3/1/2014,1170,111,Inbound,4241907,4241917,Arlington St @ Fifth St,9,12,-3
+86,3/1/2014,1172,111,Inbound,4241907,4241917,Tobin Bridge Timepoint -Southbound Not a Stop,10,12,-2
+86,3/1/2014,1174,111,Inbound,4241907,4241917,Rutherford Ramp Timepoint Southbound Not a Stop,10,12,-2
+86,3/1/2014,1177,111,Inbound,4241907,4241917,N Washington St @ Medford St,9,12,-3
+86,3/1/2014,1178,111,Inbound,4241907,4241917,Haymarket Station,9,12,-3
+87,3/1/2014,1170,111,Inbound,4241917,4241971,Elm St opp Haskell Ave,22,14,8
+87,3/1/2014,1172,111,Inbound,4241917,4241971,78 Garfield Ave opp Clyde St,14,14,0
+87,3/1/2014,1173,111,Inbound,4241917,4241971,Sagamore Ave @ Washington Ave,15,14,1
+87,3/1/2014,1176,111,Inbound,4241917,4241971,Washington Ave @ Cary Ave,14,14,0
+87,3/1/2014,1179,111,Inbound,4241917,4241971,Washington Ave @ Broadway,13,14,-1
+87,3/1/2014,1182,111,Inbound,4241917,4241971,Arlington St @ Fifth St,14,14,0
+87,3/1/2014,1184,111,Inbound,4241917,4241971,Tobin Bridge Timepoint -Southbound Not a Stop,14,14,0
+87,3/1/2014,1186,111,Inbound,4241917,4241971,Rutherford Ramp Timepoint Southbound Not a Stop,13,14,-1
+87,3/1/2014,1189,111,Inbound,4241917,4241971,N Washington St @ Medford St,14,14,0
+87,3/1/2014,1190,111,Inbound,4241917,4241971,Haymarket Station,14,14,0
+88,3/1/2014,1184,111,Inbound,4241971,4241999,Elm St opp Haskell Ave,12,13,-1
+88,3/1/2014,1186,111,Inbound,4241971,4241999,78 Garfield Ave opp Clyde St,14,13,1
+88,3/1/2014,1187,111,Inbound,4241971,4241999,Sagamore Ave @ Washington Ave,15,13,2
+88,3/1/2014,1190,111,Inbound,4241971,4241999,Washington Ave @ Cary Ave,14,13,1
+88,3/1/2014,1193,111,Inbound,4241971,4241999,Washington Ave @ Broadway,13,13,0
+88,3/1/2014,1196,111,Inbound,4241971,4241999,Arlington St @ Fifth St,15,13,2
+88,3/1/2014,1198,111,Inbound,4241971,4241999,Tobin Bridge Timepoint -Southbound Not a Stop,14,13,1
+88,3/1/2014,1200,111,Inbound,4241971,4241999,Rutherford Ramp Timepoint Southbound Not a Stop,15,13,2
+88,3/1/2014,1203,111,Inbound,4241971,4241999,N Washington St @ Medford St,14,13,1
+88,3/1/2014,1204,111,Inbound,4241971,4241999,Haymarket Station,15,13,2
+89,3/1/2014,1197,111,Inbound,4241999,4241909,Elm St opp Haskell Ave,12,14,-2
+89,3/1/2014,1199,111,Inbound,4241999,4241909,78 Garfield Ave opp Clyde St,13,14,-1
+89,3/1/2014,1200,111,Inbound,4241999,4241909,Sagamore Ave @ Washington Ave,12,14,-2
+89,3/1/2014,1203,111,Inbound,4241999,4241909,Washington Ave @ Cary Ave,13,14,-1
+89,3/1/2014,1206,111,Inbound,4241999,4241909,Washington Ave @ Broadway,14,14,0
+89,3/1/2014,1209,111,Inbound,4241999,4241909,Arlington St @ Fifth St,13,14,-1
+89,3/1/2014,1211,111,Inbound,4241999,4241909,Tobin Bridge Timepoint -Southbound Not a Stop,14,14,0
+89,3/1/2014,1213,111,Inbound,4241999,4241909,Rutherford Ramp Timepoint Southbound Not a Stop,13,14,-1
+89,3/1/2014,1216,111,Inbound,4241999,4241909,N Washington St @ Medford St,15,14,1
+89,3/1/2014,1217,111,Inbound,4241999,4241909,Haymarket Station,13,14,-1
+90,3/1/2014,1211,111,Inbound,4241909,4241919,Elm St opp Haskell Ave,18,13,5
+90,3/1/2014,1213,111,Inbound,4241909,4241919,78 Garfield Ave opp Clyde St,12,13,-1
+90,3/1/2014,1214,111,Inbound,4241909,4241919,Sagamore Ave @ Washington Ave,12,13,-1
+90,3/1/2014,1217,111,Inbound,4241909,4241919,Washington Ave @ Cary Ave,12,13,-1
+90,3/1/2014,1220,111,Inbound,4241909,4241919,Washington Ave @ Broadway,11,13,-2
+90,3/1/2014,1223,111,Inbound,4241909,4241919,Arlington St @ Fifth St,10,13,-3
+90,3/1/2014,1225,111,Inbound,4241909,4241919,Tobin Bridge Timepoint -Southbound Not a Stop,10,13,-3
+90,3/1/2014,1227,111,Inbound,4241909,4241919,Rutherford Ramp Timepoint Southbound Not a Stop,10,13,-3
+90,3/1/2014,1230,111,Inbound,4241909,4241919,N Washington St @ Medford St,9,13,-4
+90,3/1/2014,1231,111,Inbound,4241909,4241919,Haymarket Station,10,13,-3
+91,3/1/2014,1224,111,Inbound,4241919,4242016,Elm St opp Haskell Ave,13,14,-1
+91,3/1/2014,1226,111,Inbound,4241919,4242016,78 Garfield Ave opp Clyde St,15,14,1
+91,3/1/2014,1227,111,Inbound,4241919,4242016,Sagamore Ave @ Washington Ave,16,14,2
+91,3/1/2014,1230,111,Inbound,4241919,4242016,Washington Ave @ Cary Ave,17,14,3
+91,3/1/2014,1233,111,Inbound,4241919,4242016,Washington Ave @ Broadway,17,14,3
+91,3/1/2014,1236,111,Inbound,4241919,4242016,Arlington St @ Fifth St,19,14,5
+91,3/1/2014,1238,111,Inbound,4241919,4242016,Tobin Bridge Timepoint -Southbound Not a Stop,19,14,5
+91,3/1/2014,1240,111,Inbound,4241919,4242016,Rutherford Ramp Timepoint Southbound Not a Stop,19,14,5
+91,3/1/2014,1243,111,Inbound,4241919,4242016,N Washington St @ Medford St,18,14,4
+91,3/1/2014,1244,111,Inbound,4241919,4242016,Haymarket Station,19,14,5
+92,3/1/2014,1238,111,Inbound,4242016,4242001,Elm St opp Haskell Ave,9,13,-4
+92,3/1/2014,1240,111,Inbound,4242016,4242001,78 Garfield Ave opp Clyde St,14,13,1
+92,3/1/2014,1241,111,Inbound,4242016,4242001,Sagamore Ave @ Washington Ave,13,13,0
+92,3/1/2014,1244,111,Inbound,4242016,4242001,Washington Ave @ Cary Ave,14,13,1
+92,3/1/2014,1247,111,Inbound,4242016,4242001,Washington Ave @ Broadway,15,13,2
+92,3/1/2014,1250,111,Inbound,4242016,4242001,Arlington St @ Fifth St,11,13,-2
+92,3/1/2014,1252,111,Inbound,4242016,4242001,Tobin Bridge Timepoint -Southbound Not a Stop,11,13,-2
+92,3/1/2014,1254,111,Inbound,4242016,4242001,Rutherford Ramp Timepoint Southbound Not a Stop,11,13,-2
+92,3/1/2014,1257,111,Inbound,4242016,4242001,N Washington St @ Medford St,13,13,0
+92,3/1/2014,1258,111,Inbound,4242016,4242001,Haymarket Station,12,13,-1
+93,3/1/2014,1251,111,Inbound,4242001,4241911,Elm St opp Haskell Ave,16,14,2
+93,3/1/2014,1253,111,Inbound,4242001,4241911,78 Garfield Ave opp Clyde St,13,14,-1
+93,3/1/2014,1254,111,Inbound,4242001,4241911,Sagamore Ave @ Washington Ave,13,14,-1
+93,3/1/2014,1257,111,Inbound,4242001,4241911,Washington Ave @ Cary Ave,12,14,-2
+93,3/1/2014,1260,111,Inbound,4242001,4241911,Washington Ave @ Broadway,11,14,-3
+93,3/1/2014,1263,111,Inbound,4242001,4241911,Arlington St @ Fifth St,13,14,-1
+93,3/1/2014,1265,111,Inbound,4242001,4241911,Tobin Bridge Timepoint -Southbound Not a Stop,13,14,-1
+93,3/1/2014,1267,111,Inbound,4242001,4241911,Rutherford Ramp Timepoint Southbound Not a Stop,14,14,0
+93,3/1/2014,1270,111,Inbound,4242001,4241911,N Washington St @ Medford St,13,14,-1
+93,3/1/2014,1271,111,Inbound,4242001,4241911,Haymarket Station,13,14,-1
+94,3/1/2014,1265,111,Inbound,4241911,4241921,Elm St opp Haskell Ave,11,13,-2
+94,3/1/2014,1267,111,Inbound,4241911,4241921,78 Garfield Ave opp Clyde St,11,13,-2
+94,3/1/2014,1268,111,Inbound,4241911,4241921,Sagamore Ave @ Washington Ave,12,13,-1
+94,3/1/2014,1271,111,Inbound,4241911,4241921,Washington Ave @ Cary Ave,10,13,-3
+94,3/1/2014,1274,111,Inbound,4241911,4241921,Washington Ave @ Broadway,11,13,-2
+94,3/1/2014,1277,111,Inbound,4241911,4241921,Arlington St @ Fifth St,10,13,-3
+94,3/1/2014,1279,111,Inbound,4241911,4241921,Tobin Bridge Timepoint -Southbound Not a Stop,10,13,-3
+94,3/1/2014,1281,111,Inbound,4241911,4241921,Rutherford Ramp Timepoint Southbound Not a Stop,9,13,-4
+94,3/1/2014,1284,111,Inbound,4241911,4241921,N Washington St @ Medford St,9,13,-4
+94,3/1/2014,1285,111,Inbound,4241911,4241921,Haymarket Station,9,13,-4
+95,3/1/2014,1278,111,Inbound,4241921,4242018,Elm St opp Haskell Ave,15,14,1
+95,3/1/2014,1280,111,Inbound,4241921,4242018,78 Garfield Ave opp Clyde St,18,14,4
+95,3/1/2014,1281,111,Inbound,4241921,4242018,Sagamore Ave @ Washington Ave,17,14,3
+95,3/1/2014,1284,111,Inbound,4241921,4242018,Washington Ave @ Cary Ave,19,14,5
+95,3/1/2014,1287,111,Inbound,4241921,4242018,Washington Ave @ Broadway,20,14,6
+95,3/1/2014,1290,111,Inbound,4241921,4242018,Arlington St @ Fifth St,21,14,7
+95,3/1/2014,1292,111,Inbound,4241921,4242018,Tobin Bridge Timepoint -Southbound Not a Stop,20,14,6
+95,3/1/2014,1294,111,Inbound,4241921,4242018,Rutherford Ramp Timepoint Southbound Not a Stop,21,14,7
+95,3/1/2014,1297,111,Inbound,4241921,4242018,N Washington St @ Medford St,21,14,7
+95,3/1/2014,1298,111,Inbound,4241921,4242018,Haymarket Station,21,14,7
+96,3/1/2014,1292,111,Inbound,4242018,4242003,Elm St opp Haskell Ave,14,13,1
+96,3/1/2014,1294,111,Inbound,4242018,4242003,78 Garfield Ave opp Clyde St,7,13,-6
+96,3/1/2014,1306,111,Inbound,4242018,4242003,Tobin Bridge Timepoint -Southbound Not a Stop,-2,13,-15
+97,3/1/2014,1305,111,Inbound,4242003,4242038,Elm St opp Haskell Ave,13,14,-1
+97,3/1/2014,1307,111,Inbound,4242003,4242038,78 Garfield Ave opp Clyde St,18,14,4
+97,3/1/2014,1319,111,Inbound,4242003,4242038,Tobin Bridge Timepoint -Southbound Not a Stop,30,14,16
+98,3/1/2014,1319,111,Inbound,4242038,4240528,Elm St opp Haskell Ave,15,13,2
+98,3/1/2014,1321,111,Inbound,4242038,4240528,78 Garfield Ave opp Clyde St,23,13,10
+98,3/1/2014,1322,111,Inbound,4242038,4240528,Sagamore Ave @ Washington Ave,24,13,11
+98,3/1/2014,1325,111,Inbound,4242038,4240528,Washington Ave @ Cary Ave,21,13,8
+98,3/1/2014,1328,111,Inbound,4242038,4240528,Washington Ave @ Broadway,21,13,8
+98,3/1/2014,1331,111,Inbound,4242038,4240528,Arlington St @ Fifth St,19,13,6
+98,3/1/2014,1333,111,Inbound,4242038,4240528,Tobin Bridge Timepoint -Southbound Not a Stop,19,13,6
+98,3/1/2014,1335,111,Inbound,4242038,4240528,Rutherford Ramp Timepoint Southbound Not a Stop,18,13,5
+98,3/1/2014,1338,111,Inbound,4242038,4240528,N Washington St @ Medford St,19,13,6
+98,3/1/2014,1339,111,Inbound,4242038,4240528,Haymarket Station,22,13,9
+99,3/1/2014,1332,111,Inbound,4240528,4242020,Elm St opp Haskell Ave,15,13,2
+99,3/1/2014,1334,111,Inbound,4240528,4242020,78 Garfield Ave opp Clyde St,5,13,-8
+99,3/1/2014,1335,111,Inbound,4240528,4242020,Sagamore Ave @ Washington Ave,4,13,-9
+99,3/1/2014,1338,111,Inbound,4240528,4242020,Washington Ave @ Cary Ave,4,13,-9
+99,3/1/2014,1341,111,Inbound,4240528,4242020,Washington Ave @ Broadway,4,13,-9
+99,3/1/2014,1344,111,Inbound,4240528,4242020,Arlington St @ Fifth St,2,13,-11
+99,3/1/2014,1346,111,Inbound,4240528,4242020,Tobin Bridge Timepoint -Southbound Not a Stop,2,13,-11
+99,3/1/2014,1348,111,Inbound,4240528,4242020,Rutherford Ramp Timepoint Southbound Not a Stop,2,13,-11
+99,3/1/2014,1351,111,Inbound,4240528,4242020,N Washington St @ Medford St,3,13,-10
+99,3/1/2014,1352,111,Inbound,4240528,4242020,Haymarket Station,2,13,-11
+100,3/1/2014,1345,111,Inbound,4242020,4240545,Elm St opp Haskell Ave,12,13,-1
+100,3/1/2014,1347,111,Inbound,4242020,4240545,78 Garfield Ave opp Clyde St,11,13,-2
+100,3/1/2014,1348,111,Inbound,4242020,4240545,Sagamore Ave @ Washington Ave,11,13,-2
+100,3/1/2014,1351,111,Inbound,4242020,4240545,Washington Ave @ Cary Ave,12,13,-1
+100,3/1/2014,1354,111,Inbound,4242020,4240545,Washington Ave @ Broadway,12,13,-1
+100,3/1/2014,1357,111,Inbound,4242020,4240545,Arlington St @ Fifth St,13,13,0
+100,3/1/2014,1359,111,Inbound,4242020,4240545,Tobin Bridge Timepoint -Southbound Not a Stop,13,13,0
+100,3/1/2014,1361,111,Inbound,4242020,4240545,Rutherford Ramp Timepoint Southbound Not a Stop,13,13,0
+100,3/1/2014,1364,111,Inbound,4242020,4240545,N Washington St @ Medford St,13,13,0
+100,3/1/2014,1365,111,Inbound,4242020,4240545,Haymarket Station,13,13,0
+101,3/1/2014,1358,111,Inbound,4240545,4242040,Elm St opp Haskell Ave,16,13,3
+101,3/1/2014,1360,111,Inbound,4240545,4242040,78 Garfield Ave opp Clyde St,15,13,2
+101,3/1/2014,1361,111,Inbound,4240545,4242040,Sagamore Ave @ Washington Ave,15,13,2
+101,3/1/2014,1364,111,Inbound,4240545,4242040,Washington Ave @ Cary Ave,16,13,3
+101,3/1/2014,1367,111,Inbound,4240545,4242040,Washington Ave @ Broadway,16,13,3
+101,3/1/2014,1370,111,Inbound,4240545,4242040,Arlington St @ Fifth St,17,13,4
+101,3/1/2014,1372,111,Inbound,4240545,4242040,Tobin Bridge Timepoint -Southbound Not a Stop,17,12,5
+101,3/1/2014,1374,111,Inbound,4240545,4242040,Rutherford Ramp Timepoint Southbound Not a Stop,18,13,5
+101,3/1/2014,1377,111,Inbound,4240545,4242040,N Washington St @ Medford St,15,12,3
+101,3/1/2014,1378,111,Inbound,4240545,4242040,Haymarket Station,14,13,1
+102,3/1/2014,1371,111,Inbound,4242040,4240530,Elm St opp Haskell Ave,22,13,9
+102,3/1/2014,1373,111,Inbound,4242040,4240530,78 Garfield Ave opp Clyde St,23,13,10
+102,3/1/2014,1374,111,Inbound,4242040,4240530,Sagamore Ave @ Washington Ave,23,13,10
+102,3/1/2014,1377,111,Inbound,4242040,4240530,Washington Ave @ Cary Ave,22,12,10
+102,3/1/2014,1380,111,Inbound,4242040,4240530,Washington Ave @ Broadway,23,11,12
+102,3/1/2014,1383,111,Inbound,4242040,4240530,Arlington St @ Fifth St,22,11,11
+102,3/1/2014,1384,111,Inbound,4242040,4240530,Tobin Bridge Timepoint -Southbound Not a Stop,22,11,11
+102,3/1/2014,1387,111,Inbound,4242040,4240530,Rutherford Ramp Timepoint Southbound Not a Stop,21,11,10
+102,3/1/2014,1389,111,Inbound,4242040,4240530,N Washington St @ Medford St,21,11,10
+102,3/1/2014,1391,111,Inbound,4242040,4240530,Haymarket Station,20,11,9
+103,3/1/2014,1384,111,Inbound,4240530,4242022,Elm St opp Haskell Ave,2,13,-11
+103,3/1/2014,1386,111,Inbound,4240530,4242022,78 Garfield Ave opp Clyde St,3,13,-10
+103,3/1/2014,1387,111,Inbound,4240530,4242022,Sagamore Ave @ Washington Ave,3,13,-10
+103,3/1/2014,1389,111,Inbound,4240530,4242022,Washington Ave @ Cary Ave,2,13,-11
+103,3/1/2014,1391,111,Inbound,4240530,4242022,Washington Ave @ Broadway,1,13,-12
+103,3/1/2014,1394,111,Inbound,4240530,4242022,Arlington St @ Fifth St,1,13,-12
+103,3/1/2014,1395,111,Inbound,4240530,4242022,Tobin Bridge Timepoint -Southbound Not a Stop,1,13,-12
+103,3/1/2014,1398,111,Inbound,4240530,4242022,Rutherford Ramp Timepoint Southbound Not a Stop,2,13,-11
+103,3/1/2014,1400,111,Inbound,4240530,4242022,N Washington St @ Medford St,2,13,-11
+103,3/1/2014,1402,111,Inbound,4240530,4242022,Haymarket Station,2,13,-11
+104,3/1/2014,1397,111,Inbound,4242022,4240547,Elm St opp Haskell Ave,11,13,-2
+104,3/1/2014,1399,111,Inbound,4242022,4240547,78 Garfield Ave opp Clyde St,11,13,-2
+104,3/1/2014,1400,111,Inbound,4242022,4240547,Sagamore Ave @ Washington Ave,11,13,-2
+104,3/1/2014,1402,111,Inbound,4242022,4240547,Washington Ave @ Cary Ave,12,13,-1
+104,3/1/2014,1404,111,Inbound,4242022,4240547,Washington Ave @ Broadway,11,13,-2
+104,3/1/2014,1407,111,Inbound,4242022,4240547,Arlington St @ Fifth St,11,13,-2
+104,3/1/2014,1408,111,Inbound,4242022,4240547,Tobin Bridge Timepoint -Southbound Not a Stop,11,13,-2
+104,3/1/2014,1411,111,Inbound,4242022,4240547,Rutherford Ramp Timepoint Southbound Not a Stop,11,13,-2
+104,3/1/2014,1413,111,Inbound,4242022,4240547,N Washington St @ Medford St,10,13,-3
+104,3/1/2014,1415,111,Inbound,4242022,4240547,Haymarket Station,10,13,-3
+105,3/1/2014,1410,111,Inbound,4240547,4242042,Elm St opp Haskell Ave,12,13,-1
+105,3/1/2014,1412,111,Inbound,4240547,4242042,78 Garfield Ave opp Clyde St,13,13,0
+105,3/1/2014,1413,111,Inbound,4240547,4242042,Sagamore Ave @ Washington Ave,13,13,0
+105,3/1/2014,1415,111,Inbound,4240547,4242042,Washington Ave @ Cary Ave,12,13,-1
+105,3/1/2014,1417,111,Inbound,4240547,4242042,Washington Ave @ Broadway,13,13,0
+105,3/1/2014,1420,111,Inbound,4240547,4242042,Arlington St @ Fifth St,13,13,0
+105,3/1/2014,1421,111,Inbound,4240547,4242042,Tobin Bridge Timepoint -Southbound Not a Stop,13,13,0
+105,3/1/2014,1424,111,Inbound,4240547,4242042,Rutherford Ramp Timepoint Southbound Not a Stop,13,13,0
+105,3/1/2014,1426,111,Inbound,4240547,4242042,N Washington St @ Medford St,14,13,1
+105,3/1/2014,1428,111,Inbound,4240547,4242042,Haymarket Station,22,13,9
+106,3/1/2014,1423,111,Inbound,4242042,4240532,Elm St opp Haskell Ave,27,13,14
+106,3/1/2014,1425,111,Inbound,4242042,4240532,78 Garfield Ave opp Clyde St,27,13,14
+106,3/1/2014,1426,111,Inbound,4242042,4240532,Sagamore Ave @ Washington Ave,27,13,14
+106,3/1/2014,1428,111,Inbound,4242042,4240532,Washington Ave @ Cary Ave,26,13,13
+106,3/1/2014,1430,111,Inbound,4242042,4240532,Washington Ave @ Broadway,26,13,13
+106,3/1/2014,1433,111,Inbound,4242042,4240532,Arlington St @ Fifth St,25,13,12
+106,3/1/2014,1434,111,Inbound,4242042,4240532,Tobin Bridge Timepoint -Southbound Not a Stop,25,13,12
+106,3/1/2014,1437,111,Inbound,4242042,4240532,Rutherford Ramp Timepoint Southbound Not a Stop,24,13,11
+106,3/1/2014,1439,111,Inbound,4242042,4240532,N Washington St @ Medford St,24,13,11
+106,3/1/2014,1441,111,Inbound,4242042,4240532,Haymarket Station,16,13,3
+107,3/1/2014,1436,111,Inbound,4240532,4242024,Elm St opp Haskell Ave,0,15,-15
+107,3/1/2014,1438,111,Inbound,4240532,4242024,78 Garfield Ave opp Clyde St,6,15,-9
+107,3/1/2014,1439,111,Inbound,4240532,4242024,Sagamore Ave @ Washington Ave,6,15,-9
+107,3/1/2014,1441,111,Inbound,4240532,4242024,Washington Ave @ Cary Ave,8,15,-7
+107,3/1/2014,1443,111,Inbound,4240532,4242024,Washington Ave @ Broadway,7,15,-8
+107,3/1/2014,1446,111,Inbound,4240532,4242024,Arlington St @ Fifth St,8,15,-7
+107,3/1/2014,1447,111,Inbound,4240532,4242024,Tobin Bridge Timepoint -Southbound Not a Stop,8,15,-7
+107,3/1/2014,1450,111,Inbound,4240532,4242024,Rutherford Ramp Timepoint Southbound Not a Stop,9,15,-6
+107,3/1/2014,1452,111,Inbound,4240532,4242024,N Washington St @ Medford St,10,15,-5
+107,3/1/2014,1454,111,Inbound,4240532,4242024,Haymarket Station,9,15,-6
+108,3/1/2014,1451,111,Inbound,4242024,4240549,Elm St opp Haskell Ave,9,15,-6
+108,3/1/2014,1453,111,Inbound,4242024,4240549,78 Garfield Ave opp Clyde St,10,15,-5
+108,3/1/2014,1454,111,Inbound,4242024,4240549,Sagamore Ave @ Washington Ave,10,15,-5
+108,3/1/2014,1456,111,Inbound,4242024,4240549,Washington Ave @ Cary Ave,9,15,-6
+108,3/1/2014,1458,111,Inbound,4242024,4240549,Washington Ave @ Broadway,9,15,-6
+108,3/1/2014,1461,111,Inbound,4242024,4240549,Arlington St @ Fifth St,9,15,-6
+108,3/1/2014,1462,111,Inbound,4242024,4240549,Tobin Bridge Timepoint -Southbound Not a Stop,9,15,-6
+108,3/1/2014,1465,111,Inbound,4242024,4240549,Rutherford Ramp Timepoint Southbound Not a Stop,9,15,-6
+108,3/1/2014,1467,111,Inbound,4242024,4240549,N Washington St @ Medford St,8,15,-7
+108,3/1/2014,1469,111,Inbound,4242024,4240549,Haymarket Station,9,15,-6

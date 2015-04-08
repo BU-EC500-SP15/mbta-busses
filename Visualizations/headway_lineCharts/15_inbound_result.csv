@@ -1,0 +1,463 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,206,15,Inbound,4227419,4228650,Ashmont Station,42,30,12
+1,3/1/2014,209,15,Inbound,4227419,4228650,Geneva Ave opp Vinson St,33,30,3
+1,3/1/2014,211,15,Inbound,4227419,4228650,Bowdoin St @ Geneva Ave,32,29,3
+1,3/1/2014,212,15,Inbound,4227419,4228650,Hancock St @ Bowdoin St,32,30,2
+1,3/1/2014,214,15,Inbound,4227419,4228650,Columbia Rd @ Hancock St,32,29,3
+1,3/1/2014,216,15,Inbound,4227419,4228650,Dudley St @ Magazine St,31,30,1
+1,3/1/2014,219,15,Inbound,4227419,4228650,Dudley Station,32,29,3
+2,3/1/2014,240,15,Inbound,4228650,4229660,Bowdoin St @ Geneva Ave,55,58,-3
+2,3/1/2014,242,15,Inbound,4228650,4229660,Hancock St @ Bowdoin St,55,58,-3
+2,3/1/2014,243,15,Inbound,4228650,4229660,Columbia Rd @ Hancock St,56,58,-2
+2,3/1/2014,246,15,Inbound,4228650,4229660,Dudley St @ Magazine St,58,58,0
+2,3/1/2014,248,15,Inbound,4228650,4229660,Dudley Station,59,59,0
+3,3/1/2014,297,15,Inbound,4229660,4229662,Fields Corner Station @ Red Line,38,38,0
+3,3/1/2014,298,15,Inbound,4229660,4229662,Bowdoin St @ Geneva Ave,39,39,0
+3,3/1/2014,300,15,Inbound,4229660,4229662,Hancock St @ Bowdoin St,40,39,1
+3,3/1/2014,301,15,Inbound,4229660,4229662,Columbia Rd @ Hancock St,39,41,-2
+3,3/1/2014,304,15,Inbound,4229660,4229662,Dudley St @ Magazine St,39,42,-3
+3,3/1/2014,307,15,Inbound,4229660,4229662,Dudley Station,39,43,-4
+3,3/1/2014,308,15,Inbound,4229660,4229662,Malcolm X Blvd @ Tremont St,37,44,-7
+3,3/1/2014,310,15,Inbound,4229660,4229662,Ruggles Sta - Upper Level,38,44,-6
+4,3/1/2014,335,15,Inbound,4229662,4229749,Fields Corner Station @ Red Line,21,25,-4
+4,3/1/2014,337,15,Inbound,4229662,4229749,Bowdoin St @ Geneva Ave,27,25,2
+4,3/1/2014,339,15,Inbound,4229662,4229749,Hancock St @ Bowdoin St,27,25,2
+4,3/1/2014,342,15,Inbound,4229662,4229749,Columbia Rd @ Hancock St,29,25,4
+4,3/1/2014,346,15,Inbound,4229662,4229749,Dudley St @ Magazine St,31,25,6
+4,3/1/2014,350,15,Inbound,4229662,4229749,Dudley Station,32,25,7
+4,3/1/2014,352,15,Inbound,4229662,4229749,Malcolm X Blvd @ Tremont St,33,25,8
+4,3/1/2014,354,15,Inbound,4229662,4229749,Ruggles Sta - Upper Level,33,25,8
+5,3/1/2014,360,15,Inbound,4229749,4229829,Fields Corner Station @ Red Line,26,20,6
+5,3/1/2014,362,15,Inbound,4229749,4229829,Bowdoin St @ Geneva Ave,19,20,-1
+5,3/1/2014,364,15,Inbound,4229749,4229829,Hancock St @ Bowdoin St,19,20,-1
+5,3/1/2014,367,15,Inbound,4229749,4229829,Columbia Rd @ Hancock St,18,20,-2
+5,3/1/2014,371,15,Inbound,4229749,4229829,Dudley St @ Magazine St,16,20,-4
+5,3/1/2014,375,15,Inbound,4229749,4229829,Dudley Station,15,20,-5
+5,3/1/2014,377,15,Inbound,4229749,4229829,Malcolm X Blvd @ Tremont St,15,20,-5
+5,3/1/2014,379,15,Inbound,4229749,4229829,Ruggles Sta - Upper Level,15,20,-5
+6,3/1/2014,380,15,Inbound,4229829,4229664,Fields Corner Station @ Red Line,2,20,-18
+6,3/1/2014,382,15,Inbound,4229829,4229664,Bowdoin St @ Geneva Ave,22,20,2
+6,3/1/2014,384,15,Inbound,4229829,4229664,Hancock St @ Bowdoin St,23,20,3
+6,3/1/2014,387,15,Inbound,4229829,4229664,Columbia Rd @ Hancock St,24,20,4
+6,3/1/2014,391,15,Inbound,4229829,4229664,Dudley St @ Magazine St,26,20,6
+6,3/1/2014,395,15,Inbound,4229829,4229664,Dudley Station,26,20,6
+6,3/1/2014,397,15,Inbound,4229829,4229664,Malcolm X Blvd @ Tremont St,27,20,7
+6,3/1/2014,399,15,Inbound,4229829,4229664,Ruggles Sta - Upper Level,28,20,8
+7,3/1/2014,400,15,Inbound,4229664,4229751,Fields Corner Station @ Red Line,26,20,6
+7,3/1/2014,402,15,Inbound,4229664,4229751,Bowdoin St @ Geneva Ave,18,20,-2
+7,3/1/2014,404,15,Inbound,4229664,4229751,Hancock St @ Bowdoin St,17,20,-3
+7,3/1/2014,407,15,Inbound,4229664,4229751,Columbia Rd @ Hancock St,16,20,-4
+7,3/1/2014,411,15,Inbound,4229664,4229751,Dudley St @ Magazine St,15,20,-5
+7,3/1/2014,415,15,Inbound,4229664,4229751,Dudley Station,14,20,-6
+7,3/1/2014,417,15,Inbound,4229664,4229751,Malcolm X Blvd @ Tremont St,13,20,-7
+7,3/1/2014,419,15,Inbound,4229664,4229751,Ruggles Sta - Upper Level,12,20,-8
+8,3/1/2014,420,15,Inbound,4229751,4229831,Fields Corner Station @ Red Line,22,20,2
+8,3/1/2014,422,15,Inbound,4229751,4229831,Bowdoin St @ Geneva Ave,21,20,1
+8,3/1/2014,424,15,Inbound,4229751,4229831,Hancock St @ Bowdoin St,21,20,1
+8,3/1/2014,427,15,Inbound,4229751,4229831,Columbia Rd @ Hancock St,21,20,1
+8,3/1/2014,431,15,Inbound,4229751,4229831,Dudley St @ Magazine St,20,21,-1
+8,3/1/2014,435,15,Inbound,4229751,4229831,Dudley Station,19,22,-3
+8,3/1/2014,437,15,Inbound,4229751,4229831,Malcolm X Blvd @ Tremont St,19,22,-3
+8,3/1/2014,439,15,Inbound,4229751,4229831,Ruggles Sta - Upper Level,19,23,-4
+9,3/1/2014,440,15,Inbound,4229831,4229666,Fields Corner Station @ Red Line,25,20,5
+9,3/1/2014,442,15,Inbound,4229831,4229666,Bowdoin St @ Geneva Ave,18,20,-2
+9,3/1/2014,444,15,Inbound,4229831,4229666,Hancock St @ Bowdoin St,18,22,-4
+9,3/1/2014,447,15,Inbound,4229831,4229666,Columbia Rd @ Hancock St,18,21,-3
+9,3/1/2014,452,15,Inbound,4229831,4229666,Dudley St @ Magazine St,19,21,-2
+9,3/1/2014,457,15,Inbound,4229831,4229666,Dudley Station,20,21,-1
+9,3/1/2014,459,15,Inbound,4229831,4229666,Malcolm X Blvd @ Tremont St,21,21,0
+9,3/1/2014,462,15,Inbound,4229831,4229666,Ruggles Sta - Upper Level,20,21,-1
+10,3/1/2014,460,15,Inbound,4229666,4229753,Fields Corner Station @ Red Line,18,20,-2
+10,3/1/2014,462,15,Inbound,4229666,4229753,Bowdoin St @ Geneva Ave,21,20,1
+10,3/1/2014,466,15,Inbound,4229666,4229753,Hancock St @ Bowdoin St,21,20,1
+10,3/1/2014,468,15,Inbound,4229666,4229753,Columbia Rd @ Hancock St,21,20,1
+10,3/1/2014,473,15,Inbound,4229666,4229753,Dudley St @ Magazine St,22,20,2
+10,3/1/2014,478,15,Inbound,4229666,4229753,Dudley Station,24,20,4
+10,3/1/2014,480,15,Inbound,4229666,4229753,Malcolm X Blvd @ Tremont St,24,20,4
+10,3/1/2014,483,15,Inbound,4229666,4229753,Ruggles Sta - Upper Level,24,20,4
+11,3/1/2014,480,15,Inbound,4229753,4229833,Fields Corner Station @ Red Line,19,20,-1
+11,3/1/2014,482,15,Inbound,4229753,4229833,Bowdoin St @ Geneva Ave,21,20,1
+11,3/1/2014,486,15,Inbound,4229753,4229833,Hancock St @ Bowdoin St,21,20,1
+11,3/1/2014,488,15,Inbound,4229753,4229833,Columbia Rd @ Hancock St,21,20,1
+11,3/1/2014,493,15,Inbound,4229753,4229833,Dudley St @ Magazine St,19,21,-2
+11,3/1/2014,498,15,Inbound,4229753,4229833,Dudley Station,17,20,-3
+11,3/1/2014,500,15,Inbound,4229753,4229833,Malcolm X Blvd @ Tremont St,16,21,-5
+11,3/1/2014,503,15,Inbound,4229753,4229833,Ruggles Sta - Upper Level,16,21,-5
+12,3/1/2014,500,15,Inbound,4229833,4233721,Fields Corner Station @ Red Line,19,20,-1
+12,3/1/2014,502,15,Inbound,4229833,4233721,Bowdoin St @ Geneva Ave,20,20,0
+12,3/1/2014,506,15,Inbound,4229833,4233721,Hancock St @ Bowdoin St,21,21,0
+12,3/1/2014,508,15,Inbound,4229833,4233721,Columbia Rd @ Hancock St,22,21,1
+12,3/1/2014,514,15,Inbound,4229833,4233721,Dudley St @ Magazine St,25,21,4
+12,3/1/2014,518,15,Inbound,4229833,4233721,Dudley Station,30,21,9
+12,3/1/2014,521,15,Inbound,4229833,4233721,Malcolm X Blvd @ Tremont St,31,21,10
+12,3/1/2014,524,15,Inbound,4229833,4233721,Ruggles Sta - Upper Level,32,21,11
+13,3/1/2014,520,15,Inbound,4233721,4229755,Fields Corner Station @ Red Line,28,20,8
+13,3/1/2014,522,15,Inbound,4233721,4229755,Bowdoin St @ Geneva Ave,22,20,2
+13,3/1/2014,527,15,Inbound,4233721,4229755,Hancock St @ Bowdoin St,22,20,2
+13,3/1/2014,529,15,Inbound,4233721,4229755,Columbia Rd @ Hancock St,20,20,0
+13,3/1/2014,535,15,Inbound,4233721,4229755,Dudley St @ Magazine St,21,20,1
+13,3/1/2014,539,15,Inbound,4233721,4229755,Dudley Station,16,20,-4
+13,3/1/2014,542,15,Inbound,4233721,4229755,Malcolm X Blvd @ Tremont St,18,20,-2
+13,3/1/2014,545,15,Inbound,4233721,4229755,Ruggles Sta - Upper Level,18,20,-2
+14,3/1/2014,540,15,Inbound,4229755,4229835,Fields Corner Station @ Red Line,15,20,-5
+14,3/1/2014,542,15,Inbound,4229755,4229835,Bowdoin St @ Geneva Ave,19,20,-1
+14,3/1/2014,547,15,Inbound,4229755,4229835,Hancock St @ Bowdoin St,19,20,-1
+14,3/1/2014,549,15,Inbound,4229755,4229835,Columbia Rd @ Hancock St,20,20,0
+14,3/1/2014,555,15,Inbound,4229755,4229835,Dudley St @ Magazine St,19,20,-1
+14,3/1/2014,559,15,Inbound,4229755,4229835,Dudley Station,20,20,0
+14,3/1/2014,562,15,Inbound,4229755,4229835,Malcolm X Blvd @ Tremont St,18,20,-2
+14,3/1/2014,565,15,Inbound,4229755,4229835,Ruggles Sta - Upper Level,19,20,-1
+15,3/1/2014,560,15,Inbound,4229835,4233723,Fields Corner Station @ Red Line,34,20,14
+15,3/1/2014,562,15,Inbound,4229835,4233723,Bowdoin St @ Geneva Ave,31,20,11
+15,3/1/2014,567,15,Inbound,4229835,4233723,Hancock St @ Bowdoin St,32,20,12
+15,3/1/2014,569,15,Inbound,4229835,4233723,Columbia Rd @ Hancock St,33,20,13
+15,3/1/2014,575,15,Inbound,4229835,4233723,Dudley St @ Magazine St,34,20,14
+15,3/1/2014,579,15,Inbound,4229835,4233723,Dudley Station,35,20,15
+15,3/1/2014,582,15,Inbound,4229835,4233723,Malcolm X Blvd @ Tremont St,37,20,17
+16,3/1/2014,580,15,Inbound,4233723,4229757,Fields Corner Station @ Red Line,14,20,-6
+16,3/1/2014,582,15,Inbound,4233723,4229757,Bowdoin St @ Geneva Ave,11,20,-9
+16,3/1/2014,587,15,Inbound,4233723,4229757,Hancock St @ Bowdoin St,11,20,-9
+16,3/1/2014,589,15,Inbound,4233723,4229757,Columbia Rd @ Hancock St,10,20,-10
+16,3/1/2014,595,15,Inbound,4233723,4229757,Dudley St @ Magazine St,10,20,-10
+16,3/1/2014,599,15,Inbound,4233723,4229757,Dudley Station,8,20,-12
+16,3/1/2014,602,15,Inbound,4233723,4229757,Malcolm X Blvd @ Tremont St,6,20,-14
+17,3/1/2014,600,15,Inbound,4229757,4229807,Fields Corner Station @ Red Line,17,20,-3
+17,3/1/2014,602,15,Inbound,4229757,4229807,Bowdoin St @ Geneva Ave,19,20,-1
+17,3/1/2014,607,15,Inbound,4229757,4229807,Hancock St @ Bowdoin St,17,20,-3
+17,3/1/2014,609,15,Inbound,4229757,4229807,Columbia Rd @ Hancock St,17,20,-3
+17,3/1/2014,615,15,Inbound,4229757,4229807,Dudley St @ Magazine St,14,22,-8
+17,3/1/2014,619,15,Inbound,4229757,4229807,Dudley Station,15,23,-8
+17,3/1/2014,622,15,Inbound,4229757,4229807,Malcolm X Blvd @ Tremont St,14,23,-9
+17,3/1/2014,625,15,Inbound,4229757,4229807,Ruggles Sta - Upper Level,14,23,-9
+18,3/1/2014,620,15,Inbound,4229807,4229837,Fields Corner Station @ Red Line,16,20,-4
+18,3/1/2014,622,15,Inbound,4229807,4229837,Bowdoin St @ Geneva Ave,22,21,1
+18,3/1/2014,627,15,Inbound,4229807,4229837,Hancock St @ Bowdoin St,25,20,5
+18,3/1/2014,629,15,Inbound,4229807,4229837,Columbia Rd @ Hancock St,26,22,4
+18,3/1/2014,637,15,Inbound,4229807,4229837,Dudley St @ Magazine St,29,22,7
+18,3/1/2014,642,15,Inbound,4229807,4229837,Dudley Station,30,22,8
+18,3/1/2014,645,15,Inbound,4229807,4229837,Malcolm X Blvd @ Tremont St,33,22,11
+18,3/1/2014,648,15,Inbound,4229807,4229837,Ruggles Sta - Upper Level,35,22,13
+19,3/1/2014,640,15,Inbound,4229837,4233725,Fields Corner Station @ Red Line,18,20,-2
+19,3/1/2014,643,15,Inbound,4229837,4233725,Bowdoin St @ Geneva Ave,17,20,-3
+19,3/1/2014,647,15,Inbound,4229837,4233725,Hancock St @ Bowdoin St,15,20,-5
+19,3/1/2014,651,15,Inbound,4229837,4233725,Columbia Rd @ Hancock St,16,20,-4
+19,3/1/2014,659,15,Inbound,4229837,4233725,Dudley St @ Magazine St,15,20,-5
+19,3/1/2014,664,15,Inbound,4229837,4233725,Dudley Station,14,20,-6
+19,3/1/2014,667,15,Inbound,4229837,4233725,Malcolm X Blvd @ Tremont St,13,20,-7
+19,3/1/2014,670,15,Inbound,4229837,4233725,Ruggles Sta - Upper Level,11,20,-9
+20,3/1/2014,660,15,Inbound,4233725,4229759,Fields Corner Station @ Red Line,21,20,1
+20,3/1/2014,663,15,Inbound,4233725,4229759,Bowdoin St @ Geneva Ave,24,20,4
+20,3/1/2014,667,15,Inbound,4233725,4229759,Hancock St @ Bowdoin St,24,20,4
+20,3/1/2014,671,15,Inbound,4233725,4229759,Columbia Rd @ Hancock St,22,20,2
+20,3/1/2014,679,15,Inbound,4233725,4229759,Dudley St @ Magazine St,21,20,1
+20,3/1/2014,684,15,Inbound,4233725,4229759,Dudley Station,22,20,2
+20,3/1/2014,687,15,Inbound,4233725,4229759,Malcolm X Blvd @ Tremont St,21,20,1
+20,3/1/2014,690,15,Inbound,4233725,4229759,Ruggles Sta - Upper Level,22,20,2
+21,3/1/2014,680,15,Inbound,4229759,4229809,Fields Corner Station @ Red Line,13,20,-7
+21,3/1/2014,683,15,Inbound,4229759,4229809,Bowdoin St @ Geneva Ave,15,20,-5
+21,3/1/2014,687,15,Inbound,4229759,4229809,Hancock St @ Bowdoin St,17,20,-3
+21,3/1/2014,691,15,Inbound,4229759,4229809,Columbia Rd @ Hancock St,17,20,-3
+21,3/1/2014,699,15,Inbound,4229759,4229809,Dudley St @ Magazine St,17,20,-3
+21,3/1/2014,704,15,Inbound,4229759,4229809,Dudley Station,17,20,-3
+21,3/1/2014,707,15,Inbound,4229759,4229809,Malcolm X Blvd @ Tremont St,17,20,-3
+21,3/1/2014,710,15,Inbound,4229759,4229809,Ruggles Sta - Upper Level,18,20,-2
+22,3/1/2014,700,15,Inbound,4229809,4229839,Fields Corner Station @ Red Line,24,20,4
+22,3/1/2014,703,15,Inbound,4229809,4229839,Bowdoin St @ Geneva Ave,22,20,2
+22,3/1/2014,707,15,Inbound,4229809,4229839,Hancock St @ Bowdoin St,21,20,1
+22,3/1/2014,711,15,Inbound,4229809,4229839,Columbia Rd @ Hancock St,21,20,1
+22,3/1/2014,719,15,Inbound,4229809,4229839,Dudley St @ Magazine St,23,20,3
+22,3/1/2014,724,15,Inbound,4229809,4229839,Dudley Station,24,20,4
+22,3/1/2014,727,15,Inbound,4229809,4229839,Malcolm X Blvd @ Tremont St,26,20,6
+22,3/1/2014,730,15,Inbound,4229809,4229839,Ruggles Sta - Upper Level,24,20,4
+23,3/1/2014,720,15,Inbound,4229839,4229647,Fields Corner Station @ Red Line,20,20,0
+23,3/1/2014,723,15,Inbound,4229839,4229647,Bowdoin St @ Geneva Ave,18,20,-2
+23,3/1/2014,727,15,Inbound,4229839,4229647,Hancock St @ Bowdoin St,19,20,-1
+23,3/1/2014,731,15,Inbound,4229839,4229647,Columbia Rd @ Hancock St,20,20,0
+23,3/1/2014,739,15,Inbound,4229839,4229647,Dudley St @ Magazine St,22,20,2
+23,3/1/2014,744,15,Inbound,4229839,4229647,Dudley Station,22,20,2
+23,3/1/2014,747,15,Inbound,4229839,4229647,Malcolm X Blvd @ Tremont St,22,20,2
+23,3/1/2014,750,15,Inbound,4229839,4229647,Ruggles Sta - Upper Level,22,20,2
+24,3/1/2014,740,15,Inbound,4229647,4229761,Fields Corner Station @ Red Line,15,20,-5
+24,3/1/2014,743,15,Inbound,4229647,4229761,Bowdoin St @ Geneva Ave,19,20,-1
+24,3/1/2014,747,15,Inbound,4229647,4229761,Hancock St @ Bowdoin St,18,20,-2
+24,3/1/2014,751,15,Inbound,4229647,4229761,Columbia Rd @ Hancock St,18,20,-2
+24,3/1/2014,759,15,Inbound,4229647,4229761,Dudley St @ Magazine St,17,20,-3
+24,3/1/2014,764,15,Inbound,4229647,4229761,Dudley Station,17,20,-3
+24,3/1/2014,767,15,Inbound,4229647,4229761,Malcolm X Blvd @ Tremont St,15,20,-5
+24,3/1/2014,770,15,Inbound,4229647,4229761,Ruggles Sta - Upper Level,16,20,-4
+25,3/1/2014,760,15,Inbound,4229761,4229811,Fields Corner Station @ Red Line,31,20,11
+25,3/1/2014,763,15,Inbound,4229761,4229811,Bowdoin St @ Geneva Ave,20,20,0
+25,3/1/2014,767,15,Inbound,4229761,4229811,Hancock St @ Bowdoin St,18,20,-2
+25,3/1/2014,771,15,Inbound,4229761,4229811,Columbia Rd @ Hancock St,18,20,-2
+25,3/1/2014,779,15,Inbound,4229761,4229811,Dudley St @ Magazine St,19,20,-1
+25,3/1/2014,784,15,Inbound,4229761,4229811,Dudley Station,18,20,-2
+25,3/1/2014,787,15,Inbound,4229761,4229811,Malcolm X Blvd @ Tremont St,19,20,-1
+25,3/1/2014,790,15,Inbound,4229761,4229811,Ruggles Sta - Upper Level,20,20,0
+26,3/1/2014,780,15,Inbound,4229811,4229841,Fields Corner Station @ Red Line,18,20,-2
+26,3/1/2014,783,15,Inbound,4229811,4229841,Bowdoin St @ Geneva Ave,24,20,4
+26,3/1/2014,787,15,Inbound,4229811,4229841,Hancock St @ Bowdoin St,27,20,7
+26,3/1/2014,791,15,Inbound,4229811,4229841,Columbia Rd @ Hancock St,27,20,7
+26,3/1/2014,799,15,Inbound,4229811,4229841,Dudley St @ Magazine St,26,20,6
+26,3/1/2014,804,15,Inbound,4229811,4229841,Dudley Station,29,20,9
+26,3/1/2014,807,15,Inbound,4229811,4229841,Malcolm X Blvd @ Tremont St,27,20,7
+26,3/1/2014,810,15,Inbound,4229811,4229841,Ruggles Sta - Upper Level,26,20,6
+27,3/1/2014,800,15,Inbound,4229841,4229649,Fields Corner Station @ Red Line,27,20,7
+27,3/1/2014,803,15,Inbound,4229841,4229649,Bowdoin St @ Geneva Ave,22,20,2
+27,3/1/2014,807,15,Inbound,4229841,4229649,Hancock St @ Bowdoin St,21,20,1
+27,3/1/2014,811,15,Inbound,4229841,4229649,Columbia Rd @ Hancock St,21,20,1
+27,3/1/2014,819,15,Inbound,4229841,4229649,Dudley St @ Magazine St,20,20,0
+27,3/1/2014,824,15,Inbound,4229841,4229649,Dudley Station,16,20,-4
+27,3/1/2014,827,15,Inbound,4229841,4229649,Malcolm X Blvd @ Tremont St,17,20,-3
+27,3/1/2014,830,15,Inbound,4229841,4229649,Ruggles Sta - Upper Level,18,20,-2
+28,3/1/2014,820,15,Inbound,4229649,4229763,Fields Corner Station @ Red Line,11,20,-9
+28,3/1/2014,823,15,Inbound,4229649,4229763,Bowdoin St @ Geneva Ave,17,20,-3
+28,3/1/2014,827,15,Inbound,4229649,4229763,Hancock St @ Bowdoin St,16,20,-4
+28,3/1/2014,831,15,Inbound,4229649,4229763,Columbia Rd @ Hancock St,16,20,-4
+28,3/1/2014,839,15,Inbound,4229649,4229763,Dudley St @ Magazine St,15,20,-5
+28,3/1/2014,844,15,Inbound,4229649,4229763,Dudley Station,14,20,-6
+28,3/1/2014,847,15,Inbound,4229649,4229763,Malcolm X Blvd @ Tremont St,15,20,-5
+28,3/1/2014,850,15,Inbound,4229649,4229763,Ruggles Sta - Upper Level,14,20,-6
+29,3/1/2014,840,15,Inbound,4229763,4229813,Fields Corner Station @ Red Line,18,20,-2
+29,3/1/2014,843,15,Inbound,4229763,4229813,Bowdoin St @ Geneva Ave,19,20,-1
+29,3/1/2014,847,15,Inbound,4229763,4229813,Hancock St @ Bowdoin St,19,20,-1
+29,3/1/2014,851,15,Inbound,4229763,4229813,Columbia Rd @ Hancock St,18,20,-2
+29,3/1/2014,859,15,Inbound,4229763,4229813,Dudley St @ Magazine St,20,20,0
+29,3/1/2014,864,15,Inbound,4229763,4229813,Dudley Station,21,20,1
+29,3/1/2014,867,15,Inbound,4229763,4229813,Malcolm X Blvd @ Tremont St,21,20,1
+29,3/1/2014,870,15,Inbound,4229763,4229813,Ruggles Sta - Upper Level,22,20,2
+30,3/1/2014,860,15,Inbound,4229813,4229843,Fields Corner Station @ Red Line,25,20,5
+30,3/1/2014,863,15,Inbound,4229813,4229843,Bowdoin St @ Geneva Ave,21,20,1
+30,3/1/2014,867,15,Inbound,4229813,4229843,Hancock St @ Bowdoin St,22,20,2
+30,3/1/2014,871,15,Inbound,4229813,4229843,Columbia Rd @ Hancock St,23,20,3
+30,3/1/2014,879,15,Inbound,4229813,4229843,Dudley St @ Magazine St,21,20,1
+30,3/1/2014,884,15,Inbound,4229813,4229843,Dudley Station,22,20,2
+30,3/1/2014,887,15,Inbound,4229813,4229843,Malcolm X Blvd @ Tremont St,22,19,3
+30,3/1/2014,890,15,Inbound,4229813,4229843,Ruggles Sta - Upper Level,22,18,4
+31,3/1/2014,880,15,Inbound,4229843,4229731,Fields Corner Station @ Red Line,30,20,10
+31,3/1/2014,883,15,Inbound,4229843,4229731,Bowdoin St @ Geneva Ave,26,20,6
+31,3/1/2014,887,15,Inbound,4229843,4229731,Hancock St @ Bowdoin St,26,20,6
+31,3/1/2014,891,15,Inbound,4229843,4229731,Columbia Rd @ Hancock St,25,19,6
+31,3/1/2014,899,15,Inbound,4229843,4229731,Dudley St @ Magazine St,26,19,7
+31,3/1/2014,904,15,Inbound,4229843,4229731,Dudley Station,26,19,7
+31,3/1/2014,906,15,Inbound,4229843,4229731,Malcolm X Blvd @ Tremont St,27,19,8
+31,3/1/2014,908,15,Inbound,4229843,4229731,Ruggles Sta - Upper Level,26,19,7
+32,3/1/2014,900,15,Inbound,4229731,4229765,Fields Corner Station @ Red Line,5,20,-15
+32,3/1/2014,903,15,Inbound,4229731,4229765,Bowdoin St @ Geneva Ave,11,20,-9
+32,3/1/2014,907,15,Inbound,4229731,4229765,Hancock St @ Bowdoin St,11,20,-9
+32,3/1/2014,910,15,Inbound,4229731,4229765,Columbia Rd @ Hancock St,12,20,-8
+32,3/1/2014,918,15,Inbound,4229731,4229765,Dudley St @ Magazine St,11,20,-9
+32,3/1/2014,923,15,Inbound,4229731,4229765,Dudley Station,9,20,-11
+32,3/1/2014,925,15,Inbound,4229731,4229765,Malcolm X Blvd @ Tremont St,8,20,-12
+32,3/1/2014,927,15,Inbound,4229731,4229765,Ruggles Sta - Upper Level,8,20,-12
+33,3/1/2014,920,15,Inbound,4229765,4229815,Fields Corner Station @ Red Line,28,20,8
+33,3/1/2014,923,15,Inbound,4229765,4229815,Bowdoin St @ Geneva Ave,23,20,3
+33,3/1/2014,927,15,Inbound,4229765,4229815,Hancock St @ Bowdoin St,24,20,4
+33,3/1/2014,930,15,Inbound,4229765,4229815,Columbia Rd @ Hancock St,25,20,5
+33,3/1/2014,938,15,Inbound,4229765,4229815,Dudley St @ Magazine St,26,20,6
+33,3/1/2014,943,15,Inbound,4229765,4229815,Dudley Station,27,20,7
+33,3/1/2014,945,15,Inbound,4229765,4229815,Malcolm X Blvd @ Tremont St,27,20,7
+33,3/1/2014,947,15,Inbound,4229765,4229815,Ruggles Sta - Upper Level,26,20,6
+34,3/1/2014,940,15,Inbound,4229815,4229845,Fields Corner Station @ Red Line,22,20,2
+34,3/1/2014,943,15,Inbound,4229815,4229845,Bowdoin St @ Geneva Ave,21,20,1
+34,3/1/2014,947,15,Inbound,4229815,4229845,Hancock St @ Bowdoin St,19,20,-1
+34,3/1/2014,950,15,Inbound,4229815,4229845,Columbia Rd @ Hancock St,19,20,-1
+34,3/1/2014,958,15,Inbound,4229815,4229845,Dudley St @ Magazine St,20,20,0
+34,3/1/2014,963,15,Inbound,4229815,4229845,Dudley Station,21,20,1
+34,3/1/2014,965,15,Inbound,4229815,4229845,Malcolm X Blvd @ Tremont St,20,20,0
+34,3/1/2014,967,15,Inbound,4229815,4229845,Ruggles Sta - Upper Level,20,20,0
+35,3/1/2014,960,15,Inbound,4229845,4229733,Fields Corner Station @ Red Line,23,20,3
+35,3/1/2014,963,15,Inbound,4229845,4229733,Bowdoin St @ Geneva Ave,23,20,3
+35,3/1/2014,967,15,Inbound,4229845,4229733,Hancock St @ Bowdoin St,23,20,3
+35,3/1/2014,970,15,Inbound,4229845,4229733,Columbia Rd @ Hancock St,22,20,2
+35,3/1/2014,978,15,Inbound,4229845,4229733,Dudley St @ Magazine St,21,20,1
+35,3/1/2014,983,15,Inbound,4229845,4229733,Dudley Station,20,20,0
+35,3/1/2014,985,15,Inbound,4229845,4229733,Malcolm X Blvd @ Tremont St,20,20,0
+35,3/1/2014,987,15,Inbound,4229845,4229733,Ruggles Sta - Upper Level,22,20,2
+36,3/1/2014,980,15,Inbound,4229733,4229767,Fields Corner Station @ Red Line,7,20,-13
+36,3/1/2014,983,15,Inbound,4229733,4229767,Bowdoin St @ Geneva Ave,14,20,-6
+36,3/1/2014,987,15,Inbound,4229733,4229767,Hancock St @ Bowdoin St,14,20,-6
+36,3/1/2014,990,15,Inbound,4229733,4229767,Columbia Rd @ Hancock St,13,20,-7
+36,3/1/2014,998,15,Inbound,4229733,4229767,Dudley St @ Magazine St,11,20,-9
+36,3/1/2014,1003,15,Inbound,4229733,4229767,Dudley Station,10,20,-10
+36,3/1/2014,1005,15,Inbound,4229733,4229767,Malcolm X Blvd @ Tremont St,11,20,-9
+36,3/1/2014,1007,15,Inbound,4229733,4229767,Ruggles Sta - Upper Level,10,20,-10
+37,3/1/2014,1000,15,Inbound,4229767,4229817,Fields Corner Station @ Red Line,27,20,7
+37,3/1/2014,1003,15,Inbound,4229767,4229817,Bowdoin St @ Geneva Ave,22,20,2
+37,3/1/2014,1007,15,Inbound,4229767,4229817,Hancock St @ Bowdoin St,22,20,2
+37,3/1/2014,1010,15,Inbound,4229767,4229817,Columbia Rd @ Hancock St,23,20,3
+37,3/1/2014,1018,15,Inbound,4229767,4229817,Dudley St @ Magazine St,26,20,6
+37,3/1/2014,1023,15,Inbound,4229767,4229817,Dudley Station,29,20,9
+37,3/1/2014,1025,15,Inbound,4229767,4229817,Malcolm X Blvd @ Tremont St,28,20,8
+37,3/1/2014,1027,15,Inbound,4229767,4229817,Ruggles Sta - Upper Level,28,20,8
+38,3/1/2014,1020,15,Inbound,4229817,4229847,Fields Corner Station @ Red Line,16,20,-4
+38,3/1/2014,1023,15,Inbound,4229817,4229847,Bowdoin St @ Geneva Ave,17,20,-3
+38,3/1/2014,1027,15,Inbound,4229817,4229847,Hancock St @ Bowdoin St,17,20,-3
+38,3/1/2014,1030,15,Inbound,4229817,4229847,Columbia Rd @ Hancock St,16,20,-4
+38,3/1/2014,1038,15,Inbound,4229817,4229847,Dudley St @ Magazine St,15,20,-5
+38,3/1/2014,1043,15,Inbound,4229817,4229847,Dudley Station,13,20,-7
+38,3/1/2014,1045,15,Inbound,4229817,4229847,Malcolm X Blvd @ Tremont St,14,20,-6
+38,3/1/2014,1047,15,Inbound,4229817,4229847,Ruggles Sta - Upper Level,14,20,-6
+39,3/1/2014,1040,15,Inbound,4229847,4229735,Fields Corner Station @ Red Line,20,20,0
+39,3/1/2014,1043,15,Inbound,4229847,4229735,Bowdoin St @ Geneva Ave,23,20,3
+39,3/1/2014,1047,15,Inbound,4229847,4229735,Hancock St @ Bowdoin St,26,20,6
+39,3/1/2014,1050,15,Inbound,4229847,4229735,Columbia Rd @ Hancock St,27,20,7
+39,3/1/2014,1058,15,Inbound,4229847,4229735,Dudley St @ Magazine St,28,20,8
+39,3/1/2014,1063,15,Inbound,4229847,4229735,Dudley Station,28,19,9
+39,3/1/2014,1065,15,Inbound,4229847,4229735,Malcolm X Blvd @ Tremont St,27,18,9
+39,3/1/2014,1067,15,Inbound,4229847,4229735,Ruggles Sta - Upper Level,26,18,8
+40,3/1/2014,1060,15,Inbound,4229735,4229769,Fields Corner Station @ Red Line,17,20,-3
+40,3/1/2014,1063,15,Inbound,4229735,4229769,Bowdoin St @ Geneva Ave,18,20,-2
+40,3/1/2014,1067,15,Inbound,4229735,4229769,Hancock St @ Bowdoin St,15,19,-4
+40,3/1/2014,1070,15,Inbound,4229735,4229769,Columbia Rd @ Hancock St,15,18,-3
+40,3/1/2014,1078,15,Inbound,4229735,4229769,Dudley St @ Magazine St,12,16,-4
+40,3/1/2014,1082,15,Inbound,4229735,4229769,Dudley Station,13,16,-3
+40,3/1/2014,1083,15,Inbound,4229735,4229769,Malcolm X Blvd @ Tremont St,12,16,-4
+40,3/1/2014,1085,15,Inbound,4229735,4229769,Ruggles Sta - Upper Level,12,16,-4
+41,3/1/2014,1080,15,Inbound,4229769,4229819,Fields Corner Station @ Red Line,27,20,7
+41,3/1/2014,1083,15,Inbound,4229769,4229819,Bowdoin St @ Geneva Ave,22,20,2
+41,3/1/2014,1086,15,Inbound,4229769,4229819,Hancock St @ Bowdoin St,21,20,1
+41,3/1/2014,1088,15,Inbound,4229769,4229819,Columbia Rd @ Hancock St,21,20,1
+41,3/1/2014,1094,15,Inbound,4229769,4229819,Dudley St @ Magazine St,22,20,2
+41,3/1/2014,1098,15,Inbound,4229769,4229819,Dudley Station,20,20,0
+41,3/1/2014,1099,15,Inbound,4229769,4229819,Malcolm X Blvd @ Tremont St,22,20,2
+41,3/1/2014,1101,15,Inbound,4229769,4229819,Ruggles Sta - Upper Level,22,20,2
+42,3/1/2014,1100,15,Inbound,4229819,4229600,Fields Corner Station @ Red Line,10,20,-10
+42,3/1/2014,1103,15,Inbound,4229819,4229600,Bowdoin St @ Geneva Ave,15,20,-5
+42,3/1/2014,1106,15,Inbound,4229819,4229600,Hancock St @ Bowdoin St,15,20,-5
+42,3/1/2014,1108,15,Inbound,4229819,4229600,Columbia Rd @ Hancock St,14,20,-6
+42,3/1/2014,1114,15,Inbound,4229819,4229600,Dudley St @ Magazine St,13,20,-7
+42,3/1/2014,1118,15,Inbound,4229819,4229600,Dudley Station,13,20,-7
+42,3/1/2014,1119,15,Inbound,4229819,4229600,Malcolm X Blvd @ Tremont St,11,20,-9
+42,3/1/2014,1121,15,Inbound,4229819,4229600,Ruggles Sta - Upper Level,12,20,-8
+43,3/1/2014,1120,15,Inbound,4229600,4229737,Fields Corner Station @ Red Line,20,20,0
+43,3/1/2014,1123,15,Inbound,4229600,4229737,Bowdoin St @ Geneva Ave,23,20,3
+43,3/1/2014,1126,15,Inbound,4229600,4229737,Hancock St @ Bowdoin St,24,20,4
+43,3/1/2014,1128,15,Inbound,4229600,4229737,Columbia Rd @ Hancock St,25,20,5
+43,3/1/2014,1134,15,Inbound,4229600,4229737,Dudley St @ Magazine St,25,20,5
+43,3/1/2014,1138,15,Inbound,4229600,4229737,Dudley Station,27,20,7
+43,3/1/2014,1139,15,Inbound,4229600,4229737,Malcolm X Blvd @ Tremont St,27,20,7
+44,3/1/2014,1140,15,Inbound,4229737,4231825,Fields Corner Station @ Red Line,14,20,-6
+44,3/1/2014,1143,15,Inbound,4229737,4231825,Bowdoin St @ Geneva Ave,21,20,1
+44,3/1/2014,1146,15,Inbound,4229737,4231825,Hancock St @ Bowdoin St,21,20,1
+44,3/1/2014,1148,15,Inbound,4229737,4231825,Columbia Rd @ Hancock St,20,20,0
+44,3/1/2014,1154,15,Inbound,4229737,4231825,Dudley St @ Magazine St,19,20,-1
+44,3/1/2014,1158,15,Inbound,4229737,4231825,Dudley Station,19,20,-1
+44,3/1/2014,1159,15,Inbound,4229737,4231825,Malcolm X Blvd @ Tremont St,19,20,-1
+45,3/1/2014,1160,15,Inbound,4231825,4229602,Fields Corner Station @ Red Line,38,20,18
+45,3/1/2014,1163,15,Inbound,4231825,4229602,Bowdoin St @ Geneva Ave,21,20,1
+45,3/1/2014,1166,15,Inbound,4231825,4229602,Hancock St @ Bowdoin St,21,20,1
+45,3/1/2014,1168,15,Inbound,4231825,4229602,Columbia Rd @ Hancock St,20,20,0
+45,3/1/2014,1174,15,Inbound,4231825,4229602,Dudley St @ Magazine St,20,20,0
+45,3/1/2014,1178,15,Inbound,4231825,4229602,Dudley Station,17,20,-3
+45,3/1/2014,1179,15,Inbound,4231825,4229602,Malcolm X Blvd @ Tremont St,17,20,-3
+45,3/1/2014,1181,15,Inbound,4231825,4229602,Ruggles Sta - Upper Level,18,20,-2
+46,3/1/2014,1180,15,Inbound,4229602,4229739,Fields Corner Station @ Red Line,20,20,0
+46,3/1/2014,1183,15,Inbound,4229602,4229739,Bowdoin St @ Geneva Ave,22,20,2
+46,3/1/2014,1186,15,Inbound,4229602,4229739,Hancock St @ Bowdoin St,22,20,2
+46,3/1/2014,1188,15,Inbound,4229602,4229739,Columbia Rd @ Hancock St,24,20,4
+46,3/1/2014,1194,15,Inbound,4229602,4229739,Dudley St @ Magazine St,25,20,5
+46,3/1/2014,1198,15,Inbound,4229602,4229739,Dudley Station,27,20,7
+46,3/1/2014,1199,15,Inbound,4229602,4229739,Malcolm X Blvd @ Tremont St,26,20,6
+47,3/1/2014,1200,15,Inbound,4229739,4231827,Fields Corner Station @ Red Line,21,20,1
+47,3/1/2014,1203,15,Inbound,4229739,4231827,Bowdoin St @ Geneva Ave,20,20,0
+47,3/1/2014,1206,15,Inbound,4229739,4231827,Hancock St @ Bowdoin St,19,20,-1
+47,3/1/2014,1208,15,Inbound,4229739,4231827,Columbia Rd @ Hancock St,19,20,-1
+47,3/1/2014,1214,15,Inbound,4229739,4231827,Dudley St @ Magazine St,20,20,0
+47,3/1/2014,1218,15,Inbound,4229739,4231827,Dudley Station,19,20,-1
+47,3/1/2014,1219,15,Inbound,4229739,4231827,Malcolm X Blvd @ Tremont St,22,20,2
+48,3/1/2014,1220,15,Inbound,4231827,4229604,Fields Corner Station @ Red Line,9,20,-11
+48,3/1/2014,1223,15,Inbound,4231827,4229604,Bowdoin St @ Geneva Ave,16,20,-4
+48,3/1/2014,1226,15,Inbound,4231827,4229604,Hancock St @ Bowdoin St,17,20,-3
+48,3/1/2014,1228,15,Inbound,4231827,4229604,Columbia Rd @ Hancock St,15,20,-5
+48,3/1/2014,1234,15,Inbound,4231827,4229604,Dudley St @ Magazine St,14,20,-6
+48,3/1/2014,1238,15,Inbound,4231827,4229604,Dudley Station,13,20,-7
+48,3/1/2014,1239,15,Inbound,4231827,4229604,Malcolm X Blvd @ Tremont St,11,20,-9
+48,3/1/2014,1241,15,Inbound,4231827,4229604,Ruggles Sta - Upper Level,12,20,-8
+49,3/1/2014,1240,15,Inbound,4229604,4229741,Fields Corner Station @ Red Line,25,20,5
+49,3/1/2014,1243,15,Inbound,4229604,4229741,Bowdoin St @ Geneva Ave,21,20,1
+49,3/1/2014,1246,15,Inbound,4229604,4229741,Hancock St @ Bowdoin St,21,20,1
+49,3/1/2014,1248,15,Inbound,4229604,4229741,Columbia Rd @ Hancock St,24,20,4
+49,3/1/2014,1254,15,Inbound,4229604,4229741,Dudley St @ Magazine St,24,20,4
+49,3/1/2014,1258,15,Inbound,4229604,4229741,Dudley Station,26,20,6
+49,3/1/2014,1259,15,Inbound,4229604,4229741,Malcolm X Blvd @ Tremont St,26,20,6
+49,3/1/2014,1261,15,Inbound,4229604,4229741,Ruggles Sta - Upper Level,26,20,6
+50,3/1/2014,1260,15,Inbound,4229741,4231829,Fields Corner Station @ Red Line,25,20,5
+50,3/1/2014,1263,15,Inbound,4229741,4231829,Bowdoin St @ Geneva Ave,23,20,3
+50,3/1/2014,1266,15,Inbound,4229741,4231829,Hancock St @ Bowdoin St,24,20,4
+50,3/1/2014,1268,15,Inbound,4229741,4231829,Columbia Rd @ Hancock St,21,20,1
+50,3/1/2014,1274,15,Inbound,4229741,4231829,Dudley St @ Magazine St,19,20,-1
+50,3/1/2014,1278,15,Inbound,4229741,4231829,Dudley Station,20,20,0
+50,3/1/2014,1279,15,Inbound,4229741,4231829,Malcolm X Blvd @ Tremont St,21,20,1
+50,3/1/2014,1281,15,Inbound,4229741,4231829,Ruggles Sta - Upper Level,20,20,0
+51,3/1/2014,1280,15,Inbound,4231829,4229606,Fields Corner Station @ Red Line,11,20,-9
+51,3/1/2014,1283,15,Inbound,4231829,4229606,Bowdoin St @ Geneva Ave,16,20,-4
+51,3/1/2014,1286,15,Inbound,4231829,4229606,Hancock St @ Bowdoin St,15,20,-5
+51,3/1/2014,1288,15,Inbound,4231829,4229606,Columbia Rd @ Hancock St,16,20,-4
+51,3/1/2014,1294,15,Inbound,4231829,4229606,Dudley St @ Magazine St,17,20,-3
+51,3/1/2014,1298,15,Inbound,4231829,4229606,Dudley Station,14,20,-6
+51,3/1/2014,1299,15,Inbound,4231829,4229606,Malcolm X Blvd @ Tremont St,13,20,-7
+51,3/1/2014,1301,15,Inbound,4231829,4229606,Ruggles Sta - Upper Level,14,20,-6
+52,3/1/2014,1300,15,Inbound,4229606,4229743,Fields Corner Station @ Red Line,25,20,5
+52,3/1/2014,1303,15,Inbound,4229606,4229743,Bowdoin St @ Geneva Ave,18,19,-1
+52,3/1/2014,1306,15,Inbound,4229606,4229743,Hancock St @ Bowdoin St,17,19,-2
+52,3/1/2014,1308,15,Inbound,4229606,4229743,Columbia Rd @ Hancock St,17,19,-2
+52,3/1/2014,1314,15,Inbound,4229606,4229743,Dudley St @ Magazine St,15,17,-2
+52,3/1/2014,1318,15,Inbound,4229606,4229743,Dudley Station,16,17,-1
+52,3/1/2014,1319,15,Inbound,4229606,4229743,Malcolm X Blvd @ Tremont St,16,17,-1
+52,3/1/2014,1321,15,Inbound,4229606,4229743,Ruggles Sta - Upper Level,16,17,-1
+53,3/1/2014,1320,15,Inbound,4229743,4231831,Fields Corner Station @ Red Line,24,20,4
+53,3/1/2014,1322,15,Inbound,4229743,4231831,Bowdoin St @ Geneva Ave,26,20,6
+53,3/1/2014,1325,15,Inbound,4229743,4231831,Hancock St @ Bowdoin St,27,20,7
+53,3/1/2014,1327,15,Inbound,4229743,4231831,Columbia Rd @ Hancock St,27,20,7
+53,3/1/2014,1331,15,Inbound,4229743,4231831,Dudley St @ Magazine St,29,20,9
+53,3/1/2014,1335,15,Inbound,4229743,4231831,Dudley Station,30,20,10
+53,3/1/2014,1336,15,Inbound,4229743,4231831,Malcolm X Blvd @ Tremont St,30,20,10
+53,3/1/2014,1338,15,Inbound,4229743,4231831,Ruggles Sta - Upper Level,30,20,10
+54,3/1/2014,1340,15,Inbound,4231831,4229608,Fields Corner Station @ Red Line,12,20,-8
+54,3/1/2014,1342,15,Inbound,4231831,4229608,Bowdoin St @ Geneva Ave,16,20,-4
+54,3/1/2014,1345,15,Inbound,4231831,4229608,Hancock St @ Bowdoin St,15,20,-5
+54,3/1/2014,1347,15,Inbound,4231831,4229608,Columbia Rd @ Hancock St,15,20,-5
+54,3/1/2014,1351,15,Inbound,4231831,4229608,Dudley St @ Magazine St,13,20,-7
+54,3/1/2014,1355,15,Inbound,4231831,4229608,Dudley Station,11,20,-9
+54,3/1/2014,1356,15,Inbound,4231831,4229608,Malcolm X Blvd @ Tremont St,12,20,-8
+54,3/1/2014,1358,15,Inbound,4231831,4229608,Ruggles Sta - Upper Level,12,20,-8
+55,3/1/2014,1360,15,Inbound,4229608,4229745,Fields Corner Station @ Red Line,19,20,-1
+55,3/1/2014,1362,15,Inbound,4229608,4229745,Bowdoin St @ Geneva Ave,19,20,-1
+55,3/1/2014,1365,15,Inbound,4229608,4229745,Hancock St @ Bowdoin St,20,20,0
+55,3/1/2014,1367,15,Inbound,4229608,4229745,Columbia Rd @ Hancock St,19,20,-1
+55,3/1/2014,1371,15,Inbound,4229608,4229745,Dudley St @ Magazine St,20,20,0
+55,3/1/2014,1375,15,Inbound,4229608,4229745,Dudley Station,20,20,0
+55,3/1/2014,1376,15,Inbound,4229608,4229745,Malcolm X Blvd @ Tremont St,19,20,-1
+55,3/1/2014,1378,15,Inbound,4229608,4229745,Ruggles Sta - Upper Level,20,20,0
+56,3/1/2014,1380,15,Inbound,4229745,4231833,Fields Corner Station @ Red Line,29,20,9
+56,3/1/2014,1382,15,Inbound,4229745,4231833,Bowdoin St @ Geneva Ave,22,20,2
+56,3/1/2014,1385,15,Inbound,4229745,4231833,Hancock St @ Bowdoin St,21,20,1
+56,3/1/2014,1387,15,Inbound,4229745,4231833,Columbia Rd @ Hancock St,21,20,1
+56,3/1/2014,1391,15,Inbound,4229745,4231833,Dudley St @ Magazine St,22,20,2
+56,3/1/2014,1395,15,Inbound,4229745,4231833,Dudley Station,23,20,3
+56,3/1/2014,1396,15,Inbound,4229745,4231833,Malcolm X Blvd @ Tremont St,23,20,3
+56,3/1/2014,1398,15,Inbound,4229745,4231833,Ruggles Sta - Upper Level,22,20,2
+57,3/1/2014,1400,15,Inbound,4231833,4229610,Fields Corner Station @ Red Line,16,20,-4
+57,3/1/2014,1402,15,Inbound,4231833,4229610,Bowdoin St @ Geneva Ave,18,20,-2
+57,3/1/2014,1405,15,Inbound,4231833,4229610,Hancock St @ Bowdoin St,17,20,-3
+57,3/1/2014,1407,15,Inbound,4231833,4229610,Columbia Rd @ Hancock St,17,20,-3
+57,3/1/2014,1411,15,Inbound,4231833,4229610,Dudley St @ Magazine St,15,20,-5
+57,3/1/2014,1415,15,Inbound,4231833,4229610,Dudley Station,15,20,-5
+57,3/1/2014,1416,15,Inbound,4231833,4229610,Malcolm X Blvd @ Tremont St,15,20,-5
+57,3/1/2014,1418,15,Inbound,4231833,4229610,Ruggles Sta - Upper Level,14,20,-6
+58,3/1/2014,1420,15,Inbound,4229610,4229747,Fields Corner Station @ Red Line,17,20,-3
+58,3/1/2014,1422,15,Inbound,4229610,4229747,Bowdoin St @ Geneva Ave,19,20,-1
+58,3/1/2014,1425,15,Inbound,4229610,4229747,Hancock St @ Bowdoin St,20,20,0
+58,3/1/2014,1427,15,Inbound,4229610,4229747,Columbia Rd @ Hancock St,21,20,1
+58,3/1/2014,1431,15,Inbound,4229610,4229747,Dudley St @ Magazine St,21,20,1
+58,3/1/2014,1435,15,Inbound,4229610,4229747,Dudley Station,20,20,0
+58,3/1/2014,1436,15,Inbound,4229610,4229747,Malcolm X Blvd @ Tremont St,21,20,1
+58,3/1/2014,1438,15,Inbound,4229610,4229747,Ruggles Sta - Upper Level,23,20,3
+59,3/1/2014,1440,15,Inbound,4229747,4231835,Fields Corner Station @ Red Line,24,30,-6
+59,3/1/2014,1442,15,Inbound,4229747,4231835,Bowdoin St @ Geneva Ave,31,30,1
+59,3/1/2014,1445,15,Inbound,4229747,4231835,Hancock St @ Bowdoin St,31,30,1
+59,3/1/2014,1447,15,Inbound,4229747,4231835,Columbia Rd @ Hancock St,31,30,1
+59,3/1/2014,1451,15,Inbound,4229747,4231835,Dudley St @ Magazine St,32,30,2
+59,3/1/2014,1455,15,Inbound,4229747,4231835,Dudley Station,32,30,2
+59,3/1/2014,1456,15,Inbound,4229747,4231835,Malcolm X Blvd @ Tremont St,32,30,2
+59,3/1/2014,1458,15,Inbound,4229747,4231835,Ruggles Sta - Upper Level,31,30,1

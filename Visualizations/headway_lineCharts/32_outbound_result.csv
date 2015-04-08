@@ -1,0 +1,513 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,285,32,Outbound,4209858,4209860,Forest Hills Station Lower Busway,41,40,1
+1,3/1/2014,287,32,Outbound,4209858,4209860,Hyde Park Ave @ Cummins Hwy,40,40,0
+1,3/1/2014,288,32,Outbound,4209858,4209860,807 Hyde Park Ave opp American Legion Hwy,41,40,1
+1,3/1/2014,289,32,Outbound,4209858,4209860,Hyde Park Ave @ Greenwood Ave,41,40,1
+1,3/1/2014,291,32,Outbound,4209858,4209860,Hyde Park Ave @ Grant Place,41,39,2
+1,3/1/2014,295,32,Outbound,4209858,4209860,Hyde Park Ave @ Wolcott Square,41,40,1
+2,3/1/2014,325,32,Outbound,4209860,4211105,Forest Hills Station Lower Busway,38,37,1
+2,3/1/2014,327,32,Outbound,4209860,4211105,Hyde Park Ave @ Cummins Hwy,38,38,0
+2,3/1/2014,328,32,Outbound,4209860,4211105,807 Hyde Park Ave opp American Legion Hwy,37,38,-1
+2,3/1/2014,329,32,Outbound,4209860,4211105,Hyde Park Ave @ Greenwood Ave,37,39,-2
+2,3/1/2014,330,32,Outbound,4209860,4211105,Hyde Park Ave @ Grant Place,38,39,-1
+2,3/1/2014,335,32,Outbound,4209860,4211105,Hyde Park Ave @ Wolcott Square,39,39,0
+3,3/1/2014,362,32,Outbound,4211105,4211127,Forest Hills Station Lower Busway,66,18,48
+3,3/1/2014,365,32,Outbound,4211105,4211127,Hyde Park Ave @ Cummins Hwy,19,19,0
+3,3/1/2014,366,32,Outbound,4211105,4211127,807 Hyde Park Ave opp American Legion Hwy,19,19,0
+3,3/1/2014,368,32,Outbound,4211105,4211127,Hyde Park Ave @ Greenwood Ave,19,18,1
+3,3/1/2014,369,32,Outbound,4211105,4211127,Hyde Park Ave @ Grant Place,18,18,0
+4,3/1/2014,380,32,Outbound,4211127,4211107,Forest Hills Station Lower Busway,-21,25,-46
+4,3/1/2014,384,32,Outbound,4211127,4211107,Hyde Park Ave @ Cummins Hwy,27,24,3
+4,3/1/2014,385,32,Outbound,4211127,4211107,807 Hyde Park Ave opp American Legion Hwy,28,24,4
+4,3/1/2014,386,32,Outbound,4211127,4211107,Hyde Park Ave @ Greenwood Ave,28,25,3
+4,3/1/2014,387,32,Outbound,4211127,4211107,Hyde Park Ave @ Grant Place,30,25,5
+5,3/1/2014,408,32,Outbound,4211107,4211129,Hyde Park Ave @ Cummins Hwy,17,21,-4
+5,3/1/2014,409,32,Outbound,4211107,4211129,807 Hyde Park Ave opp American Legion Hwy,17,21,-4
+5,3/1/2014,411,32,Outbound,4211107,4211129,Hyde Park Ave @ Greenwood Ave,18,21,-3
+5,3/1/2014,412,32,Outbound,4211107,4211129,Hyde Park Ave @ Grant Place,16,22,-6
+5,3/1/2014,417,32,Outbound,4211107,4211129,Hyde Park Ave @ Wolcott Square,18,23,-5
+6,3/1/2014,429,32,Outbound,4211129,4208189,Hyde Park Ave @ Cummins Hwy,14,15,-1
+6,3/1/2014,430,32,Outbound,4211129,4208189,807 Hyde Park Ave opp American Legion Hwy,14,15,-1
+6,3/1/2014,432,32,Outbound,4211129,4208189,Hyde Park Ave @ Greenwood Ave,14,15,-1
+6,3/1/2014,434,32,Outbound,4211129,4208189,Hyde Park Ave @ Grant Place,15,15,0
+6,3/1/2014,440,32,Outbound,4211129,4208189,Hyde Park Ave @ Wolcott Square,13,15,-2
+7,3/1/2014,440,32,Outbound,4208189,4211109,Forest Hills Station Lower Busway,14,15,-1
+7,3/1/2014,444,32,Outbound,4208189,4211109,Hyde Park Ave @ Cummins Hwy,15,15,0
+7,3/1/2014,445,32,Outbound,4208189,4211109,807 Hyde Park Ave opp American Legion Hwy,15,15,0
+7,3/1/2014,447,32,Outbound,4208189,4211109,Hyde Park Ave @ Greenwood Ave,15,15,0
+7,3/1/2014,449,32,Outbound,4208189,4211109,Hyde Park Ave @ Grant Place,15,15,0
+7,3/1/2014,455,32,Outbound,4208189,4211109,Hyde Park Ave @ Wolcott Square,15,15,0
+8,3/1/2014,455,32,Outbound,4211109,4211131,Forest Hills Station Lower Busway,19,13,6
+8,3/1/2014,459,32,Outbound,4211109,4211131,Hyde Park Ave @ Cummins Hwy,14,13,1
+8,3/1/2014,460,32,Outbound,4211109,4211131,807 Hyde Park Ave opp American Legion Hwy,13,13,0
+8,3/1/2014,462,32,Outbound,4211109,4211131,Hyde Park Ave @ Greenwood Ave,14,13,1
+8,3/1/2014,464,32,Outbound,4211109,4211131,Hyde Park Ave @ Grant Place,14,13,1
+8,3/1/2014,470,32,Outbound,4211109,4211131,Hyde Park Ave @ Wolcott Square,13,13,0
+9,3/1/2014,468,32,Outbound,4211131,4208569,Forest Hills Station Lower Busway,17,12,5
+9,3/1/2014,472,32,Outbound,4211131,4208569,Hyde Park Ave @ Cummins Hwy,15,12,3
+9,3/1/2014,473,32,Outbound,4211131,4208569,807 Hyde Park Ave opp American Legion Hwy,16,13,3
+9,3/1/2014,475,32,Outbound,4211131,4208569,Hyde Park Ave @ Greenwood Ave,15,13,2
+9,3/1/2014,477,32,Outbound,4211131,4208569,Hyde Park Ave @ Grant Place,16,13,3
+9,3/1/2014,483,32,Outbound,4211131,4208569,Hyde Park Ave @ Wolcott Square,17,13,4
+10,3/1/2014,480,32,Outbound,4208569,4211161,Forest Hills Station Lower Busway,8,12,-4
+10,3/1/2014,484,32,Outbound,4208569,4211161,Hyde Park Ave @ Cummins Hwy,9,12,-3
+10,3/1/2014,486,32,Outbound,4208569,4211161,807 Hyde Park Ave opp American Legion Hwy,9,12,-3
+10,3/1/2014,488,32,Outbound,4208569,4211161,Hyde Park Ave @ Greenwood Ave,9,12,-3
+10,3/1/2014,490,32,Outbound,4208569,4211161,Hyde Park Ave @ Grant Place,8,12,-4
+10,3/1/2014,496,32,Outbound,4208569,4211161,Hyde Park Ave @ Wolcott Square,8,12,-4
+11,3/1/2014,492,32,Outbound,4211161,4211111,Forest Hills Station Lower Busway,10,12,-2
+11,3/1/2014,496,32,Outbound,4211161,4211111,Hyde Park Ave @ Cummins Hwy,11,12,-1
+11,3/1/2014,498,32,Outbound,4211161,4211111,807 Hyde Park Ave opp American Legion Hwy,10,12,-2
+11,3/1/2014,500,32,Outbound,4211161,4211111,Hyde Park Ave @ Greenwood Ave,11,12,-1
+11,3/1/2014,502,32,Outbound,4211161,4211111,Hyde Park Ave @ Grant Place,11,12,-1
+11,3/1/2014,508,32,Outbound,4211161,4211111,Hyde Park Ave @ Wolcott Square,11,12,-1
+12,3/1/2014,504,32,Outbound,4211111,4211179,Forest Hills Station Lower Busway,15,12,3
+12,3/1/2014,508,32,Outbound,4211111,4211179,Hyde Park Ave @ Cummins Hwy,13,12,1
+12,3/1/2014,510,32,Outbound,4211111,4211179,807 Hyde Park Ave opp American Legion Hwy,13,12,1
+12,3/1/2014,512,32,Outbound,4211111,4211179,Hyde Park Ave @ Greenwood Ave,12,12,0
+12,3/1/2014,514,32,Outbound,4211111,4211179,Hyde Park Ave @ Grant Place,13,12,1
+12,3/1/2014,520,32,Outbound,4211111,4211179,Hyde Park Ave @ Wolcott Square,12,12,0
+13,3/1/2014,516,32,Outbound,4211179,4211229,Forest Hills Station Lower Busway,13,12,1
+13,3/1/2014,520,32,Outbound,4211179,4211229,Hyde Park Ave @ Cummins Hwy,12,12,0
+13,3/1/2014,522,32,Outbound,4211179,4211229,807 Hyde Park Ave opp American Legion Hwy,14,12,2
+13,3/1/2014,524,32,Outbound,4211179,4211229,Hyde Park Ave @ Greenwood Ave,14,12,2
+13,3/1/2014,526,32,Outbound,4211179,4211229,Hyde Park Ave @ Grant Place,14,12,2
+13,3/1/2014,532,32,Outbound,4211179,4211229,Hyde Park Ave @ Wolcott Square,14,12,2
+14,3/1/2014,528,32,Outbound,4211229,4211163,Forest Hills Station Lower Busway,12,12,0
+14,3/1/2014,532,32,Outbound,4211229,4211163,Hyde Park Ave @ Cummins Hwy,16,12,4
+14,3/1/2014,534,32,Outbound,4211229,4211163,807 Hyde Park Ave opp American Legion Hwy,15,12,3
+14,3/1/2014,536,32,Outbound,4211229,4211163,Hyde Park Ave @ Greenwood Ave,15,12,3
+14,3/1/2014,538,32,Outbound,4211229,4211163,Hyde Park Ave @ Grant Place,14,12,2
+14,3/1/2014,544,32,Outbound,4211229,4211163,Hyde Park Ave @ Wolcott Square,15,12,3
+15,3/1/2014,540,32,Outbound,4211163,4211113,Forest Hills Station Lower Busway,9,12,-3
+15,3/1/2014,544,32,Outbound,4211163,4211113,Hyde Park Ave @ Cummins Hwy,8,12,-4
+15,3/1/2014,546,32,Outbound,4211163,4211113,807 Hyde Park Ave opp American Legion Hwy,8,12,-4
+15,3/1/2014,548,32,Outbound,4211163,4211113,Hyde Park Ave @ Greenwood Ave,7,12,-5
+15,3/1/2014,550,32,Outbound,4211163,4211113,Hyde Park Ave @ Grant Place,8,12,-4
+15,3/1/2014,556,32,Outbound,4211163,4211113,Hyde Park Ave @ Wolcott Square,9,12,-3
+16,3/1/2014,552,32,Outbound,4211113,4211181,Forest Hills Station Lower Busway,13,12,1
+16,3/1/2014,556,32,Outbound,4211113,4211181,Hyde Park Ave @ Cummins Hwy,13,12,1
+16,3/1/2014,558,32,Outbound,4211113,4211181,807 Hyde Park Ave opp American Legion Hwy,13,12,1
+16,3/1/2014,560,32,Outbound,4211113,4211181,Hyde Park Ave @ Greenwood Ave,13,12,1
+16,3/1/2014,562,32,Outbound,4211113,4211181,Hyde Park Ave @ Grant Place,14,12,2
+16,3/1/2014,568,32,Outbound,4211113,4211181,Hyde Park Ave @ Wolcott Square,15,12,3
+17,3/1/2014,564,32,Outbound,4211181,4211231,Forest Hills Station Lower Busway,8,12,-4
+17,3/1/2014,568,32,Outbound,4211181,4211231,Hyde Park Ave @ Cummins Hwy,12,12,0
+17,3/1/2014,570,32,Outbound,4211181,4211231,807 Hyde Park Ave opp American Legion Hwy,11,12,-1
+17,3/1/2014,572,32,Outbound,4211181,4211231,Hyde Park Ave @ Greenwood Ave,12,12,0
+17,3/1/2014,574,32,Outbound,4211181,4211231,Hyde Park Ave @ Grant Place,13,12,1
+17,3/1/2014,580,32,Outbound,4211181,4211231,Hyde Park Ave @ Wolcott Square,11,12,-1
+18,3/1/2014,576,32,Outbound,4211231,4211165,Forest Hills Station Lower Busway,18,12,6
+18,3/1/2014,580,32,Outbound,4211231,4211165,Hyde Park Ave @ Cummins Hwy,12,12,0
+18,3/1/2014,582,32,Outbound,4211231,4211165,807 Hyde Park Ave opp American Legion Hwy,13,12,1
+18,3/1/2014,584,32,Outbound,4211231,4211165,Hyde Park Ave @ Greenwood Ave,13,12,1
+18,3/1/2014,586,32,Outbound,4211231,4211165,Hyde Park Ave @ Grant Place,11,12,-1
+18,3/1/2014,592,32,Outbound,4211231,4211165,Hyde Park Ave @ Wolcott Square,12,12,0
+19,3/1/2014,588,32,Outbound,4211165,4211417,Forest Hills Station Lower Busway,11,12,-1
+19,3/1/2014,592,32,Outbound,4211165,4211417,Hyde Park Ave @ Cummins Hwy,13,12,1
+19,3/1/2014,594,32,Outbound,4211165,4211417,807 Hyde Park Ave opp American Legion Hwy,13,12,1
+19,3/1/2014,596,32,Outbound,4211165,4211417,Hyde Park Ave @ Greenwood Ave,13,12,1
+19,3/1/2014,598,32,Outbound,4211165,4211417,Hyde Park Ave @ Grant Place,14,12,2
+19,3/1/2014,604,32,Outbound,4211165,4211417,Hyde Park Ave @ Wolcott Square,15,12,3
+20,3/1/2014,600,32,Outbound,4211417,4211183,Forest Hills Station Lower Busway,7,12,-5
+20,3/1/2014,604,32,Outbound,4211417,4211183,Hyde Park Ave @ Cummins Hwy,10,12,-2
+20,3/1/2014,606,32,Outbound,4211417,4211183,807 Hyde Park Ave opp American Legion Hwy,10,12,-2
+20,3/1/2014,608,32,Outbound,4211417,4211183,Hyde Park Ave @ Greenwood Ave,10,12,-2
+20,3/1/2014,610,32,Outbound,4211417,4211183,Hyde Park Ave @ Grant Place,9,12,-3
+20,3/1/2014,616,32,Outbound,4211417,4211183,Hyde Park Ave @ Wolcott Square,9,12,-3
+21,3/1/2014,612,32,Outbound,4211183,4211233,Forest Hills Station Lower Busway,16,12,4
+21,3/1/2014,616,32,Outbound,4211183,4211233,Hyde Park Ave @ Cummins Hwy,19,12,7
+21,3/1/2014,618,32,Outbound,4211183,4211233,807 Hyde Park Ave opp American Legion Hwy,20,12,8
+21,3/1/2014,620,32,Outbound,4211183,4211233,Hyde Park Ave @ Greenwood Ave,21,12,9
+21,3/1/2014,622,32,Outbound,4211183,4211233,Hyde Park Ave @ Grant Place,21,12,9
+21,3/1/2014,628,32,Outbound,4211183,4211233,Hyde Park Ave @ Wolcott Square,21,12,9
+22,3/1/2014,624,32,Outbound,4211233,4211167,Forest Hills Station Lower Busway,9,12,-3
+22,3/1/2014,628,32,Outbound,4211233,4211167,Hyde Park Ave @ Cummins Hwy,5,12,-7
+22,3/1/2014,630,32,Outbound,4211233,4211167,807 Hyde Park Ave opp American Legion Hwy,4,12,-8
+22,3/1/2014,632,32,Outbound,4211233,4211167,Hyde Park Ave @ Greenwood Ave,2,12,-10
+22,3/1/2014,634,32,Outbound,4211233,4211167,Hyde Park Ave @ Grant Place,2,12,-10
+22,3/1/2014,640,32,Outbound,4211233,4211167,Hyde Park Ave @ Wolcott Square,0,12,-12
+23,3/1/2014,636,32,Outbound,4211167,4211419,Forest Hills Station Lower Busway,14,12,2
+23,3/1/2014,640,32,Outbound,4211167,4211419,Hyde Park Ave @ Cummins Hwy,12,12,0
+23,3/1/2014,642,32,Outbound,4211167,4211419,807 Hyde Park Ave opp American Legion Hwy,12,12,0
+23,3/1/2014,644,32,Outbound,4211167,4211419,Hyde Park Ave @ Greenwood Ave,14,12,2
+23,3/1/2014,646,32,Outbound,4211167,4211419,Hyde Park Ave @ Grant Place,15,12,3
+23,3/1/2014,652,32,Outbound,4211167,4211419,Hyde Park Ave @ Wolcott Square,17,13,4
+24,3/1/2014,648,32,Outbound,4211419,4211185,Forest Hills Station Lower Busway,15,12,3
+24,3/1/2014,652,32,Outbound,4211419,4211185,Hyde Park Ave @ Cummins Hwy,16,12,4
+24,3/1/2014,654,32,Outbound,4211419,4211185,807 Hyde Park Ave opp American Legion Hwy,17,12,5
+24,3/1/2014,656,32,Outbound,4211419,4211185,Hyde Park Ave @ Greenwood Ave,17,12,5
+24,3/1/2014,658,32,Outbound,4211419,4211185,Hyde Park Ave @ Grant Place,16,13,3
+24,3/1/2014,665,32,Outbound,4211419,4211185,Hyde Park Ave @ Wolcott Square,15,13,2
+25,3/1/2014,660,32,Outbound,4211185,4211235,Forest Hills Station Lower Busway,16,12,4
+25,3/1/2014,664,32,Outbound,4211185,4211235,Hyde Park Ave @ Cummins Hwy,15,12,3
+25,3/1/2014,666,32,Outbound,4211185,4211235,807 Hyde Park Ave opp American Legion Hwy,15,12,3
+25,3/1/2014,668,32,Outbound,4211185,4211235,Hyde Park Ave @ Greenwood Ave,15,12,3
+25,3/1/2014,671,32,Outbound,4211185,4211235,Hyde Park Ave @ Grant Place,15,12,3
+25,3/1/2014,678,32,Outbound,4211185,4211235,Hyde Park Ave @ Wolcott Square,14,12,2
+26,3/1/2014,676,32,Outbound,4211235,4215021,Hyde Park Ave @ Cummins Hwy,8,12,-4
+26,3/1/2014,678,32,Outbound,4211235,4215021,807 Hyde Park Ave opp American Legion Hwy,7,12,-5
+26,3/1/2014,680,32,Outbound,4211235,4215021,Hyde Park Ave @ Greenwood Ave,5,12,-7
+26,3/1/2014,683,32,Outbound,4211235,4215021,Hyde Park Ave @ Grant Place,6,12,-6
+26,3/1/2014,690,32,Outbound,4211235,4215021,Hyde Park Ave @ Wolcott Square,5,12,-7
+27,3/1/2014,688,32,Outbound,4215021,4211421,Hyde Park Ave @ Cummins Hwy,10,12,-2
+27,3/1/2014,690,32,Outbound,4215021,4211421,807 Hyde Park Ave opp American Legion Hwy,10,12,-2
+27,3/1/2014,692,32,Outbound,4215021,4211421,Hyde Park Ave @ Greenwood Ave,13,12,1
+27,3/1/2014,695,32,Outbound,4215021,4211421,Hyde Park Ave @ Grant Place,12,12,0
+27,3/1/2014,702,32,Outbound,4215021,4211421,Hyde Park Ave @ Wolcott Square,15,12,3
+28,3/1/2014,696,32,Outbound,4211421,4210004,Forest Hills Station Lower Busway,13,12,1
+28,3/1/2014,700,32,Outbound,4211421,4210004,Hyde Park Ave @ Cummins Hwy,12,12,0
+28,3/1/2014,702,32,Outbound,4211421,4210004,807 Hyde Park Ave opp American Legion Hwy,12,12,0
+28,3/1/2014,704,32,Outbound,4211421,4210004,Hyde Park Ave @ Greenwood Ave,12,12,0
+28,3/1/2014,707,32,Outbound,4211421,4210004,Hyde Park Ave @ Grant Place,11,12,-1
+28,3/1/2014,714,32,Outbound,4211421,4210004,Hyde Park Ave @ Wolcott Square,10,12,-2
+29,3/1/2014,708,32,Outbound,4210004,4211237,Forest Hills Station Lower Busway,15,12,3
+29,3/1/2014,712,32,Outbound,4210004,4211237,Hyde Park Ave @ Cummins Hwy,20,12,8
+29,3/1/2014,714,32,Outbound,4210004,4211237,807 Hyde Park Ave opp American Legion Hwy,20,12,8
+29,3/1/2014,716,32,Outbound,4210004,4211237,Hyde Park Ave @ Greenwood Ave,19,12,7
+29,3/1/2014,719,32,Outbound,4210004,4211237,Hyde Park Ave @ Grant Place,21,12,9
+29,3/1/2014,726,32,Outbound,4210004,4211237,Hyde Park Ave @ Wolcott Square,21,12,9
+30,3/1/2014,720,32,Outbound,4211237,4215023,Forest Hills Station Lower Busway,8,12,-4
+30,3/1/2014,724,32,Outbound,4211237,4215023,Hyde Park Ave @ Cummins Hwy,4,12,-8
+30,3/1/2014,726,32,Outbound,4211237,4215023,807 Hyde Park Ave opp American Legion Hwy,4,12,-8
+30,3/1/2014,728,32,Outbound,4211237,4215023,Hyde Park Ave @ Greenwood Ave,3,12,-9
+30,3/1/2014,731,32,Outbound,4211237,4215023,Hyde Park Ave @ Grant Place,2,12,-10
+30,3/1/2014,738,32,Outbound,4211237,4215023,Hyde Park Ave @ Wolcott Square,3,12,-9
+31,3/1/2014,732,32,Outbound,4215023,4211431,Forest Hills Station Lower Busway,27,12,15
+31,3/1/2014,736,32,Outbound,4215023,4211431,Hyde Park Ave @ Cummins Hwy,26,12,14
+31,3/1/2014,738,32,Outbound,4215023,4211431,807 Hyde Park Ave opp American Legion Hwy,26,12,14
+31,3/1/2014,740,32,Outbound,4215023,4211431,Hyde Park Ave @ Greenwood Ave,25,12,13
+31,3/1/2014,743,32,Outbound,4215023,4211431,Hyde Park Ave @ Grant Place,29,12,17
+31,3/1/2014,750,32,Outbound,4215023,4211431,Hyde Park Ave @ Wolcott Square,28,12,16
+32,3/1/2014,744,32,Outbound,4211431,4209881,Forest Hills Station Lower Busway,-15,12,-27
+32,3/1/2014,748,32,Outbound,4211431,4209881,Hyde Park Ave @ Cummins Hwy,-7,13,-20
+32,3/1/2014,750,32,Outbound,4211431,4209881,807 Hyde Park Ave opp American Legion Hwy,-8,13,-21
+32,3/1/2014,752,32,Outbound,4211431,4209881,Hyde Park Ave @ Greenwood Ave,-6,13,-19
+32,3/1/2014,755,32,Outbound,4211431,4209881,Hyde Park Ave @ Grant Place,-6,13,-19
+32,3/1/2014,762,32,Outbound,4211431,4209881,Hyde Park Ave @ Wolcott Square,-6,13,-19
+33,3/1/2014,756,32,Outbound,4209881,4211425,Forest Hills Station Lower Busway,24,12,12
+33,3/1/2014,761,32,Outbound,4209881,4211425,Hyde Park Ave @ Cummins Hwy,21,12,9
+33,3/1/2014,763,32,Outbound,4209881,4211425,807 Hyde Park Ave opp American Legion Hwy,21,12,9
+33,3/1/2014,765,32,Outbound,4209881,4211425,Hyde Park Ave @ Greenwood Ave,21,12,9
+33,3/1/2014,768,32,Outbound,4209881,4211425,Hyde Park Ave @ Grant Place,20,12,8
+33,3/1/2014,775,32,Outbound,4209881,4211425,Hyde Park Ave @ Wolcott Square,21,12,9
+34,3/1/2014,768,32,Outbound,4211425,4209910,Forest Hills Station Lower Busway,17,12,5
+34,3/1/2014,773,32,Outbound,4211425,4209910,Hyde Park Ave @ Cummins Hwy,14,12,2
+34,3/1/2014,775,32,Outbound,4211425,4209910,807 Hyde Park Ave opp American Legion Hwy,14,12,2
+34,3/1/2014,777,32,Outbound,4211425,4209910,Hyde Park Ave @ Greenwood Ave,14,12,2
+34,3/1/2014,780,32,Outbound,4211425,4209910,Hyde Park Ave @ Grant Place,12,12,0
+34,3/1/2014,787,32,Outbound,4211425,4209910,Hyde Park Ave @ Wolcott Square,10,12,-2
+35,3/1/2014,780,32,Outbound,4209910,4211433,Forest Hills Station Lower Busway,20,12,8
+35,3/1/2014,785,32,Outbound,4209910,4211433,Hyde Park Ave @ Cummins Hwy,22,12,10
+35,3/1/2014,787,32,Outbound,4209910,4211433,807 Hyde Park Ave opp American Legion Hwy,24,12,12
+35,3/1/2014,789,32,Outbound,4209910,4211433,Hyde Park Ave @ Greenwood Ave,23,12,11
+35,3/1/2014,792,32,Outbound,4209910,4211433,Hyde Park Ave @ Grant Place,23,12,11
+35,3/1/2014,799,32,Outbound,4209910,4211433,Hyde Park Ave @ Wolcott Square,24,12,12
+36,3/1/2014,792,32,Outbound,4211433,4211441,Forest Hills Station Lower Busway,2,12,-10
+36,3/1/2014,797,32,Outbound,4211433,4211441,Hyde Park Ave @ Cummins Hwy,-1,12,-13
+36,3/1/2014,799,32,Outbound,4211433,4211441,807 Hyde Park Ave opp American Legion Hwy,-1,12,-13
+36,3/1/2014,801,32,Outbound,4211433,4211441,Hyde Park Ave @ Greenwood Ave,0,12,-12
+36,3/1/2014,804,32,Outbound,4211433,4211441,Hyde Park Ave @ Grant Place,-2,12,-14
+36,3/1/2014,811,32,Outbound,4211433,4211441,Hyde Park Ave @ Wolcott Square,0,12,-12
+37,3/1/2014,804,32,Outbound,4211441,4211427,Forest Hills Station Lower Busway,12,12,0
+37,3/1/2014,809,32,Outbound,4211441,4211427,Hyde Park Ave @ Cummins Hwy,16,12,4
+37,3/1/2014,811,32,Outbound,4211441,4211427,807 Hyde Park Ave opp American Legion Hwy,15,12,3
+37,3/1/2014,813,32,Outbound,4211441,4211427,Hyde Park Ave @ Greenwood Ave,13,12,1
+37,3/1/2014,816,32,Outbound,4211441,4211427,Hyde Park Ave @ Grant Place,14,12,2
+37,3/1/2014,823,32,Outbound,4211441,4211427,Hyde Park Ave @ Wolcott Square,14,12,2
+38,3/1/2014,816,32,Outbound,4211427,4209912,Forest Hills Station Lower Busway,6,12,-6
+38,3/1/2014,821,32,Outbound,4211427,4209912,Hyde Park Ave @ Cummins Hwy,5,12,-7
+38,3/1/2014,823,32,Outbound,4211427,4209912,807 Hyde Park Ave opp American Legion Hwy,4,12,-8
+38,3/1/2014,825,32,Outbound,4211427,4209912,Hyde Park Ave @ Greenwood Ave,6,12,-6
+38,3/1/2014,828,32,Outbound,4211427,4209912,Hyde Park Ave @ Grant Place,6,12,-6
+38,3/1/2014,835,32,Outbound,4211427,4209912,Hyde Park Ave @ Wolcott Square,4,12,-8
+39,3/1/2014,828,32,Outbound,4209912,4211435,Forest Hills Station Lower Busway,26,12,14
+39,3/1/2014,833,32,Outbound,4209912,4211435,Hyde Park Ave @ Cummins Hwy,26,12,14
+39,3/1/2014,835,32,Outbound,4209912,4211435,807 Hyde Park Ave opp American Legion Hwy,27,12,15
+39,3/1/2014,837,32,Outbound,4209912,4211435,Hyde Park Ave @ Greenwood Ave,26,12,14
+39,3/1/2014,840,32,Outbound,4209912,4211435,Hyde Park Ave @ Grant Place,28,12,16
+40,3/1/2014,840,32,Outbound,4211435,4211443,Forest Hills Station Lower Busway,2,12,-10
+40,3/1/2014,845,32,Outbound,4211435,4211443,Hyde Park Ave @ Cummins Hwy,0,12,-12
+40,3/1/2014,847,32,Outbound,4211435,4211443,807 Hyde Park Ave opp American Legion Hwy,-1,12,-13
+40,3/1/2014,849,32,Outbound,4211435,4211443,Hyde Park Ave @ Greenwood Ave,-1,12,-13
+40,3/1/2014,852,32,Outbound,4211435,4211443,Hyde Park Ave @ Grant Place,-3,12,-15
+41,3/1/2014,852,32,Outbound,4211443,4211429,Forest Hills Station Lower Busway,15,12,3
+41,3/1/2014,857,32,Outbound,4211443,4211429,Hyde Park Ave @ Cummins Hwy,16,12,4
+41,3/1/2014,859,32,Outbound,4211443,4211429,807 Hyde Park Ave opp American Legion Hwy,17,12,5
+41,3/1/2014,861,32,Outbound,4211443,4211429,Hyde Park Ave @ Greenwood Ave,18,12,6
+41,3/1/2014,864,32,Outbound,4211443,4211429,Hyde Park Ave @ Grant Place,18,12,6
+41,3/1/2014,871,32,Outbound,4211443,4211429,Hyde Park Ave @ Wolcott Square,20,12,8
+42,3/1/2014,864,32,Outbound,4211429,4209914,Forest Hills Station Lower Busway,1,12,-11
+42,3/1/2014,869,32,Outbound,4211429,4209914,Hyde Park Ave @ Cummins Hwy,7,12,-5
+42,3/1/2014,871,32,Outbound,4211429,4209914,807 Hyde Park Ave opp American Legion Hwy,7,12,-5
+42,3/1/2014,873,32,Outbound,4211429,4209914,Hyde Park Ave @ Greenwood Ave,6,12,-6
+42,3/1/2014,876,32,Outbound,4211429,4209914,Hyde Park Ave @ Grant Place,8,12,-4
+42,3/1/2014,883,32,Outbound,4211429,4209914,Hyde Park Ave @ Wolcott Square,8,12,-4
+43,3/1/2014,876,32,Outbound,4209914,4211195,Forest Hills Station Lower Busway,26,12,14
+43,3/1/2014,881,32,Outbound,4209914,4211195,Hyde Park Ave @ Cummins Hwy,25,12,13
+43,3/1/2014,883,32,Outbound,4209914,4211195,807 Hyde Park Ave opp American Legion Hwy,25,12,13
+43,3/1/2014,885,32,Outbound,4209914,4211195,Hyde Park Ave @ Greenwood Ave,27,12,15
+43,3/1/2014,888,32,Outbound,4209914,4211195,Hyde Park Ave @ Grant Place,27,12,15
+43,3/1/2014,895,32,Outbound,4209914,4211195,Hyde Park Ave @ Wolcott Square,27,12,15
+44,3/1/2014,888,32,Outbound,4211195,4211445,Forest Hills Station Lower Busway,2,12,-10
+44,3/1/2014,893,32,Outbound,4211195,4211445,Hyde Park Ave @ Cummins Hwy,5,12,-7
+44,3/1/2014,895,32,Outbound,4211195,4211445,807 Hyde Park Ave opp American Legion Hwy,4,12,-8
+44,3/1/2014,897,32,Outbound,4211195,4211445,Hyde Park Ave @ Greenwood Ave,3,12,-9
+44,3/1/2014,900,32,Outbound,4211195,4211445,Hyde Park Ave @ Grant Place,3,12,-9
+44,3/1/2014,907,32,Outbound,4211195,4211445,Hyde Park Ave @ Wolcott Square,1,12,-11
+45,3/1/2014,900,32,Outbound,4211445,4211287,Forest Hills Station Lower Busway,31,12,19
+45,3/1/2014,905,32,Outbound,4211445,4211287,Hyde Park Ave @ Cummins Hwy,20,17,3
+45,3/1/2014,907,32,Outbound,4211445,4211287,807 Hyde Park Ave opp American Legion Hwy,22,17,5
+45,3/1/2014,909,32,Outbound,4211445,4211287,Hyde Park Ave @ Greenwood Ave,22,17,5
+45,3/1/2014,912,32,Outbound,4211445,4211287,Hyde Park Ave @ Grant Place,21,17,4
+46,3/1/2014,912,32,Outbound,4211287,4211317,Forest Hills Station Lower Busway,0,12,-12
+46,3/1/2014,922,32,Outbound,4211287,4211317,Hyde Park Ave @ Cummins Hwy,7,12,-5
+46,3/1/2014,924,32,Outbound,4211287,4211317,807 Hyde Park Ave opp American Legion Hwy,6,12,-6
+46,3/1/2014,926,32,Outbound,4211287,4211317,Hyde Park Ave @ Greenwood Ave,6,12,-6
+46,3/1/2014,929,32,Outbound,4211287,4211317,Hyde Park Ave @ Grant Place,6,12,-6
+47,3/1/2014,924,32,Outbound,4211317,4211447,Forest Hills Station Lower Busway,23,24,-1
+47,3/1/2014,934,32,Outbound,4211317,4211447,Hyde Park Ave @ Cummins Hwy,23,19,4
+47,3/1/2014,936,32,Outbound,4211317,4211447,807 Hyde Park Ave opp American Legion Hwy,23,19,4
+47,3/1/2014,938,32,Outbound,4211317,4211447,Hyde Park Ave @ Greenwood Ave,23,19,4
+47,3/1/2014,941,32,Outbound,4211317,4211447,Hyde Park Ave @ Grant Place,23,19,4
+47,3/1/2014,948,32,Outbound,4211317,4211447,Hyde Park Ave @ Wolcott Square,21,19,2
+48,3/1/2014,948,32,Outbound,4211447,4211289,Forest Hills Station Lower Busway,14,12,2
+48,3/1/2014,953,32,Outbound,4211447,4211289,Hyde Park Ave @ Cummins Hwy,9,12,-3
+48,3/1/2014,955,32,Outbound,4211447,4211289,807 Hyde Park Ave opp American Legion Hwy,10,12,-2
+48,3/1/2014,957,32,Outbound,4211447,4211289,Hyde Park Ave @ Greenwood Ave,10,12,-2
+48,3/1/2014,960,32,Outbound,4211447,4211289,Hyde Park Ave @ Grant Place,10,12,-2
+48,3/1/2014,967,32,Outbound,4211447,4211289,Hyde Park Ave @ Wolcott Square,12,12,0
+49,3/1/2014,960,32,Outbound,4211289,4211319,Forest Hills Station Lower Busway,12,12,0
+49,3/1/2014,965,32,Outbound,4211289,4211319,Hyde Park Ave @ Cummins Hwy,14,12,2
+49,3/1/2014,967,32,Outbound,4211289,4211319,807 Hyde Park Ave opp American Legion Hwy,12,12,0
+49,3/1/2014,969,32,Outbound,4211289,4211319,Hyde Park Ave @ Greenwood Ave,11,12,-1
+49,3/1/2014,972,32,Outbound,4211289,4211319,Hyde Park Ave @ Grant Place,10,12,-2
+49,3/1/2014,979,32,Outbound,4211289,4211319,Hyde Park Ave @ Wolcott Square,9,12,-3
+50,3/1/2014,972,32,Outbound,4211319,4211345,Forest Hills Station Lower Busway,7,12,-5
+50,3/1/2014,977,32,Outbound,4211319,4211345,Hyde Park Ave @ Cummins Hwy,4,12,-8
+50,3/1/2014,979,32,Outbound,4211319,4211345,807 Hyde Park Ave opp American Legion Hwy,5,12,-7
+50,3/1/2014,981,32,Outbound,4211319,4211345,Hyde Park Ave @ Greenwood Ave,5,12,-7
+50,3/1/2014,984,32,Outbound,4211319,4211345,Hyde Park Ave @ Grant Place,4,12,-8
+50,3/1/2014,991,32,Outbound,4211319,4211345,Hyde Park Ave @ Wolcott Square,4,12,-8
+51,3/1/2014,984,32,Outbound,4211345,4211263,Forest Hills Station Lower Busway,16,12,4
+51,3/1/2014,989,32,Outbound,4211345,4211263,Hyde Park Ave @ Cummins Hwy,18,12,6
+51,3/1/2014,991,32,Outbound,4211345,4211263,807 Hyde Park Ave opp American Legion Hwy,19,12,7
+51,3/1/2014,993,32,Outbound,4211345,4211263,Hyde Park Ave @ Greenwood Ave,20,12,8
+51,3/1/2014,996,32,Outbound,4211345,4211263,Hyde Park Ave @ Grant Place,21,12,9
+51,3/1/2014,1003,32,Outbound,4211345,4211263,Hyde Park Ave @ Wolcott Square,21,12,9
+52,3/1/2014,996,32,Outbound,4211263,4211291,Forest Hills Station Lower Busway,7,12,-5
+52,3/1/2014,1001,32,Outbound,4211263,4211291,Hyde Park Ave @ Cummins Hwy,5,12,-7
+52,3/1/2014,1003,32,Outbound,4211263,4211291,807 Hyde Park Ave opp American Legion Hwy,4,12,-8
+52,3/1/2014,1005,32,Outbound,4211263,4211291,Hyde Park Ave @ Greenwood Ave,3,12,-9
+52,3/1/2014,1008,32,Outbound,4211263,4211291,Hyde Park Ave @ Grant Place,3,12,-9
+52,3/1/2014,1015,32,Outbound,4211263,4211291,Hyde Park Ave @ Wolcott Square,4,12,-8
+53,3/1/2014,1008,32,Outbound,4211291,4211321,Forest Hills Station Lower Busway,8,12,-4
+53,3/1/2014,1013,32,Outbound,4211291,4211321,Hyde Park Ave @ Cummins Hwy,14,12,2
+53,3/1/2014,1015,32,Outbound,4211291,4211321,807 Hyde Park Ave opp American Legion Hwy,14,12,2
+53,3/1/2014,1017,32,Outbound,4211291,4211321,Hyde Park Ave @ Greenwood Ave,15,12,3
+53,3/1/2014,1020,32,Outbound,4211291,4211321,Hyde Park Ave @ Grant Place,15,12,3
+53,3/1/2014,1027,32,Outbound,4211291,4211321,Hyde Park Ave @ Wolcott Square,14,12,2
+54,3/1/2014,1020,32,Outbound,4211321,4211347,Forest Hills Station Lower Busway,16,12,4
+54,3/1/2014,1025,32,Outbound,4211321,4211347,Hyde Park Ave @ Cummins Hwy,14,12,2
+54,3/1/2014,1027,32,Outbound,4211321,4211347,807 Hyde Park Ave opp American Legion Hwy,15,12,3
+54,3/1/2014,1029,32,Outbound,4211321,4211347,Hyde Park Ave @ Greenwood Ave,15,12,3
+54,3/1/2014,1032,32,Outbound,4211321,4211347,Hyde Park Ave @ Grant Place,14,12,2
+54,3/1/2014,1039,32,Outbound,4211321,4211347,Hyde Park Ave @ Wolcott Square,15,12,3
+55,3/1/2014,1032,32,Outbound,4211347,4211265,Forest Hills Station Lower Busway,16,12,4
+55,3/1/2014,1037,32,Outbound,4211347,4211265,Hyde Park Ave @ Cummins Hwy,14,12,2
+55,3/1/2014,1039,32,Outbound,4211347,4211265,807 Hyde Park Ave opp American Legion Hwy,13,12,1
+55,3/1/2014,1041,32,Outbound,4211347,4211265,Hyde Park Ave @ Greenwood Ave,13,12,1
+55,3/1/2014,1044,32,Outbound,4211347,4211265,Hyde Park Ave @ Grant Place,14,12,2
+55,3/1/2014,1051,32,Outbound,4211347,4211265,Hyde Park Ave @ Wolcott Square,14,12,2
+56,3/1/2014,1044,32,Outbound,4211265,4211293,Forest Hills Station Lower Busway,1,12,-11
+56,3/1/2014,1049,32,Outbound,4211265,4211293,Hyde Park Ave @ Cummins Hwy,8,12,-4
+56,3/1/2014,1051,32,Outbound,4211265,4211293,807 Hyde Park Ave opp American Legion Hwy,8,12,-4
+56,3/1/2014,1053,32,Outbound,4211265,4211293,Hyde Park Ave @ Greenwood Ave,8,12,-4
+56,3/1/2014,1056,32,Outbound,4211265,4211293,Hyde Park Ave @ Grant Place,10,12,-2
+56,3/1/2014,1063,32,Outbound,4211265,4211293,Hyde Park Ave @ Wolcott Square,9,12,-3
+57,3/1/2014,1056,32,Outbound,4211293,4211323,Forest Hills Station Lower Busway,23,12,11
+57,3/1/2014,1061,32,Outbound,4211293,4211323,Hyde Park Ave @ Cummins Hwy,18,12,6
+57,3/1/2014,1063,32,Outbound,4211293,4211323,807 Hyde Park Ave opp American Legion Hwy,19,12,7
+57,3/1/2014,1065,32,Outbound,4211293,4211323,Hyde Park Ave @ Greenwood Ave,18,12,6
+57,3/1/2014,1068,32,Outbound,4211293,4211323,Hyde Park Ave @ Grant Place,16,12,4
+57,3/1/2014,1075,32,Outbound,4211293,4211323,Hyde Park Ave @ Wolcott Square,17,12,5
+58,3/1/2014,1068,32,Outbound,4211323,4211349,Forest Hills Station Lower Busway,5,12,-7
+58,3/1/2014,1073,32,Outbound,4211323,4211349,Hyde Park Ave @ Cummins Hwy,5,12,-7
+58,3/1/2014,1075,32,Outbound,4211323,4211349,807 Hyde Park Ave opp American Legion Hwy,5,12,-7
+58,3/1/2014,1077,32,Outbound,4211323,4211349,Hyde Park Ave @ Greenwood Ave,5,12,-7
+58,3/1/2014,1080,32,Outbound,4211323,4211349,Hyde Park Ave @ Grant Place,6,12,-6
+58,3/1/2014,1087,32,Outbound,4211323,4211349,Hyde Park Ave @ Wolcott Square,5,12,-7
+59,3/1/2014,1080,32,Outbound,4211349,4211267,Forest Hills Station Lower Busway,17,12,5
+59,3/1/2014,1085,32,Outbound,4211349,4211267,Hyde Park Ave @ Cummins Hwy,13,12,1
+59,3/1/2014,1087,32,Outbound,4211349,4211267,807 Hyde Park Ave opp American Legion Hwy,11,12,-1
+59,3/1/2014,1089,32,Outbound,4211349,4211267,Hyde Park Ave @ Greenwood Ave,12,12,0
+59,3/1/2014,1092,32,Outbound,4211349,4211267,Hyde Park Ave @ Grant Place,11,12,-1
+59,3/1/2014,1099,32,Outbound,4211349,4211267,Hyde Park Ave @ Wolcott Square,9,12,-3
+60,3/1/2014,1092,32,Outbound,4211267,4215045,Forest Hills Station Lower Busway,10,12,-2
+60,3/1/2014,1097,32,Outbound,4211267,4215045,Hyde Park Ave @ Cummins Hwy,14,12,2
+60,3/1/2014,1099,32,Outbound,4211267,4215045,807 Hyde Park Ave opp American Legion Hwy,15,12,3
+60,3/1/2014,1101,32,Outbound,4211267,4215045,Hyde Park Ave @ Greenwood Ave,15,12,3
+60,3/1/2014,1104,32,Outbound,4211267,4215045,Hyde Park Ave @ Grant Place,16,12,4
+60,3/1/2014,1111,32,Outbound,4211267,4215045,Hyde Park Ave @ Wolcott Square,18,12,6
+61,3/1/2014,1104,32,Outbound,4215045,4209978,Forest Hills Station Lower Busway,11,12,-1
+61,3/1/2014,1109,32,Outbound,4215045,4209978,Hyde Park Ave @ Cummins Hwy,8,12,-4
+61,3/1/2014,1111,32,Outbound,4215045,4209978,807 Hyde Park Ave opp American Legion Hwy,8,12,-4
+61,3/1/2014,1113,32,Outbound,4215045,4209978,Hyde Park Ave @ Greenwood Ave,7,12,-5
+61,3/1/2014,1116,32,Outbound,4215045,4209978,Hyde Park Ave @ Grant Place,7,12,-5
+61,3/1/2014,1123,32,Outbound,4215045,4209978,Hyde Park Ave @ Wolcott Square,7,12,-5
+62,3/1/2014,1116,32,Outbound,4209978,4210000,Forest Hills Station Lower Busway,19,12,7
+62,3/1/2014,1121,32,Outbound,4209978,4210000,Hyde Park Ave @ Cummins Hwy,23,12,11
+62,3/1/2014,1123,32,Outbound,4209978,4210000,807 Hyde Park Ave opp American Legion Hwy,23,12,11
+62,3/1/2014,1125,32,Outbound,4209978,4210000,Hyde Park Ave @ Greenwood Ave,23,12,11
+62,3/1/2014,1128,32,Outbound,4209978,4210000,Hyde Park Ave @ Grant Place,22,12,10
+62,3/1/2014,1135,32,Outbound,4209978,4210000,Hyde Park Ave @ Wolcott Square,22,12,10
+63,3/1/2014,1128,32,Outbound,4210000,4211297,Forest Hills Station Lower Busway,7,12,-5
+63,3/1/2014,1133,32,Outbound,4210000,4211297,Hyde Park Ave @ Cummins Hwy,2,14,-12
+63,3/1/2014,1135,32,Outbound,4210000,4211297,807 Hyde Park Ave opp American Legion Hwy,2,15,-13
+63,3/1/2014,1137,32,Outbound,4210000,4211297,Hyde Park Ave @ Greenwood Ave,3,15,-12
+63,3/1/2014,1140,32,Outbound,4210000,4211297,Hyde Park Ave @ Grant Place,3,15,-12
+63,3/1/2014,1147,32,Outbound,4210000,4211297,Hyde Park Ave @ Wolcott Square,3,15,-12
+64,3/1/2014,1140,32,Outbound,4211297,4209032,Forest Hills Station Lower Busway,19,15,4
+64,3/1/2014,1147,32,Outbound,4211297,4209032,Hyde Park Ave @ Cummins Hwy,20,15,5
+64,3/1/2014,1150,32,Outbound,4211297,4209032,807 Hyde Park Ave opp American Legion Hwy,20,15,5
+64,3/1/2014,1152,32,Outbound,4211297,4209032,Hyde Park Ave @ Greenwood Ave,19,15,4
+64,3/1/2014,1155,32,Outbound,4211297,4209032,Hyde Park Ave @ Grant Place,18,15,3
+64,3/1/2014,1162,32,Outbound,4211297,4209032,Hyde Park Ave @ Wolcott Square,18,15,3
+65,3/1/2014,1155,32,Outbound,4209032,4209980,Forest Hills Station Lower Busway,-4,15,-19
+65,3/1/2014,1162,32,Outbound,4209032,4209980,Hyde Park Ave @ Cummins Hwy,7,15,-8
+65,3/1/2014,1165,32,Outbound,4209032,4209980,807 Hyde Park Ave opp American Legion Hwy,7,15,-8
+65,3/1/2014,1167,32,Outbound,4209032,4209980,Hyde Park Ave @ Greenwood Ave,7,15,-8
+65,3/1/2014,1170,32,Outbound,4209032,4209980,Hyde Park Ave @ Grant Place,7,15,-8
+65,3/1/2014,1177,32,Outbound,4209032,4209980,Hyde Park Ave @ Wolcott Square,6,15,-9
+66,3/1/2014,1170,32,Outbound,4209980,4212517,Forest Hills Station Lower Busway,47,15,32
+66,3/1/2014,1177,32,Outbound,4209980,4212517,Hyde Park Ave @ Cummins Hwy,39,15,24
+66,3/1/2014,1180,32,Outbound,4209980,4212517,807 Hyde Park Ave opp American Legion Hwy,39,15,24
+66,3/1/2014,1182,32,Outbound,4209980,4212517,Hyde Park Ave @ Greenwood Ave,40,15,25
+66,3/1/2014,1185,32,Outbound,4209980,4212517,Hyde Park Ave @ Grant Place,42,15,27
+66,3/1/2014,1192,32,Outbound,4209980,4212517,Hyde Park Ave @ Wolcott Square,44,14,30
+67,3/1/2014,1185,32,Outbound,4212517,4212090,Forest Hills Station Lower Busway,2,15,-13
+67,3/1/2014,1192,32,Outbound,4212517,4212090,Hyde Park Ave @ Cummins Hwy,4,13,-9
+67,3/1/2014,1195,32,Outbound,4212517,4212090,807 Hyde Park Ave opp American Legion Hwy,3,12,-9
+67,3/1/2014,1197,32,Outbound,4212517,4212090,Hyde Park Ave @ Greenwood Ave,2,12,-10
+67,3/1/2014,1200,32,Outbound,4212517,4212090,Hyde Park Ave @ Grant Place,2,12,-10
+67,3/1/2014,1206,32,Outbound,4212517,4212090,Hyde Park Ave @ Wolcott Square,0,12,-12
+68,3/1/2014,1200,32,Outbound,4212090,4211369,Forest Hills Station Lower Busway,7,15,-8
+68,3/1/2014,1205,32,Outbound,4212090,4211369,Hyde Park Ave @ Cummins Hwy,6,15,-9
+68,3/1/2014,1207,32,Outbound,4212090,4211369,807 Hyde Park Ave opp American Legion Hwy,7,15,-8
+68,3/1/2014,1209,32,Outbound,4212090,4211369,Hyde Park Ave @ Greenwood Ave,7,15,-8
+68,3/1/2014,1212,32,Outbound,4212090,4211369,Hyde Park Ave @ Grant Place,6,15,-9
+68,3/1/2014,1218,32,Outbound,4212090,4211369,Hyde Park Ave @ Wolcott Square,6,15,-9
+69,3/1/2014,1215,32,Outbound,4211369,4211393,Forest Hills Station Lower Busway,20,15,5
+69,3/1/2014,1220,32,Outbound,4211369,4211393,Hyde Park Ave @ Cummins Hwy,14,15,-1
+69,3/1/2014,1222,32,Outbound,4211369,4211393,807 Hyde Park Ave opp American Legion Hwy,15,15,0
+69,3/1/2014,1224,32,Outbound,4211369,4211393,Hyde Park Ave @ Greenwood Ave,14,15,-1
+69,3/1/2014,1227,32,Outbound,4211369,4211393,Hyde Park Ave @ Grant Place,13,15,-2
+69,3/1/2014,1233,32,Outbound,4211369,4211393,Hyde Park Ave @ Wolcott Square,13,15,-2
+70,3/1/2014,1230,32,Outbound,4211393,4214387,Forest Hills Station Lower Busway,12,15,-3
+70,3/1/2014,1235,32,Outbound,4211393,4214387,Hyde Park Ave @ Cummins Hwy,16,15,1
+70,3/1/2014,1237,32,Outbound,4211393,4214387,807 Hyde Park Ave opp American Legion Hwy,15,15,0
+70,3/1/2014,1239,32,Outbound,4211393,4214387,Hyde Park Ave @ Greenwood Ave,17,15,2
+70,3/1/2014,1242,32,Outbound,4211393,4214387,Hyde Park Ave @ Grant Place,18,15,3
+70,3/1/2014,1248,32,Outbound,4211393,4214387,Hyde Park Ave @ Wolcott Square,19,15,4
+71,3/1/2014,1245,32,Outbound,4214387,4207736,Forest Hills Station Lower Busway,16,15,1
+71,3/1/2014,1250,32,Outbound,4214387,4207736,Hyde Park Ave @ Cummins Hwy,13,15,-2
+71,3/1/2014,1252,32,Outbound,4214387,4207736,807 Hyde Park Ave opp American Legion Hwy,12,15,-3
+71,3/1/2014,1254,32,Outbound,4214387,4207736,Hyde Park Ave @ Greenwood Ave,12,15,-3
+71,3/1/2014,1257,32,Outbound,4214387,4207736,Hyde Park Ave @ Grant Place,11,15,-4
+71,3/1/2014,1263,32,Outbound,4214387,4207736,Hyde Park Ave @ Wolcott Square,9,15,-6
+72,3/1/2014,1260,32,Outbound,4207736,4211395,Forest Hills Station Lower Busway,16,15,1
+72,3/1/2014,1265,32,Outbound,4207736,4211395,Hyde Park Ave @ Cummins Hwy,16,15,1
+72,3/1/2014,1267,32,Outbound,4207736,4211395,807 Hyde Park Ave opp American Legion Hwy,18,15,3
+72,3/1/2014,1269,32,Outbound,4207736,4211395,Hyde Park Ave @ Greenwood Ave,16,15,1
+72,3/1/2014,1272,32,Outbound,4207736,4211395,Hyde Park Ave @ Grant Place,17,15,2
+72,3/1/2014,1278,32,Outbound,4207736,4211395,Hyde Park Ave @ Wolcott Square,19,15,4
+73,3/1/2014,1275,32,Outbound,4211395,4212093,Forest Hills Station Lower Busway,22,15,7
+73,3/1/2014,1280,32,Outbound,4211395,4212093,Hyde Park Ave @ Cummins Hwy,27,22,5
+73,3/1/2014,1282,32,Outbound,4211395,4212093,807 Hyde Park Ave opp American Legion Hwy,26,22,4
+73,3/1/2014,1284,32,Outbound,4211395,4212093,Hyde Park Ave @ Greenwood Ave,27,22,5
+73,3/1/2014,1287,32,Outbound,4211395,4212093,Hyde Park Ave @ Grant Place,27,22,5
+73,3/1/2014,1293,32,Outbound,4211395,4212093,Hyde Park Ave @ Wolcott Square,29,22,7
+74,3/1/2014,1290,32,Outbound,4212093,4214413,Forest Hills Station Lower Busway,1,15,-14
+74,3/1/2014,1302,32,Outbound,4212093,4214413,Hyde Park Ave @ Cummins Hwy,2,8,-6
+74,3/1/2014,1304,32,Outbound,4212093,4214413,807 Hyde Park Ave opp American Legion Hwy,1,8,-7
+74,3/1/2014,1306,32,Outbound,4212093,4214413,Hyde Park Ave @ Greenwood Ave,0,8,-8
+74,3/1/2014,1309,32,Outbound,4212093,4214413,Hyde Park Ave @ Grant Place,-1,8,-9
+74,3/1/2014,1315,32,Outbound,4212093,4214413,Hyde Park Ave @ Wolcott Square,-5,8,-13
+75,3/1/2014,1305,32,Outbound,4214413,4211397,Forest Hills Station Lower Busway,20,15,5
+75,3/1/2014,1310,32,Outbound,4214413,4211397,Hyde Park Ave @ Cummins Hwy,16,15,1
+75,3/1/2014,1312,32,Outbound,4214413,4211397,807 Hyde Park Ave opp American Legion Hwy,17,15,2
+75,3/1/2014,1314,32,Outbound,4214413,4211397,Hyde Park Ave @ Greenwood Ave,18,15,3
+75,3/1/2014,1317,32,Outbound,4214413,4211397,Hyde Park Ave @ Grant Place,19,15,4
+75,3/1/2014,1323,32,Outbound,4214413,4211397,Hyde Park Ave @ Wolcott Square,20,15,5
+76,3/1/2014,1320,32,Outbound,4211397,4212095,Forest Hills Station Lower Busway,26,15,11
+76,3/1/2014,1325,32,Outbound,4211397,4212095,Hyde Park Ave @ Cummins Hwy,26,15,11
+76,3/1/2014,1327,32,Outbound,4211397,4212095,807 Hyde Park Ave opp American Legion Hwy,26,15,11
+76,3/1/2014,1329,32,Outbound,4211397,4212095,Hyde Park Ave @ Greenwood Ave,27,15,12
+76,3/1/2014,1332,32,Outbound,4211397,4212095,Hyde Park Ave @ Grant Place,27,15,12
+76,3/1/2014,1338,32,Outbound,4211397,4212095,Hyde Park Ave @ Wolcott Square,27,15,12
+77,3/1/2014,1335,32,Outbound,4212095,4214415,Forest Hills Station Lower Busway,2,15,-13
+77,3/1/2014,1340,32,Outbound,4212095,4214415,Hyde Park Ave @ Cummins Hwy,3,15,-12
+77,3/1/2014,1342,32,Outbound,4212095,4214415,807 Hyde Park Ave opp American Legion Hwy,2,15,-13
+77,3/1/2014,1344,32,Outbound,4212095,4214415,Hyde Park Ave @ Greenwood Ave,1,15,-14
+77,3/1/2014,1347,32,Outbound,4212095,4214415,Hyde Park Ave @ Grant Place,0,15,-15
+77,3/1/2014,1353,32,Outbound,4212095,4214415,Hyde Park Ave @ Wolcott Square,-1,15,-16
+78,3/1/2014,1350,32,Outbound,4214415,4211377,Forest Hills Station Lower Busway,17,15,2
+78,3/1/2014,1355,32,Outbound,4214415,4211377,Hyde Park Ave @ Cummins Hwy,15,15,0
+78,3/1/2014,1357,32,Outbound,4214415,4211377,807 Hyde Park Ave opp American Legion Hwy,16,15,1
+78,3/1/2014,1359,32,Outbound,4214415,4211377,Hyde Park Ave @ Greenwood Ave,16,15,1
+78,3/1/2014,1362,32,Outbound,4214415,4211377,Hyde Park Ave @ Grant Place,16,15,1
+78,3/1/2014,1368,32,Outbound,4214415,4211377,Hyde Park Ave @ Wolcott Square,17,15,2
+79,3/1/2014,1365,32,Outbound,4211377,4211409,Forest Hills Station Lower Busway,13,15,-2
+79,3/1/2014,1370,32,Outbound,4211377,4211409,Hyde Park Ave @ Cummins Hwy,15,15,0
+79,3/1/2014,1372,32,Outbound,4211377,4211409,807 Hyde Park Ave opp American Legion Hwy,14,15,-1
+79,3/1/2014,1374,32,Outbound,4211377,4211409,Hyde Park Ave @ Greenwood Ave,14,15,-1
+79,3/1/2014,1377,32,Outbound,4211377,4211409,Hyde Park Ave @ Grant Place,14,15,-1
+79,3/1/2014,1383,32,Outbound,4211377,4211409,Hyde Park Ave @ Wolcott Square,14,15,-1
+80,3/1/2014,1380,32,Outbound,4211409,4211403,Forest Hills Station Lower Busway,12,15,-3
+80,3/1/2014,1385,32,Outbound,4211409,4211403,Hyde Park Ave @ Cummins Hwy,17,15,2
+80,3/1/2014,1387,32,Outbound,4211409,4211403,807 Hyde Park Ave opp American Legion Hwy,18,15,3
+80,3/1/2014,1389,32,Outbound,4211409,4211403,Hyde Park Ave @ Greenwood Ave,18,15,3
+80,3/1/2014,1392,32,Outbound,4211409,4211403,Hyde Park Ave @ Grant Place,19,15,4
+80,3/1/2014,1398,32,Outbound,4211409,4211403,Hyde Park Ave @ Wolcott Square,20,14,6
+81,3/1/2014,1395,32,Outbound,4211403,4211379,Forest Hills Station Lower Busway,20,15,5
+81,3/1/2014,1400,32,Outbound,4211403,4211379,Hyde Park Ave @ Cummins Hwy,14,14,0
+81,3/1/2014,1402,32,Outbound,4211403,4211379,807 Hyde Park Ave opp American Legion Hwy,13,14,-1
+81,3/1/2014,1404,32,Outbound,4211403,4211379,Hyde Park Ave @ Greenwood Ave,12,14,-2
+81,3/1/2014,1407,32,Outbound,4211403,4211379,Hyde Park Ave @ Grant Place,12,13,-1
+81,3/1/2014,1412,32,Outbound,4211403,4211379,Hyde Park Ave @ Wolcott Square,10,13,-3
+82,3/1/2014,1410,32,Outbound,4211379,4211411,Forest Hills Station Lower Busway,9,15,-6
+82,3/1/2014,1414,32,Outbound,4211379,4211411,Hyde Park Ave @ Cummins Hwy,14,15,-1
+82,3/1/2014,1416,32,Outbound,4211379,4211411,807 Hyde Park Ave opp American Legion Hwy,17,15,2
+82,3/1/2014,1418,32,Outbound,4211379,4211411,Hyde Park Ave @ Greenwood Ave,18,15,3
+82,3/1/2014,1420,32,Outbound,4211379,4211411,Hyde Park Ave @ Grant Place,18,15,3
+82,3/1/2014,1425,32,Outbound,4211379,4211411,Hyde Park Ave @ Wolcott Square,20,15,5
+83,3/1/2014,1425,32,Outbound,4211411,4211405,Forest Hills Station Lower Busway,18,15,3
+83,3/1/2014,1429,32,Outbound,4211411,4211405,Hyde Park Ave @ Cummins Hwy,18,15,3
+83,3/1/2014,1431,32,Outbound,4211411,4211405,807 Hyde Park Ave opp American Legion Hwy,16,15,1
+83,3/1/2014,1433,32,Outbound,4211411,4211405,Hyde Park Ave @ Greenwood Ave,16,15,1
+83,3/1/2014,1435,32,Outbound,4211411,4211405,Hyde Park Ave @ Grant Place,15,15,0
+83,3/1/2014,1440,32,Outbound,4211411,4211405,Hyde Park Ave @ Wolcott Square,15,15,0
+84,3/1/2014,1440,32,Outbound,4211405,4211381,Forest Hills Station Lower Busway,15,15,0
+84,3/1/2014,1444,32,Outbound,4211405,4211381,Hyde Park Ave @ Cummins Hwy,13,15,-2
+84,3/1/2014,1446,32,Outbound,4211405,4211381,807 Hyde Park Ave opp American Legion Hwy,12,15,-3
+84,3/1/2014,1448,32,Outbound,4211405,4211381,Hyde Park Ave @ Greenwood Ave,11,15,-4
+84,3/1/2014,1450,32,Outbound,4211405,4211381,Hyde Park Ave @ Grant Place,11,15,-4
+84,3/1/2014,1455,32,Outbound,4211405,4211381,Hyde Park Ave @ Wolcott Square,9,15,-6
+85,3/1/2014,1455,32,Outbound,4211381,4215065,Forest Hills Station Lower Busway,17,20,-3
+85,3/1/2014,1459,32,Outbound,4211381,4215065,Hyde Park Ave @ Cummins Hwy,19,20,-1
+85,3/1/2014,1461,32,Outbound,4211381,4215065,807 Hyde Park Ave opp American Legion Hwy,19,20,-1
+85,3/1/2014,1463,32,Outbound,4211381,4215065,Hyde Park Ave @ Greenwood Ave,20,20,0
+85,3/1/2014,1465,32,Outbound,4211381,4215065,Hyde Park Ave @ Grant Place,21,20,1
+85,3/1/2014,1470,32,Outbound,4211381,4215065,Hyde Park Ave @ Wolcott Square,22,20,2
+86,3/1/2014,1475,32,Outbound,4215065,4211383,Forest Hills Station Lower Busway,27,20,7
+86,3/1/2014,1479,32,Outbound,4215065,4211383,Hyde Park Ave @ Cummins Hwy,26,20,6
+86,3/1/2014,1481,32,Outbound,4215065,4211383,807 Hyde Park Ave opp American Legion Hwy,26,20,6
+86,3/1/2014,1483,32,Outbound,4215065,4211383,Hyde Park Ave @ Greenwood Ave,26,20,6
+86,3/1/2014,1485,32,Outbound,4215065,4211383,Hyde Park Ave @ Grant Place,27,20,7
+86,3/1/2014,1490,32,Outbound,4215065,4211383,Hyde Park Ave @ Wolcott Square,27,20,7
+87,3/1/2014,1495,32,Outbound,4211383,4215067,Forest Hills Station Lower Busway,18,20,-2
+87,3/1/2014,1499,32,Outbound,4211383,4215067,Hyde Park Ave @ Cummins Hwy,35,20,15
+87,3/1/2014,1501,32,Outbound,4211383,4215067,807 Hyde Park Ave opp American Legion Hwy,36,20,16
+87,3/1/2014,1503,32,Outbound,4211383,4215067,Hyde Park Ave @ Greenwood Ave,36,20,16
+87,3/1/2014,1505,32,Outbound,4211383,4215067,Hyde Park Ave @ Grant Place,35,20,15
+87,3/1/2014,1510,32,Outbound,4211383,4215067,Hyde Park Ave @ Wolcott Square,35,20,15

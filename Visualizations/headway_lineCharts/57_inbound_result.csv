@@ -1,0 +1,787 @@
+Headway: {HeadwayId: long,ServiceDate,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,305,57,Inbound,4236158,4236285,Watertown Yard,9,15,-6
+1,3/1/2014,306,57,Inbound,4236158,4236285,Washington St @ Bacon St,14,15,-1
+1,3/1/2014,309,57,Inbound,4236158,4236285,Tremont St @ Washington St,14,15,-1
+1,3/1/2014,311,57,Inbound,4236158,4236285,Washington St @ Chestnut Hill Ave,13,15,-2
+1,3/1/2014,313,57,Inbound,4236158,4236285,Brighton Ave @ Cambridge St,12,15,-3
+1,3/1/2014,316,57,Inbound,4236158,4236285,Brighton Ave @ Comm Ave,12,15,-3
+1,3/1/2014,319,57,Inbound,4236158,4236285,Commonwealth Ave @ Carlton St,10,15,-5
+1,3/1/2014,322,57,Inbound,4236158,4236285,Kenmore Station Busway,10,15,-5
+2,3/1/2014,320,57,Inbound,4236285,4236331,Watertown Yard,15,15,0
+2,3/1/2014,321,57,Inbound,4236285,4236331,Washington St @ Bacon St,16,15,1
+2,3/1/2014,324,57,Inbound,4236285,4236331,Tremont St @ Washington St,16,15,1
+2,3/1/2014,326,57,Inbound,4236285,4236331,Washington St @ Chestnut Hill Ave,15,15,0
+2,3/1/2014,328,57,Inbound,4236285,4236331,Brighton Ave @ Cambridge St,15,15,0
+2,3/1/2014,331,57,Inbound,4236285,4236331,Brighton Ave @ Comm Ave,15,15,0
+2,3/1/2014,334,57,Inbound,4236285,4236331,Commonwealth Ave @ Carlton St,17,15,2
+2,3/1/2014,337,57,Inbound,4236285,4236331,Kenmore Station Busway,18,15,3
+3,3/1/2014,335,57,Inbound,4236331,4236034,Watertown Yard,15,15,0
+3,3/1/2014,336,57,Inbound,4236331,4236034,Washington St @ Bacon St,16,15,1
+3,3/1/2014,339,57,Inbound,4236331,4236034,Tremont St @ Washington St,16,15,1
+3,3/1/2014,341,57,Inbound,4236331,4236034,Washington St @ Chestnut Hill Ave,17,15,2
+3,3/1/2014,343,57,Inbound,4236331,4236034,Brighton Ave @ Cambridge St,19,15,4
+3,3/1/2014,346,57,Inbound,4236331,4236034,Brighton Ave @ Comm Ave,18,16,2
+3,3/1/2014,349,57,Inbound,4236331,4236034,Commonwealth Ave @ Carlton St,17,17,0
+3,3/1/2014,352,57,Inbound,4236331,4236034,Kenmore Station Busway,18,16,2
+4,3/1/2014,350,57,Inbound,4236034,4236160,Watertown Yard,21,13,8
+4,3/1/2014,351,57,Inbound,4236034,4236160,Washington St @ Bacon St,13,13,0
+4,3/1/2014,354,57,Inbound,4236034,4236160,Tremont St @ Washington St,14,13,1
+4,3/1/2014,356,57,Inbound,4236034,4236160,Washington St @ Chestnut Hill Ave,16,14,2
+4,3/1/2014,358,57,Inbound,4236034,4236160,Brighton Ave @ Cambridge St,17,16,1
+4,3/1/2014,362,57,Inbound,4236034,4236160,Brighton Ave @ Comm Ave,19,16,3
+4,3/1/2014,366,57,Inbound,4236034,4236160,Commonwealth Ave @ Carlton St,19,16,3
+4,3/1/2014,368,57,Inbound,4236034,4236160,Kenmore Station Busway,19,16,3
+5,3/1/2014,363,57,Inbound,4236160,4236287,Watertown Yard,26,12,14
+5,3/1/2014,364,57,Inbound,4236160,4236287,Washington St @ Bacon St,13,12,1
+5,3/1/2014,367,57,Inbound,4236160,4236287,Tremont St @ Washington St,12,12,0
+5,3/1/2014,370,57,Inbound,4236160,4236287,Washington St @ Chestnut Hill Ave,12,12,0
+5,3/1/2014,374,57,Inbound,4236160,4236287,Brighton Ave @ Cambridge St,11,12,-1
+5,3/1/2014,378,57,Inbound,4236160,4236287,Brighton Ave @ Comm Ave,12,12,0
+5,3/1/2014,382,57,Inbound,4236160,4236287,Commonwealth Ave @ Carlton St,12,12,0
+5,3/1/2014,384,57,Inbound,4236160,4236287,Kenmore Station Busway,12,12,0
+6,3/1/2014,375,57,Inbound,4236287,4236333,Watertown Yard,1,10,-9
+6,3/1/2014,376,57,Inbound,4236287,4236333,Washington St @ Bacon St,8,10,-2
+6,3/1/2014,379,57,Inbound,4236287,4236333,Tremont St @ Washington St,8,10,-2
+6,3/1/2014,382,57,Inbound,4236287,4236333,Washington St @ Chestnut Hill Ave,7,10,-3
+6,3/1/2014,386,57,Inbound,4236287,4236333,Brighton Ave @ Cambridge St,7,10,-3
+6,3/1/2014,390,57,Inbound,4236287,4236333,Brighton Ave @ Comm Ave,5,10,-5
+6,3/1/2014,394,57,Inbound,4236287,4236333,Commonwealth Ave @ Carlton St,5,10,-5
+6,3/1/2014,396,57,Inbound,4236287,4236333,Kenmore Station Busway,3,10,-7
+7,3/1/2014,385,57,Inbound,4236333,4236036,Watertown Yard,17,10,7
+7,3/1/2014,386,57,Inbound,4236333,4236036,Washington St @ Bacon St,13,10,3
+7,3/1/2014,389,57,Inbound,4236333,4236036,Tremont St @ Washington St,13,10,3
+7,3/1/2014,392,57,Inbound,4236333,4236036,Washington St @ Chestnut Hill Ave,13,10,3
+7,3/1/2014,396,57,Inbound,4236333,4236036,Brighton Ave @ Cambridge St,13,10,3
+7,3/1/2014,400,57,Inbound,4236333,4236036,Brighton Ave @ Comm Ave,15,10,5
+7,3/1/2014,404,57,Inbound,4236333,4236036,Commonwealth Ave @ Carlton St,13,10,3
+7,3/1/2014,406,57,Inbound,4236333,4236036,Kenmore Station Busway,15,10,5
+8,3/1/2014,395,57,Inbound,4236036,4236100,Watertown Yard,4,10,-6
+8,3/1/2014,396,57,Inbound,4236036,4236100,Washington St @ Bacon St,6,10,-4
+8,3/1/2014,399,57,Inbound,4236036,4236100,Tremont St @ Washington St,6,10,-4
+8,3/1/2014,402,57,Inbound,4236036,4236100,Washington St @ Chestnut Hill Ave,6,10,-4
+8,3/1/2014,406,57,Inbound,4236036,4236100,Brighton Ave @ Cambridge St,6,10,-4
+8,3/1/2014,410,57,Inbound,4236036,4236100,Brighton Ave @ Comm Ave,5,10,-5
+8,3/1/2014,414,57,Inbound,4236036,4236100,Commonwealth Ave @ Carlton St,9,10,-1
+8,3/1/2014,416,57,Inbound,4236036,4236100,Kenmore Station Busway,8,10,-2
+9,3/1/2014,405,57,Inbound,4236100,4236162,Watertown Yard,16,10,6
+9,3/1/2014,406,57,Inbound,4236100,4236162,Washington St @ Bacon St,12,10,2
+9,3/1/2014,409,57,Inbound,4236100,4236162,Tremont St @ Washington St,13,10,3
+9,3/1/2014,412,57,Inbound,4236100,4236162,Washington St @ Chestnut Hill Ave,13,10,3
+9,3/1/2014,416,57,Inbound,4236100,4236162,Brighton Ave @ Cambridge St,15,10,5
+9,3/1/2014,420,57,Inbound,4236100,4236162,Brighton Ave @ Comm Ave,16,10,6
+9,3/1/2014,424,57,Inbound,4236100,4236162,Commonwealth Ave @ Carlton St,16,10,6
+9,3/1/2014,426,57,Inbound,4236100,4236162,Kenmore Station Busway,17,10,7
+10,3/1/2014,415,57,Inbound,4236162,4236259,Watertown Yard,11,10,1
+10,3/1/2014,416,57,Inbound,4236162,4236259,Washington St @ Bacon St,11,10,1
+10,3/1/2014,419,57,Inbound,4236162,4236259,Tremont St @ Washington St,12,10,2
+10,3/1/2014,422,57,Inbound,4236162,4236259,Washington St @ Chestnut Hill Ave,12,10,2
+10,3/1/2014,426,57,Inbound,4236162,4236259,Brighton Ave @ Cambridge St,11,10,1
+10,3/1/2014,430,57,Inbound,4236162,4236259,Brighton Ave @ Comm Ave,10,10,0
+10,3/1/2014,434,57,Inbound,4236162,4236259,Commonwealth Ave @ Carlton St,10,10,0
+10,3/1/2014,436,57,Inbound,4236162,4236259,Kenmore Station Busway,10,10,0
+11,3/1/2014,425,57,Inbound,4236259,4236289,Watertown Yard,-4,10,-14
+11,3/1/2014,426,57,Inbound,4236259,4236289,Washington St @ Bacon St,8,10,-2
+11,3/1/2014,429,57,Inbound,4236259,4236289,Tremont St @ Washington St,6,10,-4
+11,3/1/2014,432,57,Inbound,4236259,4236289,Washington St @ Chestnut Hill Ave,7,10,-3
+11,3/1/2014,436,57,Inbound,4236259,4236289,Brighton Ave @ Cambridge St,6,10,-4
+11,3/1/2014,440,57,Inbound,4236259,4236289,Brighton Ave @ Comm Ave,6,10,-4
+11,3/1/2014,444,57,Inbound,4236259,4236289,Commonwealth Ave @ Carlton St,5,10,-5
+11,3/1/2014,446,57,Inbound,4236259,4236289,Kenmore Station Busway,5,10,-5
+12,3/1/2014,435,57,Inbound,4236289,4236335,Watertown Yard,13,10,3
+12,3/1/2014,436,57,Inbound,4236289,4236335,Washington St @ Bacon St,10,10,0
+12,3/1/2014,439,57,Inbound,4236289,4236335,Tremont St @ Washington St,11,10,1
+12,3/1/2014,442,57,Inbound,4236289,4236335,Washington St @ Chestnut Hill Ave,12,10,2
+12,3/1/2014,446,57,Inbound,4236289,4236335,Brighton Ave @ Cambridge St,13,10,3
+12,3/1/2014,450,57,Inbound,4236289,4236335,Brighton Ave @ Comm Ave,14,10,4
+12,3/1/2014,454,57,Inbound,4236289,4236335,Commonwealth Ave @ Carlton St,15,10,5
+12,3/1/2014,456,57,Inbound,4236289,4236335,Kenmore Station Busway,15,10,5
+13,3/1/2014,445,57,Inbound,4236335,4236038,Watertown Yard,12,10,2
+13,3/1/2014,446,57,Inbound,4236335,4236038,Washington St @ Bacon St,12,10,2
+13,3/1/2014,449,57,Inbound,4236335,4236038,Tremont St @ Washington St,12,10,2
+13,3/1/2014,452,57,Inbound,4236335,4236038,Washington St @ Chestnut Hill Ave,12,10,2
+13,3/1/2014,456,57,Inbound,4236335,4236038,Brighton Ave @ Cambridge St,11,10,1
+13,3/1/2014,460,57,Inbound,4236335,4236038,Brighton Ave @ Comm Ave,11,10,1
+13,3/1/2014,464,57,Inbound,4236335,4236038,Commonwealth Ave @ Carlton St,10,10,0
+13,3/1/2014,466,57,Inbound,4236335,4236038,Kenmore Station Busway,21,10,11
+14,3/1/2014,455,57,Inbound,4236038,4236102,Watertown Yard,14,10,4
+14,3/1/2014,456,57,Inbound,4236038,4236102,Washington St @ Bacon St,7,10,-3
+14,3/1/2014,459,57,Inbound,4236038,4236102,Tremont St @ Washington St,7,10,-3
+14,3/1/2014,462,57,Inbound,4236038,4236102,Washington St @ Chestnut Hill Ave,5,10,-5
+14,3/1/2014,466,57,Inbound,4236038,4236102,Brighton Ave @ Cambridge St,6,10,-4
+14,3/1/2014,470,57,Inbound,4236038,4236102,Brighton Ave @ Comm Ave,4,10,-6
+14,3/1/2014,474,57,Inbound,4236038,4236102,Commonwealth Ave @ Carlton St,5,11,-6
+14,3/1/2014,476,57,Inbound,4236038,4236102,Kenmore Station Busway,-6,13,-19
+15,3/1/2014,465,57,Inbound,4236102,4236164,Watertown Yard,9,10,-1
+15,3/1/2014,466,57,Inbound,4236102,4236164,Washington St @ Bacon St,10,10,0
+15,3/1/2014,469,57,Inbound,4236102,4236164,Tremont St @ Washington St,11,10,1
+15,3/1/2014,472,57,Inbound,4236102,4236164,Washington St @ Chestnut Hill Ave,11,12,-1
+15,3/1/2014,476,57,Inbound,4236102,4236164,Brighton Ave @ Cambridge St,12,12,0
+15,3/1/2014,480,57,Inbound,4236102,4236164,Brighton Ave @ Comm Ave,13,12,1
+15,3/1/2014,485,57,Inbound,4236102,4236164,Commonwealth Ave @ Carlton St,14,12,2
+15,3/1/2014,489,57,Inbound,4236102,4236164,Kenmore Station Busway,13,12,1
+16,3/1/2014,475,57,Inbound,4236164,4236261,Watertown Yard,8,10,-2
+16,3/1/2014,476,57,Inbound,4236164,4236261,Washington St @ Bacon St,11,10,1
+16,3/1/2014,479,57,Inbound,4236164,4236261,Tremont St @ Washington St,10,10,0
+16,3/1/2014,484,57,Inbound,4236164,4236261,Washington St @ Chestnut Hill Ave,11,10,1
+16,3/1/2014,488,57,Inbound,4236164,4236261,Brighton Ave @ Cambridge St,10,10,0
+16,3/1/2014,492,57,Inbound,4236164,4236261,Brighton Ave @ Comm Ave,11,10,1
+16,3/1/2014,497,57,Inbound,4236164,4236261,Commonwealth Ave @ Carlton St,9,10,-1
+16,3/1/2014,501,57,Inbound,4236164,4236261,Kenmore Station Busway,10,10,0
+17,3/1/2014,485,57,Inbound,4236261,4236291,Watertown Yard,7,10,-3
+17,3/1/2014,486,57,Inbound,4236261,4236291,Washington St @ Bacon St,8,10,-2
+17,3/1/2014,489,57,Inbound,4236261,4236291,Tremont St @ Washington St,8,10,-2
+17,3/1/2014,494,57,Inbound,4236261,4236291,Washington St @ Chestnut Hill Ave,9,10,-1
+17,3/1/2014,498,57,Inbound,4236261,4236291,Brighton Ave @ Cambridge St,9,10,-1
+17,3/1/2014,502,57,Inbound,4236261,4236291,Brighton Ave @ Comm Ave,9,10,-1
+17,3/1/2014,507,57,Inbound,4236261,4236291,Commonwealth Ave @ Carlton St,9,10,-1
+17,3/1/2014,511,57,Inbound,4236261,4236291,Kenmore Station Busway,8,10,-2
+18,3/1/2014,495,57,Inbound,4236291,4236337,Watertown Yard,17,10,7
+18,3/1/2014,496,57,Inbound,4236291,4236337,Washington St @ Bacon St,10,10,0
+18,3/1/2014,499,57,Inbound,4236291,4236337,Tremont St @ Washington St,10,10,0
+18,3/1/2014,504,57,Inbound,4236291,4236337,Washington St @ Chestnut Hill Ave,9,10,-1
+18,3/1/2014,508,57,Inbound,4236291,4236337,Brighton Ave @ Cambridge St,8,10,-2
+18,3/1/2014,512,57,Inbound,4236291,4236337,Brighton Ave @ Comm Ave,7,10,-3
+18,3/1/2014,517,57,Inbound,4236291,4236337,Commonwealth Ave @ Carlton St,8,10,-2
+18,3/1/2014,521,57,Inbound,4236291,4236337,Kenmore Station Busway,9,10,-1
+19,3/1/2014,505,57,Inbound,4236337,4236040,Watertown Yard,16,10,6
+19,3/1/2014,506,57,Inbound,4236337,4236040,Washington St @ Bacon St,17,10,7
+19,3/1/2014,509,57,Inbound,4236337,4236040,Tremont St @ Washington St,17,10,7
+19,3/1/2014,514,57,Inbound,4236337,4236040,Washington St @ Chestnut Hill Ave,19,10,9
+19,3/1/2014,518,57,Inbound,4236337,4236040,Brighton Ave @ Cambridge St,22,10,12
+19,3/1/2014,522,57,Inbound,4236337,4236040,Brighton Ave @ Comm Ave,23,10,13
+19,3/1/2014,527,57,Inbound,4236337,4236040,Commonwealth Ave @ Carlton St,25,10,15
+19,3/1/2014,531,57,Inbound,4236337,4236040,Kenmore Station Busway,25,10,15
+20,3/1/2014,516,57,Inbound,4236040,4236104,Washington St @ Bacon St,7,10,-3
+20,3/1/2014,519,57,Inbound,4236040,4236104,Tremont St @ Washington St,6,10,-4
+20,3/1/2014,524,57,Inbound,4236040,4236104,Washington St @ Chestnut Hill Ave,3,10,-7
+20,3/1/2014,528,57,Inbound,4236040,4236104,Brighton Ave @ Cambridge St,1,10,-9
+20,3/1/2014,532,57,Inbound,4236040,4236104,Brighton Ave @ Comm Ave,0,10,-10
+20,3/1/2014,537,57,Inbound,4236040,4236104,Commonwealth Ave @ Carlton St,-2,10,-12
+20,3/1/2014,541,57,Inbound,4236040,4236104,Kenmore Station Busway,-2,10,-12
+21,3/1/2014,526,57,Inbound,4236104,4236166,Washington St @ Bacon St,9,10,-1
+21,3/1/2014,529,57,Inbound,4236104,4236166,Tremont St @ Washington St,10,10,0
+21,3/1/2014,534,57,Inbound,4236104,4236166,Washington St @ Chestnut Hill Ave,13,10,3
+21,3/1/2014,538,57,Inbound,4236104,4236166,Brighton Ave @ Cambridge St,15,10,5
+21,3/1/2014,542,57,Inbound,4236104,4236166,Brighton Ave @ Comm Ave,18,10,8
+21,3/1/2014,547,57,Inbound,4236104,4236166,Commonwealth Ave @ Carlton St,19,10,9
+21,3/1/2014,551,57,Inbound,4236104,4236166,Kenmore Station Busway,19,10,9
+22,3/1/2014,535,57,Inbound,4236166,4236263,Watertown Yard,12,10,2
+22,3/1/2014,536,57,Inbound,4236166,4236263,Washington St @ Bacon St,8,10,-2
+22,3/1/2014,539,57,Inbound,4236166,4236263,Tremont St @ Washington St,8,10,-2
+22,3/1/2014,544,57,Inbound,4236166,4236263,Washington St @ Chestnut Hill Ave,7,10,-3
+22,3/1/2014,548,57,Inbound,4236166,4236263,Brighton Ave @ Cambridge St,6,10,-4
+22,3/1/2014,552,57,Inbound,4236166,4236263,Brighton Ave @ Comm Ave,5,10,-5
+22,3/1/2014,557,57,Inbound,4236166,4236263,Commonwealth Ave @ Carlton St,4,10,-6
+22,3/1/2014,561,57,Inbound,4236166,4236263,Kenmore Station Busway,5,10,-5
+23,3/1/2014,545,57,Inbound,4236263,4236293,Watertown Yard,10,10,0
+23,3/1/2014,546,57,Inbound,4236263,4236293,Washington St @ Bacon St,12,10,2
+23,3/1/2014,549,57,Inbound,4236263,4236293,Tremont St @ Washington St,13,10,3
+23,3/1/2014,554,57,Inbound,4236263,4236293,Washington St @ Chestnut Hill Ave,13,10,3
+23,3/1/2014,558,57,Inbound,4236263,4236293,Brighton Ave @ Cambridge St,14,10,4
+23,3/1/2014,562,57,Inbound,4236263,4236293,Brighton Ave @ Comm Ave,13,11,2
+23,3/1/2014,567,57,Inbound,4236263,4236293,Commonwealth Ave @ Carlton St,14,11,3
+23,3/1/2014,571,57,Inbound,4236263,4236293,Kenmore Station Busway,14,11,3
+24,3/1/2014,555,57,Inbound,4236293,4236339,Watertown Yard,10,10,0
+24,3/1/2014,556,57,Inbound,4236293,4236339,Washington St @ Bacon St,9,10,-1
+24,3/1/2014,559,57,Inbound,4236293,4236339,Tremont St @ Washington St,9,10,-1
+24,3/1/2014,564,57,Inbound,4236293,4236339,Washington St @ Chestnut Hill Ave,7,10,-3
+24,3/1/2014,568,57,Inbound,4236293,4236339,Brighton Ave @ Cambridge St,6,11,-5
+24,3/1/2014,573,57,Inbound,4236293,4236339,Brighton Ave @ Comm Ave,6,11,-5
+24,3/1/2014,578,57,Inbound,4236293,4236339,Commonwealth Ave @ Carlton St,6,11,-5
+24,3/1/2014,582,57,Inbound,4236293,4236339,Kenmore Station Busway,15,11,4
+25,3/1/2014,565,57,Inbound,4236339,4236042,Watertown Yard,21,10,11
+25,3/1/2014,569,57,Inbound,4236339,4236042,Tremont St @ Washington St,18,11,7
+25,3/1/2014,574,57,Inbound,4236339,4236042,Washington St @ Chestnut Hill Ave,20,11,9
+25,3/1/2014,579,57,Inbound,4236339,4236042,Brighton Ave @ Cambridge St,20,11,9
+25,3/1/2014,584,57,Inbound,4236339,4236042,Brighton Ave @ Comm Ave,21,11,10
+25,3/1/2014,589,57,Inbound,4236339,4236042,Commonwealth Ave @ Carlton St,19,11,8
+25,3/1/2014,593,57,Inbound,4236339,4236042,Kenmore Station Busway,9,11,-2
+26,3/1/2014,575,57,Inbound,4236042,4236168,Watertown Yard,16,22,-6
+26,3/1/2014,580,57,Inbound,4236042,4236168,Tremont St @ Washington St,16,22,-6
+26,3/1/2014,585,57,Inbound,4236042,4236168,Washington St @ Chestnut Hill Ave,19,22,-3
+26,3/1/2014,590,57,Inbound,4236042,4236168,Brighton Ave @ Cambridge St,20,22,-2
+26,3/1/2014,595,57,Inbound,4236042,4236168,Brighton Ave @ Comm Ave,18,22,-4
+26,3/1/2014,600,57,Inbound,4236042,4236168,Commonwealth Ave @ Carlton St,22,22,0
+26,3/1/2014,604,57,Inbound,4236042,4236168,Kenmore Station Busway,25,22,3
+27,3/1/2014,612,57,Inbound,4236168,4236106,Brighton Ave @ Cambridge St,-13,-11,-2
+27,3/1/2014,617,57,Inbound,4236168,4236106,Brighton Ave @ Comm Ave,-13,-11,-2
+27,3/1/2014,622,57,Inbound,4236168,4236106,Commonwealth Ave @ Carlton St,-17,-11,-6
+27,3/1/2014,626,57,Inbound,4236168,4236106,Kenmore Station Busway,-20,-11,-9
+28,3/1/2014,601,57,Inbound,4236106,4236215,Brighton Ave @ Cambridge St,17,22,-5
+28,3/1/2014,606,57,Inbound,4236106,4236215,Brighton Ave @ Comm Ave,18,22,-4
+28,3/1/2014,611,57,Inbound,4236106,4236215,Commonwealth Ave @ Carlton St,17,22,-5
+28,3/1/2014,615,57,Inbound,4236106,4236215,Kenmore Station Busway,18,22,-4
+29,3/1/2014,608,57,Inbound,4236215,4236265,Watertown Yard,3,11,-8
+29,3/1/2014,609,57,Inbound,4236215,4236265,Washington St @ Bacon St,12,11,1
+29,3/1/2014,613,57,Inbound,4236215,4236265,Tremont St @ Washington St,11,11,0
+29,3/1/2014,618,57,Inbound,4236215,4236265,Washington St @ Chestnut Hill Ave,12,11,1
+29,3/1/2014,623,57,Inbound,4236215,4236265,Brighton Ave @ Cambridge St,15,11,4
+29,3/1/2014,628,57,Inbound,4236215,4236265,Brighton Ave @ Comm Ave,15,11,4
+29,3/1/2014,633,57,Inbound,4236215,4236265,Commonwealth Ave @ Carlton St,18,11,7
+29,3/1/2014,637,57,Inbound,4236215,4236265,Kenmore Station Busway,17,11,6
+30,3/1/2014,619,57,Inbound,4236265,4236295,Watertown Yard,13,10,3
+30,3/1/2014,620,57,Inbound,4236265,4236295,Washington St @ Bacon St,10,10,0
+30,3/1/2014,624,57,Inbound,4236265,4236295,Tremont St @ Washington St,10,10,0
+30,3/1/2014,629,57,Inbound,4236265,4236295,Washington St @ Chestnut Hill Ave,7,10,-3
+30,3/1/2014,634,57,Inbound,4236265,4236295,Brighton Ave @ Cambridge St,6,10,-4
+30,3/1/2014,639,57,Inbound,4236265,4236295,Brighton Ave @ Comm Ave,6,10,-4
+30,3/1/2014,644,57,Inbound,4236265,4236295,Commonwealth Ave @ Carlton St,3,10,-7
+30,3/1/2014,648,57,Inbound,4236265,4236295,Kenmore Station Busway,3,10,-7
+31,3/1/2014,629,57,Inbound,4236295,4236341,Watertown Yard,15,10,5
+31,3/1/2014,630,57,Inbound,4236295,4236341,Washington St @ Bacon St,12,10,2
+31,3/1/2014,634,57,Inbound,4236295,4236341,Tremont St @ Washington St,13,10,3
+31,3/1/2014,639,57,Inbound,4236295,4236341,Washington St @ Chestnut Hill Ave,14,10,4
+31,3/1/2014,644,57,Inbound,4236295,4236341,Brighton Ave @ Cambridge St,13,10,3
+31,3/1/2014,649,57,Inbound,4236295,4236341,Brighton Ave @ Comm Ave,13,10,3
+31,3/1/2014,654,57,Inbound,4236295,4236341,Commonwealth Ave @ Carlton St,16,11,5
+31,3/1/2014,658,57,Inbound,4236295,4236341,Kenmore Station Busway,17,11,6
+32,3/1/2014,639,57,Inbound,4236341,4236044,Watertown Yard,5,10,-5
+32,3/1/2014,640,57,Inbound,4236341,4236044,Washington St @ Bacon St,9,10,-1
+32,3/1/2014,644,57,Inbound,4236341,4236044,Tremont St @ Washington St,9,10,-1
+32,3/1/2014,649,57,Inbound,4236341,4236044,Washington St @ Chestnut Hill Ave,10,10,0
+32,3/1/2014,654,57,Inbound,4236341,4236044,Brighton Ave @ Cambridge St,11,10,1
+32,3/1/2014,659,57,Inbound,4236341,4236044,Brighton Ave @ Comm Ave,12,12,0
+32,3/1/2014,665,57,Inbound,4236341,4236044,Commonwealth Ave @ Carlton St,10,12,-2
+32,3/1/2014,669,57,Inbound,4236341,4236044,Kenmore Station Busway,8,12,-4
+33,3/1/2014,649,57,Inbound,4236044,4236108,Watertown Yard,15,10,5
+33,3/1/2014,650,57,Inbound,4236044,4236108,Washington St @ Bacon St,8,11,-3
+33,3/1/2014,654,57,Inbound,4236044,4236108,Tremont St @ Washington St,8,11,-3
+33,3/1/2014,659,57,Inbound,4236044,4236108,Washington St @ Chestnut Hill Ave,10,13,-3
+33,3/1/2014,664,57,Inbound,4236044,4236108,Brighton Ave @ Cambridge St,9,13,-4
+33,3/1/2014,671,57,Inbound,4236044,4236108,Brighton Ave @ Comm Ave,9,13,-4
+33,3/1/2014,677,57,Inbound,4236044,4236108,Commonwealth Ave @ Carlton St,13,13,0
+33,3/1/2014,681,57,Inbound,4236044,4236108,Kenmore Station Busway,14,13,1
+34,3/1/2014,659,57,Inbound,4236108,4236136,Watertown Yard,2,9,-7
+34,3/1/2014,661,57,Inbound,4236108,4236136,Washington St @ Bacon St,13,9,4
+34,3/1/2014,665,57,Inbound,4236108,4236136,Tremont St @ Washington St,12,9,3
+34,3/1/2014,672,57,Inbound,4236108,4236136,Washington St @ Chestnut Hill Ave,10,9,1
+34,3/1/2014,677,57,Inbound,4236108,4236136,Brighton Ave @ Cambridge St,11,9,2
+34,3/1/2014,684,57,Inbound,4236108,4236136,Brighton Ave @ Comm Ave,10,9,1
+34,3/1/2014,690,57,Inbound,4236108,4236136,Commonwealth Ave @ Carlton St,8,9,-1
+34,3/1/2014,694,57,Inbound,4236108,4236136,Kenmore Station Busway,8,9,-1
+35,3/1/2014,668,57,Inbound,4236136,4236170,Watertown Yard,18,10,8
+35,3/1/2014,670,57,Inbound,4236136,4236170,Washington St @ Bacon St,11,10,1
+35,3/1/2014,674,57,Inbound,4236136,4236170,Tremont St @ Washington St,12,10,2
+35,3/1/2014,681,57,Inbound,4236136,4236170,Washington St @ Chestnut Hill Ave,17,10,7
+35,3/1/2014,686,57,Inbound,4236136,4236170,Brighton Ave @ Cambridge St,18,10,8
+35,3/1/2014,693,57,Inbound,4236136,4236170,Brighton Ave @ Comm Ave,20,10,10
+35,3/1/2014,699,57,Inbound,4236136,4236170,Commonwealth Ave @ Carlton St,22,10,12
+35,3/1/2014,703,57,Inbound,4236136,4236170,Kenmore Station Busway,22,10,12
+36,3/1/2014,678,57,Inbound,4236170,4236217,Watertown Yard,2,10,-8
+36,3/1/2014,680,57,Inbound,4236170,4236217,Washington St @ Bacon St,11,10,1
+36,3/1/2014,684,57,Inbound,4236170,4236217,Tremont St @ Washington St,10,10,0
+36,3/1/2014,691,57,Inbound,4236170,4236217,Washington St @ Chestnut Hill Ave,6,10,-4
+36,3/1/2014,696,57,Inbound,4236170,4236217,Brighton Ave @ Cambridge St,4,10,-6
+36,3/1/2014,703,57,Inbound,4236170,4236217,Brighton Ave @ Comm Ave,4,10,-6
+36,3/1/2014,709,57,Inbound,4236170,4236217,Commonwealth Ave @ Carlton St,2,10,-8
+36,3/1/2014,713,57,Inbound,4236170,4236217,Kenmore Station Busway,1,10,-9
+37,3/1/2014,688,57,Inbound,4236217,4236267,Watertown Yard,13,10,3
+37,3/1/2014,690,57,Inbound,4236217,4236267,Washington St @ Bacon St,4,10,-6
+37,3/1/2014,694,57,Inbound,4236217,4236267,Tremont St @ Washington St,4,10,-6
+37,3/1/2014,701,57,Inbound,4236217,4236267,Washington St @ Chestnut Hill Ave,4,10,-6
+37,3/1/2014,706,57,Inbound,4236217,4236267,Brighton Ave @ Cambridge St,4,10,-6
+37,3/1/2014,713,57,Inbound,4236217,4236267,Brighton Ave @ Comm Ave,4,10,-6
+37,3/1/2014,719,57,Inbound,4236217,4236267,Commonwealth Ave @ Carlton St,5,10,-5
+37,3/1/2014,723,57,Inbound,4236217,4236267,Kenmore Station Busway,5,10,-5
+38,3/1/2014,698,57,Inbound,4236267,4236297,Watertown Yard,20,10,10
+38,3/1/2014,700,57,Inbound,4236267,4236297,Washington St @ Bacon St,14,10,4
+38,3/1/2014,704,57,Inbound,4236267,4236297,Tremont St @ Washington St,15,10,5
+38,3/1/2014,711,57,Inbound,4236267,4236297,Washington St @ Chestnut Hill Ave,15,10,5
+38,3/1/2014,716,57,Inbound,4236267,4236297,Brighton Ave @ Cambridge St,19,10,9
+38,3/1/2014,723,57,Inbound,4236267,4236297,Brighton Ave @ Comm Ave,19,10,9
+38,3/1/2014,729,57,Inbound,4236267,4236297,Commonwealth Ave @ Carlton St,18,10,8
+38,3/1/2014,733,57,Inbound,4236267,4236297,Kenmore Station Busway,20,10,10
+39,3/1/2014,708,57,Inbound,4236297,4236343,Watertown Yard,3,10,-7
+39,3/1/2014,710,57,Inbound,4236297,4236343,Washington St @ Bacon St,7,10,-3
+39,3/1/2014,714,57,Inbound,4236297,4236343,Tremont St @ Washington St,7,10,-3
+39,3/1/2014,721,57,Inbound,4236297,4236343,Washington St @ Chestnut Hill Ave,8,10,-2
+39,3/1/2014,726,57,Inbound,4236297,4236343,Brighton Ave @ Cambridge St,4,10,-6
+39,3/1/2014,733,57,Inbound,4236297,4236343,Brighton Ave @ Comm Ave,3,10,-7
+39,3/1/2014,739,57,Inbound,4236297,4236343,Commonwealth Ave @ Carlton St,3,10,-7
+39,3/1/2014,743,57,Inbound,4236297,4236343,Kenmore Station Busway,2,10,-8
+40,3/1/2014,718,57,Inbound,4236343,4236046,Watertown Yard,11,10,1
+40,3/1/2014,720,57,Inbound,4236343,4236046,Washington St @ Bacon St,12,10,2
+40,3/1/2014,724,57,Inbound,4236343,4236046,Tremont St @ Washington St,11,10,1
+40,3/1/2014,731,57,Inbound,4236343,4236046,Washington St @ Chestnut Hill Ave,11,10,1
+40,3/1/2014,736,57,Inbound,4236343,4236046,Brighton Ave @ Cambridge St,12,10,2
+40,3/1/2014,743,57,Inbound,4236343,4236046,Brighton Ave @ Comm Ave,12,10,2
+40,3/1/2014,749,57,Inbound,4236343,4236046,Commonwealth Ave @ Carlton St,14,10,4
+40,3/1/2014,753,57,Inbound,4236343,4236046,Kenmore Station Busway,15,10,5
+41,3/1/2014,728,57,Inbound,4236046,4236110,Watertown Yard,13,10,3
+41,3/1/2014,730,57,Inbound,4236046,4236110,Washington St @ Bacon St,9,10,-1
+41,3/1/2014,734,57,Inbound,4236046,4236110,Tremont St @ Washington St,10,10,0
+41,3/1/2014,741,57,Inbound,4236046,4236110,Washington St @ Chestnut Hill Ave,8,10,-2
+41,3/1/2014,746,57,Inbound,4236046,4236110,Brighton Ave @ Cambridge St,9,10,-1
+41,3/1/2014,753,57,Inbound,4236046,4236110,Brighton Ave @ Comm Ave,12,10,2
+41,3/1/2014,763,57,Inbound,4236046,4236110,Kenmore Station Busway,13,10,3
+42,3/1/2014,738,57,Inbound,4236110,4236138,Watertown Yard,5,10,-5
+42,3/1/2014,740,57,Inbound,4236110,4236138,Washington St @ Bacon St,13,10,3
+42,3/1/2014,744,57,Inbound,4236110,4236138,Tremont St @ Washington St,13,10,3
+42,3/1/2014,751,57,Inbound,4236110,4236138,Washington St @ Chestnut Hill Ave,20,10,10
+42,3/1/2014,756,57,Inbound,4236110,4236138,Brighton Ave @ Cambridge St,18,10,8
+42,3/1/2014,763,57,Inbound,4236110,4236138,Brighton Ave @ Comm Ave,19,10,9
+42,3/1/2014,773,57,Inbound,4236110,4236138,Kenmore Station Busway,19,10,9
+43,3/1/2014,748,57,Inbound,4236138,4236172,Watertown Yard,15,11,4
+43,3/1/2014,750,57,Inbound,4236138,4236172,Washington St @ Bacon St,14,11,3
+43,3/1/2014,754,57,Inbound,4236138,4236172,Tremont St @ Washington St,14,11,3
+43,3/1/2014,761,57,Inbound,4236138,4236172,Washington St @ Chestnut Hill Ave,13,11,2
+43,3/1/2014,766,57,Inbound,4236138,4236172,Brighton Ave @ Cambridge St,16,11,5
+43,3/1/2014,773,57,Inbound,4236138,4236172,Brighton Ave @ Comm Ave,13,11,2
+43,3/1/2014,779,57,Inbound,4236138,4236172,Commonwealth Ave @ Carlton St,12,11,1
+43,3/1/2014,783,57,Inbound,4236138,4236172,Kenmore Station Busway,11,11,0
+44,3/1/2014,759,57,Inbound,4236172,4236219,Watertown Yard,-1,9,-10
+44,3/1/2014,761,57,Inbound,4236172,4236219,Washington St @ Bacon St,3,9,-6
+44,3/1/2014,765,57,Inbound,4236172,4236219,Tremont St @ Washington St,2,9,-7
+44,3/1/2014,772,57,Inbound,4236172,4236219,Washington St @ Chestnut Hill Ave,-2,9,-11
+44,3/1/2014,777,57,Inbound,4236172,4236219,Brighton Ave @ Cambridge St,-7,9,-16
+44,3/1/2014,784,57,Inbound,4236172,4236219,Brighton Ave @ Comm Ave,-3,9,-12
+44,3/1/2014,790,57,Inbound,4236172,4236219,Commonwealth Ave @ Carlton St,-4,9,-13
+44,3/1/2014,794,57,Inbound,4236172,4236219,Kenmore Station Busway,-5,9,-14
+45,3/1/2014,768,57,Inbound,4236219,4236269,Watertown Yard,16,10,6
+45,3/1/2014,770,57,Inbound,4236219,4236269,Washington St @ Bacon St,5,10,-5
+45,3/1/2014,774,57,Inbound,4236219,4236269,Tremont St @ Washington St,5,10,-5
+45,3/1/2014,781,57,Inbound,4236219,4236269,Washington St @ Chestnut Hill Ave,3,10,-7
+45,3/1/2014,786,57,Inbound,4236219,4236269,Brighton Ave @ Cambridge St,6,10,-4
+45,3/1/2014,793,57,Inbound,4236219,4236269,Brighton Ave @ Comm Ave,2,10,-8
+45,3/1/2014,799,57,Inbound,4236219,4236269,Commonwealth Ave @ Carlton St,1,10,-9
+45,3/1/2014,803,57,Inbound,4236219,4236269,Kenmore Station Busway,13,10,3
+46,3/1/2014,778,57,Inbound,4236269,4236299,Watertown Yard,18,10,8
+46,3/1/2014,780,57,Inbound,4236269,4236299,Washington St @ Bacon St,19,10,9
+46,3/1/2014,784,57,Inbound,4236269,4236299,Tremont St @ Washington St,21,10,11
+46,3/1/2014,791,57,Inbound,4236269,4236299,Washington St @ Chestnut Hill Ave,21,10,11
+46,3/1/2014,796,57,Inbound,4236269,4236299,Brighton Ave @ Cambridge St,21,10,11
+46,3/1/2014,803,57,Inbound,4236269,4236299,Brighton Ave @ Comm Ave,26,10,16
+46,3/1/2014,809,57,Inbound,4236269,4236299,Commonwealth Ave @ Carlton St,26,10,16
+46,3/1/2014,813,57,Inbound,4236269,4236299,Kenmore Station Busway,14,10,4
+47,3/1/2014,788,57,Inbound,4236299,4236345,Watertown Yard,14,10,4
+47,3/1/2014,790,57,Inbound,4236299,4236345,Washington St @ Bacon St,10,10,0
+47,3/1/2014,794,57,Inbound,4236299,4236345,Tremont St @ Washington St,8,10,-2
+47,3/1/2014,801,57,Inbound,4236299,4236345,Washington St @ Chestnut Hill Ave,7,10,-3
+47,3/1/2014,806,57,Inbound,4236299,4236345,Brighton Ave @ Cambridge St,7,10,-3
+47,3/1/2014,813,57,Inbound,4236299,4236345,Brighton Ave @ Comm Ave,5,10,-5
+47,3/1/2014,819,57,Inbound,4236299,4236345,Commonwealth Ave @ Carlton St,4,10,-6
+47,3/1/2014,823,57,Inbound,4236299,4236345,Kenmore Station Busway,5,10,-5
+48,3/1/2014,798,57,Inbound,4236345,4236048,Watertown Yard,2,10,-8
+48,3/1/2014,800,57,Inbound,4236345,4236048,Washington St @ Bacon St,5,10,-5
+48,3/1/2014,804,57,Inbound,4236345,4236048,Tremont St @ Washington St,4,10,-6
+48,3/1/2014,811,57,Inbound,4236345,4236048,Washington St @ Chestnut Hill Ave,3,10,-7
+48,3/1/2014,816,57,Inbound,4236345,4236048,Brighton Ave @ Cambridge St,4,10,-6
+48,3/1/2014,823,57,Inbound,4236345,4236048,Brighton Ave @ Comm Ave,3,10,-7
+48,3/1/2014,829,57,Inbound,4236345,4236048,Commonwealth Ave @ Carlton St,5,10,-5
+48,3/1/2014,833,57,Inbound,4236345,4236048,Kenmore Station Busway,6,10,-4
+49,3/1/2014,808,57,Inbound,4236048,4236112,Watertown Yard,10,10,0
+49,3/1/2014,810,57,Inbound,4236048,4236112,Washington St @ Bacon St,9,10,-1
+49,3/1/2014,814,57,Inbound,4236048,4236112,Tremont St @ Washington St,11,10,1
+49,3/1/2014,821,57,Inbound,4236048,4236112,Washington St @ Chestnut Hill Ave,14,10,4
+49,3/1/2014,826,57,Inbound,4236048,4236112,Brighton Ave @ Cambridge St,14,10,4
+49,3/1/2014,833,57,Inbound,4236048,4236112,Brighton Ave @ Comm Ave,14,10,4
+49,3/1/2014,839,57,Inbound,4236048,4236112,Commonwealth Ave @ Carlton St,13,10,3
+49,3/1/2014,843,57,Inbound,4236048,4236112,Kenmore Station Busway,14,10,4
+50,3/1/2014,818,57,Inbound,4236112,4236140,Watertown Yard,28,10,18
+50,3/1/2014,820,57,Inbound,4236112,4236140,Washington St @ Bacon St,31,10,21
+50,3/1/2014,824,57,Inbound,4236112,4236140,Tremont St @ Washington St,30,10,20
+50,3/1/2014,831,57,Inbound,4236112,4236140,Washington St @ Chestnut Hill Ave,26,10,16
+50,3/1/2014,836,57,Inbound,4236112,4236140,Brighton Ave @ Cambridge St,26,10,16
+50,3/1/2014,843,57,Inbound,4236112,4236140,Brighton Ave @ Comm Ave,24,10,14
+50,3/1/2014,849,57,Inbound,4236112,4236140,Commonwealth Ave @ Carlton St,24,10,14
+50,3/1/2014,853,57,Inbound,4236112,4236140,Kenmore Station Busway,22,10,12
+51,3/1/2014,828,57,Inbound,4236140,4236174,Watertown Yard,-5,11,-16
+51,3/1/2014,830,57,Inbound,4236140,4236174,Washington St @ Bacon St,-6,11,-17
+51,3/1/2014,834,57,Inbound,4236140,4236174,Tremont St @ Washington St,-4,10,-14
+51,3/1/2014,841,57,Inbound,4236140,4236174,Washington St @ Chestnut Hill Ave,1,9,-8
+51,3/1/2014,846,57,Inbound,4236140,4236174,Brighton Ave @ Cambridge St,0,9,-9
+51,3/1/2014,853,57,Inbound,4236140,4236174,Brighton Ave @ Comm Ave,2,9,-7
+51,3/1/2014,859,57,Inbound,4236140,4236174,Commonwealth Ave @ Carlton St,1,9,-8
+51,3/1/2014,863,57,Inbound,4236140,4236174,Kenmore Station Busway,3,9,-6
+52,3/1/2014,839,57,Inbound,4236174,4236221,Watertown Yard,1,10,-9
+52,3/1/2014,841,57,Inbound,4236174,4236221,Washington St @ Bacon St,6,10,-4
+52,3/1/2014,844,57,Inbound,4236174,4236221,Tremont St @ Washington St,4,10,-6
+52,3/1/2014,850,57,Inbound,4236174,4236221,Washington St @ Chestnut Hill Ave,1,10,-9
+52,3/1/2014,855,57,Inbound,4236174,4236221,Brighton Ave @ Cambridge St,2,10,-8
+52,3/1/2014,862,57,Inbound,4236174,4236221,Brighton Ave @ Comm Ave,0,10,-10
+52,3/1/2014,868,57,Inbound,4236174,4236221,Commonwealth Ave @ Carlton St,-1,10,-11
+52,3/1/2014,872,57,Inbound,4236174,4236221,Kenmore Station Busway,-2,10,-12
+53,3/1/2014,849,57,Inbound,4236221,4236271,Watertown Yard,13,10,3
+53,3/1/2014,851,57,Inbound,4236221,4236271,Washington St @ Bacon St,11,10,1
+53,3/1/2014,854,57,Inbound,4236221,4236271,Tremont St @ Washington St,11,10,1
+53,3/1/2014,860,57,Inbound,4236221,4236271,Washington St @ Chestnut Hill Ave,9,10,-1
+53,3/1/2014,865,57,Inbound,4236221,4236271,Brighton Ave @ Cambridge St,9,10,-1
+53,3/1/2014,872,57,Inbound,4236221,4236271,Brighton Ave @ Comm Ave,9,10,-1
+53,3/1/2014,878,57,Inbound,4236221,4236271,Commonwealth Ave @ Carlton St,11,10,1
+53,3/1/2014,882,57,Inbound,4236221,4236271,Kenmore Station Busway,10,10,0
+54,3/1/2014,859,57,Inbound,4236271,4236301,Watertown Yard,17,10,7
+54,3/1/2014,861,57,Inbound,4236271,4236301,Washington St @ Bacon St,12,10,2
+54,3/1/2014,864,57,Inbound,4236271,4236301,Tremont St @ Washington St,12,10,2
+54,3/1/2014,870,57,Inbound,4236271,4236301,Washington St @ Chestnut Hill Ave,14,10,4
+54,3/1/2014,875,57,Inbound,4236271,4236301,Brighton Ave @ Cambridge St,14,10,4
+54,3/1/2014,882,57,Inbound,4236271,4236301,Brighton Ave @ Comm Ave,15,10,5
+54,3/1/2014,888,57,Inbound,4236271,4236301,Commonwealth Ave @ Carlton St,16,10,6
+54,3/1/2014,892,57,Inbound,4236271,4236301,Kenmore Station Busway,15,10,5
+55,3/1/2014,869,57,Inbound,4236301,4236347,Watertown Yard,5,10,-5
+55,3/1/2014,871,57,Inbound,4236301,4236347,Washington St @ Bacon St,7,10,-3
+55,3/1/2014,874,57,Inbound,4236301,4236347,Tremont St @ Washington St,7,10,-3
+55,3/1/2014,880,57,Inbound,4236301,4236347,Washington St @ Chestnut Hill Ave,6,10,-4
+55,3/1/2014,885,57,Inbound,4236301,4236347,Brighton Ave @ Cambridge St,4,10,-6
+55,3/1/2014,892,57,Inbound,4236301,4236347,Brighton Ave @ Comm Ave,3,10,-7
+55,3/1/2014,898,57,Inbound,4236301,4236347,Commonwealth Ave @ Carlton St,2,10,-8
+55,3/1/2014,902,57,Inbound,4236301,4236347,Kenmore Station Busway,2,10,-8
+56,3/1/2014,879,57,Inbound,4236347,4236050,Watertown Yard,4,10,-6
+56,3/1/2014,881,57,Inbound,4236347,4236050,Washington St @ Bacon St,7,10,-3
+56,3/1/2014,884,57,Inbound,4236347,4236050,Tremont St @ Washington St,8,10,-2
+56,3/1/2014,890,57,Inbound,4236347,4236050,Washington St @ Chestnut Hill Ave,9,10,-1
+56,3/1/2014,895,57,Inbound,4236347,4236050,Brighton Ave @ Cambridge St,8,10,-2
+56,3/1/2014,902,57,Inbound,4236347,4236050,Brighton Ave @ Comm Ave,7,10,-3
+56,3/1/2014,908,57,Inbound,4236347,4236050,Commonwealth Ave @ Carlton St,7,10,-3
+56,3/1/2014,912,57,Inbound,4236347,4236050,Kenmore Station Busway,10,10,0
+57,3/1/2014,889,57,Inbound,4236050,4236114,Watertown Yard,14,10,4
+57,3/1/2014,891,57,Inbound,4236050,4236114,Washington St @ Bacon St,18,10,8
+57,3/1/2014,894,57,Inbound,4236050,4236114,Tremont St @ Washington St,17,10,7
+57,3/1/2014,900,57,Inbound,4236050,4236114,Washington St @ Chestnut Hill Ave,18,10,8
+57,3/1/2014,905,57,Inbound,4236050,4236114,Brighton Ave @ Cambridge St,21,10,11
+57,3/1/2014,912,57,Inbound,4236050,4236114,Brighton Ave @ Comm Ave,21,10,11
+57,3/1/2014,918,57,Inbound,4236050,4236114,Commonwealth Ave @ Carlton St,22,10,12
+57,3/1/2014,922,57,Inbound,4236050,4236114,Kenmore Station Busway,24,10,14
+58,3/1/2014,899,57,Inbound,4236114,4236142,Watertown Yard,15,10,5
+58,3/1/2014,901,57,Inbound,4236114,4236142,Washington St @ Bacon St,6,10,-4
+58,3/1/2014,904,57,Inbound,4236114,4236142,Tremont St @ Washington St,6,10,-4
+58,3/1/2014,910,57,Inbound,4236114,4236142,Washington St @ Chestnut Hill Ave,3,10,-7
+58,3/1/2014,915,57,Inbound,4236114,4236142,Brighton Ave @ Cambridge St,2,10,-8
+58,3/1/2014,922,57,Inbound,4236114,4236142,Brighton Ave @ Comm Ave,2,10,-8
+58,3/1/2014,928,57,Inbound,4236114,4236142,Commonwealth Ave @ Carlton St,2,10,-8
+58,3/1/2014,932,57,Inbound,4236114,4236142,Kenmore Station Busway,11,10,1
+59,3/1/2014,909,57,Inbound,4236142,4236176,Watertown Yard,11,10,1
+59,3/1/2014,911,57,Inbound,4236142,4236176,Washington St @ Bacon St,11,10,1
+59,3/1/2014,914,57,Inbound,4236142,4236176,Tremont St @ Washington St,13,10,3
+59,3/1/2014,920,57,Inbound,4236142,4236176,Washington St @ Chestnut Hill Ave,17,10,7
+59,3/1/2014,925,57,Inbound,4236142,4236176,Brighton Ave @ Cambridge St,16,10,6
+59,3/1/2014,932,57,Inbound,4236142,4236176,Brighton Ave @ Comm Ave,16,10,6
+59,3/1/2014,938,57,Inbound,4236142,4236176,Commonwealth Ave @ Carlton St,15,10,5
+59,3/1/2014,942,57,Inbound,4236142,4236176,Kenmore Station Busway,3,10,-7
+60,3/1/2014,919,57,Inbound,4236176,4236223,Watertown Yard,2,10,-8
+60,3/1/2014,921,57,Inbound,4236176,4236223,Washington St @ Bacon St,8,10,-2
+60,3/1/2014,924,57,Inbound,4236176,4236223,Tremont St @ Washington St,7,10,-3
+60,3/1/2014,930,57,Inbound,4236176,4236223,Washington St @ Chestnut Hill Ave,7,10,-3
+60,3/1/2014,935,57,Inbound,4236176,4236223,Brighton Ave @ Cambridge St,9,10,-1
+60,3/1/2014,942,57,Inbound,4236176,4236223,Brighton Ave @ Comm Ave,10,10,0
+60,3/1/2014,948,57,Inbound,4236176,4236223,Commonwealth Ave @ Carlton St,9,10,-1
+60,3/1/2014,952,57,Inbound,4236176,4236223,Kenmore Station Busway,7,9,-2
+61,3/1/2014,929,57,Inbound,4236223,4236273,Watertown Yard,16,10,6
+61,3/1/2014,931,57,Inbound,4236223,4236273,Washington St @ Bacon St,10,10,0
+61,3/1/2014,934,57,Inbound,4236223,4236273,Tremont St @ Washington St,9,10,-1
+61,3/1/2014,940,57,Inbound,4236223,4236273,Washington St @ Chestnut Hill Ave,7,10,-3
+61,3/1/2014,945,57,Inbound,4236223,4236273,Brighton Ave @ Cambridge St,6,10,-4
+61,3/1/2014,952,57,Inbound,4236223,4236273,Brighton Ave @ Comm Ave,4,10,-6
+61,3/1/2014,958,57,Inbound,4236223,4236273,Commonwealth Ave @ Carlton St,6,10,-4
+61,3/1/2014,961,57,Inbound,4236223,4236273,Kenmore Station Busway,8,10,-2
+62,3/1/2014,939,57,Inbound,4236273,4236303,Watertown Yard,2,10,-8
+62,3/1/2014,941,57,Inbound,4236273,4236303,Washington St @ Bacon St,14,10,4
+62,3/1/2014,944,57,Inbound,4236273,4236303,Tremont St @ Washington St,14,10,4
+62,3/1/2014,950,57,Inbound,4236273,4236303,Washington St @ Chestnut Hill Ave,15,10,5
+62,3/1/2014,955,57,Inbound,4236273,4236303,Brighton Ave @ Cambridge St,14,10,4
+62,3/1/2014,962,57,Inbound,4236273,4236303,Brighton Ave @ Comm Ave,15,10,5
+62,3/1/2014,968,57,Inbound,4236273,4236303,Commonwealth Ave @ Carlton St,15,10,5
+62,3/1/2014,971,57,Inbound,4236273,4236303,Kenmore Station Busway,14,10,4
+63,3/1/2014,949,57,Inbound,4236303,4236349,Watertown Yard,20,10,10
+63,3/1/2014,951,57,Inbound,4236303,4236349,Washington St @ Bacon St,6,10,-4
+63,3/1/2014,954,57,Inbound,4236303,4236349,Tremont St @ Washington St,7,10,-3
+63,3/1/2014,960,57,Inbound,4236303,4236349,Washington St @ Chestnut Hill Ave,4,9,-5
+63,3/1/2014,965,57,Inbound,4236303,4236349,Brighton Ave @ Cambridge St,3,9,-6
+63,3/1/2014,972,57,Inbound,4236303,4236349,Brighton Ave @ Comm Ave,3,9,-6
+63,3/1/2014,978,57,Inbound,4236303,4236349,Commonwealth Ave @ Carlton St,0,9,-9
+63,3/1/2014,981,57,Inbound,4236303,4236349,Kenmore Station Busway,0,9,-9
+64,3/1/2014,959,57,Inbound,4236349,4236052,Watertown Yard,2,10,-8
+64,3/1/2014,961,57,Inbound,4236349,4236052,Washington St @ Bacon St,8,10,-2
+64,3/1/2014,964,57,Inbound,4236349,4236052,Tremont St @ Washington St,7,10,-3
+64,3/1/2014,969,57,Inbound,4236349,4236052,Washington St @ Chestnut Hill Ave,11,10,1
+64,3/1/2014,974,57,Inbound,4236349,4236052,Brighton Ave @ Cambridge St,14,10,4
+64,3/1/2014,981,57,Inbound,4236349,4236052,Brighton Ave @ Comm Ave,15,10,5
+64,3/1/2014,987,57,Inbound,4236349,4236052,Commonwealth Ave @ Carlton St,18,10,8
+64,3/1/2014,990,57,Inbound,4236349,4236052,Kenmore Station Busway,18,10,8
+65,3/1/2014,969,57,Inbound,4236052,4236116,Watertown Yard,22,10,12
+65,3/1/2014,971,57,Inbound,4236052,4236116,Washington St @ Bacon St,18,10,8
+65,3/1/2014,974,57,Inbound,4236052,4236116,Tremont St @ Washington St,18,10,8
+65,3/1/2014,979,57,Inbound,4236052,4236116,Washington St @ Chestnut Hill Ave,18,10,8
+65,3/1/2014,984,57,Inbound,4236052,4236116,Brighton Ave @ Cambridge St,19,10,9
+65,3/1/2014,991,57,Inbound,4236052,4236116,Brighton Ave @ Comm Ave,19,10,9
+65,3/1/2014,997,57,Inbound,4236052,4236116,Commonwealth Ave @ Carlton St,20,10,10
+65,3/1/2014,1000,57,Inbound,4236052,4236116,Kenmore Station Busway,20,10,10
+66,3/1/2014,979,57,Inbound,4236116,4236144,Watertown Yard,0,10,-10
+66,3/1/2014,981,57,Inbound,4236116,4236144,Washington St @ Bacon St,10,10,0
+66,3/1/2014,984,57,Inbound,4236116,4236144,Tremont St @ Washington St,10,10,0
+66,3/1/2014,989,57,Inbound,4236116,4236144,Washington St @ Chestnut Hill Ave,7,10,-3
+66,3/1/2014,994,57,Inbound,4236116,4236144,Brighton Ave @ Cambridge St,3,10,-7
+66,3/1/2014,1001,57,Inbound,4236116,4236144,Brighton Ave @ Comm Ave,1,10,-9
+66,3/1/2014,1007,57,Inbound,4236116,4236144,Commonwealth Ave @ Carlton St,0,10,-10
+66,3/1/2014,1010,57,Inbound,4236116,4236144,Kenmore Station Busway,0,10,-10
+67,3/1/2014,989,57,Inbound,4236144,4236178,Watertown Yard,12,10,2
+67,3/1/2014,991,57,Inbound,4236144,4236178,Washington St @ Bacon St,6,10,-4
+67,3/1/2014,994,57,Inbound,4236144,4236178,Tremont St @ Washington St,5,10,-5
+67,3/1/2014,999,57,Inbound,4236144,4236178,Washington St @ Chestnut Hill Ave,6,10,-4
+67,3/1/2014,1004,57,Inbound,4236144,4236178,Brighton Ave @ Cambridge St,7,10,-3
+67,3/1/2014,1011,57,Inbound,4236144,4236178,Brighton Ave @ Comm Ave,7,10,-3
+67,3/1/2014,1017,57,Inbound,4236144,4236178,Commonwealth Ave @ Carlton St,5,10,-5
+67,3/1/2014,1020,57,Inbound,4236144,4236178,Kenmore Station Busway,5,10,-5
+68,3/1/2014,999,57,Inbound,4236178,4236225,Watertown Yard,6,10,-4
+68,3/1/2014,1001,57,Inbound,4236178,4236225,Washington St @ Bacon St,8,10,-2
+68,3/1/2014,1004,57,Inbound,4236178,4236225,Tremont St @ Washington St,9,10,-1
+68,3/1/2014,1009,57,Inbound,4236178,4236225,Washington St @ Chestnut Hill Ave,9,10,-1
+68,3/1/2014,1014,57,Inbound,4236178,4236225,Brighton Ave @ Cambridge St,8,10,-2
+68,3/1/2014,1021,57,Inbound,4236178,4236225,Brighton Ave @ Comm Ave,8,10,-2
+68,3/1/2014,1027,57,Inbound,4236178,4236225,Commonwealth Ave @ Carlton St,8,10,-2
+68,3/1/2014,1030,57,Inbound,4236178,4236225,Kenmore Station Busway,8,10,-2
+69,3/1/2014,1009,57,Inbound,4236225,4236275,Watertown Yard,5,10,-5
+69,3/1/2014,1011,57,Inbound,4236225,4236275,Washington St @ Bacon St,12,10,2
+69,3/1/2014,1014,57,Inbound,4236225,4236275,Tremont St @ Washington St,12,10,2
+69,3/1/2014,1019,57,Inbound,4236225,4236275,Washington St @ Chestnut Hill Ave,12,10,2
+69,3/1/2014,1024,57,Inbound,4236225,4236275,Brighton Ave @ Cambridge St,13,10,3
+69,3/1/2014,1031,57,Inbound,4236225,4236275,Brighton Ave @ Comm Ave,15,10,5
+69,3/1/2014,1037,57,Inbound,4236225,4236275,Commonwealth Ave @ Carlton St,17,10,7
+69,3/1/2014,1040,57,Inbound,4236225,4236275,Kenmore Station Busway,27,10,17
+70,3/1/2014,1019,57,Inbound,4236275,4236305,Watertown Yard,21,12,9
+70,3/1/2014,1021,57,Inbound,4236275,4236305,Washington St @ Bacon St,16,12,4
+70,3/1/2014,1024,57,Inbound,4236275,4236305,Tremont St @ Washington St,16,12,4
+70,3/1/2014,1029,57,Inbound,4236275,4236305,Washington St @ Chestnut Hill Ave,17,12,5
+70,3/1/2014,1034,57,Inbound,4236275,4236305,Brighton Ave @ Cambridge St,17,12,5
+70,3/1/2014,1041,57,Inbound,4236275,4236305,Brighton Ave @ Comm Ave,16,12,4
+70,3/1/2014,1047,57,Inbound,4236275,4236305,Commonwealth Ave @ Carlton St,15,12,3
+70,3/1/2014,1050,57,Inbound,4236275,4236305,Kenmore Station Busway,6,12,-6
+71,3/1/2014,1031,57,Inbound,4236305,4236351,Watertown Yard,4,12,-8
+71,3/1/2014,1033,57,Inbound,4236305,4236351,Washington St @ Bacon St,8,12,-4
+71,3/1/2014,1036,57,Inbound,4236305,4236351,Tremont St @ Washington St,8,12,-4
+71,3/1/2014,1041,57,Inbound,4236305,4236351,Washington St @ Chestnut Hill Ave,7,12,-5
+71,3/1/2014,1046,57,Inbound,4236305,4236351,Brighton Ave @ Cambridge St,7,12,-5
+71,3/1/2014,1053,57,Inbound,4236305,4236351,Brighton Ave @ Comm Ave,8,12,-4
+71,3/1/2014,1059,57,Inbound,4236305,4236351,Commonwealth Ave @ Carlton St,8,12,-4
+71,3/1/2014,1062,57,Inbound,4236305,4236351,Kenmore Station Busway,7,12,-5
+72,3/1/2014,1043,57,Inbound,4236351,4236054,Watertown Yard,23,12,11
+72,3/1/2014,1045,57,Inbound,4236351,4236054,Washington St @ Bacon St,10,12,-2
+72,3/1/2014,1048,57,Inbound,4236351,4236054,Tremont St @ Washington St,12,12,0
+72,3/1/2014,1053,57,Inbound,4236351,4236054,Washington St @ Chestnut Hill Ave,12,12,0
+72,3/1/2014,1058,57,Inbound,4236351,4236054,Brighton Ave @ Cambridge St,13,12,1
+72,3/1/2014,1065,57,Inbound,4236351,4236054,Brighton Ave @ Comm Ave,11,12,-1
+72,3/1/2014,1071,57,Inbound,4236351,4236054,Commonwealth Ave @ Carlton St,14,12,2
+72,3/1/2014,1074,57,Inbound,4236351,4236054,Kenmore Station Busway,14,12,2
+73,3/1/2014,1055,57,Inbound,4236054,4236146,Watertown Yard,1,12,-11
+73,3/1/2014,1057,57,Inbound,4236054,4236146,Washington St @ Bacon St,18,12,6
+73,3/1/2014,1060,57,Inbound,4236054,4236146,Tremont St @ Washington St,16,12,4
+73,3/1/2014,1065,57,Inbound,4236054,4236146,Washington St @ Chestnut Hill Ave,17,12,5
+73,3/1/2014,1070,57,Inbound,4236054,4236146,Brighton Ave @ Cambridge St,17,12,5
+73,3/1/2014,1077,57,Inbound,4236054,4236146,Brighton Ave @ Comm Ave,20,12,8
+73,3/1/2014,1083,57,Inbound,4236054,4236146,Commonwealth Ave @ Carlton St,17,12,5
+73,3/1/2014,1086,57,Inbound,4236054,4236146,Kenmore Station Busway,16,12,4
+74,3/1/2014,1067,57,Inbound,4236146,4236180,Watertown Yard,18,11,7
+74,3/1/2014,1069,57,Inbound,4236146,4236180,Washington St @ Bacon St,5,11,-6
+74,3/1/2014,1072,57,Inbound,4236146,4236180,Tremont St @ Washington St,5,11,-6
+74,3/1/2014,1077,57,Inbound,4236146,4236180,Washington St @ Chestnut Hill Ave,3,11,-8
+74,3/1/2014,1082,57,Inbound,4236146,4236180,Brighton Ave @ Cambridge St,2,11,-9
+74,3/1/2014,1089,57,Inbound,4236146,4236180,Brighton Ave @ Comm Ave,1,11,-10
+74,3/1/2014,1095,57,Inbound,4236146,4236180,Commonwealth Ave @ Carlton St,1,11,-10
+74,3/1/2014,1098,57,Inbound,4236146,4236180,Kenmore Station Busway,2,11,-9
+75,3/1/2014,1078,57,Inbound,4236180,4236227,Watertown Yard,14,11,3
+75,3/1/2014,1080,57,Inbound,4236180,4236227,Washington St @ Bacon St,11,11,0
+75,3/1/2014,1083,57,Inbound,4236180,4236227,Tremont St @ Washington St,11,11,0
+75,3/1/2014,1088,57,Inbound,4236180,4236227,Washington St @ Chestnut Hill Ave,15,11,4
+75,3/1/2014,1093,57,Inbound,4236180,4236227,Brighton Ave @ Cambridge St,18,11,7
+75,3/1/2014,1100,57,Inbound,4236180,4236227,Brighton Ave @ Comm Ave,17,11,6
+75,3/1/2014,1106,57,Inbound,4236180,4236227,Commonwealth Ave @ Carlton St,17,11,6
+75,3/1/2014,1109,57,Inbound,4236180,4236227,Kenmore Station Busway,18,11,7
+76,3/1/2014,1089,57,Inbound,4236227,4236277,Watertown Yard,9,11,-2
+76,3/1/2014,1091,57,Inbound,4236227,4236277,Washington St @ Bacon St,12,11,1
+76,3/1/2014,1094,57,Inbound,4236227,4236277,Tremont St @ Washington St,13,11,2
+76,3/1/2014,1099,57,Inbound,4236227,4236277,Washington St @ Chestnut Hill Ave,9,11,-2
+76,3/1/2014,1104,57,Inbound,4236227,4236277,Brighton Ave @ Cambridge St,5,11,-6
+76,3/1/2014,1111,57,Inbound,4236227,4236277,Brighton Ave @ Comm Ave,6,11,-5
+76,3/1/2014,1117,57,Inbound,4236227,4236277,Commonwealth Ave @ Carlton St,5,11,-6
+76,3/1/2014,1120,57,Inbound,4236227,4236277,Kenmore Station Busway,3,11,-8
+77,3/1/2014,1100,57,Inbound,4236277,4236307,Watertown Yard,15,11,4
+77,3/1/2014,1102,57,Inbound,4236277,4236307,Washington St @ Bacon St,9,11,-2
+77,3/1/2014,1105,57,Inbound,4236277,4236307,Tremont St @ Washington St,7,11,-4
+77,3/1/2014,1110,57,Inbound,4236277,4236307,Washington St @ Chestnut Hill Ave,6,11,-5
+77,3/1/2014,1115,57,Inbound,4236277,4236307,Brighton Ave @ Cambridge St,6,11,-5
+77,3/1/2014,1122,57,Inbound,4236277,4236307,Brighton Ave @ Comm Ave,5,11,-6
+77,3/1/2014,1128,57,Inbound,4236277,4236307,Commonwealth Ave @ Carlton St,3,11,-8
+77,3/1/2014,1131,57,Inbound,4236277,4236307,Kenmore Station Busway,4,11,-7
+78,3/1/2014,1111,57,Inbound,4236307,4236353,Watertown Yard,6,11,-5
+78,3/1/2014,1113,57,Inbound,4236307,4236353,Washington St @ Bacon St,12,11,1
+78,3/1/2014,1116,57,Inbound,4236307,4236353,Tremont St @ Washington St,13,11,2
+78,3/1/2014,1121,57,Inbound,4236307,4236353,Washington St @ Chestnut Hill Ave,17,11,6
+78,3/1/2014,1126,57,Inbound,4236307,4236353,Brighton Ave @ Cambridge St,20,11,9
+78,3/1/2014,1133,57,Inbound,4236307,4236353,Brighton Ave @ Comm Ave,21,11,10
+78,3/1/2014,1139,57,Inbound,4236307,4236353,Commonwealth Ave @ Carlton St,22,11,11
+78,3/1/2014,1142,57,Inbound,4236307,4236353,Kenmore Station Busway,22,11,11
+79,3/1/2014,1122,57,Inbound,4236353,4236056,Watertown Yard,17,11,6
+79,3/1/2014,1124,57,Inbound,4236353,4236056,Washington St @ Bacon St,14,11,3
+79,3/1/2014,1127,57,Inbound,4236353,4236056,Tremont St @ Washington St,14,11,3
+79,3/1/2014,1132,57,Inbound,4236353,4236056,Washington St @ Chestnut Hill Ave,16,11,5
+79,3/1/2014,1137,57,Inbound,4236353,4236056,Brighton Ave @ Cambridge St,17,11,6
+79,3/1/2014,1144,57,Inbound,4236353,4236056,Brighton Ave @ Comm Ave,18,11,7
+79,3/1/2014,1150,57,Inbound,4236353,4236056,Commonwealth Ave @ Carlton St,19,11,8
+79,3/1/2014,1153,57,Inbound,4236353,4236056,Kenmore Station Busway,20,11,9
+80,3/1/2014,1133,57,Inbound,4236056,4236148,Watertown Yard,6,15,-9
+80,3/1/2014,1135,57,Inbound,4236056,4236148,Washington St @ Bacon St,12,15,-3
+80,3/1/2014,1138,57,Inbound,4236056,4236148,Tremont St @ Washington St,12,15,-3
+80,3/1/2014,1143,57,Inbound,4236056,4236148,Washington St @ Chestnut Hill Ave,9,15,-6
+80,3/1/2014,1148,57,Inbound,4236056,4236148,Brighton Ave @ Cambridge St,6,15,-9
+80,3/1/2014,1155,57,Inbound,4236056,4236148,Brighton Ave @ Comm Ave,7,15,-8
+80,3/1/2014,1161,57,Inbound,4236056,4236148,Commonwealth Ave @ Carlton St,9,15,-6
+80,3/1/2014,1164,57,Inbound,4236056,4236148,Kenmore Station Busway,8,15,-7
+81,3/1/2014,1148,57,Inbound,4236148,4236182,Watertown Yard,8,15,-7
+81,3/1/2014,1150,57,Inbound,4236148,4236182,Washington St @ Bacon St,20,15,5
+81,3/1/2014,1153,57,Inbound,4236148,4236182,Tremont St @ Washington St,21,15,6
+81,3/1/2014,1158,57,Inbound,4236148,4236182,Washington St @ Chestnut Hill Ave,18,15,3
+81,3/1/2014,1163,57,Inbound,4236148,4236182,Brighton Ave @ Cambridge St,20,15,5
+81,3/1/2014,1170,57,Inbound,4236148,4236182,Brighton Ave @ Comm Ave,18,15,3
+81,3/1/2014,1176,57,Inbound,4236148,4236182,Commonwealth Ave @ Carlton St,17,15,2
+81,3/1/2014,1179,57,Inbound,4236148,4236182,Kenmore Station Busway,17,15,2
+82,3/1/2014,1163,57,Inbound,4236182,4236279,Watertown Yard,24,15,9
+82,3/1/2014,1165,57,Inbound,4236182,4236279,Washington St @ Bacon St,10,15,-5
+82,3/1/2014,1168,57,Inbound,4236182,4236279,Tremont St @ Washington St,8,15,-7
+82,3/1/2014,1173,57,Inbound,4236182,4236279,Washington St @ Chestnut Hill Ave,9,15,-6
+82,3/1/2014,1178,57,Inbound,4236182,4236279,Brighton Ave @ Cambridge St,9,15,-6
+82,3/1/2014,1185,57,Inbound,4236182,4236279,Brighton Ave @ Comm Ave,7,15,-8
+82,3/1/2014,1191,57,Inbound,4236182,4236279,Commonwealth Ave @ Carlton St,5,14,-9
+82,3/1/2014,1194,57,Inbound,4236182,4236279,Kenmore Station Busway,4,14,-10
+83,3/1/2014,1178,57,Inbound,4236279,4236309,Watertown Yard,20,15,5
+83,3/1/2014,1180,57,Inbound,4236279,4236309,Washington St @ Bacon St,15,15,0
+83,3/1/2014,1183,57,Inbound,4236279,4236309,Tremont St @ Washington St,17,15,2
+83,3/1/2014,1188,57,Inbound,4236279,4236309,Washington St @ Chestnut Hill Ave,19,14,5
+83,3/1/2014,1193,57,Inbound,4236279,4236309,Brighton Ave @ Cambridge St,23,14,9
+83,3/1/2014,1200,57,Inbound,4236279,4236309,Brighton Ave @ Comm Ave,24,12,12
+83,3/1/2014,1205,57,Inbound,4236279,4236309,Commonwealth Ave @ Carlton St,27,12,15
+83,3/1/2014,1208,57,Inbound,4236279,4236309,Kenmore Station Busway,29,12,17
+84,3/1/2014,1193,57,Inbound,4236309,4236058,Watertown Yard,10,15,-5
+84,3/1/2014,1195,57,Inbound,4236309,4236058,Washington St @ Bacon St,16,14,2
+84,3/1/2014,1198,57,Inbound,4236309,4236058,Tremont St @ Washington St,15,15,0
+84,3/1/2014,1202,57,Inbound,4236309,4236058,Washington St @ Chestnut Hill Ave,13,15,-2
+84,3/1/2014,1207,57,Inbound,4236309,4236058,Brighton Ave @ Cambridge St,8,15,-7
+84,3/1/2014,1212,57,Inbound,4236309,4236058,Brighton Ave @ Comm Ave,8,15,-7
+84,3/1/2014,1217,57,Inbound,4236309,4236058,Commonwealth Ave @ Carlton St,8,15,-7
+84,3/1/2014,1220,57,Inbound,4236309,4236058,Kenmore Station Busway,7,15,-8
+85,3/1/2014,1208,57,Inbound,4236058,4236150,Watertown Yard,34,15,19
+85,3/1/2014,1209,57,Inbound,4236058,4236150,Washington St @ Bacon St,26,15,11
+85,3/1/2014,1213,57,Inbound,4236058,4236150,Tremont St @ Washington St,26,15,11
+85,3/1/2014,1217,57,Inbound,4236058,4236150,Washington St @ Chestnut Hill Ave,27,15,12
+85,3/1/2014,1222,57,Inbound,4236058,4236150,Brighton Ave @ Cambridge St,25,15,10
+85,3/1/2014,1227,57,Inbound,4236058,4236150,Brighton Ave @ Comm Ave,24,15,9
+85,3/1/2014,1232,57,Inbound,4236058,4236150,Commonwealth Ave @ Carlton St,22,15,7
+85,3/1/2014,1235,57,Inbound,4236058,4236150,Kenmore Station Busway,21,15,6
+86,3/1/2014,1223,57,Inbound,4236150,4236184,Watertown Yard,1,15,-14
+86,3/1/2014,1224,57,Inbound,4236150,4236184,Washington St @ Bacon St,2,15,-13
+86,3/1/2014,1228,57,Inbound,4236150,4236184,Tremont St @ Washington St,2,15,-13
+86,3/1/2014,1232,57,Inbound,4236150,4236184,Washington St @ Chestnut Hill Ave,0,15,-15
+86,3/1/2014,1237,57,Inbound,4236150,4236184,Brighton Ave @ Cambridge St,0,15,-15
+86,3/1/2014,1242,57,Inbound,4236150,4236184,Brighton Ave @ Comm Ave,0,15,-15
+86,3/1/2014,1247,57,Inbound,4236150,4236184,Commonwealth Ave @ Carlton St,0,15,-15
+86,3/1/2014,1250,57,Inbound,4236150,4236184,Kenmore Station Busway,0,15,-15
+87,3/1/2014,1238,57,Inbound,4236184,4236281,Watertown Yard,5,14,-9
+87,3/1/2014,1239,57,Inbound,4236184,4236281,Washington St @ Bacon St,14,14,0
+87,3/1/2014,1243,57,Inbound,4236184,4236281,Tremont St @ Washington St,14,14,0
+87,3/1/2014,1247,57,Inbound,4236184,4236281,Washington St @ Chestnut Hill Ave,16,14,2
+87,3/1/2014,1252,57,Inbound,4236184,4236281,Brighton Ave @ Cambridge St,18,14,4
+87,3/1/2014,1257,57,Inbound,4236184,4236281,Brighton Ave @ Comm Ave,17,14,3
+87,3/1/2014,1262,57,Inbound,4236184,4236281,Commonwealth Ave @ Carlton St,20,14,6
+87,3/1/2014,1265,57,Inbound,4236184,4236281,Kenmore Station Busway,20,14,6
+88,3/1/2014,1252,57,Inbound,4236281,4236311,Watertown Yard,24,14,10
+88,3/1/2014,1253,57,Inbound,4236281,4236311,Washington St @ Bacon St,15,14,1
+88,3/1/2014,1257,57,Inbound,4236281,4236311,Tremont St @ Washington St,15,14,1
+88,3/1/2014,1261,57,Inbound,4236281,4236311,Washington St @ Chestnut Hill Ave,14,14,0
+88,3/1/2014,1266,57,Inbound,4236281,4236311,Brighton Ave @ Cambridge St,12,14,-2
+88,3/1/2014,1271,57,Inbound,4236281,4236311,Brighton Ave @ Comm Ave,13,14,-1
+88,3/1/2014,1276,57,Inbound,4236281,4236311,Commonwealth Ave @ Carlton St,12,14,-2
+88,3/1/2014,1279,57,Inbound,4236281,4236311,Kenmore Station Busway,13,14,-1
+89,3/1/2014,1266,57,Inbound,4236311,4236060,Watertown Yard,8,15,-7
+89,3/1/2014,1267,57,Inbound,4236311,4236060,Washington St @ Bacon St,17,15,2
+89,3/1/2014,1271,57,Inbound,4236311,4236060,Tremont St @ Washington St,16,15,1
+89,3/1/2014,1275,57,Inbound,4236311,4236060,Washington St @ Chestnut Hill Ave,17,15,2
+89,3/1/2014,1280,57,Inbound,4236311,4236060,Brighton Ave @ Cambridge St,17,15,2
+89,3/1/2014,1285,57,Inbound,4236311,4236060,Brighton Ave @ Comm Ave,19,15,4
+89,3/1/2014,1290,57,Inbound,4236311,4236060,Commonwealth Ave @ Carlton St,18,15,3
+89,3/1/2014,1293,57,Inbound,4236311,4236060,Kenmore Station Busway,18,15,3
+90,3/1/2014,1281,57,Inbound,4236060,4236152,Watertown Yard,16,15,1
+90,3/1/2014,1282,57,Inbound,4236060,4236152,Washington St @ Bacon St,14,15,-1
+90,3/1/2014,1286,57,Inbound,4236060,4236152,Tremont St @ Washington St,15,15,0
+90,3/1/2014,1290,57,Inbound,4236060,4236152,Washington St @ Chestnut Hill Ave,14,15,-1
+90,3/1/2014,1295,57,Inbound,4236060,4236152,Brighton Ave @ Cambridge St,14,15,-1
+90,3/1/2014,1300,57,Inbound,4236060,4236152,Brighton Ave @ Comm Ave,13,15,-2
+90,3/1/2014,1305,57,Inbound,4236060,4236152,Commonwealth Ave @ Carlton St,11,15,-4
+90,3/1/2014,1308,57,Inbound,4236060,4236152,Kenmore Station Busway,11,15,-4
+91,3/1/2014,1296,57,Inbound,4236152,4236186,Watertown Yard,16,15,1
+91,3/1/2014,1297,57,Inbound,4236152,4236186,Washington St @ Bacon St,14,15,-1
+91,3/1/2014,1301,57,Inbound,4236152,4236186,Tremont St @ Washington St,14,15,-1
+91,3/1/2014,1305,57,Inbound,4236152,4236186,Washington St @ Chestnut Hill Ave,14,15,-1
+91,3/1/2014,1310,57,Inbound,4236152,4236186,Brighton Ave @ Cambridge St,16,15,1
+91,3/1/2014,1315,57,Inbound,4236152,4236186,Brighton Ave @ Comm Ave,16,15,1
+91,3/1/2014,1320,57,Inbound,4236152,4236186,Commonwealth Ave @ Carlton St,17,15,2
+91,3/1/2014,1323,57,Inbound,4236152,4236186,Kenmore Station Busway,17,15,2
+92,3/1/2014,1311,57,Inbound,4236186,4236283,Watertown Yard,13,14,-1
+92,3/1/2014,1312,57,Inbound,4236186,4236283,Washington St @ Bacon St,12,14,-2
+92,3/1/2014,1316,57,Inbound,4236186,4236283,Tremont St @ Washington St,12,14,-2
+92,3/1/2014,1320,57,Inbound,4236186,4236283,Washington St @ Chestnut Hill Ave,13,14,-1
+92,3/1/2014,1325,57,Inbound,4236186,4236283,Brighton Ave @ Cambridge St,10,14,-4
+92,3/1/2014,1330,57,Inbound,4236186,4236283,Brighton Ave @ Comm Ave,10,14,-4
+92,3/1/2014,1335,57,Inbound,4236186,4236283,Commonwealth Ave @ Carlton St,11,14,-3
+92,3/1/2014,1338,57,Inbound,4236186,4236283,Kenmore Station Busway,11,14,-3
+93,3/1/2014,1325,57,Inbound,4236283,4236313,Watertown Yard,13,14,-1
+93,3/1/2014,1326,57,Inbound,4236283,4236313,Washington St @ Bacon St,16,14,2
+93,3/1/2014,1330,57,Inbound,4236283,4236313,Tremont St @ Washington St,18,14,4
+93,3/1/2014,1334,57,Inbound,4236283,4236313,Washington St @ Chestnut Hill Ave,22,14,8
+93,3/1/2014,1339,57,Inbound,4236283,4236313,Brighton Ave @ Cambridge St,23,14,9
+93,3/1/2014,1344,57,Inbound,4236283,4236313,Brighton Ave @ Comm Ave,23,14,9
+93,3/1/2014,1349,57,Inbound,4236283,4236313,Commonwealth Ave @ Carlton St,21,14,7
+93,3/1/2014,1352,57,Inbound,4236283,4236313,Kenmore Station Busway,20,14,6
+94,3/1/2014,1339,57,Inbound,4236313,4236062,Watertown Yard,16,14,2
+94,3/1/2014,1340,57,Inbound,4236313,4236062,Washington St @ Bacon St,28,14,14
+94,3/1/2014,1344,57,Inbound,4236313,4236062,Tremont St @ Washington St,26,14,12
+94,3/1/2014,1348,57,Inbound,4236313,4236062,Washington St @ Chestnut Hill Ave,22,14,8
+94,3/1/2014,1353,57,Inbound,4236313,4236062,Brighton Ave @ Cambridge St,23,14,9
+94,3/1/2014,1358,57,Inbound,4236313,4236062,Brighton Ave @ Comm Ave,22,14,8
+94,3/1/2014,1363,57,Inbound,4236313,4236062,Commonwealth Ave @ Carlton St,22,14,8
+94,3/1/2014,1366,57,Inbound,4236313,4236062,Kenmore Station Busway,22,14,8
+95,3/1/2014,1353,57,Inbound,4236062,4236154,Watertown Yard,14,15,-1
+95,3/1/2014,1354,57,Inbound,4236062,4236154,Washington St @ Bacon St,2,15,-13
+95,3/1/2014,1358,57,Inbound,4236062,4236154,Tremont St @ Washington St,2,15,-13
+95,3/1/2014,1362,57,Inbound,4236062,4236154,Washington St @ Chestnut Hill Ave,0,15,-15
+95,3/1/2014,1367,57,Inbound,4236062,4236154,Brighton Ave @ Cambridge St,-1,15,-16
+95,3/1/2014,1372,57,Inbound,4236062,4236154,Brighton Ave @ Comm Ave,-1,15,-16
+95,3/1/2014,1377,57,Inbound,4236062,4236154,Commonwealth Ave @ Carlton St,-1,15,-16
+95,3/1/2014,1380,57,Inbound,4236062,4236154,Kenmore Station Busway,0,15,-15
+96,3/1/2014,1368,57,Inbound,4236154,4236188,Watertown Yard,12,20,-8
+96,3/1/2014,1369,57,Inbound,4236154,4236188,Washington St @ Bacon St,19,20,-1
+96,3/1/2014,1373,57,Inbound,4236154,4236188,Tremont St @ Washington St,20,20,0
+96,3/1/2014,1377,57,Inbound,4236154,4236188,Washington St @ Chestnut Hill Ave,21,20,1
+96,3/1/2014,1382,57,Inbound,4236154,4236188,Brighton Ave @ Cambridge St,21,20,1
+96,3/1/2014,1387,57,Inbound,4236154,4236188,Brighton Ave @ Comm Ave,21,20,1
+96,3/1/2014,1392,57,Inbound,4236154,4236188,Commonwealth Ave @ Carlton St,20,19,1
+96,3/1/2014,1395,57,Inbound,4236154,4236188,Kenmore Station Busway,20,20,0
+97,3/1/2014,1388,57,Inbound,4236188,4236315,Watertown Yard,35,20,15
+97,3/1/2014,1389,57,Inbound,4236188,4236315,Washington St @ Bacon St,22,20,2
+97,3/1/2014,1393,57,Inbound,4236188,4236315,Tremont St @ Washington St,21,19,2
+97,3/1/2014,1397,57,Inbound,4236188,4236315,Washington St @ Chestnut Hill Ave,21,19,2
+97,3/1/2014,1402,57,Inbound,4236188,4236315,Brighton Ave @ Cambridge St,22,17,5
+97,3/1/2014,1407,57,Inbound,4236188,4236315,Brighton Ave @ Comm Ave,22,17,5
+97,3/1/2014,1411,57,Inbound,4236188,4236315,Commonwealth Ave @ Carlton St,24,17,7
+97,3/1/2014,1415,57,Inbound,4236188,4236315,Kenmore Station Busway,25,17,8
+98,3/1/2014,1408,57,Inbound,4236315,4236064,Watertown Yard,12,19,-7
+98,3/1/2014,1409,57,Inbound,4236315,4236064,Washington St @ Bacon St,17,19,-2
+98,3/1/2014,1412,57,Inbound,4236315,4236064,Tremont St @ Washington St,16,19,-3
+98,3/1/2014,1416,57,Inbound,4236315,4236064,Washington St @ Chestnut Hill Ave,16,19,-3
+98,3/1/2014,1419,57,Inbound,4236315,4236064,Brighton Ave @ Cambridge St,15,19,-4
+98,3/1/2014,1424,57,Inbound,4236315,4236064,Brighton Ave @ Comm Ave,14,19,-5
+98,3/1/2014,1428,57,Inbound,4236315,4236064,Commonwealth Ave @ Carlton St,14,19,-5
+98,3/1/2014,1432,57,Inbound,4236315,4236064,Kenmore Station Busway,13,19,-6
+99,3/1/2014,1427,57,Inbound,4236064,4236156,Watertown Yard,12,18,-6
+99,3/1/2014,1428,57,Inbound,4236064,4236156,Washington St @ Bacon St,20,18,2
+99,3/1/2014,1431,57,Inbound,4236064,4236156,Tremont St @ Washington St,21,18,3
+99,3/1/2014,1435,57,Inbound,4236064,4236156,Washington St @ Chestnut Hill Ave,22,18,4
+99,3/1/2014,1438,57,Inbound,4236064,4236156,Brighton Ave @ Cambridge St,22,18,4
+99,3/1/2014,1443,57,Inbound,4236064,4236156,Brighton Ave @ Comm Ave,26,18,8
+99,3/1/2014,1447,57,Inbound,4236064,4236156,Commonwealth Ave @ Carlton St,25,18,7
+99,3/1/2014,1451,57,Inbound,4236064,4236156,Kenmore Station Busway,25,18,7
+100,3/1/2014,1445,57,Inbound,4236156,4236190,Watertown Yard,21,20,1
+100,3/1/2014,1446,57,Inbound,4236156,4236190,Washington St @ Bacon St,22,20,2
+100,3/1/2014,1449,57,Inbound,4236156,4236190,Tremont St @ Washington St,21,20,1
+100,3/1/2014,1453,57,Inbound,4236156,4236190,Washington St @ Chestnut Hill Ave,20,20,0
+100,3/1/2014,1456,57,Inbound,4236156,4236190,Brighton Ave @ Cambridge St,21,20,1
+100,3/1/2014,1461,57,Inbound,4236156,4236190,Brighton Ave @ Comm Ave,17,20,-3
+100,3/1/2014,1465,57,Inbound,4236156,4236190,Commonwealth Ave @ Carlton St,19,20,-1
+100,3/1/2014,1469,57,Inbound,4236156,4236190,Kenmore Station Busway,17,20,-3

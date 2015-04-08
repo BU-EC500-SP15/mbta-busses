@@ -1,0 +1,890 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,330,39,Outbound,4200624,4200666,Back Bay Station,21,15,6
+1,3/1/2014,332,39,Outbound,4200624,4200666,Huntington Ave @ Belvidere St,16,15,1
+1,3/1/2014,333,39,Outbound,4200624,4200666,Huntington Ave @ Opera Pl,15,15,0
+1,3/1/2014,335,39,Outbound,4200624,4200666,Huntington Ave @ Longwood Ave,15,15,0
+1,3/1/2014,336,39,Outbound,4200624,4200666,Huntington Ave @ Fenwood Rd,16,15,1
+1,3/1/2014,339,39,Outbound,4200624,4200666,S Huntington Ave opp VA Hospital,16,15,1
+1,3/1/2014,342,39,Outbound,4200624,4200666,S Huntington Ave @ Moraine St,16,15,1
+1,3/1/2014,343,39,Outbound,4200624,4200666,775 Centre St,17,15,2
+1,3/1/2014,345,39,Outbound,4200624,4200666,Forest Hills Station,17,16,1
+2,3/1/2014,345,39,Outbound,4200666,4200756,Back Bay Station,15,15,0
+2,3/1/2014,347,39,Outbound,4200666,4200756,Huntington Ave @ Belvidere St,15,17,-2
+2,3/1/2014,348,39,Outbound,4200666,4200756,Huntington Ave @ Opera Pl,16,17,-1
+2,3/1/2014,350,39,Outbound,4200666,4200756,Huntington Ave @ Longwood Ave,17,19,-2
+2,3/1/2014,351,39,Outbound,4200666,4200756,Huntington Ave @ Fenwood Rd,17,19,-2
+2,3/1/2014,354,39,Outbound,4200666,4200756,S Huntington Ave opp VA Hospital,18,20,-2
+2,3/1/2014,357,39,Outbound,4200666,4200756,S Huntington Ave @ Moraine St,18,19,-1
+2,3/1/2014,358,39,Outbound,4200666,4200756,775 Centre St,18,21,-3
+2,3/1/2014,361,39,Outbound,4200666,4200756,Forest Hills Station,18,21,-3
+3,3/1/2014,360,39,Outbound,4200756,4200827,Back Bay Station,16,15,1
+3,3/1/2014,364,39,Outbound,4200756,4200827,Huntington Ave @ Belvidere St,17,15,2
+3,3/1/2014,365,39,Outbound,4200756,4200827,Huntington Ave @ Opera Pl,16,15,1
+3,3/1/2014,369,39,Outbound,4200756,4200827,Huntington Ave @ Longwood Ave,16,15,1
+3,3/1/2014,370,39,Outbound,4200756,4200827,Huntington Ave @ Fenwood Rd,15,15,0
+3,3/1/2014,374,39,Outbound,4200756,4200827,S Huntington Ave opp VA Hospital,14,15,-1
+3,3/1/2014,376,39,Outbound,4200756,4200827,S Huntington Ave @ Moraine St,14,15,-1
+3,3/1/2014,379,39,Outbound,4200756,4200827,775 Centre St,15,15,0
+3,3/1/2014,382,39,Outbound,4200756,4200827,Forest Hills Station,15,15,0
+4,3/1/2014,375,39,Outbound,4200827,4200626,Back Bay Station,13,15,-2
+4,3/1/2014,379,39,Outbound,4200827,4200626,Huntington Ave @ Belvidere St,15,15,0
+4,3/1/2014,380,39,Outbound,4200827,4200626,Huntington Ave @ Opera Pl,16,15,1
+4,3/1/2014,384,39,Outbound,4200827,4200626,Huntington Ave @ Longwood Ave,17,15,2
+4,3/1/2014,385,39,Outbound,4200827,4200626,Huntington Ave @ Fenwood Rd,18,15,3
+4,3/1/2014,389,39,Outbound,4200827,4200626,S Huntington Ave opp VA Hospital,18,15,3
+4,3/1/2014,391,39,Outbound,4200827,4200626,S Huntington Ave @ Moraine St,19,15,4
+4,3/1/2014,394,39,Outbound,4200827,4200626,775 Centre St,18,15,3
+4,3/1/2014,397,39,Outbound,4200827,4200626,Forest Hills Station,18,15,3
+5,3/1/2014,390,39,Outbound,4200626,4200668,Back Bay Station,20,15,5
+5,3/1/2014,394,39,Outbound,4200626,4200668,Huntington Ave @ Belvidere St,15,15,0
+5,3/1/2014,395,39,Outbound,4200626,4200668,Huntington Ave @ Opera Pl,15,15,0
+5,3/1/2014,399,39,Outbound,4200626,4200668,Huntington Ave @ Longwood Ave,15,15,0
+5,3/1/2014,400,39,Outbound,4200626,4200668,Huntington Ave @ Fenwood Rd,16,15,1
+5,3/1/2014,404,39,Outbound,4200626,4200668,S Huntington Ave opp VA Hospital,16,15,1
+5,3/1/2014,406,39,Outbound,4200626,4200668,S Huntington Ave @ Moraine St,15,15,0
+5,3/1/2014,409,39,Outbound,4200626,4200668,775 Centre St,15,15,0
+5,3/1/2014,412,39,Outbound,4200626,4200668,Forest Hills Station,14,15,-1
+6,3/1/2014,405,39,Outbound,4200668,4200758,Back Bay Station,20,15,5
+6,3/1/2014,409,39,Outbound,4200668,4200758,Huntington Ave @ Belvidere St,16,15,1
+6,3/1/2014,410,39,Outbound,4200668,4200758,Huntington Ave @ Opera Pl,15,15,0
+6,3/1/2014,414,39,Outbound,4200668,4200758,Huntington Ave @ Longwood Ave,15,15,0
+6,3/1/2014,415,39,Outbound,4200668,4200758,Huntington Ave @ Fenwood Rd,14,15,-1
+6,3/1/2014,419,39,Outbound,4200668,4200758,S Huntington Ave opp VA Hospital,15,15,0
+6,3/1/2014,421,39,Outbound,4200668,4200758,S Huntington Ave @ Moraine St,14,15,-1
+6,3/1/2014,424,39,Outbound,4200668,4200758,775 Centre St,15,15,0
+6,3/1/2014,427,39,Outbound,4200668,4200758,Forest Hills Station,16,15,1
+7,3/1/2014,420,39,Outbound,4200758,4200829,Back Bay Station,12,15,-3
+7,3/1/2014,424,39,Outbound,4200758,4200829,Huntington Ave @ Belvidere St,14,15,-1
+7,3/1/2014,425,39,Outbound,4200758,4200829,Huntington Ave @ Opera Pl,14,15,-1
+7,3/1/2014,429,39,Outbound,4200758,4200829,Huntington Ave @ Longwood Ave,15,15,0
+7,3/1/2014,430,39,Outbound,4200758,4200829,Huntington Ave @ Fenwood Rd,16,15,1
+7,3/1/2014,434,39,Outbound,4200758,4200829,S Huntington Ave opp VA Hospital,15,15,0
+7,3/1/2014,436,39,Outbound,4200758,4200829,S Huntington Ave @ Moraine St,16,15,1
+7,3/1/2014,439,39,Outbound,4200758,4200829,775 Centre St,16,15,1
+7,3/1/2014,442,39,Outbound,4200758,4200829,Forest Hills Station,16,15,1
+8,3/1/2014,435,39,Outbound,4200829,4200628,Back Bay Station,9,15,-6
+8,3/1/2014,439,39,Outbound,4200829,4200628,Huntington Ave @ Belvidere St,15,15,0
+8,3/1/2014,440,39,Outbound,4200829,4200628,Huntington Ave @ Opera Pl,16,15,1
+8,3/1/2014,444,39,Outbound,4200829,4200628,Huntington Ave @ Longwood Ave,15,15,0
+8,3/1/2014,445,39,Outbound,4200829,4200628,Huntington Ave @ Fenwood Rd,14,15,-1
+8,3/1/2014,449,39,Outbound,4200829,4200628,S Huntington Ave opp VA Hospital,15,15,0
+8,3/1/2014,451,39,Outbound,4200829,4200628,S Huntington Ave @ Moraine St,14,15,-1
+8,3/1/2014,454,39,Outbound,4200829,4200628,775 Centre St,14,15,-1
+8,3/1/2014,457,39,Outbound,4200829,4200628,Forest Hills Station,14,15,-1
+9,3/1/2014,450,39,Outbound,4200628,4200670,Back Bay Station,19,15,4
+9,3/1/2014,454,39,Outbound,4200628,4200670,Huntington Ave @ Belvidere St,15,15,0
+9,3/1/2014,455,39,Outbound,4200628,4200670,Huntington Ave @ Opera Pl,15,15,0
+9,3/1/2014,459,39,Outbound,4200628,4200670,Huntington Ave @ Longwood Ave,15,15,0
+9,3/1/2014,460,39,Outbound,4200628,4200670,Huntington Ave @ Fenwood Rd,14,15,-1
+9,3/1/2014,464,39,Outbound,4200628,4200670,S Huntington Ave opp VA Hospital,14,15,-1
+9,3/1/2014,466,39,Outbound,4200628,4200670,S Huntington Ave @ Moraine St,14,15,-1
+9,3/1/2014,469,39,Outbound,4200628,4200670,775 Centre St,14,15,-1
+9,3/1/2014,472,39,Outbound,4200628,4200670,Forest Hills Station,14,15,-1
+10,3/1/2014,465,39,Outbound,4200670,4200760,Back Bay Station,20,15,5
+10,3/1/2014,469,39,Outbound,4200670,4200760,Huntington Ave @ Belvidere St,15,15,0
+10,3/1/2014,470,39,Outbound,4200670,4200760,Huntington Ave @ Opera Pl,15,15,0
+10,3/1/2014,474,39,Outbound,4200670,4200760,Huntington Ave @ Longwood Ave,15,15,0
+10,3/1/2014,475,39,Outbound,4200670,4200760,Huntington Ave @ Fenwood Rd,16,15,1
+10,3/1/2014,479,39,Outbound,4200670,4200760,S Huntington Ave opp VA Hospital,16,15,1
+10,3/1/2014,481,39,Outbound,4200670,4200760,S Huntington Ave @ Moraine St,17,15,2
+10,3/1/2014,484,39,Outbound,4200670,4200760,775 Centre St,17,15,2
+10,3/1/2014,487,39,Outbound,4200670,4200760,Forest Hills Station,18,15,3
+11,3/1/2014,480,39,Outbound,4200760,4200831,Back Bay Station,11,12,-1
+11,3/1/2014,484,39,Outbound,4200760,4200831,Huntington Ave @ Belvidere St,12,12,0
+11,3/1/2014,485,39,Outbound,4200760,4200831,Huntington Ave @ Opera Pl,11,12,-1
+11,3/1/2014,489,39,Outbound,4200760,4200831,Huntington Ave @ Longwood Ave,12,12,0
+11,3/1/2014,490,39,Outbound,4200760,4200831,Huntington Ave @ Fenwood Rd,12,12,0
+11,3/1/2014,494,39,Outbound,4200760,4200831,S Huntington Ave opp VA Hospital,12,12,0
+11,3/1/2014,496,39,Outbound,4200760,4200831,S Huntington Ave @ Moraine St,12,12,0
+11,3/1/2014,499,39,Outbound,4200760,4200831,775 Centre St,12,12,0
+11,3/1/2014,502,39,Outbound,4200760,4200831,Forest Hills Station,12,12,0
+12,3/1/2014,492,39,Outbound,4200831,4200864,Back Bay Station,10,12,-2
+12,3/1/2014,496,39,Outbound,4200831,4200864,Huntington Ave @ Belvidere St,13,12,1
+12,3/1/2014,497,39,Outbound,4200831,4200864,Huntington Ave @ Opera Pl,14,12,2
+12,3/1/2014,501,39,Outbound,4200831,4200864,Huntington Ave @ Longwood Ave,13,12,1
+12,3/1/2014,502,39,Outbound,4200831,4200864,Huntington Ave @ Fenwood Rd,14,12,2
+12,3/1/2014,506,39,Outbound,4200831,4200864,S Huntington Ave opp VA Hospital,14,12,2
+12,3/1/2014,508,39,Outbound,4200831,4200864,S Huntington Ave @ Moraine St,15,12,3
+12,3/1/2014,511,39,Outbound,4200831,4200864,775 Centre St,16,12,4
+12,3/1/2014,514,39,Outbound,4200831,4200864,Forest Hills Station,18,12,6
+13,3/1/2014,504,39,Outbound,4200864,4200630,Back Bay Station,9,12,-3
+13,3/1/2014,508,39,Outbound,4200864,4200630,Huntington Ave @ Belvidere St,11,12,-1
+13,3/1/2014,509,39,Outbound,4200864,4200630,Huntington Ave @ Opera Pl,10,12,-2
+13,3/1/2014,513,39,Outbound,4200864,4200630,Huntington Ave @ Longwood Ave,11,12,-1
+13,3/1/2014,514,39,Outbound,4200864,4200630,Huntington Ave @ Fenwood Rd,9,12,-3
+13,3/1/2014,518,39,Outbound,4200864,4200630,S Huntington Ave opp VA Hospital,8,12,-4
+13,3/1/2014,520,39,Outbound,4200864,4200630,S Huntington Ave @ Moraine St,6,12,-6
+13,3/1/2014,523,39,Outbound,4200864,4200630,775 Centre St,6,12,-6
+13,3/1/2014,526,39,Outbound,4200864,4200630,Forest Hills Station,3,12,-9
+14,3/1/2014,516,39,Outbound,4200630,4200672,Back Bay Station,11,12,-1
+14,3/1/2014,520,39,Outbound,4200630,4200672,Huntington Ave @ Belvidere St,13,12,1
+14,3/1/2014,521,39,Outbound,4200630,4200672,Huntington Ave @ Opera Pl,14,12,2
+14,3/1/2014,525,39,Outbound,4200630,4200672,Huntington Ave @ Longwood Ave,13,12,1
+14,3/1/2014,526,39,Outbound,4200630,4200672,Huntington Ave @ Fenwood Rd,15,12,3
+14,3/1/2014,530,39,Outbound,4200630,4200672,S Huntington Ave opp VA Hospital,16,12,4
+14,3/1/2014,532,39,Outbound,4200630,4200672,S Huntington Ave @ Moraine St,17,13,4
+14,3/1/2014,535,39,Outbound,4200630,4200672,775 Centre St,17,14,3
+14,3/1/2014,538,39,Outbound,4200630,4200672,Forest Hills Station,18,15,3
+15,3/1/2014,528,39,Outbound,4200672,4200919,Back Bay Station,9,12,-3
+15,3/1/2014,532,39,Outbound,4200672,4200919,Huntington Ave @ Belvidere St,10,13,-3
+15,3/1/2014,533,39,Outbound,4200672,4200919,Huntington Ave @ Opera Pl,9,14,-5
+15,3/1/2014,537,39,Outbound,4200672,4200919,Huntington Ave @ Longwood Ave,9,14,-5
+15,3/1/2014,538,39,Outbound,4200672,4200919,Huntington Ave @ Fenwood Rd,8,15,-7
+15,3/1/2014,542,39,Outbound,4200672,4200919,S Huntington Ave opp VA Hospital,8,15,-7
+15,3/1/2014,545,39,Outbound,4200672,4200919,S Huntington Ave @ Moraine St,8,15,-7
+15,3/1/2014,549,39,Outbound,4200672,4200919,775 Centre St,7,15,-8
+15,3/1/2014,553,39,Outbound,4200672,4200919,Forest Hills Station,6,15,-9
+16,3/1/2014,540,39,Outbound,4200919,4200762,Back Bay Station,14,11,3
+16,3/1/2014,545,39,Outbound,4200919,4200762,Huntington Ave @ Belvidere St,11,11,0
+16,3/1/2014,547,39,Outbound,4200919,4200762,Huntington Ave @ Opera Pl,12,11,1
+16,3/1/2014,551,39,Outbound,4200919,4200762,Huntington Ave @ Longwood Ave,11,11,0
+16,3/1/2014,553,39,Outbound,4200919,4200762,Huntington Ave @ Fenwood Rd,12,11,1
+16,3/1/2014,557,39,Outbound,4200919,4200762,S Huntington Ave opp VA Hospital,12,11,1
+16,3/1/2014,560,39,Outbound,4200919,4200762,S Huntington Ave @ Moraine St,13,11,2
+16,3/1/2014,564,39,Outbound,4200919,4200762,775 Centre St,15,11,4
+16,3/1/2014,568,39,Outbound,4200919,4200762,Forest Hills Station,17,11,6
+17,3/1/2014,551,39,Outbound,4200762,4200833,Back Bay Station,16,11,5
+17,3/1/2014,556,39,Outbound,4200762,4200833,Huntington Ave @ Belvidere St,14,11,3
+17,3/1/2014,558,39,Outbound,4200762,4200833,Huntington Ave @ Opera Pl,13,11,2
+17,3/1/2014,562,39,Outbound,4200762,4200833,Huntington Ave @ Longwood Ave,13,11,2
+17,3/1/2014,564,39,Outbound,4200762,4200833,Huntington Ave @ Fenwood Rd,14,11,3
+17,3/1/2014,568,39,Outbound,4200762,4200833,S Huntington Ave opp VA Hospital,14,11,3
+17,3/1/2014,571,39,Outbound,4200762,4200833,S Huntington Ave @ Moraine St,14,11,3
+17,3/1/2014,575,39,Outbound,4200762,4200833,775 Centre St,13,11,2
+17,3/1/2014,579,39,Outbound,4200762,4200833,Forest Hills Station,11,11,0
+18,3/1/2014,562,39,Outbound,4200833,4200866,Back Bay Station,17,11,6
+18,3/1/2014,567,39,Outbound,4200833,4200866,Huntington Ave @ Belvidere St,14,11,3
+18,3/1/2014,573,39,Outbound,4200833,4200866,Huntington Ave @ Longwood Ave,17,11,6
+18,3/1/2014,575,39,Outbound,4200833,4200866,Huntington Ave @ Fenwood Rd,15,11,4
+18,3/1/2014,579,39,Outbound,4200833,4200866,S Huntington Ave opp VA Hospital,16,11,5
+18,3/1/2014,582,39,Outbound,4200833,4200866,S Huntington Ave @ Moraine St,15,11,4
+18,3/1/2014,586,39,Outbound,4200833,4200866,775 Centre St,16,11,5
+18,3/1/2014,590,39,Outbound,4200833,4200866,Forest Hills Station,18,11,7
+19,3/1/2014,573,39,Outbound,4200866,4200632,Back Bay Station,9,11,-2
+19,3/1/2014,578,39,Outbound,4200866,4200632,Huntington Ave @ Belvidere St,9,11,-2
+19,3/1/2014,584,39,Outbound,4200866,4200632,Huntington Ave @ Longwood Ave,7,11,-4
+19,3/1/2014,586,39,Outbound,4200866,4200632,Huntington Ave @ Fenwood Rd,8,11,-3
+19,3/1/2014,590,39,Outbound,4200866,4200632,S Huntington Ave opp VA Hospital,8,11,-3
+19,3/1/2014,593,39,Outbound,4200866,4200632,S Huntington Ave @ Moraine St,8,11,-3
+19,3/1/2014,597,39,Outbound,4200866,4200632,775 Centre St,7,11,-4
+19,3/1/2014,601,39,Outbound,4200866,4200632,Forest Hills Station,5,11,-6
+20,3/1/2014,584,39,Outbound,4200632,4200674,Back Bay Station,14,11,3
+20,3/1/2014,589,39,Outbound,4200632,4200674,Huntington Ave @ Belvidere St,17,11,6
+20,3/1/2014,591,39,Outbound,4200632,4200674,Huntington Ave @ Opera Pl,17,11,6
+20,3/1/2014,595,39,Outbound,4200632,4200674,Huntington Ave @ Longwood Ave,18,11,7
+20,3/1/2014,597,39,Outbound,4200632,4200674,Huntington Ave @ Fenwood Rd,16,11,5
+20,3/1/2014,601,39,Outbound,4200632,4200674,S Huntington Ave opp VA Hospital,16,11,5
+20,3/1/2014,604,39,Outbound,4200632,4200674,S Huntington Ave @ Moraine St,16,11,5
+20,3/1/2014,608,39,Outbound,4200632,4200674,775 Centre St,17,11,6
+20,3/1/2014,612,39,Outbound,4200632,4200674,Forest Hills Station,18,11,7
+21,3/1/2014,595,39,Outbound,4200674,4200921,Back Bay Station,11,10,1
+21,3/1/2014,600,39,Outbound,4200674,4200921,Huntington Ave @ Belvidere St,8,10,-2
+21,3/1/2014,602,39,Outbound,4200674,4200921,Huntington Ave @ Opera Pl,8,10,-2
+21,3/1/2014,606,39,Outbound,4200674,4200921,Huntington Ave @ Longwood Ave,8,10,-2
+21,3/1/2014,608,39,Outbound,4200674,4200921,Huntington Ave @ Fenwood Rd,9,10,-1
+21,3/1/2014,612,39,Outbound,4200674,4200921,S Huntington Ave opp VA Hospital,10,10,0
+21,3/1/2014,615,39,Outbound,4200674,4200921,S Huntington Ave @ Moraine St,10,10,0
+21,3/1/2014,619,39,Outbound,4200674,4200921,775 Centre St,11,10,1
+21,3/1/2014,623,39,Outbound,4200674,4200921,Forest Hills Station,12,10,2
+22,3/1/2014,605,39,Outbound,4200921,4200738,Back Bay Station,7,10,-3
+22,3/1/2014,610,39,Outbound,4200921,4200738,Huntington Ave @ Belvidere St,7,10,-3
+22,3/1/2014,612,39,Outbound,4200921,4200738,Huntington Ave @ Opera Pl,6,10,-4
+22,3/1/2014,616,39,Outbound,4200921,4200738,Huntington Ave @ Longwood Ave,6,10,-4
+22,3/1/2014,618,39,Outbound,4200921,4200738,Huntington Ave @ Fenwood Rd,5,10,-5
+22,3/1/2014,622,39,Outbound,4200921,4200738,S Huntington Ave opp VA Hospital,3,10,-7
+22,3/1/2014,625,39,Outbound,4200921,4200738,S Huntington Ave @ Moraine St,3,10,-7
+22,3/1/2014,629,39,Outbound,4200921,4200738,775 Centre St,2,10,-8
+22,3/1/2014,633,39,Outbound,4200921,4200738,Forest Hills Station,0,10,-10
+23,3/1/2014,615,39,Outbound,4200738,4200764,Back Bay Station,-2,10,-12
+23,3/1/2014,620,39,Outbound,4200738,4200764,Huntington Ave @ Belvidere St,6,10,-4
+23,3/1/2014,622,39,Outbound,4200738,4200764,Huntington Ave @ Opera Pl,7,10,-3
+23,3/1/2014,626,39,Outbound,4200738,4200764,Huntington Ave @ Longwood Ave,6,10,-4
+23,3/1/2014,628,39,Outbound,4200738,4200764,Huntington Ave @ Fenwood Rd,7,10,-3
+23,3/1/2014,632,39,Outbound,4200738,4200764,S Huntington Ave opp VA Hospital,7,10,-3
+23,3/1/2014,635,39,Outbound,4200738,4200764,S Huntington Ave @ Moraine St,7,10,-3
+23,3/1/2014,639,39,Outbound,4200738,4200764,775 Centre St,6,10,-4
+23,3/1/2014,643,39,Outbound,4200738,4200764,Forest Hills Station,8,10,-2
+24,3/1/2014,625,39,Outbound,4200764,4200835,Back Bay Station,12,10,2
+24,3/1/2014,630,39,Outbound,4200764,4200835,Huntington Ave @ Belvidere St,12,10,2
+24,3/1/2014,632,39,Outbound,4200764,4200835,Huntington Ave @ Opera Pl,12,10,2
+24,3/1/2014,636,39,Outbound,4200764,4200835,Huntington Ave @ Longwood Ave,13,10,3
+24,3/1/2014,638,39,Outbound,4200764,4200835,Huntington Ave @ Fenwood Rd,14,10,4
+24,3/1/2014,642,39,Outbound,4200764,4200835,S Huntington Ave opp VA Hospital,16,10,6
+24,3/1/2014,645,39,Outbound,4200764,4200835,S Huntington Ave @ Moraine St,16,10,6
+24,3/1/2014,649,39,Outbound,4200764,4200835,775 Centre St,18,10,8
+24,3/1/2014,653,39,Outbound,4200764,4200835,Forest Hills Station,18,11,7
+25,3/1/2014,635,39,Outbound,4200835,4200868,Back Bay Station,25,10,15
+25,3/1/2014,640,39,Outbound,4200835,4200868,Huntington Ave @ Belvidere St,23,10,13
+25,3/1/2014,642,39,Outbound,4200835,4200868,Huntington Ave @ Opera Pl,24,10,14
+25,3/1/2014,646,39,Outbound,4200835,4200868,Huntington Ave @ Longwood Ave,24,10,14
+25,3/1/2014,648,39,Outbound,4200835,4200868,Huntington Ave @ Fenwood Rd,23,10,13
+25,3/1/2014,652,39,Outbound,4200835,4200868,S Huntington Ave opp VA Hospital,22,10,12
+25,3/1/2014,655,39,Outbound,4200835,4200868,S Huntington Ave @ Moraine St,23,11,12
+25,3/1/2014,659,39,Outbound,4200835,4200868,775 Centre St,24,13,11
+25,3/1/2014,664,39,Outbound,4200835,4200868,Forest Hills Station,24,13,11
+26,3/1/2014,645,39,Outbound,4200868,4200894,Back Bay Station,-7,10,-17
+26,3/1/2014,650,39,Outbound,4200868,4200894,Huntington Ave @ Belvidere St,-3,10,-13
+26,3/1/2014,652,39,Outbound,4200868,4200894,Huntington Ave @ Opera Pl,-3,10,-13
+26,3/1/2014,656,39,Outbound,4200868,4200894,Huntington Ave @ Longwood Ave,-1,11,-12
+26,3/1/2014,658,39,Outbound,4200868,4200894,Huntington Ave @ Fenwood Rd,0,11,-11
+26,3/1/2014,662,39,Outbound,4200868,4200894,S Huntington Ave opp VA Hospital,0,11,-11
+26,3/1/2014,666,39,Outbound,4200868,4200894,S Huntington Ave @ Moraine St,-1,11,-12
+26,3/1/2014,672,39,Outbound,4200868,4200894,775 Centre St,-1,11,-12
+26,3/1/2014,677,39,Outbound,4200868,4200894,Forest Hills Station,-1,11,-12
+27,3/1/2014,655,39,Outbound,4200894,4200634,Back Bay Station,17,10,7
+27,3/1/2014,660,39,Outbound,4200894,4200634,Huntington Ave @ Belvidere St,9,10,-1
+27,3/1/2014,662,39,Outbound,4200894,4200634,Huntington Ave @ Opera Pl,9,10,-1
+27,3/1/2014,667,39,Outbound,4200894,4200634,Huntington Ave @ Longwood Ave,7,10,-3
+27,3/1/2014,669,39,Outbound,4200894,4200634,Huntington Ave @ Fenwood Rd,7,10,-3
+27,3/1/2014,673,39,Outbound,4200894,4200634,S Huntington Ave opp VA Hospital,8,10,-2
+27,3/1/2014,677,39,Outbound,4200894,4200634,S Huntington Ave @ Moraine St,8,10,-2
+27,3/1/2014,683,39,Outbound,4200894,4200634,775 Centre St,6,10,-4
+27,3/1/2014,688,39,Outbound,4200894,4200634,Forest Hills Station,5,10,-5
+28,3/1/2014,665,39,Outbound,4200634,4200676,Back Bay Station,5,10,-5
+28,3/1/2014,670,39,Outbound,4200634,4200676,Huntington Ave @ Belvidere St,9,10,-1
+28,3/1/2014,672,39,Outbound,4200634,4200676,Huntington Ave @ Opera Pl,7,10,-3
+28,3/1/2014,677,39,Outbound,4200634,4200676,Huntington Ave @ Longwood Ave,9,10,-1
+28,3/1/2014,679,39,Outbound,4200634,4200676,Huntington Ave @ Fenwood Rd,9,10,-1
+28,3/1/2014,683,39,Outbound,4200634,4200676,S Huntington Ave opp VA Hospital,9,10,-1
+28,3/1/2014,687,39,Outbound,4200634,4200676,S Huntington Ave @ Moraine St,10,10,0
+28,3/1/2014,693,39,Outbound,4200634,4200676,775 Centre St,15,10,5
+28,3/1/2014,698,39,Outbound,4200634,4200676,Forest Hills Station,14,10,4
+29,3/1/2014,675,39,Outbound,4200676,4200923,Back Bay Station,10,10,0
+29,3/1/2014,680,39,Outbound,4200676,4200923,Huntington Ave @ Belvidere St,10,10,0
+29,3/1/2014,682,39,Outbound,4200676,4200923,Huntington Ave @ Opera Pl,11,10,1
+29,3/1/2014,687,39,Outbound,4200676,4200923,Huntington Ave @ Longwood Ave,9,10,-1
+29,3/1/2014,689,39,Outbound,4200676,4200923,Huntington Ave @ Fenwood Rd,9,10,-1
+29,3/1/2014,693,39,Outbound,4200676,4200923,S Huntington Ave opp VA Hospital,7,10,-3
+29,3/1/2014,697,39,Outbound,4200676,4200923,S Huntington Ave @ Moraine St,5,10,-5
+29,3/1/2014,703,39,Outbound,4200676,4200923,775 Centre St,5,10,-5
+29,3/1/2014,708,39,Outbound,4200676,4200923,Forest Hills Station,6,10,-4
+30,3/1/2014,685,39,Outbound,4200923,4200740,Back Bay Station,12,10,2
+30,3/1/2014,690,39,Outbound,4200923,4200740,Huntington Ave @ Belvidere St,12,10,2
+30,3/1/2014,692,39,Outbound,4200923,4200740,Huntington Ave @ Opera Pl,12,10,2
+30,3/1/2014,697,39,Outbound,4200923,4200740,Huntington Ave @ Longwood Ave,12,10,2
+30,3/1/2014,699,39,Outbound,4200923,4200740,Huntington Ave @ Fenwood Rd,12,10,2
+30,3/1/2014,703,39,Outbound,4200923,4200740,S Huntington Ave opp VA Hospital,15,10,5
+30,3/1/2014,707,39,Outbound,4200923,4200740,S Huntington Ave @ Moraine St,16,10,6
+30,3/1/2014,713,39,Outbound,4200923,4200740,775 Centre St,14,10,4
+30,3/1/2014,718,39,Outbound,4200923,4200740,Forest Hills Station,14,10,4
+31,3/1/2014,695,39,Outbound,4200740,4200766,Back Bay Station,14,10,4
+31,3/1/2014,700,39,Outbound,4200740,4200766,Huntington Ave @ Belvidere St,8,10,-2
+31,3/1/2014,702,39,Outbound,4200740,4200766,Huntington Ave @ Opera Pl,9,10,-1
+31,3/1/2014,707,39,Outbound,4200740,4200766,Huntington Ave @ Longwood Ave,9,10,-1
+31,3/1/2014,709,39,Outbound,4200740,4200766,Huntington Ave @ Fenwood Rd,10,10,0
+31,3/1/2014,713,39,Outbound,4200740,4200766,S Huntington Ave opp VA Hospital,7,10,-3
+31,3/1/2014,717,39,Outbound,4200740,4200766,S Huntington Ave @ Moraine St,8,10,-2
+31,3/1/2014,723,39,Outbound,4200740,4200766,775 Centre St,8,10,-2
+31,3/1/2014,728,39,Outbound,4200740,4200766,Forest Hills Station,8,10,-2
+32,3/1/2014,705,39,Outbound,4200766,4200837,Back Bay Station,9,10,-1
+32,3/1/2014,710,39,Outbound,4200766,4200837,Huntington Ave @ Belvidere St,12,10,2
+32,3/1/2014,712,39,Outbound,4200766,4200837,Huntington Ave @ Opera Pl,12,10,2
+32,3/1/2014,717,39,Outbound,4200766,4200837,Huntington Ave @ Longwood Ave,12,10,2
+32,3/1/2014,719,39,Outbound,4200766,4200837,Huntington Ave @ Fenwood Rd,12,10,2
+32,3/1/2014,723,39,Outbound,4200766,4200837,S Huntington Ave opp VA Hospital,11,10,1
+32,3/1/2014,727,39,Outbound,4200766,4200837,S Huntington Ave @ Moraine St,11,10,1
+32,3/1/2014,733,39,Outbound,4200766,4200837,775 Centre St,13,10,3
+32,3/1/2014,738,39,Outbound,4200766,4200837,Forest Hills Station,14,10,4
+33,3/1/2014,715,39,Outbound,4200837,4200870,Back Bay Station,24,10,14
+33,3/1/2014,720,39,Outbound,4200837,4200870,Huntington Ave @ Belvidere St,23,10,13
+33,3/1/2014,722,39,Outbound,4200837,4200870,Huntington Ave @ Opera Pl,22,10,12
+33,3/1/2014,727,39,Outbound,4200837,4200870,Huntington Ave @ Longwood Ave,23,10,13
+33,3/1/2014,729,39,Outbound,4200837,4200870,Huntington Ave @ Fenwood Rd,24,10,14
+33,3/1/2014,733,39,Outbound,4200837,4200870,S Huntington Ave opp VA Hospital,27,10,17
+33,3/1/2014,737,39,Outbound,4200837,4200870,S Huntington Ave @ Moraine St,26,10,16
+33,3/1/2014,743,39,Outbound,4200837,4200870,775 Centre St,29,10,19
+33,3/1/2014,748,39,Outbound,4200837,4200870,Forest Hills Station,30,10,20
+34,3/1/2014,725,39,Outbound,4200870,4200896,Back Bay Station,0,10,-10
+34,3/1/2014,730,39,Outbound,4200870,4200896,Huntington Ave @ Belvidere St,-1,10,-11
+34,3/1/2014,732,39,Outbound,4200870,4200896,Huntington Ave @ Opera Pl,-1,10,-11
+34,3/1/2014,737,39,Outbound,4200870,4200896,Huntington Ave @ Longwood Ave,0,10,-10
+34,3/1/2014,739,39,Outbound,4200870,4200896,Huntington Ave @ Fenwood Rd,-2,10,-12
+34,3/1/2014,743,39,Outbound,4200870,4200896,S Huntington Ave opp VA Hospital,-3,10,-13
+34,3/1/2014,747,39,Outbound,4200870,4200896,S Huntington Ave @ Moraine St,-2,10,-12
+34,3/1/2014,753,39,Outbound,4200870,4200896,775 Centre St,-4,10,-14
+34,3/1/2014,758,39,Outbound,4200870,4200896,Forest Hills Station,-5,10,-15
+35,3/1/2014,735,39,Outbound,4200896,4200636,Back Bay Station,9,10,-1
+35,3/1/2014,740,39,Outbound,4200896,4200636,Huntington Ave @ Belvidere St,8,10,-2
+35,3/1/2014,742,39,Outbound,4200896,4200636,Huntington Ave @ Opera Pl,8,10,-2
+35,3/1/2014,747,39,Outbound,4200896,4200636,Huntington Ave @ Longwood Ave,7,10,-3
+35,3/1/2014,749,39,Outbound,4200896,4200636,Huntington Ave @ Fenwood Rd,8,10,-2
+35,3/1/2014,753,39,Outbound,4200896,4200636,S Huntington Ave opp VA Hospital,7,10,-3
+35,3/1/2014,757,39,Outbound,4200896,4200636,S Huntington Ave @ Moraine St,6,10,-4
+35,3/1/2014,763,39,Outbound,4200896,4200636,775 Centre St,5,10,-5
+35,3/1/2014,768,39,Outbound,4200896,4200636,Forest Hills Station,6,10,-4
+36,3/1/2014,745,39,Outbound,4200636,4200678,Back Bay Station,8,10,-2
+36,3/1/2014,750,39,Outbound,4200636,4200678,Huntington Ave @ Belvidere St,12,10,2
+36,3/1/2014,752,39,Outbound,4200636,4200678,Huntington Ave @ Opera Pl,12,10,2
+36,3/1/2014,757,39,Outbound,4200636,4200678,Huntington Ave @ Longwood Ave,12,10,2
+36,3/1/2014,759,39,Outbound,4200636,4200678,Huntington Ave @ Fenwood Rd,11,10,1
+36,3/1/2014,763,39,Outbound,4200636,4200678,S Huntington Ave opp VA Hospital,12,10,2
+36,3/1/2014,767,39,Outbound,4200636,4200678,S Huntington Ave @ Moraine St,13,10,3
+36,3/1/2014,773,39,Outbound,4200636,4200678,775 Centre St,11,10,1
+36,3/1/2014,778,39,Outbound,4200636,4200678,Forest Hills Station,10,10,0
+37,3/1/2014,755,39,Outbound,4200678,4200925,Back Bay Station,4,10,-6
+37,3/1/2014,760,39,Outbound,4200678,4200925,Huntington Ave @ Belvidere St,8,10,-2
+37,3/1/2014,762,39,Outbound,4200678,4200925,Huntington Ave @ Opera Pl,8,10,-2
+37,3/1/2014,767,39,Outbound,4200678,4200925,Huntington Ave @ Longwood Ave,9,10,-1
+37,3/1/2014,769,39,Outbound,4200678,4200925,Huntington Ave @ Fenwood Rd,9,10,-1
+37,3/1/2014,773,39,Outbound,4200678,4200925,S Huntington Ave opp VA Hospital,8,10,-2
+37,3/1/2014,777,39,Outbound,4200678,4200925,S Huntington Ave @ Moraine St,7,10,-3
+37,3/1/2014,783,39,Outbound,4200678,4200925,775 Centre St,7,10,-3
+37,3/1/2014,788,39,Outbound,4200678,4200925,Forest Hills Station,5,10,-5
+38,3/1/2014,765,39,Outbound,4200925,4200742,Back Bay Station,16,10,6
+38,3/1/2014,770,39,Outbound,4200925,4200742,Huntington Ave @ Belvidere St,10,10,0
+38,3/1/2014,772,39,Outbound,4200925,4200742,Huntington Ave @ Opera Pl,11,10,1
+38,3/1/2014,777,39,Outbound,4200925,4200742,Huntington Ave @ Longwood Ave,9,10,-1
+38,3/1/2014,779,39,Outbound,4200925,4200742,Huntington Ave @ Fenwood Rd,10,10,0
+38,3/1/2014,783,39,Outbound,4200925,4200742,S Huntington Ave opp VA Hospital,12,10,2
+38,3/1/2014,787,39,Outbound,4200925,4200742,S Huntington Ave @ Moraine St,12,10,2
+38,3/1/2014,793,39,Outbound,4200925,4200742,775 Centre St,12,10,2
+38,3/1/2014,798,39,Outbound,4200925,4200742,Forest Hills Station,12,10,2
+39,3/1/2014,775,39,Outbound,4200742,4200768,Back Bay Station,17,10,7
+39,3/1/2014,780,39,Outbound,4200742,4200768,Huntington Ave @ Belvidere St,18,10,8
+39,3/1/2014,782,39,Outbound,4200742,4200768,Huntington Ave @ Opera Pl,17,10,7
+39,3/1/2014,787,39,Outbound,4200742,4200768,Huntington Ave @ Longwood Ave,17,10,7
+39,3/1/2014,789,39,Outbound,4200742,4200768,Huntington Ave @ Fenwood Rd,16,10,6
+39,3/1/2014,793,39,Outbound,4200742,4200768,S Huntington Ave opp VA Hospital,14,10,4
+39,3/1/2014,797,39,Outbound,4200742,4200768,S Huntington Ave @ Moraine St,15,10,5
+39,3/1/2014,803,39,Outbound,4200742,4200768,775 Centre St,13,9,4
+39,3/1/2014,808,39,Outbound,4200742,4200768,Forest Hills Station,15,8,7
+40,3/1/2014,785,39,Outbound,4200768,4200814,Back Bay Station,6,10,-4
+40,3/1/2014,790,39,Outbound,4200768,4200814,Huntington Ave @ Belvidere St,4,10,-6
+40,3/1/2014,792,39,Outbound,4200768,4200814,Huntington Ave @ Opera Pl,4,10,-6
+40,3/1/2014,797,39,Outbound,4200768,4200814,Huntington Ave @ Longwood Ave,5,10,-5
+40,3/1/2014,799,39,Outbound,4200768,4200814,Huntington Ave @ Fenwood Rd,4,10,-6
+40,3/1/2014,803,39,Outbound,4200768,4200814,S Huntington Ave opp VA Hospital,6,10,-4
+40,3/1/2014,807,39,Outbound,4200768,4200814,S Huntington Ave @ Moraine St,4,10,-6
+40,3/1/2014,812,39,Outbound,4200768,4200814,775 Centre St,5,9,-4
+40,3/1/2014,816,39,Outbound,4200768,4200814,Forest Hills Station,5,9,-4
+41,3/1/2014,795,39,Outbound,4200814,4200872,Back Bay Station,27,10,17
+41,3/1/2014,800,39,Outbound,4200814,4200872,Huntington Ave @ Belvidere St,29,10,19
+41,3/1/2014,817,39,Outbound,4200814,4200872,S Huntington Ave @ Moraine St,29,11,18
+41,3/1/2014,821,39,Outbound,4200814,4200872,775 Centre St,30,11,19
+41,3/1/2014,825,39,Outbound,4200814,4200872,Forest Hills Station,31,11,20
+42,3/1/2014,805,39,Outbound,4200872,4200898,Back Bay Station,0,10,-10
+42,3/1/2014,810,39,Outbound,4200872,4200898,Huntington Ave @ Belvidere St,1,11,-10
+42,3/1/2014,828,39,Outbound,4200872,4200898,S Huntington Ave @ Moraine St,1,11,-10
+42,3/1/2014,832,39,Outbound,4200872,4200898,775 Centre St,1,11,-10
+42,3/1/2014,836,39,Outbound,4200872,4200898,Forest Hills Station,0,11,-11
+43,3/1/2014,815,39,Outbound,4200898,4200638,Back Bay Station,0,10,-10
+43,3/1/2014,821,39,Outbound,4200898,4200638,Huntington Ave @ Belvidere St,0,10,-10
+43,3/1/2014,823,39,Outbound,4200898,4200638,Huntington Ave @ Opera Pl,1,10,-9
+43,3/1/2014,828,39,Outbound,4200898,4200638,Huntington Ave @ Longwood Ave,0,10,-10
+43,3/1/2014,831,39,Outbound,4200898,4200638,Huntington Ave @ Fenwood Rd,2,10,-8
+43,3/1/2014,835,39,Outbound,4200898,4200638,S Huntington Ave opp VA Hospital,2,10,-8
+43,3/1/2014,839,39,Outbound,4200898,4200638,S Huntington Ave @ Moraine St,1,10,-9
+43,3/1/2014,843,39,Outbound,4200898,4200638,775 Centre St,0,10,-10
+43,3/1/2014,847,39,Outbound,4200898,4200638,Forest Hills Station,1,10,-9
+44,3/1/2014,825,39,Outbound,4200638,4200680,Back Bay Station,7,10,-3
+44,3/1/2014,831,39,Outbound,4200638,4200680,Huntington Ave @ Belvidere St,6,10,-4
+44,3/1/2014,833,39,Outbound,4200638,4200680,Huntington Ave @ Opera Pl,6,10,-4
+44,3/1/2014,838,39,Outbound,4200638,4200680,Huntington Ave @ Longwood Ave,6,10,-4
+44,3/1/2014,841,39,Outbound,4200638,4200680,Huntington Ave @ Fenwood Rd,6,10,-4
+44,3/1/2014,845,39,Outbound,4200638,4200680,S Huntington Ave opp VA Hospital,7,10,-3
+44,3/1/2014,849,39,Outbound,4200638,4200680,S Huntington Ave @ Moraine St,5,10,-5
+44,3/1/2014,853,39,Outbound,4200638,4200680,775 Centre St,5,10,-5
+44,3/1/2014,857,39,Outbound,4200638,4200680,Forest Hills Station,4,10,-6
+45,3/1/2014,835,39,Outbound,4200680,4200927,Back Bay Station,9,10,-1
+45,3/1/2014,841,39,Outbound,4200680,4200927,Huntington Ave @ Belvidere St,11,10,1
+45,3/1/2014,843,39,Outbound,4200680,4200927,Huntington Ave @ Opera Pl,15,10,5
+45,3/1/2014,848,39,Outbound,4200680,4200927,Huntington Ave @ Longwood Ave,16,10,6
+45,3/1/2014,851,39,Outbound,4200680,4200927,Huntington Ave @ Fenwood Rd,16,10,6
+45,3/1/2014,855,39,Outbound,4200680,4200927,S Huntington Ave opp VA Hospital,16,10,6
+45,3/1/2014,859,39,Outbound,4200680,4200927,S Huntington Ave @ Moraine St,18,10,8
+45,3/1/2014,863,39,Outbound,4200680,4200927,775 Centre St,17,10,7
+45,3/1/2014,867,39,Outbound,4200680,4200927,Forest Hills Station,17,10,7
+46,3/1/2014,845,39,Outbound,4200927,4200744,Back Bay Station,18,10,8
+46,3/1/2014,851,39,Outbound,4200927,4200744,Huntington Ave @ Belvidere St,13,10,3
+46,3/1/2014,853,39,Outbound,4200927,4200744,Huntington Ave @ Opera Pl,12,10,2
+46,3/1/2014,858,39,Outbound,4200927,4200744,Huntington Ave @ Longwood Ave,12,10,2
+46,3/1/2014,861,39,Outbound,4200927,4200744,Huntington Ave @ Fenwood Rd,12,10,2
+46,3/1/2014,865,39,Outbound,4200927,4200744,S Huntington Ave opp VA Hospital,12,10,2
+46,3/1/2014,869,39,Outbound,4200927,4200744,S Huntington Ave @ Moraine St,11,10,1
+46,3/1/2014,873,39,Outbound,4200927,4200744,775 Centre St,13,10,3
+46,3/1/2014,877,39,Outbound,4200927,4200744,Forest Hills Station,12,10,2
+47,3/1/2014,855,39,Outbound,4200744,4200770,Back Bay Station,9,10,-1
+47,3/1/2014,861,39,Outbound,4200744,4200770,Huntington Ave @ Belvidere St,14,10,4
+47,3/1/2014,863,39,Outbound,4200744,4200770,Huntington Ave @ Opera Pl,11,10,1
+47,3/1/2014,868,39,Outbound,4200744,4200770,Huntington Ave @ Longwood Ave,11,10,1
+47,3/1/2014,871,39,Outbound,4200744,4200770,Huntington Ave @ Fenwood Rd,11,10,1
+47,3/1/2014,875,39,Outbound,4200744,4200770,S Huntington Ave opp VA Hospital,12,10,2
+47,3/1/2014,879,39,Outbound,4200744,4200770,S Huntington Ave @ Moraine St,12,10,2
+47,3/1/2014,883,39,Outbound,4200744,4200770,775 Centre St,9,10,-1
+47,3/1/2014,887,39,Outbound,4200744,4200770,Forest Hills Station,11,10,1
+48,3/1/2014,865,39,Outbound,4200770,4200816,Back Bay Station,6,10,-4
+48,3/1/2014,871,39,Outbound,4200770,4200816,Huntington Ave @ Belvidere St,6,10,-4
+48,3/1/2014,873,39,Outbound,4200770,4200816,Huntington Ave @ Opera Pl,7,10,-3
+48,3/1/2014,878,39,Outbound,4200770,4200816,Huntington Ave @ Longwood Ave,8,10,-2
+48,3/1/2014,881,39,Outbound,4200770,4200816,Huntington Ave @ Fenwood Rd,7,10,-3
+48,3/1/2014,885,39,Outbound,4200770,4200816,S Huntington Ave opp VA Hospital,6,10,-4
+48,3/1/2014,889,39,Outbound,4200770,4200816,S Huntington Ave @ Moraine St,6,10,-4
+48,3/1/2014,893,39,Outbound,4200770,4200816,775 Centre St,8,10,-2
+48,3/1/2014,897,39,Outbound,4200770,4200816,Forest Hills Station,5,10,-5
+49,3/1/2014,875,39,Outbound,4200816,4200874,Back Bay Station,27,10,17
+49,3/1/2014,881,39,Outbound,4200816,4200874,Huntington Ave @ Belvidere St,23,10,13
+49,3/1/2014,883,39,Outbound,4200816,4200874,Huntington Ave @ Opera Pl,22,10,12
+49,3/1/2014,888,39,Outbound,4200816,4200874,Huntington Ave @ Longwood Ave,24,10,14
+49,3/1/2014,891,39,Outbound,4200816,4200874,Huntington Ave @ Fenwood Rd,24,10,14
+49,3/1/2014,895,39,Outbound,4200816,4200874,S Huntington Ave opp VA Hospital,22,10,12
+49,3/1/2014,899,39,Outbound,4200816,4200874,S Huntington Ave @ Moraine St,22,10,12
+49,3/1/2014,903,39,Outbound,4200816,4200874,775 Centre St,22,10,12
+49,3/1/2014,907,39,Outbound,4200816,4200874,Forest Hills Station,24,10,14
+50,3/1/2014,885,39,Outbound,4200874,4200900,Back Bay Station,3,10,-7
+50,3/1/2014,891,39,Outbound,4200874,4200900,Huntington Ave @ Belvidere St,2,10,-8
+50,3/1/2014,893,39,Outbound,4200874,4200900,Huntington Ave @ Opera Pl,3,10,-7
+50,3/1/2014,898,39,Outbound,4200874,4200900,Huntington Ave @ Longwood Ave,0,10,-10
+50,3/1/2014,901,39,Outbound,4200874,4200900,Huntington Ave @ Fenwood Rd,0,10,-10
+50,3/1/2014,905,39,Outbound,4200874,4200900,S Huntington Ave opp VA Hospital,1,10,-9
+50,3/1/2014,909,39,Outbound,4200874,4200900,S Huntington Ave @ Moraine St,2,10,-8
+50,3/1/2014,913,39,Outbound,4200874,4200900,775 Centre St,5,10,-5
+50,3/1/2014,917,39,Outbound,4200874,4200900,Forest Hills Station,4,10,-6
+51,3/1/2014,895,39,Outbound,4200900,4200640,Back Bay Station,1,10,-9
+51,3/1/2014,901,39,Outbound,4200900,4200640,Huntington Ave @ Belvidere St,3,10,-7
+51,3/1/2014,903,39,Outbound,4200900,4200640,Huntington Ave @ Opera Pl,2,10,-8
+51,3/1/2014,908,39,Outbound,4200900,4200640,Huntington Ave @ Longwood Ave,1,10,-9
+51,3/1/2014,911,39,Outbound,4200900,4200640,Huntington Ave @ Fenwood Rd,0,10,-10
+51,3/1/2014,915,39,Outbound,4200900,4200640,S Huntington Ave opp VA Hospital,-1,10,-11
+51,3/1/2014,919,39,Outbound,4200900,4200640,S Huntington Ave @ Moraine St,-2,10,-12
+51,3/1/2014,923,39,Outbound,4200900,4200640,775 Centre St,-4,10,-14
+51,3/1/2014,927,39,Outbound,4200900,4200640,Forest Hills Station,-4,10,-14
+52,3/1/2014,905,39,Outbound,4200640,4200682,Back Bay Station,4,10,-6
+52,3/1/2014,911,39,Outbound,4200640,4200682,Huntington Ave @ Belvidere St,9,10,-1
+52,3/1/2014,913,39,Outbound,4200640,4200682,Huntington Ave @ Opera Pl,9,10,-1
+52,3/1/2014,918,39,Outbound,4200640,4200682,Huntington Ave @ Longwood Ave,9,10,-1
+52,3/1/2014,921,39,Outbound,4200640,4200682,Huntington Ave @ Fenwood Rd,12,10,2
+52,3/1/2014,925,39,Outbound,4200640,4200682,S Huntington Ave opp VA Hospital,14,10,4
+52,3/1/2014,929,39,Outbound,4200640,4200682,S Huntington Ave @ Moraine St,14,10,4
+52,3/1/2014,933,39,Outbound,4200640,4200682,775 Centre St,16,10,6
+52,3/1/2014,937,39,Outbound,4200640,4200682,Forest Hills Station,16,10,6
+53,3/1/2014,915,39,Outbound,4200682,4200929,Back Bay Station,16,10,6
+53,3/1/2014,921,39,Outbound,4200682,4200929,Huntington Ave @ Belvidere St,11,10,1
+53,3/1/2014,923,39,Outbound,4200682,4200929,Huntington Ave @ Opera Pl,12,10,2
+53,3/1/2014,928,39,Outbound,4200682,4200929,Huntington Ave @ Longwood Ave,15,10,5
+53,3/1/2014,931,39,Outbound,4200682,4200929,Huntington Ave @ Fenwood Rd,14,10,4
+53,3/1/2014,935,39,Outbound,4200682,4200929,S Huntington Ave opp VA Hospital,14,10,4
+53,3/1/2014,939,39,Outbound,4200682,4200929,S Huntington Ave @ Moraine St,14,10,4
+53,3/1/2014,943,39,Outbound,4200682,4200929,775 Centre St,10,10,0
+53,3/1/2014,947,39,Outbound,4200682,4200929,Forest Hills Station,10,10,0
+54,3/1/2014,925,39,Outbound,4200929,4200746,Back Bay Station,8,10,-2
+54,3/1/2014,931,39,Outbound,4200929,4200746,Huntington Ave @ Belvidere St,5,10,-5
+54,3/1/2014,933,39,Outbound,4200929,4200746,Huntington Ave @ Opera Pl,4,10,-6
+54,3/1/2014,938,39,Outbound,4200929,4200746,Huntington Ave @ Longwood Ave,2,10,-8
+54,3/1/2014,941,39,Outbound,4200929,4200746,Huntington Ave @ Fenwood Rd,2,10,-8
+54,3/1/2014,945,39,Outbound,4200929,4200746,S Huntington Ave opp VA Hospital,0,10,-10
+54,3/1/2014,949,39,Outbound,4200929,4200746,S Huntington Ave @ Moraine St,0,10,-10
+54,3/1/2014,953,39,Outbound,4200929,4200746,775 Centre St,-2,10,-12
+54,3/1/2014,957,39,Outbound,4200929,4200746,Forest Hills Station,-1,10,-11
+55,3/1/2014,935,39,Outbound,4200746,4200772,Back Bay Station,13,10,3
+55,3/1/2014,941,39,Outbound,4200746,4200772,Huntington Ave @ Belvidere St,17,10,7
+55,3/1/2014,943,39,Outbound,4200746,4200772,Huntington Ave @ Opera Pl,17,10,7
+55,3/1/2014,948,39,Outbound,4200746,4200772,Huntington Ave @ Longwood Ave,18,10,8
+55,3/1/2014,951,39,Outbound,4200746,4200772,Huntington Ave @ Fenwood Rd,17,10,7
+55,3/1/2014,955,39,Outbound,4200746,4200772,S Huntington Ave opp VA Hospital,18,10,8
+55,3/1/2014,959,39,Outbound,4200746,4200772,S Huntington Ave @ Moraine St,18,10,8
+55,3/1/2014,963,39,Outbound,4200746,4200772,775 Centre St,21,10,11
+55,3/1/2014,967,39,Outbound,4200746,4200772,Forest Hills Station,22,10,12
+56,3/1/2014,945,39,Outbound,4200772,4200818,Back Bay Station,13,10,3
+56,3/1/2014,951,39,Outbound,4200772,4200818,Huntington Ave @ Belvidere St,11,10,1
+56,3/1/2014,953,39,Outbound,4200772,4200818,Huntington Ave @ Opera Pl,11,10,1
+56,3/1/2014,958,39,Outbound,4200772,4200818,Huntington Ave @ Longwood Ave,9,10,-1
+56,3/1/2014,961,39,Outbound,4200772,4200818,Huntington Ave @ Fenwood Rd,11,10,1
+56,3/1/2014,965,39,Outbound,4200772,4200818,S Huntington Ave opp VA Hospital,12,10,2
+56,3/1/2014,969,39,Outbound,4200772,4200818,S Huntington Ave @ Moraine St,12,10,2
+56,3/1/2014,973,39,Outbound,4200772,4200818,775 Centre St,13,10,3
+56,3/1/2014,977,39,Outbound,4200772,4200818,Forest Hills Station,11,10,1
+57,3/1/2014,961,39,Outbound,4200818,4200876,Huntington Ave @ Belvidere St,27,10,17
+57,3/1/2014,963,39,Outbound,4200818,4200876,Huntington Ave @ Opera Pl,29,10,19
+57,3/1/2014,968,39,Outbound,4200818,4200876,Huntington Ave @ Longwood Ave,30,10,20
+57,3/1/2014,971,39,Outbound,4200818,4200876,Huntington Ave @ Fenwood Rd,30,10,20
+57,3/1/2014,975,39,Outbound,4200818,4200876,S Huntington Ave opp VA Hospital,31,10,21
+57,3/1/2014,979,39,Outbound,4200818,4200876,S Huntington Ave @ Moraine St,31,10,21
+57,3/1/2014,983,39,Outbound,4200818,4200876,775 Centre St,27,10,17
+57,3/1/2014,987,39,Outbound,4200818,4200876,Forest Hills Station,28,10,18
+58,3/1/2014,971,39,Outbound,4200876,4200902,Huntington Ave @ Belvidere St,2,10,-8
+58,3/1/2014,973,39,Outbound,4200876,4200902,Huntington Ave @ Opera Pl,0,10,-10
+58,3/1/2014,978,39,Outbound,4200876,4200902,Huntington Ave @ Longwood Ave,2,10,-8
+58,3/1/2014,981,39,Outbound,4200876,4200902,Huntington Ave @ Fenwood Rd,2,10,-8
+58,3/1/2014,985,39,Outbound,4200876,4200902,S Huntington Ave opp VA Hospital,-1,10,-11
+58,3/1/2014,989,39,Outbound,4200876,4200902,S Huntington Ave @ Moraine St,-1,10,-11
+58,3/1/2014,993,39,Outbound,4200876,4200902,775 Centre St,1,10,-9
+58,3/1/2014,997,39,Outbound,4200876,4200902,Forest Hills Station,0,10,-10
+59,3/1/2014,975,39,Outbound,4200902,4200642,Back Bay Station,1,10,-9
+59,3/1/2014,981,39,Outbound,4200902,4200642,Huntington Ave @ Belvidere St,3,10,-7
+59,3/1/2014,983,39,Outbound,4200902,4200642,Huntington Ave @ Opera Pl,3,10,-7
+59,3/1/2014,988,39,Outbound,4200902,4200642,Huntington Ave @ Longwood Ave,1,10,-9
+59,3/1/2014,991,39,Outbound,4200902,4200642,Huntington Ave @ Fenwood Rd,0,10,-10
+59,3/1/2014,995,39,Outbound,4200902,4200642,S Huntington Ave opp VA Hospital,2,10,-8
+59,3/1/2014,999,39,Outbound,4200902,4200642,S Huntington Ave @ Moraine St,1,10,-9
+59,3/1/2014,1003,39,Outbound,4200902,4200642,775 Centre St,1,10,-9
+59,3/1/2014,1007,39,Outbound,4200902,4200642,Forest Hills Station,0,10,-10
+60,3/1/2014,985,39,Outbound,4200642,4200684,Back Bay Station,3,10,-7
+60,3/1/2014,991,39,Outbound,4200642,4200684,Huntington Ave @ Belvidere St,8,10,-2
+60,3/1/2014,993,39,Outbound,4200642,4200684,Huntington Ave @ Opera Pl,9,10,-1
+60,3/1/2014,998,39,Outbound,4200642,4200684,Huntington Ave @ Longwood Ave,9,10,-1
+60,3/1/2014,1001,39,Outbound,4200642,4200684,Huntington Ave @ Fenwood Rd,9,10,-1
+60,3/1/2014,1005,39,Outbound,4200642,4200684,S Huntington Ave opp VA Hospital,8,10,-2
+60,3/1/2014,1009,39,Outbound,4200642,4200684,S Huntington Ave @ Moraine St,9,10,-1
+60,3/1/2014,1013,39,Outbound,4200642,4200684,775 Centre St,6,10,-4
+60,3/1/2014,1017,39,Outbound,4200642,4200684,Forest Hills Station,7,10,-3
+61,3/1/2014,995,39,Outbound,4200684,4200931,Back Bay Station,16,10,6
+61,3/1/2014,1001,39,Outbound,4200684,4200931,Huntington Ave @ Belvidere St,7,10,-3
+61,3/1/2014,1003,39,Outbound,4200684,4200931,Huntington Ave @ Opera Pl,6,10,-4
+61,3/1/2014,1008,39,Outbound,4200684,4200931,Huntington Ave @ Longwood Ave,7,10,-3
+61,3/1/2014,1011,39,Outbound,4200684,4200931,Huntington Ave @ Fenwood Rd,6,10,-4
+61,3/1/2014,1015,39,Outbound,4200684,4200931,S Huntington Ave opp VA Hospital,6,10,-4
+61,3/1/2014,1019,39,Outbound,4200684,4200931,S Huntington Ave @ Moraine St,7,10,-3
+61,3/1/2014,1023,39,Outbound,4200684,4200931,775 Centre St,10,10,0
+61,3/1/2014,1027,39,Outbound,4200684,4200931,Forest Hills Station,10,10,0
+62,3/1/2014,1005,39,Outbound,4200931,4200748,Back Bay Station,9,10,-1
+62,3/1/2014,1011,39,Outbound,4200931,4200748,Huntington Ave @ Belvidere St,9,10,-1
+62,3/1/2014,1013,39,Outbound,4200931,4200748,Huntington Ave @ Opera Pl,9,10,-1
+62,3/1/2014,1018,39,Outbound,4200931,4200748,Huntington Ave @ Longwood Ave,8,10,-2
+62,3/1/2014,1021,39,Outbound,4200931,4200748,Huntington Ave @ Fenwood Rd,9,10,-1
+62,3/1/2014,1025,39,Outbound,4200931,4200748,S Huntington Ave opp VA Hospital,8,10,-2
+62,3/1/2014,1029,39,Outbound,4200931,4200748,S Huntington Ave @ Moraine St,7,10,-3
+62,3/1/2014,1033,39,Outbound,4200931,4200748,775 Centre St,5,10,-5
+62,3/1/2014,1037,39,Outbound,4200931,4200748,Forest Hills Station,6,10,-4
+63,3/1/2014,1015,39,Outbound,4200748,4200774,Back Bay Station,5,11,-6
+63,3/1/2014,1021,39,Outbound,4200748,4200774,Huntington Ave @ Belvidere St,15,11,4
+63,3/1/2014,1023,39,Outbound,4200748,4200774,Huntington Ave @ Opera Pl,16,11,5
+63,3/1/2014,1028,39,Outbound,4200748,4200774,Huntington Ave @ Longwood Ave,16,11,5
+63,3/1/2014,1031,39,Outbound,4200748,4200774,Huntington Ave @ Fenwood Rd,17,11,6
+63,3/1/2014,1035,39,Outbound,4200748,4200774,S Huntington Ave opp VA Hospital,18,11,7
+63,3/1/2014,1039,39,Outbound,4200748,4200774,S Huntington Ave @ Moraine St,17,11,6
+63,3/1/2014,1043,39,Outbound,4200748,4200774,775 Centre St,18,11,7
+63,3/1/2014,1047,39,Outbound,4200748,4200774,Forest Hills Station,18,11,7
+64,3/1/2014,1026,39,Outbound,4200774,4200820,Back Bay Station,18,11,7
+64,3/1/2014,1034,39,Outbound,4200774,4200820,Huntington Ave @ Opera Pl,5,11,-6
+64,3/1/2014,1039,39,Outbound,4200774,4200820,Huntington Ave @ Longwood Ave,3,11,-8
+64,3/1/2014,1042,39,Outbound,4200774,4200820,Huntington Ave @ Fenwood Rd,2,11,-9
+64,3/1/2014,1046,39,Outbound,4200774,4200820,S Huntington Ave opp VA Hospital,2,11,-9
+64,3/1/2014,1050,39,Outbound,4200774,4200820,S Huntington Ave @ Moraine St,4,11,-7
+64,3/1/2014,1054,39,Outbound,4200774,4200820,775 Centre St,4,11,-7
+64,3/1/2014,1058,39,Outbound,4200774,4200820,Forest Hills Station,3,11,-8
+65,3/1/2014,1037,39,Outbound,4200820,4200878,Back Bay Station,22,11,11
+65,3/1/2014,1045,39,Outbound,4200820,4200878,Huntington Ave @ Opera Pl,28,11,17
+65,3/1/2014,1050,39,Outbound,4200820,4200878,Huntington Ave @ Longwood Ave,29,11,18
+65,3/1/2014,1053,39,Outbound,4200820,4200878,Huntington Ave @ Fenwood Rd,31,11,20
+65,3/1/2014,1057,39,Outbound,4200820,4200878,S Huntington Ave opp VA Hospital,32,11,21
+65,3/1/2014,1061,39,Outbound,4200820,4200878,S Huntington Ave @ Moraine St,32,11,21
+65,3/1/2014,1065,39,Outbound,4200820,4200878,775 Centre St,31,11,20
+65,3/1/2014,1069,39,Outbound,4200820,4200878,Forest Hills Station,31,11,20
+66,3/1/2014,1048,39,Outbound,4200878,4200904,Back Bay Station,2,11,-9
+66,3/1/2014,1054,39,Outbound,4200878,4200904,Huntington Ave @ Belvidere St,1,11,-10
+66,3/1/2014,1056,39,Outbound,4200878,4200904,Huntington Ave @ Opera Pl,-1,11,-12
+66,3/1/2014,1061,39,Outbound,4200878,4200904,Huntington Ave @ Longwood Ave,0,11,-11
+66,3/1/2014,1064,39,Outbound,4200878,4200904,Huntington Ave @ Fenwood Rd,-2,11,-13
+66,3/1/2014,1068,39,Outbound,4200878,4200904,S Huntington Ave opp VA Hospital,-2,11,-13
+66,3/1/2014,1072,39,Outbound,4200878,4200904,S Huntington Ave @ Moraine St,-2,11,-13
+66,3/1/2014,1076,39,Outbound,4200878,4200904,775 Centre St,-1,11,-12
+66,3/1/2014,1080,39,Outbound,4200878,4200904,Forest Hills Station,1,11,-10
+67,3/1/2014,1059,39,Outbound,4200904,4200644,Back Bay Station,0,11,-11
+67,3/1/2014,1065,39,Outbound,4200904,4200644,Huntington Ave @ Belvidere St,8,11,-3
+67,3/1/2014,1067,39,Outbound,4200904,4200644,Huntington Ave @ Opera Pl,8,11,-3
+67,3/1/2014,1072,39,Outbound,4200904,4200644,Huntington Ave @ Longwood Ave,7,11,-4
+67,3/1/2014,1075,39,Outbound,4200904,4200644,Huntington Ave @ Fenwood Rd,6,11,-5
+67,3/1/2014,1079,39,Outbound,4200904,4200644,S Huntington Ave opp VA Hospital,6,11,-5
+67,3/1/2014,1083,39,Outbound,4200904,4200644,S Huntington Ave @ Moraine St,5,11,-6
+67,3/1/2014,1087,39,Outbound,4200904,4200644,775 Centre St,4,11,-7
+67,3/1/2014,1091,39,Outbound,4200904,4200644,Forest Hills Station,3,11,-8
+68,3/1/2014,1070,39,Outbound,4200644,4200686,Back Bay Station,14,11,3
+68,3/1/2014,1076,39,Outbound,4200644,4200686,Huntington Ave @ Belvidere St,10,11,-1
+68,3/1/2014,1078,39,Outbound,4200644,4200686,Huntington Ave @ Opera Pl,10,11,-1
+68,3/1/2014,1083,39,Outbound,4200644,4200686,Huntington Ave @ Longwood Ave,11,11,0
+68,3/1/2014,1086,39,Outbound,4200644,4200686,Huntington Ave @ Fenwood Rd,16,11,5
+68,3/1/2014,1090,39,Outbound,4200644,4200686,S Huntington Ave opp VA Hospital,14,11,3
+68,3/1/2014,1094,39,Outbound,4200644,4200686,S Huntington Ave @ Moraine St,15,11,4
+68,3/1/2014,1098,39,Outbound,4200644,4200686,775 Centre St,15,11,4
+68,3/1/2014,1102,39,Outbound,4200644,4200686,Forest Hills Station,17,11,6
+69,3/1/2014,1081,39,Outbound,4200686,4200933,Back Bay Station,10,11,-1
+69,3/1/2014,1087,39,Outbound,4200686,4200933,Huntington Ave @ Belvidere St,10,11,-1
+69,3/1/2014,1089,39,Outbound,4200686,4200933,Huntington Ave @ Opera Pl,11,11,0
+69,3/1/2014,1094,39,Outbound,4200686,4200933,Huntington Ave @ Longwood Ave,10,11,-1
+69,3/1/2014,1097,39,Outbound,4200686,4200933,Huntington Ave @ Fenwood Rd,6,11,-5
+69,3/1/2014,1101,39,Outbound,4200686,4200933,S Huntington Ave opp VA Hospital,7,11,-4
+69,3/1/2014,1105,39,Outbound,4200686,4200933,S Huntington Ave @ Moraine St,8,11,-3
+69,3/1/2014,1109,39,Outbound,4200686,4200933,775 Centre St,8,11,-3
+69,3/1/2014,1113,39,Outbound,4200686,4200933,Forest Hills Station,6,11,-5
+70,3/1/2014,1092,39,Outbound,4200933,4200750,Back Bay Station,8,11,-3
+70,3/1/2014,1098,39,Outbound,4200933,4200750,Huntington Ave @ Belvidere St,14,11,3
+70,3/1/2014,1100,39,Outbound,4200933,4200750,Huntington Ave @ Opera Pl,12,11,1
+70,3/1/2014,1105,39,Outbound,4200933,4200750,Huntington Ave @ Longwood Ave,12,11,1
+70,3/1/2014,1108,39,Outbound,4200933,4200750,Huntington Ave @ Fenwood Rd,12,11,1
+70,3/1/2014,1112,39,Outbound,4200933,4200750,S Huntington Ave opp VA Hospital,11,11,0
+70,3/1/2014,1116,39,Outbound,4200933,4200750,S Huntington Ave @ Moraine St,10,11,-1
+70,3/1/2014,1120,39,Outbound,4200933,4200750,775 Centre St,9,11,-2
+70,3/1/2014,1124,39,Outbound,4200933,4200750,Forest Hills Station,9,11,-2
+71,3/1/2014,1103,39,Outbound,4200750,4200776,Back Bay Station,12,11,1
+71,3/1/2014,1109,39,Outbound,4200750,4200776,Huntington Ave @ Belvidere St,8,11,-3
+71,3/1/2014,1111,39,Outbound,4200750,4200776,Huntington Ave @ Opera Pl,9,11,-2
+71,3/1/2014,1116,39,Outbound,4200750,4200776,Huntington Ave @ Longwood Ave,9,11,-2
+71,3/1/2014,1119,39,Outbound,4200750,4200776,Huntington Ave @ Fenwood Rd,8,11,-3
+71,3/1/2014,1123,39,Outbound,4200750,4200776,S Huntington Ave opp VA Hospital,8,11,-3
+71,3/1/2014,1127,39,Outbound,4200750,4200776,S Huntington Ave @ Moraine St,7,11,-4
+71,3/1/2014,1131,39,Outbound,4200750,4200776,775 Centre St,9,11,-2
+71,3/1/2014,1135,39,Outbound,4200750,4200776,Forest Hills Station,8,11,-3
+72,3/1/2014,1114,39,Outbound,4200776,4200822,Back Bay Station,10,11,-1
+72,3/1/2014,1120,39,Outbound,4200776,4200822,Huntington Ave @ Belvidere St,12,11,1
+72,3/1/2014,1122,39,Outbound,4200776,4200822,Huntington Ave @ Opera Pl,12,11,1
+72,3/1/2014,1127,39,Outbound,4200776,4200822,Huntington Ave @ Longwood Ave,12,11,1
+72,3/1/2014,1130,39,Outbound,4200776,4200822,Huntington Ave @ Fenwood Rd,13,11,2
+72,3/1/2014,1134,39,Outbound,4200776,4200822,S Huntington Ave opp VA Hospital,14,11,3
+72,3/1/2014,1138,39,Outbound,4200776,4200822,S Huntington Ave @ Moraine St,14,11,3
+72,3/1/2014,1142,39,Outbound,4200776,4200822,775 Centre St,13,11,2
+72,3/1/2014,1146,39,Outbound,4200776,4200822,Forest Hills Station,13,11,2
+73,3/1/2014,1125,39,Outbound,4200822,4200880,Back Bay Station,15,11,4
+73,3/1/2014,1131,39,Outbound,4200822,4200880,Huntington Ave @ Belvidere St,13,11,2
+73,3/1/2014,1133,39,Outbound,4200822,4200880,Huntington Ave @ Opera Pl,13,11,2
+73,3/1/2014,1138,39,Outbound,4200822,4200880,Huntington Ave @ Longwood Ave,12,11,1
+73,3/1/2014,1141,39,Outbound,4200822,4200880,Huntington Ave @ Fenwood Rd,11,11,0
+73,3/1/2014,1145,39,Outbound,4200822,4200880,S Huntington Ave opp VA Hospital,12,11,1
+73,3/1/2014,1149,39,Outbound,4200822,4200880,S Huntington Ave @ Moraine St,12,11,1
+73,3/1/2014,1153,39,Outbound,4200822,4200880,775 Centre St,12,11,1
+73,3/1/2014,1157,39,Outbound,4200822,4200880,Forest Hills Station,12,11,1
+74,3/1/2014,1136,39,Outbound,4200880,4200906,Back Bay Station,7,11,-4
+74,3/1/2014,1142,39,Outbound,4200880,4200906,Huntington Ave @ Belvidere St,8,11,-3
+74,3/1/2014,1144,39,Outbound,4200880,4200906,Huntington Ave @ Opera Pl,9,11,-2
+74,3/1/2014,1149,39,Outbound,4200880,4200906,Huntington Ave @ Longwood Ave,9,11,-2
+74,3/1/2014,1152,39,Outbound,4200880,4200906,Huntington Ave @ Fenwood Rd,9,11,-2
+74,3/1/2014,1156,39,Outbound,4200880,4200906,S Huntington Ave opp VA Hospital,8,11,-3
+74,3/1/2014,1160,39,Outbound,4200880,4200906,S Huntington Ave @ Moraine St,8,11,-3
+74,3/1/2014,1164,39,Outbound,4200880,4200906,775 Centre St,9,11,-2
+74,3/1/2014,1168,39,Outbound,4200880,4200906,Forest Hills Station,8,11,-3
+75,3/1/2014,1147,39,Outbound,4200906,4200646,Back Bay Station,16,11,5
+75,3/1/2014,1153,39,Outbound,4200906,4200646,Huntington Ave @ Belvidere St,12,11,1
+75,3/1/2014,1155,39,Outbound,4200906,4200646,Huntington Ave @ Opera Pl,12,11,1
+75,3/1/2014,1160,39,Outbound,4200906,4200646,Huntington Ave @ Longwood Ave,14,11,3
+75,3/1/2014,1163,39,Outbound,4200906,4200646,Huntington Ave @ Fenwood Rd,15,11,4
+75,3/1/2014,1167,39,Outbound,4200906,4200646,S Huntington Ave opp VA Hospital,14,11,3
+75,3/1/2014,1171,39,Outbound,4200906,4200646,S Huntington Ave @ Moraine St,17,11,6
+75,3/1/2014,1175,39,Outbound,4200906,4200646,775 Centre St,17,11,6
+75,3/1/2014,1179,39,Outbound,4200906,4200646,Forest Hills Station,18,11,7
+76,3/1/2014,1158,39,Outbound,4200646,4200688,Back Bay Station,7,11,-4
+76,3/1/2014,1164,39,Outbound,4200646,4200688,Huntington Ave @ Belvidere St,13,11,2
+76,3/1/2014,1166,39,Outbound,4200646,4200688,Huntington Ave @ Opera Pl,12,11,1
+76,3/1/2014,1171,39,Outbound,4200646,4200688,Huntington Ave @ Longwood Ave,10,11,-1
+76,3/1/2014,1174,39,Outbound,4200646,4200688,Huntington Ave @ Fenwood Rd,9,11,-2
+76,3/1/2014,1178,39,Outbound,4200646,4200688,S Huntington Ave opp VA Hospital,10,11,-1
+76,3/1/2014,1182,39,Outbound,4200646,4200688,S Huntington Ave @ Moraine St,7,11,-4
+76,3/1/2014,1186,39,Outbound,4200646,4200688,775 Centre St,5,11,-6
+76,3/1/2014,1190,39,Outbound,4200646,4200688,Forest Hills Station,5,11,-6
+77,3/1/2014,1169,39,Outbound,4200688,4200935,Back Bay Station,10,11,-1
+77,3/1/2014,1175,39,Outbound,4200688,4200935,Huntington Ave @ Belvidere St,12,11,1
+77,3/1/2014,1177,39,Outbound,4200688,4200935,Huntington Ave @ Opera Pl,12,11,1
+77,3/1/2014,1182,39,Outbound,4200688,4200935,Huntington Ave @ Longwood Ave,13,11,2
+77,3/1/2014,1185,39,Outbound,4200688,4200935,Huntington Ave @ Fenwood Rd,13,11,2
+77,3/1/2014,1189,39,Outbound,4200688,4200935,S Huntington Ave opp VA Hospital,14,11,3
+77,3/1/2014,1193,39,Outbound,4200688,4200935,S Huntington Ave @ Moraine St,16,10,6
+77,3/1/2014,1197,39,Outbound,4200688,4200935,775 Centre St,19,9,10
+77,3/1/2014,1201,39,Outbound,4200688,4200935,Forest Hills Station,19,9,10
+78,3/1/2014,1180,39,Outbound,4200935,4200752,Back Bay Station,7,11,-4
+78,3/1/2014,1186,39,Outbound,4200935,4200752,Huntington Ave @ Belvidere St,8,11,-3
+78,3/1/2014,1188,39,Outbound,4200935,4200752,Huntington Ave @ Opera Pl,8,11,-3
+78,3/1/2014,1193,39,Outbound,4200935,4200752,Huntington Ave @ Longwood Ave,7,11,-4
+78,3/1/2014,1196,39,Outbound,4200935,4200752,Huntington Ave @ Fenwood Rd,8,10,-2
+78,3/1/2014,1200,39,Outbound,4200935,4200752,S Huntington Ave opp VA Hospital,8,10,-2
+78,3/1/2014,1203,39,Outbound,4200935,4200752,S Huntington Ave @ Moraine St,7,10,-3
+78,3/1/2014,1206,39,Outbound,4200935,4200752,775 Centre St,4,10,-6
+78,3/1/2014,1210,39,Outbound,4200935,4200752,Forest Hills Station,3,10,-7
+79,3/1/2014,1191,39,Outbound,4200752,4200824,Back Bay Station,12,12,0
+79,3/1/2014,1199,39,Outbound,4200752,4200824,Huntington Ave @ Opera Pl,12,11,1
+79,3/1/2014,1204,39,Outbound,4200752,4200824,Huntington Ave @ Longwood Ave,14,11,3
+79,3/1/2014,1206,39,Outbound,4200752,4200824,Huntington Ave @ Fenwood Rd,14,11,3
+79,3/1/2014,1210,39,Outbound,4200752,4200824,S Huntington Ave opp VA Hospital,12,11,1
+79,3/1/2014,1213,39,Outbound,4200752,4200824,S Huntington Ave @ Moraine St,11,11,0
+79,3/1/2014,1216,39,Outbound,4200752,4200824,775 Centre St,13,11,2
+79,3/1/2014,1220,39,Outbound,4200752,4200824,Forest Hills Station,13,11,2
+80,3/1/2014,1203,39,Outbound,4200824,4200882,Back Bay Station,9,11,-2
+80,3/1/2014,1210,39,Outbound,4200824,4200882,Huntington Ave @ Opera Pl,10,11,-1
+80,3/1/2014,1215,39,Outbound,4200824,4200882,Huntington Ave @ Longwood Ave,8,11,-3
+80,3/1/2014,1217,39,Outbound,4200824,4200882,Huntington Ave @ Fenwood Rd,9,11,-2
+80,3/1/2014,1221,39,Outbound,4200824,4200882,S Huntington Ave opp VA Hospital,11,11,0
+80,3/1/2014,1224,39,Outbound,4200824,4200882,S Huntington Ave @ Moraine St,11,11,0
+80,3/1/2014,1227,39,Outbound,4200824,4200882,775 Centre St,10,11,-1
+80,3/1/2014,1231,39,Outbound,4200824,4200882,Forest Hills Station,12,11,1
+81,3/1/2014,1214,39,Outbound,4200882,4200908,Back Bay Station,11,12,-1
+81,3/1/2014,1219,39,Outbound,4200882,4200908,Huntington Ave @ Belvidere St,11,12,-1
+81,3/1/2014,1221,39,Outbound,4200882,4200908,Huntington Ave @ Opera Pl,12,12,0
+81,3/1/2014,1226,39,Outbound,4200882,4200908,Huntington Ave @ Longwood Ave,13,12,1
+81,3/1/2014,1228,39,Outbound,4200882,4200908,Huntington Ave @ Fenwood Rd,11,12,-1
+81,3/1/2014,1232,39,Outbound,4200882,4200908,S Huntington Ave opp VA Hospital,11,12,-1
+81,3/1/2014,1235,39,Outbound,4200882,4200908,S Huntington Ave @ Moraine St,11,12,-1
+81,3/1/2014,1238,39,Outbound,4200882,4200908,775 Centre St,11,12,-1
+81,3/1/2014,1242,39,Outbound,4200882,4200908,Forest Hills Station,9,12,-3
+82,3/1/2014,1226,39,Outbound,4200908,4200690,Back Bay Station,29,11,18
+82,3/1/2014,1231,39,Outbound,4200908,4200690,Huntington Ave @ Belvidere St,14,11,3
+82,3/1/2014,1233,39,Outbound,4200908,4200690,Huntington Ave @ Opera Pl,13,11,2
+82,3/1/2014,1238,39,Outbound,4200908,4200690,Huntington Ave @ Longwood Ave,13,11,2
+82,3/1/2014,1240,39,Outbound,4200908,4200690,Huntington Ave @ Fenwood Rd,12,11,1
+82,3/1/2014,1244,39,Outbound,4200908,4200690,S Huntington Ave opp VA Hospital,11,11,0
+82,3/1/2014,1247,39,Outbound,4200908,4200690,S Huntington Ave @ Moraine St,11,11,0
+82,3/1/2014,1250,39,Outbound,4200908,4200690,775 Centre St,12,11,1
+82,3/1/2014,1254,39,Outbound,4200908,4200690,Forest Hills Station,13,11,2
+83,3/1/2014,1237,39,Outbound,4200690,4200937,Back Bay Station,14,12,2
+83,3/1/2014,1242,39,Outbound,4200690,4200937,Huntington Ave @ Belvidere St,13,12,1
+83,3/1/2014,1244,39,Outbound,4200690,4200937,Huntington Ave @ Opera Pl,13,12,1
+83,3/1/2014,1249,39,Outbound,4200690,4200937,Huntington Ave @ Longwood Ave,13,12,1
+83,3/1/2014,1251,39,Outbound,4200690,4200937,Huntington Ave @ Fenwood Rd,15,12,3
+83,3/1/2014,1255,39,Outbound,4200690,4200937,S Huntington Ave opp VA Hospital,15,12,3
+83,3/1/2014,1258,39,Outbound,4200690,4200937,S Huntington Ave @ Moraine St,16,12,4
+83,3/1/2014,1261,39,Outbound,4200690,4200937,775 Centre St,15,12,3
+83,3/1/2014,1265,39,Outbound,4200690,4200937,Forest Hills Station,14,12,2
+84,3/1/2014,1249,39,Outbound,4200937,4200754,Back Bay Station,0,13,-13
+84,3/1/2014,1254,39,Outbound,4200937,4200754,Huntington Ave @ Belvidere St,10,13,-3
+84,3/1/2014,1256,39,Outbound,4200937,4200754,Huntington Ave @ Opera Pl,11,13,-2
+84,3/1/2014,1261,39,Outbound,4200937,4200754,Huntington Ave @ Longwood Ave,11,13,-2
+84,3/1/2014,1263,39,Outbound,4200937,4200754,Huntington Ave @ Fenwood Rd,9,13,-4
+84,3/1/2014,1267,39,Outbound,4200937,4200754,S Huntington Ave opp VA Hospital,8,13,-5
+84,3/1/2014,1270,39,Outbound,4200937,4200754,S Huntington Ave @ Moraine St,6,13,-7
+84,3/1/2014,1273,39,Outbound,4200937,4200754,775 Centre St,6,13,-7
+84,3/1/2014,1277,39,Outbound,4200937,4200754,Forest Hills Station,6,13,-7
+85,3/1/2014,1262,39,Outbound,4200754,4200884,Back Bay Station,23,13,10
+85,3/1/2014,1267,39,Outbound,4200754,4200884,Huntington Ave @ Belvidere St,14,13,1
+85,3/1/2014,1269,39,Outbound,4200754,4200884,Huntington Ave @ Opera Pl,12,13,-1
+85,3/1/2014,1274,39,Outbound,4200754,4200884,Huntington Ave @ Longwood Ave,12,13,-1
+85,3/1/2014,1276,39,Outbound,4200754,4200884,Huntington Ave @ Fenwood Rd,15,13,2
+85,3/1/2014,1280,39,Outbound,4200754,4200884,S Huntington Ave opp VA Hospital,16,13,3
+85,3/1/2014,1283,39,Outbound,4200754,4200884,S Huntington Ave @ Moraine St,17,13,4
+85,3/1/2014,1286,39,Outbound,4200754,4200884,775 Centre St,16,13,3
+85,3/1/2014,1290,39,Outbound,4200754,4200884,Forest Hills Station,17,13,4
+86,3/1/2014,1275,39,Outbound,4200884,4214392,Back Bay Station,14,13,1
+86,3/1/2014,1280,39,Outbound,4200884,4214392,Huntington Ave @ Belvidere St,13,13,0
+86,3/1/2014,1282,39,Outbound,4200884,4214392,Huntington Ave @ Opera Pl,14,13,1
+86,3/1/2014,1287,39,Outbound,4200884,4214392,Huntington Ave @ Longwood Ave,13,13,0
+86,3/1/2014,1289,39,Outbound,4200884,4214392,Huntington Ave @ Fenwood Rd,13,13,0
+86,3/1/2014,1293,39,Outbound,4200884,4214392,S Huntington Ave opp VA Hospital,12,13,-1
+86,3/1/2014,1296,39,Outbound,4200884,4214392,S Huntington Ave @ Moraine St,12,13,-1
+86,3/1/2014,1299,39,Outbound,4200884,4214392,775 Centre St,12,13,-1
+86,3/1/2014,1303,39,Outbound,4200884,4214392,Forest Hills Station,11,13,-2
+87,3/1/2014,1288,39,Outbound,4214392,4214401,Back Bay Station,4,13,-9
+87,3/1/2014,1293,39,Outbound,4214392,4214401,Huntington Ave @ Belvidere St,13,13,0
+87,3/1/2014,1295,39,Outbound,4214392,4214401,Huntington Ave @ Opera Pl,13,13,0
+87,3/1/2014,1300,39,Outbound,4214392,4214401,Huntington Ave @ Longwood Ave,14,13,1
+87,3/1/2014,1302,39,Outbound,4214392,4214401,Huntington Ave @ Fenwood Rd,13,13,0
+87,3/1/2014,1306,39,Outbound,4214392,4214401,S Huntington Ave opp VA Hospital,11,13,-2
+87,3/1/2014,1309,39,Outbound,4214392,4214401,S Huntington Ave @ Moraine St,12,13,-1
+87,3/1/2014,1312,39,Outbound,4214392,4214401,775 Centre St,11,13,-2
+87,3/1/2014,1316,39,Outbound,4214392,4214401,Forest Hills Station,12,13,-1
+88,3/1/2014,1301,39,Outbound,4214401,4214422,Back Bay Station,18,13,5
+88,3/1/2014,1306,39,Outbound,4214401,4214422,Huntington Ave @ Belvidere St,13,13,0
+88,3/1/2014,1308,39,Outbound,4214401,4214422,Huntington Ave @ Opera Pl,14,13,1
+88,3/1/2014,1313,39,Outbound,4214401,4214422,Huntington Ave @ Longwood Ave,13,13,0
+88,3/1/2014,1315,39,Outbound,4214401,4214422,Huntington Ave @ Fenwood Rd,13,13,0
+88,3/1/2014,1319,39,Outbound,4214401,4214422,S Huntington Ave opp VA Hospital,15,13,2
+88,3/1/2014,1322,39,Outbound,4214401,4214422,S Huntington Ave @ Moraine St,15,13,2
+88,3/1/2014,1325,39,Outbound,4214401,4214422,775 Centre St,16,13,3
+88,3/1/2014,1329,39,Outbound,4214401,4214422,Forest Hills Station,16,13,3
+89,3/1/2014,1314,39,Outbound,4214422,4214390,Back Bay Station,19,13,6
+89,3/1/2014,1319,39,Outbound,4214422,4214390,Huntington Ave @ Belvidere St,17,13,4
+89,3/1/2014,1321,39,Outbound,4214422,4214390,Huntington Ave @ Opera Pl,16,13,3
+89,3/1/2014,1326,39,Outbound,4214422,4214390,Huntington Ave @ Longwood Ave,17,13,4
+89,3/1/2014,1328,39,Outbound,4214422,4214390,Huntington Ave @ Fenwood Rd,17,13,4
+89,3/1/2014,1332,39,Outbound,4214422,4214390,S Huntington Ave opp VA Hospital,19,13,6
+89,3/1/2014,1335,39,Outbound,4214422,4214390,S Huntington Ave @ Moraine St,18,13,5
+89,3/1/2014,1338,39,Outbound,4214422,4214390,775 Centre St,19,13,6
+90,3/1/2014,1327,39,Outbound,4214390,4214430,Back Bay Station,9,13,-4
+90,3/1/2014,1332,39,Outbound,4214390,4214430,Huntington Ave @ Belvidere St,8,13,-5
+90,3/1/2014,1334,39,Outbound,4214390,4214430,Huntington Ave @ Opera Pl,9,13,-4
+90,3/1/2014,1339,39,Outbound,4214390,4214430,Huntington Ave @ Longwood Ave,9,13,-4
+90,3/1/2014,1341,39,Outbound,4214390,4214430,Huntington Ave @ Fenwood Rd,9,13,-4
+90,3/1/2014,1345,39,Outbound,4214390,4214430,S Huntington Ave opp VA Hospital,9,13,-4
+90,3/1/2014,1348,39,Outbound,4214390,4214430,S Huntington Ave @ Moraine St,10,13,-3
+90,3/1/2014,1351,39,Outbound,4214390,4214430,775 Centre St,9,13,-4
+91,3/1/2014,1340,39,Outbound,4214430,4214394,Back Bay Station,15,13,2
+91,3/1/2014,1345,39,Outbound,4214430,4214394,Huntington Ave @ Belvidere St,16,12,4
+91,3/1/2014,1347,39,Outbound,4214430,4214394,Huntington Ave @ Opera Pl,14,12,2
+91,3/1/2014,1352,39,Outbound,4214430,4214394,Huntington Ave @ Longwood Ave,15,12,3
+91,3/1/2014,1354,39,Outbound,4214430,4214394,Huntington Ave @ Fenwood Rd,14,12,2
+91,3/1/2014,1358,39,Outbound,4214430,4214394,S Huntington Ave opp VA Hospital,14,12,2
+91,3/1/2014,1361,39,Outbound,4214430,4214394,S Huntington Ave @ Moraine St,13,12,1
+91,3/1/2014,1364,39,Outbound,4214430,4214394,775 Centre St,13,12,1
+91,3/1/2014,1367,39,Outbound,4214430,4214394,Forest Hills Station,12,12,0
+92,3/1/2014,1353,39,Outbound,4214394,4214403,Back Bay Station,9,13,-4
+92,3/1/2014,1357,39,Outbound,4214394,4214403,Huntington Ave @ Belvidere St,9,13,-4
+92,3/1/2014,1359,39,Outbound,4214394,4214403,Huntington Ave @ Opera Pl,10,13,-3
+92,3/1/2014,1364,39,Outbound,4214394,4214403,Huntington Ave @ Longwood Ave,9,13,-4
+92,3/1/2014,1366,39,Outbound,4214394,4214403,Huntington Ave @ Fenwood Rd,9,13,-4
+92,3/1/2014,1370,39,Outbound,4214394,4214403,S Huntington Ave opp VA Hospital,6,13,-7
+92,3/1/2014,1373,39,Outbound,4214394,4214403,S Huntington Ave @ Moraine St,5,13,-8
+92,3/1/2014,1376,39,Outbound,4214394,4214403,775 Centre St,6,13,-7
+92,3/1/2014,1379,39,Outbound,4214394,4214403,Forest Hills Station,6,13,-7
+93,3/1/2014,1366,39,Outbound,4214403,4214424,Back Bay Station,11,13,-2
+93,3/1/2014,1370,39,Outbound,4214403,4214424,Huntington Ave @ Belvidere St,19,13,6
+93,3/1/2014,1372,39,Outbound,4214403,4214424,Huntington Ave @ Opera Pl,19,13,6
+93,3/1/2014,1377,39,Outbound,4214403,4214424,Huntington Ave @ Longwood Ave,18,13,5
+93,3/1/2014,1379,39,Outbound,4214403,4214424,Huntington Ave @ Fenwood Rd,19,13,6
+93,3/1/2014,1383,39,Outbound,4214403,4214424,S Huntington Ave opp VA Hospital,20,13,7
+93,3/1/2014,1386,39,Outbound,4214403,4214424,S Huntington Ave @ Moraine St,22,13,9
+93,3/1/2014,1389,39,Outbound,4214403,4214424,775 Centre St,20,13,7
+93,3/1/2014,1392,39,Outbound,4214403,4214424,Forest Hills Station,21,13,8
+94,3/1/2014,1379,39,Outbound,4214424,4214436,Back Bay Station,19,13,6
+94,3/1/2014,1383,39,Outbound,4214424,4214436,Huntington Ave @ Belvidere St,10,13,-3
+94,3/1/2014,1385,39,Outbound,4214424,4214436,Huntington Ave @ Opera Pl,10,13,-3
+94,3/1/2014,1390,39,Outbound,4214424,4214436,Huntington Ave @ Longwood Ave,10,13,-3
+94,3/1/2014,1392,39,Outbound,4214424,4214436,Huntington Ave @ Fenwood Rd,10,13,-3
+94,3/1/2014,1396,39,Outbound,4214424,4214436,S Huntington Ave opp VA Hospital,10,13,-3
+94,3/1/2014,1399,39,Outbound,4214424,4214436,S Huntington Ave @ Moraine St,9,12,-3
+94,3/1/2014,1402,39,Outbound,4214424,4214436,775 Centre St,9,11,-2
+94,3/1/2014,1405,39,Outbound,4214424,4214436,Forest Hills Station,9,11,-2
+95,3/1/2014,1392,39,Outbound,4214436,4214432,Back Bay Station,7,13,-6
+95,3/1/2014,1396,39,Outbound,4214436,4214432,Huntington Ave @ Belvidere St,11,13,-2
+95,3/1/2014,1398,39,Outbound,4214436,4214432,Huntington Ave @ Opera Pl,13,13,0
+95,3/1/2014,1403,39,Outbound,4214436,4214432,Huntington Ave @ Longwood Ave,14,11,3
+95,3/1/2014,1405,39,Outbound,4214436,4214432,Huntington Ave @ Fenwood Rd,12,11,1
+95,3/1/2014,1409,39,Outbound,4214436,4214432,S Huntington Ave opp VA Hospital,11,11,0
+95,3/1/2014,1411,39,Outbound,4214436,4214432,S Huntington Ave @ Moraine St,11,11,0
+95,3/1/2014,1413,39,Outbound,4214436,4214432,775 Centre St,12,11,1
+95,3/1/2014,1416,39,Outbound,4214436,4214432,Forest Hills Station,11,11,0
+96,3/1/2014,1405,39,Outbound,4214432,4214396,Back Bay Station,15,12,3
+96,3/1/2014,1409,39,Outbound,4214432,4214396,Huntington Ave @ Belvidere St,12,12,0
+96,3/1/2014,1411,39,Outbound,4214432,4214396,Huntington Ave @ Opera Pl,9,12,-3
+96,3/1/2014,1414,39,Outbound,4214432,4214396,Huntington Ave @ Longwood Ave,7,12,-5
+96,3/1/2014,1416,39,Outbound,4214432,4214396,Huntington Ave @ Fenwood Rd,8,12,-4
+96,3/1/2014,1420,39,Outbound,4214432,4214396,S Huntington Ave opp VA Hospital,6,12,-6
+96,3/1/2014,1422,39,Outbound,4214432,4214396,S Huntington Ave @ Moraine St,7,12,-5
+96,3/1/2014,1424,39,Outbound,4214432,4214396,775 Centre St,6,12,-6
+96,3/1/2014,1427,39,Outbound,4214432,4214396,Forest Hills Station,6,12,-6
+97,3/1/2014,1417,39,Outbound,4214396,4214426,Back Bay Station,22,24,-2
+97,3/1/2014,1421,39,Outbound,4214396,4214426,Huntington Ave @ Belvidere St,25,24,1
+97,3/1/2014,1423,39,Outbound,4214396,4214426,Huntington Ave @ Opera Pl,26,24,2
+97,3/1/2014,1426,39,Outbound,4214396,4214426,Huntington Ave @ Longwood Ave,29,24,5
+97,3/1/2014,1428,39,Outbound,4214396,4214426,Huntington Ave @ Fenwood Rd,30,24,6
+97,3/1/2014,1432,39,Outbound,4214396,4214426,S Huntington Ave opp VA Hospital,33,24,9
+97,3/1/2014,1434,39,Outbound,4214396,4214426,S Huntington Ave @ Moraine St,32,24,8
+97,3/1/2014,1436,39,Outbound,4214396,4214426,775 Centre St,33,24,9
+97,3/1/2014,1439,39,Outbound,4214396,4214426,Forest Hills Station,34,24,10
+98,3/1/2014,1441,39,Outbound,4214426,4214438,Back Bay Station,13,12,1
+98,3/1/2014,1445,39,Outbound,4214426,4214438,Huntington Ave @ Belvidere St,12,12,0
+98,3/1/2014,1447,39,Outbound,4214426,4214438,Huntington Ave @ Opera Pl,12,12,0
+98,3/1/2014,1450,39,Outbound,4214426,4214438,Huntington Ave @ Longwood Ave,12,12,0
+98,3/1/2014,1452,39,Outbound,4214426,4214438,Huntington Ave @ Fenwood Rd,12,12,0
+98,3/1/2014,1456,39,Outbound,4214426,4214438,S Huntington Ave opp VA Hospital,12,12,0
+98,3/1/2014,1458,39,Outbound,4214426,4214438,S Huntington Ave @ Moraine St,12,12,0
+98,3/1/2014,1460,39,Outbound,4214426,4214438,775 Centre St,12,12,0
+98,3/1/2014,1463,39,Outbound,4214426,4214438,Forest Hills Station,11,12,-1
+99,3/1/2014,1453,39,Outbound,4214438,4214434,Back Bay Station,5,12,-7
+99,3/1/2014,1457,39,Outbound,4214438,4214434,Huntington Ave @ Belvidere St,12,12,0
+99,3/1/2014,1459,39,Outbound,4214438,4214434,Huntington Ave @ Opera Pl,11,12,-1
+99,3/1/2014,1462,39,Outbound,4214438,4214434,Huntington Ave @ Longwood Ave,9,12,-3
+99,3/1/2014,1464,39,Outbound,4214438,4214434,Huntington Ave @ Fenwood Rd,8,12,-4
+99,3/1/2014,1468,39,Outbound,4214438,4214434,S Huntington Ave opp VA Hospital,8,12,-4
+99,3/1/2014,1470,39,Outbound,4214438,4214434,S Huntington Ave @ Moraine St,7,12,-5
+99,3/1/2014,1472,39,Outbound,4214438,4214434,775 Centre St,7,12,-5
+99,3/1/2014,1475,39,Outbound,4214438,4214434,Forest Hills Station,7,12,-5
+100,3/1/2014,1465,39,Outbound,4214434,4214398,Back Bay Station,18,12,6
+100,3/1/2014,1471,39,Outbound,4214434,4214398,Huntington Ave @ Opera Pl,13,12,1
+100,3/1/2014,1474,39,Outbound,4214434,4214398,Huntington Ave @ Longwood Ave,13,12,1
+100,3/1/2014,1476,39,Outbound,4214434,4214398,Huntington Ave @ Fenwood Rd,12,12,0
+100,3/1/2014,1480,39,Outbound,4214434,4214398,S Huntington Ave opp VA Hospital,12,12,0
+100,3/1/2014,1482,39,Outbound,4214434,4214398,S Huntington Ave @ Moraine St,12,12,0
+100,3/1/2014,1484,39,Outbound,4214434,4214398,775 Centre St,12,12,0
+100,3/1/2014,1487,39,Outbound,4214434,4214398,Forest Hills Station,12,12,0
+101,3/1/2014,1477,39,Outbound,4214398,4214428,Back Bay Station,22,24,-2
+101,3/1/2014,1483,39,Outbound,4214398,4214428,Huntington Ave @ Opera Pl,40,24,16
+101,3/1/2014,1486,39,Outbound,4214398,4214428,Huntington Ave @ Longwood Ave,39,24,15
+101,3/1/2014,1488,39,Outbound,4214398,4214428,Huntington Ave @ Fenwood Rd,40,24,16
+101,3/1/2014,1492,39,Outbound,4214398,4214428,S Huntington Ave opp VA Hospital,39,24,15
+101,3/1/2014,1494,39,Outbound,4214398,4214428,S Huntington Ave @ Moraine St,40,24,16
+101,3/1/2014,1496,39,Outbound,4214398,4214428,775 Centre St,40,24,16
+101,3/1/2014,1499,39,Outbound,4214398,4214428,Forest Hills Station,40,24,16

@@ -1,0 +1,539 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,313,71,Inbound,4224289,4224597,Watertown Sq Terminal,17,20,-3
+1,3/1/2014,315,71,Inbound,4224289,4224597,Mt Auburn St @ Parker St,21,20,1
+1,3/1/2014,320,71,Inbound,4224289,4224597,Mt Auburn St opp Homer Ave,22,20,2
+1,3/1/2014,322,71,Inbound,4224289,4224597,Mt Auburn St @ Mt Auburn Hospital,23,20,3
+1,3/1/2014,324,71,Inbound,4224289,4224597,Mt Auburn St @ University Rd,23,20,3
+1,3/1/2014,326,71,Inbound,4224289,4224597,Harvard Upper Busway @ Red Line,22,20,2
+1,3/1/2014,331,71,Inbound,4224289,4224597,Waterhouse St @ Massachusetts Ave,20,20,0
+2,3/1/2014,333,71,Inbound,4224597,4224291,Watertown Sq Terminal,25,20,5
+2,3/1/2014,335,71,Inbound,4224597,4224291,Mt Auburn St @ Parker St,19,20,-1
+2,3/1/2014,340,71,Inbound,4224597,4224291,Mt Auburn St opp Homer Ave,19,20,-1
+2,3/1/2014,342,71,Inbound,4224597,4224291,Mt Auburn St @ Mt Auburn Hospital,20,20,0
+2,3/1/2014,344,71,Inbound,4224597,4224291,Mt Auburn St @ University Rd,20,20,0
+2,3/1/2014,346,71,Inbound,4224597,4224291,Harvard Upper Busway @ Red Line,21,20,1
+2,3/1/2014,351,71,Inbound,4224597,4224291,Waterhouse St @ Massachusetts Ave,22,20,2
+3,3/1/2014,353,71,Inbound,4224291,4224599,Watertown Sq Terminal,21,20,1
+3,3/1/2014,355,71,Inbound,4224291,4224599,Mt Auburn St @ Parker St,19,20,-1
+3,3/1/2014,360,71,Inbound,4224291,4224599,Mt Auburn St opp Homer Ave,19,20,-1
+3,3/1/2014,362,71,Inbound,4224291,4224599,Mt Auburn St @ Mt Auburn Hospital,17,20,-3
+3,3/1/2014,364,71,Inbound,4224291,4224599,Mt Auburn St @ University Rd,17,20,-3
+3,3/1/2014,366,71,Inbound,4224291,4224599,Harvard Upper Busway @ Red Line,16,20,-4
+3,3/1/2014,371,71,Inbound,4224291,4224599,Waterhouse St @ Massachusetts Ave,16,20,-4
+4,3/1/2014,373,71,Inbound,4224599,4224293,Watertown Sq Terminal,15,20,-5
+4,3/1/2014,375,71,Inbound,4224599,4224293,Mt Auburn St @ Parker St,21,20,1
+4,3/1/2014,380,71,Inbound,4224599,4224293,Mt Auburn St opp Homer Ave,22,20,2
+4,3/1/2014,382,71,Inbound,4224599,4224293,Mt Auburn St @ Mt Auburn Hospital,24,20,4
+4,3/1/2014,384,71,Inbound,4224599,4224293,Mt Auburn St @ University Rd,24,20,4
+4,3/1/2014,386,71,Inbound,4224599,4224293,Harvard Upper Busway @ Red Line,24,20,4
+4,3/1/2014,391,71,Inbound,4224599,4224293,Waterhouse St @ Massachusetts Ave,24,20,4
+5,3/1/2014,393,71,Inbound,4224293,4224601,Watertown Sq Terminal,28,20,8
+5,3/1/2014,395,71,Inbound,4224293,4224601,Mt Auburn St @ Parker St,22,20,2
+5,3/1/2014,400,71,Inbound,4224293,4224601,Mt Auburn St opp Homer Ave,22,20,2
+5,3/1/2014,402,71,Inbound,4224293,4224601,Mt Auburn St @ Mt Auburn Hospital,21,20,1
+5,3/1/2014,404,71,Inbound,4224293,4224601,Mt Auburn St @ University Rd,21,20,1
+5,3/1/2014,406,71,Inbound,4224293,4224601,Harvard Upper Busway @ Red Line,22,20,2
+5,3/1/2014,411,71,Inbound,4224293,4224601,Waterhouse St @ Massachusetts Ave,22,20,2
+6,3/1/2014,413,71,Inbound,4224601,4224747,Watertown Sq Terminal,24,12,12
+6,3/1/2014,415,71,Inbound,4224601,4224747,Mt Auburn St @ Parker St,25,12,13
+6,3/1/2014,420,71,Inbound,4224601,4224747,Mt Auburn St opp Homer Ave,25,12,13
+6,3/1/2014,422,71,Inbound,4224601,4224747,Mt Auburn St @ Mt Auburn Hospital,24,12,12
+6,3/1/2014,424,71,Inbound,4224601,4224747,Mt Auburn St @ University Rd,23,12,11
+6,3/1/2014,426,71,Inbound,4224601,4224747,Harvard Upper Busway @ Red Line,23,12,11
+6,3/1/2014,431,71,Inbound,4224601,4224747,Waterhouse St @ Massachusetts Ave,23,12,11
+7,3/1/2014,425,71,Inbound,4224747,4224295,Watertown Sq Terminal,-8,15,-23
+7,3/1/2014,427,71,Inbound,4224747,4224295,Mt Auburn St @ Parker St,2,15,-13
+7,3/1/2014,432,71,Inbound,4224747,4224295,Mt Auburn St opp Homer Ave,2,15,-13
+7,3/1/2014,434,71,Inbound,4224747,4224295,Mt Auburn St @ Mt Auburn Hospital,2,15,-13
+7,3/1/2014,436,71,Inbound,4224747,4224295,Mt Auburn St @ University Rd,2,15,-13
+7,3/1/2014,438,71,Inbound,4224747,4224295,Harvard Upper Busway @ Red Line,2,15,-13
+7,3/1/2014,443,71,Inbound,4224747,4224295,Waterhouse St @ Massachusetts Ave,3,15,-12
+8,3/1/2014,440,71,Inbound,4224295,4224603,Watertown Sq Terminal,16,15,1
+8,3/1/2014,442,71,Inbound,4224295,4224603,Mt Auburn St @ Parker St,15,15,0
+8,3/1/2014,447,71,Inbound,4224295,4224603,Mt Auburn St opp Homer Ave,15,15,0
+8,3/1/2014,449,71,Inbound,4224295,4224603,Mt Auburn St @ Mt Auburn Hospital,17,15,2
+8,3/1/2014,451,71,Inbound,4224295,4224603,Mt Auburn St @ University Rd,17,15,2
+8,3/1/2014,453,71,Inbound,4224295,4224603,Harvard Upper Busway @ Red Line,19,15,4
+8,3/1/2014,458,71,Inbound,4224295,4224603,Waterhouse St @ Massachusetts Ave,17,15,2
+9,3/1/2014,455,71,Inbound,4224603,4224749,Watertown Sq Terminal,24,15,9
+9,3/1/2014,457,71,Inbound,4224603,4224749,Mt Auburn St @ Parker St,17,15,2
+9,3/1/2014,462,71,Inbound,4224603,4224749,Mt Auburn St opp Homer Ave,18,15,3
+9,3/1/2014,464,71,Inbound,4224603,4224749,Mt Auburn St @ Mt Auburn Hospital,18,15,3
+9,3/1/2014,466,71,Inbound,4224603,4224749,Mt Auburn St @ University Rd,19,15,4
+9,3/1/2014,468,71,Inbound,4224603,4224749,Harvard Upper Busway @ Red Line,17,15,2
+9,3/1/2014,473,71,Inbound,4224603,4224749,Waterhouse St @ Massachusetts Ave,20,16,4
+10,3/1/2014,470,71,Inbound,4224749,4224297,Watertown Sq Terminal,8,15,-7
+10,3/1/2014,472,71,Inbound,4224749,4224297,Mt Auburn St @ Parker St,10,15,-5
+10,3/1/2014,477,71,Inbound,4224749,4224297,Mt Auburn St opp Homer Ave,8,17,-9
+10,3/1/2014,479,71,Inbound,4224749,4224297,Mt Auburn St @ Mt Auburn Hospital,8,18,-10
+10,3/1/2014,481,71,Inbound,4224749,4224297,Mt Auburn St @ University Rd,8,18,-10
+10,3/1/2014,483,71,Inbound,4224749,4224297,Harvard Upper Busway @ Red Line,8,18,-10
+10,3/1/2014,489,71,Inbound,4224749,4224297,Waterhouse St @ Massachusetts Ave,6,18,-12
+11,3/1/2014,485,71,Inbound,4224297,4224605,Watertown Sq Terminal,18,15,3
+11,3/1/2014,487,71,Inbound,4224297,4224605,Mt Auburn St @ Parker St,17,15,2
+11,3/1/2014,494,71,Inbound,4224297,4224605,Mt Auburn St opp Homer Ave,20,15,5
+11,3/1/2014,497,71,Inbound,4224297,4224605,Mt Auburn St @ Mt Auburn Hospital,19,15,4
+11,3/1/2014,499,71,Inbound,4224297,4224605,Mt Auburn St @ University Rd,19,15,4
+11,3/1/2014,501,71,Inbound,4224297,4224605,Harvard Upper Busway @ Red Line,19,15,4
+11,3/1/2014,507,71,Inbound,4224297,4224605,Waterhouse St @ Massachusetts Ave,19,15,4
+12,3/1/2014,500,71,Inbound,4224605,4224751,Watertown Sq Terminal,14,15,-1
+12,3/1/2014,502,71,Inbound,4224605,4224751,Mt Auburn St @ Parker St,15,15,0
+12,3/1/2014,509,71,Inbound,4224605,4224751,Mt Auburn St opp Homer Ave,14,15,-1
+12,3/1/2014,512,71,Inbound,4224605,4224751,Mt Auburn St @ Mt Auburn Hospital,16,15,1
+12,3/1/2014,514,71,Inbound,4224605,4224751,Mt Auburn St @ University Rd,15,15,0
+12,3/1/2014,516,71,Inbound,4224605,4224751,Harvard Upper Busway @ Red Line,15,15,0
+12,3/1/2014,522,71,Inbound,4224605,4224751,Waterhouse St @ Massachusetts Ave,14,15,-1
+13,3/1/2014,515,71,Inbound,4224751,4224299,Watertown Sq Terminal,16,15,1
+13,3/1/2014,517,71,Inbound,4224751,4224299,Mt Auburn St @ Parker St,14,15,-1
+13,3/1/2014,524,71,Inbound,4224751,4224299,Mt Auburn St opp Homer Ave,13,15,-2
+13,3/1/2014,527,71,Inbound,4224751,4224299,Mt Auburn St @ Mt Auburn Hospital,12,15,-3
+13,3/1/2014,529,71,Inbound,4224751,4224299,Mt Auburn St @ University Rd,13,15,-2
+13,3/1/2014,531,71,Inbound,4224751,4224299,Harvard Upper Busway @ Red Line,13,15,-2
+13,3/1/2014,537,71,Inbound,4224751,4224299,Waterhouse St @ Massachusetts Ave,14,15,-1
+14,3/1/2014,530,71,Inbound,4224299,4224607,Watertown Sq Terminal,16,15,1
+14,3/1/2014,532,71,Inbound,4224299,4224607,Mt Auburn St @ Parker St,14,15,-1
+14,3/1/2014,539,71,Inbound,4224299,4224607,Mt Auburn St opp Homer Ave,16,15,1
+14,3/1/2014,542,71,Inbound,4224299,4224607,Mt Auburn St @ Mt Auburn Hospital,17,15,2
+14,3/1/2014,544,71,Inbound,4224299,4224607,Mt Auburn St @ University Rd,17,15,2
+14,3/1/2014,546,71,Inbound,4224299,4224607,Harvard Upper Busway @ Red Line,18,15,3
+14,3/1/2014,552,71,Inbound,4224299,4224607,Waterhouse St @ Massachusetts Ave,19,15,4
+15,3/1/2014,545,71,Inbound,4224607,4224753,Watertown Sq Terminal,14,16,-2
+15,3/1/2014,547,71,Inbound,4224607,4224753,Mt Auburn St @ Parker St,19,16,3
+15,3/1/2014,554,71,Inbound,4224607,4224753,Mt Auburn St opp Homer Ave,18,16,2
+15,3/1/2014,557,71,Inbound,4224607,4224753,Mt Auburn St @ Mt Auburn Hospital,17,16,1
+15,3/1/2014,559,71,Inbound,4224607,4224753,Mt Auburn St @ University Rd,17,16,1
+15,3/1/2014,561,71,Inbound,4224607,4224753,Harvard Upper Busway @ Red Line,17,16,1
+15,3/1/2014,567,71,Inbound,4224607,4224753,Waterhouse St @ Massachusetts Ave,15,16,-1
+16,3/1/2014,561,71,Inbound,4224753,4224301,Watertown Sq Terminal,14,15,-1
+16,3/1/2014,563,71,Inbound,4224753,4224301,Mt Auburn St @ Parker St,16,15,1
+16,3/1/2014,570,71,Inbound,4224753,4224301,Mt Auburn St opp Homer Ave,17,15,2
+16,3/1/2014,573,71,Inbound,4224753,4224301,Mt Auburn St @ Mt Auburn Hospital,16,15,1
+16,3/1/2014,575,71,Inbound,4224753,4224301,Mt Auburn St @ University Rd,17,15,2
+16,3/1/2014,577,71,Inbound,4224753,4224301,Harvard Upper Busway @ Red Line,16,15,1
+16,3/1/2014,583,71,Inbound,4224753,4224301,Waterhouse St @ Massachusetts Ave,17,15,2
+17,3/1/2014,576,71,Inbound,4224301,4224609,Watertown Sq Terminal,16,15,1
+17,3/1/2014,578,71,Inbound,4224301,4224609,Mt Auburn St @ Parker St,14,15,-1
+17,3/1/2014,585,71,Inbound,4224301,4224609,Mt Auburn St opp Homer Ave,15,15,0
+17,3/1/2014,588,71,Inbound,4224301,4224609,Mt Auburn St @ Mt Auburn Hospital,16,15,1
+17,3/1/2014,590,71,Inbound,4224301,4224609,Mt Auburn St @ University Rd,15,15,0
+17,3/1/2014,592,71,Inbound,4224301,4224609,Harvard Upper Busway @ Red Line,15,15,0
+17,3/1/2014,598,71,Inbound,4224301,4224609,Waterhouse St @ Massachusetts Ave,15,15,0
+18,3/1/2014,591,71,Inbound,4224609,4224755,Watertown Sq Terminal,16,15,1
+18,3/1/2014,593,71,Inbound,4224609,4224755,Mt Auburn St @ Parker St,13,15,-2
+18,3/1/2014,600,71,Inbound,4224609,4224755,Mt Auburn St opp Homer Ave,10,15,-5
+18,3/1/2014,603,71,Inbound,4224609,4224755,Mt Auburn St @ Mt Auburn Hospital,9,15,-6
+18,3/1/2014,605,71,Inbound,4224609,4224755,Mt Auburn St @ University Rd,9,15,-6
+18,3/1/2014,607,71,Inbound,4224609,4224755,Harvard Upper Busway @ Red Line,9,15,-6
+18,3/1/2014,613,71,Inbound,4224609,4224755,Waterhouse St @ Massachusetts Ave,10,15,-5
+19,3/1/2014,606,71,Inbound,4224755,4224813,Watertown Sq Terminal,12,12,0
+19,3/1/2014,608,71,Inbound,4224755,4224813,Mt Auburn St @ Parker St,16,12,4
+19,3/1/2014,615,71,Inbound,4224755,4224813,Mt Auburn St opp Homer Ave,17,12,5
+19,3/1/2014,618,71,Inbound,4224755,4224813,Mt Auburn St @ Mt Auburn Hospital,18,12,6
+19,3/1/2014,620,71,Inbound,4224755,4224813,Mt Auburn St @ University Rd,18,12,6
+19,3/1/2014,622,71,Inbound,4224755,4224813,Harvard Upper Busway @ Red Line,18,12,6
+19,3/1/2014,628,71,Inbound,4224755,4224813,Waterhouse St @ Massachusetts Ave,18,12,6
+20,3/1/2014,618,71,Inbound,4224813,4224303,Watertown Sq Terminal,0,12,-12
+20,3/1/2014,620,71,Inbound,4224813,4224303,Mt Auburn St @ Parker St,9,12,-3
+20,3/1/2014,627,71,Inbound,4224813,4224303,Mt Auburn St opp Homer Ave,9,12,-3
+20,3/1/2014,630,71,Inbound,4224813,4224303,Mt Auburn St @ Mt Auburn Hospital,8,12,-4
+20,3/1/2014,632,71,Inbound,4224813,4224303,Mt Auburn St @ University Rd,7,12,-5
+20,3/1/2014,634,71,Inbound,4224813,4224303,Harvard Upper Busway @ Red Line,7,12,-5
+20,3/1/2014,640,71,Inbound,4224813,4224303,Waterhouse St @ Massachusetts Ave,16,12,4
+21,3/1/2014,630,71,Inbound,4224303,4224611,Watertown Sq Terminal,18,15,3
+21,3/1/2014,632,71,Inbound,4224303,4224611,Mt Auburn St @ Parker St,15,15,0
+21,3/1/2014,639,71,Inbound,4224303,4224611,Mt Auburn St opp Homer Ave,16,15,1
+21,3/1/2014,642,71,Inbound,4224303,4224611,Mt Auburn St @ Mt Auburn Hospital,17,15,2
+21,3/1/2014,644,71,Inbound,4224303,4224611,Mt Auburn St @ University Rd,19,15,4
+21,3/1/2014,646,71,Inbound,4224303,4224611,Harvard Upper Busway @ Red Line,19,15,4
+21,3/1/2014,652,71,Inbound,4224303,4224611,Waterhouse St @ Massachusetts Ave,14,15,-1
+22,3/1/2014,645,71,Inbound,4224611,4224757,Watertown Sq Terminal,17,15,2
+22,3/1/2014,647,71,Inbound,4224611,4224757,Mt Auburn St @ Parker St,16,15,1
+22,3/1/2014,654,71,Inbound,4224611,4224757,Mt Auburn St opp Homer Ave,16,15,1
+22,3/1/2014,657,71,Inbound,4224611,4224757,Mt Auburn St @ Mt Auburn Hospital,18,15,3
+22,3/1/2014,659,71,Inbound,4224611,4224757,Mt Auburn St @ University Rd,17,15,2
+22,3/1/2014,661,71,Inbound,4224611,4224757,Harvard Upper Busway @ Red Line,17,15,2
+22,3/1/2014,667,71,Inbound,4224611,4224757,Waterhouse St @ Massachusetts Ave,13,15,-2
+23,3/1/2014,660,71,Inbound,4224757,4224815,Watertown Sq Terminal,19,15,4
+23,3/1/2014,662,71,Inbound,4224757,4224815,Mt Auburn St @ Parker St,14,15,-1
+23,3/1/2014,669,71,Inbound,4224757,4224815,Mt Auburn St opp Homer Ave,15,15,0
+23,3/1/2014,672,71,Inbound,4224757,4224815,Mt Auburn St @ Mt Auburn Hospital,12,15,-3
+23,3/1/2014,674,71,Inbound,4224757,4224815,Mt Auburn St @ University Rd,12,15,-3
+23,3/1/2014,676,71,Inbound,4224757,4224815,Harvard Upper Busway @ Red Line,12,15,-3
+23,3/1/2014,682,71,Inbound,4224757,4224815,Waterhouse St @ Massachusetts Ave,11,15,-4
+24,3/1/2014,675,71,Inbound,4224815,4224305,Watertown Sq Terminal,10,15,-5
+24,3/1/2014,677,71,Inbound,4224815,4224305,Mt Auburn St @ Parker St,15,15,0
+24,3/1/2014,684,71,Inbound,4224815,4224305,Mt Auburn St opp Homer Ave,14,15,-1
+24,3/1/2014,687,71,Inbound,4224815,4224305,Mt Auburn St @ Mt Auburn Hospital,15,15,0
+24,3/1/2014,689,71,Inbound,4224815,4224305,Mt Auburn St @ University Rd,15,15,0
+24,3/1/2014,691,71,Inbound,4224815,4224305,Harvard Upper Busway @ Red Line,16,15,1
+24,3/1/2014,697,71,Inbound,4224815,4224305,Waterhouse St @ Massachusetts Ave,20,15,5
+25,3/1/2014,690,71,Inbound,4224305,4224613,Watertown Sq Terminal,15,15,0
+25,3/1/2014,692,71,Inbound,4224305,4224613,Mt Auburn St @ Parker St,14,15,-1
+25,3/1/2014,699,71,Inbound,4224305,4224613,Mt Auburn St opp Homer Ave,15,15,0
+25,3/1/2014,702,71,Inbound,4224305,4224613,Mt Auburn St @ Mt Auburn Hospital,14,15,-1
+25,3/1/2014,704,71,Inbound,4224305,4224613,Mt Auburn St @ University Rd,14,15,-1
+25,3/1/2014,706,71,Inbound,4224305,4224613,Harvard Upper Busway @ Red Line,13,15,-2
+25,3/1/2014,712,71,Inbound,4224305,4224613,Waterhouse St @ Massachusetts Ave,19,15,4
+26,3/1/2014,705,71,Inbound,4224613,4224759,Watertown Sq Terminal,19,15,4
+26,3/1/2014,707,71,Inbound,4224613,4224759,Mt Auburn St @ Parker St,16,15,1
+26,3/1/2014,714,71,Inbound,4224613,4224759,Mt Auburn St opp Homer Ave,15,15,0
+26,3/1/2014,717,71,Inbound,4224613,4224759,Mt Auburn St @ Mt Auburn Hospital,15,15,0
+26,3/1/2014,719,71,Inbound,4224613,4224759,Mt Auburn St @ University Rd,16,15,1
+26,3/1/2014,721,71,Inbound,4224613,4224759,Harvard Upper Busway @ Red Line,17,15,2
+26,3/1/2014,727,71,Inbound,4224613,4224759,Waterhouse St @ Massachusetts Ave,7,15,-8
+27,3/1/2014,720,71,Inbound,4224759,4224817,Watertown Sq Terminal,10,15,-5
+27,3/1/2014,722,71,Inbound,4224759,4224817,Mt Auburn St @ Parker St,20,15,5
+27,3/1/2014,729,71,Inbound,4224759,4224817,Mt Auburn St opp Homer Ave,20,15,5
+27,3/1/2014,732,71,Inbound,4224759,4224817,Mt Auburn St @ Mt Auburn Hospital,20,15,5
+27,3/1/2014,734,71,Inbound,4224759,4224817,Mt Auburn St @ University Rd,19,15,4
+27,3/1/2014,736,71,Inbound,4224759,4224817,Harvard Upper Busway @ Red Line,18,15,3
+27,3/1/2014,742,71,Inbound,4224759,4224817,Waterhouse St @ Massachusetts Ave,18,15,3
+28,3/1/2014,735,71,Inbound,4224817,4224307,Watertown Sq Terminal,16,15,1
+28,3/1/2014,737,71,Inbound,4224817,4224307,Mt Auburn St @ Parker St,8,15,-7
+28,3/1/2014,744,71,Inbound,4224817,4224307,Mt Auburn St opp Homer Ave,7,15,-8
+28,3/1/2014,747,71,Inbound,4224817,4224307,Mt Auburn St @ Mt Auburn Hospital,8,15,-7
+28,3/1/2014,749,71,Inbound,4224817,4224307,Mt Auburn St @ University Rd,8,15,-7
+28,3/1/2014,751,71,Inbound,4224817,4224307,Harvard Upper Busway @ Red Line,10,15,-5
+28,3/1/2014,757,71,Inbound,4224817,4224307,Waterhouse St @ Massachusetts Ave,10,15,-5
+29,3/1/2014,750,71,Inbound,4224307,4224615,Watertown Sq Terminal,19,15,4
+29,3/1/2014,752,71,Inbound,4224307,4224615,Mt Auburn St @ Parker St,17,15,2
+29,3/1/2014,759,71,Inbound,4224307,4224615,Mt Auburn St opp Homer Ave,18,15,3
+29,3/1/2014,762,71,Inbound,4224307,4224615,Mt Auburn St @ Mt Auburn Hospital,17,15,2
+29,3/1/2014,764,71,Inbound,4224307,4224615,Mt Auburn St @ University Rd,19,15,4
+29,3/1/2014,766,71,Inbound,4224307,4224615,Harvard Upper Busway @ Red Line,18,15,3
+29,3/1/2014,772,71,Inbound,4224307,4224615,Waterhouse St @ Massachusetts Ave,23,15,8
+30,3/1/2014,765,71,Inbound,4224615,4224761,Watertown Sq Terminal,17,15,2
+30,3/1/2014,767,71,Inbound,4224615,4224761,Mt Auburn St @ Parker St,15,15,0
+30,3/1/2014,774,71,Inbound,4224615,4224761,Mt Auburn St opp Homer Ave,15,15,0
+30,3/1/2014,777,71,Inbound,4224615,4224761,Mt Auburn St @ Mt Auburn Hospital,16,15,1
+30,3/1/2014,779,71,Inbound,4224615,4224761,Mt Auburn St @ University Rd,14,15,-1
+30,3/1/2014,781,71,Inbound,4224615,4224761,Harvard Upper Busway @ Red Line,14,15,-1
+30,3/1/2014,787,71,Inbound,4224615,4224761,Waterhouse St @ Massachusetts Ave,10,15,-5
+31,3/1/2014,780,71,Inbound,4224761,4224819,Watertown Sq Terminal,9,15,-6
+31,3/1/2014,782,71,Inbound,4224761,4224819,Mt Auburn St @ Parker St,16,15,1
+31,3/1/2014,789,71,Inbound,4224761,4224819,Mt Auburn St opp Homer Ave,19,15,4
+31,3/1/2014,792,71,Inbound,4224761,4224819,Mt Auburn St @ Mt Auburn Hospital,19,15,4
+31,3/1/2014,794,71,Inbound,4224761,4224819,Mt Auburn St @ University Rd,20,15,5
+31,3/1/2014,796,71,Inbound,4224761,4224819,Harvard Upper Busway @ Red Line,19,15,4
+31,3/1/2014,802,71,Inbound,4224761,4224819,Waterhouse St @ Massachusetts Ave,18,15,3
+32,3/1/2014,795,71,Inbound,4224819,4224309,Watertown Sq Terminal,12,15,-3
+32,3/1/2014,797,71,Inbound,4224819,4224309,Mt Auburn St @ Parker St,14,15,-1
+32,3/1/2014,804,71,Inbound,4224819,4224309,Mt Auburn St opp Homer Ave,10,15,-5
+32,3/1/2014,807,71,Inbound,4224819,4224309,Mt Auburn St @ Mt Auburn Hospital,8,15,-7
+32,3/1/2014,809,71,Inbound,4224819,4224309,Mt Auburn St @ University Rd,8,15,-7
+32,3/1/2014,811,71,Inbound,4224819,4224309,Harvard Upper Busway @ Red Line,7,15,-8
+32,3/1/2014,817,71,Inbound,4224819,4224309,Waterhouse St @ Massachusetts Ave,8,15,-7
+33,3/1/2014,810,71,Inbound,4224309,4224617,Watertown Sq Terminal,17,15,2
+33,3/1/2014,812,71,Inbound,4224309,4224617,Mt Auburn St @ Parker St,15,15,0
+33,3/1/2014,819,71,Inbound,4224309,4224617,Mt Auburn St opp Homer Ave,18,15,3
+33,3/1/2014,822,71,Inbound,4224309,4224617,Mt Auburn St @ Mt Auburn Hospital,19,15,4
+33,3/1/2014,824,71,Inbound,4224309,4224617,Mt Auburn St @ University Rd,18,15,3
+33,3/1/2014,826,71,Inbound,4224309,4224617,Harvard Upper Busway @ Red Line,19,15,4
+33,3/1/2014,832,71,Inbound,4224309,4224617,Waterhouse St @ Massachusetts Ave,27,15,12
+34,3/1/2014,825,71,Inbound,4224617,4224763,Watertown Sq Terminal,25,15,10
+34,3/1/2014,827,71,Inbound,4224617,4224763,Mt Auburn St @ Parker St,21,15,6
+34,3/1/2014,834,71,Inbound,4224617,4224763,Mt Auburn St opp Homer Ave,22,15,7
+34,3/1/2014,837,71,Inbound,4224617,4224763,Mt Auburn St @ Mt Auburn Hospital,24,15,9
+34,3/1/2014,839,71,Inbound,4224617,4224763,Mt Auburn St @ University Rd,24,15,9
+34,3/1/2014,841,71,Inbound,4224617,4224763,Harvard Upper Busway @ Red Line,26,15,11
+34,3/1/2014,847,71,Inbound,4224617,4224763,Waterhouse St @ Massachusetts Ave,17,15,2
+35,3/1/2014,840,71,Inbound,4224763,4224821,Watertown Sq Terminal,10,15,-5
+35,3/1/2014,842,71,Inbound,4224763,4224821,Mt Auburn St @ Parker St,7,15,-8
+35,3/1/2014,849,71,Inbound,4224763,4224821,Mt Auburn St opp Homer Ave,2,15,-13
+35,3/1/2014,852,71,Inbound,4224763,4224821,Mt Auburn St @ Mt Auburn Hospital,0,15,-15
+35,3/1/2014,854,71,Inbound,4224763,4224821,Mt Auburn St @ University Rd,0,15,-15
+35,3/1/2014,856,71,Inbound,4224763,4224821,Harvard Upper Busway @ Red Line,0,15,-15
+35,3/1/2014,862,71,Inbound,4224763,4224821,Waterhouse St @ Massachusetts Ave,0,15,-15
+36,3/1/2014,855,71,Inbound,4224821,4224311,Watertown Sq Terminal,11,15,-4
+36,3/1/2014,857,71,Inbound,4224821,4224311,Mt Auburn St @ Parker St,16,15,1
+36,3/1/2014,864,71,Inbound,4224821,4224311,Mt Auburn St opp Homer Ave,16,15,1
+36,3/1/2014,867,71,Inbound,4224821,4224311,Mt Auburn St @ Mt Auburn Hospital,17,15,2
+36,3/1/2014,869,71,Inbound,4224821,4224311,Mt Auburn St @ University Rd,18,15,3
+36,3/1/2014,871,71,Inbound,4224821,4224311,Harvard Upper Busway @ Red Line,16,15,1
+36,3/1/2014,877,71,Inbound,4224821,4224311,Waterhouse St @ Massachusetts Ave,16,15,1
+37,3/1/2014,870,71,Inbound,4224311,4224619,Watertown Sq Terminal,19,15,4
+37,3/1/2014,872,71,Inbound,4224311,4224619,Mt Auburn St @ Parker St,15,15,0
+37,3/1/2014,879,71,Inbound,4224311,4224619,Mt Auburn St opp Homer Ave,16,15,1
+37,3/1/2014,882,71,Inbound,4224311,4224619,Mt Auburn St @ Mt Auburn Hospital,16,15,1
+37,3/1/2014,884,71,Inbound,4224311,4224619,Mt Auburn St @ University Rd,15,15,0
+37,3/1/2014,886,71,Inbound,4224311,4224619,Harvard Upper Busway @ Red Line,15,15,0
+37,3/1/2014,892,71,Inbound,4224311,4224619,Waterhouse St @ Massachusetts Ave,17,15,2
+38,3/1/2014,885,71,Inbound,4224619,4224765,Watertown Sq Terminal,19,15,4
+38,3/1/2014,887,71,Inbound,4224619,4224765,Mt Auburn St @ Parker St,16,15,1
+38,3/1/2014,894,71,Inbound,4224619,4224765,Mt Auburn St opp Homer Ave,18,15,3
+38,3/1/2014,897,71,Inbound,4224619,4224765,Mt Auburn St @ Mt Auburn Hospital,19,15,4
+38,3/1/2014,899,71,Inbound,4224619,4224765,Mt Auburn St @ University Rd,20,15,5
+38,3/1/2014,901,71,Inbound,4224619,4224765,Harvard Upper Busway @ Red Line,25,15,10
+38,3/1/2014,907,71,Inbound,4224619,4224765,Waterhouse St @ Massachusetts Ave,24,15,9
+39,3/1/2014,900,71,Inbound,4224765,4224823,Watertown Sq Terminal,4,15,-11
+39,3/1/2014,902,71,Inbound,4224765,4224823,Mt Auburn St @ Parker St,13,15,-2
+39,3/1/2014,909,71,Inbound,4224765,4224823,Mt Auburn St opp Homer Ave,14,15,-1
+39,3/1/2014,912,71,Inbound,4224765,4224823,Mt Auburn St @ Mt Auburn Hospital,12,15,-3
+39,3/1/2014,914,71,Inbound,4224765,4224823,Mt Auburn St @ University Rd,13,15,-2
+39,3/1/2014,916,71,Inbound,4224765,4224823,Harvard Upper Busway @ Red Line,9,15,-6
+39,3/1/2014,922,71,Inbound,4224765,4224823,Waterhouse St @ Massachusetts Ave,8,15,-7
+40,3/1/2014,915,71,Inbound,4224823,4224313,Watertown Sq Terminal,21,15,6
+40,3/1/2014,917,71,Inbound,4224823,4224313,Mt Auburn St @ Parker St,18,15,3
+40,3/1/2014,924,71,Inbound,4224823,4224313,Mt Auburn St opp Homer Ave,17,15,2
+40,3/1/2014,927,71,Inbound,4224823,4224313,Mt Auburn St @ Mt Auburn Hospital,18,15,3
+40,3/1/2014,929,71,Inbound,4224823,4224313,Mt Auburn St @ University Rd,17,15,2
+40,3/1/2014,931,71,Inbound,4224823,4224313,Harvard Upper Busway @ Red Line,17,15,2
+40,3/1/2014,937,71,Inbound,4224823,4224313,Waterhouse St @ Massachusetts Ave,18,15,3
+41,3/1/2014,930,71,Inbound,4224313,4224621,Watertown Sq Terminal,14,15,-1
+41,3/1/2014,932,71,Inbound,4224313,4224621,Mt Auburn St @ Parker St,13,15,-2
+41,3/1/2014,939,71,Inbound,4224313,4224621,Mt Auburn St opp Homer Ave,11,15,-4
+41,3/1/2014,942,71,Inbound,4224313,4224621,Mt Auburn St @ Mt Auburn Hospital,12,15,-3
+41,3/1/2014,944,71,Inbound,4224313,4224621,Mt Auburn St @ University Rd,11,15,-4
+41,3/1/2014,946,71,Inbound,4224313,4224621,Harvard Upper Busway @ Red Line,12,15,-3
+41,3/1/2014,952,71,Inbound,4224313,4224621,Waterhouse St @ Massachusetts Ave,12,15,-3
+42,3/1/2014,945,71,Inbound,4224621,4224767,Watertown Sq Terminal,27,15,12
+42,3/1/2014,947,71,Inbound,4224621,4224767,Mt Auburn St @ Parker St,21,15,6
+42,3/1/2014,954,71,Inbound,4224621,4224767,Mt Auburn St opp Homer Ave,22,15,7
+42,3/1/2014,957,71,Inbound,4224621,4224767,Mt Auburn St @ Mt Auburn Hospital,21,15,6
+42,3/1/2014,959,71,Inbound,4224621,4224767,Mt Auburn St @ University Rd,22,15,7
+42,3/1/2014,961,71,Inbound,4224621,4224767,Harvard Upper Busway @ Red Line,20,15,5
+42,3/1/2014,967,71,Inbound,4224621,4224767,Waterhouse St @ Massachusetts Ave,20,15,5
+43,3/1/2014,960,71,Inbound,4224767,4224825,Watertown Sq Terminal,2,15,-13
+43,3/1/2014,962,71,Inbound,4224767,4224825,Mt Auburn St @ Parker St,11,15,-4
+43,3/1/2014,969,71,Inbound,4224767,4224825,Mt Auburn St opp Homer Ave,10,15,-5
+43,3/1/2014,972,71,Inbound,4224767,4224825,Mt Auburn St @ Mt Auburn Hospital,10,15,-5
+43,3/1/2014,974,71,Inbound,4224767,4224825,Mt Auburn St @ University Rd,8,15,-7
+43,3/1/2014,976,71,Inbound,4224767,4224825,Harvard Upper Busway @ Red Line,8,15,-7
+43,3/1/2014,982,71,Inbound,4224767,4224825,Waterhouse St @ Massachusetts Ave,19,15,4
+44,3/1/2014,975,71,Inbound,4224825,4224315,Watertown Sq Terminal,12,15,-3
+44,3/1/2014,977,71,Inbound,4224825,4224315,Mt Auburn St @ Parker St,14,15,-1
+44,3/1/2014,984,71,Inbound,4224825,4224315,Mt Auburn St opp Homer Ave,15,15,0
+44,3/1/2014,987,71,Inbound,4224825,4224315,Mt Auburn St @ Mt Auburn Hospital,14,15,-1
+44,3/1/2014,989,71,Inbound,4224825,4224315,Mt Auburn St @ University Rd,15,15,0
+44,3/1/2014,991,71,Inbound,4224825,4224315,Harvard Upper Busway @ Red Line,15,15,0
+44,3/1/2014,997,71,Inbound,4224825,4224315,Waterhouse St @ Massachusetts Ave,7,15,-8
+45,3/1/2014,990,71,Inbound,4224315,4224623,Watertown Sq Terminal,20,15,5
+45,3/1/2014,992,71,Inbound,4224315,4224623,Mt Auburn St @ Parker St,15,15,0
+45,3/1/2014,999,71,Inbound,4224315,4224623,Mt Auburn St opp Homer Ave,15,15,0
+45,3/1/2014,1002,71,Inbound,4224315,4224623,Mt Auburn St @ Mt Auburn Hospital,17,15,2
+45,3/1/2014,1004,71,Inbound,4224315,4224623,Mt Auburn St @ University Rd,17,15,2
+45,3/1/2014,1006,71,Inbound,4224315,4224623,Harvard Upper Busway @ Red Line,17,15,2
+45,3/1/2014,1012,71,Inbound,4224315,4224623,Waterhouse St @ Massachusetts Ave,14,15,-1
+46,3/1/2014,1005,71,Inbound,4224623,4224769,Watertown Sq Terminal,16,15,1
+46,3/1/2014,1007,71,Inbound,4224623,4224769,Mt Auburn St @ Parker St,14,15,-1
+46,3/1/2014,1014,71,Inbound,4224623,4224769,Mt Auburn St opp Homer Ave,15,15,0
+46,3/1/2014,1017,71,Inbound,4224623,4224769,Mt Auburn St @ Mt Auburn Hospital,14,15,-1
+46,3/1/2014,1019,71,Inbound,4224623,4224769,Mt Auburn St @ University Rd,16,15,1
+46,3/1/2014,1021,71,Inbound,4224623,4224769,Harvard Upper Busway @ Red Line,16,15,1
+46,3/1/2014,1027,71,Inbound,4224623,4224769,Waterhouse St @ Massachusetts Ave,16,15,1
+47,3/1/2014,1020,71,Inbound,4224769,4224827,Watertown Sq Terminal,14,15,-1
+47,3/1/2014,1022,71,Inbound,4224769,4224827,Mt Auburn St @ Parker St,14,15,-1
+47,3/1/2014,1029,71,Inbound,4224769,4224827,Mt Auburn St opp Homer Ave,14,15,-1
+47,3/1/2014,1032,71,Inbound,4224769,4224827,Mt Auburn St @ Mt Auburn Hospital,13,15,-2
+47,3/1/2014,1034,71,Inbound,4224769,4224827,Mt Auburn St @ University Rd,11,15,-4
+47,3/1/2014,1036,71,Inbound,4224769,4224827,Harvard Upper Busway @ Red Line,15,15,0
+47,3/1/2014,1042,71,Inbound,4224769,4224827,Waterhouse St @ Massachusetts Ave,18,15,3
+48,3/1/2014,1035,71,Inbound,4224827,4224317,Watertown Sq Terminal,20,15,5
+48,3/1/2014,1037,71,Inbound,4224827,4224317,Mt Auburn St @ Parker St,19,15,4
+48,3/1/2014,1044,71,Inbound,4224827,4224317,Mt Auburn St opp Homer Ave,19,15,4
+48,3/1/2014,1047,71,Inbound,4224827,4224317,Mt Auburn St @ Mt Auburn Hospital,20,15,5
+48,3/1/2014,1049,71,Inbound,4224827,4224317,Mt Auburn St @ University Rd,20,15,5
+48,3/1/2014,1051,71,Inbound,4224827,4224317,Harvard Upper Busway @ Red Line,16,15,1
+48,3/1/2014,1057,71,Inbound,4224827,4224317,Waterhouse St @ Massachusetts Ave,32,15,17
+49,3/1/2014,1050,71,Inbound,4224317,4224625,Watertown Sq Terminal,8,15,-7
+49,3/1/2014,1052,71,Inbound,4224317,4224625,Mt Auburn St @ Parker St,15,15,0
+49,3/1/2014,1059,71,Inbound,4224317,4224625,Mt Auburn St opp Homer Ave,14,15,-1
+49,3/1/2014,1062,71,Inbound,4224317,4224625,Mt Auburn St @ Mt Auburn Hospital,14,15,-1
+49,3/1/2014,1064,71,Inbound,4224317,4224625,Mt Auburn St @ University Rd,14,15,-1
+49,3/1/2014,1066,71,Inbound,4224317,4224625,Harvard Upper Busway @ Red Line,16,15,1
+49,3/1/2014,1072,71,Inbound,4224317,4224625,Waterhouse St @ Massachusetts Ave,0,15,-15
+50,3/1/2014,1065,71,Inbound,4224625,4224771,Watertown Sq Terminal,19,15,4
+50,3/1/2014,1067,71,Inbound,4224625,4224771,Mt Auburn St @ Parker St,12,15,-3
+50,3/1/2014,1074,71,Inbound,4224625,4224771,Mt Auburn St opp Homer Ave,11,15,-4
+50,3/1/2014,1077,71,Inbound,4224625,4224771,Mt Auburn St @ Mt Auburn Hospital,9,15,-6
+50,3/1/2014,1079,71,Inbound,4224625,4224771,Mt Auburn St @ University Rd,8,15,-7
+50,3/1/2014,1081,71,Inbound,4224625,4224771,Harvard Upper Busway @ Red Line,6,15,-9
+50,3/1/2014,1087,71,Inbound,4224625,4224771,Waterhouse St @ Massachusetts Ave,3,15,-12
+51,3/1/2014,1080,71,Inbound,4224771,4224829,Watertown Sq Terminal,9,15,-6
+51,3/1/2014,1082,71,Inbound,4224771,4224829,Mt Auburn St @ Parker St,14,15,-1
+51,3/1/2014,1089,71,Inbound,4224771,4224829,Mt Auburn St opp Homer Ave,14,15,-1
+51,3/1/2014,1092,71,Inbound,4224771,4224829,Mt Auburn St @ Mt Auburn Hospital,16,15,1
+51,3/1/2014,1094,71,Inbound,4224771,4224829,Mt Auburn St @ University Rd,17,15,2
+51,3/1/2014,1096,71,Inbound,4224771,4224829,Harvard Upper Busway @ Red Line,17,15,2
+52,3/1/2014,1095,71,Inbound,4224829,4224319,Watertown Sq Terminal,36,15,21
+52,3/1/2014,1097,71,Inbound,4224829,4224319,Mt Auburn St @ Parker St,38,15,23
+52,3/1/2014,1104,71,Inbound,4224829,4224319,Mt Auburn St opp Homer Ave,38,15,23
+52,3/1/2014,1107,71,Inbound,4224829,4224319,Mt Auburn St @ Mt Auburn Hospital,37,15,22
+52,3/1/2014,1109,71,Inbound,4224829,4224319,Mt Auburn St @ University Rd,37,15,22
+53,3/1/2014,1110,71,Inbound,4224319,4224627,Watertown Sq Terminal,0,16,-16
+53,3/1/2014,1112,71,Inbound,4224319,4224627,Mt Auburn St @ Parker St,-6,16,-22
+53,3/1/2014,1119,71,Inbound,4224319,4224627,Mt Auburn St opp Homer Ave,-1,16,-17
+53,3/1/2014,1122,71,Inbound,4224319,4224627,Mt Auburn St @ Mt Auburn Hospital,0,16,-16
+53,3/1/2014,1124,71,Inbound,4224319,4224627,Mt Auburn St @ University Rd,-1,16,-17
+54,3/1/2014,1126,71,Inbound,4224627,4224773,Watertown Sq Terminal,16,18,-2
+54,3/1/2014,1128,71,Inbound,4224627,4224773,Mt Auburn St @ Parker St,18,18,0
+54,3/1/2014,1135,71,Inbound,4224627,4224773,Mt Auburn St opp Homer Ave,13,17,-4
+54,3/1/2014,1138,71,Inbound,4224627,4224773,Mt Auburn St @ Mt Auburn Hospital,12,17,-5
+54,3/1/2014,1140,71,Inbound,4224627,4224773,Mt Auburn St @ University Rd,13,17,-4
+54,3/1/2014,1141,71,Inbound,4224627,4224773,Harvard Upper Busway @ Red Line,13,17,-4
+54,3/1/2014,1146,71,Inbound,4224627,4224773,Waterhouse St @ Massachusetts Ave,12,17,-5
+55,3/1/2014,1144,71,Inbound,4224773,4224321,Watertown Sq Terminal,31,18,13
+55,3/1/2014,1146,71,Inbound,4224773,4224321,Mt Auburn St @ Parker St,23,18,5
+55,3/1/2014,1152,71,Inbound,4224773,4224321,Mt Auburn St opp Homer Ave,24,18,6
+55,3/1/2014,1155,71,Inbound,4224773,4224321,Mt Auburn St @ Mt Auburn Hospital,25,18,7
+55,3/1/2014,1157,71,Inbound,4224773,4224321,Mt Auburn St @ University Rd,25,18,7
+55,3/1/2014,1158,71,Inbound,4224773,4224321,Harvard Upper Busway @ Red Line,25,18,7
+55,3/1/2014,1163,71,Inbound,4224773,4224321,Waterhouse St @ Massachusetts Ave,27,18,9
+56,3/1/2014,1162,71,Inbound,4224321,4224629,Watertown Sq Terminal,14,18,-4
+56,3/1/2014,1164,71,Inbound,4224321,4224629,Mt Auburn St @ Parker St,14,18,-4
+56,3/1/2014,1170,71,Inbound,4224321,4224629,Mt Auburn St opp Homer Ave,14,18,-4
+56,3/1/2014,1173,71,Inbound,4224321,4224629,Mt Auburn St @ Mt Auburn Hospital,14,18,-4
+56,3/1/2014,1175,71,Inbound,4224321,4224629,Mt Auburn St @ University Rd,14,18,-4
+56,3/1/2014,1176,71,Inbound,4224321,4224629,Harvard Upper Busway @ Red Line,14,18,-4
+56,3/1/2014,1181,71,Inbound,4224321,4224629,Waterhouse St @ Massachusetts Ave,13,18,-5
+57,3/1/2014,1180,71,Inbound,4224629,4224775,Watertown Sq Terminal,9,16,-7
+57,3/1/2014,1182,71,Inbound,4224629,4224775,Mt Auburn St @ Parker St,14,16,-2
+57,3/1/2014,1188,71,Inbound,4224629,4224775,Mt Auburn St opp Homer Ave,12,16,-4
+57,3/1/2014,1191,71,Inbound,4224629,4224775,Mt Auburn St @ Mt Auburn Hospital,12,16,-4
+57,3/1/2014,1193,71,Inbound,4224629,4224775,Mt Auburn St @ University Rd,11,16,-5
+57,3/1/2014,1194,71,Inbound,4224629,4224775,Harvard Upper Busway @ Red Line,10,16,-6
+57,3/1/2014,1199,71,Inbound,4224629,4224775,Waterhouse St @ Massachusetts Ave,11,16,-5
+58,3/1/2014,1196,71,Inbound,4224775,4224323,Watertown Sq Terminal,23,15,8
+58,3/1/2014,1198,71,Inbound,4224775,4224323,Mt Auburn St @ Parker St,20,15,5
+58,3/1/2014,1204,71,Inbound,4224775,4224323,Mt Auburn St opp Homer Ave,22,15,7
+58,3/1/2014,1207,71,Inbound,4224775,4224323,Mt Auburn St @ Mt Auburn Hospital,23,15,8
+58,3/1/2014,1209,71,Inbound,4224775,4224323,Mt Auburn St @ University Rd,24,15,9
+58,3/1/2014,1210,71,Inbound,4224775,4224323,Harvard Upper Busway @ Red Line,24,15,9
+58,3/1/2014,1215,71,Inbound,4224775,4224323,Waterhouse St @ Massachusetts Ave,23,15,8
+59,3/1/2014,1211,71,Inbound,4224323,4224631,Watertown Sq Terminal,14,15,-1
+59,3/1/2014,1213,71,Inbound,4224323,4224631,Mt Auburn St @ Parker St,14,15,-1
+59,3/1/2014,1219,71,Inbound,4224323,4224631,Mt Auburn St opp Homer Ave,14,15,-1
+59,3/1/2014,1222,71,Inbound,4224323,4224631,Mt Auburn St @ Mt Auburn Hospital,12,15,-3
+59,3/1/2014,1224,71,Inbound,4224323,4224631,Mt Auburn St @ University Rd,12,15,-3
+59,3/1/2014,1225,71,Inbound,4224323,4224631,Harvard Upper Busway @ Red Line,13,15,-2
+59,3/1/2014,1230,71,Inbound,4224323,4224631,Waterhouse St @ Massachusetts Ave,13,15,-2
+60,3/1/2014,1226,71,Inbound,4224631,4224777,Watertown Sq Terminal,19,16,3
+60,3/1/2014,1228,71,Inbound,4224631,4224777,Mt Auburn St @ Parker St,18,16,2
+60,3/1/2014,1234,71,Inbound,4224631,4224777,Mt Auburn St opp Homer Ave,18,16,2
+60,3/1/2014,1237,71,Inbound,4224631,4224777,Mt Auburn St @ Mt Auburn Hospital,19,16,3
+60,3/1/2014,1239,71,Inbound,4224631,4224777,Mt Auburn St @ University Rd,18,16,2
+60,3/1/2014,1240,71,Inbound,4224631,4224777,Harvard Upper Busway @ Red Line,17,16,1
+60,3/1/2014,1245,71,Inbound,4224631,4224777,Waterhouse St @ Massachusetts Ave,16,16,0
+61,3/1/2014,1242,71,Inbound,4224777,4224325,Watertown Sq Terminal,13,16,-3
+61,3/1/2014,1244,71,Inbound,4224777,4224325,Mt Auburn St @ Parker St,12,16,-4
+61,3/1/2014,1250,71,Inbound,4224777,4224325,Mt Auburn St opp Homer Ave,11,16,-5
+61,3/1/2014,1253,71,Inbound,4224777,4224325,Mt Auburn St @ Mt Auburn Hospital,10,16,-6
+61,3/1/2014,1255,71,Inbound,4224777,4224325,Mt Auburn St @ University Rd,11,16,-5
+61,3/1/2014,1256,71,Inbound,4224777,4224325,Harvard Upper Busway @ Red Line,11,16,-5
+61,3/1/2014,1261,71,Inbound,4224777,4224325,Waterhouse St @ Massachusetts Ave,12,16,-4
+62,3/1/2014,1258,71,Inbound,4224325,4224633,Watertown Sq Terminal,15,16,-1
+62,3/1/2014,1260,71,Inbound,4224325,4224633,Mt Auburn St @ Parker St,15,16,-1
+62,3/1/2014,1266,71,Inbound,4224325,4224633,Mt Auburn St opp Homer Ave,14,16,-2
+62,3/1/2014,1269,71,Inbound,4224325,4224633,Mt Auburn St @ Mt Auburn Hospital,15,16,-1
+62,3/1/2014,1271,71,Inbound,4224325,4224633,Mt Auburn St @ University Rd,15,16,-1
+62,3/1/2014,1272,71,Inbound,4224325,4224633,Harvard Upper Busway @ Red Line,14,16,-2
+62,3/1/2014,1277,71,Inbound,4224325,4224633,Waterhouse St @ Massachusetts Ave,14,16,-2
+63,3/1/2014,1274,71,Inbound,4224633,4224779,Watertown Sq Terminal,14,16,-2
+63,3/1/2014,1276,71,Inbound,4224633,4224779,Mt Auburn St @ Parker St,16,16,0
+63,3/1/2014,1282,71,Inbound,4224633,4224779,Mt Auburn St opp Homer Ave,16,16,0
+63,3/1/2014,1285,71,Inbound,4224633,4224779,Mt Auburn St @ Mt Auburn Hospital,16,16,0
+63,3/1/2014,1287,71,Inbound,4224633,4224779,Mt Auburn St @ University Rd,16,16,0
+63,3/1/2014,1288,71,Inbound,4224633,4224779,Harvard Upper Busway @ Red Line,17,16,1
+63,3/1/2014,1293,71,Inbound,4224633,4224779,Waterhouse St @ Massachusetts Ave,16,16,0
+64,3/1/2014,1290,71,Inbound,4224779,4224327,Watertown Sq Terminal,17,16,1
+64,3/1/2014,1292,71,Inbound,4224779,4224327,Mt Auburn St @ Parker St,17,16,1
+64,3/1/2014,1298,71,Inbound,4224779,4224327,Mt Auburn St opp Homer Ave,19,16,3
+64,3/1/2014,1301,71,Inbound,4224779,4224327,Mt Auburn St @ Mt Auburn Hospital,19,16,3
+64,3/1/2014,1303,71,Inbound,4224779,4224327,Mt Auburn St @ University Rd,19,16,3
+64,3/1/2014,1304,71,Inbound,4224779,4224327,Harvard Upper Busway @ Red Line,19,16,3
+64,3/1/2014,1309,71,Inbound,4224779,4224327,Waterhouse St @ Massachusetts Ave,19,16,3
+65,3/1/2014,1306,71,Inbound,4224327,4224635,Watertown Sq Terminal,12,16,-4
+65,3/1/2014,1308,71,Inbound,4224327,4224635,Mt Auburn St @ Parker St,15,16,-1
+65,3/1/2014,1314,71,Inbound,4224327,4224635,Mt Auburn St opp Homer Ave,12,16,-4
+65,3/1/2014,1317,71,Inbound,4224327,4224635,Mt Auburn St @ Mt Auburn Hospital,12,16,-4
+65,3/1/2014,1319,71,Inbound,4224327,4224635,Mt Auburn St @ University Rd,11,16,-5
+65,3/1/2014,1320,71,Inbound,4224327,4224635,Harvard Upper Busway @ Red Line,11,16,-5
+65,3/1/2014,1325,71,Inbound,4224327,4224635,Waterhouse St @ Massachusetts Ave,12,16,-4
+66,3/1/2014,1322,71,Inbound,4224635,4224781,Watertown Sq Terminal,17,16,1
+66,3/1/2014,1324,71,Inbound,4224635,4224781,Mt Auburn St @ Parker St,16,16,0
+66,3/1/2014,1330,71,Inbound,4224635,4224781,Mt Auburn St opp Homer Ave,19,16,3
+66,3/1/2014,1333,71,Inbound,4224635,4224781,Mt Auburn St @ Mt Auburn Hospital,19,16,3
+66,3/1/2014,1335,71,Inbound,4224635,4224781,Mt Auburn St @ University Rd,20,16,4
+66,3/1/2014,1336,71,Inbound,4224635,4224781,Harvard Upper Busway @ Red Line,20,16,4
+66,3/1/2014,1341,71,Inbound,4224635,4224781,Waterhouse St @ Massachusetts Ave,19,16,3
+67,3/1/2014,1338,71,Inbound,4224781,4224329,Watertown Sq Terminal,17,16,1
+67,3/1/2014,1340,71,Inbound,4224781,4224329,Mt Auburn St @ Parker St,17,16,1
+67,3/1/2014,1346,71,Inbound,4224781,4224329,Mt Auburn St opp Homer Ave,17,16,1
+67,3/1/2014,1349,71,Inbound,4224781,4224329,Mt Auburn St @ Mt Auburn Hospital,16,16,0
+67,3/1/2014,1351,71,Inbound,4224781,4224329,Mt Auburn St @ University Rd,17,16,1
+67,3/1/2014,1352,71,Inbound,4224781,4224329,Harvard Upper Busway @ Red Line,17,16,1
+67,3/1/2014,1357,71,Inbound,4224781,4224329,Waterhouse St @ Massachusetts Ave,18,16,2
+68,3/1/2014,1354,71,Inbound,4224329,4224637,Watertown Sq Terminal,15,16,-1
+68,3/1/2014,1356,71,Inbound,4224329,4224637,Mt Auburn St @ Parker St,15,16,-1
+68,3/1/2014,1362,71,Inbound,4224329,4224637,Mt Auburn St opp Homer Ave,13,16,-3
+68,3/1/2014,1365,71,Inbound,4224329,4224637,Mt Auburn St @ Mt Auburn Hospital,14,16,-2
+68,3/1/2014,1367,71,Inbound,4224329,4224637,Mt Auburn St @ University Rd,13,16,-3
+68,3/1/2014,1368,71,Inbound,4224329,4224637,Harvard Upper Busway @ Red Line,13,16,-3
+68,3/1/2014,1373,71,Inbound,4224329,4224637,Waterhouse St @ Massachusetts Ave,12,16,-4
+69,3/1/2014,1370,71,Inbound,4224637,4224783,Watertown Sq Terminal,12,16,-4
+69,3/1/2014,1372,71,Inbound,4224637,4224783,Mt Auburn St @ Parker St,15,16,-1
+69,3/1/2014,1378,71,Inbound,4224637,4224783,Mt Auburn St opp Homer Ave,15,16,-1
+69,3/1/2014,1381,71,Inbound,4224637,4224783,Mt Auburn St @ Mt Auburn Hospital,15,16,-1
+69,3/1/2014,1383,71,Inbound,4224637,4224783,Mt Auburn St @ University Rd,15,16,-1
+69,3/1/2014,1384,71,Inbound,4224637,4224783,Harvard Upper Busway @ Red Line,16,16,0
+69,3/1/2014,1389,71,Inbound,4224637,4224783,Waterhouse St @ Massachusetts Ave,17,16,1
+70,3/1/2014,1386,71,Inbound,4224783,4224331,Watertown Sq Terminal,21,16,5
+70,3/1/2014,1388,71,Inbound,4224783,4224331,Mt Auburn St @ Parker St,18,16,2
+70,3/1/2014,1394,71,Inbound,4224783,4224331,Mt Auburn St opp Homer Ave,19,16,3
+70,3/1/2014,1397,71,Inbound,4224783,4224331,Mt Auburn St @ Mt Auburn Hospital,20,16,4
+70,3/1/2014,1399,71,Inbound,4224783,4224331,Mt Auburn St @ University Rd,20,16,4
+70,3/1/2014,1400,71,Inbound,4224783,4224331,Harvard Upper Busway @ Red Line,19,16,3
+70,3/1/2014,1405,71,Inbound,4224783,4224331,Waterhouse St @ Massachusetts Ave,20,16,4
+71,3/1/2014,1402,71,Inbound,4224331,4224639,Watertown Sq Terminal,10,16,-6
+71,3/1/2014,1404,71,Inbound,4224331,4224639,Mt Auburn St @ Parker St,14,16,-2
+71,3/1/2014,1410,71,Inbound,4224331,4224639,Mt Auburn St opp Homer Ave,13,16,-3
+71,3/1/2014,1413,71,Inbound,4224331,4224639,Mt Auburn St @ Mt Auburn Hospital,10,16,-6
+71,3/1/2014,1415,71,Inbound,4224331,4224639,Mt Auburn St @ University Rd,9,16,-7
+71,3/1/2014,1416,71,Inbound,4224331,4224639,Harvard Upper Busway @ Red Line,9,16,-7
+71,3/1/2014,1421,71,Inbound,4224331,4224639,Waterhouse St @ Massachusetts Ave,7,16,-9
+72,3/1/2014,1418,71,Inbound,4224639,4224785,Watertown Sq Terminal,17,16,1
+72,3/1/2014,1420,71,Inbound,4224639,4224785,Mt Auburn St @ Parker St,16,16,0
+72,3/1/2014,1426,71,Inbound,4224639,4224785,Mt Auburn St opp Homer Ave,17,16,1
+72,3/1/2014,1429,71,Inbound,4224639,4224785,Mt Auburn St @ Mt Auburn Hospital,19,16,3
+72,3/1/2014,1431,71,Inbound,4224639,4224785,Mt Auburn St @ University Rd,20,16,4
+72,3/1/2014,1432,71,Inbound,4224639,4224785,Harvard Upper Busway @ Red Line,20,16,4
+72,3/1/2014,1437,71,Inbound,4224639,4224785,Waterhouse St @ Massachusetts Ave,20,16,4
+73,3/1/2014,1434,71,Inbound,4224785,4224333,Watertown Sq Terminal,25,15,10
+73,3/1/2014,1436,71,Inbound,4224785,4224333,Mt Auburn St @ Parker St,17,15,2
+73,3/1/2014,1442,71,Inbound,4224785,4224333,Mt Auburn St opp Homer Ave,17,15,2
+73,3/1/2014,1445,71,Inbound,4224785,4224333,Mt Auburn St @ Mt Auburn Hospital,18,15,3
+73,3/1/2014,1447,71,Inbound,4224785,4224333,Mt Auburn St @ University Rd,17,15,2
+73,3/1/2014,1448,71,Inbound,4224785,4224333,Harvard Upper Busway @ Red Line,17,15,2
+73,3/1/2014,1453,71,Inbound,4224785,4224333,Waterhouse St @ Massachusetts Ave,18,15,3
+74,3/1/2014,1449,71,Inbound,4224333,4224641,Watertown Sq Terminal,8,16,-8
+74,3/1/2014,1451,71,Inbound,4224333,4224641,Mt Auburn St @ Parker St,14,16,-2
+74,3/1/2014,1457,71,Inbound,4224333,4224641,Mt Auburn St opp Homer Ave,12,16,-4
+74,3/1/2014,1460,71,Inbound,4224333,4224641,Mt Auburn St @ Mt Auburn Hospital,9,16,-7
+74,3/1/2014,1462,71,Inbound,4224333,4224641,Mt Auburn St @ University Rd,10,16,-6
+74,3/1/2014,1463,71,Inbound,4224333,4224641,Harvard Upper Busway @ Red Line,10,16,-6
+74,3/1/2014,1468,71,Inbound,4224333,4224641,Waterhouse St @ Massachusetts Ave,10,16,-6
+75,3/1/2014,1465,71,Inbound,4224641,4224787,Watertown Sq Terminal,13,16,-3
+75,3/1/2014,1467,71,Inbound,4224641,4224787,Mt Auburn St @ Parker St,15,16,-1
+75,3/1/2014,1473,71,Inbound,4224641,4224787,Mt Auburn St opp Homer Ave,17,16,1
+75,3/1/2014,1476,71,Inbound,4224641,4224787,Mt Auburn St @ Mt Auburn Hospital,18,16,2
+75,3/1/2014,1478,71,Inbound,4224641,4224787,Mt Auburn St @ University Rd,17,16,1
+75,3/1/2014,1479,71,Inbound,4224641,4224787,Harvard Upper Busway @ Red Line,18,16,2
+75,3/1/2014,1484,71,Inbound,4224641,4224787,Waterhouse St @ Massachusetts Ave,17,16,1
+76,3/1/2014,1481,71,Inbound,4224787,4224335,Watertown Sq Terminal,19,15,4
+76,3/1/2014,1483,71,Inbound,4224787,4224335,Mt Auburn St @ Parker St,18,15,3
+76,3/1/2014,1489,71,Inbound,4224787,4224335,Mt Auburn St opp Homer Ave,16,15,1
+76,3/1/2014,1492,71,Inbound,4224787,4224335,Mt Auburn St @ Mt Auburn Hospital,16,15,1
+76,3/1/2014,1494,71,Inbound,4224787,4224335,Mt Auburn St @ University Rd,16,15,1
+76,3/1/2014,1495,71,Inbound,4224787,4224335,Harvard Upper Busway @ Red Line,15,15,0
+77,3/1/2014,1496,71,Inbound,4224335,4224643,Watertown Sq Terminal,15,15,0
+77,3/1/2014,1498,71,Inbound,4224335,4224643,Mt Auburn St @ Parker St,9,15,-6
+77,3/1/2014,1504,71,Inbound,4224335,4224643,Mt Auburn St opp Homer Ave,8,15,-7
+77,3/1/2014,1507,71,Inbound,4224335,4224643,Mt Auburn St @ Mt Auburn Hospital,7,15,-8
+77,3/1/2014,1509,71,Inbound,4224335,4224643,Mt Auburn St @ University Rd,8,15,-7
+77,3/1/2014,1510,71,Inbound,4224335,4224643,Harvard Upper Busway @ Red Line,7,15,-8
+78,3/1/2014,1511,71,Inbound,4224643,4224789,Watertown Sq Terminal,54,11,43
+78,3/1/2014,1513,71,Inbound,4224643,4224789,Mt Auburn St @ Parker St,53,11,42
+78,3/1/2014,1519,71,Inbound,4224643,4224789,Mt Auburn St opp Homer Ave,-1386,11,-1397
+78,3/1/2014,1522,71,Inbound,4224643,4224789,Mt Auburn St @ Mt Auburn Hospital,-1385,11,-1396
+78,3/1/2014,1524,71,Inbound,4224643,4224789,Mt Auburn St @ University Rd,-1386,11,-1397
+78,3/1/2014,1525,71,Inbound,4224643,4224789,Harvard Upper Busway @ Red Line,-1386,11,-1397

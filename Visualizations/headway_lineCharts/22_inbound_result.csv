@@ -1,0 +1,686 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,322,22,Inbound,4231862,4231908,Ashmont Station,25,15,10
+1,3/1/2014,323,22,Inbound,4231862,4231908,Talbot Ave @ Centre St,15,15,0
+1,3/1/2014,325,22,Inbound,4231862,4231908,Talbot Ave @ Nightingale St,16,15,1
+1,3/1/2014,328,22,Inbound,4231862,4231908,Blue Hill Ave @ Ellington St - Franklin Park Zoo,15,15,0
+1,3/1/2014,331,22,Inbound,4231862,4231908,Seaver St @ Humboldt Ave,13,15,-2
+1,3/1/2014,333,22,Inbound,4231862,4231908,1990 Columbus Ave,14,15,-1
+1,3/1/2014,336,22,Inbound,4231862,4231908,Jackson Sq Station @ Orange Line,13,15,-2
+1,3/1/2014,338,22,Inbound,4231862,4231908,Columbus Ave @ Malcolm X Blvd,13,15,-2
+1,3/1/2014,341,22,Inbound,4231862,4231908,Ruggles Sta - Upper Level,16,15,1
+2,3/1/2014,337,22,Inbound,4231908,4231769,Ashmont Station,11,10,1
+2,3/1/2014,338,22,Inbound,4231908,4231769,Talbot Ave @ Centre St,9,10,-1
+2,3/1/2014,340,22,Inbound,4231908,4231769,Talbot Ave @ Nightingale St,10,10,0
+2,3/1/2014,343,22,Inbound,4231908,4231769,Blue Hill Ave @ Ellington St - Franklin Park Zoo,10,10,0
+2,3/1/2014,346,22,Inbound,4231908,4231769,Seaver St @ Humboldt Ave,12,10,2
+2,3/1/2014,348,22,Inbound,4231908,4231769,1990 Columbus Ave,11,10,1
+2,3/1/2014,351,22,Inbound,4231908,4231769,Jackson Sq Station @ Orange Line,11,10,1
+2,3/1/2014,353,22,Inbound,4231908,4231769,Columbus Ave @ Malcolm X Blvd,13,10,3
+2,3/1/2014,356,22,Inbound,4231908,4231769,Ruggles Sta - Upper Level,10,10,0
+3,3/1/2014,347,22,Inbound,4231769,4231838,Ashmont Station,17,15,2
+3,3/1/2014,348,22,Inbound,4231769,4231838,Talbot Ave @ Centre St,17,15,2
+3,3/1/2014,350,22,Inbound,4231769,4231838,Talbot Ave @ Nightingale St,19,15,4
+3,3/1/2014,353,22,Inbound,4231769,4231838,Blue Hill Ave @ Ellington St - Franklin Park Zoo,18,15,3
+3,3/1/2014,356,22,Inbound,4231769,4231838,Seaver St @ Humboldt Ave,17,15,2
+3,3/1/2014,358,22,Inbound,4231769,4231838,1990 Columbus Ave,18,15,3
+3,3/1/2014,361,22,Inbound,4231769,4231838,Jackson Sq Station @ Orange Line,20,15,5
+3,3/1/2014,363,22,Inbound,4231769,4231838,Columbus Ave @ Malcolm X Blvd,21,15,6
+3,3/1/2014,366,22,Inbound,4231769,4231838,Ruggles Sta - Upper Level,22,15,7
+4,3/1/2014,362,22,Inbound,4231838,4231864,Ashmont Station,10,15,-5
+4,3/1/2014,363,22,Inbound,4231838,4231864,Talbot Ave @ Centre St,19,15,4
+4,3/1/2014,365,22,Inbound,4231838,4231864,Talbot Ave @ Nightingale St,17,15,2
+4,3/1/2014,368,22,Inbound,4231838,4231864,Blue Hill Ave @ Ellington St - Franklin Park Zoo,20,15,5
+4,3/1/2014,371,22,Inbound,4231838,4231864,Seaver St @ Humboldt Ave,20,15,5
+4,3/1/2014,373,22,Inbound,4231838,4231864,1990 Columbus Ave,20,15,5
+4,3/1/2014,376,22,Inbound,4231838,4231864,Jackson Sq Station @ Orange Line,19,15,4
+4,3/1/2014,378,22,Inbound,4231838,4231864,Columbus Ave @ Malcolm X Blvd,19,16,3
+4,3/1/2014,381,22,Inbound,4231838,4231864,Ruggles Sta - Upper Level,20,16,4
+5,3/1/2014,377,22,Inbound,4231864,4231910,Ashmont Station,21,15,6
+5,3/1/2014,378,22,Inbound,4231864,4231910,Talbot Ave @ Centre St,10,15,-5
+5,3/1/2014,380,22,Inbound,4231864,4231910,Talbot Ave @ Nightingale St,10,16,-6
+5,3/1/2014,383,22,Inbound,4231864,4231910,Blue Hill Ave @ Ellington St - Franklin Park Zoo,8,17,-9
+5,3/1/2014,386,22,Inbound,4231864,4231910,Seaver St @ Humboldt Ave,7,17,-10
+5,3/1/2014,388,22,Inbound,4231864,4231910,1990 Columbus Ave,7,18,-11
+5,3/1/2014,391,22,Inbound,4231864,4231910,Jackson Sq Station @ Orange Line,7,18,-11
+5,3/1/2014,394,22,Inbound,4231864,4231910,Columbus Ave @ Malcolm X Blvd,6,18,-12
+5,3/1/2014,397,22,Inbound,4231864,4231910,Ruggles Sta - Upper Level,7,18,-11
+6,3/1/2014,392,22,Inbound,4231910,4231771,Ashmont Station,10,15,-5
+6,3/1/2014,393,22,Inbound,4231910,4231771,Talbot Ave @ Centre St,15,15,0
+6,3/1/2014,396,22,Inbound,4231910,4231771,Talbot Ave @ Nightingale St,15,15,0
+6,3/1/2014,400,22,Inbound,4231910,4231771,Blue Hill Ave @ Ellington St - Franklin Park Zoo,17,15,2
+6,3/1/2014,403,22,Inbound,4231910,4231771,Seaver St @ Humboldt Ave,18,15,3
+6,3/1/2014,406,22,Inbound,4231910,4231771,1990 Columbus Ave,19,15,4
+6,3/1/2014,409,22,Inbound,4231910,4231771,Jackson Sq Station @ Orange Line,18,15,3
+6,3/1/2014,412,22,Inbound,4231910,4231771,Columbus Ave @ Malcolm X Blvd,17,15,2
+6,3/1/2014,415,22,Inbound,4231910,4231771,Ruggles Sta - Upper Level,14,15,-1
+7,3/1/2014,407,22,Inbound,4231771,4231840,Ashmont Station,22,15,7
+7,3/1/2014,408,22,Inbound,4231771,4231840,Talbot Ave @ Centre St,16,15,1
+7,3/1/2014,411,22,Inbound,4231771,4231840,Talbot Ave @ Nightingale St,17,15,2
+7,3/1/2014,415,22,Inbound,4231771,4231840,Blue Hill Ave @ Ellington St - Franklin Park Zoo,17,15,2
+7,3/1/2014,418,22,Inbound,4231771,4231840,Seaver St @ Humboldt Ave,17,15,2
+7,3/1/2014,421,22,Inbound,4231771,4231840,1990 Columbus Ave,15,15,0
+7,3/1/2014,424,22,Inbound,4231771,4231840,Jackson Sq Station @ Orange Line,17,15,2
+7,3/1/2014,427,22,Inbound,4231771,4231840,Columbus Ave @ Malcolm X Blvd,17,15,2
+7,3/1/2014,430,22,Inbound,4231771,4231840,Ruggles Sta - Upper Level,16,15,1
+8,3/1/2014,422,22,Inbound,4231840,4231866,Ashmont Station,16,15,1
+8,3/1/2014,423,22,Inbound,4231840,4231866,Talbot Ave @ Centre St,22,15,7
+8,3/1/2014,426,22,Inbound,4231840,4231866,Talbot Ave @ Nightingale St,21,15,6
+8,3/1/2014,430,22,Inbound,4231840,4231866,Blue Hill Ave @ Ellington St - Franklin Park Zoo,20,15,5
+8,3/1/2014,433,22,Inbound,4231840,4231866,Seaver St @ Humboldt Ave,20,15,5
+8,3/1/2014,436,22,Inbound,4231840,4231866,1990 Columbus Ave,21,15,6
+8,3/1/2014,439,22,Inbound,4231840,4231866,Jackson Sq Station @ Orange Line,20,15,5
+8,3/1/2014,442,22,Inbound,4231840,4231866,Columbus Ave @ Malcolm X Blvd,22,15,7
+8,3/1/2014,445,22,Inbound,4231840,4231866,Ruggles Sta - Upper Level,23,15,8
+9,3/1/2014,437,22,Inbound,4231866,4231912,Ashmont Station,6,15,-9
+9,3/1/2014,438,22,Inbound,4231866,4231912,Talbot Ave @ Centre St,8,15,-7
+9,3/1/2014,441,22,Inbound,4231866,4231912,Talbot Ave @ Nightingale St,9,15,-6
+9,3/1/2014,445,22,Inbound,4231866,4231912,Blue Hill Ave @ Ellington St - Franklin Park Zoo,8,15,-7
+9,3/1/2014,448,22,Inbound,4231866,4231912,Seaver St @ Humboldt Ave,10,15,-5
+9,3/1/2014,451,22,Inbound,4231866,4231912,1990 Columbus Ave,10,15,-5
+9,3/1/2014,454,22,Inbound,4231866,4231912,Jackson Sq Station @ Orange Line,11,15,-4
+9,3/1/2014,457,22,Inbound,4231866,4231912,Columbus Ave @ Malcolm X Blvd,11,15,-4
+9,3/1/2014,460,22,Inbound,4231866,4231912,Ruggles Sta - Upper Level,10,15,-5
+10,3/1/2014,452,22,Inbound,4231912,4231773,Ashmont Station,14,15,-1
+10,3/1/2014,453,22,Inbound,4231912,4231773,Talbot Ave @ Centre St,14,15,-1
+10,3/1/2014,456,22,Inbound,4231912,4231773,Talbot Ave @ Nightingale St,12,15,-3
+10,3/1/2014,460,22,Inbound,4231912,4231773,Blue Hill Ave @ Ellington St - Franklin Park Zoo,14,15,-1
+10,3/1/2014,463,22,Inbound,4231912,4231773,Seaver St @ Humboldt Ave,13,15,-2
+10,3/1/2014,466,22,Inbound,4231912,4231773,1990 Columbus Ave,12,15,-3
+10,3/1/2014,469,22,Inbound,4231912,4231773,Jackson Sq Station @ Orange Line,12,16,-4
+10,3/1/2014,472,22,Inbound,4231912,4231773,Columbus Ave @ Malcolm X Blvd,11,16,-5
+10,3/1/2014,475,22,Inbound,4231912,4231773,Ruggles Sta - Upper Level,13,16,-3
+11,3/1/2014,467,22,Inbound,4231773,4231842,Ashmont Station,17,15,2
+11,3/1/2014,468,22,Inbound,4231773,4231842,Talbot Ave @ Centre St,17,16,1
+11,3/1/2014,471,22,Inbound,4231773,4231842,Talbot Ave @ Nightingale St,20,16,4
+11,3/1/2014,475,22,Inbound,4231773,4231842,Blue Hill Ave @ Ellington St - Franklin Park Zoo,19,17,2
+11,3/1/2014,478,22,Inbound,4231773,4231842,Seaver St @ Humboldt Ave,18,17,1
+11,3/1/2014,481,22,Inbound,4231773,4231842,1990 Columbus Ave,20,17,3
+11,3/1/2014,485,22,Inbound,4231773,4231842,Jackson Sq Station @ Orange Line,19,17,2
+11,3/1/2014,488,22,Inbound,4231773,4231842,Columbus Ave @ Malcolm X Blvd,18,17,1
+11,3/1/2014,491,22,Inbound,4231773,4231842,Ruggles Sta - Upper Level,17,17,0
+12,3/1/2014,484,22,Inbound,4231842,4231868,Talbot Ave @ Centre St,16,15,1
+12,3/1/2014,487,22,Inbound,4231842,4231868,Talbot Ave @ Nightingale St,16,15,1
+12,3/1/2014,492,22,Inbound,4231842,4231868,Blue Hill Ave @ Ellington St - Franklin Park Zoo,15,15,0
+12,3/1/2014,495,22,Inbound,4231842,4231868,Seaver St @ Humboldt Ave,16,15,1
+12,3/1/2014,498,22,Inbound,4231842,4231868,1990 Columbus Ave,15,15,0
+12,3/1/2014,502,22,Inbound,4231842,4231868,Jackson Sq Station @ Orange Line,14,15,-1
+12,3/1/2014,505,22,Inbound,4231842,4231868,Columbus Ave @ Malcolm X Blvd,14,15,-1
+12,3/1/2014,508,22,Inbound,4231842,4231868,Ruggles Sta - Upper Level,14,15,-1
+13,3/1/2014,499,22,Inbound,4231868,4231914,Talbot Ave @ Centre St,14,16,-2
+13,3/1/2014,502,22,Inbound,4231868,4231914,Talbot Ave @ Nightingale St,13,16,-3
+13,3/1/2014,507,22,Inbound,4231868,4231914,Blue Hill Ave @ Ellington St - Franklin Park Zoo,14,16,-2
+13,3/1/2014,510,22,Inbound,4231868,4231914,Seaver St @ Humboldt Ave,13,16,-3
+13,3/1/2014,513,22,Inbound,4231868,4231914,1990 Columbus Ave,13,16,-3
+13,3/1/2014,517,22,Inbound,4231868,4231914,Jackson Sq Station @ Orange Line,14,16,-2
+13,3/1/2014,520,22,Inbound,4231868,4231914,Columbus Ave @ Malcolm X Blvd,18,16,2
+13,3/1/2014,523,22,Inbound,4231868,4231914,Ruggles Sta - Upper Level,20,16,4
+14,3/1/2014,513,22,Inbound,4231914,4231775,Ashmont Station,16,16,0
+14,3/1/2014,515,22,Inbound,4231914,4231775,Talbot Ave @ Centre St,15,16,-1
+14,3/1/2014,518,22,Inbound,4231914,4231775,Talbot Ave @ Nightingale St,13,16,-3
+14,3/1/2014,523,22,Inbound,4231914,4231775,Blue Hill Ave @ Ellington St - Franklin Park Zoo,13,16,-3
+14,3/1/2014,526,22,Inbound,4231914,4231775,Seaver St @ Humboldt Ave,13,17,-4
+14,3/1/2014,529,22,Inbound,4231914,4231775,1990 Columbus Ave,13,17,-4
+14,3/1/2014,533,22,Inbound,4231914,4231775,Jackson Sq Station @ Orange Line,14,17,-3
+14,3/1/2014,536,22,Inbound,4231914,4231775,Columbus Ave @ Malcolm X Blvd,10,19,-9
+14,3/1/2014,539,22,Inbound,4231914,4231775,Ruggles Sta - Upper Level,10,19,-9
+15,3/1/2014,529,22,Inbound,4231775,4231844,Ashmont Station,20,16,4
+15,3/1/2014,531,22,Inbound,4231775,4231844,Talbot Ave @ Centre St,20,16,4
+15,3/1/2014,534,22,Inbound,4231775,4231844,Talbot Ave @ Nightingale St,23,17,6
+15,3/1/2014,539,22,Inbound,4231775,4231844,Blue Hill Ave @ Ellington St - Franklin Park Zoo,24,16,8
+15,3/1/2014,543,22,Inbound,4231775,4231844,Seaver St @ Humboldt Ave,25,16,9
+15,3/1/2014,546,22,Inbound,4231775,4231844,1990 Columbus Ave,25,16,9
+15,3/1/2014,550,22,Inbound,4231775,4231844,Jackson Sq Station @ Orange Line,26,16,10
+15,3/1/2014,555,22,Inbound,4231775,4231844,Columbus Ave @ Malcolm X Blvd,28,16,12
+15,3/1/2014,558,22,Inbound,4231775,4231844,Ruggles Sta - Upper Level,26,16,10
+16,3/1/2014,545,22,Inbound,4231844,4231870,Ashmont Station,16,16,0
+16,3/1/2014,547,22,Inbound,4231844,4231870,Talbot Ave @ Centre St,16,16,0
+16,3/1/2014,551,22,Inbound,4231844,4231870,Talbot Ave @ Nightingale St,15,16,-1
+16,3/1/2014,555,22,Inbound,4231844,4231870,Blue Hill Ave @ Ellington St - Franklin Park Zoo,14,16,-2
+16,3/1/2014,559,22,Inbound,4231844,4231870,Seaver St @ Humboldt Ave,14,16,-2
+16,3/1/2014,562,22,Inbound,4231844,4231870,1990 Columbus Ave,15,16,-1
+16,3/1/2014,566,22,Inbound,4231844,4231870,Jackson Sq Station @ Orange Line,15,16,-1
+16,3/1/2014,571,22,Inbound,4231844,4231870,Columbus Ave @ Malcolm X Blvd,15,16,-1
+16,3/1/2014,574,22,Inbound,4231844,4231870,Ruggles Sta - Upper Level,16,16,0
+17,3/1/2014,561,22,Inbound,4231870,4231916,Ashmont Station,19,16,3
+17,3/1/2014,563,22,Inbound,4231870,4231916,Talbot Ave @ Centre St,19,16,3
+17,3/1/2014,567,22,Inbound,4231870,4231916,Talbot Ave @ Nightingale St,19,16,3
+17,3/1/2014,571,22,Inbound,4231870,4231916,Blue Hill Ave @ Ellington St - Franklin Park Zoo,19,16,3
+17,3/1/2014,575,22,Inbound,4231870,4231916,Seaver St @ Humboldt Ave,20,16,4
+17,3/1/2014,578,22,Inbound,4231870,4231916,1990 Columbus Ave,20,16,4
+17,3/1/2014,582,22,Inbound,4231870,4231916,Jackson Sq Station @ Orange Line,20,16,4
+17,3/1/2014,587,22,Inbound,4231870,4231916,Columbus Ave @ Malcolm X Blvd,20,16,4
+17,3/1/2014,590,22,Inbound,4231870,4231916,Ruggles Sta - Upper Level,20,16,4
+18,3/1/2014,577,22,Inbound,4231916,4231777,Ashmont Station,25,20,5
+18,3/1/2014,579,22,Inbound,4231916,4231777,Talbot Ave @ Centre St,23,20,3
+18,3/1/2014,583,22,Inbound,4231916,4231777,Talbot Ave @ Nightingale St,23,20,3
+18,3/1/2014,587,22,Inbound,4231916,4231777,Blue Hill Ave @ Ellington St - Franklin Park Zoo,25,20,5
+18,3/1/2014,591,22,Inbound,4231916,4231777,Seaver St @ Humboldt Ave,24,20,4
+18,3/1/2014,594,22,Inbound,4231916,4231777,1990 Columbus Ave,23,20,3
+18,3/1/2014,598,22,Inbound,4231916,4231777,Jackson Sq Station @ Orange Line,21,20,1
+18,3/1/2014,603,22,Inbound,4231916,4231777,Columbus Ave @ Malcolm X Blvd,20,20,0
+19,3/1/2014,597,22,Inbound,4231777,4231846,Ashmont Station,11,17,-6
+19,3/1/2014,599,22,Inbound,4231777,4231846,Talbot Ave @ Centre St,12,17,-5
+19,3/1/2014,603,22,Inbound,4231777,4231846,Talbot Ave @ Nightingale St,12,17,-5
+19,3/1/2014,607,22,Inbound,4231777,4231846,Blue Hill Ave @ Ellington St - Franklin Park Zoo,8,17,-9
+19,3/1/2014,611,22,Inbound,4231777,4231846,Seaver St @ Humboldt Ave,8,17,-9
+19,3/1/2014,614,22,Inbound,4231777,4231846,1990 Columbus Ave,9,17,-8
+19,3/1/2014,618,22,Inbound,4231777,4231846,Jackson Sq Station @ Orange Line,9,17,-8
+19,3/1/2014,623,22,Inbound,4231777,4231846,Columbus Ave @ Malcolm X Blvd,9,17,-8
+20,3/1/2014,614,22,Inbound,4231846,4231872,Ashmont Station,23,16,7
+20,3/1/2014,616,22,Inbound,4231846,4231872,Talbot Ave @ Centre St,24,16,8
+20,3/1/2014,620,22,Inbound,4231846,4231872,Talbot Ave @ Nightingale St,25,16,9
+20,3/1/2014,624,22,Inbound,4231846,4231872,Blue Hill Ave @ Ellington St - Franklin Park Zoo,28,16,12
+20,3/1/2014,628,22,Inbound,4231846,4231872,Seaver St @ Humboldt Ave,29,16,13
+20,3/1/2014,631,22,Inbound,4231846,4231872,1990 Columbus Ave,28,16,12
+20,3/1/2014,635,22,Inbound,4231846,4231872,Jackson Sq Station @ Orange Line,28,16,12
+20,3/1/2014,640,22,Inbound,4231846,4231872,Columbus Ave @ Malcolm X Blvd,29,16,13
+20,3/1/2014,643,22,Inbound,4231846,4231872,Ruggles Sta - Upper Level,30,16,14
+21,3/1/2014,630,22,Inbound,4231872,4231918,Ashmont Station,7,14,-7
+21,3/1/2014,632,22,Inbound,4231872,4231918,Talbot Ave @ Centre St,5,14,-9
+21,3/1/2014,636,22,Inbound,4231872,4231918,Talbot Ave @ Nightingale St,5,14,-9
+21,3/1/2014,640,22,Inbound,4231872,4231918,Blue Hill Ave @ Ellington St - Franklin Park Zoo,4,14,-10
+21,3/1/2014,644,22,Inbound,4231872,4231918,Seaver St @ Humboldt Ave,3,14,-11
+21,3/1/2014,647,22,Inbound,4231872,4231918,1990 Columbus Ave,4,14,-10
+21,3/1/2014,651,22,Inbound,4231872,4231918,Jackson Sq Station @ Orange Line,4,14,-10
+21,3/1/2014,656,22,Inbound,4231872,4231918,Columbus Ave @ Malcolm X Blvd,2,14,-12
+21,3/1/2014,659,22,Inbound,4231872,4231918,Ruggles Sta - Upper Level,4,14,-10
+22,3/1/2014,644,22,Inbound,4231918,4231779,Ashmont Station,16,11,5
+22,3/1/2014,646,22,Inbound,4231918,4231779,Talbot Ave @ Centre St,19,11,8
+22,3/1/2014,650,22,Inbound,4231918,4231779,Talbot Ave @ Nightingale St,20,11,9
+22,3/1/2014,654,22,Inbound,4231918,4231779,Blue Hill Ave @ Ellington St - Franklin Park Zoo,20,11,9
+22,3/1/2014,658,22,Inbound,4231918,4231779,Seaver St @ Humboldt Ave,20,11,9
+22,3/1/2014,661,22,Inbound,4231918,4231779,1990 Columbus Ave,19,11,8
+22,3/1/2014,665,22,Inbound,4231918,4231779,Jackson Sq Station @ Orange Line,21,11,10
+22,3/1/2014,670,22,Inbound,4231918,4231779,Columbus Ave @ Malcolm X Blvd,21,11,10
+22,3/1/2014,673,22,Inbound,4231918,4231779,Ruggles Sta - Upper Level,18,11,7
+23,3/1/2014,655,22,Inbound,4231779,4231813,Ashmont Station,5,11,-6
+23,3/1/2014,657,22,Inbound,4231779,4231813,Talbot Ave @ Centre St,2,11,-9
+23,3/1/2014,661,22,Inbound,4231779,4231813,Talbot Ave @ Nightingale St,-2,11,-13
+23,3/1/2014,665,22,Inbound,4231779,4231813,Blue Hill Ave @ Ellington St - Franklin Park Zoo,1,11,-10
+23,3/1/2014,669,22,Inbound,4231779,4231813,Seaver St @ Humboldt Ave,1,11,-10
+23,3/1/2014,672,22,Inbound,4231779,4231813,1990 Columbus Ave,1,11,-10
+23,3/1/2014,676,22,Inbound,4231779,4231813,Jackson Sq Station @ Orange Line,0,11,-11
+23,3/1/2014,681,22,Inbound,4231779,4231813,Columbus Ave @ Malcolm X Blvd,1,11,-10
+23,3/1/2014,684,22,Inbound,4231779,4231813,Ruggles Sta - Upper Level,2,12,-10
+24,3/1/2014,666,22,Inbound,4231813,4231848,Ashmont Station,4,11,-7
+24,3/1/2014,668,22,Inbound,4231813,4231848,Talbot Ave @ Centre St,10,11,-1
+24,3/1/2014,672,22,Inbound,4231813,4231848,Talbot Ave @ Nightingale St,11,11,0
+24,3/1/2014,676,22,Inbound,4231813,4231848,Blue Hill Ave @ Ellington St - Franklin Park Zoo,9,11,-2
+24,3/1/2014,680,22,Inbound,4231813,4231848,Seaver St @ Humboldt Ave,9,11,-2
+24,3/1/2014,683,22,Inbound,4231813,4231848,1990 Columbus Ave,8,11,-3
+24,3/1/2014,687,22,Inbound,4231813,4231848,Jackson Sq Station @ Orange Line,8,11,-3
+24,3/1/2014,692,22,Inbound,4231813,4231848,Columbus Ave @ Malcolm X Blvd,9,11,-2
+24,3/1/2014,696,22,Inbound,4231813,4231848,Ruggles Sta - Upper Level,8,11,-3
+25,3/1/2014,677,22,Inbound,4231848,4231965,Ashmont Station,13,11,2
+25,3/1/2014,679,22,Inbound,4231848,4231965,Talbot Ave @ Centre St,9,11,-2
+25,3/1/2014,683,22,Inbound,4231848,4231965,Talbot Ave @ Nightingale St,9,11,-2
+25,3/1/2014,687,22,Inbound,4231848,4231965,Blue Hill Ave @ Ellington St - Franklin Park Zoo,8,12,-4
+25,3/1/2014,691,22,Inbound,4231848,4231965,Seaver St @ Humboldt Ave,9,12,-3
+25,3/1/2014,694,22,Inbound,4231848,4231965,1990 Columbus Ave,10,12,-2
+25,3/1/2014,698,22,Inbound,4231848,4231965,Jackson Sq Station @ Orange Line,10,12,-2
+25,3/1/2014,703,22,Inbound,4231848,4231965,Columbus Ave @ Malcolm X Blvd,11,12,-1
+25,3/1/2014,707,22,Inbound,4231848,4231965,Ruggles Sta - Upper Level,12,12,0
+26,3/1/2014,688,22,Inbound,4231965,4231874,Ashmont Station,10,11,-1
+26,3/1/2014,690,22,Inbound,4231965,4231874,Talbot Ave @ Centre St,11,11,0
+26,3/1/2014,694,22,Inbound,4231965,4231874,Talbot Ave @ Nightingale St,11,11,0
+26,3/1/2014,699,22,Inbound,4231965,4231874,Blue Hill Ave @ Ellington St - Franklin Park Zoo,10,11,-1
+26,3/1/2014,703,22,Inbound,4231965,4231874,Seaver St @ Humboldt Ave,9,11,-2
+26,3/1/2014,706,22,Inbound,4231965,4231874,1990 Columbus Ave,9,11,-2
+26,3/1/2014,710,22,Inbound,4231965,4231874,Jackson Sq Station @ Orange Line,9,11,-2
+26,3/1/2014,715,22,Inbound,4231965,4231874,Columbus Ave @ Malcolm X Blvd,8,11,-3
+26,3/1/2014,719,22,Inbound,4231965,4231874,Ruggles Sta - Upper Level,8,11,-3
+27,3/1/2014,699,22,Inbound,4231874,4229590,Ashmont Station,19,11,8
+27,3/1/2014,701,22,Inbound,4231874,4229590,Talbot Ave @ Centre St,16,11,5
+27,3/1/2014,705,22,Inbound,4231874,4229590,Talbot Ave @ Nightingale St,22,11,11
+27,3/1/2014,710,22,Inbound,4231874,4229590,Blue Hill Ave @ Ellington St - Franklin Park Zoo,22,11,11
+27,3/1/2014,714,22,Inbound,4231874,4229590,Seaver St @ Humboldt Ave,24,11,13
+27,3/1/2014,717,22,Inbound,4231874,4229590,1990 Columbus Ave,26,11,15
+27,3/1/2014,721,22,Inbound,4231874,4229590,Jackson Sq Station @ Orange Line,25,11,14
+27,3/1/2014,726,22,Inbound,4231874,4229590,Columbus Ave @ Malcolm X Blvd,24,11,13
+27,3/1/2014,730,22,Inbound,4231874,4229590,Ruggles Sta - Upper Level,26,11,15
+28,3/1/2014,710,22,Inbound,4229590,4231920,Ashmont Station,-2,11,-13
+28,3/1/2014,712,22,Inbound,4229590,4231920,Talbot Ave @ Centre St,7,11,-4
+28,3/1/2014,716,22,Inbound,4229590,4231920,Talbot Ave @ Nightingale St,1,11,-10
+28,3/1/2014,721,22,Inbound,4229590,4231920,Blue Hill Ave @ Ellington St - Franklin Park Zoo,3,11,-8
+28,3/1/2014,725,22,Inbound,4229590,4231920,Seaver St @ Humboldt Ave,1,11,-10
+28,3/1/2014,728,22,Inbound,4229590,4231920,1990 Columbus Ave,-1,11,-12
+28,3/1/2014,732,22,Inbound,4229590,4231920,Jackson Sq Station @ Orange Line,0,11,-11
+28,3/1/2014,737,22,Inbound,4229590,4231920,Columbus Ave @ Malcolm X Blvd,0,11,-11
+28,3/1/2014,741,22,Inbound,4229590,4231920,Ruggles Sta - Upper Level,-2,11,-13
+29,3/1/2014,721,22,Inbound,4231920,4231781,Ashmont Station,16,11,5
+29,3/1/2014,723,22,Inbound,4231920,4231781,Talbot Ave @ Centre St,10,11,-1
+29,3/1/2014,727,22,Inbound,4231920,4231781,Talbot Ave @ Nightingale St,13,11,2
+29,3/1/2014,732,22,Inbound,4231920,4231781,Blue Hill Ave @ Ellington St - Franklin Park Zoo,15,11,4
+29,3/1/2014,736,22,Inbound,4231920,4231781,Seaver St @ Humboldt Ave,16,11,5
+29,3/1/2014,739,22,Inbound,4231920,4231781,1990 Columbus Ave,18,11,7
+29,3/1/2014,743,22,Inbound,4231920,4231781,Jackson Sq Station @ Orange Line,17,11,6
+29,3/1/2014,748,22,Inbound,4231920,4231781,Columbus Ave @ Malcolm X Blvd,17,11,6
+29,3/1/2014,752,22,Inbound,4231920,4231781,Ruggles Sta - Upper Level,18,11,7
+30,3/1/2014,732,22,Inbound,4231781,4231850,Ashmont Station,26,22,4
+30,3/1/2014,734,22,Inbound,4231781,4231850,Talbot Ave @ Centre St,22,22,0
+30,3/1/2014,738,22,Inbound,4231781,4231850,Talbot Ave @ Nightingale St,21,22,-1
+30,3/1/2014,743,22,Inbound,4231781,4231850,Blue Hill Ave @ Ellington St - Franklin Park Zoo,17,22,-5
+30,3/1/2014,747,22,Inbound,4231781,4231850,Seaver St @ Humboldt Ave,16,22,-6
+30,3/1/2014,750,22,Inbound,4231781,4231850,1990 Columbus Ave,15,22,-7
+30,3/1/2014,754,22,Inbound,4231781,4231850,Jackson Sq Station @ Orange Line,16,22,-6
+30,3/1/2014,759,22,Inbound,4231781,4231850,Columbus Ave @ Malcolm X Blvd,19,22,-3
+31,3/1/2014,754,22,Inbound,4231850,4231967,Ashmont Station,-2,12,-14
+31,3/1/2014,756,22,Inbound,4231850,4231967,Talbot Ave @ Centre St,14,12,2
+31,3/1/2014,760,22,Inbound,4231850,4231967,Talbot Ave @ Nightingale St,14,12,2
+31,3/1/2014,765,22,Inbound,4231850,4231967,Blue Hill Ave @ Ellington St - Franklin Park Zoo,16,12,4
+31,3/1/2014,769,22,Inbound,4231850,4231967,Seaver St @ Humboldt Ave,16,12,4
+31,3/1/2014,772,22,Inbound,4231850,4231967,1990 Columbus Ave,15,12,3
+31,3/1/2014,776,22,Inbound,4231850,4231967,Jackson Sq Station @ Orange Line,15,12,3
+31,3/1/2014,781,22,Inbound,4231850,4231967,Columbus Ave @ Malcolm X Blvd,14,12,2
+32,3/1/2014,766,22,Inbound,4231967,4231876,Ashmont Station,14,12,2
+32,3/1/2014,768,22,Inbound,4231967,4231876,Talbot Ave @ Centre St,15,12,3
+32,3/1/2014,772,22,Inbound,4231967,4231876,Talbot Ave @ Nightingale St,16,12,4
+32,3/1/2014,777,22,Inbound,4231967,4231876,Blue Hill Ave @ Ellington St - Franklin Park Zoo,14,12,2
+32,3/1/2014,781,22,Inbound,4231967,4231876,Seaver St @ Humboldt Ave,16,12,4
+32,3/1/2014,784,22,Inbound,4231967,4231876,1990 Columbus Ave,17,12,5
+32,3/1/2014,788,22,Inbound,4231967,4231876,Jackson Sq Station @ Orange Line,17,12,5
+32,3/1/2014,793,22,Inbound,4231967,4231876,Columbus Ave @ Malcolm X Blvd,16,12,4
+33,3/1/2014,778,22,Inbound,4231876,4229592,Ashmont Station,24,12,12
+33,3/1/2014,780,22,Inbound,4231876,4229592,Talbot Ave @ Centre St,9,12,-3
+33,3/1/2014,784,22,Inbound,4231876,4229592,Talbot Ave @ Nightingale St,9,12,-3
+33,3/1/2014,789,22,Inbound,4231876,4229592,Blue Hill Ave @ Ellington St - Franklin Park Zoo,12,12,0
+33,3/1/2014,793,22,Inbound,4231876,4229592,Seaver St @ Humboldt Ave,10,12,-2
+33,3/1/2014,796,22,Inbound,4231876,4229592,1990 Columbus Ave,9,12,-3
+33,3/1/2014,800,22,Inbound,4231876,4229592,Jackson Sq Station @ Orange Line,9,12,-3
+33,3/1/2014,805,22,Inbound,4231876,4229592,Columbus Ave @ Malcolm X Blvd,9,12,-3
+34,3/1/2014,790,22,Inbound,4229592,4231922,Ashmont Station,-1,12,-13
+34,3/1/2014,792,22,Inbound,4229592,4231922,Talbot Ave @ Centre St,13,12,1
+34,3/1/2014,796,22,Inbound,4229592,4231922,Talbot Ave @ Nightingale St,13,12,1
+34,3/1/2014,801,22,Inbound,4229592,4231922,Blue Hill Ave @ Ellington St - Franklin Park Zoo,11,12,-1
+34,3/1/2014,805,22,Inbound,4229592,4231922,Seaver St @ Humboldt Ave,11,12,-1
+34,3/1/2014,808,22,Inbound,4229592,4231922,1990 Columbus Ave,12,12,0
+34,3/1/2014,812,22,Inbound,4229592,4231922,Jackson Sq Station @ Orange Line,12,12,0
+34,3/1/2014,817,22,Inbound,4229592,4231922,Columbus Ave @ Malcolm X Blvd,11,12,-1
+34,3/1/2014,821,22,Inbound,4229592,4231922,Ruggles Sta - Upper Level,11,12,-1
+35,3/1/2014,802,22,Inbound,4231922,4231783,Ashmont Station,15,12,3
+35,3/1/2014,804,22,Inbound,4231922,4231783,Talbot Ave @ Centre St,9,12,-3
+35,3/1/2014,808,22,Inbound,4231922,4231783,Talbot Ave @ Nightingale St,5,12,-7
+35,3/1/2014,813,22,Inbound,4231922,4231783,Blue Hill Ave @ Ellington St - Franklin Park Zoo,7,12,-5
+35,3/1/2014,817,22,Inbound,4231922,4231783,Seaver St @ Humboldt Ave,5,12,-7
+35,3/1/2014,820,22,Inbound,4231922,4231783,1990 Columbus Ave,4,12,-8
+35,3/1/2014,824,22,Inbound,4231922,4231783,Jackson Sq Station @ Orange Line,4,12,-8
+35,3/1/2014,829,22,Inbound,4231922,4231783,Columbus Ave @ Malcolm X Blvd,4,12,-8
+35,3/1/2014,833,22,Inbound,4231922,4231783,Ruggles Sta - Upper Level,2,12,-10
+36,3/1/2014,814,22,Inbound,4231783,4231817,Ashmont Station,22,12,10
+36,3/1/2014,816,22,Inbound,4231783,4231817,Talbot Ave @ Centre St,17,12,5
+36,3/1/2014,820,22,Inbound,4231783,4231817,Talbot Ave @ Nightingale St,20,12,8
+36,3/1/2014,825,22,Inbound,4231783,4231817,Blue Hill Ave @ Ellington St - Franklin Park Zoo,19,12,7
+36,3/1/2014,829,22,Inbound,4231783,4231817,Seaver St @ Humboldt Ave,22,12,10
+36,3/1/2014,832,22,Inbound,4231783,4231817,1990 Columbus Ave,22,12,10
+36,3/1/2014,836,22,Inbound,4231783,4231817,Jackson Sq Station @ Orange Line,23,12,11
+36,3/1/2014,841,22,Inbound,4231783,4231817,Columbus Ave @ Malcolm X Blvd,24,12,12
+36,3/1/2014,845,22,Inbound,4231783,4231817,Ruggles Sta - Upper Level,28,12,16
+37,3/1/2014,826,22,Inbound,4231817,4231852,Ashmont Station,-1,12,-13
+37,3/1/2014,828,22,Inbound,4231817,4231852,Talbot Ave @ Centre St,10,12,-2
+37,3/1/2014,832,22,Inbound,4231817,4231852,Talbot Ave @ Nightingale St,9,12,-3
+37,3/1/2014,837,22,Inbound,4231817,4231852,Blue Hill Ave @ Ellington St - Franklin Park Zoo,9,12,-3
+37,3/1/2014,841,22,Inbound,4231817,4231852,Seaver St @ Humboldt Ave,9,12,-3
+37,3/1/2014,844,22,Inbound,4231817,4231852,1990 Columbus Ave,9,12,-3
+37,3/1/2014,848,22,Inbound,4231817,4231852,Jackson Sq Station @ Orange Line,7,12,-5
+37,3/1/2014,853,22,Inbound,4231817,4231852,Columbus Ave @ Malcolm X Blvd,6,12,-6
+38,3/1/2014,838,22,Inbound,4231852,4231969,Ashmont Station,13,12,1
+38,3/1/2014,840,22,Inbound,4231852,4231969,Talbot Ave @ Centre St,11,12,-1
+38,3/1/2014,844,22,Inbound,4231852,4231969,Talbot Ave @ Nightingale St,13,12,1
+38,3/1/2014,849,22,Inbound,4231852,4231969,Blue Hill Ave @ Ellington St - Franklin Park Zoo,12,12,0
+38,3/1/2014,853,22,Inbound,4231852,4231969,Seaver St @ Humboldt Ave,10,12,-2
+38,3/1/2014,856,22,Inbound,4231852,4231969,1990 Columbus Ave,10,12,-2
+38,3/1/2014,860,22,Inbound,4231852,4231969,Jackson Sq Station @ Orange Line,12,12,0
+38,3/1/2014,865,22,Inbound,4231852,4231969,Columbus Ave @ Malcolm X Blvd,12,12,0
+39,3/1/2014,850,22,Inbound,4231969,4231807,Ashmont Station,6,12,-6
+39,3/1/2014,852,22,Inbound,4231969,4231807,Talbot Ave @ Centre St,13,12,1
+39,3/1/2014,856,22,Inbound,4231969,4231807,Talbot Ave @ Nightingale St,16,12,4
+39,3/1/2014,861,22,Inbound,4231969,4231807,Blue Hill Ave @ Ellington St - Franklin Park Zoo,18,12,6
+39,3/1/2014,865,22,Inbound,4231969,4231807,Seaver St @ Humboldt Ave,21,12,9
+39,3/1/2014,868,22,Inbound,4231969,4231807,1990 Columbus Ave,21,12,9
+39,3/1/2014,872,22,Inbound,4231969,4231807,Jackson Sq Station @ Orange Line,22,12,10
+39,3/1/2014,877,22,Inbound,4231969,4231807,Columbus Ave @ Malcolm X Blvd,22,12,10
+39,3/1/2014,881,22,Inbound,4231969,4231807,Ruggles Sta - Upper Level,24,12,12
+40,3/1/2014,862,22,Inbound,4231807,4229594,Ashmont Station,21,12,9
+40,3/1/2014,864,22,Inbound,4231807,4229594,Talbot Ave @ Centre St,11,12,-1
+40,3/1/2014,868,22,Inbound,4231807,4229594,Talbot Ave @ Nightingale St,7,12,-5
+40,3/1/2014,873,22,Inbound,4231807,4229594,Blue Hill Ave @ Ellington St - Franklin Park Zoo,5,12,-7
+40,3/1/2014,877,22,Inbound,4231807,4229594,Seaver St @ Humboldt Ave,4,12,-8
+40,3/1/2014,880,22,Inbound,4231807,4229594,1990 Columbus Ave,4,12,-8
+40,3/1/2014,884,22,Inbound,4231807,4229594,Jackson Sq Station @ Orange Line,2,12,-10
+40,3/1/2014,889,22,Inbound,4231807,4229594,Columbus Ave @ Malcolm X Blvd,2,12,-10
+40,3/1/2014,893,22,Inbound,4231807,4229594,Ruggles Sta - Upper Level,2,12,-10
+41,3/1/2014,874,22,Inbound,4229594,4231924,Ashmont Station,12,12,0
+41,3/1/2014,876,22,Inbound,4229594,4231924,Talbot Ave @ Centre St,11,12,-1
+41,3/1/2014,880,22,Inbound,4229594,4231924,Talbot Ave @ Nightingale St,12,12,0
+41,3/1/2014,885,22,Inbound,4229594,4231924,Blue Hill Ave @ Ellington St - Franklin Park Zoo,14,12,2
+41,3/1/2014,889,22,Inbound,4229594,4231924,Seaver St @ Humboldt Ave,14,12,2
+41,3/1/2014,892,22,Inbound,4229594,4231924,1990 Columbus Ave,14,12,2
+41,3/1/2014,896,22,Inbound,4229594,4231924,Jackson Sq Station @ Orange Line,17,12,5
+41,3/1/2014,901,22,Inbound,4229594,4231924,Columbus Ave @ Malcolm X Blvd,18,12,6
+41,3/1/2014,905,22,Inbound,4229594,4231924,Ruggles Sta - Upper Level,18,12,6
+42,3/1/2014,886,22,Inbound,4231924,4231785,Ashmont Station,7,12,-5
+42,3/1/2014,888,22,Inbound,4231924,4231785,Talbot Ave @ Centre St,11,12,-1
+42,3/1/2014,892,22,Inbound,4231924,4231785,Talbot Ave @ Nightingale St,11,12,-1
+42,3/1/2014,897,22,Inbound,4231924,4231785,Blue Hill Ave @ Ellington St - Franklin Park Zoo,12,12,0
+42,3/1/2014,901,22,Inbound,4231924,4231785,Seaver St @ Humboldt Ave,11,12,-1
+42,3/1/2014,904,22,Inbound,4231924,4231785,1990 Columbus Ave,11,12,-1
+42,3/1/2014,908,22,Inbound,4231924,4231785,Jackson Sq Station @ Orange Line,9,12,-3
+42,3/1/2014,913,22,Inbound,4231924,4231785,Columbus Ave @ Malcolm X Blvd,9,12,-3
+42,3/1/2014,917,22,Inbound,4231924,4231785,Ruggles Sta - Upper Level,9,12,-3
+43,3/1/2014,898,22,Inbound,4231785,4231819,Ashmont Station,20,12,8
+43,3/1/2014,900,22,Inbound,4231785,4231819,Talbot Ave @ Centre St,12,12,0
+43,3/1/2014,904,22,Inbound,4231785,4231819,Talbot Ave @ Nightingale St,12,12,0
+43,3/1/2014,909,22,Inbound,4231785,4231819,Blue Hill Ave @ Ellington St - Franklin Park Zoo,9,12,-3
+43,3/1/2014,913,22,Inbound,4231785,4231819,Seaver St @ Humboldt Ave,9,12,-3
+43,3/1/2014,916,22,Inbound,4231785,4231819,1990 Columbus Ave,10,12,-2
+43,3/1/2014,920,22,Inbound,4231785,4231819,Jackson Sq Station @ Orange Line,9,12,-3
+43,3/1/2014,925,22,Inbound,4231785,4231819,Columbus Ave @ Malcolm X Blvd,7,12,-5
+43,3/1/2014,929,22,Inbound,4231785,4231819,Ruggles Sta - Upper Level,7,12,-5
+44,3/1/2014,910,22,Inbound,4231819,4231854,Ashmont Station,9,12,-3
+44,3/1/2014,912,22,Inbound,4231819,4231854,Talbot Ave @ Centre St,18,12,6
+44,3/1/2014,916,22,Inbound,4231819,4231854,Talbot Ave @ Nightingale St,16,12,4
+44,3/1/2014,921,22,Inbound,4231819,4231854,Blue Hill Ave @ Ellington St - Franklin Park Zoo,17,12,5
+44,3/1/2014,925,22,Inbound,4231819,4231854,Seaver St @ Humboldt Ave,18,12,6
+44,3/1/2014,928,22,Inbound,4231819,4231854,1990 Columbus Ave,17,12,5
+44,3/1/2014,932,22,Inbound,4231819,4231854,Jackson Sq Station @ Orange Line,18,12,6
+44,3/1/2014,937,22,Inbound,4231819,4231854,Columbus Ave @ Malcolm X Blvd,19,12,7
+44,3/1/2014,941,22,Inbound,4231819,4231854,Ruggles Sta - Upper Level,20,12,8
+45,3/1/2014,922,22,Inbound,4231854,4231971,Ashmont Station,7,12,-5
+45,3/1/2014,924,22,Inbound,4231854,4231971,Talbot Ave @ Centre St,9,12,-3
+45,3/1/2014,928,22,Inbound,4231854,4231971,Talbot Ave @ Nightingale St,9,12,-3
+45,3/1/2014,933,22,Inbound,4231854,4231971,Blue Hill Ave @ Ellington St - Franklin Park Zoo,8,12,-4
+45,3/1/2014,937,22,Inbound,4231854,4231971,Seaver St @ Humboldt Ave,7,12,-5
+45,3/1/2014,940,22,Inbound,4231854,4231971,1990 Columbus Ave,7,12,-5
+45,3/1/2014,944,22,Inbound,4231854,4231971,Jackson Sq Station @ Orange Line,5,12,-7
+45,3/1/2014,949,22,Inbound,4231854,4231971,Columbus Ave @ Malcolm X Blvd,4,12,-8
+45,3/1/2014,953,22,Inbound,4231854,4231971,Ruggles Sta - Upper Level,2,12,-10
+46,3/1/2014,934,22,Inbound,4231971,4231809,Ashmont Station,21,12,9
+46,3/1/2014,936,22,Inbound,4231971,4231809,Talbot Ave @ Centre St,11,12,-1
+46,3/1/2014,940,22,Inbound,4231971,4231809,Talbot Ave @ Nightingale St,13,12,1
+46,3/1/2014,945,22,Inbound,4231971,4231809,Blue Hill Ave @ Ellington St - Franklin Park Zoo,12,12,0
+46,3/1/2014,949,22,Inbound,4231971,4231809,Seaver St @ Humboldt Ave,11,12,-1
+46,3/1/2014,952,22,Inbound,4231971,4231809,1990 Columbus Ave,13,12,1
+46,3/1/2014,956,22,Inbound,4231971,4231809,Jackson Sq Station @ Orange Line,14,12,2
+46,3/1/2014,961,22,Inbound,4231971,4231809,Columbus Ave @ Malcolm X Blvd,17,12,5
+46,3/1/2014,965,22,Inbound,4231971,4231809,Ruggles Sta - Upper Level,18,12,6
+47,3/1/2014,946,22,Inbound,4231809,4229596,Ashmont Station,2,12,-10
+47,3/1/2014,948,22,Inbound,4231809,4229596,Talbot Ave @ Centre St,11,12,-1
+47,3/1/2014,952,22,Inbound,4231809,4229596,Talbot Ave @ Nightingale St,10,12,-2
+47,3/1/2014,957,22,Inbound,4231809,4229596,Blue Hill Ave @ Ellington St - Franklin Park Zoo,10,12,-2
+47,3/1/2014,961,22,Inbound,4231809,4229596,Seaver St @ Humboldt Ave,11,12,-1
+47,3/1/2014,964,22,Inbound,4231809,4229596,1990 Columbus Ave,10,12,-2
+47,3/1/2014,968,22,Inbound,4231809,4229596,Jackson Sq Station @ Orange Line,11,12,-1
+47,3/1/2014,973,22,Inbound,4231809,4229596,Columbus Ave @ Malcolm X Blvd,12,12,0
+47,3/1/2014,977,22,Inbound,4231809,4229596,Ruggles Sta - Upper Level,11,12,-1
+48,3/1/2014,958,22,Inbound,4229596,4231926,Ashmont Station,18,12,6
+48,3/1/2014,960,22,Inbound,4229596,4231926,Talbot Ave @ Centre St,12,12,0
+48,3/1/2014,964,22,Inbound,4229596,4231926,Talbot Ave @ Nightingale St,11,12,-1
+48,3/1/2014,969,22,Inbound,4229596,4231926,Blue Hill Ave @ Ellington St - Franklin Park Zoo,13,12,1
+48,3/1/2014,973,22,Inbound,4229596,4231926,Seaver St @ Humboldt Ave,11,12,-1
+48,3/1/2014,976,22,Inbound,4229596,4231926,1990 Columbus Ave,10,12,-2
+48,3/1/2014,980,22,Inbound,4229596,4231926,Jackson Sq Station @ Orange Line,9,12,-3
+48,3/1/2014,985,22,Inbound,4229596,4231926,Columbus Ave @ Malcolm X Blvd,7,12,-5
+48,3/1/2014,989,22,Inbound,4229596,4231926,Ruggles Sta - Upper Level,7,12,-5
+49,3/1/2014,970,22,Inbound,4231926,4234208,Ashmont Station,9,12,-3
+49,3/1/2014,972,22,Inbound,4231926,4234208,Talbot Ave @ Centre St,12,12,0
+49,3/1/2014,976,22,Inbound,4231926,4234208,Talbot Ave @ Nightingale St,12,12,0
+49,3/1/2014,981,22,Inbound,4231926,4234208,Blue Hill Ave @ Ellington St - Franklin Park Zoo,12,12,0
+49,3/1/2014,985,22,Inbound,4231926,4234208,Seaver St @ Humboldt Ave,15,12,3
+49,3/1/2014,988,22,Inbound,4231926,4234208,1990 Columbus Ave,16,12,4
+49,3/1/2014,992,22,Inbound,4231926,4234208,Jackson Sq Station @ Orange Line,17,12,5
+49,3/1/2014,997,22,Inbound,4231926,4234208,Columbus Ave @ Malcolm X Blvd,17,12,5
+49,3/1/2014,1001,22,Inbound,4231926,4234208,Ruggles Sta - Upper Level,18,12,6
+50,3/1/2014,982,22,Inbound,4234208,4231821,Ashmont Station,13,12,1
+50,3/1/2014,984,22,Inbound,4234208,4231821,Talbot Ave @ Centre St,12,12,0
+50,3/1/2014,988,22,Inbound,4234208,4231821,Talbot Ave @ Nightingale St,12,12,0
+50,3/1/2014,993,22,Inbound,4234208,4231821,Blue Hill Ave @ Ellington St - Franklin Park Zoo,12,12,0
+50,3/1/2014,997,22,Inbound,4234208,4231821,Seaver St @ Humboldt Ave,11,12,-1
+50,3/1/2014,1000,22,Inbound,4234208,4231821,1990 Columbus Ave,10,12,-2
+50,3/1/2014,1004,22,Inbound,4234208,4231821,Jackson Sq Station @ Orange Line,9,12,-3
+50,3/1/2014,1009,22,Inbound,4234208,4231821,Columbus Ave @ Malcolm X Blvd,9,12,-3
+50,3/1/2014,1013,22,Inbound,4234208,4231821,Ruggles Sta - Upper Level,8,12,-4
+51,3/1/2014,994,22,Inbound,4231821,4231856,Ashmont Station,10,12,-2
+51,3/1/2014,996,22,Inbound,4231821,4231856,Talbot Ave @ Centre St,12,12,0
+51,3/1/2014,1000,22,Inbound,4231821,4231856,Talbot Ave @ Nightingale St,12,12,0
+51,3/1/2014,1005,22,Inbound,4231821,4231856,Blue Hill Ave @ Ellington St - Franklin Park Zoo,10,12,-2
+51,3/1/2014,1009,22,Inbound,4231821,4231856,Seaver St @ Humboldt Ave,10,12,-2
+51,3/1/2014,1012,22,Inbound,4231821,4231856,1990 Columbus Ave,9,12,-3
+51,3/1/2014,1016,22,Inbound,4231821,4231856,Jackson Sq Station @ Orange Line,9,12,-3
+51,3/1/2014,1021,22,Inbound,4231821,4231856,Columbus Ave @ Malcolm X Blvd,7,12,-5
+52,3/1/2014,1006,22,Inbound,4231856,4231973,Ashmont Station,13,12,1
+52,3/1/2014,1008,22,Inbound,4231856,4231973,Talbot Ave @ Centre St,12,12,0
+52,3/1/2014,1012,22,Inbound,4231856,4231973,Talbot Ave @ Nightingale St,13,12,1
+52,3/1/2014,1017,22,Inbound,4231856,4231973,Blue Hill Ave @ Ellington St - Franklin Park Zoo,13,12,1
+52,3/1/2014,1021,22,Inbound,4231856,4231973,Seaver St @ Humboldt Ave,13,12,1
+52,3/1/2014,1024,22,Inbound,4231856,4231973,1990 Columbus Ave,16,12,4
+52,3/1/2014,1028,22,Inbound,4231856,4231973,Jackson Sq Station @ Orange Line,17,12,5
+52,3/1/2014,1033,22,Inbound,4231856,4231973,Columbus Ave @ Malcolm X Blvd,18,12,6
+53,3/1/2014,1018,22,Inbound,4231973,4231811,Ashmont Station,11,12,-1
+53,3/1/2014,1020,22,Inbound,4231973,4231811,Talbot Ave @ Centre St,12,12,0
+53,3/1/2014,1024,22,Inbound,4231973,4231811,Talbot Ave @ Nightingale St,10,12,-2
+53,3/1/2014,1029,22,Inbound,4231973,4231811,Blue Hill Ave @ Ellington St - Franklin Park Zoo,12,12,0
+53,3/1/2014,1033,22,Inbound,4231973,4231811,Seaver St @ Humboldt Ave,12,12,0
+53,3/1/2014,1036,22,Inbound,4231973,4231811,1990 Columbus Ave,10,12,-2
+53,3/1/2014,1040,22,Inbound,4231973,4231811,Jackson Sq Station @ Orange Line,8,12,-4
+53,3/1/2014,1045,22,Inbound,4231973,4231811,Columbus Ave @ Malcolm X Blvd,7,12,-5
+53,3/1/2014,1049,22,Inbound,4231973,4231811,Ruggles Sta - Upper Level,8,12,-4
+54,3/1/2014,1030,22,Inbound,4231811,4229598,Ashmont Station,12,12,0
+54,3/1/2014,1032,22,Inbound,4231811,4229598,Talbot Ave @ Centre St,10,12,-2
+54,3/1/2014,1036,22,Inbound,4231811,4229598,Talbot Ave @ Nightingale St,12,12,0
+54,3/1/2014,1041,22,Inbound,4231811,4229598,Blue Hill Ave @ Ellington St - Franklin Park Zoo,11,12,-1
+54,3/1/2014,1045,22,Inbound,4231811,4229598,Seaver St @ Humboldt Ave,11,12,-1
+54,3/1/2014,1048,22,Inbound,4231811,4229598,1990 Columbus Ave,11,12,-1
+54,3/1/2014,1052,22,Inbound,4231811,4229598,Jackson Sq Station @ Orange Line,11,12,-1
+54,3/1/2014,1057,22,Inbound,4231811,4229598,Columbus Ave @ Malcolm X Blvd,12,12,0
+55,3/1/2014,1042,22,Inbound,4229598,4231928,Ashmont Station,10,12,-2
+55,3/1/2014,1044,22,Inbound,4229598,4231928,Talbot Ave @ Centre St,14,12,2
+55,3/1/2014,1048,22,Inbound,4229598,4231928,Talbot Ave @ Nightingale St,12,12,0
+55,3/1/2014,1053,22,Inbound,4229598,4231928,Blue Hill Ave @ Ellington St - Franklin Park Zoo,13,12,1
+55,3/1/2014,1057,22,Inbound,4229598,4231928,Seaver St @ Humboldt Ave,13,12,1
+55,3/1/2014,1060,22,Inbound,4229598,4231928,1990 Columbus Ave,13,12,1
+55,3/1/2014,1064,22,Inbound,4229598,4231928,Jackson Sq Station @ Orange Line,13,12,1
+55,3/1/2014,1069,22,Inbound,4229598,4231928,Columbus Ave @ Malcolm X Blvd,14,12,2
+56,3/1/2014,1054,22,Inbound,4231928,4234210,Ashmont Station,10,12,-2
+56,3/1/2014,1056,22,Inbound,4231928,4234210,Talbot Ave @ Centre St,12,12,0
+56,3/1/2014,1060,22,Inbound,4231928,4234210,Talbot Ave @ Nightingale St,14,12,2
+56,3/1/2014,1065,22,Inbound,4231928,4234210,Blue Hill Ave @ Ellington St - Franklin Park Zoo,14,12,2
+56,3/1/2014,1069,22,Inbound,4231928,4234210,Seaver St @ Humboldt Ave,13,12,1
+56,3/1/2014,1072,22,Inbound,4231928,4234210,1990 Columbus Ave,12,12,0
+56,3/1/2014,1076,22,Inbound,4231928,4234210,Jackson Sq Station @ Orange Line,13,12,1
+56,3/1/2014,1081,22,Inbound,4231928,4234210,Columbus Ave @ Malcolm X Blvd,11,11,0
+56,3/1/2014,1085,22,Inbound,4231928,4234210,Ruggles Sta - Upper Level,10,11,-1
+57,3/1/2014,1066,22,Inbound,4234210,4231823,Ashmont Station,21,12,9
+57,3/1/2014,1068,22,Inbound,4234210,4231823,Talbot Ave @ Centre St,14,12,2
+57,3/1/2014,1072,22,Inbound,4234210,4231823,Talbot Ave @ Nightingale St,14,12,2
+57,3/1/2014,1077,22,Inbound,4234210,4231823,Blue Hill Ave @ Ellington St - Franklin Park Zoo,13,11,2
+57,3/1/2014,1081,22,Inbound,4234210,4231823,Seaver St @ Humboldt Ave,16,11,5
+57,3/1/2014,1084,22,Inbound,4234210,4231823,1990 Columbus Ave,18,11,7
+57,3/1/2014,1088,22,Inbound,4234210,4231823,Jackson Sq Station @ Orange Line,19,11,8
+57,3/1/2014,1092,22,Inbound,4234210,4231823,Columbus Ave @ Malcolm X Blvd,19,11,8
+58,3/1/2014,1078,22,Inbound,4231823,4231858,Ashmont Station,7,12,-5
+58,3/1/2014,1080,22,Inbound,4231823,4231858,Talbot Ave @ Centre St,10,12,-2
+58,3/1/2014,1084,22,Inbound,4231823,4231858,Talbot Ave @ Nightingale St,8,12,-4
+58,3/1/2014,1088,22,Inbound,4231823,4231858,Blue Hill Ave @ Ellington St - Franklin Park Zoo,8,12,-4
+58,3/1/2014,1092,22,Inbound,4231823,4231858,Seaver St @ Humboldt Ave,5,12,-7
+58,3/1/2014,1095,22,Inbound,4231823,4231858,1990 Columbus Ave,5,12,-7
+58,3/1/2014,1099,22,Inbound,4231823,4231858,Jackson Sq Station @ Orange Line,5,12,-7
+58,3/1/2014,1103,22,Inbound,4231823,4231858,Columbus Ave @ Malcolm X Blvd,6,12,-6
+59,3/1/2014,1090,22,Inbound,4231858,4231975,Ashmont Station,20,15,5
+59,3/1/2014,1092,22,Inbound,4231858,4231975,Talbot Ave @ Centre St,16,15,1
+59,3/1/2014,1096,22,Inbound,4231858,4231975,Talbot Ave @ Nightingale St,17,15,2
+59,3/1/2014,1100,22,Inbound,4231858,4231975,Blue Hill Ave @ Ellington St - Franklin Park Zoo,17,15,2
+59,3/1/2014,1104,22,Inbound,4231858,4231975,Seaver St @ Humboldt Ave,20,15,5
+59,3/1/2014,1107,22,Inbound,4231858,4231975,1990 Columbus Ave,19,15,4
+59,3/1/2014,1111,22,Inbound,4231858,4231975,Jackson Sq Station @ Orange Line,18,15,3
+59,3/1/2014,1115,22,Inbound,4231858,4231975,Columbus Ave @ Malcolm X Blvd,19,15,4
+60,3/1/2014,1105,22,Inbound,4231975,4231930,Ashmont Station,22,15,7
+60,3/1/2014,1107,22,Inbound,4231975,4231930,Talbot Ave @ Centre St,14,15,-1
+60,3/1/2014,1111,22,Inbound,4231975,4231930,Talbot Ave @ Nightingale St,13,15,-2
+60,3/1/2014,1115,22,Inbound,4231975,4231930,Blue Hill Ave @ Ellington St - Franklin Park Zoo,13,15,-2
+60,3/1/2014,1119,22,Inbound,4231975,4231930,Seaver St @ Humboldt Ave,10,15,-5
+60,3/1/2014,1122,22,Inbound,4231975,4231930,1990 Columbus Ave,11,15,-4
+60,3/1/2014,1126,22,Inbound,4231975,4231930,Jackson Sq Station @ Orange Line,11,16,-5
+60,3/1/2014,1130,22,Inbound,4231975,4231930,Columbus Ave @ Malcolm X Blvd,11,15,-4
+61,3/1/2014,1120,22,Inbound,4231930,4234212,Ashmont Station,19,15,4
+61,3/1/2014,1122,22,Inbound,4231930,4234212,Talbot Ave @ Centre St,19,15,4
+61,3/1/2014,1126,22,Inbound,4231930,4234212,Talbot Ave @ Nightingale St,19,15,4
+61,3/1/2014,1130,22,Inbound,4231930,4234212,Blue Hill Ave @ Ellington St - Franklin Park Zoo,19,15,4
+61,3/1/2014,1134,22,Inbound,4231930,4234212,Seaver St @ Humboldt Ave,18,15,3
+61,3/1/2014,1137,22,Inbound,4231930,4234212,1990 Columbus Ave,17,14,3
+61,3/1/2014,1142,22,Inbound,4231930,4234212,Jackson Sq Station @ Orange Line,17,14,3
+61,3/1/2014,1145,22,Inbound,4231930,4234212,Columbus Ave @ Malcolm X Blvd,15,14,1
+62,3/1/2014,1135,22,Inbound,4234212,4231860,Ashmont Station,10,15,-5
+62,3/1/2014,1137,22,Inbound,4234212,4231860,Talbot Ave @ Centre St,11,15,-4
+62,3/1/2014,1141,22,Inbound,4234212,4231860,Talbot Ave @ Nightingale St,12,14,-2
+62,3/1/2014,1145,22,Inbound,4234212,4231860,Blue Hill Ave @ Ellington St - Franklin Park Zoo,12,14,-2
+62,3/1/2014,1149,22,Inbound,4234212,4231860,Seaver St @ Humboldt Ave,14,14,0
+62,3/1/2014,1151,22,Inbound,4234212,4231860,1990 Columbus Ave,13,14,-1
+62,3/1/2014,1156,22,Inbound,4234212,4231860,Jackson Sq Station @ Orange Line,13,14,-1
+62,3/1/2014,1159,22,Inbound,4234212,4231860,Columbus Ave @ Malcolm X Blvd,15,14,1
+62,3/1/2014,1163,22,Inbound,4234212,4231860,Ruggles Sta - Upper Level,14,14,0
+63,3/1/2014,1150,22,Inbound,4231860,4231977,Ashmont Station,24,15,9
+63,3/1/2014,1152,22,Inbound,4231860,4231977,Talbot Ave @ Centre St,24,15,9
+63,3/1/2014,1155,22,Inbound,4231860,4231977,Talbot Ave @ Nightingale St,24,15,9
+63,3/1/2014,1159,22,Inbound,4231860,4231977,Blue Hill Ave @ Ellington St - Franklin Park Zoo,23,15,8
+63,3/1/2014,1163,22,Inbound,4231860,4231977,Seaver St @ Humboldt Ave,24,15,9
+63,3/1/2014,1165,22,Inbound,4231860,4231977,1990 Columbus Ave,26,15,11
+63,3/1/2014,1170,22,Inbound,4231860,4231977,Jackson Sq Station @ Orange Line,25,15,10
+63,3/1/2014,1173,22,Inbound,4231860,4231977,Columbus Ave @ Malcolm X Blvd,23,15,8
+63,3/1/2014,1177,22,Inbound,4231860,4231977,Ruggles Sta - Upper Level,24,15,9
+64,3/1/2014,1165,22,Inbound,4231977,4231932,Ashmont Station,7,20,-13
+64,3/1/2014,1167,22,Inbound,4231977,4231932,Talbot Ave @ Centre St,10,20,-10
+64,3/1/2014,1170,22,Inbound,4231977,4231932,Talbot Ave @ Nightingale St,12,20,-8
+64,3/1/2014,1174,22,Inbound,4231977,4231932,Blue Hill Ave @ Ellington St - Franklin Park Zoo,13,20,-7
+64,3/1/2014,1178,22,Inbound,4231977,4231932,Seaver St @ Humboldt Ave,13,20,-7
+64,3/1/2014,1180,22,Inbound,4231977,4231932,1990 Columbus Ave,12,20,-8
+64,3/1/2014,1185,22,Inbound,4231977,4231932,Jackson Sq Station @ Orange Line,13,20,-7
+64,3/1/2014,1188,22,Inbound,4231977,4231932,Columbus Ave @ Malcolm X Blvd,12,20,-8
+64,3/1/2014,1192,22,Inbound,4231977,4231932,Ruggles Sta - Upper Level,12,20,-8
+65,3/1/2014,1185,22,Inbound,4231932,4234214,Ashmont Station,23,20,3
+65,3/1/2014,1187,22,Inbound,4231932,4234214,Talbot Ave @ Centre St,21,20,1
+65,3/1/2014,1190,22,Inbound,4231932,4234214,Talbot Ave @ Nightingale St,18,20,-2
+65,3/1/2014,1194,22,Inbound,4231932,4234214,Blue Hill Ave @ Ellington St - Franklin Park Zoo,17,20,-3
+65,3/1/2014,1198,22,Inbound,4231932,4234214,Seaver St @ Humboldt Ave,16,20,-4
+65,3/1/2014,1200,22,Inbound,4231932,4234214,1990 Columbus Ave,16,20,-4
+65,3/1/2014,1205,22,Inbound,4231932,4234214,Jackson Sq Station @ Orange Line,15,20,-5
+65,3/1/2014,1208,22,Inbound,4231932,4234214,Columbus Ave @ Malcolm X Blvd,18,20,-2
+65,3/1/2014,1212,22,Inbound,4231932,4234214,Ruggles Sta - Upper Level,17,20,-3
+66,3/1/2014,1205,22,Inbound,4234214,4231979,Ashmont Station,37,20,17
+66,3/1/2014,1207,22,Inbound,4234214,4231979,Talbot Ave @ Centre St,38,20,18
+66,3/1/2014,1210,22,Inbound,4234214,4231979,Talbot Ave @ Nightingale St,38,20,18
+66,3/1/2014,1214,22,Inbound,4234214,4231979,Blue Hill Ave @ Ellington St - Franklin Park Zoo,40,20,20
+66,3/1/2014,1218,22,Inbound,4234214,4231979,Seaver St @ Humboldt Ave,39,20,19
+66,3/1/2014,1220,22,Inbound,4234214,4231979,1990 Columbus Ave,39,20,19
+66,3/1/2014,1225,22,Inbound,4234214,4231979,Jackson Sq Station @ Orange Line,40,20,20
+67,3/1/2014,1225,22,Inbound,4231979,4231934,Ashmont Station,-1,20,-21
+67,3/1/2014,1227,22,Inbound,4231979,4231934,Talbot Ave @ Centre St,3,20,-17
+67,3/1/2014,1230,22,Inbound,4231979,4231934,Talbot Ave @ Nightingale St,5,20,-15
+67,3/1/2014,1234,22,Inbound,4231979,4231934,Blue Hill Ave @ Ellington St - Franklin Park Zoo,3,20,-17
+67,3/1/2014,1238,22,Inbound,4231979,4231934,Seaver St @ Humboldt Ave,3,20,-17
+67,3/1/2014,1240,22,Inbound,4231979,4231934,1990 Columbus Ave,3,20,-17
+67,3/1/2014,1245,22,Inbound,4231979,4231934,Jackson Sq Station @ Orange Line,2,20,-18
+68,3/1/2014,1245,22,Inbound,4231934,4234216,Ashmont Station,25,20,5
+68,3/1/2014,1247,22,Inbound,4231934,4234216,Talbot Ave @ Centre St,19,20,-1
+68,3/1/2014,1250,22,Inbound,4231934,4234216,Talbot Ave @ Nightingale St,18,20,-2
+68,3/1/2014,1254,22,Inbound,4231934,4234216,Blue Hill Ave @ Ellington St - Franklin Park Zoo,19,20,-1
+68,3/1/2014,1258,22,Inbound,4231934,4234216,Seaver St @ Humboldt Ave,19,20,-1
+68,3/1/2014,1260,22,Inbound,4231934,4234216,1990 Columbus Ave,19,20,-1
+68,3/1/2014,1265,22,Inbound,4231934,4234216,Jackson Sq Station @ Orange Line,20,20,0
+68,3/1/2014,1268,22,Inbound,4231934,4234216,Columbus Ave @ Malcolm X Blvd,18,20,-2
+68,3/1/2014,1272,22,Inbound,4231934,4234216,Ruggles Sta - Upper Level,18,20,-2
+69,3/1/2014,1265,22,Inbound,4234216,4231981,Ashmont Station,29,20,9
+69,3/1/2014,1267,22,Inbound,4234216,4231981,Talbot Ave @ Centre St,28,20,8
+69,3/1/2014,1270,22,Inbound,4234216,4231981,Talbot Ave @ Nightingale St,28,20,8
+69,3/1/2014,1274,22,Inbound,4234216,4231981,Blue Hill Ave @ Ellington St - Franklin Park Zoo,29,20,9
+69,3/1/2014,1278,22,Inbound,4234216,4231981,Seaver St @ Humboldt Ave,29,20,9
+69,3/1/2014,1280,22,Inbound,4234216,4231981,1990 Columbus Ave,29,20,9
+69,3/1/2014,1285,22,Inbound,4234216,4231981,Jackson Sq Station @ Orange Line,29,20,9
+69,3/1/2014,1288,22,Inbound,4234216,4231981,Columbus Ave @ Malcolm X Blvd,30,20,10
+69,3/1/2014,1292,22,Inbound,4234216,4231981,Ruggles Sta - Upper Level,28,20,8
+70,3/1/2014,1285,22,Inbound,4231981,4231936,Ashmont Station,12,20,-8
+70,3/1/2014,1287,22,Inbound,4231981,4231936,Talbot Ave @ Centre St,12,20,-8
+70,3/1/2014,1290,22,Inbound,4231981,4231936,Talbot Ave @ Nightingale St,12,20,-8
+70,3/1/2014,1294,22,Inbound,4231981,4231936,Blue Hill Ave @ Ellington St - Franklin Park Zoo,10,20,-10
+70,3/1/2014,1298,22,Inbound,4231981,4231936,Seaver St @ Humboldt Ave,10,20,-10
+70,3/1/2014,1300,22,Inbound,4231981,4231936,1990 Columbus Ave,11,21,-10
+70,3/1/2014,1305,22,Inbound,4231981,4231936,Jackson Sq Station @ Orange Line,10,20,-10
+70,3/1/2014,1308,22,Inbound,4231981,4231936,Columbus Ave @ Malcolm X Blvd,11,20,-9
+71,3/1/2014,1305,22,Inbound,4231936,4232011,Ashmont Station,25,20,5
+71,3/1/2014,1307,22,Inbound,4231936,4232011,Talbot Ave @ Centre St,28,20,8
+71,3/1/2014,1310,22,Inbound,4231936,4232011,Talbot Ave @ Nightingale St,30,20,10
+71,3/1/2014,1314,22,Inbound,4231936,4232011,Blue Hill Ave @ Ellington St - Franklin Park Zoo,30,20,10
+71,3/1/2014,1318,22,Inbound,4231936,4232011,Seaver St @ Humboldt Ave,30,18,12
+71,3/1/2014,1321,22,Inbound,4231936,4232011,1990 Columbus Ave,29,18,11
+71,3/1/2014,1325,22,Inbound,4231936,4232011,Jackson Sq Station @ Orange Line,30,18,12
+71,3/1/2014,1328,22,Inbound,4231936,4232011,Columbus Ave @ Malcolm X Blvd,29,18,11
+72,3/1/2014,1325,22,Inbound,4232011,4231983,Ashmont Station,26,20,6
+72,3/1/2014,1327,22,Inbound,4232011,4231983,Talbot Ave @ Centre St,23,20,3
+72,3/1/2014,1330,22,Inbound,4232011,4231983,Talbot Ave @ Nightingale St,21,20,1
+72,3/1/2014,1334,22,Inbound,4232011,4231983,Blue Hill Ave @ Ellington St - Franklin Park Zoo,21,20,1
+72,3/1/2014,1336,22,Inbound,4232011,4231983,Seaver St @ Humboldt Ave,20,20,0
+72,3/1/2014,1339,22,Inbound,4232011,4231983,1990 Columbus Ave,20,20,0
+72,3/1/2014,1343,22,Inbound,4232011,4231983,Jackson Sq Station @ Orange Line,19,20,-1
+72,3/1/2014,1346,22,Inbound,4232011,4231983,Columbus Ave @ Malcolm X Blvd,17,20,-3
+72,3/1/2014,1349,22,Inbound,4232011,4231983,Ruggles Sta - Upper Level,18,20,-2
+73,3/1/2014,1345,22,Inbound,4231983,4231938,Ashmont Station,4,20,-16
+73,3/1/2014,1347,22,Inbound,4231983,4231938,Talbot Ave @ Centre St,10,20,-10
+73,3/1/2014,1350,22,Inbound,4231983,4231938,Talbot Ave @ Nightingale St,9,20,-11
+73,3/1/2014,1354,22,Inbound,4231983,4231938,Blue Hill Ave @ Ellington St - Franklin Park Zoo,10,20,-10
+73,3/1/2014,1356,22,Inbound,4231983,4231938,Seaver St @ Humboldt Ave,12,20,-8
+73,3/1/2014,1359,22,Inbound,4231983,4231938,1990 Columbus Ave,12,20,-8
+73,3/1/2014,1363,22,Inbound,4231983,4231938,Jackson Sq Station @ Orange Line,13,20,-7
+73,3/1/2014,1366,22,Inbound,4231983,4231938,Columbus Ave @ Malcolm X Blvd,16,20,-4
+73,3/1/2014,1369,22,Inbound,4231983,4231938,Ruggles Sta - Upper Level,16,20,-4
+74,3/1/2014,1365,22,Inbound,4231938,4232013,Ashmont Station,29,20,9
+74,3/1/2014,1367,22,Inbound,4231938,4232013,Talbot Ave @ Centre St,24,20,4
+74,3/1/2014,1370,22,Inbound,4231938,4232013,Talbot Ave @ Nightingale St,24,20,4
+74,3/1/2014,1374,22,Inbound,4231938,4232013,Blue Hill Ave @ Ellington St - Franklin Park Zoo,25,20,5
+74,3/1/2014,1376,22,Inbound,4231938,4232013,Seaver St @ Humboldt Ave,23,20,3
+74,3/1/2014,1379,22,Inbound,4231938,4232013,1990 Columbus Ave,22,20,2
+74,3/1/2014,1383,22,Inbound,4231938,4232013,Jackson Sq Station @ Orange Line,21,20,1
+74,3/1/2014,1386,22,Inbound,4231938,4232013,Columbus Ave @ Malcolm X Blvd,18,20,-2
+74,3/1/2014,1389,22,Inbound,4231938,4232013,Ruggles Sta - Upper Level,18,20,-2
+75,3/1/2014,1385,22,Inbound,4232013,4232043,Ashmont Station,12,20,-8
+75,3/1/2014,1387,22,Inbound,4232013,4232043,Talbot Ave @ Centre St,14,20,-6
+75,3/1/2014,1390,22,Inbound,4232013,4232043,Talbot Ave @ Nightingale St,14,20,-6
+75,3/1/2014,1394,22,Inbound,4232013,4232043,Blue Hill Ave @ Ellington St - Franklin Park Zoo,13,19,-6
+75,3/1/2014,1396,22,Inbound,4232013,4232043,Seaver St @ Humboldt Ave,13,20,-7
+75,3/1/2014,1399,22,Inbound,4232013,4232043,1990 Columbus Ave,14,20,-6
+75,3/1/2014,1403,22,Inbound,4232013,4232043,Jackson Sq Station @ Orange Line,13,19,-6
+75,3/1/2014,1406,22,Inbound,4232013,4232043,Columbus Ave @ Malcolm X Blvd,15,19,-4
+75,3/1/2014,1409,22,Inbound,4232013,4232043,Ruggles Sta - Upper Level,14,18,-4
+76,3/1/2014,1405,22,Inbound,4232043,4231940,Ashmont Station,26,20,6
+76,3/1/2014,1407,22,Inbound,4232043,4231940,Talbot Ave @ Centre St,23,20,3
+76,3/1/2014,1410,22,Inbound,4232043,4231940,Talbot Ave @ Nightingale St,24,19,5
+76,3/1/2014,1413,22,Inbound,4232043,4231940,Blue Hill Ave @ Ellington St - Franklin Park Zoo,25,19,6
+76,3/1/2014,1416,22,Inbound,4232043,4231940,Seaver St @ Humboldt Ave,25,19,6
+76,3/1/2014,1419,22,Inbound,4232043,4231940,1990 Columbus Ave,24,19,5
+76,3/1/2014,1422,22,Inbound,4232043,4231940,Jackson Sq Station @ Orange Line,24,19,5
+76,3/1/2014,1425,22,Inbound,4232043,4231940,Columbus Ave @ Malcolm X Blvd,23,19,4
+76,3/1/2014,1427,22,Inbound,4232043,4231940,Ruggles Sta - Upper Level,25,19,6
+77,3/1/2014,1425,22,Inbound,4231940,4232015,Ashmont Station,10,20,-10
+77,3/1/2014,1427,22,Inbound,4231940,4232015,Talbot Ave @ Centre St,17,20,-3
+77,3/1/2014,1429,22,Inbound,4231940,4232015,Talbot Ave @ Nightingale St,16,20,-4
+77,3/1/2014,1432,22,Inbound,4231940,4232015,Blue Hill Ave @ Ellington St - Franklin Park Zoo,15,20,-5
+77,3/1/2014,1435,22,Inbound,4231940,4232015,Seaver St @ Humboldt Ave,15,20,-5
+77,3/1/2014,1438,22,Inbound,4231940,4232015,1990 Columbus Ave,16,20,-4
+77,3/1/2014,1441,22,Inbound,4231940,4232015,Jackson Sq Station @ Orange Line,17,20,-3
+77,3/1/2014,1444,22,Inbound,4231940,4232015,Columbus Ave @ Malcolm X Blvd,16,20,-4
+77,3/1/2014,1446,22,Inbound,4231940,4232015,Ruggles Sta - Upper Level,17,20,-3
+78,3/1/2014,1445,22,Inbound,4232015,4232045,Ashmont Station,21,25,-4
+78,3/1/2014,1447,22,Inbound,4232015,4232045,Talbot Ave @ Centre St,27,25,2
+78,3/1/2014,1449,22,Inbound,4232015,4232045,Talbot Ave @ Nightingale St,27,25,2
+78,3/1/2014,1452,22,Inbound,4232015,4232045,Blue Hill Ave @ Ellington St - Franklin Park Zoo,27,25,2
+78,3/1/2014,1455,22,Inbound,4232015,4232045,Seaver St @ Humboldt Ave,28,25,3
+78,3/1/2014,1458,22,Inbound,4232015,4232045,1990 Columbus Ave,28,25,3
+78,3/1/2014,1461,22,Inbound,4232015,4232045,Jackson Sq Station @ Orange Line,27,25,2
+78,3/1/2014,1464,22,Inbound,4232015,4232045,Columbus Ave @ Malcolm X Blvd,29,25,4
+78,3/1/2014,1466,22,Inbound,4232015,4232045,Ruggles Sta - Upper Level,26,25,1
+79,3/1/2014,1470,22,Inbound,4232045,4232017,Ashmont Station,35,25,10
+79,3/1/2014,1472,22,Inbound,4232045,4232017,Talbot Ave @ Centre St,23,25,-2
+79,3/1/2014,1474,22,Inbound,4232045,4232017,Talbot Ave @ Nightingale St,24,25,-1
+79,3/1/2014,1477,22,Inbound,4232045,4232017,Blue Hill Ave @ Ellington St - Franklin Park Zoo,23,25,-2
+79,3/1/2014,1480,22,Inbound,4232045,4232017,Seaver St @ Humboldt Ave,22,25,-3
+79,3/1/2014,1483,22,Inbound,4232045,4232017,1990 Columbus Ave,21,25,-4
+79,3/1/2014,1486,22,Inbound,4232045,4232017,Jackson Sq Station @ Orange Line,22,25,-3
+79,3/1/2014,1489,22,Inbound,4232045,4232017,Columbus Ave @ Malcolm X Blvd,22,25,-3

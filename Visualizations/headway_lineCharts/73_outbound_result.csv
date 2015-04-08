@@ -1,0 +1,427 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,289,73,Outbound,4218963,4219059,Harvard Upper Busway @ Red Line,12,17,-5
+1,3/1/2014,291,73,Outbound,4218963,4219059,Mt Auburn St @ Story St,8,17,-9
+1,3/1/2014,293,73,Outbound,4218963,4219059,Mt Auburn St @ Longfellow Rd,12,17,-5
+1,3/1/2014,296,73,Outbound,4218963,4219059,Mt Auburn St @ Homer Ave,13,17,-4
+1,3/1/2014,298,73,Outbound,4218963,4219059,Belmont St @ Oakley Rd,14,17,-3
+1,3/1/2014,302,73,Outbound,4218963,4219059,Church St @ Lexington St,16,17,-1
+2,3/1/2014,306,73,Outbound,4219059,4218965,Harvard Upper Busway @ Red Line,16,19,-3
+2,3/1/2014,308,73,Outbound,4219059,4218965,Mt Auburn St @ Story St,21,19,2
+2,3/1/2014,310,73,Outbound,4219059,4218965,Mt Auburn St @ Longfellow Rd,18,19,-1
+2,3/1/2014,313,73,Outbound,4219059,4218965,Mt Auburn St @ Homer Ave,16,19,-3
+2,3/1/2014,315,73,Outbound,4219059,4218965,Belmont St @ Oakley Rd,16,19,-3
+2,3/1/2014,319,73,Outbound,4219059,4218965,Church St @ Lexington St,14,19,-5
+3,3/1/2014,325,73,Outbound,4218965,4219061,Harvard Upper Busway @ Red Line,22,20,2
+3,3/1/2014,327,73,Outbound,4218965,4219061,Mt Auburn St @ Story St,23,20,3
+3,3/1/2014,329,73,Outbound,4218965,4219061,Mt Auburn St @ Longfellow Rd,23,20,3
+3,3/1/2014,332,73,Outbound,4218965,4219061,Mt Auburn St @ Homer Ave,24,20,4
+3,3/1/2014,334,73,Outbound,4218965,4219061,Belmont St @ Oakley Rd,25,20,5
+3,3/1/2014,338,73,Outbound,4218965,4219061,Church St @ Lexington St,26,20,6
+4,3/1/2014,345,73,Outbound,4219061,4218967,Harvard Upper Busway @ Red Line,18,20,-2
+4,3/1/2014,347,73,Outbound,4219061,4218967,Mt Auburn St @ Story St,17,20,-3
+4,3/1/2014,349,73,Outbound,4219061,4218967,Mt Auburn St @ Longfellow Rd,16,20,-4
+4,3/1/2014,352,73,Outbound,4219061,4218967,Mt Auburn St @ Homer Ave,15,20,-5
+4,3/1/2014,354,73,Outbound,4219061,4218967,Belmont St @ Oakley Rd,13,20,-7
+4,3/1/2014,358,73,Outbound,4219061,4218967,Church St @ Lexington St,14,20,-6
+5,3/1/2014,365,73,Outbound,4218967,4219063,Harvard Upper Busway @ Red Line,22,20,2
+5,3/1/2014,367,73,Outbound,4218967,4219063,Mt Auburn St @ Story St,23,20,3
+5,3/1/2014,369,73,Outbound,4218967,4219063,Mt Auburn St @ Longfellow Rd,24,20,4
+5,3/1/2014,372,73,Outbound,4218967,4219063,Mt Auburn St @ Homer Ave,23,20,3
+5,3/1/2014,374,73,Outbound,4218967,4219063,Belmont St @ Oakley Rd,25,20,5
+5,3/1/2014,378,73,Outbound,4218967,4219063,Church St @ Lexington St,24,20,4
+6,3/1/2014,385,73,Outbound,4219063,4219179,Harvard Upper Busway @ Red Line,16,16,0
+6,3/1/2014,389,73,Outbound,4219063,4219179,Mt Auburn St @ Longfellow Rd,14,16,-2
+6,3/1/2014,392,73,Outbound,4219063,4219179,Mt Auburn St @ Homer Ave,17,16,1
+6,3/1/2014,394,73,Outbound,4219063,4219179,Belmont St @ Oakley Rd,16,16,0
+6,3/1/2014,398,73,Outbound,4219063,4219179,Church St @ Lexington St,16,16,0
+7,3/1/2014,401,73,Outbound,4219179,4218969,Harvard Upper Busway @ Red Line,2,4,-2
+7,3/1/2014,405,73,Outbound,4219179,4218969,Mt Auburn St @ Longfellow Rd,3,4,-1
+7,3/1/2014,408,73,Outbound,4219179,4218969,Mt Auburn St @ Homer Ave,1,4,-3
+7,3/1/2014,410,73,Outbound,4219179,4218969,Belmont St @ Oakley Rd,1,4,-3
+7,3/1/2014,414,73,Outbound,4219179,4218969,Church St @ Lexington St,0,4,-4
+8,3/1/2014,405,73,Outbound,4218969,4219065,Harvard Upper Busway @ Red Line,20,20,0
+8,3/1/2014,407,73,Outbound,4218969,4219065,Mt Auburn St @ Story St,21,20,1
+8,3/1/2014,409,73,Outbound,4218969,4219065,Mt Auburn St @ Longfellow Rd,21,20,1
+8,3/1/2014,412,73,Outbound,4218969,4219065,Mt Auburn St @ Homer Ave,22,20,2
+8,3/1/2014,414,73,Outbound,4218969,4219065,Belmont St @ Oakley Rd,23,21,2
+8,3/1/2014,418,73,Outbound,4218969,4219065,Church St @ Lexington St,24,23,1
+9,3/1/2014,425,73,Outbound,4219065,4219181,Harvard Upper Busway @ Red Line,17,17,0
+9,3/1/2014,427,73,Outbound,4219065,4219181,Mt Auburn St @ Story St,17,17,0
+9,3/1/2014,429,73,Outbound,4219065,4219181,Mt Auburn St @ Longfellow Rd,18,17,1
+9,3/1/2014,432,73,Outbound,4219065,4219181,Mt Auburn St @ Homer Ave,18,17,1
+9,3/1/2014,435,73,Outbound,4219065,4219181,Belmont St @ Oakley Rd,18,17,1
+9,3/1/2014,441,73,Outbound,4219065,4219181,Church St @ Lexington St,20,17,3
+10,3/1/2014,442,73,Outbound,4219181,4218971,Harvard Upper Busway @ Red Line,15,15,0
+10,3/1/2014,444,73,Outbound,4219181,4218971,Mt Auburn St @ Story St,15,15,0
+10,3/1/2014,446,73,Outbound,4219181,4218971,Mt Auburn St @ Longfellow Rd,13,15,-2
+10,3/1/2014,449,73,Outbound,4219181,4218971,Mt Auburn St @ Homer Ave,14,15,-1
+10,3/1/2014,452,73,Outbound,4219181,4218971,Belmont St @ Oakley Rd,13,15,-2
+10,3/1/2014,458,73,Outbound,4219181,4218971,Church St @ Lexington St,11,15,-4
+11,3/1/2014,457,73,Outbound,4218971,4219067,Harvard Upper Busway @ Red Line,17,15,2
+11,3/1/2014,459,73,Outbound,4218971,4219067,Mt Auburn St @ Story St,18,15,3
+11,3/1/2014,461,73,Outbound,4218971,4219067,Mt Auburn St @ Longfellow Rd,19,15,4
+11,3/1/2014,464,73,Outbound,4218971,4219067,Mt Auburn St @ Homer Ave,17,15,2
+11,3/1/2014,467,73,Outbound,4218971,4219067,Belmont St @ Oakley Rd,18,15,3
+11,3/1/2014,473,73,Outbound,4218971,4219067,Church St @ Lexington St,18,15,3
+12,3/1/2014,472,73,Outbound,4219067,4219183,Harvard Upper Busway @ Red Line,15,15,0
+12,3/1/2014,474,73,Outbound,4219067,4219183,Mt Auburn St @ Story St,13,15,-2
+12,3/1/2014,476,73,Outbound,4219067,4219183,Mt Auburn St @ Longfellow Rd,14,15,-1
+12,3/1/2014,479,73,Outbound,4219067,4219183,Mt Auburn St @ Homer Ave,15,15,0
+12,3/1/2014,482,73,Outbound,4219067,4219183,Belmont St @ Oakley Rd,14,15,-1
+12,3/1/2014,488,73,Outbound,4219067,4219183,Church St @ Lexington St,14,15,-1
+13,3/1/2014,487,73,Outbound,4219183,4218973,Harvard Upper Busway @ Red Line,15,15,0
+13,3/1/2014,489,73,Outbound,4219183,4218973,Mt Auburn St @ Story St,15,15,0
+13,3/1/2014,491,73,Outbound,4219183,4218973,Mt Auburn St @ Longfellow Rd,14,15,-1
+13,3/1/2014,494,73,Outbound,4219183,4218973,Mt Auburn St @ Homer Ave,14,15,-1
+13,3/1/2014,497,73,Outbound,4219183,4218973,Belmont St @ Oakley Rd,15,15,0
+13,3/1/2014,503,73,Outbound,4219183,4218973,Church St @ Lexington St,17,15,2
+14,3/1/2014,502,73,Outbound,4218973,4219069,Harvard Upper Busway @ Red Line,16,15,1
+14,3/1/2014,504,73,Outbound,4218973,4219069,Mt Auburn St @ Story St,16,15,1
+14,3/1/2014,506,73,Outbound,4218973,4219069,Mt Auburn St @ Longfellow Rd,17,15,2
+14,3/1/2014,509,73,Outbound,4218973,4219069,Mt Auburn St @ Homer Ave,18,15,3
+14,3/1/2014,512,73,Outbound,4218973,4219069,Belmont St @ Oakley Rd,17,15,2
+14,3/1/2014,518,73,Outbound,4218973,4219069,Church St @ Lexington St,17,15,2
+15,3/1/2014,517,73,Outbound,4219069,4219185,Harvard Upper Busway @ Red Line,12,15,-3
+15,3/1/2014,519,73,Outbound,4219069,4219185,Mt Auburn St @ Story St,13,15,-2
+15,3/1/2014,521,73,Outbound,4219069,4219185,Mt Auburn St @ Longfellow Rd,12,15,-3
+15,3/1/2014,524,73,Outbound,4219069,4219185,Mt Auburn St @ Homer Ave,11,15,-4
+15,3/1/2014,527,73,Outbound,4219069,4219185,Belmont St @ Oakley Rd,12,15,-3
+15,3/1/2014,533,73,Outbound,4219069,4219185,Church St @ Lexington St,12,15,-3
+16,3/1/2014,532,73,Outbound,4219185,4218975,Harvard Upper Busway @ Red Line,20,15,5
+16,3/1/2014,534,73,Outbound,4219185,4218975,Mt Auburn St @ Story St,20,15,5
+16,3/1/2014,536,73,Outbound,4219185,4218975,Mt Auburn St @ Longfellow Rd,20,15,5
+16,3/1/2014,539,73,Outbound,4219185,4218975,Mt Auburn St @ Homer Ave,22,15,7
+16,3/1/2014,542,73,Outbound,4219185,4218975,Belmont St @ Oakley Rd,23,15,8
+16,3/1/2014,548,73,Outbound,4219185,4218975,Church St @ Lexington St,23,15,8
+17,3/1/2014,547,73,Outbound,4218975,4219071,Harvard Upper Busway @ Red Line,12,15,-3
+17,3/1/2014,549,73,Outbound,4218975,4219071,Mt Auburn St @ Story St,13,15,-2
+17,3/1/2014,551,73,Outbound,4218975,4219071,Mt Auburn St @ Longfellow Rd,13,15,-2
+17,3/1/2014,554,73,Outbound,4218975,4219071,Mt Auburn St @ Homer Ave,12,15,-3
+17,3/1/2014,557,73,Outbound,4218975,4219071,Belmont St @ Oakley Rd,11,15,-4
+17,3/1/2014,563,73,Outbound,4218975,4219071,Church St @ Lexington St,11,15,-4
+18,3/1/2014,562,73,Outbound,4219071,4219187,Harvard Upper Busway @ Red Line,14,15,-1
+18,3/1/2014,564,73,Outbound,4219071,4219187,Mt Auburn St @ Story St,14,15,-1
+18,3/1/2014,566,73,Outbound,4219071,4219187,Mt Auburn St @ Longfellow Rd,16,15,1
+18,3/1/2014,569,73,Outbound,4219071,4219187,Mt Auburn St @ Homer Ave,16,15,1
+18,3/1/2014,572,73,Outbound,4219071,4219187,Belmont St @ Oakley Rd,16,15,1
+18,3/1/2014,578,73,Outbound,4219071,4219187,Church St @ Lexington St,16,15,1
+19,3/1/2014,577,73,Outbound,4219187,4218977,Harvard Upper Busway @ Red Line,21,13,8
+19,3/1/2014,579,73,Outbound,4219187,4218977,Mt Auburn St @ Story St,20,13,7
+19,3/1/2014,581,73,Outbound,4219187,4218977,Mt Auburn St @ Longfellow Rd,18,13,5
+19,3/1/2014,584,73,Outbound,4219187,4218977,Mt Auburn St @ Homer Ave,16,13,3
+19,3/1/2014,587,73,Outbound,4219187,4218977,Belmont St @ Oakley Rd,17,13,4
+19,3/1/2014,593,73,Outbound,4219187,4218977,Church St @ Lexington St,15,15,0
+20,3/1/2014,590,73,Outbound,4218977,4219031,Harvard Upper Busway @ Red Line,7,10,-3
+20,3/1/2014,592,73,Outbound,4218977,4219031,Mt Auburn St @ Story St,7,10,-3
+20,3/1/2014,594,73,Outbound,4218977,4219031,Mt Auburn St @ Longfellow Rd,11,10,1
+20,3/1/2014,597,73,Outbound,4218977,4219031,Mt Auburn St @ Homer Ave,12,11,1
+20,3/1/2014,600,73,Outbound,4218977,4219031,Belmont St @ Oakley Rd,10,11,-1
+20,3/1/2014,608,73,Outbound,4218977,4219031,Church St @ Lexington St,10,11,-1
+21,3/1/2014,600,73,Outbound,4219031,4219073,Harvard Upper Busway @ Red Line,2,9,-7
+21,3/1/2014,602,73,Outbound,4219031,4219073,Mt Auburn St @ Story St,3,9,-6
+21,3/1/2014,604,73,Outbound,4219031,4219073,Mt Auburn St @ Longfellow Rd,0,9,-9
+21,3/1/2014,608,73,Outbound,4219031,4219073,Mt Auburn St @ Homer Ave,0,9,-9
+21,3/1/2014,611,73,Outbound,4219031,4219073,Belmont St @ Oakley Rd,2,9,-7
+21,3/1/2014,619,73,Outbound,4219031,4219073,Church St @ Lexington St,2,9,-7
+22,3/1/2014,609,73,Outbound,4219073,4219189,Harvard Upper Busway @ Red Line,18,15,3
+22,3/1/2014,611,73,Outbound,4219073,4219189,Mt Auburn St @ Story St,17,15,2
+22,3/1/2014,613,73,Outbound,4219073,4219189,Mt Auburn St @ Longfellow Rd,17,15,2
+22,3/1/2014,617,73,Outbound,4219073,4219189,Mt Auburn St @ Homer Ave,16,15,1
+22,3/1/2014,620,73,Outbound,4219073,4219189,Belmont St @ Oakley Rd,15,15,0
+22,3/1/2014,628,73,Outbound,4219073,4219189,Church St @ Lexington St,16,15,1
+23,3/1/2014,624,73,Outbound,4219189,4218979,Harvard Upper Busway @ Red Line,16,15,1
+23,3/1/2014,626,73,Outbound,4219189,4218979,Mt Auburn St @ Story St,16,15,1
+23,3/1/2014,628,73,Outbound,4219189,4218979,Mt Auburn St @ Longfellow Rd,16,15,1
+23,3/1/2014,632,73,Outbound,4219189,4218979,Mt Auburn St @ Homer Ave,17,15,2
+23,3/1/2014,635,73,Outbound,4219189,4218979,Belmont St @ Oakley Rd,18,15,3
+23,3/1/2014,643,73,Outbound,4219189,4218979,Church St @ Lexington St,18,15,3
+24,3/1/2014,639,73,Outbound,4218979,4219033,Harvard Upper Busway @ Red Line,0,15,-15
+24,3/1/2014,641,73,Outbound,4218979,4219033,Mt Auburn St @ Story St,2,15,-13
+24,3/1/2014,643,73,Outbound,4218979,4219033,Mt Auburn St @ Longfellow Rd,15,15,0
+24,3/1/2014,647,73,Outbound,4218979,4219033,Mt Auburn St @ Homer Ave,14,15,-1
+24,3/1/2014,650,73,Outbound,4218979,4219033,Belmont St @ Oakley Rd,15,15,0
+24,3/1/2014,658,73,Outbound,4218979,4219033,Church St @ Lexington St,13,15,-2
+25,3/1/2014,654,73,Outbound,4219033,4219075,Harvard Upper Busway @ Red Line,27,15,12
+25,3/1/2014,656,73,Outbound,4219033,4219075,Mt Auburn St @ Story St,24,15,9
+25,3/1/2014,658,73,Outbound,4219033,4219075,Mt Auburn St @ Longfellow Rd,10,15,-5
+25,3/1/2014,662,73,Outbound,4219033,4219075,Mt Auburn St @ Homer Ave,15,15,0
+25,3/1/2014,665,73,Outbound,4219033,4219075,Belmont St @ Oakley Rd,14,15,-1
+25,3/1/2014,673,73,Outbound,4219033,4219075,Church St @ Lexington St,20,15,5
+26,3/1/2014,669,73,Outbound,4219075,4219191,Harvard Upper Busway @ Red Line,16,15,1
+26,3/1/2014,671,73,Outbound,4219075,4219191,Mt Auburn St @ Story St,17,15,2
+26,3/1/2014,673,73,Outbound,4219075,4219191,Mt Auburn St @ Longfellow Rd,16,15,1
+26,3/1/2014,677,73,Outbound,4219075,4219191,Mt Auburn St @ Homer Ave,16,15,1
+26,3/1/2014,680,73,Outbound,4219075,4219191,Belmont St @ Oakley Rd,15,15,0
+26,3/1/2014,688,73,Outbound,4219075,4219191,Church St @ Lexington St,11,15,-4
+27,3/1/2014,684,73,Outbound,4219191,4218981,Harvard Upper Busway @ Red Line,13,15,-2
+27,3/1/2014,686,73,Outbound,4219191,4218981,Mt Auburn St @ Story St,15,15,0
+27,3/1/2014,688,73,Outbound,4219191,4218981,Mt Auburn St @ Longfellow Rd,17,15,2
+27,3/1/2014,692,73,Outbound,4219191,4218981,Mt Auburn St @ Homer Ave,12,15,-3
+27,3/1/2014,695,73,Outbound,4219191,4218981,Belmont St @ Oakley Rd,14,15,-1
+27,3/1/2014,703,73,Outbound,4219191,4218981,Church St @ Lexington St,15,15,0
+28,3/1/2014,699,73,Outbound,4218981,4219035,Harvard Upper Busway @ Red Line,10,15,-5
+28,3/1/2014,701,73,Outbound,4218981,4219035,Mt Auburn St @ Story St,15,15,0
+28,3/1/2014,703,73,Outbound,4218981,4219035,Mt Auburn St @ Longfellow Rd,14,15,-1
+28,3/1/2014,707,73,Outbound,4218981,4219035,Mt Auburn St @ Homer Ave,14,15,-1
+28,3/1/2014,710,73,Outbound,4218981,4219035,Belmont St @ Oakley Rd,14,15,-1
+28,3/1/2014,718,73,Outbound,4218981,4219035,Church St @ Lexington St,15,15,0
+29,3/1/2014,714,73,Outbound,4219035,4219077,Harvard Upper Busway @ Red Line,28,15,13
+29,3/1/2014,716,73,Outbound,4219035,4219077,Mt Auburn St @ Story St,22,15,7
+29,3/1/2014,718,73,Outbound,4219035,4219077,Mt Auburn St @ Longfellow Rd,22,15,7
+29,3/1/2014,722,73,Outbound,4219035,4219077,Mt Auburn St @ Homer Ave,23,15,8
+29,3/1/2014,725,73,Outbound,4219035,4219077,Belmont St @ Oakley Rd,23,15,8
+29,3/1/2014,733,73,Outbound,4219035,4219077,Church St @ Lexington St,23,15,8
+30,3/1/2014,729,73,Outbound,4219077,4219193,Harvard Upper Busway @ Red Line,8,15,-7
+30,3/1/2014,731,73,Outbound,4219077,4219193,Mt Auburn St @ Story St,8,15,-7
+30,3/1/2014,733,73,Outbound,4219077,4219193,Mt Auburn St @ Longfellow Rd,7,15,-8
+30,3/1/2014,737,73,Outbound,4219077,4219193,Mt Auburn St @ Homer Ave,8,15,-7
+30,3/1/2014,740,73,Outbound,4219077,4219193,Belmont St @ Oakley Rd,6,15,-9
+30,3/1/2014,748,73,Outbound,4219077,4219193,Church St @ Lexington St,4,15,-11
+31,3/1/2014,744,73,Outbound,4219193,4218983,Harvard Upper Busway @ Red Line,23,15,8
+31,3/1/2014,746,73,Outbound,4219193,4218983,Mt Auburn St @ Story St,23,15,8
+31,3/1/2014,748,73,Outbound,4219193,4218983,Mt Auburn St @ Longfellow Rd,25,15,10
+31,3/1/2014,752,73,Outbound,4219193,4218983,Mt Auburn St @ Homer Ave,23,15,8
+31,3/1/2014,755,73,Outbound,4219193,4218983,Belmont St @ Oakley Rd,26,15,11
+31,3/1/2014,763,73,Outbound,4219193,4218983,Church St @ Lexington St,28,15,13
+32,3/1/2014,759,73,Outbound,4218983,4219037,Harvard Upper Busway @ Red Line,-9,15,-24
+32,3/1/2014,761,73,Outbound,4218983,4219037,Mt Auburn St @ Story St,7,15,-8
+32,3/1/2014,763,73,Outbound,4218983,4219037,Mt Auburn St @ Longfellow Rd,6,15,-9
+32,3/1/2014,767,73,Outbound,4218983,4219037,Mt Auburn St @ Homer Ave,6,15,-9
+32,3/1/2014,770,73,Outbound,4218983,4219037,Belmont St @ Oakley Rd,4,15,-11
+32,3/1/2014,778,73,Outbound,4218983,4219037,Church St @ Lexington St,2,15,-13
+33,3/1/2014,774,73,Outbound,4219037,4219079,Harvard Upper Busway @ Red Line,39,15,24
+33,3/1/2014,776,73,Outbound,4219037,4219079,Mt Auburn St @ Story St,22,15,7
+33,3/1/2014,778,73,Outbound,4219037,4219079,Mt Auburn St @ Longfellow Rd,22,15,7
+33,3/1/2014,782,73,Outbound,4219037,4219079,Mt Auburn St @ Homer Ave,24,15,9
+33,3/1/2014,785,73,Outbound,4219037,4219079,Belmont St @ Oakley Rd,25,15,10
+33,3/1/2014,793,73,Outbound,4219037,4219079,Church St @ Lexington St,26,15,11
+34,3/1/2014,789,73,Outbound,4219079,4219195,Harvard Upper Busway @ Red Line,7,15,-8
+34,3/1/2014,791,73,Outbound,4219079,4219195,Mt Auburn St @ Story St,10,15,-5
+34,3/1/2014,793,73,Outbound,4219079,4219195,Mt Auburn St @ Longfellow Rd,11,15,-4
+34,3/1/2014,797,73,Outbound,4219079,4219195,Mt Auburn St @ Homer Ave,11,15,-4
+34,3/1/2014,800,73,Outbound,4219079,4219195,Belmont St @ Oakley Rd,11,15,-4
+34,3/1/2014,808,73,Outbound,4219079,4219195,Church St @ Lexington St,9,15,-6
+35,3/1/2014,804,73,Outbound,4219195,4218985,Harvard Upper Busway @ Red Line,16,15,1
+35,3/1/2014,806,73,Outbound,4219195,4218985,Mt Auburn St @ Story St,15,15,0
+35,3/1/2014,808,73,Outbound,4219195,4218985,Mt Auburn St @ Longfellow Rd,14,15,-1
+35,3/1/2014,812,73,Outbound,4219195,4218985,Mt Auburn St @ Homer Ave,14,15,-1
+35,3/1/2014,815,73,Outbound,4219195,4218985,Belmont St @ Oakley Rd,15,15,0
+35,3/1/2014,823,73,Outbound,4219195,4218985,Church St @ Lexington St,17,15,2
+36,3/1/2014,819,73,Outbound,4218985,4219039,Harvard Upper Busway @ Red Line,2,15,-13
+36,3/1/2014,821,73,Outbound,4218985,4219039,Mt Auburn St @ Story St,20,15,5
+36,3/1/2014,823,73,Outbound,4218985,4219039,Mt Auburn St @ Longfellow Rd,21,15,6
+36,3/1/2014,827,73,Outbound,4218985,4219039,Mt Auburn St @ Homer Ave,20,15,5
+36,3/1/2014,830,73,Outbound,4218985,4219039,Belmont St @ Oakley Rd,21,15,6
+36,3/1/2014,838,73,Outbound,4218985,4219039,Church St @ Lexington St,20,15,5
+37,3/1/2014,834,73,Outbound,4219039,4219081,Harvard Upper Busway @ Red Line,30,15,15
+37,3/1/2014,836,73,Outbound,4219039,4219081,Mt Auburn St @ Story St,11,15,-4
+37,3/1/2014,838,73,Outbound,4219039,4219081,Mt Auburn St @ Longfellow Rd,10,15,-5
+37,3/1/2014,842,73,Outbound,4219039,4219081,Mt Auburn St @ Homer Ave,11,15,-4
+37,3/1/2014,845,73,Outbound,4219039,4219081,Belmont St @ Oakley Rd,7,15,-8
+37,3/1/2014,853,73,Outbound,4219039,4219081,Church St @ Lexington St,8,15,-7
+38,3/1/2014,849,73,Outbound,4219081,4219197,Harvard Upper Busway @ Red Line,13,15,-2
+38,3/1/2014,851,73,Outbound,4219081,4219197,Mt Auburn St @ Story St,15,15,0
+38,3/1/2014,853,73,Outbound,4219081,4219197,Mt Auburn St @ Longfellow Rd,16,15,1
+38,3/1/2014,857,73,Outbound,4219081,4219197,Mt Auburn St @ Homer Ave,15,15,0
+38,3/1/2014,860,73,Outbound,4219081,4219197,Belmont St @ Oakley Rd,17,15,2
+38,3/1/2014,868,73,Outbound,4219081,4219197,Church St @ Lexington St,19,15,4
+39,3/1/2014,864,73,Outbound,4219197,4218987,Harvard Upper Busway @ Red Line,13,15,-2
+39,3/1/2014,866,73,Outbound,4219197,4218987,Mt Auburn St @ Story St,13,15,-2
+39,3/1/2014,868,73,Outbound,4219197,4218987,Mt Auburn St @ Longfellow Rd,12,15,-3
+39,3/1/2014,872,73,Outbound,4219197,4218987,Mt Auburn St @ Homer Ave,13,15,-2
+39,3/1/2014,875,73,Outbound,4219197,4218987,Belmont St @ Oakley Rd,11,15,-4
+39,3/1/2014,883,73,Outbound,4219197,4218987,Church St @ Lexington St,10,15,-5
+40,3/1/2014,879,73,Outbound,4218987,4219041,Harvard Upper Busway @ Red Line,15,15,0
+40,3/1/2014,881,73,Outbound,4218987,4219041,Mt Auburn St @ Story St,13,15,-2
+40,3/1/2014,883,73,Outbound,4218987,4219041,Mt Auburn St @ Longfellow Rd,14,15,-1
+40,3/1/2014,887,73,Outbound,4218987,4219041,Mt Auburn St @ Homer Ave,13,15,-2
+40,3/1/2014,890,73,Outbound,4218987,4219041,Belmont St @ Oakley Rd,14,15,-1
+40,3/1/2014,898,73,Outbound,4218987,4219041,Church St @ Lexington St,14,15,-1
+41,3/1/2014,894,73,Outbound,4219041,4219083,Harvard Upper Busway @ Red Line,17,15,2
+41,3/1/2014,896,73,Outbound,4219041,4219083,Mt Auburn St @ Story St,19,15,4
+41,3/1/2014,898,73,Outbound,4219041,4219083,Mt Auburn St @ Longfellow Rd,19,15,4
+41,3/1/2014,902,73,Outbound,4219041,4219083,Mt Auburn St @ Homer Ave,20,15,5
+41,3/1/2014,905,73,Outbound,4219041,4219083,Belmont St @ Oakley Rd,20,15,5
+41,3/1/2014,913,73,Outbound,4219041,4219083,Church St @ Lexington St,21,15,6
+42,3/1/2014,909,73,Outbound,4219083,4219199,Harvard Upper Busway @ Red Line,16,15,1
+42,3/1/2014,911,73,Outbound,4219083,4219199,Mt Auburn St @ Story St,15,15,0
+42,3/1/2014,913,73,Outbound,4219083,4219199,Mt Auburn St @ Longfellow Rd,14,15,-1
+42,3/1/2014,917,73,Outbound,4219083,4219199,Mt Auburn St @ Homer Ave,13,15,-2
+42,3/1/2014,920,73,Outbound,4219083,4219199,Belmont St @ Oakley Rd,14,15,-1
+42,3/1/2014,928,73,Outbound,4219083,4219199,Church St @ Lexington St,12,15,-3
+43,3/1/2014,924,73,Outbound,4219199,4218989,Harvard Upper Busway @ Red Line,16,15,1
+43,3/1/2014,926,73,Outbound,4219199,4218989,Mt Auburn St @ Story St,16,15,1
+43,3/1/2014,928,73,Outbound,4219199,4218989,Mt Auburn St @ Longfellow Rd,18,15,3
+43,3/1/2014,932,73,Outbound,4219199,4218989,Mt Auburn St @ Homer Ave,19,15,4
+43,3/1/2014,935,73,Outbound,4219199,4218989,Belmont St @ Oakley Rd,20,15,5
+43,3/1/2014,943,73,Outbound,4219199,4218989,Church St @ Lexington St,23,15,8
+44,3/1/2014,939,73,Outbound,4218989,4219043,Harvard Upper Busway @ Red Line,11,15,-4
+44,3/1/2014,941,73,Outbound,4218989,4219043,Mt Auburn St @ Story St,11,15,-4
+44,3/1/2014,943,73,Outbound,4218989,4219043,Mt Auburn St @ Longfellow Rd,9,15,-6
+44,3/1/2014,947,73,Outbound,4218989,4219043,Mt Auburn St @ Homer Ave,8,15,-7
+44,3/1/2014,950,73,Outbound,4218989,4219043,Belmont St @ Oakley Rd,6,15,-9
+44,3/1/2014,958,73,Outbound,4218989,4219043,Church St @ Lexington St,3,15,-12
+45,3/1/2014,954,73,Outbound,4219043,4219085,Harvard Upper Busway @ Red Line,15,15,0
+45,3/1/2014,956,73,Outbound,4219043,4219085,Mt Auburn St @ Story St,15,15,0
+45,3/1/2014,958,73,Outbound,4219043,4219085,Mt Auburn St @ Longfellow Rd,17,15,2
+45,3/1/2014,962,73,Outbound,4219043,4219085,Mt Auburn St @ Homer Ave,17,15,2
+45,3/1/2014,965,73,Outbound,4219043,4219085,Belmont St @ Oakley Rd,18,15,3
+45,3/1/2014,973,73,Outbound,4219043,4219085,Church St @ Lexington St,19,15,4
+46,3/1/2014,969,73,Outbound,4219085,4219201,Harvard Upper Busway @ Red Line,16,15,1
+46,3/1/2014,971,73,Outbound,4219085,4219201,Mt Auburn St @ Story St,15,15,0
+46,3/1/2014,973,73,Outbound,4219085,4219201,Mt Auburn St @ Longfellow Rd,13,15,-2
+46,3/1/2014,977,73,Outbound,4219085,4219201,Mt Auburn St @ Homer Ave,12,15,-3
+46,3/1/2014,980,73,Outbound,4219085,4219201,Belmont St @ Oakley Rd,13,15,-2
+46,3/1/2014,988,73,Outbound,4219085,4219201,Church St @ Lexington St,12,15,-3
+47,3/1/2014,984,73,Outbound,4219201,4218991,Harvard Upper Busway @ Red Line,17,15,2
+47,3/1/2014,986,73,Outbound,4219201,4218991,Mt Auburn St @ Story St,18,15,3
+47,3/1/2014,988,73,Outbound,4219201,4218991,Mt Auburn St @ Longfellow Rd,19,15,4
+47,3/1/2014,992,73,Outbound,4219201,4218991,Mt Auburn St @ Homer Ave,20,15,5
+47,3/1/2014,995,73,Outbound,4219201,4218991,Belmont St @ Oakley Rd,21,15,6
+47,3/1/2014,1003,73,Outbound,4219201,4218991,Church St @ Lexington St,23,15,8
+48,3/1/2014,999,73,Outbound,4218991,4219045,Harvard Upper Busway @ Red Line,12,15,-3
+48,3/1/2014,1001,73,Outbound,4218991,4219045,Mt Auburn St @ Story St,14,15,-1
+48,3/1/2014,1003,73,Outbound,4218991,4219045,Mt Auburn St @ Longfellow Rd,13,15,-2
+48,3/1/2014,1007,73,Outbound,4218991,4219045,Mt Auburn St @ Homer Ave,14,15,-1
+48,3/1/2014,1010,73,Outbound,4218991,4219045,Belmont St @ Oakley Rd,12,15,-3
+48,3/1/2014,1018,73,Outbound,4218991,4219045,Church St @ Lexington St,11,15,-4
+49,3/1/2014,1014,73,Outbound,4219045,4219087,Harvard Upper Busway @ Red Line,16,15,1
+49,3/1/2014,1016,73,Outbound,4219045,4219087,Mt Auburn St @ Story St,14,15,-1
+49,3/1/2014,1018,73,Outbound,4219045,4219087,Mt Auburn St @ Longfellow Rd,15,15,0
+49,3/1/2014,1022,73,Outbound,4219045,4219087,Mt Auburn St @ Homer Ave,14,15,-1
+49,3/1/2014,1025,73,Outbound,4219045,4219087,Belmont St @ Oakley Rd,14,15,-1
+49,3/1/2014,1033,73,Outbound,4219045,4219087,Church St @ Lexington St,14,15,-1
+50,3/1/2014,1029,73,Outbound,4219087,4219203,Harvard Upper Busway @ Red Line,15,15,0
+50,3/1/2014,1031,73,Outbound,4219087,4219203,Mt Auburn St @ Story St,15,15,0
+50,3/1/2014,1033,73,Outbound,4219087,4219203,Mt Auburn St @ Longfellow Rd,15,15,0
+50,3/1/2014,1037,73,Outbound,4219087,4219203,Mt Auburn St @ Homer Ave,15,15,0
+50,3/1/2014,1040,73,Outbound,4219087,4219203,Belmont St @ Oakley Rd,16,15,1
+50,3/1/2014,1048,73,Outbound,4219087,4219203,Church St @ Lexington St,17,15,2
+51,3/1/2014,1044,73,Outbound,4219203,4218993,Harvard Upper Busway @ Red Line,15,15,0
+51,3/1/2014,1046,73,Outbound,4219203,4218993,Mt Auburn St @ Story St,15,15,0
+51,3/1/2014,1048,73,Outbound,4219203,4218993,Mt Auburn St @ Longfellow Rd,14,15,-1
+51,3/1/2014,1052,73,Outbound,4219203,4218993,Mt Auburn St @ Homer Ave,15,15,0
+51,3/1/2014,1055,73,Outbound,4219203,4218993,Belmont St @ Oakley Rd,15,15,0
+51,3/1/2014,1063,73,Outbound,4219203,4218993,Church St @ Lexington St,14,15,-1
+52,3/1/2014,1059,73,Outbound,4218993,4219047,Harvard Upper Busway @ Red Line,1,15,-14
+52,3/1/2014,1061,73,Outbound,4218993,4219047,Mt Auburn St @ Story St,20,15,5
+52,3/1/2014,1063,73,Outbound,4218993,4219047,Mt Auburn St @ Longfellow Rd,21,15,6
+52,3/1/2014,1067,73,Outbound,4218993,4219047,Mt Auburn St @ Homer Ave,20,15,5
+52,3/1/2014,1070,73,Outbound,4218993,4219047,Belmont St @ Oakley Rd,20,15,5
+52,3/1/2014,1078,73,Outbound,4218993,4219047,Church St @ Lexington St,20,15,5
+53,3/1/2014,1074,73,Outbound,4219047,4219089,Harvard Upper Busway @ Red Line,30,15,15
+53,3/1/2014,1076,73,Outbound,4219047,4219089,Mt Auburn St @ Story St,10,15,-5
+53,3/1/2014,1078,73,Outbound,4219047,4219089,Mt Auburn St @ Longfellow Rd,9,15,-6
+53,3/1/2014,1082,73,Outbound,4219047,4219089,Mt Auburn St @ Homer Ave,10,15,-5
+53,3/1/2014,1085,73,Outbound,4219047,4219089,Belmont St @ Oakley Rd,7,15,-8
+53,3/1/2014,1093,73,Outbound,4219047,4219089,Church St @ Lexington St,6,15,-9
+54,3/1/2014,1089,73,Outbound,4219089,4219205,Harvard Upper Busway @ Red Line,14,15,-1
+54,3/1/2014,1091,73,Outbound,4219089,4219205,Mt Auburn St @ Story St,16,15,1
+54,3/1/2014,1093,73,Outbound,4219089,4219205,Mt Auburn St @ Longfellow Rd,16,15,1
+54,3/1/2014,1097,73,Outbound,4219089,4219205,Mt Auburn St @ Homer Ave,15,15,0
+54,3/1/2014,1100,73,Outbound,4219089,4219205,Belmont St @ Oakley Rd,16,15,1
+54,3/1/2014,1108,73,Outbound,4219089,4219205,Church St @ Lexington St,17,15,2
+55,3/1/2014,1104,73,Outbound,4219205,4218995,Harvard Upper Busway @ Red Line,15,15,0
+55,3/1/2014,1106,73,Outbound,4219205,4218995,Mt Auburn St @ Story St,13,15,-2
+55,3/1/2014,1108,73,Outbound,4219205,4218995,Mt Auburn St @ Longfellow Rd,14,15,-1
+55,3/1/2014,1112,73,Outbound,4219205,4218995,Mt Auburn St @ Homer Ave,15,15,0
+55,3/1/2014,1115,73,Outbound,4219205,4218995,Belmont St @ Oakley Rd,15,15,0
+55,3/1/2014,1123,73,Outbound,4219205,4218995,Church St @ Lexington St,15,15,0
+56,3/1/2014,1119,73,Outbound,4218995,4219049,Harvard Upper Busway @ Red Line,10,15,-5
+56,3/1/2014,1121,73,Outbound,4218995,4219049,Mt Auburn St @ Story St,22,15,7
+56,3/1/2014,1123,73,Outbound,4218995,4219049,Mt Auburn St @ Longfellow Rd,22,15,7
+56,3/1/2014,1127,73,Outbound,4218995,4219049,Mt Auburn St @ Homer Ave,21,15,6
+56,3/1/2014,1130,73,Outbound,4218995,4219049,Belmont St @ Oakley Rd,22,15,7
+56,3/1/2014,1138,73,Outbound,4218995,4219049,Church St @ Lexington St,22,15,7
+57,3/1/2014,1134,73,Outbound,4219049,4219091,Harvard Upper Busway @ Red Line,19,11,8
+57,3/1/2014,1136,73,Outbound,4219049,4219091,Mt Auburn St @ Story St,8,11,-3
+57,3/1/2014,1138,73,Outbound,4219049,4219091,Mt Auburn St @ Longfellow Rd,7,11,-4
+57,3/1/2014,1142,73,Outbound,4219049,4219091,Mt Auburn St @ Homer Ave,7,11,-4
+57,3/1/2014,1145,73,Outbound,4219049,4219091,Belmont St @ Oakley Rd,6,11,-5
+57,3/1/2014,1153,73,Outbound,4219049,4219091,Church St @ Lexington St,4,11,-7
+58,3/1/2014,1145,73,Outbound,4219091,4219207,Harvard Upper Busway @ Red Line,17,20,-3
+58,3/1/2014,1147,73,Outbound,4219091,4219207,Mt Auburn St @ Story St,17,20,-3
+58,3/1/2014,1149,73,Outbound,4219091,4219207,Mt Auburn St @ Longfellow Rd,17,20,-3
+58,3/1/2014,1153,73,Outbound,4219091,4219207,Mt Auburn St @ Homer Ave,18,20,-2
+58,3/1/2014,1156,73,Outbound,4219091,4219207,Belmont St @ Oakley Rd,20,20,0
+58,3/1/2014,1164,73,Outbound,4219091,4219207,Church St @ Lexington St,19,20,-1
+59,3/1/2014,1165,73,Outbound,4219207,4219051,Harvard Upper Busway @ Red Line,20,20,0
+59,3/1/2014,1167,73,Outbound,4219207,4219051,Mt Auburn St @ Story St,19,20,-1
+59,3/1/2014,1169,73,Outbound,4219207,4219051,Mt Auburn St @ Longfellow Rd,20,20,0
+59,3/1/2014,1173,73,Outbound,4219207,4219051,Mt Auburn St @ Homer Ave,18,20,-2
+59,3/1/2014,1176,73,Outbound,4219207,4219051,Belmont St @ Oakley Rd,16,20,-4
+59,3/1/2014,1184,73,Outbound,4219207,4219051,Church St @ Lexington St,17,19,-2
+60,3/1/2014,1185,73,Outbound,4219051,4219209,Harvard Upper Busway @ Red Line,22,20,2
+60,3/1/2014,1187,73,Outbound,4219051,4219209,Mt Auburn St @ Story St,24,20,4
+60,3/1/2014,1189,73,Outbound,4219051,4219209,Mt Auburn St @ Longfellow Rd,24,22,2
+60,3/1/2014,1193,73,Outbound,4219051,4219209,Mt Auburn St @ Homer Ave,24,22,2
+60,3/1/2014,1196,73,Outbound,4219051,4219209,Belmont St @ Oakley Rd,24,22,2
+60,3/1/2014,1203,73,Outbound,4219051,4219209,Church St @ Lexington St,27,22,5
+61,3/1/2014,1205,73,Outbound,4219209,4219053,Harvard Upper Busway @ Red Line,24,20,4
+61,3/1/2014,1207,73,Outbound,4219209,4219053,Mt Auburn St @ Story St,22,20,2
+61,3/1/2014,1211,73,Outbound,4219209,4219053,Mt Auburn St @ Longfellow Rd,22,18,4
+61,3/1/2014,1215,73,Outbound,4219209,4219053,Mt Auburn St @ Homer Ave,23,18,5
+61,3/1/2014,1218,73,Outbound,4219209,4219053,Belmont St @ Oakley Rd,24,18,6
+61,3/1/2014,1225,73,Outbound,4219209,4219053,Church St @ Lexington St,21,18,3
+62,3/1/2014,1225,73,Outbound,4219053,4219211,Harvard Upper Busway @ Red Line,16,22,-6
+62,3/1/2014,1227,73,Outbound,4219053,4219211,Mt Auburn St @ Story St,17,22,-5
+62,3/1/2014,1229,73,Outbound,4219053,4219211,Mt Auburn St @ Longfellow Rd,16,22,-6
+62,3/1/2014,1233,73,Outbound,4219053,4219211,Mt Auburn St @ Homer Ave,16,22,-6
+62,3/1/2014,1236,73,Outbound,4219053,4219211,Belmont St @ Oakley Rd,15,22,-7
+62,3/1/2014,1243,73,Outbound,4219053,4219211,Church St @ Lexington St,16,22,-6
+63,3/1/2014,1247,73,Outbound,4219211,4219055,Harvard Upper Busway @ Red Line,26,23,3
+63,3/1/2014,1249,73,Outbound,4219211,4219055,Mt Auburn St @ Story St,25,23,2
+63,3/1/2014,1251,73,Outbound,4219211,4219055,Mt Auburn St @ Longfellow Rd,25,23,2
+63,3/1/2014,1255,73,Outbound,4219211,4219055,Mt Auburn St @ Homer Ave,25,23,2
+63,3/1/2014,1258,73,Outbound,4219211,4219055,Belmont St @ Oakley Rd,25,23,2
+63,3/1/2014,1265,73,Outbound,4219211,4219055,Church St @ Lexington St,25,23,2
+64,3/1/2014,1270,73,Outbound,4219055,4219213,Harvard Upper Busway @ Red Line,22,25,-3
+64,3/1/2014,1272,73,Outbound,4219055,4219213,Mt Auburn St @ Story St,21,25,-4
+64,3/1/2014,1274,73,Outbound,4219055,4219213,Mt Auburn St @ Longfellow Rd,22,25,-3
+64,3/1/2014,1278,73,Outbound,4219055,4219213,Mt Auburn St @ Homer Ave,20,25,-5
+64,3/1/2014,1281,73,Outbound,4219055,4219213,Belmont St @ Oakley Rd,22,25,-3
+64,3/1/2014,1288,73,Outbound,4219055,4219213,Church St @ Lexington St,23,25,-2
+65,3/1/2014,1295,73,Outbound,4219213,4219057,Harvard Upper Busway @ Red Line,25,25,0
+65,3/1/2014,1297,73,Outbound,4219213,4219057,Mt Auburn St @ Story St,25,25,0
+65,3/1/2014,1299,73,Outbound,4219213,4219057,Mt Auburn St @ Longfellow Rd,24,25,-1
+65,3/1/2014,1303,73,Outbound,4219213,4219057,Mt Auburn St @ Homer Ave,26,25,1
+65,3/1/2014,1306,73,Outbound,4219213,4219057,Belmont St @ Oakley Rd,26,25,1
+65,3/1/2014,1313,73,Outbound,4219213,4219057,Church St @ Lexington St,23,25,-2
+66,3/1/2014,1320,73,Outbound,4219057,4219286,Harvard Upper Busway @ Red Line,6,25,-19
+66,3/1/2014,1322,73,Outbound,4219057,4219286,Mt Auburn St @ Story St,20,25,-5
+66,3/1/2014,1324,73,Outbound,4219057,4219286,Mt Auburn St @ Longfellow Rd,27,25,2
+66,3/1/2014,1328,73,Outbound,4219057,4219286,Mt Auburn St @ Homer Ave,28,25,3
+66,3/1/2014,1331,73,Outbound,4219057,4219286,Belmont St @ Oakley Rd,25,25,0
+66,3/1/2014,1338,73,Outbound,4219057,4219286,Church St @ Lexington St,28,25,3
+67,3/1/2014,1345,73,Outbound,4219286,4219306,Harvard Upper Busway @ Red Line,45,25,20
+67,3/1/2014,1347,73,Outbound,4219286,4219306,Mt Auburn St @ Story St,35,25,10
+67,3/1/2014,1349,73,Outbound,4219286,4219306,Mt Auburn St @ Longfellow Rd,29,25,4
+67,3/1/2014,1353,73,Outbound,4219286,4219306,Mt Auburn St @ Homer Ave,27,25,2
+67,3/1/2014,1356,73,Outbound,4219286,4219306,Belmont St @ Oakley Rd,29,25,4
+67,3/1/2014,1363,73,Outbound,4219286,4219306,Church St @ Lexington St,30,25,5
+68,3/1/2014,1370,73,Outbound,4219306,4219288,Harvard Upper Busway @ Red Line,15,25,-10
+68,3/1/2014,1372,73,Outbound,4219306,4219288,Mt Auburn St @ Story St,21,25,-4
+68,3/1/2014,1374,73,Outbound,4219306,4219288,Mt Auburn St @ Longfellow Rd,20,25,-5
+68,3/1/2014,1378,73,Outbound,4219306,4219288,Mt Auburn St @ Homer Ave,21,25,-4
+68,3/1/2014,1381,73,Outbound,4219306,4219288,Belmont St @ Oakley Rd,18,25,-7
+68,3/1/2014,1388,73,Outbound,4219306,4219288,Church St @ Lexington St,14,25,-11
+69,3/1/2014,1395,73,Outbound,4219288,4219308,Harvard Upper Busway @ Red Line,29,25,4
+69,3/1/2014,1397,73,Outbound,4219288,4219308,Mt Auburn St @ Story St,26,25,1
+69,3/1/2014,1399,73,Outbound,4219288,4219308,Mt Auburn St @ Longfellow Rd,26,25,1
+69,3/1/2014,1403,73,Outbound,4219288,4219308,Mt Auburn St @ Homer Ave,26,25,1
+69,3/1/2014,1406,73,Outbound,4219288,4219308,Belmont St @ Oakley Rd,27,25,2
+69,3/1/2014,1413,73,Outbound,4219288,4219308,Church St @ Lexington St,30,25,5
+70,3/1/2014,1420,73,Outbound,4219308,4219290,Harvard Upper Busway @ Red Line,21,25,-4
+70,3/1/2014,1422,73,Outbound,4219308,4219290,Mt Auburn St @ Story St,25,25,0
+70,3/1/2014,1424,73,Outbound,4219308,4219290,Mt Auburn St @ Longfellow Rd,25,25,0
+70,3/1/2014,1428,73,Outbound,4219308,4219290,Mt Auburn St @ Homer Ave,25,25,0
+70,3/1/2014,1431,73,Outbound,4219308,4219290,Belmont St @ Oakley Rd,27,25,2
+70,3/1/2014,1438,73,Outbound,4219308,4219290,Church St @ Lexington St,26,25,1
+71,3/1/2014,1445,73,Outbound,4219290,4219310,Harvard Upper Busway @ Red Line,25,25,0
+71,3/1/2014,1447,73,Outbound,4219290,4219310,Mt Auburn St @ Story St,23,25,-2
+71,3/1/2014,1449,73,Outbound,4219290,4219310,Mt Auburn St @ Longfellow Rd,23,25,-2
+71,3/1/2014,1453,73,Outbound,4219290,4219310,Mt Auburn St @ Homer Ave,23,25,-2
+71,3/1/2014,1456,73,Outbound,4219290,4219310,Belmont St @ Oakley Rd,23,25,-2
+71,3/1/2014,1463,73,Outbound,4219290,4219310,Church St @ Lexington St,22,25,-3
+72,3/1/2014,1470,73,Outbound,4219310,4219292,Harvard Upper Busway @ Red Line,24,35,-11
+72,3/1/2014,1472,73,Outbound,4219310,4219292,Mt Auburn St @ Story St,54,35,19
