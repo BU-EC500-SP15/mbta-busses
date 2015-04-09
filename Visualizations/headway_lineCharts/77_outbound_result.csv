@@ -845,8 +845,6 @@ Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chara
 98,3/1/2014,1502,77,Outbound,4220775,4220710,Massachusetts Ave opp Boulevard Rd,53,10,43
 98,3/1/2014,1504,77,Outbound,4220775,4220710,Massachusetts Ave opp Lake St,53,10,43
 98,3/1/2014,1506,77,Outbound,4220775,4220710,Massachusetts Ave @ Medford St,52,10,42
-98,3/1/2014,1511,77,Outbound,4220775,4220710,Massachusetts Ave opp Appleton St,-1385,10,-1395
-98,3/1/2014,1513,77,Outbound,4220775,4220710,Arlington Heights Busway,-1385,10,-1395
 99,3/1/2014,1500,77,Outbound,4220710,4224336,Harvard Upper Busway @ Red Line,-32,10,-42
 99,3/1/2014,1504,77,Outbound,4220710,4224336,Massachusetts Ave opp Waterhouse St,-31,8,-39
 99,3/1/2014,1506,77,Outbound,4220710,4224336,Massachusetts Ave @ Porter Red Line Sta,-31,9,-40
@@ -854,7 +852,3 @@ Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chara
 100,3/1/2014,1512,77,Outbound,4224336,4224644,Massachusetts Ave opp Waterhouse St,6,15,-9
 100,3/1/2014,1515,77,Outbound,4224336,4224644,Massachusetts Ave @ Porter Red Line Sta,7,15,-8
 100,3/1/2014,1519,77,Outbound,4224336,4224644,North Cambridge Carhouse,8,15,-7
-101,3/1/2014,1525,77,Outbound,4224644,4224790,Harvard Upper Busway @ Red Line,-1386,11,-1397
-101,3/1/2014,1527,77,Outbound,4224644,4224790,Massachusetts Ave opp Waterhouse St,-1385,11,-1396
-101,3/1/2014,1530,77,Outbound,4224644,4224790,Massachusetts Ave @ Porter Red Line Sta,-1385,11,-1396
-101,3/1/2014,1534,77,Outbound,4224644,4224790,North Cambridge Carhouse,-1385,11,-1396
