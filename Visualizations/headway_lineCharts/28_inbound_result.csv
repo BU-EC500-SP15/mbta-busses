@@ -1041,5 +1041,3 @@ Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chara
 96,3/1/2014,1510,28,Inbound,4200084,4200056,Warren St @ Quincy St,47,20,27
 96,3/1/2014,1510,28,Inbound,4200084,4200056,Warren St @ Sunderland St,47,20,27
 96,3/1/2014,1513,28,Inbound,4200084,4200056,Warren St @ Moreland St,47,20,27
-96,3/1/2014,1515,28,Inbound,4200084,4200056,Dudley Station,-1394,20,-1414
-96,3/1/2014,1516,28,Inbound,4200084,4200056,Malcolm X Blvd @ Tremont St,-1394,20,-1414

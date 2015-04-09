@@ -763,7 +763,3 @@ Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chara
 98,3/1/2014,1479,57,Outbound,4236157,4236191,Commonwealth Ave @ University Rd,69,18,51
 98,3/1/2014,1483,57,Outbound,4236157,4236191,1079 Commonwealth Ave,71,18,53
 98,3/1/2014,1488,57,Outbound,4236157,4236191,Cambridge St @ N Beacon St,69,18,51
-98,3/1/2014,1493,57,Outbound,4236157,4236191,Washington St @ Market St,-1372,18,-1390
-98,3/1/2014,1497,57,Outbound,4236157,4236191,Tremont St @ Washington St,-1373,18,-1391
-98,3/1/2014,1500,57,Outbound,4236157,4236191,Park St @ Tremont St,-1373,18,-1391
-98,3/1/2014,1503,57,Outbound,4236157,4236191,Watertown Yard,-1373,18,-1391

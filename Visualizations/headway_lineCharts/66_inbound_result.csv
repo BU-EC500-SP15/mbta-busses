@@ -595,7 +595,3 @@ Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chara
 67,3/1/2014,1486,66,Inbound,4237300,4237308,Brighton Ave @ Cambridge St,63,25,38
 67,3/1/2014,1490,66,Inbound,4237300,4237308,Harvard Ave @ Commonwealth Ave,63,25,38
 67,3/1/2014,1494,66,Inbound,4237300,4237308,Harvard St @ Beacon St,60,25,35
-67,3/1/2014,1499,66,Inbound,4237300,4237308,Washington St @ Walnut,-1380,25,-1405
-67,3/1/2014,1502,66,Inbound,4237300,4237308,Huntington Ave opp Fenwood Rd,-1382,25,-1407
-67,3/1/2014,1505,66,Inbound,4237300,4237308,Tremont St @ Columbus Ave,-1384,25,-1409
-67,3/1/2014,1510,66,Inbound,4237300,4237308,Dudley Station,-1384,25,-1409

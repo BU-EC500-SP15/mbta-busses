@@ -574,4 +574,3 @@ Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chara
 66,3/1/2014,1495,66,Outbound,4237281,4237291,Harvard Ave @ Commonwealth Ave,49,30,19
 66,3/1/2014,1499,66,Outbound,4237281,4237291,Cambridge St @ Craftsman St,50,30,20
 66,3/1/2014,1505,66,Outbound,4237281,4237291,N Harvard St @ Western Ave,51,30,21
-66,3/1/2014,1513,66,Outbound,4237281,4237291,Harvard Sq @ Garden St - Dawes Island,-1387,24,-1411
