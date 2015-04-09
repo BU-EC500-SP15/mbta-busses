@@ -1,0 +1,535 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,297,71,Outbound,4224288,4224596,Harvard Lower Busway @ Red Line,22,20,2
+1,3/1/2014,299,71,Outbound,4224288,4224596,Mt Auburn St @ Story St,21,20,1
+1,3/1/2014,301,71,Outbound,4224288,4224596,Mt Auburn St @ Longfellow Rd,20,20,0
+1,3/1/2014,304,71,Outbound,4224288,4224596,Mt Auburn St @ Homer Ave,20,20,0
+1,3/1/2014,309,71,Outbound,4224288,4224596,Mt Auburn St @ Marshall St,18,20,-2
+1,3/1/2014,313,71,Outbound,4224288,4224596,Watertown Sq Terminal,17,20,-3
+2,3/1/2014,317,71,Outbound,4224596,4224290,Harvard Lower Busway @ Red Line,17,19,-2
+2,3/1/2014,319,71,Outbound,4224596,4224290,Mt Auburn St @ Story St,19,19,0
+2,3/1/2014,321,71,Outbound,4224596,4224290,Mt Auburn St @ Longfellow Rd,20,19,1
+2,3/1/2014,324,71,Outbound,4224596,4224290,Mt Auburn St @ Homer Ave,22,19,3
+2,3/1/2014,329,71,Outbound,4224596,4224290,Mt Auburn St @ Marshall St,24,19,5
+2,3/1/2014,333,71,Outbound,4224596,4224290,Watertown Sq Terminal,25,19,6
+3,3/1/2014,335,71,Outbound,4224290,4224598,Waterhouse St @ Massachusetts Ave,20,20,0
+3,3/1/2014,336,71,Outbound,4224290,4224598,Harvard Lower Busway @ Red Line,23,20,3
+3,3/1/2014,338,71,Outbound,4224290,4224598,Mt Auburn St @ Story St,21,20,1
+3,3/1/2014,340,71,Outbound,4224290,4224598,Mt Auburn St @ Longfellow Rd,21,20,1
+3,3/1/2014,343,71,Outbound,4224290,4224598,Mt Auburn St @ Homer Ave,20,20,0
+3,3/1/2014,348,71,Outbound,4224290,4224598,Mt Auburn St @ Marshall St,20,20,0
+3,3/1/2014,352,71,Outbound,4224290,4224598,Watertown Sq Terminal,21,20,1
+4,3/1/2014,355,71,Outbound,4224598,4224292,Waterhouse St @ Massachusetts Ave,22,20,2
+4,3/1/2014,356,71,Outbound,4224598,4224292,Harvard Lower Busway @ Red Line,19,20,-1
+4,3/1/2014,358,71,Outbound,4224598,4224292,Mt Auburn St @ Story St,20,20,0
+4,3/1/2014,360,71,Outbound,4224598,4224292,Mt Auburn St @ Longfellow Rd,19,20,-1
+4,3/1/2014,363,71,Outbound,4224598,4224292,Mt Auburn St @ Homer Ave,18,20,-2
+4,3/1/2014,368,71,Outbound,4224598,4224292,Mt Auburn St @ Marshall St,17,20,-3
+4,3/1/2014,372,71,Outbound,4224598,4224292,Watertown Sq Terminal,15,20,-5
+5,3/1/2014,375,71,Outbound,4224292,4224600,Waterhouse St @ Massachusetts Ave,16,20,-4
+5,3/1/2014,376,71,Outbound,4224292,4224600,Harvard Lower Busway @ Red Line,23,20,3
+5,3/1/2014,378,71,Outbound,4224292,4224600,Mt Auburn St @ Story St,23,20,3
+5,3/1/2014,380,71,Outbound,4224292,4224600,Mt Auburn St @ Longfellow Rd,24,20,4
+5,3/1/2014,383,71,Outbound,4224292,4224600,Mt Auburn St @ Homer Ave,26,20,6
+5,3/1/2014,388,71,Outbound,4224292,4224600,Mt Auburn St @ Marshall St,27,20,7
+5,3/1/2014,392,71,Outbound,4224292,4224600,Watertown Sq Terminal,28,20,8
+6,3/1/2014,396,71,Outbound,4224600,4224746,Harvard Lower Busway @ Red Line,26,13,13
+6,3/1/2014,398,71,Outbound,4224600,4224746,Mt Auburn St @ Story St,26,13,13
+6,3/1/2014,400,71,Outbound,4224600,4224746,Mt Auburn St @ Longfellow Rd,26,13,13
+6,3/1/2014,403,71,Outbound,4224600,4224746,Mt Auburn St @ Homer Ave,25,13,12
+6,3/1/2014,408,71,Outbound,4224600,4224746,Mt Auburn St @ Marshall St,24,13,11
+6,3/1/2014,412,71,Outbound,4224600,4224746,Watertown Sq Terminal,24,13,11
+7,3/1/2014,409,71,Outbound,4224746,4224294,Harvard Lower Busway @ Red Line,-10,7,-17
+7,3/1/2014,411,71,Outbound,4224746,4224294,Mt Auburn St @ Story St,-10,7,-17
+7,3/1/2014,413,71,Outbound,4224746,4224294,Mt Auburn St @ Longfellow Rd,-11,7,-18
+7,3/1/2014,416,71,Outbound,4224746,4224294,Mt Auburn St @ Homer Ave,-11,7,-18
+7,3/1/2014,421,71,Outbound,4224746,4224294,Mt Auburn St @ Marshall St,-10,7,-17
+7,3/1/2014,425,71,Outbound,4224746,4224294,Watertown Sq Terminal,-8,7,-15
+8,3/1/2014,415,71,Outbound,4224294,4224602,Waterhouse St @ Massachusetts Ave,22,20,2
+8,3/1/2014,416,71,Outbound,4224294,4224602,Harvard Lower Busway @ Red Line,20,20,0
+8,3/1/2014,418,71,Outbound,4224294,4224602,Mt Auburn St @ Story St,20,20,0
+8,3/1/2014,420,71,Outbound,4224294,4224602,Mt Auburn St @ Longfellow Rd,21,20,1
+8,3/1/2014,423,71,Outbound,4224294,4224602,Mt Auburn St @ Homer Ave,21,20,1
+8,3/1/2014,428,71,Outbound,4224294,4224602,Mt Auburn St @ Marshall St,19,20,-1
+8,3/1/2014,432,71,Outbound,4224294,4224602,Watertown Sq Terminal,16,20,-4
+9,3/1/2014,435,71,Outbound,4224602,4224748,Waterhouse St @ Massachusetts Ave,23,15,8
+9,3/1/2014,436,71,Outbound,4224602,4224748,Harvard Lower Busway @ Red Line,21,15,6
+9,3/1/2014,438,71,Outbound,4224602,4224748,Mt Auburn St @ Story St,21,15,6
+9,3/1/2014,440,71,Outbound,4224602,4224748,Mt Auburn St @ Longfellow Rd,22,15,7
+9,3/1/2014,443,71,Outbound,4224602,4224748,Mt Auburn St @ Homer Ave,21,15,6
+9,3/1/2014,448,71,Outbound,4224602,4224748,Mt Auburn St @ Marshall St,22,15,7
+9,3/1/2014,452,71,Outbound,4224602,4224748,Watertown Sq Terminal,24,15,9
+10,3/1/2014,450,71,Outbound,4224748,4224296,Waterhouse St @ Massachusetts Ave,3,15,-12
+10,3/1/2014,451,71,Outbound,4224748,4224296,Harvard Lower Busway @ Red Line,9,15,-6
+10,3/1/2014,453,71,Outbound,4224748,4224296,Mt Auburn St @ Story St,9,15,-6
+10,3/1/2014,455,71,Outbound,4224748,4224296,Mt Auburn St @ Longfellow Rd,8,15,-7
+10,3/1/2014,458,71,Outbound,4224748,4224296,Mt Auburn St @ Homer Ave,8,15,-7
+10,3/1/2014,463,71,Outbound,4224748,4224296,Mt Auburn St @ Marshall St,8,15,-7
+10,3/1/2014,467,71,Outbound,4224748,4224296,Watertown Sq Terminal,8,15,-7
+11,3/1/2014,465,71,Outbound,4224296,4224604,Waterhouse St @ Massachusetts Ave,17,15,2
+11,3/1/2014,466,71,Outbound,4224296,4224604,Harvard Lower Busway @ Red Line,14,15,-1
+11,3/1/2014,468,71,Outbound,4224296,4224604,Mt Auburn St @ Story St,17,15,2
+11,3/1/2014,470,71,Outbound,4224296,4224604,Mt Auburn St @ Longfellow Rd,17,15,2
+11,3/1/2014,473,71,Outbound,4224296,4224604,Mt Auburn St @ Homer Ave,17,15,2
+11,3/1/2014,478,71,Outbound,4224296,4224604,Mt Auburn St @ Marshall St,18,15,3
+11,3/1/2014,482,71,Outbound,4224296,4224604,Watertown Sq Terminal,18,15,3
+12,3/1/2014,480,71,Outbound,4224604,4224750,Waterhouse St @ Massachusetts Ave,20,15,5
+12,3/1/2014,481,71,Outbound,4224604,4224750,Harvard Lower Busway @ Red Line,18,15,3
+12,3/1/2014,483,71,Outbound,4224604,4224750,Mt Auburn St @ Story St,14,15,-1
+12,3/1/2014,485,71,Outbound,4224604,4224750,Mt Auburn St @ Longfellow Rd,14,15,-1
+12,3/1/2014,488,71,Outbound,4224604,4224750,Mt Auburn St @ Homer Ave,14,15,-1
+12,3/1/2014,493,71,Outbound,4224604,4224750,Mt Auburn St @ Marshall St,14,15,-1
+12,3/1/2014,497,71,Outbound,4224604,4224750,Watertown Sq Terminal,14,15,-1
+13,3/1/2014,495,71,Outbound,4224750,4224298,Waterhouse St @ Massachusetts Ave,6,15,-9
+13,3/1/2014,496,71,Outbound,4224750,4224298,Harvard Lower Busway @ Red Line,13,15,-2
+13,3/1/2014,498,71,Outbound,4224750,4224298,Mt Auburn St @ Story St,16,15,1
+13,3/1/2014,500,71,Outbound,4224750,4224298,Mt Auburn St @ Longfellow Rd,16,15,1
+13,3/1/2014,503,71,Outbound,4224750,4224298,Mt Auburn St @ Homer Ave,16,15,1
+13,3/1/2014,508,71,Outbound,4224750,4224298,Mt Auburn St @ Marshall St,16,15,1
+13,3/1/2014,512,71,Outbound,4224750,4224298,Watertown Sq Terminal,16,15,1
+14,3/1/2014,510,71,Outbound,4224298,4224606,Waterhouse St @ Massachusetts Ave,19,15,4
+14,3/1/2014,511,71,Outbound,4224298,4224606,Harvard Lower Busway @ Red Line,14,15,-1
+14,3/1/2014,513,71,Outbound,4224298,4224606,Mt Auburn St @ Story St,13,15,-2
+14,3/1/2014,515,71,Outbound,4224298,4224606,Mt Auburn St @ Longfellow Rd,13,15,-2
+14,3/1/2014,518,71,Outbound,4224298,4224606,Mt Auburn St @ Homer Ave,14,15,-1
+14,3/1/2014,523,71,Outbound,4224298,4224606,Mt Auburn St @ Marshall St,15,15,0
+14,3/1/2014,527,71,Outbound,4224298,4224606,Watertown Sq Terminal,16,17,-1
+15,3/1/2014,525,71,Outbound,4224606,4224752,Waterhouse St @ Massachusetts Ave,14,15,-1
+15,3/1/2014,526,71,Outbound,4224606,4224752,Harvard Lower Busway @ Red Line,18,15,3
+15,3/1/2014,528,71,Outbound,4224606,4224752,Mt Auburn St @ Story St,17,15,2
+15,3/1/2014,530,71,Outbound,4224606,4224752,Mt Auburn St @ Longfellow Rd,17,15,2
+15,3/1/2014,533,71,Outbound,4224606,4224752,Mt Auburn St @ Homer Ave,17,16,1
+15,3/1/2014,538,71,Outbound,4224606,4224752,Mt Auburn St @ Marshall St,15,17,-2
+15,3/1/2014,544,71,Outbound,4224606,4224752,Watertown Sq Terminal,14,17,-3
+16,3/1/2014,540,71,Outbound,4224752,4224300,Waterhouse St @ Massachusetts Ave,14,15,-1
+16,3/1/2014,541,71,Outbound,4224752,4224300,Harvard Lower Busway @ Red Line,12,15,-3
+16,3/1/2014,543,71,Outbound,4224752,4224300,Mt Auburn St @ Story St,14,15,-1
+16,3/1/2014,545,71,Outbound,4224752,4224300,Mt Auburn St @ Longfellow Rd,14,15,-1
+16,3/1/2014,549,71,Outbound,4224752,4224300,Mt Auburn St @ Homer Ave,14,15,-1
+16,3/1/2014,555,71,Outbound,4224752,4224300,Mt Auburn St @ Marshall St,15,15,0
+16,3/1/2014,561,71,Outbound,4224752,4224300,Watertown Sq Terminal,14,15,-1
+17,3/1/2014,555,71,Outbound,4224300,4224608,Waterhouse St @ Massachusetts Ave,19,15,4
+17,3/1/2014,556,71,Outbound,4224300,4224608,Harvard Lower Busway @ Red Line,15,15,0
+17,3/1/2014,558,71,Outbound,4224300,4224608,Mt Auburn St @ Story St,13,15,-2
+17,3/1/2014,560,71,Outbound,4224300,4224608,Mt Auburn St @ Longfellow Rd,13,15,-2
+17,3/1/2014,564,71,Outbound,4224300,4224608,Mt Auburn St @ Homer Ave,14,15,-1
+17,3/1/2014,570,71,Outbound,4224300,4224608,Mt Auburn St @ Marshall St,15,15,0
+17,3/1/2014,576,71,Outbound,4224300,4224608,Watertown Sq Terminal,16,15,1
+18,3/1/2014,570,71,Outbound,4224608,4224754,Waterhouse St @ Massachusetts Ave,15,15,0
+18,3/1/2014,571,71,Outbound,4224608,4224754,Harvard Lower Busway @ Red Line,18,15,3
+18,3/1/2014,575,71,Outbound,4224608,4224754,Mt Auburn St @ Longfellow Rd,19,15,4
+18,3/1/2014,579,71,Outbound,4224608,4224754,Mt Auburn St @ Homer Ave,19,15,4
+18,3/1/2014,585,71,Outbound,4224608,4224754,Mt Auburn St @ Marshall St,17,15,2
+18,3/1/2014,591,71,Outbound,4224608,4224754,Watertown Sq Terminal,16,15,1
+19,3/1/2014,586,71,Outbound,4224754,4224812,Harvard Lower Busway @ Red Line,13,9,4
+19,3/1/2014,590,71,Outbound,4224754,4224812,Mt Auburn St @ Longfellow Rd,13,9,4
+19,3/1/2014,594,71,Outbound,4224754,4224812,Mt Auburn St @ Homer Ave,11,9,2
+19,3/1/2014,600,71,Outbound,4224754,4224812,Mt Auburn St @ Marshall St,12,9,3
+19,3/1/2014,606,71,Outbound,4224754,4224812,Watertown Sq Terminal,12,9,3
+20,3/1/2014,595,71,Outbound,4224812,4224302,Harvard Lower Busway @ Red Line,1,6,-5
+20,3/1/2014,597,71,Outbound,4224812,4224302,Mt Auburn St @ Story St,1,6,-5
+20,3/1/2014,599,71,Outbound,4224812,4224302,Mt Auburn St @ Longfellow Rd,0,6,-6
+20,3/1/2014,603,71,Outbound,4224812,4224302,Mt Auburn St @ Homer Ave,0,6,-6
+20,3/1/2014,609,71,Outbound,4224812,4224302,Mt Auburn St @ Marshall St,-1,6,-7
+20,3/1/2014,615,71,Outbound,4224812,4224302,Watertown Sq Terminal,0,6,-6
+21,3/1/2014,600,71,Outbound,4224302,4224610,Waterhouse St @ Massachusetts Ave,15,15,0
+21,3/1/2014,601,71,Outbound,4224302,4224610,Harvard Lower Busway @ Red Line,16,15,1
+21,3/1/2014,603,71,Outbound,4224302,4224610,Mt Auburn St @ Story St,16,15,1
+21,3/1/2014,605,71,Outbound,4224302,4224610,Mt Auburn St @ Longfellow Rd,16,15,1
+21,3/1/2014,609,71,Outbound,4224302,4224610,Mt Auburn St @ Homer Ave,16,15,1
+21,3/1/2014,615,71,Outbound,4224302,4224610,Mt Auburn St @ Marshall St,18,15,3
+21,3/1/2014,621,71,Outbound,4224302,4224610,Watertown Sq Terminal,18,15,3
+22,3/1/2014,615,71,Outbound,4224610,4224756,Waterhouse St @ Massachusetts Ave,10,15,-5
+22,3/1/2014,616,71,Outbound,4224610,4224756,Harvard Lower Busway @ Red Line,13,15,-2
+22,3/1/2014,618,71,Outbound,4224610,4224756,Mt Auburn St @ Story St,14,15,-1
+22,3/1/2014,620,71,Outbound,4224610,4224756,Mt Auburn St @ Longfellow Rd,16,15,1
+22,3/1/2014,624,71,Outbound,4224610,4224756,Mt Auburn St @ Homer Ave,16,15,1
+22,3/1/2014,630,71,Outbound,4224610,4224756,Mt Auburn St @ Marshall St,16,15,1
+22,3/1/2014,636,71,Outbound,4224610,4224756,Watertown Sq Terminal,17,15,2
+23,3/1/2014,630,71,Outbound,4224756,4224814,Waterhouse St @ Massachusetts Ave,18,15,3
+23,3/1/2014,631,71,Outbound,4224756,4224814,Harvard Lower Busway @ Red Line,18,15,3
+23,3/1/2014,633,71,Outbound,4224756,4224814,Mt Auburn St @ Story St,17,15,2
+23,3/1/2014,635,71,Outbound,4224756,4224814,Mt Auburn St @ Longfellow Rd,18,15,3
+23,3/1/2014,639,71,Outbound,4224756,4224814,Mt Auburn St @ Homer Ave,19,15,4
+23,3/1/2014,645,71,Outbound,4224756,4224814,Mt Auburn St @ Marshall St,19,15,4
+23,3/1/2014,651,71,Outbound,4224756,4224814,Watertown Sq Terminal,19,15,4
+24,3/1/2014,645,71,Outbound,4224814,4224304,Waterhouse St @ Massachusetts Ave,16,15,1
+24,3/1/2014,646,71,Outbound,4224814,4224304,Harvard Lower Busway @ Red Line,13,15,-2
+24,3/1/2014,648,71,Outbound,4224814,4224304,Mt Auburn St @ Story St,13,15,-2
+24,3/1/2014,650,71,Outbound,4224814,4224304,Mt Auburn St @ Longfellow Rd,11,15,-4
+24,3/1/2014,654,71,Outbound,4224814,4224304,Mt Auburn St @ Homer Ave,10,15,-5
+24,3/1/2014,660,71,Outbound,4224814,4224304,Mt Auburn St @ Marshall St,11,15,-4
+24,3/1/2014,666,71,Outbound,4224814,4224304,Watertown Sq Terminal,10,15,-5
+25,3/1/2014,660,71,Outbound,4224304,4224612,Waterhouse St @ Massachusetts Ave,14,15,-1
+25,3/1/2014,661,71,Outbound,4224304,4224612,Harvard Lower Busway @ Red Line,13,15,-2
+25,3/1/2014,663,71,Outbound,4224304,4224612,Mt Auburn St @ Story St,15,15,0
+25,3/1/2014,665,71,Outbound,4224304,4224612,Mt Auburn St @ Longfellow Rd,14,15,-1
+25,3/1/2014,669,71,Outbound,4224304,4224612,Mt Auburn St @ Homer Ave,15,15,0
+25,3/1/2014,675,71,Outbound,4224304,4224612,Mt Auburn St @ Marshall St,15,15,0
+25,3/1/2014,681,71,Outbound,4224304,4224612,Watertown Sq Terminal,15,15,0
+26,3/1/2014,675,71,Outbound,4224612,4224758,Waterhouse St @ Massachusetts Ave,13,15,-2
+26,3/1/2014,676,71,Outbound,4224612,4224758,Harvard Lower Busway @ Red Line,15,15,0
+26,3/1/2014,678,71,Outbound,4224612,4224758,Mt Auburn St @ Story St,13,15,-2
+26,3/1/2014,680,71,Outbound,4224612,4224758,Mt Auburn St @ Longfellow Rd,14,15,-1
+26,3/1/2014,684,71,Outbound,4224612,4224758,Mt Auburn St @ Homer Ave,15,15,0
+26,3/1/2014,690,71,Outbound,4224612,4224758,Mt Auburn St @ Marshall St,16,15,1
+26,3/1/2014,696,71,Outbound,4224612,4224758,Watertown Sq Terminal,19,15,4
+27,3/1/2014,690,71,Outbound,4224758,4224816,Waterhouse St @ Massachusetts Ave,11,15,-4
+27,3/1/2014,691,71,Outbound,4224758,4224816,Harvard Lower Busway @ Red Line,17,15,2
+27,3/1/2014,693,71,Outbound,4224758,4224816,Mt Auburn St @ Story St,17,15,2
+27,3/1/2014,695,71,Outbound,4224758,4224816,Mt Auburn St @ Longfellow Rd,16,15,1
+27,3/1/2014,699,71,Outbound,4224758,4224816,Mt Auburn St @ Homer Ave,15,15,0
+27,3/1/2014,705,71,Outbound,4224758,4224816,Mt Auburn St @ Marshall St,12,15,-3
+27,3/1/2014,711,71,Outbound,4224758,4224816,Watertown Sq Terminal,10,15,-5
+28,3/1/2014,705,71,Outbound,4224816,4224306,Waterhouse St @ Massachusetts Ave,20,15,5
+28,3/1/2014,706,71,Outbound,4224816,4224306,Harvard Lower Busway @ Red Line,13,15,-2
+28,3/1/2014,708,71,Outbound,4224816,4224306,Mt Auburn St @ Story St,14,15,-1
+28,3/1/2014,710,71,Outbound,4224816,4224306,Mt Auburn St @ Longfellow Rd,14,15,-1
+28,3/1/2014,714,71,Outbound,4224816,4224306,Mt Auburn St @ Homer Ave,15,15,0
+28,3/1/2014,720,71,Outbound,4224816,4224306,Mt Auburn St @ Marshall St,16,15,1
+28,3/1/2014,726,71,Outbound,4224816,4224306,Watertown Sq Terminal,16,15,1
+29,3/1/2014,720,71,Outbound,4224306,4224614,Waterhouse St @ Massachusetts Ave,19,15,4
+29,3/1/2014,721,71,Outbound,4224306,4224614,Harvard Lower Busway @ Red Line,18,15,3
+29,3/1/2014,723,71,Outbound,4224306,4224614,Mt Auburn St @ Story St,17,15,2
+29,3/1/2014,725,71,Outbound,4224306,4224614,Mt Auburn St @ Longfellow Rd,18,15,3
+29,3/1/2014,729,71,Outbound,4224306,4224614,Mt Auburn St @ Homer Ave,16,15,1
+29,3/1/2014,735,71,Outbound,4224306,4224614,Mt Auburn St @ Marshall St,18,15,3
+29,3/1/2014,741,71,Outbound,4224306,4224614,Watertown Sq Terminal,19,15,4
+30,3/1/2014,735,71,Outbound,4224614,4224760,Waterhouse St @ Massachusetts Ave,7,15,-8
+30,3/1/2014,736,71,Outbound,4224614,4224760,Harvard Lower Busway @ Red Line,12,15,-3
+30,3/1/2014,738,71,Outbound,4224614,4224760,Mt Auburn St @ Story St,17,15,2
+30,3/1/2014,740,71,Outbound,4224614,4224760,Mt Auburn St @ Longfellow Rd,16,15,1
+30,3/1/2014,744,71,Outbound,4224614,4224760,Mt Auburn St @ Homer Ave,16,15,1
+30,3/1/2014,750,71,Outbound,4224614,4224760,Mt Auburn St @ Marshall St,17,15,2
+30,3/1/2014,756,71,Outbound,4224614,4224760,Watertown Sq Terminal,17,15,2
+31,3/1/2014,750,71,Outbound,4224760,4224818,Waterhouse St @ Massachusetts Ave,18,15,3
+31,3/1/2014,751,71,Outbound,4224760,4224818,Harvard Lower Busway @ Red Line,16,15,1
+31,3/1/2014,753,71,Outbound,4224760,4224818,Mt Auburn St @ Story St,11,15,-4
+31,3/1/2014,755,71,Outbound,4224760,4224818,Mt Auburn St @ Longfellow Rd,12,15,-3
+31,3/1/2014,759,71,Outbound,4224760,4224818,Mt Auburn St @ Homer Ave,13,15,-2
+31,3/1/2014,765,71,Outbound,4224760,4224818,Mt Auburn St @ Marshall St,9,15,-6
+31,3/1/2014,771,71,Outbound,4224760,4224818,Watertown Sq Terminal,9,15,-6
+32,3/1/2014,765,71,Outbound,4224818,4224308,Waterhouse St @ Massachusetts Ave,10,15,-5
+32,3/1/2014,766,71,Outbound,4224818,4224308,Harvard Lower Busway @ Red Line,15,15,0
+32,3/1/2014,768,71,Outbound,4224818,4224308,Mt Auburn St @ Story St,16,15,1
+32,3/1/2014,770,71,Outbound,4224818,4224308,Mt Auburn St @ Longfellow Rd,15,15,0
+32,3/1/2014,774,71,Outbound,4224818,4224308,Mt Auburn St @ Homer Ave,14,15,-1
+32,3/1/2014,780,71,Outbound,4224818,4224308,Mt Auburn St @ Marshall St,15,15,0
+32,3/1/2014,786,71,Outbound,4224818,4224308,Watertown Sq Terminal,12,15,-3
+33,3/1/2014,780,71,Outbound,4224308,4224616,Waterhouse St @ Massachusetts Ave,23,15,8
+33,3/1/2014,781,71,Outbound,4224308,4224616,Harvard Lower Busway @ Red Line,14,15,-1
+33,3/1/2014,783,71,Outbound,4224308,4224616,Mt Auburn St @ Story St,13,15,-2
+33,3/1/2014,785,71,Outbound,4224308,4224616,Mt Auburn St @ Longfellow Rd,13,15,-2
+33,3/1/2014,789,71,Outbound,4224308,4224616,Mt Auburn St @ Homer Ave,14,15,-1
+33,3/1/2014,795,71,Outbound,4224308,4224616,Mt Auburn St @ Marshall St,13,15,-2
+33,3/1/2014,801,71,Outbound,4224308,4224616,Watertown Sq Terminal,17,15,2
+34,3/1/2014,795,71,Outbound,4224616,4224762,Waterhouse St @ Massachusetts Ave,10,15,-5
+34,3/1/2014,796,71,Outbound,4224616,4224762,Harvard Lower Busway @ Red Line,21,15,6
+34,3/1/2014,798,71,Outbound,4224616,4224762,Mt Auburn St @ Story St,21,15,6
+34,3/1/2014,800,71,Outbound,4224616,4224762,Mt Auburn St @ Longfellow Rd,22,15,7
+34,3/1/2014,804,71,Outbound,4224616,4224762,Mt Auburn St @ Homer Ave,23,15,8
+34,3/1/2014,810,71,Outbound,4224616,4224762,Mt Auburn St @ Marshall St,26,15,11
+34,3/1/2014,816,71,Outbound,4224616,4224762,Watertown Sq Terminal,25,15,10
+35,3/1/2014,810,71,Outbound,4224762,4224820,Waterhouse St @ Massachusetts Ave,18,15,3
+35,3/1/2014,811,71,Outbound,4224762,4224820,Harvard Lower Busway @ Red Line,13,15,-2
+35,3/1/2014,813,71,Outbound,4224762,4224820,Mt Auburn St @ Story St,13,15,-2
+35,3/1/2014,815,71,Outbound,4224762,4224820,Mt Auburn St @ Longfellow Rd,15,15,0
+35,3/1/2014,819,71,Outbound,4224762,4224820,Mt Auburn St @ Homer Ave,14,15,-1
+35,3/1/2014,825,71,Outbound,4224762,4224820,Mt Auburn St @ Marshall St,13,15,-2
+35,3/1/2014,831,71,Outbound,4224762,4224820,Watertown Sq Terminal,10,15,-5
+36,3/1/2014,825,71,Outbound,4224820,4224310,Waterhouse St @ Massachusetts Ave,8,15,-7
+36,3/1/2014,826,71,Outbound,4224820,4224310,Harvard Lower Busway @ Red Line,11,15,-4
+36,3/1/2014,828,71,Outbound,4224820,4224310,Mt Auburn St @ Story St,12,15,-3
+36,3/1/2014,830,71,Outbound,4224820,4224310,Mt Auburn St @ Longfellow Rd,9,15,-6
+36,3/1/2014,834,71,Outbound,4224820,4224310,Mt Auburn St @ Homer Ave,9,15,-6
+36,3/1/2014,840,71,Outbound,4224820,4224310,Mt Auburn St @ Marshall St,10,15,-5
+36,3/1/2014,846,71,Outbound,4224820,4224310,Watertown Sq Terminal,11,15,-4
+37,3/1/2014,840,71,Outbound,4224310,4224618,Waterhouse St @ Massachusetts Ave,27,15,12
+37,3/1/2014,841,71,Outbound,4224310,4224618,Harvard Lower Busway @ Red Line,19,15,4
+37,3/1/2014,843,71,Outbound,4224310,4224618,Mt Auburn St @ Story St,18,15,3
+37,3/1/2014,845,71,Outbound,4224310,4224618,Mt Auburn St @ Longfellow Rd,18,15,3
+37,3/1/2014,849,71,Outbound,4224310,4224618,Mt Auburn St @ Homer Ave,19,15,4
+37,3/1/2014,855,71,Outbound,4224310,4224618,Mt Auburn St @ Marshall St,17,15,2
+37,3/1/2014,861,71,Outbound,4224310,4224618,Watertown Sq Terminal,19,15,4
+38,3/1/2014,855,71,Outbound,4224618,4224764,Waterhouse St @ Massachusetts Ave,17,15,2
+38,3/1/2014,856,71,Outbound,4224618,4224764,Harvard Lower Busway @ Red Line,18,15,3
+38,3/1/2014,858,71,Outbound,4224618,4224764,Mt Auburn St @ Story St,18,15,3
+38,3/1/2014,860,71,Outbound,4224618,4224764,Mt Auburn St @ Longfellow Rd,19,15,4
+38,3/1/2014,864,71,Outbound,4224618,4224764,Mt Auburn St @ Homer Ave,19,15,4
+38,3/1/2014,870,71,Outbound,4224618,4224764,Mt Auburn St @ Marshall St,20,15,5
+38,3/1/2014,876,71,Outbound,4224618,4224764,Watertown Sq Terminal,19,15,4
+39,3/1/2014,870,71,Outbound,4224764,4224822,Waterhouse St @ Massachusetts Ave,0,15,-15
+39,3/1/2014,871,71,Outbound,4224764,4224822,Harvard Lower Busway @ Red Line,9,15,-6
+39,3/1/2014,873,71,Outbound,4224764,4224822,Mt Auburn St @ Story St,9,15,-6
+39,3/1/2014,875,71,Outbound,4224764,4224822,Mt Auburn St @ Longfellow Rd,9,15,-6
+39,3/1/2014,879,71,Outbound,4224764,4224822,Mt Auburn St @ Homer Ave,8,15,-7
+39,3/1/2014,885,71,Outbound,4224764,4224822,Mt Auburn St @ Marshall St,6,15,-9
+39,3/1/2014,891,71,Outbound,4224764,4224822,Watertown Sq Terminal,4,15,-11
+40,3/1/2014,885,71,Outbound,4224822,4224312,Waterhouse St @ Massachusetts Ave,16,15,1
+40,3/1/2014,886,71,Outbound,4224822,4224312,Harvard Lower Busway @ Red Line,16,15,1
+40,3/1/2014,888,71,Outbound,4224822,4224312,Mt Auburn St @ Story St,16,15,1
+40,3/1/2014,890,71,Outbound,4224822,4224312,Mt Auburn St @ Longfellow Rd,17,15,2
+40,3/1/2014,894,71,Outbound,4224822,4224312,Mt Auburn St @ Homer Ave,17,15,2
+40,3/1/2014,900,71,Outbound,4224822,4224312,Mt Auburn St @ Marshall St,19,15,4
+40,3/1/2014,906,71,Outbound,4224822,4224312,Watertown Sq Terminal,21,15,6
+41,3/1/2014,900,71,Outbound,4224312,4224620,Waterhouse St @ Massachusetts Ave,17,15,2
+41,3/1/2014,901,71,Outbound,4224312,4224620,Harvard Lower Busway @ Red Line,13,15,-2
+41,3/1/2014,903,71,Outbound,4224312,4224620,Mt Auburn St @ Story St,14,15,-1
+41,3/1/2014,905,71,Outbound,4224312,4224620,Mt Auburn St @ Longfellow Rd,12,15,-3
+41,3/1/2014,909,71,Outbound,4224312,4224620,Mt Auburn St @ Homer Ave,14,15,-1
+41,3/1/2014,915,71,Outbound,4224312,4224620,Mt Auburn St @ Marshall St,14,15,-1
+41,3/1/2014,921,71,Outbound,4224312,4224620,Watertown Sq Terminal,14,15,-1
+42,3/1/2014,915,71,Outbound,4224620,4224766,Waterhouse St @ Massachusetts Ave,24,15,9
+42,3/1/2014,916,71,Outbound,4224620,4224766,Harvard Lower Busway @ Red Line,25,15,10
+42,3/1/2014,918,71,Outbound,4224620,4224766,Mt Auburn St @ Story St,25,15,10
+42,3/1/2014,920,71,Outbound,4224620,4224766,Mt Auburn St @ Longfellow Rd,26,15,11
+42,3/1/2014,924,71,Outbound,4224620,4224766,Mt Auburn St @ Homer Ave,26,15,11
+42,3/1/2014,930,71,Outbound,4224620,4224766,Mt Auburn St @ Marshall St,27,15,12
+42,3/1/2014,936,71,Outbound,4224620,4224766,Watertown Sq Terminal,27,15,12
+43,3/1/2014,930,71,Outbound,4224766,4224824,Waterhouse St @ Massachusetts Ave,8,15,-7
+43,3/1/2014,931,71,Outbound,4224766,4224824,Harvard Lower Busway @ Red Line,6,15,-9
+43,3/1/2014,933,71,Outbound,4224766,4224824,Mt Auburn St @ Story St,5,15,-10
+43,3/1/2014,935,71,Outbound,4224766,4224824,Mt Auburn St @ Longfellow Rd,5,15,-10
+43,3/1/2014,939,71,Outbound,4224766,4224824,Mt Auburn St @ Homer Ave,6,15,-9
+43,3/1/2014,945,71,Outbound,4224766,4224824,Mt Auburn St @ Marshall St,3,15,-12
+43,3/1/2014,951,71,Outbound,4224766,4224824,Watertown Sq Terminal,2,15,-13
+44,3/1/2014,945,71,Outbound,4224824,4224314,Waterhouse St @ Massachusetts Ave,18,15,3
+44,3/1/2014,946,71,Outbound,4224824,4224314,Harvard Lower Busway @ Red Line,14,15,-1
+44,3/1/2014,948,71,Outbound,4224824,4224314,Mt Auburn St @ Story St,15,15,0
+44,3/1/2014,950,71,Outbound,4224824,4224314,Mt Auburn St @ Longfellow Rd,14,15,-1
+44,3/1/2014,954,71,Outbound,4224824,4224314,Mt Auburn St @ Homer Ave,11,15,-4
+44,3/1/2014,960,71,Outbound,4224824,4224314,Mt Auburn St @ Marshall St,13,15,-2
+44,3/1/2014,966,71,Outbound,4224824,4224314,Watertown Sq Terminal,12,15,-3
+45,3/1/2014,960,71,Outbound,4224314,4224622,Waterhouse St @ Massachusetts Ave,12,15,-3
+45,3/1/2014,961,71,Outbound,4224314,4224622,Harvard Lower Busway @ Red Line,17,15,2
+45,3/1/2014,963,71,Outbound,4224314,4224622,Mt Auburn St @ Story St,16,15,1
+45,3/1/2014,965,71,Outbound,4224314,4224622,Mt Auburn St @ Longfellow Rd,17,15,2
+45,3/1/2014,969,71,Outbound,4224314,4224622,Mt Auburn St @ Homer Ave,18,15,3
+45,3/1/2014,975,71,Outbound,4224314,4224622,Mt Auburn St @ Marshall St,19,15,4
+45,3/1/2014,981,71,Outbound,4224314,4224622,Watertown Sq Terminal,20,15,5
+46,3/1/2014,975,71,Outbound,4224622,4224768,Waterhouse St @ Massachusetts Ave,20,15,5
+46,3/1/2014,976,71,Outbound,4224622,4224768,Harvard Lower Busway @ Red Line,15,15,0
+46,3/1/2014,978,71,Outbound,4224622,4224768,Mt Auburn St @ Story St,15,15,0
+46,3/1/2014,980,71,Outbound,4224622,4224768,Mt Auburn St @ Longfellow Rd,15,15,0
+46,3/1/2014,984,71,Outbound,4224622,4224768,Mt Auburn St @ Homer Ave,15,15,0
+46,3/1/2014,990,71,Outbound,4224622,4224768,Mt Auburn St @ Marshall St,15,15,0
+46,3/1/2014,996,71,Outbound,4224622,4224768,Watertown Sq Terminal,16,15,1
+47,3/1/2014,990,71,Outbound,4224768,4224826,Waterhouse St @ Massachusetts Ave,19,15,4
+47,3/1/2014,991,71,Outbound,4224768,4224826,Harvard Lower Busway @ Red Line,18,15,3
+47,3/1/2014,993,71,Outbound,4224768,4224826,Mt Auburn St @ Story St,18,15,3
+47,3/1/2014,995,71,Outbound,4224768,4224826,Mt Auburn St @ Longfellow Rd,18,15,3
+47,3/1/2014,999,71,Outbound,4224768,4224826,Mt Auburn St @ Homer Ave,17,15,2
+47,3/1/2014,1005,71,Outbound,4224768,4224826,Mt Auburn St @ Marshall St,16,15,1
+47,3/1/2014,1011,71,Outbound,4224768,4224826,Watertown Sq Terminal,14,15,-1
+48,3/1/2014,1005,71,Outbound,4224826,4224316,Waterhouse St @ Massachusetts Ave,7,15,-8
+48,3/1/2014,1006,71,Outbound,4224826,4224316,Harvard Lower Busway @ Red Line,9,15,-6
+48,3/1/2014,1008,71,Outbound,4224826,4224316,Mt Auburn St @ Story St,18,15,3
+48,3/1/2014,1010,71,Outbound,4224826,4224316,Mt Auburn St @ Longfellow Rd,18,15,3
+48,3/1/2014,1014,71,Outbound,4224826,4224316,Mt Auburn St @ Homer Ave,18,15,3
+48,3/1/2014,1020,71,Outbound,4224826,4224316,Mt Auburn St @ Marshall St,18,15,3
+48,3/1/2014,1026,71,Outbound,4224826,4224316,Watertown Sq Terminal,20,15,5
+49,3/1/2014,1020,71,Outbound,4224316,4224624,Waterhouse St @ Massachusetts Ave,14,15,-1
+49,3/1/2014,1021,71,Outbound,4224316,4224624,Harvard Lower Busway @ Red Line,17,15,2
+49,3/1/2014,1023,71,Outbound,4224316,4224624,Mt Auburn St @ Story St,9,15,-6
+49,3/1/2014,1025,71,Outbound,4224316,4224624,Mt Auburn St @ Longfellow Rd,8,15,-7
+49,3/1/2014,1029,71,Outbound,4224316,4224624,Mt Auburn St @ Homer Ave,8,15,-7
+49,3/1/2014,1035,71,Outbound,4224316,4224624,Mt Auburn St @ Marshall St,8,15,-7
+49,3/1/2014,1041,71,Outbound,4224316,4224624,Watertown Sq Terminal,8,15,-7
+50,3/1/2014,1035,71,Outbound,4224624,4224770,Waterhouse St @ Massachusetts Ave,16,15,1
+50,3/1/2014,1036,71,Outbound,4224624,4224770,Harvard Lower Busway @ Red Line,14,15,-1
+50,3/1/2014,1038,71,Outbound,4224624,4224770,Mt Auburn St @ Story St,13,15,-2
+50,3/1/2014,1040,71,Outbound,4224624,4224770,Mt Auburn St @ Longfellow Rd,14,15,-1
+50,3/1/2014,1044,71,Outbound,4224624,4224770,Mt Auburn St @ Homer Ave,13,15,-2
+50,3/1/2014,1050,71,Outbound,4224624,4224770,Mt Auburn St @ Marshall St,12,15,-3
+50,3/1/2014,1056,71,Outbound,4224624,4224770,Watertown Sq Terminal,12,15,-3
+51,3/1/2014,1050,71,Outbound,4224770,4224828,Waterhouse St @ Massachusetts Ave,18,15,3
+51,3/1/2014,1051,71,Outbound,4224770,4224828,Harvard Lower Busway @ Red Line,15,15,0
+51,3/1/2014,1053,71,Outbound,4224770,4224828,Mt Auburn St @ Story St,16,15,1
+51,3/1/2014,1055,71,Outbound,4224770,4224828,Mt Auburn St @ Longfellow Rd,15,15,0
+51,3/1/2014,1059,71,Outbound,4224770,4224828,Mt Auburn St @ Homer Ave,16,15,1
+51,3/1/2014,1065,71,Outbound,4224770,4224828,Mt Auburn St @ Marshall St,17,15,2
+51,3/1/2014,1071,71,Outbound,4224770,4224828,Watertown Sq Terminal,16,15,1
+52,3/1/2014,1065,71,Outbound,4224828,4224318,Waterhouse St @ Massachusetts Ave,32,15,17
+52,3/1/2014,1066,71,Outbound,4224828,4224318,Harvard Lower Busway @ Red Line,34,15,19
+52,3/1/2014,1068,71,Outbound,4224828,4224318,Mt Auburn St @ Story St,34,15,19
+52,3/1/2014,1070,71,Outbound,4224828,4224318,Mt Auburn St @ Longfellow Rd,34,15,19
+52,3/1/2014,1074,71,Outbound,4224828,4224318,Mt Auburn St @ Homer Ave,35,15,20
+52,3/1/2014,1080,71,Outbound,4224828,4224318,Mt Auburn St @ Marshall St,36,15,21
+52,3/1/2014,1086,71,Outbound,4224828,4224318,Watertown Sq Terminal,36,15,21
+53,3/1/2014,1080,71,Outbound,4224318,4224626,Waterhouse St @ Massachusetts Ave,0,15,-15
+53,3/1/2014,1081,71,Outbound,4224318,4224626,Harvard Lower Busway @ Red Line,-1,15,-16
+53,3/1/2014,1083,71,Outbound,4224318,4224626,Mt Auburn St @ Story St,0,15,-15
+53,3/1/2014,1085,71,Outbound,4224318,4224626,Mt Auburn St @ Longfellow Rd,0,15,-15
+53,3/1/2014,1089,71,Outbound,4224318,4224626,Mt Auburn St @ Homer Ave,-1,15,-16
+53,3/1/2014,1095,71,Outbound,4224318,4224626,Mt Auburn St @ Marshall St,0,15,-15
+53,3/1/2014,1101,71,Outbound,4224318,4224626,Watertown Sq Terminal,0,15,-15
+54,3/1/2014,1096,71,Outbound,4224626,4224772,Harvard Lower Busway @ Red Line,17,20,-3
+54,3/1/2014,1098,71,Outbound,4224626,4224772,Mt Auburn St @ Story St,15,20,-5
+54,3/1/2014,1100,71,Outbound,4224626,4224772,Mt Auburn St @ Longfellow Rd,15,20,-5
+54,3/1/2014,1104,71,Outbound,4224626,4224772,Mt Auburn St @ Homer Ave,17,20,-3
+54,3/1/2014,1110,71,Outbound,4224626,4224772,Mt Auburn St @ Marshall St,16,20,-4
+54,3/1/2014,1116,71,Outbound,4224626,4224772,Watertown Sq Terminal,16,20,-4
+55,3/1/2014,1116,71,Outbound,4224772,4224320,Harvard Lower Busway @ Red Line,33,20,13
+55,3/1/2014,1118,71,Outbound,4224772,4224320,Mt Auburn St @ Story St,33,20,13
+55,3/1/2014,1120,71,Outbound,4224772,4224320,Mt Auburn St @ Longfellow Rd,33,20,13
+55,3/1/2014,1124,71,Outbound,4224772,4224320,Mt Auburn St @ Homer Ave,31,20,11
+55,3/1/2014,1130,71,Outbound,4224772,4224320,Mt Auburn St @ Marshall St,31,20,11
+55,3/1/2014,1136,71,Outbound,4224772,4224320,Watertown Sq Terminal,31,20,11
+56,3/1/2014,1136,71,Outbound,4224320,4224628,Harvard Lower Busway @ Red Line,11,18,-7
+56,3/1/2014,1138,71,Outbound,4224320,4224628,Mt Auburn St @ Story St,13,18,-5
+56,3/1/2014,1140,71,Outbound,4224320,4224628,Mt Auburn St @ Longfellow Rd,13,18,-5
+56,3/1/2014,1144,71,Outbound,4224320,4224628,Mt Auburn St @ Homer Ave,15,18,-3
+56,3/1/2014,1150,71,Outbound,4224320,4224628,Mt Auburn St @ Marshall St,14,18,-4
+56,3/1/2014,1156,71,Outbound,4224320,4224628,Watertown Sq Terminal,14,18,-4
+57,3/1/2014,1154,71,Outbound,4224628,4224774,Harvard Lower Busway @ Red Line,12,17,-5
+57,3/1/2014,1156,71,Outbound,4224628,4224774,Mt Auburn St @ Story St,10,17,-7
+57,3/1/2014,1158,71,Outbound,4224628,4224774,Mt Auburn St @ Longfellow Rd,9,17,-8
+57,3/1/2014,1162,71,Outbound,4224628,4224774,Mt Auburn St @ Homer Ave,9,17,-8
+57,3/1/2014,1168,71,Outbound,4224628,4224774,Mt Auburn St @ Marshall St,8,17,-9
+57,3/1/2014,1174,71,Outbound,4224628,4224774,Watertown Sq Terminal,9,17,-8
+58,3/1/2014,1170,71,Outbound,4224774,4224322,Waterhouse St @ Massachusetts Ave,27,16,11
+58,3/1/2014,1171,71,Outbound,4224774,4224322,Harvard Lower Busway @ Red Line,23,16,7
+58,3/1/2014,1173,71,Outbound,4224774,4224322,Mt Auburn St @ Story St,23,16,7
+58,3/1/2014,1175,71,Outbound,4224774,4224322,Mt Auburn St @ Longfellow Rd,25,16,9
+58,3/1/2014,1179,71,Outbound,4224774,4224322,Mt Auburn St @ Homer Ave,23,16,7
+58,3/1/2014,1185,71,Outbound,4224774,4224322,Mt Auburn St @ Marshall St,24,16,8
+58,3/1/2014,1191,71,Outbound,4224774,4224322,Watertown Sq Terminal,23,14,9
+59,3/1/2014,1186,71,Outbound,4224322,4224630,Waterhouse St @ Massachusetts Ave,13,16,-3
+59,3/1/2014,1187,71,Outbound,4224322,4224630,Harvard Lower Busway @ Red Line,13,16,-3
+59,3/1/2014,1189,71,Outbound,4224322,4224630,Mt Auburn St @ Story St,13,16,-3
+59,3/1/2014,1191,71,Outbound,4224322,4224630,Mt Auburn St @ Longfellow Rd,13,16,-3
+59,3/1/2014,1195,71,Outbound,4224322,4224630,Mt Auburn St @ Homer Ave,14,16,-2
+59,3/1/2014,1201,71,Outbound,4224322,4224630,Mt Auburn St @ Marshall St,13,16,-3
+59,3/1/2014,1205,71,Outbound,4224322,4224630,Watertown Sq Terminal,14,16,-2
+60,3/1/2014,1202,71,Outbound,4224630,4224776,Waterhouse St @ Massachusetts Ave,11,17,-6
+60,3/1/2014,1203,71,Outbound,4224630,4224776,Harvard Lower Busway @ Red Line,12,17,-5
+60,3/1/2014,1205,71,Outbound,4224630,4224776,Mt Auburn St @ Story St,18,17,1
+60,3/1/2014,1207,71,Outbound,4224630,4224776,Mt Auburn St @ Longfellow Rd,17,17,0
+60,3/1/2014,1211,71,Outbound,4224630,4224776,Mt Auburn St @ Homer Ave,17,17,0
+60,3/1/2014,1217,71,Outbound,4224630,4224776,Mt Auburn St @ Marshall St,18,17,1
+60,3/1/2014,1221,71,Outbound,4224630,4224776,Watertown Sq Terminal,19,17,2
+61,3/1/2014,1219,71,Outbound,4224776,4224324,Waterhouse St @ Massachusetts Ave,23,16,7
+61,3/1/2014,1220,71,Outbound,4224776,4224324,Harvard Lower Busway @ Red Line,22,16,6
+61,3/1/2014,1222,71,Outbound,4224776,4224324,Mt Auburn St @ Story St,16,16,0
+61,3/1/2014,1224,71,Outbound,4224776,4224324,Mt Auburn St @ Longfellow Rd,17,16,1
+61,3/1/2014,1228,71,Outbound,4224776,4224324,Mt Auburn St @ Homer Ave,15,16,-1
+61,3/1/2014,1234,71,Outbound,4224776,4224324,Mt Auburn St @ Marshall St,15,16,-1
+61,3/1/2014,1238,71,Outbound,4224776,4224324,Watertown Sq Terminal,13,16,-3
+62,3/1/2014,1235,71,Outbound,4224324,4224632,Waterhouse St @ Massachusetts Ave,13,16,-3
+62,3/1/2014,1236,71,Outbound,4224324,4224632,Harvard Lower Busway @ Red Line,13,16,-3
+62,3/1/2014,1238,71,Outbound,4224324,4224632,Mt Auburn St @ Story St,14,16,-2
+62,3/1/2014,1240,71,Outbound,4224324,4224632,Mt Auburn St @ Longfellow Rd,14,16,-2
+62,3/1/2014,1244,71,Outbound,4224324,4224632,Mt Auburn St @ Homer Ave,14,16,-2
+62,3/1/2014,1250,71,Outbound,4224324,4224632,Mt Auburn St @ Marshall St,15,16,-1
+62,3/1/2014,1254,71,Outbound,4224324,4224632,Watertown Sq Terminal,15,16,-1
+63,3/1/2014,1251,71,Outbound,4224632,4224778,Waterhouse St @ Massachusetts Ave,16,15,1
+63,3/1/2014,1252,71,Outbound,4224632,4224778,Harvard Lower Busway @ Red Line,16,15,1
+63,3/1/2014,1254,71,Outbound,4224632,4224778,Mt Auburn St @ Story St,15,15,0
+63,3/1/2014,1256,71,Outbound,4224632,4224778,Mt Auburn St @ Longfellow Rd,14,15,-1
+63,3/1/2014,1260,71,Outbound,4224632,4224778,Mt Auburn St @ Homer Ave,16,15,1
+63,3/1/2014,1266,71,Outbound,4224632,4224778,Mt Auburn St @ Marshall St,13,15,-2
+63,3/1/2014,1270,71,Outbound,4224632,4224778,Watertown Sq Terminal,14,15,-1
+64,3/1/2014,1266,71,Outbound,4224778,4224326,Waterhouse St @ Massachusetts Ave,12,16,-4
+64,3/1/2014,1267,71,Outbound,4224778,4224326,Harvard Lower Busway @ Red Line,13,16,-3
+64,3/1/2014,1269,71,Outbound,4224778,4224326,Mt Auburn St @ Story St,13,16,-3
+64,3/1/2014,1271,71,Outbound,4224778,4224326,Mt Auburn St @ Longfellow Rd,14,16,-2
+64,3/1/2014,1275,71,Outbound,4224778,4224326,Mt Auburn St @ Homer Ave,14,16,-2
+64,3/1/2014,1281,71,Outbound,4224778,4224326,Mt Auburn St @ Marshall St,18,16,2
+64,3/1/2014,1285,71,Outbound,4224778,4224326,Watertown Sq Terminal,17,16,1
+65,3/1/2014,1282,71,Outbound,4224326,4224634,Waterhouse St @ Massachusetts Ave,14,16,-2
+65,3/1/2014,1283,71,Outbound,4224326,4224634,Harvard Lower Busway @ Red Line,15,16,-1
+65,3/1/2014,1285,71,Outbound,4224326,4224634,Mt Auburn St @ Story St,15,16,-1
+65,3/1/2014,1287,71,Outbound,4224326,4224634,Mt Auburn St @ Longfellow Rd,15,16,-1
+65,3/1/2014,1291,71,Outbound,4224326,4224634,Mt Auburn St @ Homer Ave,15,16,-1
+65,3/1/2014,1297,71,Outbound,4224326,4224634,Mt Auburn St @ Marshall St,12,16,-4
+65,3/1/2014,1301,71,Outbound,4224326,4224634,Watertown Sq Terminal,12,16,-4
+66,3/1/2014,1298,71,Outbound,4224634,4224780,Waterhouse St @ Massachusetts Ave,16,16,0
+66,3/1/2014,1299,71,Outbound,4224634,4224780,Harvard Lower Busway @ Red Line,17,16,1
+66,3/1/2014,1301,71,Outbound,4224634,4224780,Mt Auburn St @ Story St,17,16,1
+66,3/1/2014,1303,71,Outbound,4224634,4224780,Mt Auburn St @ Longfellow Rd,16,16,0
+66,3/1/2014,1307,71,Outbound,4224634,4224780,Mt Auburn St @ Homer Ave,16,16,0
+66,3/1/2014,1313,71,Outbound,4224634,4224780,Mt Auburn St @ Marshall St,17,16,1
+66,3/1/2014,1317,71,Outbound,4224634,4224780,Watertown Sq Terminal,17,16,1
+67,3/1/2014,1314,71,Outbound,4224780,4224328,Waterhouse St @ Massachusetts Ave,19,16,3
+67,3/1/2014,1315,71,Outbound,4224780,4224328,Harvard Lower Busway @ Red Line,16,16,0
+67,3/1/2014,1317,71,Outbound,4224780,4224328,Mt Auburn St @ Story St,16,16,0
+67,3/1/2014,1319,71,Outbound,4224780,4224328,Mt Auburn St @ Longfellow Rd,17,16,1
+67,3/1/2014,1323,71,Outbound,4224780,4224328,Mt Auburn St @ Homer Ave,15,16,-1
+67,3/1/2014,1329,71,Outbound,4224780,4224328,Mt Auburn St @ Marshall St,17,16,1
+67,3/1/2014,1333,71,Outbound,4224780,4224328,Watertown Sq Terminal,17,16,1
+68,3/1/2014,1330,71,Outbound,4224328,4224636,Waterhouse St @ Massachusetts Ave,12,16,-4
+68,3/1/2014,1331,71,Outbound,4224328,4224636,Harvard Lower Busway @ Red Line,15,16,-1
+68,3/1/2014,1333,71,Outbound,4224328,4224636,Mt Auburn St @ Story St,15,16,-1
+68,3/1/2014,1335,71,Outbound,4224328,4224636,Mt Auburn St @ Longfellow Rd,15,16,-1
+68,3/1/2014,1339,71,Outbound,4224328,4224636,Mt Auburn St @ Homer Ave,16,16,0
+68,3/1/2014,1345,71,Outbound,4224328,4224636,Mt Auburn St @ Marshall St,16,16,0
+68,3/1/2014,1349,71,Outbound,4224328,4224636,Watertown Sq Terminal,15,16,-1
+69,3/1/2014,1346,71,Outbound,4224636,4224782,Waterhouse St @ Massachusetts Ave,19,16,3
+69,3/1/2014,1347,71,Outbound,4224636,4224782,Harvard Lower Busway @ Red Line,17,16,1
+69,3/1/2014,1349,71,Outbound,4224636,4224782,Mt Auburn St @ Story St,16,16,0
+69,3/1/2014,1351,71,Outbound,4224636,4224782,Mt Auburn St @ Longfellow Rd,15,16,-1
+69,3/1/2014,1355,71,Outbound,4224636,4224782,Mt Auburn St @ Homer Ave,15,16,-1
+69,3/1/2014,1361,71,Outbound,4224636,4224782,Mt Auburn St @ Marshall St,12,16,-4
+69,3/1/2014,1365,71,Outbound,4224636,4224782,Watertown Sq Terminal,12,16,-4
+70,3/1/2014,1362,71,Outbound,4224782,4224330,Waterhouse St @ Massachusetts Ave,18,16,2
+70,3/1/2014,1363,71,Outbound,4224782,4224330,Harvard Lower Busway @ Red Line,16,16,0
+70,3/1/2014,1365,71,Outbound,4224782,4224330,Mt Auburn St @ Story St,17,16,1
+70,3/1/2014,1367,71,Outbound,4224782,4224330,Mt Auburn St @ Longfellow Rd,18,16,2
+70,3/1/2014,1371,71,Outbound,4224782,4224330,Mt Auburn St @ Homer Ave,18,16,2
+70,3/1/2014,1377,71,Outbound,4224782,4224330,Mt Auburn St @ Marshall St,20,16,4
+70,3/1/2014,1381,71,Outbound,4224782,4224330,Watertown Sq Terminal,21,16,5
+71,3/1/2014,1378,71,Outbound,4224330,4224638,Waterhouse St @ Massachusetts Ave,12,16,-4
+71,3/1/2014,1379,71,Outbound,4224330,4224638,Harvard Lower Busway @ Red Line,15,16,-1
+71,3/1/2014,1381,71,Outbound,4224330,4224638,Mt Auburn St @ Story St,15,16,-1
+71,3/1/2014,1383,71,Outbound,4224330,4224638,Mt Auburn St @ Longfellow Rd,14,16,-2
+71,3/1/2014,1387,71,Outbound,4224330,4224638,Mt Auburn St @ Homer Ave,14,16,-2
+71,3/1/2014,1393,71,Outbound,4224330,4224638,Mt Auburn St @ Marshall St,11,16,-5
+71,3/1/2014,1397,71,Outbound,4224330,4224638,Watertown Sq Terminal,10,16,-6
+72,3/1/2014,1394,71,Outbound,4224638,4224784,Waterhouse St @ Massachusetts Ave,17,16,1
+72,3/1/2014,1395,71,Outbound,4224638,4224784,Harvard Lower Busway @ Red Line,15,16,-1
+72,3/1/2014,1397,71,Outbound,4224638,4224784,Mt Auburn St @ Story St,16,16,0
+72,3/1/2014,1399,71,Outbound,4224638,4224784,Mt Auburn St @ Longfellow Rd,16,16,0
+72,3/1/2014,1403,71,Outbound,4224638,4224784,Mt Auburn St @ Homer Ave,16,16,0
+72,3/1/2014,1409,71,Outbound,4224638,4224784,Mt Auburn St @ Marshall St,17,16,1
+72,3/1/2014,1413,71,Outbound,4224638,4224784,Watertown Sq Terminal,17,16,1
+73,3/1/2014,1410,71,Outbound,4224784,4224332,Waterhouse St @ Massachusetts Ave,20,16,4
+73,3/1/2014,1411,71,Outbound,4224784,4224332,Harvard Lower Busway @ Red Line,20,16,4
+73,3/1/2014,1413,71,Outbound,4224784,4224332,Mt Auburn St @ Story St,19,16,3
+73,3/1/2014,1415,71,Outbound,4224784,4224332,Mt Auburn St @ Longfellow Rd,20,16,4
+73,3/1/2014,1419,71,Outbound,4224784,4224332,Mt Auburn St @ Homer Ave,21,16,5
+73,3/1/2014,1425,71,Outbound,4224784,4224332,Mt Auburn St @ Marshall St,23,16,7
+73,3/1/2014,1429,71,Outbound,4224784,4224332,Watertown Sq Terminal,25,16,9
+74,3/1/2014,1426,71,Outbound,4224332,4224640,Waterhouse St @ Massachusetts Ave,7,15,-8
+74,3/1/2014,1427,71,Outbound,4224332,4224640,Harvard Lower Busway @ Red Line,12,15,-3
+74,3/1/2014,1429,71,Outbound,4224332,4224640,Mt Auburn St @ Story St,12,15,-3
+74,3/1/2014,1431,71,Outbound,4224332,4224640,Mt Auburn St @ Longfellow Rd,11,15,-4
+74,3/1/2014,1435,71,Outbound,4224332,4224640,Mt Auburn St @ Homer Ave,11,15,-4
+74,3/1/2014,1441,71,Outbound,4224332,4224640,Mt Auburn St @ Marshall St,9,15,-6
+74,3/1/2014,1445,71,Outbound,4224332,4224640,Watertown Sq Terminal,8,15,-7
+75,3/1/2014,1441,71,Outbound,4224640,4224786,Waterhouse St @ Massachusetts Ave,20,15,5
+75,3/1/2014,1442,71,Outbound,4224640,4224786,Harvard Lower Busway @ Red Line,15,15,0
+75,3/1/2014,1444,71,Outbound,4224640,4224786,Mt Auburn St @ Story St,15,15,0
+75,3/1/2014,1446,71,Outbound,4224640,4224786,Mt Auburn St @ Longfellow Rd,16,15,1
+75,3/1/2014,1450,71,Outbound,4224640,4224786,Mt Auburn St @ Homer Ave,14,15,-1
+75,3/1/2014,1456,71,Outbound,4224640,4224786,Mt Auburn St @ Marshall St,14,15,-1
+75,3/1/2014,1460,71,Outbound,4224640,4224786,Watertown Sq Terminal,13,15,-2
+76,3/1/2014,1456,71,Outbound,4224786,4224334,Waterhouse St @ Massachusetts Ave,18,15,3
+76,3/1/2014,1457,71,Outbound,4224786,4224334,Harvard Lower Busway @ Red Line,18,15,3
+76,3/1/2014,1459,71,Outbound,4224786,4224334,Mt Auburn St @ Story St,18,15,3
+76,3/1/2014,1461,71,Outbound,4224786,4224334,Mt Auburn St @ Longfellow Rd,17,15,2
+76,3/1/2014,1465,71,Outbound,4224786,4224334,Mt Auburn St @ Homer Ave,18,15,3
+76,3/1/2014,1471,71,Outbound,4224786,4224334,Mt Auburn St @ Marshall St,19,15,4
+76,3/1/2014,1475,71,Outbound,4224786,4224334,Watertown Sq Terminal,19,15,4
+77,3/1/2014,1471,71,Outbound,4224334,4224642,Waterhouse St @ Massachusetts Ave,10,18,-8
+77,3/1/2014,1472,71,Outbound,4224334,4224642,Harvard Lower Busway @ Red Line,15,18,-3
+77,3/1/2014,1474,71,Outbound,4224334,4224642,Mt Auburn St @ Story St,15,18,-3
+77,3/1/2014,1476,71,Outbound,4224334,4224642,Mt Auburn St @ Longfellow Rd,15,18,-3
+77,3/1/2014,1480,71,Outbound,4224334,4224642,Mt Auburn St @ Homer Ave,15,18,-3
+77,3/1/2014,1486,71,Outbound,4224334,4224642,Mt Auburn St @ Marshall St,15,18,-3
+77,3/1/2014,1490,71,Outbound,4224334,4224642,Watertown Sq Terminal,15,18,-3
+78,3/1/2014,1489,71,Outbound,4224642,4224788,Waterhouse St @ Massachusetts Ave,17,12,5
+78,3/1/2014,1490,71,Outbound,4224642,4224788,Harvard Lower Busway @ Red Line,39,12,27
+78,3/1/2014,1492,71,Outbound,4224642,4224788,Mt Auburn St @ Story St,53,12,41
+78,3/1/2014,1494,71,Outbound,4224642,4224788,Mt Auburn St @ Longfellow Rd,54,12,42
+78,3/1/2014,1498,71,Outbound,4224642,4224788,Mt Auburn St @ Homer Ave,55,12,43
+78,3/1/2014,1504,71,Outbound,4224642,4224788,Mt Auburn St @ Marshall St,54,12,42
+78,3/1/2014,1508,71,Outbound,4224642,4224788,Watertown Sq Terminal,54,12,42

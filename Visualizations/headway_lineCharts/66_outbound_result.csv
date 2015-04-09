@@ -1,0 +1,577 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,282,66,Outbound,4237150,4237101,Dudley Station,30,30,0
+1,3/1/2014,284,66,Outbound,4237150,4237101,Tremont St opp Roxbury Crossing Sta,32,30,2
+1,3/1/2014,286,66,Outbound,4237150,4237101,Tremont St @ Huntington Ave,31,30,1
+1,3/1/2014,289,66,Outbound,4237150,4237101,Washington St @ Pearl St,32,30,2
+1,3/1/2014,292,66,Outbound,4237150,4237101,Harvard St @ Beacon St,32,30,2
+1,3/1/2014,295,66,Outbound,4237150,4237101,Harvard Ave @ Commonwealth Ave,32,30,2
+1,3/1/2014,297,66,Outbound,4237150,4237101,Cambridge St @ Craftsman St,33,30,3
+1,3/1/2014,301,66,Outbound,4237150,4237101,N Harvard St @ Western Ave,32,30,2
+1,3/1/2014,309,66,Outbound,4237150,4237101,Harvard Sq @ Garden St - Dawes Island,25,30,-5
+2,3/1/2014,312,66,Outbound,4237101,4237116,Dudley Station,44,30,14
+2,3/1/2014,314,66,Outbound,4237101,4237116,Tremont St opp Roxbury Crossing Sta,34,30,4
+2,3/1/2014,316,66,Outbound,4237101,4237116,Tremont St @ Huntington Ave,35,30,5
+2,3/1/2014,319,66,Outbound,4237101,4237116,Washington St @ Pearl St,34,30,4
+2,3/1/2014,322,66,Outbound,4237101,4237116,Harvard St @ Beacon St,35,30,5
+2,3/1/2014,325,66,Outbound,4237101,4237116,Harvard Ave @ Commonwealth Ave,36,30,6
+2,3/1/2014,327,66,Outbound,4237101,4237116,Cambridge St @ Craftsman St,36,30,6
+2,3/1/2014,331,66,Outbound,4237101,4237116,N Harvard St @ Western Ave,39,31,8
+2,3/1/2014,339,66,Outbound,4237101,4237116,Harvard Sq @ Garden St - Dawes Island,17,39,-22
+3,3/1/2014,342,66,Outbound,4237116,4237135,Dudley Station,-2,30,-32
+3,3/1/2014,344,66,Outbound,4237116,4237135,Tremont St opp Roxbury Crossing Sta,26,31,-5
+3,3/1/2014,346,66,Outbound,4237116,4237135,Tremont St @ Huntington Ave,27,31,-4
+3,3/1/2014,349,66,Outbound,4237116,4237135,Washington St @ Pearl St,29,33,-4
+3,3/1/2014,352,66,Outbound,4237116,4237135,Harvard St @ Beacon St,28,33,-5
+3,3/1/2014,355,66,Outbound,4237116,4237135,Harvard Ave @ Commonwealth Ave,27,35,-8
+3,3/1/2014,357,66,Outbound,4237116,4237135,Cambridge St @ Craftsman St,27,36,-9
+3,3/1/2014,362,66,Outbound,4237116,4237135,N Harvard St @ Western Ave,28,37,-9
+3,3/1/2014,378,66,Outbound,4237116,4237135,Harvard Sq @ Garden St - Dawes Island,26,37,-11
+4,3/1/2014,372,66,Outbound,4237135,4237152,Dudley Station,26,20,6
+4,3/1/2014,375,66,Outbound,4237135,4237152,Tremont St opp Roxbury Crossing Sta,20,20,0
+4,3/1/2014,377,66,Outbound,4237135,4237152,Tremont St @ Huntington Ave,19,20,-1
+4,3/1/2014,382,66,Outbound,4237135,4237152,Washington St @ Pearl St,22,20,2
+4,3/1/2014,385,66,Outbound,4237135,4237152,Harvard St @ Beacon St,23,20,3
+4,3/1/2014,390,66,Outbound,4237135,4237152,Harvard Ave @ Commonwealth Ave,24,20,4
+4,3/1/2014,393,66,Outbound,4237135,4237152,Cambridge St @ Craftsman St,24,20,4
+4,3/1/2014,399,66,Outbound,4237135,4237152,N Harvard St @ Western Ave,23,20,3
+4,3/1/2014,415,66,Outbound,4237135,4237152,Harvard Sq @ Garden St - Dawes Island,30,20,10
+5,3/1/2014,392,66,Outbound,4237152,4237103,Dudley Station,17,15,2
+5,3/1/2014,395,66,Outbound,4237152,4237103,Tremont St opp Roxbury Crossing Sta,13,15,-2
+5,3/1/2014,397,66,Outbound,4237152,4237103,Tremont St @ Huntington Ave,14,15,-1
+5,3/1/2014,402,66,Outbound,4237152,4237103,Washington St @ Pearl St,11,15,-4
+5,3/1/2014,405,66,Outbound,4237152,4237103,Harvard St @ Beacon St,11,15,-4
+5,3/1/2014,410,66,Outbound,4237152,4237103,Harvard Ave @ Commonwealth Ave,10,13,-3
+5,3/1/2014,413,66,Outbound,4237152,4237103,Cambridge St @ Craftsman St,10,12,-2
+5,3/1/2014,419,66,Outbound,4237152,4237103,N Harvard St @ Western Ave,9,12,-3
+5,3/1/2014,435,66,Outbound,4237152,4237103,Harvard Sq @ Garden St - Dawes Island,21,12,9
+6,3/1/2014,407,66,Outbound,4237103,4237106,Dudley Station,20,15,5
+6,3/1/2014,410,66,Outbound,4237103,4237106,Tremont St opp Roxbury Crossing Sta,18,15,3
+6,3/1/2014,412,66,Outbound,4237103,4237106,Tremont St @ Huntington Ave,17,15,2
+6,3/1/2014,417,66,Outbound,4237103,4237106,Washington St @ Pearl St,19,14,5
+6,3/1/2014,420,66,Outbound,4237103,4237106,Harvard St @ Beacon St,19,15,4
+6,3/1/2014,423,66,Outbound,4237103,4237106,Harvard Ave @ Commonwealth Ave,19,15,4
+6,3/1/2014,425,66,Outbound,4237103,4237106,Cambridge St @ Craftsman St,19,15,4
+6,3/1/2014,431,66,Outbound,4237103,4237106,N Harvard St @ Western Ave,19,15,4
+6,3/1/2014,447,66,Outbound,4237103,4237106,Harvard Sq @ Garden St - Dawes Island,6,15,-9
+7,3/1/2014,422,66,Outbound,4237106,4237118,Dudley Station,8,13,-5
+7,3/1/2014,425,66,Outbound,4237106,4237118,Tremont St opp Roxbury Crossing Sta,11,13,-2
+7,3/1/2014,427,66,Outbound,4237106,4237118,Tremont St @ Huntington Ave,11,13,-2
+7,3/1/2014,431,66,Outbound,4237106,4237118,Washington St @ Pearl St,10,13,-3
+7,3/1/2014,435,66,Outbound,4237106,4237118,Harvard St @ Beacon St,10,13,-3
+7,3/1/2014,438,66,Outbound,4237106,4237118,Harvard Ave @ Commonwealth Ave,10,13,-3
+7,3/1/2014,440,66,Outbound,4237106,4237118,Cambridge St @ Craftsman St,10,13,-3
+7,3/1/2014,446,66,Outbound,4237106,4237118,N Harvard St @ Western Ave,11,13,-2
+7,3/1/2014,462,66,Outbound,4237106,4237118,Harvard Sq @ Garden St - Dawes Island,7,13,-6
+8,3/1/2014,435,66,Outbound,4237118,4237128,Dudley Station,35,15,20
+8,3/1/2014,438,66,Outbound,4237118,4237128,Tremont St opp Roxbury Crossing Sta,15,15,0
+8,3/1/2014,440,66,Outbound,4237118,4237128,Tremont St @ Huntington Ave,16,15,1
+8,3/1/2014,444,66,Outbound,4237118,4237128,Washington St @ Pearl St,16,15,1
+8,3/1/2014,448,66,Outbound,4237118,4237128,Harvard St @ Beacon St,16,15,1
+8,3/1/2014,451,66,Outbound,4237118,4237128,Harvard Ave @ Commonwealth Ave,18,15,3
+8,3/1/2014,453,66,Outbound,4237118,4237128,Cambridge St @ Craftsman St,18,15,3
+8,3/1/2014,459,66,Outbound,4237118,4237128,N Harvard St @ Western Ave,20,15,5
+8,3/1/2014,475,66,Outbound,4237118,4237128,Harvard Sq @ Garden St - Dawes Island,20,12,8
+9,3/1/2014,450,66,Outbound,4237128,4237137,Dudley Station,5,15,-10
+9,3/1/2014,453,66,Outbound,4237128,4237137,Tremont St opp Roxbury Crossing Sta,16,15,1
+9,3/1/2014,455,66,Outbound,4237128,4237137,Tremont St @ Huntington Ave,15,15,0
+9,3/1/2014,459,66,Outbound,4237128,4237137,Washington St @ Pearl St,14,15,-1
+9,3/1/2014,463,66,Outbound,4237128,4237137,Harvard St @ Beacon St,14,15,-1
+9,3/1/2014,466,66,Outbound,4237128,4237137,Harvard Ave @ Commonwealth Ave,15,17,-2
+9,3/1/2014,468,66,Outbound,4237128,4237137,Cambridge St @ Craftsman St,15,18,-3
+9,3/1/2014,474,66,Outbound,4237128,4237137,N Harvard St @ Western Ave,13,18,-5
+9,3/1/2014,487,66,Outbound,4237128,4237137,Harvard Sq @ Garden St - Dawes Island,14,16,-2
+10,3/1/2014,465,66,Outbound,4237137,4237154,Dudley Station,17,17,0
+10,3/1/2014,468,66,Outbound,4237137,4237154,Tremont St opp Roxbury Crossing Sta,16,17,-1
+10,3/1/2014,470,66,Outbound,4237137,4237154,Tremont St @ Huntington Ave,17,18,-1
+10,3/1/2014,474,66,Outbound,4237137,4237154,Washington St @ Pearl St,18,19,-1
+10,3/1/2014,478,66,Outbound,4237137,4237154,Harvard St @ Beacon St,18,20,-2
+10,3/1/2014,483,66,Outbound,4237137,4237154,Harvard Ave @ Commonwealth Ave,16,21,-5
+10,3/1/2014,486,66,Outbound,4237137,4237154,Cambridge St @ Craftsman St,18,21,-3
+10,3/1/2014,492,66,Outbound,4237137,4237154,N Harvard St @ Western Ave,18,21,-3
+10,3/1/2014,503,66,Outbound,4237137,4237154,Harvard Sq @ Garden St - Dawes Island,25,21,4
+11,3/1/2014,482,66,Outbound,4237154,4237168,Dudley Station,28,17,11
+11,3/1/2014,485,66,Outbound,4237154,4237168,Tremont St opp Roxbury Crossing Sta,19,17,2
+11,3/1/2014,488,66,Outbound,4237154,4237168,Tremont St @ Huntington Ave,19,17,2
+11,3/1/2014,493,66,Outbound,4237154,4237168,Washington St @ Pearl St,18,17,1
+11,3/1/2014,498,66,Outbound,4237154,4237168,Harvard St @ Beacon St,18,17,1
+11,3/1/2014,504,66,Outbound,4237154,4237168,Harvard Ave @ Commonwealth Ave,19,17,2
+11,3/1/2014,507,66,Outbound,4237154,4237168,Cambridge St @ Craftsman St,18,17,1
+11,3/1/2014,513,66,Outbound,4237154,4237168,N Harvard St @ Western Ave,18,17,1
+11,3/1/2014,524,66,Outbound,4237154,4237168,Harvard Sq @ Garden St - Dawes Island,10,17,-7
+12,3/1/2014,499,66,Outbound,4237168,4237108,Dudley Station,-3,17,-20
+12,3/1/2014,502,66,Outbound,4237168,4237108,Tremont St opp Roxbury Crossing Sta,13,17,-4
+12,3/1/2014,505,66,Outbound,4237168,4237108,Tremont St @ Huntington Ave,14,17,-3
+12,3/1/2014,510,66,Outbound,4237168,4237108,Washington St @ Pearl St,15,17,-2
+12,3/1/2014,515,66,Outbound,4237168,4237108,Harvard St @ Beacon St,16,17,-1
+12,3/1/2014,521,66,Outbound,4237168,4237108,Harvard Ave @ Commonwealth Ave,15,17,-2
+12,3/1/2014,524,66,Outbound,4237168,4237108,Cambridge St @ Craftsman St,15,17,-2
+12,3/1/2014,530,66,Outbound,4237168,4237108,N Harvard St @ Western Ave,16,17,-1
+12,3/1/2014,541,66,Outbound,4237168,4237108,Harvard Sq @ Garden St - Dawes Island,19,17,2
+13,3/1/2014,516,66,Outbound,4237108,4237120,Dudley Station,20,17,3
+13,3/1/2014,519,66,Outbound,4237108,4237120,Tremont St opp Roxbury Crossing Sta,22,17,5
+13,3/1/2014,522,66,Outbound,4237108,4237120,Tremont St @ Huntington Ave,20,17,3
+13,3/1/2014,527,66,Outbound,4237108,4237120,Washington St @ Pearl St,21,17,4
+13,3/1/2014,532,66,Outbound,4237108,4237120,Harvard St @ Beacon St,21,17,4
+13,3/1/2014,538,66,Outbound,4237108,4237120,Harvard Ave @ Commonwealth Ave,23,17,6
+13,3/1/2014,541,66,Outbound,4237108,4237120,Cambridge St @ Craftsman St,24,17,7
+13,3/1/2014,547,66,Outbound,4237108,4237120,N Harvard St @ Western Ave,27,17,10
+13,3/1/2014,558,66,Outbound,4237108,4237120,Harvard Sq @ Garden St - Dawes Island,27,17,10
+14,3/1/2014,533,66,Outbound,4237120,4237130,Dudley Station,16,17,-1
+14,3/1/2014,536,66,Outbound,4237120,4237130,Tremont St opp Roxbury Crossing Sta,19,17,2
+14,3/1/2014,539,66,Outbound,4237120,4237130,Tremont St @ Huntington Ave,20,17,3
+14,3/1/2014,544,66,Outbound,4237120,4237130,Washington St @ Pearl St,20,17,3
+14,3/1/2014,549,66,Outbound,4237120,4237130,Harvard St @ Beacon St,21,17,4
+14,3/1/2014,555,66,Outbound,4237120,4237130,Harvard Ave @ Commonwealth Ave,20,17,3
+14,3/1/2014,558,66,Outbound,4237120,4237130,Cambridge St @ Craftsman St,21,17,4
+14,3/1/2014,564,66,Outbound,4237120,4237130,N Harvard St @ Western Ave,17,17,0
+14,3/1/2014,575,66,Outbound,4237120,4237130,Harvard Sq @ Garden St - Dawes Island,17,17,0
+15,3/1/2014,550,66,Outbound,4237130,4237316,Dudley Station,29,17,12
+15,3/1/2014,553,66,Outbound,4237130,4237316,Tremont St opp Roxbury Crossing Sta,14,17,-3
+15,3/1/2014,556,66,Outbound,4237130,4237316,Tremont St @ Huntington Ave,13,17,-4
+15,3/1/2014,561,66,Outbound,4237130,4237316,Washington St @ Pearl St,14,17,-3
+15,3/1/2014,572,66,Outbound,4237130,4237316,Harvard Ave @ Commonwealth Ave,12,17,-5
+15,3/1/2014,575,66,Outbound,4237130,4237316,Cambridge St @ Craftsman St,10,17,-7
+15,3/1/2014,581,66,Outbound,4237130,4237316,N Harvard St @ Western Ave,10,17,-7
+15,3/1/2014,592,66,Outbound,4237130,4237316,Harvard Sq @ Garden St - Dawes Island,20,22,-2
+16,3/1/2014,567,66,Outbound,4237316,4237323,Dudley Station,20,17,3
+16,3/1/2014,570,66,Outbound,4237316,4237323,Tremont St opp Roxbury Crossing Sta,21,17,4
+16,3/1/2014,573,66,Outbound,4237316,4237323,Tremont St @ Huntington Ave,21,17,4
+16,3/1/2014,578,66,Outbound,4237316,4237323,Washington St @ Pearl St,20,17,3
+16,3/1/2014,589,66,Outbound,4237316,4237323,Harvard Ave @ Commonwealth Ave,22,16,6
+16,3/1/2014,592,66,Outbound,4237316,4237323,Cambridge St @ Craftsman St,23,18,5
+16,3/1/2014,598,66,Outbound,4237316,4237323,N Harvard St @ Western Ave,23,20,3
+16,3/1/2014,614,66,Outbound,4237316,4237323,Harvard Sq @ Garden St - Dawes Island,9,20,-11
+17,3/1/2014,584,66,Outbound,4237323,4237170,Dudley Station,17,17,0
+17,3/1/2014,587,66,Outbound,4237323,4237170,Tremont St opp Roxbury Crossing Sta,12,17,-5
+17,3/1/2014,590,66,Outbound,4237323,4237170,Tremont St @ Huntington Ave,12,18,-6
+17,3/1/2014,595,66,Outbound,4237323,4237170,Washington St @ Pearl St,10,18,-8
+17,3/1/2014,600,66,Outbound,4237323,4237170,Harvard St @ Beacon St,9,20,-11
+17,3/1/2014,605,66,Outbound,4237323,4237170,Harvard Ave @ Commonwealth Ave,10,20,-10
+17,3/1/2014,610,66,Outbound,4237323,4237170,Cambridge St @ Craftsman St,9,20,-11
+17,3/1/2014,618,66,Outbound,4237323,4237170,N Harvard St @ Western Ave,9,20,-11
+17,3/1/2014,634,66,Outbound,4237323,4237170,Harvard Sq @ Garden St - Dawes Island,9,20,-11
+18,3/1/2014,601,66,Outbound,4237170,4237110,Dudley Station,4,17,-13
+18,3/1/2014,604,66,Outbound,4237170,4237110,Tremont St opp Roxbury Crossing Sta,16,17,-1
+18,3/1/2014,608,66,Outbound,4237170,4237110,Tremont St @ Huntington Ave,17,17,0
+18,3/1/2014,613,66,Outbound,4237170,4237110,Washington St @ Pearl St,20,17,3
+18,3/1/2014,620,66,Outbound,4237170,4237110,Harvard St @ Beacon St,19,17,2
+18,3/1/2014,625,66,Outbound,4237170,4237110,Harvard Ave @ Commonwealth Ave,19,17,2
+18,3/1/2014,630,66,Outbound,4237170,4237110,Cambridge St @ Craftsman St,20,17,3
+18,3/1/2014,638,66,Outbound,4237170,4237110,N Harvard St @ Western Ave,21,17,4
+18,3/1/2014,654,66,Outbound,4237170,4237110,Harvard Sq @ Garden St - Dawes Island,31,13,18
+19,3/1/2014,618,66,Outbound,4237110,4237243,Dudley Station,31,17,14
+19,3/1/2014,621,66,Outbound,4237110,4237243,Tremont St opp Roxbury Crossing Sta,20,17,3
+19,3/1/2014,625,66,Outbound,4237110,4237243,Tremont St @ Huntington Ave,21,17,4
+19,3/1/2014,630,66,Outbound,4237110,4237243,Washington St @ Pearl St,20,17,3
+19,3/1/2014,637,66,Outbound,4237110,4237243,Harvard St @ Beacon St,22,17,5
+19,3/1/2014,642,66,Outbound,4237110,4237243,Harvard Ave @ Commonwealth Ave,23,17,6
+19,3/1/2014,647,66,Outbound,4237110,4237243,Cambridge St @ Craftsman St,25,19,6
+19,3/1/2014,655,66,Outbound,4237110,4237243,N Harvard St @ Western Ave,28,18,10
+19,3/1/2014,667,66,Outbound,4237110,4237243,Harvard Sq @ Garden St - Dawes Island,31,17,14
+20,3/1/2014,635,66,Outbound,4237243,4237132,Dudley Station,10,17,-7
+20,3/1/2014,638,66,Outbound,4237243,4237132,Tremont St opp Roxbury Crossing Sta,18,17,1
+20,3/1/2014,642,66,Outbound,4237243,4237132,Tremont St @ Huntington Ave,16,17,-1
+20,3/1/2014,647,66,Outbound,4237243,4237132,Washington St @ Pearl St,17,18,-1
+20,3/1/2014,654,66,Outbound,4237243,4237132,Harvard St @ Beacon St,17,17,0
+20,3/1/2014,659,66,Outbound,4237243,4237132,Harvard Ave @ Commonwealth Ave,15,18,-3
+20,3/1/2014,666,66,Outbound,4237243,4237132,Cambridge St @ Craftsman St,14,18,-4
+20,3/1/2014,673,66,Outbound,4237243,4237132,N Harvard St @ Western Ave,11,18,-7
+20,3/1/2014,684,66,Outbound,4237243,4237132,Harvard Sq @ Garden St - Dawes Island,15,18,-3
+21,3/1/2014,652,66,Outbound,4237132,4237341,Dudley Station,28,17,11
+21,3/1/2014,655,66,Outbound,4237132,4237341,Tremont St opp Roxbury Crossing Sta,18,17,1
+21,3/1/2014,659,66,Outbound,4237132,4237341,Tremont St @ Huntington Ave,19,17,2
+21,3/1/2014,665,66,Outbound,4237132,4237341,Washington St @ Pearl St,19,17,2
+21,3/1/2014,671,66,Outbound,4237132,4237341,Harvard St @ Beacon St,19,17,2
+21,3/1/2014,677,66,Outbound,4237132,4237341,Harvard Ave @ Commonwealth Ave,21,17,4
+21,3/1/2014,684,66,Outbound,4237132,4237341,Cambridge St @ Craftsman St,19,17,2
+21,3/1/2014,691,66,Outbound,4237132,4237341,N Harvard St @ Western Ave,19,17,2
+21,3/1/2014,702,66,Outbound,4237132,4237341,Harvard Sq @ Garden St - Dawes Island,25,17,8
+22,3/1/2014,669,66,Outbound,4237341,4237318,Dudley Station,14,17,-3
+22,3/1/2014,672,66,Outbound,4237341,4237318,Tremont St opp Roxbury Crossing Sta,14,17,-3
+22,3/1/2014,676,66,Outbound,4237341,4237318,Tremont St @ Huntington Ave,14,17,-3
+22,3/1/2014,682,66,Outbound,4237341,4237318,Washington St @ Pearl St,14,17,-3
+22,3/1/2014,688,66,Outbound,4237341,4237318,Harvard St @ Beacon St,14,17,-3
+22,3/1/2014,694,66,Outbound,4237341,4237318,Harvard Ave @ Commonwealth Ave,15,17,-2
+22,3/1/2014,701,66,Outbound,4237341,4237318,Cambridge St @ Craftsman St,17,17,0
+22,3/1/2014,708,66,Outbound,4237341,4237318,N Harvard St @ Western Ave,18,18,0
+22,3/1/2014,719,66,Outbound,4237341,4237318,Harvard Sq @ Garden St - Dawes Island,-3,23,-26
+23,3/1/2014,686,66,Outbound,4237318,4237325,Dudley Station,7,17,-10
+23,3/1/2014,689,66,Outbound,4237318,4237325,Tremont St opp Roxbury Crossing Sta,18,17,1
+23,3/1/2014,693,66,Outbound,4237318,4237325,Tremont St @ Huntington Ave,19,17,2
+23,3/1/2014,699,66,Outbound,4237318,4237325,Washington St @ Pearl St,19,17,2
+23,3/1/2014,705,66,Outbound,4237318,4237325,Harvard St @ Beacon St,20,18,2
+23,3/1/2014,711,66,Outbound,4237318,4237325,Harvard Ave @ Commonwealth Ave,21,20,1
+23,3/1/2014,718,66,Outbound,4237318,4237325,Cambridge St @ Craftsman St,22,19,3
+23,3/1/2014,726,66,Outbound,4237318,4237325,N Harvard St @ Western Ave,27,19,8
+23,3/1/2014,742,66,Outbound,4237318,4237325,Harvard Sq @ Garden St - Dawes Island,28,19,9
+24,3/1/2014,703,66,Outbound,4237325,4237172,Dudley Station,32,17,15
+24,3/1/2014,706,66,Outbound,4237325,4237172,Tremont St opp Roxbury Crossing Sta,22,17,5
+24,3/1/2014,710,66,Outbound,4237325,4237172,Tremont St @ Huntington Ave,21,18,3
+24,3/1/2014,716,66,Outbound,4237325,4237172,Washington St @ Pearl St,19,17,2
+24,3/1/2014,723,66,Outbound,4237325,4237172,Harvard St @ Beacon St,18,17,1
+24,3/1/2014,731,66,Outbound,4237325,4237172,Harvard Ave @ Commonwealth Ave,17,17,0
+24,3/1/2014,737,66,Outbound,4237325,4237172,Cambridge St @ Craftsman St,20,17,3
+24,3/1/2014,745,66,Outbound,4237325,4237172,N Harvard St @ Western Ave,16,17,-1
+24,3/1/2014,761,66,Outbound,4237325,4237172,Harvard Sq @ Garden St - Dawes Island,17,17,0
+25,3/1/2014,720,66,Outbound,4237172,4237112,Dudley Station,0,17,-17
+25,3/1/2014,723,66,Outbound,4237172,4237112,Tremont St opp Roxbury Crossing Sta,16,17,-1
+25,3/1/2014,728,66,Outbound,4237172,4237112,Tremont St @ Huntington Ave,15,17,-2
+25,3/1/2014,733,66,Outbound,4237172,4237112,Washington St @ Pearl St,18,17,1
+25,3/1/2014,740,66,Outbound,4237172,4237112,Harvard St @ Beacon St,18,17,1
+25,3/1/2014,748,66,Outbound,4237172,4237112,Harvard Ave @ Commonwealth Ave,18,17,1
+25,3/1/2014,754,66,Outbound,4237172,4237112,Cambridge St @ Craftsman St,16,17,-1
+25,3/1/2014,762,66,Outbound,4237172,4237112,N Harvard St @ Western Ave,16,17,-1
+25,3/1/2014,778,66,Outbound,4237172,4237112,Harvard Sq @ Garden St - Dawes Island,15,17,-2
+26,3/1/2014,737,66,Outbound,4237112,4237226,Dudley Station,31,17,14
+26,3/1/2014,740,66,Outbound,4237112,4237226,Tremont St opp Roxbury Crossing Sta,16,17,-1
+26,3/1/2014,745,66,Outbound,4237112,4237226,Tremont St @ Huntington Ave,17,17,0
+26,3/1/2014,750,66,Outbound,4237112,4237226,Washington St @ Pearl St,16,17,-1
+26,3/1/2014,757,66,Outbound,4237112,4237226,Harvard St @ Beacon St,15,17,-2
+26,3/1/2014,765,66,Outbound,4237112,4237226,Harvard Ave @ Commonwealth Ave,14,17,-3
+26,3/1/2014,771,66,Outbound,4237112,4237226,Cambridge St @ Craftsman St,14,17,-3
+26,3/1/2014,779,66,Outbound,4237112,4237226,N Harvard St @ Western Ave,13,17,-4
+26,3/1/2014,795,66,Outbound,4237112,4237226,Harvard Sq @ Garden St - Dawes Island,15,17,-2
+27,3/1/2014,754,66,Outbound,4237226,4237245,Dudley Station,-1,17,-18
+27,3/1/2014,757,66,Outbound,4237226,4237245,Tremont St opp Roxbury Crossing Sta,18,17,1
+27,3/1/2014,762,66,Outbound,4237226,4237245,Tremont St @ Huntington Ave,19,17,2
+27,3/1/2014,767,66,Outbound,4237226,4237245,Washington St @ Pearl St,20,17,3
+27,3/1/2014,774,66,Outbound,4237226,4237245,Harvard St @ Beacon St,21,17,4
+27,3/1/2014,782,66,Outbound,4237226,4237245,Harvard Ave @ Commonwealth Ave,21,17,4
+27,3/1/2014,788,66,Outbound,4237226,4237245,Cambridge St @ Craftsman St,21,17,4
+27,3/1/2014,796,66,Outbound,4237226,4237245,N Harvard St @ Western Ave,20,17,3
+27,3/1/2014,812,66,Outbound,4237226,4237245,Harvard Sq @ Garden St - Dawes Island,23,17,6
+28,3/1/2014,771,66,Outbound,4237245,4237345,Dudley Station,24,17,7
+28,3/1/2014,774,66,Outbound,4237245,4237345,Tremont St opp Roxbury Crossing Sta,14,17,-3
+28,3/1/2014,779,66,Outbound,4237245,4237345,Tremont St @ Huntington Ave,13,17,-4
+28,3/1/2014,784,66,Outbound,4237245,4237345,Washington St @ Pearl St,12,17,-5
+28,3/1/2014,791,66,Outbound,4237245,4237345,Harvard St @ Beacon St,11,17,-6
+28,3/1/2014,799,66,Outbound,4237245,4237345,Harvard Ave @ Commonwealth Ave,10,17,-7
+28,3/1/2014,805,66,Outbound,4237245,4237345,Cambridge St @ Craftsman St,9,17,-8
+28,3/1/2014,813,66,Outbound,4237245,4237345,N Harvard St @ Western Ave,9,17,-8
+28,3/1/2014,829,66,Outbound,4237245,4237345,Harvard Sq @ Garden St - Dawes Island,16,17,-1
+29,3/1/2014,788,66,Outbound,4237345,4237343,Dudley Station,13,17,-4
+29,3/1/2014,791,66,Outbound,4237345,4237343,Tremont St opp Roxbury Crossing Sta,18,17,1
+29,3/1/2014,796,66,Outbound,4237345,4237343,Tremont St @ Huntington Ave,19,17,2
+29,3/1/2014,801,66,Outbound,4237345,4237343,Washington St @ Pearl St,19,17,2
+29,3/1/2014,808,66,Outbound,4237345,4237343,Harvard St @ Beacon St,23,17,6
+29,3/1/2014,816,66,Outbound,4237345,4237343,Harvard Ave @ Commonwealth Ave,24,17,7
+29,3/1/2014,822,66,Outbound,4237345,4237343,Cambridge St @ Craftsman St,21,17,4
+29,3/1/2014,830,66,Outbound,4237345,4237343,N Harvard St @ Western Ave,24,17,7
+29,3/1/2014,846,66,Outbound,4237345,4237343,Harvard Sq @ Garden St - Dawes Island,14,17,-3
+30,3/1/2014,805,66,Outbound,4237343,4237188,Dudley Station,27,17,10
+30,3/1/2014,808,66,Outbound,4237343,4237188,Tremont St opp Roxbury Crossing Sta,12,17,-5
+30,3/1/2014,813,66,Outbound,4237343,4237188,Tremont St @ Huntington Ave,11,17,-6
+30,3/1/2014,818,66,Outbound,4237343,4237188,Washington St @ Pearl St,11,17,-6
+30,3/1/2014,825,66,Outbound,4237343,4237188,Harvard St @ Beacon St,8,17,-9
+30,3/1/2014,833,66,Outbound,4237343,4237188,Harvard Ave @ Commonwealth Ave,6,17,-11
+30,3/1/2014,839,66,Outbound,4237343,4237188,Cambridge St @ Craftsman St,9,17,-8
+30,3/1/2014,847,66,Outbound,4237343,4237188,N Harvard St @ Western Ave,4,17,-13
+30,3/1/2014,863,66,Outbound,4237343,4237188,Harvard Sq @ Garden St - Dawes Island,4,17,-13
+31,3/1/2014,822,66,Outbound,4237188,4237327,Dudley Station,4,17,-13
+31,3/1/2014,825,66,Outbound,4237188,4237327,Tremont St opp Roxbury Crossing Sta,18,17,1
+31,3/1/2014,830,66,Outbound,4237188,4237327,Tremont St @ Huntington Ave,19,17,2
+31,3/1/2014,835,66,Outbound,4237188,4237327,Washington St @ Pearl St,19,17,2
+31,3/1/2014,842,66,Outbound,4237188,4237327,Harvard St @ Beacon St,17,17,0
+31,3/1/2014,850,66,Outbound,4237188,4237327,Harvard Ave @ Commonwealth Ave,20,17,3
+31,3/1/2014,856,66,Outbound,4237188,4237327,Cambridge St @ Craftsman St,21,17,4
+31,3/1/2014,864,66,Outbound,4237188,4237327,N Harvard St @ Western Ave,23,17,6
+31,3/1/2014,880,66,Outbound,4237188,4237327,Harvard Sq @ Garden St - Dawes Island,32,17,15
+32,3/1/2014,839,66,Outbound,4237327,4237174,Dudley Station,27,17,10
+32,3/1/2014,842,66,Outbound,4237327,4237174,Tremont St opp Roxbury Crossing Sta,20,17,3
+32,3/1/2014,847,66,Outbound,4237327,4237174,Tremont St @ Huntington Ave,20,17,3
+32,3/1/2014,852,66,Outbound,4237327,4237174,Washington St @ Pearl St,19,17,2
+32,3/1/2014,859,66,Outbound,4237327,4237174,Harvard St @ Beacon St,23,17,6
+32,3/1/2014,867,66,Outbound,4237327,4237174,Harvard Ave @ Commonwealth Ave,23,17,6
+32,3/1/2014,873,66,Outbound,4237327,4237174,Cambridge St @ Craftsman St,24,17,7
+32,3/1/2014,881,66,Outbound,4237327,4237174,N Harvard St @ Western Ave,25,17,8
+32,3/1/2014,897,66,Outbound,4237327,4237174,Harvard Sq @ Garden St - Dawes Island,14,17,-3
+33,3/1/2014,856,66,Outbound,4237174,4237114,Dudley Station,8,17,-9
+33,3/1/2014,859,66,Outbound,4237174,4237114,Tremont St opp Roxbury Crossing Sta,16,17,-1
+33,3/1/2014,864,66,Outbound,4237174,4237114,Tremont St @ Huntington Ave,16,17,-1
+33,3/1/2014,869,66,Outbound,4237174,4237114,Washington St @ Pearl St,18,17,1
+33,3/1/2014,876,66,Outbound,4237174,4237114,Harvard St @ Beacon St,16,17,-1
+33,3/1/2014,884,66,Outbound,4237174,4237114,Harvard Ave @ Commonwealth Ave,15,17,-2
+33,3/1/2014,890,66,Outbound,4237174,4237114,Cambridge St @ Craftsman St,16,17,-1
+33,3/1/2014,898,66,Outbound,4237174,4237114,N Harvard St @ Western Ave,16,17,-1
+33,3/1/2014,914,66,Outbound,4237174,4237114,Harvard Sq @ Garden St - Dawes Island,15,17,-2
+34,3/1/2014,873,66,Outbound,4237114,4237228,Dudley Station,32,17,15
+34,3/1/2014,876,66,Outbound,4237114,4237228,Tremont St opp Roxbury Crossing Sta,16,17,-1
+34,3/1/2014,881,66,Outbound,4237114,4237228,Tremont St @ Huntington Ave,15,17,-2
+34,3/1/2014,886,66,Outbound,4237114,4237228,Washington St @ Pearl St,14,17,-3
+34,3/1/2014,893,66,Outbound,4237114,4237228,Harvard St @ Beacon St,15,17,-2
+34,3/1/2014,901,66,Outbound,4237114,4237228,Harvard Ave @ Commonwealth Ave,14,17,-3
+34,3/1/2014,907,66,Outbound,4237114,4237228,Cambridge St @ Craftsman St,10,17,-7
+34,3/1/2014,915,66,Outbound,4237114,4237228,N Harvard St @ Western Ave,8,17,-9
+34,3/1/2014,931,66,Outbound,4237114,4237228,Harvard Sq @ Garden St - Dawes Island,23,17,6
+35,3/1/2014,890,66,Outbound,4237228,4237247,Dudley Station,2,17,-15
+35,3/1/2014,893,66,Outbound,4237228,4237247,Tremont St opp Roxbury Crossing Sta,22,17,5
+35,3/1/2014,898,66,Outbound,4237228,4237247,Tremont St @ Huntington Ave,22,17,5
+35,3/1/2014,903,66,Outbound,4237228,4237247,Washington St @ Pearl St,22,17,5
+35,3/1/2014,910,66,Outbound,4237228,4237247,Harvard St @ Beacon St,20,17,3
+35,3/1/2014,918,66,Outbound,4237228,4237247,Harvard Ave @ Commonwealth Ave,22,17,5
+35,3/1/2014,924,66,Outbound,4237228,4237247,Cambridge St @ Craftsman St,24,17,7
+35,3/1/2014,932,66,Outbound,4237228,4237247,N Harvard St @ Western Ave,30,17,13
+35,3/1/2014,948,66,Outbound,4237228,4237247,Harvard Sq @ Garden St - Dawes Island,18,17,1
+36,3/1/2014,907,66,Outbound,4237247,4237347,Dudley Station,12,17,-5
+36,3/1/2014,965,66,Outbound,4237247,4237347,Harvard Sq @ Garden St - Dawes Island,20,17,3
+37,3/1/2014,924,66,Outbound,4237347,4237350,Dudley Station,25,17,8
+37,3/1/2014,982,66,Outbound,4237347,4237350,Harvard Sq @ Garden St - Dawes Island,23,17,6
+38,3/1/2014,941,66,Outbound,4237350,4237190,Dudley Station,31,17,14
+38,3/1/2014,944,66,Outbound,4237350,4237190,Tremont St opp Roxbury Crossing Sta,20,17,3
+38,3/1/2014,949,66,Outbound,4237350,4237190,Tremont St @ Huntington Ave,20,17,3
+38,3/1/2014,954,66,Outbound,4237350,4237190,Washington St @ Pearl St,20,17,3
+38,3/1/2014,961,66,Outbound,4237350,4237190,Harvard St @ Beacon St,20,17,3
+38,3/1/2014,969,66,Outbound,4237350,4237190,Harvard Ave @ Commonwealth Ave,19,17,2
+38,3/1/2014,975,66,Outbound,4237350,4237190,Cambridge St @ Craftsman St,18,17,1
+38,3/1/2014,983,66,Outbound,4237350,4237190,N Harvard St @ Western Ave,18,17,1
+38,3/1/2014,999,66,Outbound,4237350,4237190,Harvard Sq @ Garden St - Dawes Island,-2,17,-19
+39,3/1/2014,958,66,Outbound,4237190,4237208,Dudley Station,22,17,5
+39,3/1/2014,961,66,Outbound,4237190,4237208,Tremont St opp Roxbury Crossing Sta,26,17,9
+39,3/1/2014,966,66,Outbound,4237190,4237208,Tremont St @ Huntington Ave,25,17,8
+39,3/1/2014,971,66,Outbound,4237190,4237208,Washington St @ Pearl St,25,17,8
+39,3/1/2014,978,66,Outbound,4237190,4237208,Harvard St @ Beacon St,27,17,10
+39,3/1/2014,986,66,Outbound,4237190,4237208,Harvard Ave @ Commonwealth Ave,28,17,11
+39,3/1/2014,992,66,Outbound,4237190,4237208,Cambridge St @ Craftsman St,30,17,13
+39,3/1/2014,1000,66,Outbound,4237190,4237208,N Harvard St @ Western Ave,29,17,12
+39,3/1/2014,1016,66,Outbound,4237190,4237208,Harvard Sq @ Garden St - Dawes Island,43,17,26
+40,3/1/2014,975,66,Outbound,4237208,4233208,Dudley Station,12,20,-8
+40,3/1/2014,978,66,Outbound,4237208,4233208,Tremont St opp Roxbury Crossing Sta,12,20,-8
+40,3/1/2014,983,66,Outbound,4237208,4233208,Tremont St @ Huntington Ave,11,20,-9
+40,3/1/2014,988,66,Outbound,4237208,4233208,Washington St @ Pearl St,10,20,-10
+40,3/1/2014,995,66,Outbound,4237208,4233208,Harvard St @ Beacon St,8,20,-12
+40,3/1/2014,1003,66,Outbound,4237208,4233208,Harvard Ave @ Commonwealth Ave,7,20,-13
+40,3/1/2014,1009,66,Outbound,4237208,4233208,Cambridge St @ Craftsman St,7,20,-13
+40,3/1/2014,1017,66,Outbound,4237208,4233208,N Harvard St @ Western Ave,8,20,-12
+40,3/1/2014,1033,66,Outbound,4237208,4233208,Harvard Sq @ Garden St - Dawes Island,16,19,-3
+41,3/1/2014,995,66,Outbound,4233208,4237230,Dudley Station,25,20,5
+41,3/1/2014,998,66,Outbound,4233208,4237230,Tremont St opp Roxbury Crossing Sta,22,20,2
+41,3/1/2014,1003,66,Outbound,4233208,4237230,Tremont St @ Huntington Ave,23,20,3
+41,3/1/2014,1008,66,Outbound,4233208,4237230,Washington St @ Pearl St,25,20,5
+41,3/1/2014,1015,66,Outbound,4233208,4237230,Harvard St @ Beacon St,24,20,4
+41,3/1/2014,1023,66,Outbound,4233208,4237230,Harvard Ave @ Commonwealth Ave,23,20,3
+41,3/1/2014,1029,66,Outbound,4233208,4237230,Cambridge St @ Craftsman St,23,20,3
+41,3/1/2014,1037,66,Outbound,4233208,4237230,N Harvard St @ Western Ave,23,19,4
+41,3/1/2014,1052,66,Outbound,4233208,4237230,Harvard Sq @ Garden St - Dawes Island,24,16,8
+42,3/1/2014,1015,66,Outbound,4237230,4237249,Dudley Station,5,20,-15
+42,3/1/2014,1018,66,Outbound,4237230,4237249,Tremont St opp Roxbury Crossing Sta,16,20,-4
+42,3/1/2014,1023,66,Outbound,4237230,4237249,Tremont St @ Huntington Ave,17,20,-3
+42,3/1/2014,1028,66,Outbound,4237230,4237249,Washington St @ Pearl St,18,20,-2
+42,3/1/2014,1035,66,Outbound,4237230,4237249,Harvard St @ Beacon St,18,19,-1
+42,3/1/2014,1043,66,Outbound,4237230,4237249,Harvard Ave @ Commonwealth Ave,19,18,1
+42,3/1/2014,1049,66,Outbound,4237230,4237249,Cambridge St @ Craftsman St,19,18,1
+42,3/1/2014,1056,66,Outbound,4237230,4237249,N Harvard St @ Western Ave,20,18,2
+42,3/1/2014,1068,66,Outbound,4237230,4237249,Harvard Sq @ Garden St - Dawes Island,15,18,-3
+43,3/1/2014,1035,66,Outbound,4237249,4237349,Dudley Station,19,20,-1
+43,3/1/2014,1038,66,Outbound,4237249,4237349,Tremont St opp Roxbury Crossing Sta,20,20,0
+43,3/1/2014,1043,66,Outbound,4237249,4237349,Tremont St @ Huntington Ave,21,19,2
+43,3/1/2014,1048,66,Outbound,4237249,4237349,Washington St @ Pearl St,20,20,0
+43,3/1/2014,1054,66,Outbound,4237249,4237349,Harvard St @ Beacon St,20,20,0
+43,3/1/2014,1061,66,Outbound,4237249,4237349,Harvard Ave @ Commonwealth Ave,22,20,2
+43,3/1/2014,1067,66,Outbound,4237249,4237349,Cambridge St @ Craftsman St,18,20,-2
+43,3/1/2014,1074,66,Outbound,4237249,4237349,N Harvard St @ Western Ave,20,20,0
+44,3/1/2014,1055,66,Outbound,4237349,4237259,Dudley Station,34,20,14
+44,3/1/2014,1058,66,Outbound,4237349,4237259,Tremont St opp Roxbury Crossing Sta,22,20,2
+44,3/1/2014,1062,66,Outbound,4237349,4237259,Tremont St @ Huntington Ave,19,20,-1
+44,3/1/2014,1068,66,Outbound,4237349,4237259,Washington St @ Pearl St,17,20,-3
+44,3/1/2014,1074,66,Outbound,4237349,4237259,Harvard St @ Beacon St,17,20,-3
+44,3/1/2014,1081,66,Outbound,4237349,4237259,Harvard Ave @ Commonwealth Ave,16,20,-4
+44,3/1/2014,1087,66,Outbound,4237349,4237259,Cambridge St @ Craftsman St,18,20,-2
+44,3/1/2014,1094,66,Outbound,4237349,4237259,N Harvard St @ Western Ave,16,20,-4
+45,3/1/2014,1075,66,Outbound,4237259,4237192,Dudley Station,7,20,-13
+45,3/1/2014,1078,66,Outbound,4237259,4237192,Tremont St opp Roxbury Crossing Sta,16,20,-4
+45,3/1/2014,1082,66,Outbound,4237259,4237192,Tremont St @ Huntington Ave,17,20,-3
+45,3/1/2014,1088,66,Outbound,4237259,4237192,Washington St @ Pearl St,19,20,-1
+45,3/1/2014,1094,66,Outbound,4237259,4237192,Harvard St @ Beacon St,19,20,-1
+45,3/1/2014,1101,66,Outbound,4237259,4237192,Harvard Ave @ Commonwealth Ave,18,20,-2
+45,3/1/2014,1107,66,Outbound,4237259,4237192,Cambridge St @ Craftsman St,18,20,-2
+45,3/1/2014,1114,66,Outbound,4237259,4237192,N Harvard St @ Western Ave,18,20,-2
+45,3/1/2014,1126,66,Outbound,4237259,4237192,Harvard Sq @ Garden St - Dawes Island,7,20,-13
+46,3/1/2014,1095,66,Outbound,4237192,4237210,Dudley Station,25,20,5
+46,3/1/2014,1098,66,Outbound,4237192,4237210,Tremont St opp Roxbury Crossing Sta,26,20,6
+46,3/1/2014,1102,66,Outbound,4237192,4237210,Tremont St @ Huntington Ave,26,20,6
+46,3/1/2014,1108,66,Outbound,4237192,4237210,Washington St @ Pearl St,26,20,6
+46,3/1/2014,1114,66,Outbound,4237192,4237210,Harvard St @ Beacon St,26,20,6
+46,3/1/2014,1121,66,Outbound,4237192,4237210,Harvard Ave @ Commonwealth Ave,26,20,6
+46,3/1/2014,1127,66,Outbound,4237192,4237210,Cambridge St @ Craftsman St,26,20,6
+46,3/1/2014,1134,66,Outbound,4237192,4237210,N Harvard St @ Western Ave,29,20,9
+46,3/1/2014,1146,66,Outbound,4237192,4237210,Harvard Sq @ Garden St - Dawes Island,24,20,4
+47,3/1/2014,1115,66,Outbound,4237210,4233210,Dudley Station,20,20,0
+47,3/1/2014,1118,66,Outbound,4237210,4233210,Tremont St opp Roxbury Crossing Sta,20,20,0
+47,3/1/2014,1122,66,Outbound,4237210,4233210,Tremont St @ Huntington Ave,20,20,0
+47,3/1/2014,1128,66,Outbound,4237210,4233210,Washington St @ Pearl St,19,20,-1
+47,3/1/2014,1134,66,Outbound,4237210,4233210,Harvard St @ Beacon St,17,20,-3
+47,3/1/2014,1141,66,Outbound,4237210,4233210,Harvard Ave @ Commonwealth Ave,17,20,-3
+47,3/1/2014,1147,66,Outbound,4237210,4233210,Cambridge St @ Craftsman St,16,20,-4
+47,3/1/2014,1154,66,Outbound,4237210,4233210,N Harvard St @ Western Ave,14,20,-6
+47,3/1/2014,1166,66,Outbound,4237210,4233210,Harvard Sq @ Garden St - Dawes Island,11,20,-9
+48,3/1/2014,1135,66,Outbound,4233210,4237232,Dudley Station,19,20,-1
+48,3/1/2014,1138,66,Outbound,4233210,4237232,Tremont St opp Roxbury Crossing Sta,16,19,-3
+48,3/1/2014,1142,66,Outbound,4233210,4237232,Tremont St @ Huntington Ave,17,18,-1
+48,3/1/2014,1148,66,Outbound,4233210,4237232,Washington St @ Pearl St,16,17,-1
+48,3/1/2014,1154,66,Outbound,4233210,4237232,Harvard St @ Beacon St,17,16,1
+48,3/1/2014,1161,66,Outbound,4233210,4237232,Harvard Ave @ Commonwealth Ave,17,14,3
+48,3/1/2014,1167,66,Outbound,4233210,4237232,Cambridge St @ Craftsman St,18,13,5
+48,3/1/2014,1174,66,Outbound,4233210,4237232,N Harvard St @ Western Ave,15,13,2
+48,3/1/2014,1186,66,Outbound,4233210,4237232,Harvard Sq @ Garden St - Dawes Island,24,11,13
+49,3/1/2014,1155,66,Outbound,4237232,4237251,Dudley Station,20,20,0
+49,3/1/2014,1157,66,Outbound,4237232,4237251,Tremont St opp Roxbury Crossing Sta,18,20,-2
+49,3/1/2014,1160,66,Outbound,4237232,4237251,Tremont St @ Huntington Ave,16,20,-4
+49,3/1/2014,1165,66,Outbound,4237232,4237251,Washington St @ Pearl St,17,20,-3
+49,3/1/2014,1170,66,Outbound,4237232,4237251,Harvard St @ Beacon St,16,20,-4
+49,3/1/2014,1175,66,Outbound,4237232,4237251,Harvard Ave @ Commonwealth Ave,17,20,-3
+49,3/1/2014,1180,66,Outbound,4237232,4237251,Cambridge St @ Craftsman St,18,20,-2
+49,3/1/2014,1187,66,Outbound,4237232,4237251,N Harvard St @ Western Ave,22,20,2
+49,3/1/2014,1197,66,Outbound,4237232,4237251,Harvard Sq @ Garden St - Dawes Island,20,20,0
+50,3/1/2014,1175,66,Outbound,4237251,4226252,Dudley Station,16,20,-4
+50,3/1/2014,1177,66,Outbound,4237251,4226252,Tremont St opp Roxbury Crossing Sta,22,20,2
+50,3/1/2014,1180,66,Outbound,4237251,4226252,Tremont St @ Huntington Ave,22,20,2
+50,3/1/2014,1185,66,Outbound,4237251,4226252,Washington St @ Pearl St,22,20,2
+50,3/1/2014,1190,66,Outbound,4237251,4226252,Harvard St @ Beacon St,23,20,3
+50,3/1/2014,1195,66,Outbound,4237251,4226252,Harvard Ave @ Commonwealth Ave,20,20,0
+50,3/1/2014,1200,66,Outbound,4237251,4226252,Cambridge St @ Craftsman St,19,20,-1
+50,3/1/2014,1207,66,Outbound,4237251,4226252,N Harvard St @ Western Ave,17,20,-3
+50,3/1/2014,1217,66,Outbound,4237251,4226252,Harvard Sq @ Garden St - Dawes Island,22,20,2
+51,3/1/2014,1195,66,Outbound,4226252,4237261,Dudley Station,23,20,3
+51,3/1/2014,1197,66,Outbound,4226252,4237261,Tremont St opp Roxbury Crossing Sta,18,20,-2
+51,3/1/2014,1200,66,Outbound,4226252,4237261,Tremont St @ Huntington Ave,18,20,-2
+51,3/1/2014,1205,66,Outbound,4226252,4237261,Washington St @ Pearl St,18,20,-2
+51,3/1/2014,1210,66,Outbound,4226252,4237261,Harvard St @ Beacon St,18,20,-2
+51,3/1/2014,1215,66,Outbound,4226252,4237261,Harvard Ave @ Commonwealth Ave,18,20,-2
+51,3/1/2014,1220,66,Outbound,4226252,4237261,Cambridge St @ Craftsman St,19,20,-1
+51,3/1/2014,1227,66,Outbound,4226252,4237261,N Harvard St @ Western Ave,16,20,-4
+51,3/1/2014,1237,66,Outbound,4226252,4237261,Harvard Sq @ Garden St - Dawes Island,7,20,-13
+52,3/1/2014,1215,66,Outbound,4237261,4237194,Dudley Station,33,20,13
+52,3/1/2014,1217,66,Outbound,4237261,4237194,Tremont St opp Roxbury Crossing Sta,24,20,4
+52,3/1/2014,1220,66,Outbound,4237261,4237194,Tremont St @ Huntington Ave,26,20,6
+52,3/1/2014,1225,66,Outbound,4237261,4237194,Washington St @ Pearl St,27,20,7
+52,3/1/2014,1230,66,Outbound,4237261,4237194,Harvard St @ Beacon St,28,20,8
+52,3/1/2014,1235,66,Outbound,4237261,4237194,Harvard Ave @ Commonwealth Ave,30,20,10
+52,3/1/2014,1240,66,Outbound,4237261,4237194,Cambridge St @ Craftsman St,32,20,12
+52,3/1/2014,1247,66,Outbound,4237261,4237194,N Harvard St @ Western Ave,36,20,16
+52,3/1/2014,1257,66,Outbound,4237261,4237194,Harvard Sq @ Garden St - Dawes Island,36,20,16
+53,3/1/2014,1235,66,Outbound,4237194,4233212,Dudley Station,-8,20,-28
+53,3/1/2014,1237,66,Outbound,4237194,4233212,Tremont St opp Roxbury Crossing Sta,16,20,-4
+53,3/1/2014,1240,66,Outbound,4237194,4233212,Tremont St @ Huntington Ave,14,20,-6
+53,3/1/2014,1245,66,Outbound,4237194,4233212,Washington St @ Pearl St,14,20,-6
+53,3/1/2014,1250,66,Outbound,4237194,4233212,Harvard St @ Beacon St,13,20,-7
+53,3/1/2014,1255,66,Outbound,4237194,4233212,Harvard Ave @ Commonwealth Ave,12,20,-8
+53,3/1/2014,1260,66,Outbound,4237194,4233212,Cambridge St @ Craftsman St,7,20,-13
+53,3/1/2014,1267,66,Outbound,4237194,4233212,N Harvard St @ Western Ave,4,20,-16
+53,3/1/2014,1277,66,Outbound,4237194,4233212,Harvard Sq @ Garden St - Dawes Island,12,20,-8
+54,3/1/2014,1255,66,Outbound,4233212,4236819,Dudley Station,38,20,18
+54,3/1/2014,1257,66,Outbound,4233212,4236819,Tremont St opp Roxbury Crossing Sta,20,20,0
+54,3/1/2014,1260,66,Outbound,4233212,4236819,Tremont St @ Huntington Ave,20,20,0
+54,3/1/2014,1265,66,Outbound,4233212,4236819,Washington St @ Pearl St,21,20,1
+54,3/1/2014,1270,66,Outbound,4233212,4236819,Harvard St @ Beacon St,20,20,0
+54,3/1/2014,1275,66,Outbound,4233212,4236819,Harvard Ave @ Commonwealth Ave,21,20,1
+54,3/1/2014,1280,66,Outbound,4233212,4236819,Cambridge St @ Craftsman St,24,20,4
+54,3/1/2014,1287,66,Outbound,4233212,4236819,N Harvard St @ Western Ave,24,20,4
+54,3/1/2014,1297,66,Outbound,4233212,4236819,Harvard Sq @ Garden St - Dawes Island,19,20,-1
+55,3/1/2014,1275,66,Outbound,4236819,4237277,Dudley Station,25,20,5
+55,3/1/2014,1277,66,Outbound,4236819,4237277,Tremont St opp Roxbury Crossing Sta,22,20,2
+55,3/1/2014,1280,66,Outbound,4236819,4237277,Tremont St @ Huntington Ave,24,20,4
+55,3/1/2014,1285,66,Outbound,4236819,4237277,Washington St @ Pearl St,22,20,2
+55,3/1/2014,1290,66,Outbound,4236819,4237277,Harvard St @ Beacon St,23,20,3
+55,3/1/2014,1295,66,Outbound,4236819,4237277,Harvard Ave @ Commonwealth Ave,22,20,2
+55,3/1/2014,1300,66,Outbound,4236819,4237277,Cambridge St @ Craftsman St,20,20,0
+55,3/1/2014,1307,66,Outbound,4236819,4237277,N Harvard St @ Western Ave,19,19,0
+55,3/1/2014,1317,66,Outbound,4236819,4237277,Harvard Sq @ Garden St - Dawes Island,22,18,4
+56,3/1/2014,1295,66,Outbound,4237277,4237287,Dudley Station,17,20,-3
+56,3/1/2014,1297,66,Outbound,4237277,4237287,Tremont St opp Roxbury Crossing Sta,16,20,-4
+56,3/1/2014,1300,66,Outbound,4237277,4237287,Tremont St @ Huntington Ave,14,20,-6
+56,3/1/2014,1305,66,Outbound,4237277,4237287,Washington St @ Pearl St,14,20,-6
+56,3/1/2014,1310,66,Outbound,4237277,4237287,Harvard St @ Beacon St,13,19,-6
+56,3/1/2014,1315,66,Outbound,4237277,4237287,Harvard Ave @ Commonwealth Ave,11,18,-7
+56,3/1/2014,1320,66,Outbound,4237277,4237287,Cambridge St @ Craftsman St,10,17,-7
+56,3/1/2014,1326,66,Outbound,4237277,4237287,N Harvard St @ Western Ave,11,17,-6
+56,3/1/2014,1335,66,Outbound,4237277,4237287,Harvard Sq @ Garden St - Dawes Island,17,17,0
+57,3/1/2014,1315,66,Outbound,4237287,4237297,Dudley Station,15,20,-5
+57,3/1/2014,1317,66,Outbound,4237287,4237297,Tremont St opp Roxbury Crossing Sta,22,20,2
+57,3/1/2014,1320,66,Outbound,4237287,4237297,Tremont St @ Huntington Ave,23,20,3
+57,3/1/2014,1325,66,Outbound,4237287,4237297,Washington St @ Pearl St,22,20,2
+57,3/1/2014,1329,66,Outbound,4237287,4237297,Harvard St @ Beacon St,23,20,3
+57,3/1/2014,1333,66,Outbound,4237287,4237297,Harvard Ave @ Commonwealth Ave,26,20,6
+57,3/1/2014,1337,66,Outbound,4237287,4237297,Cambridge St @ Craftsman St,28,20,8
+57,3/1/2014,1343,66,Outbound,4237287,4237297,N Harvard St @ Western Ave,30,20,10
+57,3/1/2014,1352,66,Outbound,4237287,4237297,Harvard Sq @ Garden St - Dawes Island,13,20,-7
+58,3/1/2014,1335,66,Outbound,4237297,4237305,Dudley Station,29,20,9
+58,3/1/2014,1337,66,Outbound,4237297,4237305,Tremont St opp Roxbury Crossing Sta,22,20,2
+58,3/1/2014,1340,66,Outbound,4237297,4237305,Tremont St @ Huntington Ave,27,20,7
+58,3/1/2014,1345,66,Outbound,4237297,4237305,Washington St @ Pearl St,27,20,7
+58,3/1/2014,1349,66,Outbound,4237297,4237305,Harvard St @ Beacon St,27,20,7
+58,3/1/2014,1353,66,Outbound,4237297,4237305,Harvard Ave @ Commonwealth Ave,25,20,5
+58,3/1/2014,1357,66,Outbound,4237297,4237305,Cambridge St @ Craftsman St,24,20,4
+58,3/1/2014,1363,66,Outbound,4237297,4237305,N Harvard St @ Western Ave,24,20,4
+58,3/1/2014,1372,66,Outbound,4237297,4237305,Harvard Sq @ Garden St - Dawes Island,29,20,9
+59,3/1/2014,1355,66,Outbound,4237305,4237313,Dudley Station,16,20,-4
+59,3/1/2014,1357,66,Outbound,4237305,4237313,Tremont St opp Roxbury Crossing Sta,24,20,4
+59,3/1/2014,1360,66,Outbound,4237305,4237313,Tremont St @ Huntington Ave,19,20,-1
+59,3/1/2014,1365,66,Outbound,4237305,4237313,Washington St @ Pearl St,18,20,-2
+59,3/1/2014,1369,66,Outbound,4237305,4237313,Harvard St @ Beacon St,18,20,-2
+59,3/1/2014,1373,66,Outbound,4237305,4237313,Harvard Ave @ Commonwealth Ave,18,20,-2
+59,3/1/2014,1377,66,Outbound,4237305,4237313,Cambridge St @ Craftsman St,18,20,-2
+59,3/1/2014,1383,66,Outbound,4237305,4237313,N Harvard St @ Western Ave,16,20,-4
+59,3/1/2014,1392,66,Outbound,4237305,4237313,Harvard Sq @ Garden St - Dawes Island,10,20,-10
+60,3/1/2014,1375,66,Outbound,4237313,4237279,Dudley Station,13,18,-5
+60,3/1/2014,1377,66,Outbound,4237313,4237279,Tremont St opp Roxbury Crossing Sta,18,18,0
+60,3/1/2014,1380,66,Outbound,4237313,4237279,Tremont St @ Huntington Ave,17,18,-1
+60,3/1/2014,1385,66,Outbound,4237313,4237279,Washington St @ Pearl St,17,18,-1
+60,3/1/2014,1389,66,Outbound,4237313,4237279,Harvard St @ Beacon St,15,18,-3
+60,3/1/2014,1393,66,Outbound,4237313,4237279,Harvard Ave @ Commonwealth Ave,15,18,-3
+60,3/1/2014,1397,66,Outbound,4237313,4237279,Cambridge St @ Craftsman St,15,18,-3
+60,3/1/2014,1403,66,Outbound,4237313,4237279,N Harvard St @ Western Ave,16,18,-2
+60,3/1/2014,1412,66,Outbound,4237313,4237279,Harvard Sq @ Garden St - Dawes Island,22,18,4
+61,3/1/2014,1393,66,Outbound,4237279,4237289,Dudley Station,25,18,7
+61,3/1/2014,1395,66,Outbound,4237279,4237289,Tremont St opp Roxbury Crossing Sta,10,18,-8
+61,3/1/2014,1398,66,Outbound,4237279,4237289,Tremont St @ Huntington Ave,10,18,-8
+61,3/1/2014,1403,66,Outbound,4237279,4237289,Washington St @ Pearl St,10,18,-8
+61,3/1/2014,1407,66,Outbound,4237279,4237289,Harvard St @ Beacon St,11,18,-7
+61,3/1/2014,1411,66,Outbound,4237279,4237289,Harvard Ave @ Commonwealth Ave,10,18,-8
+61,3/1/2014,1415,66,Outbound,4237279,4237289,Cambridge St @ Craftsman St,9,18,-9
+61,3/1/2014,1421,66,Outbound,4237279,4237289,N Harvard St @ Western Ave,8,18,-10
+61,3/1/2014,1430,66,Outbound,4237279,4237289,Harvard Sq @ Garden St - Dawes Island,17,18,-1
+62,3/1/2014,1411,66,Outbound,4237289,4237299,Dudley Station,16,18,-2
+62,3/1/2014,1413,66,Outbound,4237289,4237299,Tremont St opp Roxbury Crossing Sta,22,18,4
+62,3/1/2014,1416,66,Outbound,4237289,4237299,Tremont St @ Huntington Ave,24,18,6
+62,3/1/2014,1421,66,Outbound,4237289,4237299,Washington St @ Pearl St,24,18,6
+62,3/1/2014,1425,66,Outbound,4237289,4237299,Harvard St @ Beacon St,24,18,6
+62,3/1/2014,1429,66,Outbound,4237289,4237299,Harvard Ave @ Commonwealth Ave,26,18,8
+62,3/1/2014,1433,66,Outbound,4237289,4237299,Cambridge St @ Craftsman St,28,18,10
+62,3/1/2014,1439,66,Outbound,4237289,4237299,N Harvard St @ Western Ave,29,18,11
+62,3/1/2014,1448,66,Outbound,4237289,4237299,Harvard Sq @ Garden St - Dawes Island,16,17,-1
+63,3/1/2014,1429,66,Outbound,4237299,4237307,Dudley Station,27,18,9
+63,3/1/2014,1431,66,Outbound,4237299,4237307,Tremont St opp Roxbury Crossing Sta,24,18,6
+63,3/1/2014,1434,66,Outbound,4237299,4237307,Tremont St @ Huntington Ave,21,17,4
+63,3/1/2014,1439,66,Outbound,4237299,4237307,Washington St @ Pearl St,21,16,5
+63,3/1/2014,1443,66,Outbound,4237299,4237307,Harvard St @ Beacon St,21,15,6
+63,3/1/2014,1447,66,Outbound,4237299,4237307,Harvard Ave @ Commonwealth Ave,19,15,4
+63,3/1/2014,1451,66,Outbound,4237299,4237307,Cambridge St @ Craftsman St,17,15,2
+63,3/1/2014,1457,66,Outbound,4237299,4237307,N Harvard St @ Western Ave,15,15,0
+63,3/1/2014,1465,66,Outbound,4237299,4237307,Harvard Sq @ Garden St - Dawes Island,17,15,2
+64,3/1/2014,1447,66,Outbound,4237307,4237315,Dudley Station,1,18,-17
+64,3/1/2014,1449,66,Outbound,4237307,4237315,Tremont St opp Roxbury Crossing Sta,8,18,-10
+64,3/1/2014,1451,66,Outbound,4237307,4237315,Tremont St @ Huntington Ave,23,18,5
+64,3/1/2014,1455,66,Outbound,4237307,4237315,Washington St @ Pearl St,23,18,5
+64,3/1/2014,1458,66,Outbound,4237307,4237315,Harvard St @ Beacon St,22,18,4
+64,3/1/2014,1462,66,Outbound,4237307,4237315,Harvard Ave @ Commonwealth Ave,22,18,4
+64,3/1/2014,1466,66,Outbound,4237307,4237315,Cambridge St @ Craftsman St,23,18,5
+64,3/1/2014,1472,66,Outbound,4237307,4237315,N Harvard St @ Western Ave,22,18,4
+64,3/1/2014,1480,66,Outbound,4237307,4237315,Harvard Sq @ Garden St - Dawes Island,18,18,0
+65,3/1/2014,1465,66,Outbound,4237315,4237281,Dudley Station,21,15,6
+65,3/1/2014,1467,66,Outbound,4237315,4237281,Tremont St opp Roxbury Crossing Sta,24,15,9
+65,3/1/2014,1469,66,Outbound,4237315,4237281,Tremont St @ Huntington Ave,10,15,-5
+65,3/1/2014,1473,66,Outbound,4237315,4237281,Washington St @ Pearl St,9,15,-6
+65,3/1/2014,1476,66,Outbound,4237315,4237281,Harvard St @ Beacon St,8,15,-7
+65,3/1/2014,1480,66,Outbound,4237315,4237281,Harvard Ave @ Commonwealth Ave,7,15,-8
+65,3/1/2014,1484,66,Outbound,4237315,4237281,Cambridge St @ Craftsman St,5,15,-10
+65,3/1/2014,1490,66,Outbound,4237315,4237281,N Harvard St @ Western Ave,6,15,-9
+65,3/1/2014,1498,66,Outbound,4237315,4237281,Harvard Sq @ Garden St - Dawes Island,5,15,-10
+66,3/1/2014,1480,66,Outbound,4237281,4237291,Dudley Station,17,30,-13
+66,3/1/2014,1482,66,Outbound,4237281,4237291,Tremont St opp Roxbury Crossing Sta,43,30,13
+66,3/1/2014,1484,66,Outbound,4237281,4237291,Tremont St @ Huntington Ave,43,30,13
+66,3/1/2014,1488,66,Outbound,4237281,4237291,Washington St @ Pearl St,45,30,15
+66,3/1/2014,1491,66,Outbound,4237281,4237291,Harvard St @ Beacon St,47,30,17
+66,3/1/2014,1495,66,Outbound,4237281,4237291,Harvard Ave @ Commonwealth Ave,49,30,19
+66,3/1/2014,1499,66,Outbound,4237281,4237291,Cambridge St @ Craftsman St,50,30,20
+66,3/1/2014,1505,66,Outbound,4237281,4237291,N Harvard St @ Western Ave,51,30,21
+66,3/1/2014,1513,66,Outbound,4237281,4237291,Harvard Sq @ Garden St - Dawes Island,-1387,24,-1411

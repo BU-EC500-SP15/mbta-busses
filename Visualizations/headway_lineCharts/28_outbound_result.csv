@@ -1,0 +1,1020 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,285,28,Outbound,4199436,4199504,Ruggles Station - Lane 1,18,22,-4
+1,3/1/2014,287,28,Outbound,4199436,4199504,Malcolm X Blvd @ King St,19,22,-3
+1,3/1/2014,289,28,Outbound,4199436,4199504,Dudley Station,19,22,-3
+1,3/1/2014,290,28,Outbound,4199436,4199504,Warren St @ Dabney Pl,18,22,-4
+1,3/1/2014,292,28,Outbound,4199436,4199504,Warren St @ Townsend St,18,22,-4
+1,3/1/2014,293,28,Outbound,4199436,4199504,Warren St @ Crawford St,19,22,-3
+1,3/1/2014,295,28,Outbound,4199436,4199504,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,18,22,-4
+1,3/1/2014,297,28,Outbound,4199436,4199504,Blue Hill Ave @ Angell St,19,22,-3
+1,3/1/2014,300,28,Outbound,4199436,4199504,Blue Hill Ave @ Morton St,18,22,-4
+1,3/1/2014,301,28,Outbound,4199436,4199504,Blue Hill Ave @ Wellington Hill St,18,22,-4
+1,3/1/2014,305,28,Outbound,4199436,4199504,Mattapan Station - South Busway,17,22,-5
+2,3/1/2014,307,28,Outbound,4199504,4199438,Ruggles Station - Lane 1,41,35,6
+2,3/1/2014,309,28,Outbound,4199504,4199438,Malcolm X Blvd @ King St,36,35,1
+2,3/1/2014,311,28,Outbound,4199504,4199438,Dudley Station,36,35,1
+2,3/1/2014,312,28,Outbound,4199504,4199438,Warren St @ Dabney Pl,37,35,2
+2,3/1/2014,314,28,Outbound,4199504,4199438,Warren St @ Townsend St,37,35,2
+2,3/1/2014,315,28,Outbound,4199504,4199438,Warren St @ Crawford St,36,35,1
+2,3/1/2014,317,28,Outbound,4199504,4199438,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,37,35,2
+2,3/1/2014,319,28,Outbound,4199504,4199438,Blue Hill Ave @ Angell St,37,35,2
+2,3/1/2014,322,28,Outbound,4199504,4199438,Blue Hill Ave @ Morton St,38,35,3
+2,3/1/2014,323,28,Outbound,4199504,4199438,Blue Hill Ave @ Wellington Hill St,39,35,4
+2,3/1/2014,327,28,Outbound,4199504,4199438,Mattapan Station - South Busway,40,37,3
+3,3/1/2014,342,28,Outbound,4199438,4200412,Ruggles Station - Lane 1,20,18,2
+3,3/1/2014,344,28,Outbound,4199438,4200412,Malcolm X Blvd @ King St,20,18,2
+3,3/1/2014,346,28,Outbound,4199438,4200412,Dudley Station,21,19,2
+3,3/1/2014,347,28,Outbound,4199438,4200412,Warren St @ Dabney Pl,21,20,1
+3,3/1/2014,349,28,Outbound,4199438,4200412,Warren St @ Townsend St,21,20,1
+3,3/1/2014,350,28,Outbound,4199438,4200412,Warren St @ Crawford St,21,21,0
+3,3/1/2014,352,28,Outbound,4199438,4200412,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,22,22,0
+3,3/1/2014,354,28,Outbound,4199438,4200412,Blue Hill Ave @ Angell St,21,22,-1
+3,3/1/2014,357,28,Outbound,4199438,4200412,Blue Hill Ave @ Morton St,22,22,0
+3,3/1/2014,358,28,Outbound,4199438,4200412,Blue Hill Ave @ Wellington Hill St,21,22,-1
+3,3/1/2014,364,28,Outbound,4199438,4200412,Mattapan Station - South Busway,22,22,0
+4,3/1/2014,360,28,Outbound,4200412,4199506,Ruggles Station - Lane 1,3,15,-12
+4,3/1/2014,362,28,Outbound,4200412,4199506,Malcolm X Blvd @ King St,14,15,-1
+4,3/1/2014,365,28,Outbound,4200412,4199506,Dudley Station,13,15,-2
+4,3/1/2014,367,28,Outbound,4200412,4199506,Warren St @ Dabney Pl,13,15,-2
+4,3/1/2014,369,28,Outbound,4200412,4199506,Warren St @ Townsend St,14,15,-1
+4,3/1/2014,371,28,Outbound,4200412,4199506,Warren St @ Crawford St,14,15,-1
+4,3/1/2014,374,28,Outbound,4200412,4199506,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,13,15,-2
+4,3/1/2014,376,28,Outbound,4200412,4199506,Blue Hill Ave @ Angell St,13,15,-2
+4,3/1/2014,379,28,Outbound,4200412,4199506,Blue Hill Ave @ Morton St,14,15,-1
+4,3/1/2014,380,28,Outbound,4200412,4199506,Blue Hill Ave @ Wellington Hill St,14,15,-1
+4,3/1/2014,386,28,Outbound,4200412,4199506,Mattapan Station - South Busway,25,15,10
+5,3/1/2014,375,28,Outbound,4199506,4199618,Ruggles Station - Lane 1,22,15,7
+5,3/1/2014,377,28,Outbound,4199506,4199618,Malcolm X Blvd @ King St,14,15,-1
+5,3/1/2014,380,28,Outbound,4199506,4199618,Dudley Station,15,15,0
+5,3/1/2014,382,28,Outbound,4199506,4199618,Warren St @ Dabney Pl,16,15,1
+5,3/1/2014,384,28,Outbound,4199506,4199618,Warren St @ Townsend St,15,15,0
+5,3/1/2014,386,28,Outbound,4199506,4199618,Warren St @ Crawford St,15,15,0
+5,3/1/2014,389,28,Outbound,4199506,4199618,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,17,15,2
+5,3/1/2014,391,28,Outbound,4199506,4199618,Blue Hill Ave @ Angell St,17,15,2
+5,3/1/2014,394,28,Outbound,4199506,4199618,Blue Hill Ave @ Morton St,15,15,0
+5,3/1/2014,395,28,Outbound,4199506,4199618,Blue Hill Ave @ Wellington Hill St,15,15,0
+5,3/1/2014,401,28,Outbound,4199506,4199618,Mattapan Station - South Busway,5,15,-10
+6,3/1/2014,390,28,Outbound,4199618,4199440,Ruggles Station - Lane 1,18,15,3
+6,3/1/2014,392,28,Outbound,4199618,4199440,Malcolm X Blvd @ King St,16,15,1
+6,3/1/2014,395,28,Outbound,4199618,4199440,Dudley Station,16,15,1
+6,3/1/2014,397,28,Outbound,4199618,4199440,Warren St @ Dabney Pl,14,15,-1
+6,3/1/2014,399,28,Outbound,4199618,4199440,Warren St @ Townsend St,15,15,0
+6,3/1/2014,401,28,Outbound,4199618,4199440,Warren St @ Crawford St,15,15,0
+6,3/1/2014,404,28,Outbound,4199618,4199440,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,13,15,-2
+6,3/1/2014,406,28,Outbound,4199618,4199440,Blue Hill Ave @ Angell St,13,15,-2
+6,3/1/2014,409,28,Outbound,4199618,4199440,Blue Hill Ave @ Morton St,15,15,0
+6,3/1/2014,410,28,Outbound,4199618,4199440,Blue Hill Ave @ Wellington Hill St,15,15,0
+6,3/1/2014,416,28,Outbound,4199618,4199440,Mattapan Station - South Busway,16,15,1
+7,3/1/2014,405,28,Outbound,4199440,4200195,Ruggles Station - Lane 1,20,15,5
+7,3/1/2014,407,28,Outbound,4199440,4200195,Malcolm X Blvd @ King St,17,15,2
+7,3/1/2014,410,28,Outbound,4199440,4200195,Dudley Station,16,15,1
+7,3/1/2014,412,28,Outbound,4199440,4200195,Warren St @ Dabney Pl,17,15,2
+7,3/1/2014,414,28,Outbound,4199440,4200195,Warren St @ Townsend St,17,15,2
+7,3/1/2014,416,28,Outbound,4199440,4200195,Warren St @ Crawford St,18,15,3
+7,3/1/2014,419,28,Outbound,4199440,4200195,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,18,15,3
+7,3/1/2014,421,28,Outbound,4199440,4200195,Blue Hill Ave @ Angell St,20,15,5
+7,3/1/2014,424,28,Outbound,4199440,4200195,Blue Hill Ave @ Morton St,20,15,5
+7,3/1/2014,425,28,Outbound,4199440,4200195,Blue Hill Ave @ Wellington Hill St,20,15,5
+7,3/1/2014,431,28,Outbound,4199440,4200195,Mattapan Station - South Busway,20,15,5
+8,3/1/2014,420,28,Outbound,4200195,4200376,Ruggles Station - Lane 1,13,15,-2
+8,3/1/2014,422,28,Outbound,4200195,4200376,Malcolm X Blvd @ King St,16,15,1
+8,3/1/2014,425,28,Outbound,4200195,4200376,Dudley Station,17,15,2
+8,3/1/2014,427,28,Outbound,4200195,4200376,Warren St @ Dabney Pl,17,15,2
+8,3/1/2014,429,28,Outbound,4200195,4200376,Warren St @ Townsend St,17,15,2
+8,3/1/2014,431,28,Outbound,4200195,4200376,Warren St @ Crawford St,17,15,2
+8,3/1/2014,434,28,Outbound,4200195,4200376,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,17,15,2
+8,3/1/2014,436,28,Outbound,4200195,4200376,Blue Hill Ave @ Angell St,17,16,1
+8,3/1/2014,439,28,Outbound,4200195,4200376,Blue Hill Ave @ Morton St,15,17,-2
+8,3/1/2014,440,28,Outbound,4200195,4200376,Blue Hill Ave @ Wellington Hill St,16,17,-1
+8,3/1/2014,446,28,Outbound,4200195,4200376,Mattapan Station - South Busway,14,19,-5
+9,3/1/2014,435,28,Outbound,4200376,4200414,Ruggles Station - Lane 1,10,10,0
+9,3/1/2014,437,28,Outbound,4200376,4200414,Malcolm X Blvd @ King St,9,10,-1
+9,3/1/2014,440,28,Outbound,4200376,4200414,Dudley Station,8,10,-2
+9,3/1/2014,442,28,Outbound,4200376,4200414,Warren St @ Dabney Pl,8,10,-2
+9,3/1/2014,444,28,Outbound,4200376,4200414,Warren St @ Townsend St,9,11,-2
+9,3/1/2014,446,28,Outbound,4200376,4200414,Warren St @ Crawford St,8,11,-3
+9,3/1/2014,449,28,Outbound,4200376,4200414,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,10,12,-2
+9,3/1/2014,452,28,Outbound,4200376,4200414,Blue Hill Ave @ Angell St,8,12,-4
+9,3/1/2014,456,28,Outbound,4200376,4200414,Blue Hill Ave @ Morton St,9,12,-3
+9,3/1/2014,457,28,Outbound,4200376,4200414,Blue Hill Ave @ Wellington Hill St,9,12,-3
+9,3/1/2014,465,28,Outbound,4200376,4200414,Mattapan Station - South Busway,12,12,0
+10,3/1/2014,445,28,Outbound,4200414,4200486,Ruggles Station - Lane 1,9,10,-1
+10,3/1/2014,447,28,Outbound,4200414,4200486,Malcolm X Blvd @ King St,8,11,-3
+10,3/1/2014,450,28,Outbound,4200414,4200486,Dudley Station,9,12,-3
+10,3/1/2014,452,28,Outbound,4200414,4200486,Warren St @ Dabney Pl,9,12,-3
+10,3/1/2014,455,28,Outbound,4200414,4200486,Warren St @ Townsend St,9,12,-3
+10,3/1/2014,457,28,Outbound,4200414,4200486,Warren St @ Crawford St,10,12,-2
+10,3/1/2014,461,28,Outbound,4200414,4200486,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,8,12,-4
+10,3/1/2014,464,28,Outbound,4200414,4200486,Blue Hill Ave @ Angell St,8,12,-4
+10,3/1/2014,468,28,Outbound,4200414,4200486,Blue Hill Ave @ Morton St,8,12,-4
+10,3/1/2014,469,28,Outbound,4200414,4200486,Blue Hill Ave @ Wellington Hill St,7,12,-5
+10,3/1/2014,477,28,Outbound,4200414,4200486,Mattapan Station - South Busway,4,12,-8
+11,3/1/2014,455,28,Outbound,4200486,4199508,Ruggles Station - Lane 1,-4,10,-14
+11,3/1/2014,458,28,Outbound,4200486,4199508,Malcolm X Blvd @ King St,9,10,-1
+11,3/1/2014,462,28,Outbound,4200486,4199508,Dudley Station,9,10,-1
+11,3/1/2014,464,28,Outbound,4200486,4199508,Warren St @ Dabney Pl,12,10,2
+11,3/1/2014,467,28,Outbound,4200486,4199508,Warren St @ Townsend St,11,10,1
+11,3/1/2014,469,28,Outbound,4200486,4199508,Warren St @ Crawford St,11,10,1
+11,3/1/2014,473,28,Outbound,4200486,4199508,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,12,10,2
+11,3/1/2014,476,28,Outbound,4200486,4199508,Blue Hill Ave @ Angell St,14,10,4
+11,3/1/2014,480,28,Outbound,4200486,4199508,Blue Hill Ave @ Morton St,15,10,5
+11,3/1/2014,481,28,Outbound,4200486,4199508,Blue Hill Ave @ Wellington Hill St,15,10,5
+11,3/1/2014,489,28,Outbound,4200486,4199508,Mattapan Station - South Busway,16,10,6
+12,3/1/2014,465,28,Outbound,4199508,4199548,Ruggles Station - Lane 1,24,10,14
+12,3/1/2014,468,28,Outbound,4199508,4199548,Malcolm X Blvd @ King St,12,10,2
+12,3/1/2014,472,28,Outbound,4199508,4199548,Dudley Station,11,10,1
+12,3/1/2014,474,28,Outbound,4199508,4199548,Warren St @ Dabney Pl,9,10,-1
+12,3/1/2014,477,28,Outbound,4199508,4199548,Warren St @ Townsend St,9,10,-1
+12,3/1/2014,479,28,Outbound,4199508,4199548,Warren St @ Crawford St,9,10,-1
+12,3/1/2014,483,28,Outbound,4199508,4199548,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,8,10,-2
+12,3/1/2014,486,28,Outbound,4199508,4199548,Blue Hill Ave @ Angell St,9,10,-1
+12,3/1/2014,490,28,Outbound,4199508,4199548,Blue Hill Ave @ Morton St,7,10,-3
+12,3/1/2014,491,28,Outbound,4199508,4199548,Blue Hill Ave @ Wellington Hill St,7,10,-3
+12,3/1/2014,499,28,Outbound,4199508,4199548,Mattapan Station - South Busway,8,10,-2
+13,3/1/2014,475,28,Outbound,4199548,4199620,Ruggles Station - Lane 1,-11,11,-22
+13,3/1/2014,478,28,Outbound,4199548,4199620,Malcolm X Blvd @ King St,9,11,-2
+13,3/1/2014,482,28,Outbound,4199548,4199620,Dudley Station,11,11,0
+13,3/1/2014,484,28,Outbound,4199548,4199620,Warren St @ Dabney Pl,10,11,-1
+13,3/1/2014,487,28,Outbound,4199548,4199620,Warren St @ Townsend St,10,11,-1
+13,3/1/2014,489,28,Outbound,4199548,4199620,Warren St @ Crawford St,10,11,-1
+13,3/1/2014,493,28,Outbound,4199548,4199620,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,12,11,1
+13,3/1/2014,496,28,Outbound,4199548,4199620,Blue Hill Ave @ Angell St,11,11,0
+13,3/1/2014,500,28,Outbound,4199548,4199620,Blue Hill Ave @ Morton St,12,11,1
+13,3/1/2014,501,28,Outbound,4199548,4199620,Blue Hill Ave @ Wellington Hill St,13,11,2
+13,3/1/2014,509,28,Outbound,4199548,4199620,Mattapan Station - South Busway,14,11,3
+14,3/1/2014,486,28,Outbound,4199620,4199442,Ruggles Station - Lane 1,16,11,5
+14,3/1/2014,489,28,Outbound,4199620,4199442,Malcolm X Blvd @ King St,10,11,-1
+14,3/1/2014,493,28,Outbound,4199620,4199442,Dudley Station,9,11,-2
+14,3/1/2014,495,28,Outbound,4199620,4199442,Warren St @ Dabney Pl,9,11,-2
+14,3/1/2014,498,28,Outbound,4199620,4199442,Warren St @ Townsend St,11,11,0
+14,3/1/2014,500,28,Outbound,4199620,4199442,Warren St @ Crawford St,11,11,0
+14,3/1/2014,504,28,Outbound,4199620,4199442,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,10,11,-1
+14,3/1/2014,507,28,Outbound,4199620,4199442,Blue Hill Ave @ Angell St,9,11,-2
+14,3/1/2014,511,28,Outbound,4199620,4199442,Blue Hill Ave @ Morton St,9,11,-2
+14,3/1/2014,512,28,Outbound,4199620,4199442,Blue Hill Ave @ Wellington Hill St,9,11,-2
+14,3/1/2014,520,28,Outbound,4199620,4199442,Mattapan Station - South Busway,8,11,-3
+15,3/1/2014,506,28,Outbound,4199442,4199898,Warren St @ Dabney Pl,15,11,4
+15,3/1/2014,509,28,Outbound,4199442,4199898,Warren St @ Townsend St,12,11,1
+15,3/1/2014,511,28,Outbound,4199442,4199898,Warren St @ Crawford St,12,11,1
+15,3/1/2014,515,28,Outbound,4199442,4199898,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,12,11,1
+15,3/1/2014,518,28,Outbound,4199442,4199898,Blue Hill Ave @ Angell St,13,11,2
+15,3/1/2014,522,28,Outbound,4199442,4199898,Blue Hill Ave @ Morton St,14,11,3
+15,3/1/2014,523,28,Outbound,4199442,4199898,Blue Hill Ave @ Wellington Hill St,13,11,2
+15,3/1/2014,531,28,Outbound,4199442,4199898,Mattapan Station - South Busway,12,11,1
+16,3/1/2014,517,28,Outbound,4199898,4200333,Warren St @ Dabney Pl,13,11,2
+16,3/1/2014,520,28,Outbound,4199898,4200333,Warren St @ Townsend St,15,11,4
+16,3/1/2014,522,28,Outbound,4199898,4200333,Warren St @ Crawford St,14,11,3
+16,3/1/2014,526,28,Outbound,4199898,4200333,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,15,11,4
+16,3/1/2014,529,28,Outbound,4199898,4200333,Blue Hill Ave @ Angell St,15,11,4
+16,3/1/2014,533,28,Outbound,4199898,4200333,Blue Hill Ave @ Morton St,14,11,3
+16,3/1/2014,534,28,Outbound,4199898,4200333,Blue Hill Ave @ Wellington Hill St,15,11,4
+16,3/1/2014,542,28,Outbound,4199898,4200333,Mattapan Station - South Busway,16,11,5
+17,3/1/2014,519,28,Outbound,4200333,4200378,Ruggles Station - Lane 1,19,11,8
+17,3/1/2014,522,28,Outbound,4200333,4200378,Malcolm X Blvd @ King St,8,11,-3
+17,3/1/2014,526,28,Outbound,4200333,4200378,Dudley Station,9,11,-2
+17,3/1/2014,528,28,Outbound,4200333,4200378,Warren St @ Dabney Pl,9,11,-2
+17,3/1/2014,531,28,Outbound,4200333,4200378,Warren St @ Townsend St,9,11,-2
+17,3/1/2014,533,28,Outbound,4200333,4200378,Warren St @ Crawford St,9,11,-2
+17,3/1/2014,537,28,Outbound,4200333,4200378,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,10,11,-1
+17,3/1/2014,540,28,Outbound,4200333,4200378,Blue Hill Ave @ Angell St,10,11,-1
+17,3/1/2014,544,28,Outbound,4200333,4200378,Blue Hill Ave @ Morton St,10,11,-1
+17,3/1/2014,545,28,Outbound,4200333,4200378,Blue Hill Ave @ Wellington Hill St,9,11,-2
+17,3/1/2014,553,28,Outbound,4200333,4200378,Mattapan Station - South Busway,10,11,-1
+18,3/1/2014,530,28,Outbound,4200378,4200416,Ruggles Station - Lane 1,4,11,-7
+18,3/1/2014,533,28,Outbound,4200378,4200416,Malcolm X Blvd @ King St,16,11,5
+18,3/1/2014,537,28,Outbound,4200378,4200416,Dudley Station,15,11,4
+18,3/1/2014,539,28,Outbound,4200378,4200416,Warren St @ Dabney Pl,15,11,4
+18,3/1/2014,542,28,Outbound,4200378,4200416,Warren St @ Townsend St,15,11,4
+18,3/1/2014,544,28,Outbound,4200378,4200416,Warren St @ Crawford St,16,11,5
+18,3/1/2014,548,28,Outbound,4200378,4200416,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,15,11,4
+18,3/1/2014,551,28,Outbound,4200378,4200416,Blue Hill Ave @ Angell St,15,11,4
+18,3/1/2014,555,28,Outbound,4200378,4200416,Blue Hill Ave @ Morton St,17,11,6
+18,3/1/2014,556,28,Outbound,4200378,4200416,Blue Hill Ave @ Wellington Hill St,18,11,7
+18,3/1/2014,564,28,Outbound,4200378,4200416,Mattapan Station - South Busway,18,11,7
+19,3/1/2014,541,28,Outbound,4200416,4200488,Ruggles Station - Lane 1,0,11,-11
+19,3/1/2014,544,28,Outbound,4200416,4200488,Malcolm X Blvd @ King St,12,11,1
+19,3/1/2014,548,28,Outbound,4200416,4200488,Dudley Station,12,11,1
+19,3/1/2014,550,28,Outbound,4200416,4200488,Warren St @ Dabney Pl,15,11,4
+19,3/1/2014,553,28,Outbound,4200416,4200488,Warren St @ Townsend St,15,11,4
+19,3/1/2014,555,28,Outbound,4200416,4200488,Warren St @ Crawford St,16,11,5
+19,3/1/2014,559,28,Outbound,4200416,4200488,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,16,11,5
+19,3/1/2014,562,28,Outbound,4200416,4200488,Blue Hill Ave @ Angell St,18,11,7
+19,3/1/2014,566,28,Outbound,4200416,4200488,Blue Hill Ave @ Morton St,18,11,7
+19,3/1/2014,567,28,Outbound,4200416,4200488,Blue Hill Ave @ Wellington Hill St,18,11,7
+19,3/1/2014,575,28,Outbound,4200416,4200488,Mattapan Station - South Busway,18,11,7
+20,3/1/2014,552,28,Outbound,4200488,4199510,Ruggles Station - Lane 1,33,11,22
+20,3/1/2014,555,28,Outbound,4200488,4199510,Malcolm X Blvd @ King St,16,11,5
+20,3/1/2014,559,28,Outbound,4200488,4199510,Dudley Station,17,11,6
+20,3/1/2014,561,28,Outbound,4200488,4199510,Warren St @ Dabney Pl,14,11,3
+20,3/1/2014,564,28,Outbound,4200488,4199510,Warren St @ Townsend St,13,11,2
+20,3/1/2014,566,28,Outbound,4200488,4199510,Warren St @ Crawford St,13,11,2
+20,3/1/2014,570,28,Outbound,4200488,4199510,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,15,11,4
+20,3/1/2014,573,28,Outbound,4200488,4199510,Blue Hill Ave @ Angell St,14,11,3
+20,3/1/2014,577,28,Outbound,4200488,4199510,Blue Hill Ave @ Morton St,13,11,2
+20,3/1/2014,578,28,Outbound,4200488,4199510,Blue Hill Ave @ Wellington Hill St,12,11,1
+20,3/1/2014,586,28,Outbound,4200488,4199510,Mattapan Station - South Busway,10,11,-1
+21,3/1/2014,563,28,Outbound,4199510,4199550,Ruggles Station - Lane 1,0,11,-11
+21,3/1/2014,566,28,Outbound,4199510,4199550,Malcolm X Blvd @ King St,3,11,-8
+21,3/1/2014,572,28,Outbound,4199510,4199550,Warren St @ Dabney Pl,3,11,-8
+21,3/1/2014,575,28,Outbound,4199510,4199550,Warren St @ Townsend St,4,11,-7
+21,3/1/2014,577,28,Outbound,4199510,4199550,Warren St @ Crawford St,3,11,-8
+21,3/1/2014,581,28,Outbound,4199510,4199550,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,1,11,-10
+21,3/1/2014,584,28,Outbound,4199510,4199550,Blue Hill Ave @ Angell St,-1,11,-12
+21,3/1/2014,588,28,Outbound,4199510,4199550,Blue Hill Ave @ Morton St,0,11,-11
+21,3/1/2014,589,28,Outbound,4199510,4199550,Blue Hill Ave @ Wellington Hill St,0,12,-12
+21,3/1/2014,597,28,Outbound,4199510,4199550,Mattapan Station - South Busway,2,12,-10
+22,3/1/2014,574,28,Outbound,4199550,4199622,Ruggles Station - Lane 1,6,11,-5
+22,3/1/2014,577,28,Outbound,4199550,4199622,Malcolm X Blvd @ King St,12,11,1
+22,3/1/2014,583,28,Outbound,4199550,4199622,Warren St @ Dabney Pl,14,11,3
+22,3/1/2014,586,28,Outbound,4199550,4199622,Warren St @ Townsend St,15,11,4
+22,3/1/2014,588,28,Outbound,4199550,4199622,Warren St @ Crawford St,15,11,4
+22,3/1/2014,592,28,Outbound,4199550,4199622,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,14,11,3
+22,3/1/2014,595,28,Outbound,4199550,4199622,Blue Hill Ave @ Angell St,16,12,4
+22,3/1/2014,599,28,Outbound,4199550,4199622,Blue Hill Ave @ Morton St,17,13,4
+22,3/1/2014,601,28,Outbound,4199550,4199622,Blue Hill Ave @ Wellington Hill St,17,13,4
+22,3/1/2014,609,28,Outbound,4199550,4199622,Mattapan Station - South Busway,24,13,11
+23,3/1/2014,585,28,Outbound,4199622,4199444,Ruggles Station - Lane 1,10,11,-1
+23,3/1/2014,588,28,Outbound,4199622,4199444,Malcolm X Blvd @ King St,8,11,-3
+23,3/1/2014,592,28,Outbound,4199622,4199444,Dudley Station,7,12,-5
+23,3/1/2014,594,28,Outbound,4199622,4199444,Warren St @ Dabney Pl,8,12,-4
+23,3/1/2014,597,28,Outbound,4199622,4199444,Warren St @ Townsend St,8,14,-6
+23,3/1/2014,599,28,Outbound,4199622,4199444,Warren St @ Crawford St,8,14,-6
+23,3/1/2014,603,28,Outbound,4199622,4199444,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,12,14,-2
+23,3/1/2014,607,28,Outbound,4199622,4199444,Blue Hill Ave @ Angell St,11,14,-3
+23,3/1/2014,612,28,Outbound,4199622,4199444,Blue Hill Ave @ Morton St,9,14,-5
+23,3/1/2014,614,28,Outbound,4199622,4199444,Blue Hill Ave @ Wellington Hill St,11,14,-3
+23,3/1/2014,622,28,Outbound,4199622,4199444,Mattapan Station - South Busway,2,14,-12
+24,3/1/2014,596,28,Outbound,4199444,4199900,Ruggles Station - Lane 1,18,11,7
+24,3/1/2014,599,28,Outbound,4199444,4199900,Malcolm X Blvd @ King St,15,11,4
+24,3/1/2014,604,28,Outbound,4199444,4199900,Dudley Station,12,11,1
+24,3/1/2014,606,28,Outbound,4199444,4199900,Warren St @ Dabney Pl,11,11,0
+24,3/1/2014,611,28,Outbound,4199444,4199900,Warren St @ Townsend St,11,11,0
+24,3/1/2014,613,28,Outbound,4199444,4199900,Warren St @ Crawford St,12,11,1
+24,3/1/2014,617,28,Outbound,4199444,4199900,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,10,11,-1
+24,3/1/2014,621,28,Outbound,4199444,4199900,Blue Hill Ave @ Angell St,10,11,-1
+24,3/1/2014,626,28,Outbound,4199444,4199900,Blue Hill Ave @ Morton St,8,11,-3
+24,3/1/2014,628,28,Outbound,4199444,4199900,Blue Hill Ave @ Wellington Hill St,8,11,-3
+24,3/1/2014,636,28,Outbound,4199444,4199900,Mattapan Station - South Busway,8,11,-3
+25,3/1/2014,607,28,Outbound,4199900,4200335,Ruggles Station - Lane 1,6,11,-5
+25,3/1/2014,610,28,Outbound,4199900,4200335,Malcolm X Blvd @ King St,10,11,-1
+25,3/1/2014,615,28,Outbound,4199900,4200335,Dudley Station,13,11,2
+25,3/1/2014,617,28,Outbound,4199900,4200335,Warren St @ Dabney Pl,15,11,4
+25,3/1/2014,622,28,Outbound,4199900,4200335,Warren St @ Townsend St,16,11,5
+25,3/1/2014,624,28,Outbound,4199900,4200335,Warren St @ Crawford St,16,11,5
+25,3/1/2014,628,28,Outbound,4199900,4200335,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,15,11,4
+25,3/1/2014,632,28,Outbound,4199900,4200335,Blue Hill Ave @ Angell St,15,11,4
+25,3/1/2014,637,28,Outbound,4199900,4200335,Blue Hill Ave @ Morton St,17,11,6
+25,3/1/2014,639,28,Outbound,4199900,4200335,Blue Hill Ave @ Wellington Hill St,17,11,6
+25,3/1/2014,647,28,Outbound,4199900,4200335,Mattapan Station - South Busway,21,11,10
+26,3/1/2014,618,28,Outbound,4200335,4200380,Ruggles Station - Lane 1,23,11,12
+26,3/1/2014,621,28,Outbound,4200335,4200380,Malcolm X Blvd @ King St,12,11,1
+26,3/1/2014,626,28,Outbound,4200335,4200380,Dudley Station,10,11,-1
+26,3/1/2014,628,28,Outbound,4200335,4200380,Warren St @ Dabney Pl,9,11,-2
+26,3/1/2014,633,28,Outbound,4200335,4200380,Warren St @ Townsend St,7,11,-4
+26,3/1/2014,635,28,Outbound,4200335,4200380,Warren St @ Crawford St,6,11,-5
+26,3/1/2014,639,28,Outbound,4200335,4200380,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,5,11,-6
+26,3/1/2014,643,28,Outbound,4200335,4200380,Blue Hill Ave @ Angell St,5,11,-6
+26,3/1/2014,648,28,Outbound,4200335,4200380,Blue Hill Ave @ Morton St,4,11,-7
+26,3/1/2014,650,28,Outbound,4200335,4200380,Blue Hill Ave @ Wellington Hill St,2,11,-9
+26,3/1/2014,658,28,Outbound,4200335,4200380,Mattapan Station - South Busway,1,11,-10
+27,3/1/2014,629,28,Outbound,4200380,4200418,Ruggles Station - Lane 1,9,11,-2
+27,3/1/2014,632,28,Outbound,4200380,4200418,Malcolm X Blvd @ King St,11,11,0
+27,3/1/2014,637,28,Outbound,4200380,4200418,Dudley Station,12,11,1
+27,3/1/2014,639,28,Outbound,4200380,4200418,Warren St @ Dabney Pl,17,11,6
+27,3/1/2014,644,28,Outbound,4200380,4200418,Warren St @ Townsend St,19,11,8
+27,3/1/2014,646,28,Outbound,4200380,4200418,Warren St @ Crawford St,19,11,8
+27,3/1/2014,650,28,Outbound,4200380,4200418,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,21,11,10
+27,3/1/2014,654,28,Outbound,4200380,4200418,Blue Hill Ave @ Angell St,22,11,11
+27,3/1/2014,659,28,Outbound,4200380,4200418,Blue Hill Ave @ Morton St,23,11,12
+27,3/1/2014,661,28,Outbound,4200380,4200418,Blue Hill Ave @ Wellington Hill St,23,11,12
+27,3/1/2014,669,28,Outbound,4200380,4200418,Mattapan Station - South Busway,24,11,13
+28,3/1/2014,640,28,Outbound,4200418,4200490,Ruggles Station - Lane 1,14,11,3
+28,3/1/2014,643,28,Outbound,4200418,4200490,Malcolm X Blvd @ King St,8,11,-3
+28,3/1/2014,648,28,Outbound,4200418,4200490,Dudley Station,8,11,-3
+28,3/1/2014,650,28,Outbound,4200418,4200490,Warren St @ Dabney Pl,3,11,-8
+28,3/1/2014,655,28,Outbound,4200418,4200490,Warren St @ Townsend St,0,11,-11
+28,3/1/2014,657,28,Outbound,4200418,4200490,Warren St @ Crawford St,0,11,-11
+28,3/1/2014,661,28,Outbound,4200418,4200490,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,1,11,-10
+28,3/1/2014,665,28,Outbound,4200418,4200490,Blue Hill Ave @ Angell St,-2,11,-13
+28,3/1/2014,670,28,Outbound,4200418,4200490,Blue Hill Ave @ Morton St,-2,11,-13
+28,3/1/2014,672,28,Outbound,4200418,4200490,Blue Hill Ave @ Wellington Hill St,1,11,-10
+28,3/1/2014,680,28,Outbound,4200418,4200490,Mattapan Station - South Busway,0,11,-11
+29,3/1/2014,651,28,Outbound,4200490,4199512,Ruggles Station - Lane 1,6,11,-5
+29,3/1/2014,654,28,Outbound,4200490,4199512,Malcolm X Blvd @ King St,11,11,0
+29,3/1/2014,659,28,Outbound,4200490,4199512,Dudley Station,12,11,1
+29,3/1/2014,661,28,Outbound,4200490,4199512,Warren St @ Dabney Pl,15,11,4
+29,3/1/2014,666,28,Outbound,4200490,4199512,Warren St @ Townsend St,15,11,4
+29,3/1/2014,668,28,Outbound,4200490,4199512,Warren St @ Crawford St,17,11,6
+29,3/1/2014,672,28,Outbound,4200490,4199512,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,18,11,7
+29,3/1/2014,676,28,Outbound,4200490,4199512,Blue Hill Ave @ Angell St,20,11,9
+29,3/1/2014,681,28,Outbound,4200490,4199512,Blue Hill Ave @ Morton St,23,11,12
+29,3/1/2014,683,28,Outbound,4200490,4199512,Blue Hill Ave @ Wellington Hill St,20,11,9
+29,3/1/2014,691,28,Outbound,4200490,4199512,Mattapan Station - South Busway,22,11,11
+30,3/1/2014,662,28,Outbound,4199512,4199552,Ruggles Station - Lane 1,10,11,-1
+30,3/1/2014,665,28,Outbound,4199512,4199552,Malcolm X Blvd @ King St,11,11,0
+30,3/1/2014,670,28,Outbound,4199512,4199552,Dudley Station,10,11,-1
+30,3/1/2014,672,28,Outbound,4199512,4199552,Warren St @ Dabney Pl,9,11,-2
+30,3/1/2014,677,28,Outbound,4199512,4199552,Warren St @ Townsend St,11,11,0
+30,3/1/2014,679,28,Outbound,4199512,4199552,Warren St @ Crawford St,9,11,-2
+30,3/1/2014,683,28,Outbound,4199512,4199552,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,7,11,-4
+30,3/1/2014,687,28,Outbound,4199512,4199552,Blue Hill Ave @ Angell St,7,11,-4
+30,3/1/2014,692,28,Outbound,4199512,4199552,Blue Hill Ave @ Morton St,4,11,-7
+30,3/1/2014,694,28,Outbound,4199512,4199552,Blue Hill Ave @ Wellington Hill St,4,11,-7
+30,3/1/2014,702,28,Outbound,4199512,4199552,Mattapan Station - South Busway,2,11,-9
+31,3/1/2014,673,28,Outbound,4199552,4199624,Ruggles Station - Lane 1,21,11,10
+31,3/1/2014,676,28,Outbound,4199552,4199624,Malcolm X Blvd @ King St,13,11,2
+31,3/1/2014,681,28,Outbound,4199552,4199624,Dudley Station,12,11,1
+31,3/1/2014,683,28,Outbound,4199552,4199624,Warren St @ Dabney Pl,11,11,0
+31,3/1/2014,688,28,Outbound,4199552,4199624,Warren St @ Townsend St,11,11,0
+31,3/1/2014,690,28,Outbound,4199552,4199624,Warren St @ Crawford St,11,11,0
+31,3/1/2014,694,28,Outbound,4199552,4199624,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,15,11,4
+31,3/1/2014,698,28,Outbound,4199552,4199624,Blue Hill Ave @ Angell St,17,11,6
+31,3/1/2014,703,28,Outbound,4199552,4199624,Blue Hill Ave @ Morton St,19,11,8
+31,3/1/2014,705,28,Outbound,4199552,4199624,Blue Hill Ave @ Wellington Hill St,20,11,9
+31,3/1/2014,713,28,Outbound,4199552,4199624,Mattapan Station - South Busway,18,11,7
+32,3/1/2014,684,28,Outbound,4199624,4199805,Ruggles Station - Lane 1,-3,11,-14
+32,3/1/2014,687,28,Outbound,4199624,4199805,Malcolm X Blvd @ King St,7,11,-4
+32,3/1/2014,692,28,Outbound,4199624,4199805,Dudley Station,10,11,-1
+32,3/1/2014,694,28,Outbound,4199624,4199805,Warren St @ Dabney Pl,10,11,-1
+32,3/1/2014,699,28,Outbound,4199624,4199805,Warren St @ Townsend St,11,11,0
+32,3/1/2014,701,28,Outbound,4199624,4199805,Warren St @ Crawford St,13,11,2
+32,3/1/2014,705,28,Outbound,4199624,4199805,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,9,11,-2
+32,3/1/2014,709,28,Outbound,4199624,4199805,Blue Hill Ave @ Angell St,6,11,-5
+32,3/1/2014,714,28,Outbound,4199624,4199805,Blue Hill Ave @ Morton St,3,11,-8
+32,3/1/2014,716,28,Outbound,4199624,4199805,Blue Hill Ave @ Wellington Hill St,3,11,-8
+32,3/1/2014,724,28,Outbound,4199624,4199805,Mattapan Station - South Busway,5,11,-6
+33,3/1/2014,695,28,Outbound,4199805,4199446,Ruggles Station - Lane 1,23,11,12
+33,3/1/2014,698,28,Outbound,4199805,4199446,Malcolm X Blvd @ King St,17,11,6
+33,3/1/2014,703,28,Outbound,4199805,4199446,Dudley Station,15,11,4
+33,3/1/2014,705,28,Outbound,4199805,4199446,Warren St @ Dabney Pl,16,11,5
+33,3/1/2014,710,28,Outbound,4199805,4199446,Warren St @ Townsend St,15,11,4
+33,3/1/2014,712,28,Outbound,4199805,4199446,Warren St @ Crawford St,14,11,3
+33,3/1/2014,716,28,Outbound,4199805,4199446,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,18,11,7
+33,3/1/2014,720,28,Outbound,4199805,4199446,Blue Hill Ave @ Angell St,19,11,8
+33,3/1/2014,725,28,Outbound,4199805,4199446,Blue Hill Ave @ Morton St,21,11,10
+33,3/1/2014,727,28,Outbound,4199805,4199446,Blue Hill Ave @ Wellington Hill St,21,11,10
+33,3/1/2014,735,28,Outbound,4199805,4199446,Mattapan Station - South Busway,21,11,10
+34,3/1/2014,706,28,Outbound,4199446,4199902,Ruggles Station - Lane 1,3,11,-8
+34,3/1/2014,709,28,Outbound,4199446,4199902,Malcolm X Blvd @ King St,7,11,-4
+34,3/1/2014,714,28,Outbound,4199446,4199902,Dudley Station,8,11,-3
+34,3/1/2014,716,28,Outbound,4199446,4199902,Warren St @ Dabney Pl,6,11,-5
+34,3/1/2014,721,28,Outbound,4199446,4199902,Warren St @ Townsend St,4,11,-7
+34,3/1/2014,723,28,Outbound,4199446,4199902,Warren St @ Crawford St,4,11,-7
+34,3/1/2014,727,28,Outbound,4199446,4199902,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,1,11,-10
+34,3/1/2014,731,28,Outbound,4199446,4199902,Blue Hill Ave @ Angell St,1,11,-10
+34,3/1/2014,736,28,Outbound,4199446,4199902,Blue Hill Ave @ Morton St,0,11,-11
+34,3/1/2014,738,28,Outbound,4199446,4199902,Blue Hill Ave @ Wellington Hill St,-1,11,-12
+34,3/1/2014,746,28,Outbound,4199446,4199902,Mattapan Station - South Busway,-1,11,-12
+35,3/1/2014,717,28,Outbound,4199902,4199738,Ruggles Station - Lane 1,15,11,4
+35,3/1/2014,720,28,Outbound,4199902,4199738,Malcolm X Blvd @ King St,10,11,-1
+35,3/1/2014,725,28,Outbound,4199902,4199738,Dudley Station,10,11,-1
+35,3/1/2014,727,28,Outbound,4199902,4199738,Warren St @ Dabney Pl,10,11,-1
+35,3/1/2014,732,28,Outbound,4199902,4199738,Warren St @ Townsend St,11,11,0
+35,3/1/2014,734,28,Outbound,4199902,4199738,Warren St @ Crawford St,9,11,-2
+35,3/1/2014,738,28,Outbound,4199902,4199738,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,6,11,-5
+35,3/1/2014,742,28,Outbound,4199902,4199738,Blue Hill Ave @ Angell St,7,11,-4
+35,3/1/2014,747,28,Outbound,4199902,4199738,Blue Hill Ave @ Morton St,7,11,-4
+35,3/1/2014,749,28,Outbound,4199902,4199738,Blue Hill Ave @ Wellington Hill St,7,11,-4
+35,3/1/2014,757,28,Outbound,4199902,4199738,Mattapan Station - South Busway,5,11,-6
+36,3/1/2014,728,28,Outbound,4199738,4200382,Ruggles Station - Lane 1,11,11,0
+36,3/1/2014,731,28,Outbound,4199738,4200382,Malcolm X Blvd @ King St,14,11,3
+36,3/1/2014,736,28,Outbound,4199738,4200382,Dudley Station,14,11,3
+36,3/1/2014,738,28,Outbound,4199738,4200382,Warren St @ Dabney Pl,16,11,5
+36,3/1/2014,743,28,Outbound,4199738,4200382,Warren St @ Townsend St,17,11,6
+36,3/1/2014,745,28,Outbound,4199738,4200382,Warren St @ Crawford St,19,11,8
+36,3/1/2014,749,28,Outbound,4199738,4200382,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,21,11,10
+36,3/1/2014,753,28,Outbound,4199738,4200382,Blue Hill Ave @ Angell St,20,11,9
+36,3/1/2014,758,28,Outbound,4199738,4200382,Blue Hill Ave @ Morton St,19,11,8
+36,3/1/2014,760,28,Outbound,4199738,4200382,Blue Hill Ave @ Wellington Hill St,21,11,10
+36,3/1/2014,768,28,Outbound,4199738,4200382,Mattapan Station - South Busway,20,11,9
+37,3/1/2014,739,28,Outbound,4200382,4200420,Ruggles Station - Lane 1,12,11,1
+37,3/1/2014,742,28,Outbound,4200382,4200420,Malcolm X Blvd @ King St,5,11,-6
+37,3/1/2014,747,28,Outbound,4200382,4200420,Dudley Station,3,11,-8
+37,3/1/2014,749,28,Outbound,4200382,4200420,Warren St @ Dabney Pl,1,11,-10
+37,3/1/2014,754,28,Outbound,4200382,4200420,Warren St @ Townsend St,1,11,-10
+37,3/1/2014,756,28,Outbound,4200382,4200420,Warren St @ Crawford St,0,11,-11
+37,3/1/2014,760,28,Outbound,4200382,4200420,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,1,11,-10
+37,3/1/2014,764,28,Outbound,4200382,4200420,Blue Hill Ave @ Angell St,1,11,-10
+37,3/1/2014,769,28,Outbound,4200382,4200420,Blue Hill Ave @ Morton St,1,11,-10
+37,3/1/2014,771,28,Outbound,4200382,4200420,Blue Hill Ave @ Wellington Hill St,0,11,-11
+37,3/1/2014,779,28,Outbound,4200382,4200420,Mattapan Station - South Busway,0,11,-11
+38,3/1/2014,750,28,Outbound,4200420,4200523,Ruggles Station - Lane 1,9,11,-2
+38,3/1/2014,753,28,Outbound,4200420,4200523,Malcolm X Blvd @ King St,12,11,1
+38,3/1/2014,758,28,Outbound,4200420,4200523,Dudley Station,11,11,0
+38,3/1/2014,760,28,Outbound,4200420,4200523,Warren St @ Dabney Pl,15,11,4
+38,3/1/2014,765,28,Outbound,4200420,4200523,Warren St @ Townsend St,15,11,4
+38,3/1/2014,767,28,Outbound,4200420,4200523,Warren St @ Crawford St,16,11,5
+38,3/1/2014,771,28,Outbound,4200420,4200523,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,16,11,5
+38,3/1/2014,775,28,Outbound,4200420,4200523,Blue Hill Ave @ Angell St,16,11,5
+38,3/1/2014,780,28,Outbound,4200420,4200523,Blue Hill Ave @ Morton St,18,11,7
+38,3/1/2014,782,28,Outbound,4200420,4200523,Blue Hill Ave @ Wellington Hill St,17,11,6
+38,3/1/2014,790,28,Outbound,4200420,4200523,Mattapan Station - South Busway,19,11,8
+39,3/1/2014,761,28,Outbound,4200523,4199514,Ruggles Station - Lane 1,17,11,6
+39,3/1/2014,764,28,Outbound,4200523,4199514,Malcolm X Blvd @ King St,17,11,6
+39,3/1/2014,769,28,Outbound,4200523,4199514,Dudley Station,19,11,8
+39,3/1/2014,771,28,Outbound,4200523,4199514,Warren St @ Dabney Pl,17,11,6
+39,3/1/2014,776,28,Outbound,4200523,4199514,Warren St @ Townsend St,17,11,6
+39,3/1/2014,778,28,Outbound,4200523,4199514,Warren St @ Crawford St,16,11,5
+39,3/1/2014,782,28,Outbound,4200523,4199514,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,18,11,7
+39,3/1/2014,786,28,Outbound,4200523,4199514,Blue Hill Ave @ Angell St,18,11,7
+39,3/1/2014,791,28,Outbound,4200523,4199514,Blue Hill Ave @ Morton St,18,11,7
+39,3/1/2014,793,28,Outbound,4200523,4199514,Blue Hill Ave @ Wellington Hill St,19,11,8
+39,3/1/2014,801,28,Outbound,4200523,4199514,Mattapan Station - South Busway,19,11,8
+40,3/1/2014,772,28,Outbound,4199514,4199599,Ruggles Station - Lane 1,11,11,0
+40,3/1/2014,775,28,Outbound,4199514,4199599,Malcolm X Blvd @ King St,8,11,-3
+40,3/1/2014,780,28,Outbound,4199514,4199599,Dudley Station,13,11,2
+40,3/1/2014,782,28,Outbound,4199514,4199599,Warren St @ Dabney Pl,15,11,4
+40,3/1/2014,787,28,Outbound,4199514,4199599,Warren St @ Townsend St,16,11,5
+40,3/1/2014,789,28,Outbound,4199514,4199599,Warren St @ Crawford St,16,11,5
+40,3/1/2014,793,28,Outbound,4199514,4199599,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,13,11,2
+40,3/1/2014,797,28,Outbound,4199514,4199599,Blue Hill Ave @ Angell St,13,11,2
+40,3/1/2014,802,28,Outbound,4199514,4199599,Blue Hill Ave @ Morton St,16,11,5
+40,3/1/2014,804,28,Outbound,4199514,4199599,Blue Hill Ave @ Wellington Hill St,15,11,4
+40,3/1/2014,812,28,Outbound,4199514,4199599,Mattapan Station - South Busway,17,11,6
+41,3/1/2014,783,28,Outbound,4199599,4199626,Ruggles Station - Lane 1,5,11,-6
+41,3/1/2014,786,28,Outbound,4199599,4199626,Malcolm X Blvd @ King St,13,11,2
+41,3/1/2014,791,28,Outbound,4199599,4199626,Dudley Station,9,11,-2
+41,3/1/2014,793,28,Outbound,4199599,4199626,Warren St @ Dabney Pl,5,11,-6
+41,3/1/2014,798,28,Outbound,4199599,4199626,Warren St @ Townsend St,3,11,-8
+41,3/1/2014,800,28,Outbound,4199599,4199626,Warren St @ Crawford St,4,11,-7
+41,3/1/2014,804,28,Outbound,4199599,4199626,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,3,11,-8
+41,3/1/2014,808,28,Outbound,4199599,4199626,Blue Hill Ave @ Angell St,4,11,-7
+41,3/1/2014,813,28,Outbound,4199599,4199626,Blue Hill Ave @ Morton St,0,11,-11
+41,3/1/2014,815,28,Outbound,4199599,4199626,Blue Hill Ave @ Wellington Hill St,2,11,-9
+41,3/1/2014,823,28,Outbound,4199599,4199626,Mattapan Station - South Busway,-1,11,-12
+42,3/1/2014,794,28,Outbound,4199626,4199807,Ruggles Station - Lane 1,24,11,13
+42,3/1/2014,797,28,Outbound,4199626,4199807,Malcolm X Blvd @ King St,16,11,5
+42,3/1/2014,802,28,Outbound,4199626,4199807,Dudley Station,15,11,4
+42,3/1/2014,804,28,Outbound,4199626,4199807,Warren St @ Dabney Pl,16,11,5
+42,3/1/2014,809,28,Outbound,4199626,4199807,Warren St @ Townsend St,17,11,6
+42,3/1/2014,811,28,Outbound,4199626,4199807,Warren St @ Crawford St,18,11,7
+42,3/1/2014,815,28,Outbound,4199626,4199807,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,19,11,8
+42,3/1/2014,819,28,Outbound,4199626,4199807,Blue Hill Ave @ Angell St,18,11,7
+42,3/1/2014,824,28,Outbound,4199626,4199807,Blue Hill Ave @ Morton St,19,11,8
+42,3/1/2014,826,28,Outbound,4199626,4199807,Blue Hill Ave @ Wellington Hill St,17,11,6
+42,3/1/2014,834,28,Outbound,4199626,4199807,Mattapan Station - South Busway,21,11,10
+43,3/1/2014,805,28,Outbound,4199807,4199719,Ruggles Station - Lane 1,1,11,-10
+43,3/1/2014,808,28,Outbound,4199807,4199719,Malcolm X Blvd @ King St,2,11,-9
+43,3/1/2014,813,28,Outbound,4199807,4199719,Dudley Station,2,11,-9
+43,3/1/2014,815,28,Outbound,4199807,4199719,Warren St @ Dabney Pl,1,11,-10
+43,3/1/2014,820,28,Outbound,4199807,4199719,Warren St @ Townsend St,1,11,-10
+43,3/1/2014,822,28,Outbound,4199807,4199719,Warren St @ Crawford St,-1,11,-12
+43,3/1/2014,826,28,Outbound,4199807,4199719,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,-2,11,-13
+43,3/1/2014,830,28,Outbound,4199807,4199719,Blue Hill Ave @ Angell St,-2,11,-13
+43,3/1/2014,835,28,Outbound,4199807,4199719,Blue Hill Ave @ Morton St,-3,11,-14
+43,3/1/2014,837,28,Outbound,4199807,4199719,Blue Hill Ave @ Wellington Hill St,-2,11,-13
+43,3/1/2014,845,28,Outbound,4199807,4199719,Mattapan Station - South Busway,-5,11,-16
+44,3/1/2014,816,28,Outbound,4199719,4199904,Ruggles Station - Lane 1,3,11,-8
+44,3/1/2014,819,28,Outbound,4199719,4199904,Malcolm X Blvd @ King St,14,11,3
+44,3/1/2014,824,28,Outbound,4199719,4199904,Dudley Station,13,11,2
+44,3/1/2014,826,28,Outbound,4199719,4199904,Warren St @ Dabney Pl,13,11,2
+44,3/1/2014,831,28,Outbound,4199719,4199904,Warren St @ Townsend St,13,11,2
+44,3/1/2014,833,28,Outbound,4199719,4199904,Warren St @ Crawford St,14,11,3
+44,3/1/2014,837,28,Outbound,4199719,4199904,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,17,11,6
+44,3/1/2014,841,28,Outbound,4199719,4199904,Blue Hill Ave @ Angell St,17,11,6
+44,3/1/2014,846,28,Outbound,4199719,4199904,Blue Hill Ave @ Morton St,17,11,6
+44,3/1/2014,848,28,Outbound,4199719,4199904,Blue Hill Ave @ Wellington Hill St,18,11,7
+44,3/1/2014,856,28,Outbound,4199719,4199904,Mattapan Station - South Busway,21,11,10
+45,3/1/2014,827,28,Outbound,4199904,4199740,Ruggles Station - Lane 1,11,11,0
+45,3/1/2014,830,28,Outbound,4199904,4199740,Malcolm X Blvd @ King St,10,11,-1
+45,3/1/2014,835,28,Outbound,4199904,4199740,Dudley Station,11,11,0
+45,3/1/2014,837,28,Outbound,4199904,4199740,Warren St @ Dabney Pl,10,11,-1
+45,3/1/2014,842,28,Outbound,4199904,4199740,Warren St @ Townsend St,11,11,0
+45,3/1/2014,844,28,Outbound,4199904,4199740,Warren St @ Crawford St,11,11,0
+45,3/1/2014,848,28,Outbound,4199904,4199740,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,8,11,-3
+45,3/1/2014,852,28,Outbound,4199904,4199740,Blue Hill Ave @ Angell St,8,11,-3
+45,3/1/2014,857,28,Outbound,4199904,4199740,Blue Hill Ave @ Morton St,8,11,-3
+45,3/1/2014,859,28,Outbound,4199904,4199740,Blue Hill Ave @ Wellington Hill St,6,11,-5
+45,3/1/2014,867,28,Outbound,4199904,4199740,Mattapan Station - South Busway,1,11,-10
+46,3/1/2014,838,28,Outbound,4199740,4200384,Ruggles Station - Lane 1,20,11,9
+46,3/1/2014,841,28,Outbound,4199740,4200384,Malcolm X Blvd @ King St,9,11,-2
+46,3/1/2014,846,28,Outbound,4199740,4200384,Dudley Station,9,11,-2
+46,3/1/2014,848,28,Outbound,4199740,4200384,Warren St @ Dabney Pl,12,11,1
+46,3/1/2014,853,28,Outbound,4199740,4200384,Warren St @ Townsend St,10,11,-1
+46,3/1/2014,855,28,Outbound,4199740,4200384,Warren St @ Crawford St,11,11,0
+46,3/1/2014,859,28,Outbound,4199740,4200384,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,12,11,1
+46,3/1/2014,863,28,Outbound,4199740,4200384,Blue Hill Ave @ Angell St,12,11,1
+46,3/1/2014,868,28,Outbound,4199740,4200384,Blue Hill Ave @ Morton St,12,11,1
+46,3/1/2014,870,28,Outbound,4199740,4200384,Blue Hill Ave @ Wellington Hill St,13,11,2
+46,3/1/2014,878,28,Outbound,4199740,4200384,Mattapan Station - South Busway,16,11,5
+47,3/1/2014,849,28,Outbound,4200384,4200422,Ruggles Station - Lane 1,4,11,-7
+47,3/1/2014,852,28,Outbound,4200384,4200422,Malcolm X Blvd @ King St,10,11,-1
+47,3/1/2014,857,28,Outbound,4200384,4200422,Dudley Station,10,11,-1
+47,3/1/2014,859,28,Outbound,4200384,4200422,Warren St @ Dabney Pl,9,11,-2
+47,3/1/2014,864,28,Outbound,4200384,4200422,Warren St @ Townsend St,9,11,-2
+47,3/1/2014,866,28,Outbound,4200384,4200422,Warren St @ Crawford St,9,11,-2
+47,3/1/2014,870,28,Outbound,4200384,4200422,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,8,11,-3
+47,3/1/2014,874,28,Outbound,4200384,4200422,Blue Hill Ave @ Angell St,8,11,-3
+47,3/1/2014,879,28,Outbound,4200384,4200422,Blue Hill Ave @ Morton St,11,11,0
+47,3/1/2014,881,28,Outbound,4200384,4200422,Blue Hill Ave @ Wellington Hill St,12,11,1
+47,3/1/2014,889,28,Outbound,4200384,4200422,Mattapan Station - South Busway,10,11,-1
+48,3/1/2014,860,28,Outbound,4200422,4200525,Ruggles Station - Lane 1,22,11,11
+48,3/1/2014,863,28,Outbound,4200422,4200525,Malcolm X Blvd @ King St,17,11,6
+48,3/1/2014,868,28,Outbound,4200422,4200525,Dudley Station,17,11,6
+48,3/1/2014,870,28,Outbound,4200422,4200525,Warren St @ Dabney Pl,17,11,6
+48,3/1/2014,875,28,Outbound,4200422,4200525,Warren St @ Townsend St,20,11,9
+48,3/1/2014,877,28,Outbound,4200422,4200525,Warren St @ Crawford St,19,11,8
+48,3/1/2014,881,28,Outbound,4200422,4200525,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,20,11,9
+48,3/1/2014,885,28,Outbound,4200422,4200525,Blue Hill Ave @ Angell St,20,11,9
+48,3/1/2014,890,28,Outbound,4200422,4200525,Blue Hill Ave @ Morton St,18,11,7
+48,3/1/2014,892,28,Outbound,4200422,4200525,Blue Hill Ave @ Wellington Hill St,16,11,5
+48,3/1/2014,900,28,Outbound,4200422,4200525,Mattapan Station - South Busway,18,11,7
+49,3/1/2014,871,28,Outbound,4200525,4200564,Ruggles Station - Lane 1,10,11,-1
+49,3/1/2014,874,28,Outbound,4200525,4200564,Malcolm X Blvd @ King St,10,11,-1
+49,3/1/2014,879,28,Outbound,4200525,4200564,Dudley Station,9,11,-2
+49,3/1/2014,881,28,Outbound,4200525,4200564,Warren St @ Dabney Pl,6,11,-5
+49,3/1/2014,886,28,Outbound,4200525,4200564,Warren St @ Townsend St,2,11,-9
+49,3/1/2014,888,28,Outbound,4200525,4200564,Warren St @ Crawford St,2,11,-9
+49,3/1/2014,892,28,Outbound,4200525,4200564,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,2,11,-9
+49,3/1/2014,896,28,Outbound,4200525,4200564,Blue Hill Ave @ Angell St,2,11,-9
+49,3/1/2014,901,28,Outbound,4200525,4200564,Blue Hill Ave @ Morton St,2,11,-9
+49,3/1/2014,903,28,Outbound,4200525,4200564,Blue Hill Ave @ Wellington Hill St,2,11,-9
+49,3/1/2014,911,28,Outbound,4200525,4200564,Mattapan Station - South Busway,2,11,-9
+50,3/1/2014,882,28,Outbound,4200564,4199601,Ruggles Station - Lane 1,-7,11,-18
+50,3/1/2014,885,28,Outbound,4200564,4199601,Malcolm X Blvd @ King St,8,11,-3
+50,3/1/2014,890,28,Outbound,4200564,4199601,Dudley Station,9,11,-2
+50,3/1/2014,892,28,Outbound,4200564,4199601,Warren St @ Dabney Pl,11,11,0
+50,3/1/2014,897,28,Outbound,4200564,4199601,Warren St @ Townsend St,13,11,2
+50,3/1/2014,899,28,Outbound,4200564,4199601,Warren St @ Crawford St,13,11,2
+50,3/1/2014,903,28,Outbound,4200564,4199601,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,13,11,2
+50,3/1/2014,907,28,Outbound,4200564,4199601,Blue Hill Ave @ Angell St,13,11,2
+50,3/1/2014,912,28,Outbound,4200564,4199601,Blue Hill Ave @ Morton St,12,11,1
+50,3/1/2014,914,28,Outbound,4200564,4199601,Blue Hill Ave @ Wellington Hill St,12,11,1
+50,3/1/2014,922,28,Outbound,4200564,4199601,Mattapan Station - South Busway,12,11,1
+51,3/1/2014,893,28,Outbound,4199601,4199628,Ruggles Station - Lane 1,18,11,7
+51,3/1/2014,896,28,Outbound,4199601,4199628,Malcolm X Blvd @ King St,9,11,-2
+51,3/1/2014,901,28,Outbound,4199601,4199628,Dudley Station,9,11,-2
+51,3/1/2014,903,28,Outbound,4199601,4199628,Warren St @ Dabney Pl,9,11,-2
+51,3/1/2014,908,28,Outbound,4199601,4199628,Warren St @ Townsend St,9,11,-2
+51,3/1/2014,910,28,Outbound,4199601,4199628,Warren St @ Crawford St,9,11,-2
+51,3/1/2014,914,28,Outbound,4199601,4199628,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,10,11,-1
+51,3/1/2014,918,28,Outbound,4199601,4199628,Blue Hill Ave @ Angell St,10,11,-1
+51,3/1/2014,923,28,Outbound,4199601,4199628,Blue Hill Ave @ Morton St,12,11,1
+51,3/1/2014,925,28,Outbound,4199601,4199628,Blue Hill Ave @ Wellington Hill St,13,10,3
+51,3/1/2014,933,28,Outbound,4199601,4199628,Mattapan Station - South Busway,13,10,3
+52,3/1/2014,904,28,Outbound,4199628,4199809,Ruggles Station - Lane 1,28,11,17
+52,3/1/2014,907,28,Outbound,4199628,4199809,Malcolm X Blvd @ King St,23,11,12
+52,3/1/2014,912,28,Outbound,4199628,4199809,Dudley Station,22,11,11
+52,3/1/2014,914,28,Outbound,4199628,4199809,Warren St @ Dabney Pl,24,11,13
+52,3/1/2014,919,28,Outbound,4199628,4199809,Warren St @ Townsend St,26,11,15
+52,3/1/2014,921,28,Outbound,4199628,4199809,Warren St @ Crawford St,26,13,13
+52,3/1/2014,925,28,Outbound,4199628,4199809,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,25,12,13
+52,3/1/2014,929,28,Outbound,4199628,4199809,Blue Hill Ave @ Angell St,27,12,15
+52,3/1/2014,934,28,Outbound,4199628,4199809,Blue Hill Ave @ Morton St,28,12,16
+52,3/1/2014,935,28,Outbound,4199628,4199809,Blue Hill Ave @ Wellington Hill St,28,12,16
+52,3/1/2014,943,28,Outbound,4199628,4199809,Mattapan Station - South Busway,27,12,15
+53,3/1/2014,918,28,Outbound,4199809,4199666,Malcolm X Blvd @ King St,3,11,-8
+53,3/1/2014,923,28,Outbound,4199809,4199666,Dudley Station,5,10,-5
+53,3/1/2014,925,28,Outbound,4199809,4199666,Warren St @ Dabney Pl,3,11,-8
+53,3/1/2014,930,28,Outbound,4199809,4199666,Warren St @ Townsend St,0,12,-12
+53,3/1/2014,934,28,Outbound,4199809,4199666,Warren St @ Crawford St,-1,12,-13
+53,3/1/2014,937,28,Outbound,4199809,4199666,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,2,12,-10
+53,3/1/2014,941,28,Outbound,4199809,4199666,Blue Hill Ave @ Angell St,0,12,-12
+53,3/1/2014,946,28,Outbound,4199809,4199666,Blue Hill Ave @ Morton St,-2,12,-14
+53,3/1/2014,947,28,Outbound,4199809,4199666,Blue Hill Ave @ Wellington Hill St,-1,12,-13
+53,3/1/2014,955,28,Outbound,4199809,4199666,Mattapan Station - South Busway,2,10,-8
+54,3/1/2014,929,28,Outbound,4199666,4199906,Malcolm X Blvd @ King St,11,12,-1
+54,3/1/2014,933,28,Outbound,4199666,4199906,Dudley Station,9,12,-3
+54,3/1/2014,936,28,Outbound,4199666,4199906,Warren St @ Dabney Pl,10,12,-2
+54,3/1/2014,942,28,Outbound,4199666,4199906,Warren St @ Townsend St,8,12,-4
+54,3/1/2014,946,28,Outbound,4199666,4199906,Warren St @ Crawford St,8,12,-4
+54,3/1/2014,949,28,Outbound,4199666,4199906,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,5,13,-8
+54,3/1/2014,953,28,Outbound,4199666,4199906,Blue Hill Ave @ Angell St,5,12,-7
+54,3/1/2014,958,28,Outbound,4199666,4199906,Blue Hill Ave @ Morton St,5,14,-9
+54,3/1/2014,959,28,Outbound,4199666,4199906,Blue Hill Ave @ Wellington Hill St,3,15,-12
+54,3/1/2014,965,28,Outbound,4199666,4199906,Mattapan Station - South Busway,4,15,-11
+55,3/1/2014,937,28,Outbound,4199906,4199742,Ruggles Station - Lane 1,4,11,-7
+55,3/1/2014,941,28,Outbound,4199906,4199742,Malcolm X Blvd @ King St,12,11,1
+55,3/1/2014,945,28,Outbound,4199906,4199742,Dudley Station,11,11,0
+55,3/1/2014,948,28,Outbound,4199906,4199742,Warren St @ Dabney Pl,13,11,2
+55,3/1/2014,954,28,Outbound,4199906,4199742,Warren St @ Townsend St,17,9,8
+55,3/1/2014,958,28,Outbound,4199906,4199742,Warren St @ Crawford St,18,8,10
+55,3/1/2014,962,28,Outbound,4199906,4199742,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,23,9,14
+55,3/1/2014,965,28,Outbound,4199906,4199742,Blue Hill Ave @ Angell St,24,9,15
+55,3/1/2014,972,28,Outbound,4199906,4199742,Blue Hill Ave @ Morton St,22,9,13
+55,3/1/2014,974,28,Outbound,4199906,4199742,Blue Hill Ave @ Wellington Hill St,24,9,15
+55,3/1/2014,980,28,Outbound,4199906,4199742,Mattapan Station - South Busway,24,9,15
+56,3/1/2014,948,28,Outbound,4199742,4199774,Ruggles Station - Lane 1,23,11,12
+56,3/1/2014,952,28,Outbound,4199742,4199774,Malcolm X Blvd @ King St,16,10,6
+56,3/1/2014,956,28,Outbound,4199742,4199774,Dudley Station,17,11,6
+56,3/1/2014,959,28,Outbound,4199742,4199774,Warren St @ Dabney Pl,14,10,4
+56,3/1/2014,963,28,Outbound,4199742,4199774,Warren St @ Townsend St,12,10,2
+56,3/1/2014,966,28,Outbound,4199742,4199774,Warren St @ Crawford St,11,10,1
+56,3/1/2014,971,28,Outbound,4199742,4199774,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,7,10,-3
+56,3/1/2014,974,28,Outbound,4199742,4199774,Blue Hill Ave @ Angell St,5,10,-5
+56,3/1/2014,981,28,Outbound,4199742,4199774,Blue Hill Ave @ Morton St,7,10,-3
+56,3/1/2014,983,28,Outbound,4199742,4199774,Blue Hill Ave @ Wellington Hill St,6,10,-4
+56,3/1/2014,989,28,Outbound,4199742,4199774,Mattapan Station - South Busway,4,10,-6
+57,3/1/2014,959,28,Outbound,4199774,4200424,Ruggles Station - Lane 1,-4,11,-15
+57,3/1/2014,962,28,Outbound,4199774,4200424,Malcolm X Blvd @ King St,4,11,-7
+57,3/1/2014,967,28,Outbound,4199774,4200424,Dudley Station,6,11,-5
+57,3/1/2014,969,28,Outbound,4199774,4200424,Warren St @ Dabney Pl,8,11,-3
+57,3/1/2014,973,28,Outbound,4199774,4200424,Warren St @ Townsend St,9,11,-2
+57,3/1/2014,976,28,Outbound,4199774,4200424,Warren St @ Crawford St,9,11,-2
+57,3/1/2014,981,28,Outbound,4199774,4200424,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,8,11,-3
+57,3/1/2014,984,28,Outbound,4199774,4200424,Blue Hill Ave @ Angell St,10,11,-1
+57,3/1/2014,991,28,Outbound,4199774,4200424,Blue Hill Ave @ Morton St,11,11,0
+57,3/1/2014,993,28,Outbound,4199774,4200424,Blue Hill Ave @ Wellington Hill St,11,11,0
+57,3/1/2014,999,28,Outbound,4199774,4200424,Mattapan Station - South Busway,10,11,-1
+58,3/1/2014,970,28,Outbound,4200424,4200527,Ruggles Station - Lane 1,17,11,6
+58,3/1/2014,973,28,Outbound,4200424,4200527,Malcolm X Blvd @ King St,14,11,3
+58,3/1/2014,978,28,Outbound,4200424,4200527,Dudley Station,13,11,2
+58,3/1/2014,980,28,Outbound,4200424,4200527,Warren St @ Dabney Pl,12,11,1
+58,3/1/2014,984,28,Outbound,4200424,4200527,Warren St @ Townsend St,13,11,2
+58,3/1/2014,987,28,Outbound,4200424,4200527,Warren St @ Crawford St,13,11,2
+58,3/1/2014,992,28,Outbound,4200424,4200527,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,13,11,2
+58,3/1/2014,995,28,Outbound,4200424,4200527,Blue Hill Ave @ Angell St,13,11,2
+58,3/1/2014,1002,28,Outbound,4200424,4200527,Blue Hill Ave @ Morton St,13,11,2
+58,3/1/2014,1004,28,Outbound,4200424,4200527,Blue Hill Ave @ Wellington Hill St,13,11,2
+58,3/1/2014,1010,28,Outbound,4200424,4200527,Mattapan Station - South Busway,14,11,3
+59,3/1/2014,981,28,Outbound,4200527,4200566,Ruggles Station - Lane 1,10,11,-1
+59,3/1/2014,984,28,Outbound,4200527,4200566,Malcolm X Blvd @ King St,5,11,-6
+59,3/1/2014,989,28,Outbound,4200527,4200566,Dudley Station,5,11,-6
+59,3/1/2014,991,28,Outbound,4200527,4200566,Warren St @ Dabney Pl,5,11,-6
+59,3/1/2014,995,28,Outbound,4200527,4200566,Warren St @ Townsend St,4,11,-7
+59,3/1/2014,998,28,Outbound,4200527,4200566,Warren St @ Crawford St,3,11,-8
+59,3/1/2014,1003,28,Outbound,4200527,4200566,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,2,11,-9
+59,3/1/2014,1006,28,Outbound,4200527,4200566,Blue Hill Ave @ Angell St,1,11,-10
+59,3/1/2014,1013,28,Outbound,4200527,4200566,Blue Hill Ave @ Morton St,0,11,-11
+59,3/1/2014,1015,28,Outbound,4200527,4200566,Blue Hill Ave @ Wellington Hill St,0,11,-11
+59,3/1/2014,1021,28,Outbound,4200527,4200566,Mattapan Station - South Busway,2,11,-9
+60,3/1/2014,992,28,Outbound,4200566,4199603,Ruggles Station - Lane 1,10,11,-1
+60,3/1/2014,995,28,Outbound,4200566,4199603,Malcolm X Blvd @ King St,11,11,0
+60,3/1/2014,1000,28,Outbound,4200566,4199603,Dudley Station,11,11,0
+60,3/1/2014,1002,28,Outbound,4200566,4199603,Warren St @ Dabney Pl,13,11,2
+60,3/1/2014,1006,28,Outbound,4200566,4199603,Warren St @ Townsend St,12,11,1
+60,3/1/2014,1009,28,Outbound,4200566,4199603,Warren St @ Crawford St,13,11,2
+60,3/1/2014,1014,28,Outbound,4200566,4199603,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,13,11,2
+60,3/1/2014,1017,28,Outbound,4200566,4199603,Blue Hill Ave @ Angell St,13,11,2
+60,3/1/2014,1024,28,Outbound,4200566,4199603,Blue Hill Ave @ Morton St,13,11,2
+60,3/1/2014,1026,28,Outbound,4200566,4199603,Blue Hill Ave @ Wellington Hill St,13,11,2
+60,3/1/2014,1032,28,Outbound,4200566,4199603,Mattapan Station - South Busway,11,11,0
+61,3/1/2014,1003,28,Outbound,4199603,4199630,Ruggles Station - Lane 1,0,11,-11
+61,3/1/2014,1006,28,Outbound,4199603,4199630,Malcolm X Blvd @ King St,12,11,1
+61,3/1/2014,1011,28,Outbound,4199603,4199630,Dudley Station,14,11,3
+61,3/1/2014,1013,28,Outbound,4199603,4199630,Warren St @ Dabney Pl,13,11,2
+61,3/1/2014,1017,28,Outbound,4199603,4199630,Warren St @ Townsend St,14,11,3
+61,3/1/2014,1020,28,Outbound,4199603,4199630,Warren St @ Crawford St,15,11,4
+61,3/1/2014,1025,28,Outbound,4199603,4199630,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,15,11,4
+61,3/1/2014,1028,28,Outbound,4199603,4199630,Blue Hill Ave @ Angell St,15,11,4
+61,3/1/2014,1035,28,Outbound,4199603,4199630,Blue Hill Ave @ Morton St,15,11,4
+61,3/1/2014,1037,28,Outbound,4199603,4199630,Blue Hill Ave @ Wellington Hill St,14,11,3
+61,3/1/2014,1043,28,Outbound,4199603,4199630,Mattapan Station - South Busway,14,11,3
+62,3/1/2014,1014,28,Outbound,4199630,4199811,Ruggles Station - Lane 1,20,11,9
+62,3/1/2014,1017,28,Outbound,4199630,4199811,Malcolm X Blvd @ King St,12,11,1
+62,3/1/2014,1022,28,Outbound,4199630,4199811,Dudley Station,9,11,-2
+62,3/1/2014,1024,28,Outbound,4199630,4199811,Warren St @ Dabney Pl,8,11,-3
+62,3/1/2014,1028,28,Outbound,4199630,4199811,Warren St @ Townsend St,8,11,-3
+62,3/1/2014,1031,28,Outbound,4199630,4199811,Warren St @ Crawford St,7,11,-4
+62,3/1/2014,1036,28,Outbound,4199630,4199811,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,9,11,-2
+62,3/1/2014,1039,28,Outbound,4199630,4199811,Blue Hill Ave @ Angell St,9,11,-2
+62,3/1/2014,1046,28,Outbound,4199630,4199811,Blue Hill Ave @ Morton St,8,11,-3
+62,3/1/2014,1048,28,Outbound,4199630,4199811,Blue Hill Ave @ Wellington Hill St,8,11,-3
+62,3/1/2014,1054,28,Outbound,4199630,4199811,Mattapan Station - South Busway,7,11,-4
+63,3/1/2014,1025,28,Outbound,4199811,4199668,Ruggles Station - Lane 1,10,11,-1
+63,3/1/2014,1028,28,Outbound,4199811,4199668,Malcolm X Blvd @ King St,11,11,0
+63,3/1/2014,1033,28,Outbound,4199811,4199668,Dudley Station,11,11,0
+63,3/1/2014,1035,28,Outbound,4199811,4199668,Warren St @ Dabney Pl,10,11,-1
+63,3/1/2014,1039,28,Outbound,4199811,4199668,Warren St @ Townsend St,9,11,-2
+63,3/1/2014,1042,28,Outbound,4199811,4199668,Warren St @ Crawford St,9,11,-2
+63,3/1/2014,1047,28,Outbound,4199811,4199668,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,8,11,-3
+63,3/1/2014,1050,28,Outbound,4199811,4199668,Blue Hill Ave @ Angell St,8,11,-3
+63,3/1/2014,1057,28,Outbound,4199811,4199668,Blue Hill Ave @ Morton St,9,11,-2
+63,3/1/2014,1059,28,Outbound,4199811,4199668,Blue Hill Ave @ Wellington Hill St,9,11,-2
+63,3/1/2014,1065,28,Outbound,4199811,4199668,Mattapan Station - South Busway,18,11,7
+64,3/1/2014,1036,28,Outbound,4199668,4199908,Ruggles Station - Lane 1,12,11,1
+64,3/1/2014,1039,28,Outbound,4199668,4199908,Malcolm X Blvd @ King St,12,11,1
+64,3/1/2014,1044,28,Outbound,4199668,4199908,Dudley Station,13,11,2
+64,3/1/2014,1046,28,Outbound,4199668,4199908,Warren St @ Dabney Pl,15,11,4
+64,3/1/2014,1050,28,Outbound,4199668,4199908,Warren St @ Townsend St,15,11,4
+64,3/1/2014,1053,28,Outbound,4199668,4199908,Warren St @ Crawford St,16,11,5
+64,3/1/2014,1058,28,Outbound,4199668,4199908,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,17,11,6
+64,3/1/2014,1061,28,Outbound,4199668,4199908,Blue Hill Ave @ Angell St,17,11,6
+64,3/1/2014,1068,28,Outbound,4199668,4199908,Blue Hill Ave @ Morton St,15,11,4
+64,3/1/2014,1070,28,Outbound,4199668,4199908,Blue Hill Ave @ Wellington Hill St,16,11,5
+64,3/1/2014,1076,28,Outbound,4199668,4199908,Mattapan Station - South Busway,6,11,-5
+65,3/1/2014,1047,28,Outbound,4199908,4199744,Ruggles Station - Lane 1,10,11,-1
+65,3/1/2014,1050,28,Outbound,4199908,4199744,Malcolm X Blvd @ King St,11,11,0
+65,3/1/2014,1055,28,Outbound,4199908,4199744,Dudley Station,11,11,0
+65,3/1/2014,1057,28,Outbound,4199908,4199744,Warren St @ Dabney Pl,9,11,-2
+65,3/1/2014,1061,28,Outbound,4199908,4199744,Warren St @ Townsend St,12,11,1
+65,3/1/2014,1064,28,Outbound,4199908,4199744,Warren St @ Crawford St,12,11,1
+65,3/1/2014,1069,28,Outbound,4199908,4199744,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,13,11,2
+65,3/1/2014,1072,28,Outbound,4199908,4199744,Blue Hill Ave @ Angell St,13,11,2
+65,3/1/2014,1079,28,Outbound,4199908,4199744,Blue Hill Ave @ Morton St,17,11,6
+65,3/1/2014,1081,28,Outbound,4199908,4199744,Blue Hill Ave @ Wellington Hill St,17,11,6
+65,3/1/2014,1087,28,Outbound,4199908,4199744,Mattapan Station - South Busway,18,11,7
+66,3/1/2014,1058,28,Outbound,4199744,4199776,Ruggles Station - Lane 1,20,11,9
+66,3/1/2014,1061,28,Outbound,4199744,4199776,Malcolm X Blvd @ King St,15,11,4
+66,3/1/2014,1066,28,Outbound,4199744,4199776,Dudley Station,16,11,5
+66,3/1/2014,1068,28,Outbound,4199744,4199776,Warren St @ Dabney Pl,20,11,9
+66,3/1/2014,1072,28,Outbound,4199744,4199776,Warren St @ Townsend St,19,11,8
+66,3/1/2014,1075,28,Outbound,4199744,4199776,Warren St @ Crawford St,19,11,8
+66,3/1/2014,1080,28,Outbound,4199744,4199776,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,15,11,4
+66,3/1/2014,1083,28,Outbound,4199744,4199776,Blue Hill Ave @ Angell St,15,11,4
+66,3/1/2014,1090,28,Outbound,4199744,4199776,Blue Hill Ave @ Morton St,12,11,1
+66,3/1/2014,1092,28,Outbound,4199744,4199776,Blue Hill Ave @ Wellington Hill St,12,11,1
+66,3/1/2014,1098,28,Outbound,4199744,4199776,Mattapan Station - South Busway,10,11,-1
+67,3/1/2014,1069,28,Outbound,4199776,4200426,Ruggles Station - Lane 1,-2,13,-15
+67,3/1/2014,1072,28,Outbound,4199776,4200426,Malcolm X Blvd @ King St,7,13,-6
+67,3/1/2014,1077,28,Outbound,4199776,4200426,Dudley Station,5,13,-8
+67,3/1/2014,1079,28,Outbound,4199776,4200426,Warren St @ Dabney Pl,1,13,-12
+67,3/1/2014,1083,28,Outbound,4199776,4200426,Warren St @ Townsend St,0,13,-13
+67,3/1/2014,1086,28,Outbound,4199776,4200426,Warren St @ Crawford St,-1,13,-14
+67,3/1/2014,1091,28,Outbound,4199776,4200426,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,0,13,-13
+67,3/1/2014,1094,28,Outbound,4199776,4200426,Blue Hill Ave @ Angell St,0,13,-13
+67,3/1/2014,1101,28,Outbound,4199776,4200426,Blue Hill Ave @ Morton St,1,13,-12
+67,3/1/2014,1103,28,Outbound,4199776,4200426,Blue Hill Ave @ Wellington Hill St,1,13,-12
+67,3/1/2014,1109,28,Outbound,4199776,4200426,Mattapan Station - South Busway,2,13,-11
+68,3/1/2014,1082,28,Outbound,4200426,4200529,Ruggles Station - Lane 1,27,13,14
+68,3/1/2014,1085,28,Outbound,4200426,4200529,Malcolm X Blvd @ King St,16,13,3
+68,3/1/2014,1090,28,Outbound,4200426,4200529,Dudley Station,16,13,3
+68,3/1/2014,1092,28,Outbound,4200426,4200529,Warren St @ Dabney Pl,19,13,6
+68,3/1/2014,1096,28,Outbound,4200426,4200529,Warren St @ Townsend St,20,13,7
+68,3/1/2014,1099,28,Outbound,4200426,4200529,Warren St @ Crawford St,20,13,7
+68,3/1/2014,1104,28,Outbound,4200426,4200529,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,22,13,9
+68,3/1/2014,1107,28,Outbound,4200426,4200529,Blue Hill Ave @ Angell St,22,13,9
+68,3/1/2014,1114,28,Outbound,4200426,4200529,Blue Hill Ave @ Morton St,20,13,7
+68,3/1/2014,1116,28,Outbound,4200426,4200529,Blue Hill Ave @ Wellington Hill St,19,13,6
+68,3/1/2014,1122,28,Outbound,4200426,4200529,Mattapan Station - South Busway,20,13,7
+69,3/1/2014,1098,28,Outbound,4200529,4199605,Malcolm X Blvd @ King St,19,13,6
+69,3/1/2014,1103,28,Outbound,4200529,4199605,Dudley Station,20,13,7
+69,3/1/2014,1105,28,Outbound,4200529,4199605,Warren St @ Dabney Pl,18,13,5
+69,3/1/2014,1109,28,Outbound,4200529,4199605,Warren St @ Townsend St,16,13,3
+69,3/1/2014,1112,28,Outbound,4200529,4199605,Warren St @ Crawford St,16,13,3
+69,3/1/2014,1117,28,Outbound,4200529,4199605,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,13,13,0
+69,3/1/2014,1120,28,Outbound,4200529,4199605,Blue Hill Ave @ Angell St,13,13,0
+69,3/1/2014,1127,28,Outbound,4200529,4199605,Blue Hill Ave @ Morton St,13,13,0
+69,3/1/2014,1129,28,Outbound,4200529,4199605,Blue Hill Ave @ Wellington Hill St,15,12,3
+69,3/1/2014,1135,28,Outbound,4200529,4199605,Mattapan Station - South Busway,22,14,8
+70,3/1/2014,1111,28,Outbound,4199605,4199632,Malcolm X Blvd @ King St,11,13,-2
+70,3/1/2014,1116,28,Outbound,4199605,4199632,Dudley Station,10,13,-3
+70,3/1/2014,1118,28,Outbound,4199605,4199632,Warren St @ Dabney Pl,10,13,-3
+70,3/1/2014,1122,28,Outbound,4199605,4199632,Warren St @ Townsend St,10,13,-3
+70,3/1/2014,1125,28,Outbound,4199605,4199632,Warren St @ Crawford St,11,13,-2
+70,3/1/2014,1130,28,Outbound,4199605,4199632,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,10,13,-3
+70,3/1/2014,1133,28,Outbound,4199605,4199632,Blue Hill Ave @ Angell St,10,13,-3
+70,3/1/2014,1140,28,Outbound,4199605,4199632,Blue Hill Ave @ Morton St,11,11,0
+70,3/1/2014,1141,28,Outbound,4199605,4199632,Blue Hill Ave @ Wellington Hill St,9,11,-2
+70,3/1/2014,1149,28,Outbound,4199605,4199632,Mattapan Station - South Busway,0,11,-11
+71,3/1/2014,1121,28,Outbound,4199632,4199670,Ruggles Station - Lane 1,-4,13,-17
+71,3/1/2014,1124,28,Outbound,4199632,4199670,Malcolm X Blvd @ King St,5,13,-8
+71,3/1/2014,1129,28,Outbound,4199632,4199670,Dudley Station,6,12,-6
+71,3/1/2014,1131,28,Outbound,4199632,4199670,Warren St @ Dabney Pl,5,12,-7
+71,3/1/2014,1135,28,Outbound,4199632,4199670,Warren St @ Townsend St,6,12,-6
+71,3/1/2014,1138,28,Outbound,4199632,4199670,Warren St @ Crawford St,5,11,-6
+71,3/1/2014,1143,28,Outbound,4199632,4199670,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,7,11,-4
+71,3/1/2014,1146,28,Outbound,4199632,4199670,Blue Hill Ave @ Angell St,7,11,-4
+71,3/1/2014,1151,28,Outbound,4199632,4199670,Blue Hill Ave @ Morton St,6,11,-5
+71,3/1/2014,1152,28,Outbound,4199632,4199670,Blue Hill Ave @ Wellington Hill St,6,11,-5
+71,3/1/2014,1160,28,Outbound,4199632,4199670,Mattapan Station - South Busway,7,11,-4
+72,3/1/2014,1134,28,Outbound,4199670,4199910,Ruggles Station - Lane 1,26,13,13
+72,3/1/2014,1137,28,Outbound,4199670,4199910,Malcolm X Blvd @ King St,17,13,4
+72,3/1/2014,1141,28,Outbound,4199670,4199910,Dudley Station,17,13,4
+72,3/1/2014,1143,28,Outbound,4199670,4199910,Warren St @ Dabney Pl,16,13,3
+72,3/1/2014,1147,28,Outbound,4199670,4199910,Warren St @ Townsend St,15,13,2
+72,3/1/2014,1149,28,Outbound,4199670,4199910,Warren St @ Crawford St,15,13,2
+72,3/1/2014,1154,28,Outbound,4199670,4199910,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,17,13,4
+72,3/1/2014,1157,28,Outbound,4199670,4199910,Blue Hill Ave @ Angell St,19,13,6
+72,3/1/2014,1162,28,Outbound,4199670,4199910,Blue Hill Ave @ Morton St,20,13,7
+72,3/1/2014,1163,28,Outbound,4199670,4199910,Blue Hill Ave @ Wellington Hill St,20,13,7
+72,3/1/2014,1171,28,Outbound,4199670,4199910,Mattapan Station - South Busway,19,13,6
+73,3/1/2014,1147,28,Outbound,4199910,4199746,Ruggles Station - Lane 1,-4,13,-17
+73,3/1/2014,1150,28,Outbound,4199910,4199746,Malcolm X Blvd @ King St,11,13,-2
+73,3/1/2014,1154,28,Outbound,4199910,4199746,Dudley Station,10,13,-3
+73,3/1/2014,1156,28,Outbound,4199910,4199746,Warren St @ Dabney Pl,10,13,-3
+73,3/1/2014,1160,28,Outbound,4199910,4199746,Warren St @ Townsend St,10,13,-3
+73,3/1/2014,1162,28,Outbound,4199910,4199746,Warren St @ Crawford St,10,13,-3
+73,3/1/2014,1167,28,Outbound,4199910,4199746,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,8,13,-5
+73,3/1/2014,1170,28,Outbound,4199910,4199746,Blue Hill Ave @ Angell St,6,13,-7
+73,3/1/2014,1175,28,Outbound,4199910,4199746,Blue Hill Ave @ Morton St,6,13,-7
+73,3/1/2014,1176,28,Outbound,4199910,4199746,Blue Hill Ave @ Wellington Hill St,6,13,-7
+73,3/1/2014,1184,28,Outbound,4199910,4199746,Mattapan Station - South Busway,6,13,-7
+74,3/1/2014,1160,28,Outbound,4199746,4199859,Ruggles Station - Lane 1,26,13,13
+74,3/1/2014,1163,28,Outbound,4199746,4199859,Malcolm X Blvd @ King St,13,13,0
+74,3/1/2014,1167,28,Outbound,4199746,4199859,Dudley Station,12,13,-1
+74,3/1/2014,1169,28,Outbound,4199746,4199859,Warren St @ Dabney Pl,14,13,1
+74,3/1/2014,1173,28,Outbound,4199746,4199859,Warren St @ Townsend St,13,13,0
+74,3/1/2014,1175,28,Outbound,4199746,4199859,Warren St @ Crawford St,14,13,1
+74,3/1/2014,1180,28,Outbound,4199746,4199859,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,13,13,0
+74,3/1/2014,1183,28,Outbound,4199746,4199859,Blue Hill Ave @ Angell St,13,13,0
+74,3/1/2014,1188,28,Outbound,4199746,4199859,Blue Hill Ave @ Morton St,14,13,1
+74,3/1/2014,1189,28,Outbound,4199746,4199859,Blue Hill Ave @ Wellington Hill St,16,13,3
+74,3/1/2014,1197,28,Outbound,4199746,4199859,Mattapan Station - South Busway,16,13,3
+75,3/1/2014,1173,28,Outbound,4199859,4200428,Ruggles Station - Lane 1,6,13,-7
+75,3/1/2014,1176,28,Outbound,4199859,4200428,Malcolm X Blvd @ King St,11,13,-2
+75,3/1/2014,1180,28,Outbound,4199859,4200428,Dudley Station,13,13,0
+75,3/1/2014,1182,28,Outbound,4199859,4200428,Warren St @ Dabney Pl,12,13,-1
+75,3/1/2014,1186,28,Outbound,4199859,4200428,Warren St @ Townsend St,14,13,1
+75,3/1/2014,1188,28,Outbound,4199859,4200428,Warren St @ Crawford St,14,13,1
+75,3/1/2014,1193,28,Outbound,4199859,4200428,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,15,13,2
+75,3/1/2014,1196,28,Outbound,4199859,4200428,Blue Hill Ave @ Angell St,15,13,2
+75,3/1/2014,1201,28,Outbound,4199859,4200428,Blue Hill Ave @ Morton St,14,13,1
+75,3/1/2014,1202,28,Outbound,4199859,4200428,Blue Hill Ave @ Wellington Hill St,12,13,-1
+75,3/1/2014,1210,28,Outbound,4199859,4200428,Mattapan Station - South Busway,12,13,-1
+76,3/1/2014,1189,28,Outbound,4200428,4200531,Malcolm X Blvd @ King St,18,13,5
+76,3/1/2014,1193,28,Outbound,4200428,4200531,Dudley Station,17,13,4
+76,3/1/2014,1195,28,Outbound,4200428,4200531,Warren St @ Dabney Pl,18,13,5
+76,3/1/2014,1199,28,Outbound,4200428,4200531,Warren St @ Townsend St,17,13,4
+76,3/1/2014,1201,28,Outbound,4200428,4200531,Warren St @ Crawford St,16,13,3
+76,3/1/2014,1206,28,Outbound,4200428,4200531,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,17,13,4
+76,3/1/2014,1209,28,Outbound,4200428,4200531,Blue Hill Ave @ Angell St,17,13,4
+76,3/1/2014,1214,28,Outbound,4200428,4200531,Blue Hill Ave @ Morton St,17,13,4
+76,3/1/2014,1215,28,Outbound,4200428,4200531,Blue Hill Ave @ Wellington Hill St,17,13,4
+76,3/1/2014,1223,28,Outbound,4200428,4200531,Mattapan Station - South Busway,16,11,5
+77,3/1/2014,1202,28,Outbound,4200531,4199931,Malcolm X Blvd @ King St,13,17,-4
+77,3/1/2014,1206,28,Outbound,4200531,4199931,Dudley Station,13,17,-4
+77,3/1/2014,1208,28,Outbound,4200531,4199931,Warren St @ Dabney Pl,11,17,-6
+77,3/1/2014,1212,28,Outbound,4200531,4199931,Warren St @ Townsend St,10,17,-7
+77,3/1/2014,1214,28,Outbound,4200531,4199931,Warren St @ Crawford St,11,18,-7
+77,3/1/2014,1219,28,Outbound,4200531,4199931,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,10,17,-7
+77,3/1/2014,1222,28,Outbound,4200531,4199931,Blue Hill Ave @ Angell St,10,19,-9
+77,3/1/2014,1227,28,Outbound,4200531,4199931,Blue Hill Ave @ Morton St,9,18,-9
+77,3/1/2014,1228,28,Outbound,4200531,4199931,Blue Hill Ave @ Wellington Hill St,11,19,-8
+77,3/1/2014,1234,28,Outbound,4200531,4199931,Mattapan Station - South Busway,12,19,-7
+78,3/1/2014,1216,28,Outbound,4199931,4199961,Ruggles Station - Lane 1,20,17,3
+78,3/1/2014,1219,28,Outbound,4199931,4199961,Malcolm X Blvd @ King St,19,17,2
+78,3/1/2014,1223,28,Outbound,4199931,4199961,Dudley Station,19,16,3
+78,3/1/2014,1225,28,Outbound,4199931,4199961,Warren St @ Dabney Pl,20,17,3
+78,3/1/2014,1229,28,Outbound,4199931,4199961,Warren St @ Townsend St,21,17,4
+78,3/1/2014,1232,28,Outbound,4199931,4199961,Warren St @ Crawford St,20,17,3
+78,3/1/2014,1236,28,Outbound,4199931,4199961,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,22,17,5
+78,3/1/2014,1241,28,Outbound,4199931,4199961,Blue Hill Ave @ Angell St,22,17,5
+78,3/1/2014,1245,28,Outbound,4199931,4199961,Blue Hill Ave @ Morton St,23,17,6
+78,3/1/2014,1247,28,Outbound,4199931,4199961,Blue Hill Ave @ Wellington Hill St,22,17,5
+78,3/1/2014,1253,28,Outbound,4199931,4199961,Mattapan Station - South Busway,22,17,5
+79,3/1/2014,1233,28,Outbound,4199961,4200004,Ruggles Station - Lane 1,24,17,7
+79,3/1/2014,1236,28,Outbound,4199961,4200004,Malcolm X Blvd @ King St,22,17,5
+79,3/1/2014,1239,28,Outbound,4199961,4200004,Dudley Station,22,17,5
+79,3/1/2014,1242,28,Outbound,4199961,4200004,Warren St @ Dabney Pl,25,17,8
+79,3/1/2014,1246,28,Outbound,4199961,4200004,Warren St @ Townsend St,27,17,10
+79,3/1/2014,1249,28,Outbound,4199961,4200004,Warren St @ Crawford St,28,17,11
+79,3/1/2014,1253,28,Outbound,4199961,4200004,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,26,17,9
+79,3/1/2014,1258,28,Outbound,4199961,4200004,Blue Hill Ave @ Angell St,26,17,9
+79,3/1/2014,1262,28,Outbound,4199961,4200004,Blue Hill Ave @ Morton St,25,17,8
+79,3/1/2014,1264,28,Outbound,4199961,4200004,Blue Hill Ave @ Wellington Hill St,25,17,8
+79,3/1/2014,1270,28,Outbound,4199961,4200004,Mattapan Station - South Busway,25,17,8
+80,3/1/2014,1250,28,Outbound,4200004,4199861,Ruggles Station - Lane 1,9,17,-8
+80,3/1/2014,1253,28,Outbound,4200004,4199861,Malcolm X Blvd @ King St,11,17,-6
+80,3/1/2014,1256,28,Outbound,4200004,4199861,Dudley Station,11,17,-6
+80,3/1/2014,1259,28,Outbound,4200004,4199861,Warren St @ Dabney Pl,7,17,-10
+80,3/1/2014,1263,28,Outbound,4200004,4199861,Warren St @ Townsend St,4,17,-13
+80,3/1/2014,1266,28,Outbound,4200004,4199861,Warren St @ Crawford St,4,17,-13
+80,3/1/2014,1270,28,Outbound,4200004,4199861,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,2,17,-15
+80,3/1/2014,1275,28,Outbound,4200004,4199861,Blue Hill Ave @ Angell St,0,17,-17
+80,3/1/2014,1279,28,Outbound,4200004,4199861,Blue Hill Ave @ Morton St,0,17,-17
+80,3/1/2014,1281,28,Outbound,4200004,4199861,Blue Hill Ave @ Wellington Hill St,0,17,-17
+80,3/1/2014,1287,28,Outbound,4200004,4199861,Mattapan Station - South Busway,30,17,13
+81,3/1/2014,1267,28,Outbound,4199861,4200430,Ruggles Station - Lane 1,10,17,-7
+81,3/1/2014,1270,28,Outbound,4199861,4200430,Malcolm X Blvd @ King St,16,17,-1
+81,3/1/2014,1273,28,Outbound,4199861,4200430,Dudley Station,16,17,-1
+81,3/1/2014,1276,28,Outbound,4199861,4200430,Warren St @ Dabney Pl,16,17,-1
+81,3/1/2014,1280,28,Outbound,4199861,4200430,Warren St @ Townsend St,17,17,0
+81,3/1/2014,1283,28,Outbound,4199861,4200430,Warren St @ Crawford St,16,17,-1
+81,3/1/2014,1287,28,Outbound,4199861,4200430,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,18,17,1
+81,3/1/2014,1292,28,Outbound,4199861,4200430,Blue Hill Ave @ Angell St,20,17,3
+81,3/1/2014,1296,28,Outbound,4199861,4200430,Blue Hill Ave @ Morton St,20,17,3
+81,3/1/2014,1298,28,Outbound,4199861,4200430,Blue Hill Ave @ Wellington Hill St,20,17,3
+81,3/1/2014,1304,28,Outbound,4199861,4200430,Mattapan Station - South Busway,-9,17,-26
+82,3/1/2014,1284,28,Outbound,4200430,4200051,Ruggles Station - Lane 1,19,17,2
+82,3/1/2014,1287,28,Outbound,4200430,4200051,Malcolm X Blvd @ King St,22,17,5
+82,3/1/2014,1290,28,Outbound,4200430,4200051,Dudley Station,21,17,4
+82,3/1/2014,1293,28,Outbound,4200430,4200051,Warren St @ Dabney Pl,26,17,9
+82,3/1/2014,1297,28,Outbound,4200430,4200051,Warren St @ Townsend St,26,17,9
+82,3/1/2014,1300,28,Outbound,4200430,4200051,Warren St @ Crawford St,27,17,10
+82,3/1/2014,1304,28,Outbound,4200430,4200051,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,28,17,11
+82,3/1/2014,1309,28,Outbound,4200430,4200051,Blue Hill Ave @ Angell St,27,16,11
+82,3/1/2014,1313,28,Outbound,4200430,4200051,Blue Hill Ave @ Morton St,29,16,13
+82,3/1/2014,1315,28,Outbound,4200430,4200051,Blue Hill Ave @ Wellington Hill St,29,14,15
+82,3/1/2014,1321,28,Outbound,4200430,4200051,Mattapan Station - South Busway,28,14,14
+83,3/1/2014,1301,28,Outbound,4200051,4199933,Ruggles Station - Lane 1,20,17,3
+83,3/1/2014,1304,28,Outbound,4200051,4199933,Malcolm X Blvd @ King St,15,17,-2
+83,3/1/2014,1307,28,Outbound,4200051,4199933,Dudley Station,16,17,-1
+83,3/1/2014,1310,28,Outbound,4200051,4199933,Warren St @ Dabney Pl,12,16,-4
+83,3/1/2014,1314,28,Outbound,4200051,4199933,Warren St @ Townsend St,14,16,-2
+83,3/1/2014,1317,28,Outbound,4200051,4199933,Warren St @ Crawford St,12,16,-4
+83,3/1/2014,1321,28,Outbound,4200051,4199933,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,10,15,-5
+83,3/1/2014,1325,28,Outbound,4200051,4199933,Blue Hill Ave @ Angell St,10,15,-5
+83,3/1/2014,1329,28,Outbound,4200051,4199933,Blue Hill Ave @ Morton St,7,15,-8
+83,3/1/2014,1329,28,Outbound,4200051,4199933,Blue Hill Ave @ Wellington Hill St,7,15,-8
+83,3/1/2014,1335,28,Outbound,4200051,4199933,Mattapan Station - South Busway,12,15,-3
+84,3/1/2014,1318,28,Outbound,4199933,4199963,Ruggles Station - Lane 1,15,17,-2
+84,3/1/2014,1321,28,Outbound,4199933,4199963,Malcolm X Blvd @ King St,13,17,-4
+84,3/1/2014,1324,28,Outbound,4199933,4199963,Dudley Station,13,17,-4
+84,3/1/2014,1326,28,Outbound,4199933,4199963,Warren St @ Dabney Pl,12,17,-5
+84,3/1/2014,1330,28,Outbound,4199933,4199963,Warren St @ Townsend St,10,17,-7
+84,3/1/2014,1333,28,Outbound,4199933,4199963,Warren St @ Crawford St,12,17,-5
+84,3/1/2014,1336,28,Outbound,4199933,4199963,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,12,17,-5
+84,3/1/2014,1340,28,Outbound,4199933,4199963,Blue Hill Ave @ Angell St,13,17,-4
+84,3/1/2014,1344,28,Outbound,4199933,4199963,Blue Hill Ave @ Morton St,17,17,0
+84,3/1/2014,1344,28,Outbound,4199933,4199963,Blue Hill Ave @ Wellington Hill St,17,17,0
+84,3/1/2014,1350,28,Outbound,4199933,4199963,Mattapan Station - South Busway,19,17,2
+85,3/1/2014,1335,28,Outbound,4199963,4200006,Ruggles Station - Lane 1,22,17,5
+85,3/1/2014,1338,28,Outbound,4199963,4200006,Malcolm X Blvd @ King St,18,17,1
+85,3/1/2014,1341,28,Outbound,4199963,4200006,Dudley Station,18,17,1
+85,3/1/2014,1343,28,Outbound,4199963,4200006,Warren St @ Dabney Pl,18,17,1
+85,3/1/2014,1347,28,Outbound,4199963,4200006,Warren St @ Townsend St,18,17,1
+85,3/1/2014,1350,28,Outbound,4199963,4200006,Warren St @ Crawford St,17,17,0
+85,3/1/2014,1353,28,Outbound,4199963,4200006,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,18,17,1
+85,3/1/2014,1357,28,Outbound,4199963,4200006,Blue Hill Ave @ Angell St,18,17,1
+85,3/1/2014,1361,28,Outbound,4199963,4200006,Blue Hill Ave @ Morton St,15,17,-2
+85,3/1/2014,1361,28,Outbound,4199963,4200006,Blue Hill Ave @ Wellington Hill St,14,17,-3
+85,3/1/2014,1367,28,Outbound,4199963,4200006,Mattapan Station - South Busway,17,17,0
+86,3/1/2014,1352,28,Outbound,4200006,4200081,Ruggles Station - Lane 1,9,17,-8
+86,3/1/2014,1355,28,Outbound,4200006,4200081,Malcolm X Blvd @ King St,18,17,1
+86,3/1/2014,1358,28,Outbound,4200006,4200081,Dudley Station,19,17,2
+86,3/1/2014,1360,28,Outbound,4200006,4200081,Warren St @ Dabney Pl,22,17,5
+86,3/1/2014,1364,28,Outbound,4200006,4200081,Warren St @ Townsend St,22,17,5
+86,3/1/2014,1367,28,Outbound,4200006,4200081,Warren St @ Crawford St,23,17,6
+86,3/1/2014,1370,28,Outbound,4200006,4200081,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,24,17,7
+86,3/1/2014,1374,28,Outbound,4200006,4200081,Blue Hill Ave @ Angell St,24,17,7
+86,3/1/2014,1378,28,Outbound,4200006,4200081,Blue Hill Ave @ Morton St,24,17,7
+86,3/1/2014,1378,28,Outbound,4200006,4200081,Blue Hill Ave @ Wellington Hill St,25,17,8
+86,3/1/2014,1384,28,Outbound,4200006,4200081,Mattapan Station - South Busway,14,17,-3
+87,3/1/2014,1369,28,Outbound,4200081,4200053,Ruggles Station - Lane 1,24,17,7
+87,3/1/2014,1372,28,Outbound,4200081,4200053,Malcolm X Blvd @ King St,16,17,-1
+87,3/1/2014,1375,28,Outbound,4200081,4200053,Dudley Station,15,17,-2
+87,3/1/2014,1377,28,Outbound,4200081,4200053,Warren St @ Dabney Pl,12,17,-5
+87,3/1/2014,1381,28,Outbound,4200081,4200053,Warren St @ Townsend St,12,17,-5
+87,3/1/2014,1384,28,Outbound,4200081,4200053,Warren St @ Crawford St,11,17,-6
+87,3/1/2014,1387,28,Outbound,4200081,4200053,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,11,17,-6
+87,3/1/2014,1391,28,Outbound,4200081,4200053,Blue Hill Ave @ Angell St,11,17,-6
+87,3/1/2014,1395,28,Outbound,4200081,4200053,Blue Hill Ave @ Morton St,11,18,-7
+87,3/1/2014,1395,28,Outbound,4200081,4200053,Blue Hill Ave @ Wellington Hill St,10,19,-9
+87,3/1/2014,1401,28,Outbound,4200081,4200053,Mattapan Station - South Busway,10,18,-8
+88,3/1/2014,1386,28,Outbound,4200053,4199935,Ruggles Station - Lane 1,9,17,-8
+88,3/1/2014,1389,28,Outbound,4200053,4199935,Malcolm X Blvd @ King St,19,17,2
+88,3/1/2014,1392,28,Outbound,4200053,4199935,Dudley Station,20,17,3
+88,3/1/2014,1394,28,Outbound,4200053,4199935,Warren St @ Dabney Pl,21,16,5
+88,3/1/2014,1398,28,Outbound,4200053,4199935,Warren St @ Townsend St,21,16,5
+88,3/1/2014,1401,28,Outbound,4200053,4199935,Warren St @ Crawford St,21,15,6
+88,3/1/2014,1404,28,Outbound,4200053,4199935,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,20,16,4
+88,3/1/2014,1408,28,Outbound,4200053,4199935,Blue Hill Ave @ Angell St,19,14,5
+88,3/1/2014,1413,28,Outbound,4200053,4199935,Blue Hill Ave @ Morton St,20,14,6
+88,3/1/2014,1414,28,Outbound,4200053,4199935,Blue Hill Ave @ Wellington Hill St,21,14,7
+88,3/1/2014,1419,28,Outbound,4200053,4199935,Mattapan Station - South Busway,20,14,6
+89,3/1/2014,1403,28,Outbound,4199935,4199965,Ruggles Station - Lane 1,14,17,-3
+89,3/1/2014,1406,28,Outbound,4199935,4199965,Malcolm X Blvd @ King St,12,16,-4
+89,3/1/2014,1409,28,Outbound,4199935,4199965,Dudley Station,11,17,-6
+89,3/1/2014,1410,28,Outbound,4199935,4199965,Warren St @ Dabney Pl,11,17,-6
+89,3/1/2014,1414,28,Outbound,4199935,4199965,Warren St @ Townsend St,10,17,-7
+89,3/1/2014,1416,28,Outbound,4199935,4199965,Warren St @ Crawford St,10,17,-7
+89,3/1/2014,1420,28,Outbound,4199935,4199965,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,9,17,-8
+89,3/1/2014,1422,28,Outbound,4199935,4199965,Blue Hill Ave @ Angell St,9,17,-8
+89,3/1/2014,1427,28,Outbound,4199935,4199965,Blue Hill Ave @ Morton St,8,17,-9
+89,3/1/2014,1428,28,Outbound,4199935,4199965,Blue Hill Ave @ Wellington Hill St,7,17,-10
+89,3/1/2014,1433,28,Outbound,4199935,4199965,Mattapan Station - South Busway,8,17,-9
+90,3/1/2014,1420,28,Outbound,4199965,4200008,Ruggles Station - Lane 1,21,17,4
+90,3/1/2014,1422,28,Outbound,4199965,4200008,Malcolm X Blvd @ King St,23,17,6
+90,3/1/2014,1426,28,Outbound,4199965,4200008,Dudley Station,23,17,6
+90,3/1/2014,1427,28,Outbound,4199965,4200008,Warren St @ Dabney Pl,21,17,4
+90,3/1/2014,1431,28,Outbound,4199965,4200008,Warren St @ Townsend St,22,17,5
+90,3/1/2014,1433,28,Outbound,4199965,4200008,Warren St @ Crawford St,24,17,7
+90,3/1/2014,1437,28,Outbound,4199965,4200008,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,23,17,6
+90,3/1/2014,1439,28,Outbound,4199965,4200008,Blue Hill Ave @ Angell St,24,17,7
+90,3/1/2014,1444,28,Outbound,4199965,4200008,Blue Hill Ave @ Morton St,24,17,7
+90,3/1/2014,1445,28,Outbound,4199965,4200008,Blue Hill Ave @ Wellington Hill St,24,17,7
+90,3/1/2014,1450,28,Outbound,4199965,4200008,Mattapan Station - South Busway,24,17,7
+91,3/1/2014,1437,28,Outbound,4200008,4200083,Ruggles Station - Lane 1,26,17,9
+91,3/1/2014,1439,28,Outbound,4200008,4200083,Malcolm X Blvd @ King St,17,17,0
+91,3/1/2014,1443,28,Outbound,4200008,4200083,Dudley Station,17,17,0
+91,3/1/2014,1444,28,Outbound,4200008,4200083,Warren St @ Dabney Pl,18,17,1
+91,3/1/2014,1448,28,Outbound,4200008,4200083,Warren St @ Townsend St,17,17,0
+91,3/1/2014,1450,28,Outbound,4200008,4200083,Warren St @ Crawford St,15,17,-2
+91,3/1/2014,1454,28,Outbound,4200008,4200083,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,15,17,-2
+91,3/1/2014,1456,28,Outbound,4200008,4200083,Blue Hill Ave @ Angell St,15,17,-2
+91,3/1/2014,1461,28,Outbound,4200008,4200083,Blue Hill Ave @ Morton St,15,17,-2
+91,3/1/2014,1462,28,Outbound,4200008,4200083,Blue Hill Ave @ Wellington Hill St,16,17,-1
+91,3/1/2014,1467,28,Outbound,4200008,4200083,Mattapan Station - South Busway,16,17,-1
+92,3/1/2014,1454,28,Outbound,4200083,4200055,Ruggles Station - Lane 1,14,17,-3
+92,3/1/2014,1456,28,Outbound,4200083,4200055,Malcolm X Blvd @ King St,14,17,-3
+92,3/1/2014,1460,28,Outbound,4200083,4200055,Dudley Station,15,17,-2
+92,3/1/2014,1461,28,Outbound,4200083,4200055,Warren St @ Dabney Pl,15,17,-2
+92,3/1/2014,1465,28,Outbound,4200083,4200055,Warren St @ Townsend St,14,17,-3
+92,3/1/2014,1467,28,Outbound,4200083,4200055,Warren St @ Crawford St,14,17,-3
+92,3/1/2014,1471,28,Outbound,4200083,4200055,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,15,17,-2
+92,3/1/2014,1473,28,Outbound,4200083,4200055,Blue Hill Ave @ Angell St,15,17,-2
+92,3/1/2014,1478,28,Outbound,4200083,4200055,Blue Hill Ave @ Morton St,16,17,-1
+92,3/1/2014,1479,28,Outbound,4200083,4200055,Blue Hill Ave @ Wellington Hill St,15,17,-2
+92,3/1/2014,1484,28,Outbound,4200083,4200055,Mattapan Station - South Busway,16,17,-1
+93,3/1/2014,1471,28,Outbound,4200055,4199937,Ruggles Station - Lane 1,17,16,1
+93,3/1/2014,1473,28,Outbound,4200055,4199937,Malcolm X Blvd @ King St,19,16,3
+93,3/1/2014,1477,28,Outbound,4200055,4199937,Dudley Station,18,16,2
+93,3/1/2014,1478,28,Outbound,4200055,4199937,Warren St @ Dabney Pl,18,16,2
+93,3/1/2014,1482,28,Outbound,4200055,4199937,Warren St @ Townsend St,20,16,4
+93,3/1/2014,1484,28,Outbound,4200055,4199937,Warren St @ Crawford St,20,16,4
+93,3/1/2014,1488,28,Outbound,4200055,4199937,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,20,16,4
+93,3/1/2014,1490,28,Outbound,4200055,4199937,Blue Hill Ave @ Angell St,18,16,2
+93,3/1/2014,1495,28,Outbound,4200055,4199937,Blue Hill Ave @ Morton St,17,16,1
+93,3/1/2014,1496,28,Outbound,4200055,4199937,Blue Hill Ave @ Wellington Hill St,17,16,1
+93,3/1/2014,1501,28,Outbound,4200055,4199937,Mattapan Station - South Busway,16,16,0
+94,3/1/2014,1487,28,Outbound,4199937,4199967,Ruggles Station - Lane 1,12,13,-1
+94,3/1/2014,1489,28,Outbound,4199937,4199967,Malcolm X Blvd @ King St,35,13,22
+94,3/1/2014,1493,28,Outbound,4199937,4199967,Dudley Station,34,13,21
+94,3/1/2014,1494,28,Outbound,4199937,4199967,Warren St @ Dabney Pl,34,13,21
+94,3/1/2014,1498,28,Outbound,4199937,4199967,Warren St @ Townsend St,32,13,19
+94,3/1/2014,1500,28,Outbound,4199937,4199967,Warren St @ Crawford St,32,13,19
+94,3/1/2014,1504,28,Outbound,4199937,4199967,Blue Hill Ave opp Columbia Rd - Franklin Park Zoo,32,13,19
+94,3/1/2014,1506,28,Outbound,4199937,4199967,Blue Hill Ave @ Angell St,32,13,19
+94,3/1/2014,1511,28,Outbound,4199937,4199967,Blue Hill Ave @ Morton St,32,13,19
+94,3/1/2014,1512,28,Outbound,4199937,4199967,Blue Hill Ave @ Wellington Hill St,33,13,20

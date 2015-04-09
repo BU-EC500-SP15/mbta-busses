@@ -1,0 +1,813 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,305,77,Inbound,4220255,4224287,Massachusetts Ave @ Upland Rd,-10,-12,2
+1,3/1/2014,308,77,Inbound,4220255,4224287,Massachusetts Ave @ Waterhouse St,-10,-12,2
+2,3/1/2014,293,77,Inbound,4224287,4220305,Massachusetts Ave @ Upland Rd,22,24,-2
+2,3/1/2014,296,77,Inbound,4224287,4220305,Massachusetts Ave @ Waterhouse St,21,24,-3
+3,3/1/2014,300,77,Inbound,4220305,4217380,Arlington Heights Busway,-4,12,-16
+3,3/1/2014,302,77,Inbound,4220305,4217380,Massachusetts Ave @ Appleton St,11,12,-1
+3,3/1/2014,307,77,Inbound,4220305,4217380,Massachusetts Ave @ Academy St,12,12,0
+3,3/1/2014,309,77,Inbound,4220305,4217380,Massachusetts Ave @ Lake St,11,12,-1
+3,3/1/2014,311,77,Inbound,4220305,4217380,Massachusetts Ave @ Lafayette St,11,12,-1
+3,3/1/2014,314,77,Inbound,4220305,4217380,Massachusetts Ave @ Norris St,11,12,-1
+3,3/1/2014,317,77,Inbound,4220305,4217380,Massachusetts Ave @ Upland Rd,11,12,-1
+3,3/1/2014,320,77,Inbound,4220305,4217380,Massachusetts Ave @ Waterhouse St,12,12,0
+3,3/1/2014,321,77,Inbound,4220305,4217380,Eliot St @ Bennett St,11,12,-1
+4,3/1/2014,329,77,Inbound,4217380,4224595,Massachusetts Ave @ Upland Rd,-11,-16,5
+4,3/1/2014,332,77,Inbound,4217380,4224595,Massachusetts Ave @ Waterhouse St,-12,-16,4
+5,3/1/2014,313,77,Inbound,4224595,4220519,Massachusetts Ave @ Upland Rd,24,28,-4
+5,3/1/2014,316,77,Inbound,4224595,4220519,Massachusetts Ave @ Waterhouse St,25,28,-3
+6,3/1/2014,324,77,Inbound,4220519,4220637,Arlington Heights Busway,3,12,-9
+6,3/1/2014,326,77,Inbound,4220519,4220637,Massachusetts Ave @ Appleton St,12,12,0
+6,3/1/2014,331,77,Inbound,4220519,4220637,Massachusetts Ave @ Academy St,12,12,0
+6,3/1/2014,333,77,Inbound,4220519,4220637,Massachusetts Ave @ Lake St,11,12,-1
+6,3/1/2014,335,77,Inbound,4220519,4220637,Massachusetts Ave @ Lafayette St,10,12,-2
+6,3/1/2014,338,77,Inbound,4220519,4220637,Massachusetts Ave @ Norris St,10,12,-2
+6,3/1/2014,341,77,Inbound,4220519,4220637,Massachusetts Ave @ Upland Rd,11,12,-1
+6,3/1/2014,344,77,Inbound,4220519,4220637,Massachusetts Ave @ Waterhouse St,11,12,-1
+6,3/1/2014,345,77,Inbound,4220519,4220637,Eliot St @ Bennett St,11,12,-1
+7,3/1/2014,336,77,Inbound,4220637,4220257,Arlington Heights Busway,5,12,-7
+7,3/1/2014,338,77,Inbound,4220637,4220257,Massachusetts Ave @ Appleton St,15,12,3
+7,3/1/2014,343,77,Inbound,4220637,4220257,Massachusetts Ave @ Academy St,15,12,3
+7,3/1/2014,345,77,Inbound,4220637,4220257,Massachusetts Ave @ Lake St,15,12,3
+7,3/1/2014,347,77,Inbound,4220637,4220257,Massachusetts Ave @ Lafayette St,15,12,3
+7,3/1/2014,350,77,Inbound,4220637,4220257,Massachusetts Ave @ Norris St,15,12,3
+7,3/1/2014,353,77,Inbound,4220637,4220257,Massachusetts Ave @ Upland Rd,15,12,3
+7,3/1/2014,356,77,Inbound,4220637,4220257,Massachusetts Ave @ Waterhouse St,17,12,5
+7,3/1/2014,357,77,Inbound,4220637,4220257,Eliot St @ Bennett St,15,12,3
+8,3/1/2014,350,77,Inbound,4220257,4220307,Massachusetts Ave @ Appleton St,9,12,-3
+8,3/1/2014,355,77,Inbound,4220257,4220307,Massachusetts Ave @ Academy St,10,12,-2
+8,3/1/2014,357,77,Inbound,4220257,4220307,Massachusetts Ave @ Lake St,11,12,-1
+8,3/1/2014,359,77,Inbound,4220257,4220307,Massachusetts Ave @ Lafayette St,10,12,-2
+8,3/1/2014,362,77,Inbound,4220257,4220307,Massachusetts Ave @ Norris St,11,12,-1
+8,3/1/2014,365,77,Inbound,4220257,4220307,Massachusetts Ave @ Upland Rd,10,12,-2
+8,3/1/2014,368,77,Inbound,4220257,4220307,Massachusetts Ave @ Waterhouse St,9,12,-3
+8,3/1/2014,369,77,Inbound,4220257,4220307,Eliot St @ Bennett St,10,12,-2
+9,3/1/2014,362,77,Inbound,4220307,4217382,Massachusetts Ave @ Appleton St,12,12,0
+9,3/1/2014,367,77,Inbound,4220307,4217382,Massachusetts Ave @ Academy St,11,12,-1
+9,3/1/2014,369,77,Inbound,4220307,4217382,Massachusetts Ave @ Lake St,11,12,-1
+9,3/1/2014,371,77,Inbound,4220307,4217382,Massachusetts Ave @ Lafayette St,12,12,0
+9,3/1/2014,374,77,Inbound,4220307,4217382,Massachusetts Ave @ Norris St,11,12,-1
+9,3/1/2014,377,77,Inbound,4220307,4217382,Massachusetts Ave @ Upland Rd,12,12,0
+9,3/1/2014,380,77,Inbound,4220307,4217382,Massachusetts Ave @ Waterhouse St,12,12,0
+9,3/1/2014,381,77,Inbound,4220307,4217382,Eliot St @ Bennett St,13,12,1
+10,3/1/2014,372,77,Inbound,4217382,4220521,Arlington Heights Busway,17,12,5
+10,3/1/2014,374,77,Inbound,4217382,4220521,Massachusetts Ave @ Appleton St,12,12,0
+10,3/1/2014,379,77,Inbound,4217382,4220521,Massachusetts Ave @ Academy St,12,12,0
+10,3/1/2014,381,77,Inbound,4217382,4220521,Massachusetts Ave @ Lake St,11,12,-1
+10,3/1/2014,383,77,Inbound,4217382,4220521,Massachusetts Ave @ Lafayette St,11,12,-1
+10,3/1/2014,386,77,Inbound,4217382,4220521,Massachusetts Ave @ Norris St,13,12,1
+10,3/1/2014,389,77,Inbound,4217382,4220521,Massachusetts Ave @ Upland Rd,12,12,0
+10,3/1/2014,392,77,Inbound,4217382,4220521,Massachusetts Ave @ Waterhouse St,11,12,-1
+10,3/1/2014,393,77,Inbound,4217382,4220521,Eliot St @ Bennett St,11,12,-1
+11,3/1/2014,384,77,Inbound,4220521,4220639,Arlington Heights Busway,8,12,-4
+11,3/1/2014,386,77,Inbound,4220521,4220639,Massachusetts Ave @ Appleton St,12,12,0
+11,3/1/2014,391,77,Inbound,4220521,4220639,Massachusetts Ave @ Academy St,12,12,0
+11,3/1/2014,393,77,Inbound,4220521,4220639,Massachusetts Ave @ Lake St,13,12,1
+11,3/1/2014,395,77,Inbound,4220521,4220639,Massachusetts Ave @ Lafayette St,13,12,1
+11,3/1/2014,398,77,Inbound,4220521,4220639,Massachusetts Ave @ Norris St,11,12,-1
+11,3/1/2014,401,77,Inbound,4220521,4220639,Massachusetts Ave @ Upland Rd,13,12,1
+11,3/1/2014,404,77,Inbound,4220521,4220639,Massachusetts Ave @ Waterhouse St,13,12,1
+11,3/1/2014,405,77,Inbound,4220521,4220639,Eliot St @ Bennett St,21,12,9
+12,3/1/2014,413,77,Inbound,4220639,4224745,Massachusetts Ave @ Upland Rd,11,-8,19
+12,3/1/2014,416,77,Inbound,4220639,4224745,Massachusetts Ave @ Waterhouse St,11,-8,19
+13,3/1/2014,405,77,Inbound,4224745,4220259,Massachusetts Ave @ Upland Rd,6,21,-15
+13,3/1/2014,408,77,Inbound,4224745,4220259,Massachusetts Ave @ Waterhouse St,6,22,-16
+14,3/1/2014,410,77,Inbound,4220259,4220309,Massachusetts Ave @ Appleton St,12,13,-1
+14,3/1/2014,415,77,Inbound,4220259,4220309,Massachusetts Ave @ Academy St,11,14,-3
+14,3/1/2014,417,77,Inbound,4220259,4220309,Massachusetts Ave @ Lake St,9,14,-5
+14,3/1/2014,419,77,Inbound,4220259,4220309,Massachusetts Ave @ Lafayette St,8,14,-6
+14,3/1/2014,422,77,Inbound,4220259,4220309,Massachusetts Ave @ Norris St,7,14,-7
+14,3/1/2014,426,77,Inbound,4220259,4220309,Massachusetts Ave @ Upland Rd,8,14,-6
+14,3/1/2014,430,77,Inbound,4220259,4220309,Massachusetts Ave @ Waterhouse St,10,14,-4
+14,3/1/2014,432,77,Inbound,4220259,4220309,Eliot St @ Bennett St,10,14,-4
+15,3/1/2014,423,77,Inbound,4220309,4217384,Massachusetts Ave @ Appleton St,12,12,0
+15,3/1/2014,429,77,Inbound,4220309,4217384,Massachusetts Ave @ Academy St,14,12,2
+15,3/1/2014,431,77,Inbound,4220309,4217384,Massachusetts Ave @ Lake St,14,12,2
+15,3/1/2014,433,77,Inbound,4220309,4217384,Massachusetts Ave @ Lafayette St,15,12,3
+15,3/1/2014,436,77,Inbound,4220309,4217384,Massachusetts Ave @ Norris St,14,12,2
+15,3/1/2014,440,77,Inbound,4220309,4217384,Massachusetts Ave @ Upland Rd,14,12,2
+15,3/1/2014,444,77,Inbound,4220309,4217384,Massachusetts Ave @ Waterhouse St,14,12,2
+15,3/1/2014,446,77,Inbound,4220309,4217384,Eliot St @ Bennett St,14,12,2
+16,3/1/2014,432,77,Inbound,4217384,4220523,Arlington Heights Busway,15,12,3
+16,3/1/2014,435,77,Inbound,4217384,4220523,Massachusetts Ave @ Appleton St,13,12,1
+16,3/1/2014,441,77,Inbound,4217384,4220523,Massachusetts Ave @ Academy St,11,12,-1
+16,3/1/2014,443,77,Inbound,4217384,4220523,Massachusetts Ave @ Lake St,11,12,-1
+16,3/1/2014,445,77,Inbound,4217384,4220523,Massachusetts Ave @ Lafayette St,11,12,-1
+16,3/1/2014,448,77,Inbound,4217384,4220523,Massachusetts Ave @ Norris St,12,12,0
+16,3/1/2014,452,77,Inbound,4217384,4220523,Massachusetts Ave @ Upland Rd,12,12,0
+16,3/1/2014,456,77,Inbound,4217384,4220523,Massachusetts Ave @ Waterhouse St,11,12,-1
+16,3/1/2014,458,77,Inbound,4217384,4220523,Eliot St @ Bennett St,11,12,-1
+17,3/1/2014,444,77,Inbound,4220523,4220261,Arlington Heights Busway,24,24,0
+17,3/1/2014,447,77,Inbound,4220523,4220261,Massachusetts Ave @ Appleton St,22,24,-2
+17,3/1/2014,453,77,Inbound,4220523,4220261,Massachusetts Ave @ Academy St,23,24,-1
+17,3/1/2014,455,77,Inbound,4220523,4220261,Massachusetts Ave @ Lake St,25,24,1
+17,3/1/2014,457,77,Inbound,4220523,4220261,Massachusetts Ave @ Lafayette St,24,24,0
+17,3/1/2014,460,77,Inbound,4220523,4220261,Massachusetts Ave @ Norris St,25,24,1
+17,3/1/2014,464,77,Inbound,4220523,4220261,Massachusetts Ave @ Upland Rd,25,24,1
+17,3/1/2014,468,77,Inbound,4220523,4220261,Massachusetts Ave @ Waterhouse St,24,24,0
+17,3/1/2014,470,77,Inbound,4220523,4220261,Eliot St @ Bennett St,24,24,0
+18,3/1/2014,468,77,Inbound,4220261,4220311,Arlington Heights Busway,18,12,6
+18,3/1/2014,471,77,Inbound,4220261,4220311,Massachusetts Ave @ Appleton St,14,12,2
+18,3/1/2014,477,77,Inbound,4220261,4220311,Massachusetts Ave @ Academy St,14,12,2
+18,3/1/2014,479,77,Inbound,4220261,4220311,Massachusetts Ave @ Lake St,13,12,1
+18,3/1/2014,481,77,Inbound,4220261,4220311,Massachusetts Ave @ Lafayette St,14,12,2
+18,3/1/2014,484,77,Inbound,4220261,4220311,Massachusetts Ave @ Norris St,14,12,2
+18,3/1/2014,488,77,Inbound,4220261,4220311,Massachusetts Ave @ Upland Rd,14,12,2
+18,3/1/2014,492,77,Inbound,4220261,4220311,Massachusetts Ave @ Waterhouse St,14,12,2
+18,3/1/2014,494,77,Inbound,4220261,4220311,Eliot St @ Bennett St,14,12,2
+19,3/1/2014,480,77,Inbound,4220311,4217386,Arlington Heights Busway,7,12,-5
+19,3/1/2014,483,77,Inbound,4220311,4217386,Massachusetts Ave @ Appleton St,12,12,0
+19,3/1/2014,489,77,Inbound,4220311,4217386,Massachusetts Ave @ Academy St,12,12,0
+19,3/1/2014,491,77,Inbound,4220311,4217386,Massachusetts Ave @ Lake St,13,12,1
+19,3/1/2014,493,77,Inbound,4220311,4217386,Massachusetts Ave @ Lafayette St,13,12,1
+19,3/1/2014,496,77,Inbound,4220311,4217386,Massachusetts Ave @ Norris St,12,12,0
+19,3/1/2014,500,77,Inbound,4220311,4217386,Massachusetts Ave @ Upland Rd,12,11,1
+19,3/1/2014,504,77,Inbound,4220311,4217386,Massachusetts Ave @ Waterhouse St,12,12,0
+19,3/1/2014,506,77,Inbound,4220311,4217386,Eliot St @ Bennett St,12,12,0
+20,3/1/2014,492,77,Inbound,4217386,4220525,Arlington Heights Busway,15,12,3
+20,3/1/2014,495,77,Inbound,4217386,4220525,Massachusetts Ave @ Appleton St,11,12,-1
+20,3/1/2014,501,77,Inbound,4217386,4220525,Massachusetts Ave @ Academy St,11,13,-2
+20,3/1/2014,503,77,Inbound,4217386,4220525,Massachusetts Ave @ Lake St,10,14,-4
+20,3/1/2014,505,77,Inbound,4217386,4220525,Massachusetts Ave @ Lafayette St,11,15,-4
+20,3/1/2014,508,77,Inbound,4217386,4220525,Massachusetts Ave @ Norris St,11,15,-4
+20,3/1/2014,511,77,Inbound,4217386,4220525,Massachusetts Ave @ Upland Rd,12,15,-3
+20,3/1/2014,516,77,Inbound,4217386,4220525,Massachusetts Ave @ Waterhouse St,13,15,-2
+20,3/1/2014,518,77,Inbound,4217386,4220525,Eliot St @ Bennett St,13,15,-2
+21,3/1/2014,504,77,Inbound,4220525,4220643,Arlington Heights Busway,11,10,1
+21,3/1/2014,507,77,Inbound,4220525,4220643,Massachusetts Ave @ Appleton St,12,10,2
+21,3/1/2014,514,77,Inbound,4220525,4220643,Massachusetts Ave @ Academy St,13,10,3
+21,3/1/2014,517,77,Inbound,4220525,4220643,Massachusetts Ave @ Lake St,14,10,4
+21,3/1/2014,520,77,Inbound,4220525,4220643,Massachusetts Ave @ Lafayette St,13,10,3
+21,3/1/2014,523,77,Inbound,4220525,4220643,Massachusetts Ave @ Norris St,14,10,4
+21,3/1/2014,526,77,Inbound,4220525,4220643,Massachusetts Ave @ Upland Rd,13,10,3
+21,3/1/2014,531,77,Inbound,4220525,4220643,Massachusetts Ave @ Waterhouse St,14,10,4
+21,3/1/2014,533,77,Inbound,4220525,4220643,Eliot St @ Bennett St,14,10,4
+22,3/1/2014,514,77,Inbound,4220643,4220616,Arlington Heights Busway,18,10,8
+22,3/1/2014,517,77,Inbound,4220643,4220616,Massachusetts Ave @ Appleton St,11,10,1
+22,3/1/2014,524,77,Inbound,4220643,4220616,Massachusetts Ave @ Academy St,11,10,1
+22,3/1/2014,527,77,Inbound,4220643,4220616,Massachusetts Ave @ Lake St,10,10,0
+22,3/1/2014,530,77,Inbound,4220643,4220616,Massachusetts Ave @ Lafayette St,10,10,0
+22,3/1/2014,533,77,Inbound,4220643,4220616,Massachusetts Ave @ Norris St,9,10,-1
+22,3/1/2014,536,77,Inbound,4220643,4220616,Massachusetts Ave @ Upland Rd,9,10,-1
+22,3/1/2014,541,77,Inbound,4220643,4220616,Massachusetts Ave @ Waterhouse St,7,10,-3
+22,3/1/2014,543,77,Inbound,4220643,4220616,Eliot St @ Bennett St,7,10,-3
+23,3/1/2014,524,77,Inbound,4220616,4220263,Arlington Heights Busway,-5,10,-15
+23,3/1/2014,527,77,Inbound,4220616,4220263,Massachusetts Ave @ Appleton St,5,10,-5
+23,3/1/2014,534,77,Inbound,4220616,4220263,Massachusetts Ave @ Academy St,3,10,-7
+23,3/1/2014,537,77,Inbound,4220616,4220263,Massachusetts Ave @ Lake St,2,10,-8
+23,3/1/2014,540,77,Inbound,4220616,4220263,Massachusetts Ave @ Lafayette St,1,10,-9
+23,3/1/2014,543,77,Inbound,4220616,4220263,Massachusetts Ave @ Norris St,2,10,-8
+23,3/1/2014,546,77,Inbound,4220616,4220263,Massachusetts Ave @ Upland Rd,2,10,-8
+23,3/1/2014,551,77,Inbound,4220616,4220263,Massachusetts Ave @ Waterhouse St,3,10,-7
+23,3/1/2014,553,77,Inbound,4220616,4220263,Eliot St @ Bennett St,2,10,-8
+24,3/1/2014,534,77,Inbound,4220263,4220313,Arlington Heights Busway,24,10,14
+24,3/1/2014,537,77,Inbound,4220263,4220313,Massachusetts Ave @ Appleton St,15,10,5
+24,3/1/2014,544,77,Inbound,4220263,4220313,Massachusetts Ave @ Academy St,18,10,8
+24,3/1/2014,547,77,Inbound,4220263,4220313,Massachusetts Ave @ Lake St,21,10,11
+24,3/1/2014,550,77,Inbound,4220263,4220313,Massachusetts Ave @ Lafayette St,23,10,13
+24,3/1/2014,553,77,Inbound,4220263,4220313,Massachusetts Ave @ Norris St,21,10,11
+24,3/1/2014,556,77,Inbound,4220263,4220313,Massachusetts Ave @ Upland Rd,24,10,14
+24,3/1/2014,561,77,Inbound,4220263,4220313,Massachusetts Ave @ Waterhouse St,23,10,13
+24,3/1/2014,563,77,Inbound,4220263,4220313,Eliot St @ Bennett St,25,10,15
+25,3/1/2014,544,77,Inbound,4220313,4217388,Arlington Heights Busway,5,10,-5
+25,3/1/2014,547,77,Inbound,4220313,4217388,Massachusetts Ave @ Appleton St,7,10,-3
+25,3/1/2014,554,77,Inbound,4220313,4217388,Massachusetts Ave @ Academy St,8,10,-2
+25,3/1/2014,557,77,Inbound,4220313,4217388,Massachusetts Ave @ Lake St,8,10,-2
+25,3/1/2014,560,77,Inbound,4220313,4217388,Massachusetts Ave @ Lafayette St,7,10,-3
+25,3/1/2014,563,77,Inbound,4220313,4217388,Massachusetts Ave @ Norris St,9,10,-1
+25,3/1/2014,566,77,Inbound,4220313,4217388,Massachusetts Ave @ Upland Rd,7,10,-3
+25,3/1/2014,573,77,Inbound,4220313,4217388,Eliot St @ Bennett St,12,10,2
+26,3/1/2014,554,77,Inbound,4217388,4220527,Arlington Heights Busway,6,10,-4
+26,3/1/2014,557,77,Inbound,4217388,4220527,Massachusetts Ave @ Appleton St,11,10,1
+26,3/1/2014,564,77,Inbound,4217388,4220527,Massachusetts Ave @ Academy St,9,10,-1
+26,3/1/2014,567,77,Inbound,4217388,4220527,Massachusetts Ave @ Lake St,8,10,-2
+26,3/1/2014,570,77,Inbound,4217388,4220527,Massachusetts Ave @ Lafayette St,7,10,-3
+26,3/1/2014,573,77,Inbound,4217388,4220527,Massachusetts Ave @ Norris St,7,10,-3
+26,3/1/2014,583,77,Inbound,4217388,4220527,Eliot St @ Bennett St,2,10,-8
+27,3/1/2014,564,77,Inbound,4220527,4220440,Arlington Heights Busway,14,10,4
+27,3/1/2014,567,77,Inbound,4220527,4220440,Massachusetts Ave @ Appleton St,10,10,0
+27,3/1/2014,574,77,Inbound,4220527,4220440,Massachusetts Ave @ Academy St,9,10,-1
+27,3/1/2014,580,77,Inbound,4220527,4220440,Massachusetts Ave @ Lafayette St,10,10,0
+27,3/1/2014,583,77,Inbound,4220527,4220440,Massachusetts Ave @ Norris St,9,10,-1
+27,3/1/2014,591,77,Inbound,4220527,4220440,Massachusetts Ave @ Waterhouse St,9,10,-1
+27,3/1/2014,593,77,Inbound,4220527,4220440,Eliot St @ Bennett St,10,10,0
+28,3/1/2014,574,77,Inbound,4220440,4220645,Arlington Heights Busway,5,10,-5
+28,3/1/2014,577,77,Inbound,4220440,4220645,Massachusetts Ave @ Appleton St,10,10,0
+28,3/1/2014,584,77,Inbound,4220440,4220645,Massachusetts Ave @ Academy St,10,10,0
+28,3/1/2014,590,77,Inbound,4220440,4220645,Massachusetts Ave @ Lafayette St,12,10,2
+28,3/1/2014,593,77,Inbound,4220440,4220645,Massachusetts Ave @ Norris St,12,10,2
+28,3/1/2014,596,77,Inbound,4220440,4220645,Massachusetts Ave @ Upland Rd,13,10,3
+28,3/1/2014,601,77,Inbound,4220440,4220645,Massachusetts Ave @ Waterhouse St,14,10,4
+28,3/1/2014,603,77,Inbound,4220440,4220645,Eliot St @ Bennett St,12,10,2
+29,3/1/2014,606,77,Inbound,4220645,4224811,Massachusetts Ave @ Upland Rd,-14,-17,3
+29,3/1/2014,611,77,Inbound,4220645,4224811,Massachusetts Ave @ Waterhouse St,-15,-18,3
+30,3/1/2014,589,77,Inbound,4224811,4220618,Massachusetts Ave @ Upland Rd,25,27,-2
+30,3/1/2014,593,77,Inbound,4224811,4220618,Massachusetts Ave @ Waterhouse St,24,28,-4
+31,3/1/2014,594,77,Inbound,4220618,4220285,Arlington Heights Busway,25,10,15
+31,3/1/2014,597,77,Inbound,4220618,4220285,Massachusetts Ave @ Appleton St,10,10,0
+31,3/1/2014,604,77,Inbound,4220618,4220285,Massachusetts Ave @ Academy St,11,10,1
+31,3/1/2014,607,77,Inbound,4220618,4220285,Massachusetts Ave @ Lake St,10,10,0
+31,3/1/2014,610,77,Inbound,4220618,4220285,Massachusetts Ave @ Lafayette St,9,10,-1
+31,3/1/2014,613,77,Inbound,4220618,4220285,Massachusetts Ave @ Norris St,9,10,-1
+31,3/1/2014,616,77,Inbound,4220618,4220285,Massachusetts Ave @ Upland Rd,9,10,-1
+31,3/1/2014,621,77,Inbound,4220618,4220285,Massachusetts Ave @ Waterhouse St,10,10,0
+31,3/1/2014,623,77,Inbound,4220618,4220285,Eliot St @ Bennett St,11,10,1
+32,3/1/2014,604,77,Inbound,4220285,4220315,Arlington Heights Busway,7,10,-3
+32,3/1/2014,607,77,Inbound,4220285,4220315,Massachusetts Ave @ Appleton St,12,10,2
+32,3/1/2014,614,77,Inbound,4220285,4220315,Massachusetts Ave @ Academy St,14,10,4
+32,3/1/2014,617,77,Inbound,4220285,4220315,Massachusetts Ave @ Lake St,15,10,5
+32,3/1/2014,620,77,Inbound,4220285,4220315,Massachusetts Ave @ Lafayette St,15,10,5
+32,3/1/2014,623,77,Inbound,4220285,4220315,Massachusetts Ave @ Norris St,16,10,6
+32,3/1/2014,626,77,Inbound,4220285,4220315,Massachusetts Ave @ Upland Rd,17,10,7
+32,3/1/2014,631,77,Inbound,4220285,4220315,Massachusetts Ave @ Waterhouse St,17,10,7
+32,3/1/2014,633,77,Inbound,4220285,4220315,Eliot St @ Bennett St,17,10,7
+33,3/1/2014,614,77,Inbound,4220315,4220396,Arlington Heights Busway,13,10,3
+33,3/1/2014,617,77,Inbound,4220315,4220396,Massachusetts Ave @ Appleton St,8,10,-2
+33,3/1/2014,624,77,Inbound,4220315,4220396,Massachusetts Ave @ Academy St,4,10,-6
+33,3/1/2014,627,77,Inbound,4220315,4220396,Massachusetts Ave @ Lake St,3,10,-7
+33,3/1/2014,630,77,Inbound,4220315,4220396,Massachusetts Ave @ Lafayette St,2,10,-8
+33,3/1/2014,633,77,Inbound,4220315,4220396,Massachusetts Ave @ Norris St,2,10,-8
+33,3/1/2014,636,77,Inbound,4220315,4220396,Massachusetts Ave @ Upland Rd,-1,10,-11
+33,3/1/2014,641,77,Inbound,4220315,4220396,Massachusetts Ave @ Waterhouse St,-1,10,-11
+33,3/1/2014,643,77,Inbound,4220315,4220396,Eliot St @ Bennett St,-1,10,-11
+34,3/1/2014,624,77,Inbound,4220396,4220502,Arlington Heights Busway,5,10,-5
+34,3/1/2014,627,77,Inbound,4220396,4220502,Massachusetts Ave @ Appleton St,9,10,-1
+34,3/1/2014,634,77,Inbound,4220396,4220502,Massachusetts Ave @ Academy St,11,10,1
+34,3/1/2014,637,77,Inbound,4220396,4220502,Massachusetts Ave @ Lake St,11,10,1
+34,3/1/2014,640,77,Inbound,4220396,4220502,Massachusetts Ave @ Lafayette St,13,10,3
+34,3/1/2014,643,77,Inbound,4220396,4220502,Massachusetts Ave @ Norris St,14,10,4
+34,3/1/2014,646,77,Inbound,4220396,4220502,Massachusetts Ave @ Upland Rd,15,10,5
+34,3/1/2014,651,77,Inbound,4220396,4220502,Massachusetts Ave @ Waterhouse St,14,10,4
+34,3/1/2014,653,77,Inbound,4220396,4220502,Eliot St @ Bennett St,14,10,4
+35,3/1/2014,634,77,Inbound,4220502,4220442,Arlington Heights Busway,8,10,-2
+35,3/1/2014,637,77,Inbound,4220502,4220442,Massachusetts Ave @ Appleton St,12,10,2
+35,3/1/2014,644,77,Inbound,4220502,4220442,Massachusetts Ave @ Academy St,13,10,3
+35,3/1/2014,647,77,Inbound,4220502,4220442,Massachusetts Ave @ Lake St,12,10,2
+35,3/1/2014,650,77,Inbound,4220502,4220442,Massachusetts Ave @ Lafayette St,11,10,1
+35,3/1/2014,653,77,Inbound,4220502,4220442,Massachusetts Ave @ Norris St,8,10,-2
+35,3/1/2014,656,77,Inbound,4220502,4220442,Massachusetts Ave @ Upland Rd,8,10,-2
+35,3/1/2014,661,77,Inbound,4220502,4220442,Massachusetts Ave @ Waterhouse St,7,10,-3
+35,3/1/2014,663,77,Inbound,4220502,4220442,Eliot St @ Bennett St,7,10,-3
+36,3/1/2014,644,77,Inbound,4220442,4220647,Arlington Heights Busway,15,10,5
+36,3/1/2014,647,77,Inbound,4220442,4220647,Massachusetts Ave @ Appleton St,12,10,2
+36,3/1/2014,654,77,Inbound,4220442,4220647,Massachusetts Ave @ Academy St,11,10,1
+36,3/1/2014,657,77,Inbound,4220442,4220647,Massachusetts Ave @ Lake St,14,10,4
+36,3/1/2014,660,77,Inbound,4220442,4220647,Massachusetts Ave @ Lafayette St,14,10,4
+36,3/1/2014,663,77,Inbound,4220442,4220647,Massachusetts Ave @ Norris St,16,10,6
+36,3/1/2014,666,77,Inbound,4220442,4220647,Massachusetts Ave @ Upland Rd,16,10,6
+36,3/1/2014,671,77,Inbound,4220442,4220647,Massachusetts Ave @ Waterhouse St,19,10,9
+36,3/1/2014,673,77,Inbound,4220442,4220647,Eliot St @ Bennett St,19,10,9
+37,3/1/2014,654,77,Inbound,4220647,4220620,Arlington Heights Busway,2,10,-8
+37,3/1/2014,657,77,Inbound,4220647,4220620,Massachusetts Ave @ Appleton St,6,10,-4
+37,3/1/2014,664,77,Inbound,4220647,4220620,Massachusetts Ave @ Academy St,6,10,-4
+37,3/1/2014,667,77,Inbound,4220647,4220620,Massachusetts Ave @ Lake St,5,10,-5
+37,3/1/2014,670,77,Inbound,4220647,4220620,Massachusetts Ave @ Lafayette St,4,10,-6
+37,3/1/2014,673,77,Inbound,4220647,4220620,Massachusetts Ave @ Norris St,4,10,-6
+37,3/1/2014,676,77,Inbound,4220647,4220620,Massachusetts Ave @ Upland Rd,4,10,-6
+37,3/1/2014,681,77,Inbound,4220647,4220620,Massachusetts Ave @ Waterhouse St,6,10,-4
+37,3/1/2014,683,77,Inbound,4220647,4220620,Eliot St @ Bennett St,7,10,-3
+38,3/1/2014,664,77,Inbound,4220620,4220287,Arlington Heights Busway,13,10,3
+38,3/1/2014,667,77,Inbound,4220620,4220287,Massachusetts Ave @ Appleton St,12,10,2
+38,3/1/2014,674,77,Inbound,4220620,4220287,Massachusetts Ave @ Academy St,13,10,3
+38,3/1/2014,677,77,Inbound,4220620,4220287,Massachusetts Ave @ Lake St,12,10,2
+38,3/1/2014,680,77,Inbound,4220620,4220287,Massachusetts Ave @ Lafayette St,13,10,3
+38,3/1/2014,683,77,Inbound,4220620,4220287,Massachusetts Ave @ Norris St,15,10,5
+38,3/1/2014,686,77,Inbound,4220620,4220287,Massachusetts Ave @ Upland Rd,15,10,5
+38,3/1/2014,691,77,Inbound,4220620,4220287,Massachusetts Ave @ Waterhouse St,12,10,2
+38,3/1/2014,693,77,Inbound,4220620,4220287,Eliot St @ Bennett St,11,10,1
+39,3/1/2014,674,77,Inbound,4220287,4220317,Arlington Heights Busway,22,10,12
+39,3/1/2014,677,77,Inbound,4220287,4220317,Massachusetts Ave @ Appleton St,14,10,4
+39,3/1/2014,684,77,Inbound,4220287,4220317,Massachusetts Ave @ Academy St,14,10,4
+39,3/1/2014,687,77,Inbound,4220287,4220317,Massachusetts Ave @ Lake St,14,10,4
+39,3/1/2014,690,77,Inbound,4220287,4220317,Massachusetts Ave @ Lafayette St,15,10,5
+39,3/1/2014,693,77,Inbound,4220287,4220317,Massachusetts Ave @ Norris St,12,10,2
+39,3/1/2014,696,77,Inbound,4220287,4220317,Massachusetts Ave @ Upland Rd,14,10,4
+39,3/1/2014,701,77,Inbound,4220287,4220317,Massachusetts Ave @ Waterhouse St,15,10,5
+39,3/1/2014,703,77,Inbound,4220287,4220317,Eliot St @ Bennett St,15,10,5
+40,3/1/2014,684,77,Inbound,4220317,4220398,Arlington Heights Busway,-2,10,-12
+40,3/1/2014,687,77,Inbound,4220317,4220398,Massachusetts Ave @ Appleton St,7,10,-3
+40,3/1/2014,694,77,Inbound,4220317,4220398,Massachusetts Ave @ Academy St,7,10,-3
+40,3/1/2014,697,77,Inbound,4220317,4220398,Massachusetts Ave @ Lake St,8,10,-2
+40,3/1/2014,700,77,Inbound,4220317,4220398,Massachusetts Ave @ Lafayette St,8,10,-2
+40,3/1/2014,703,77,Inbound,4220317,4220398,Massachusetts Ave @ Norris St,8,10,-2
+40,3/1/2014,706,77,Inbound,4220317,4220398,Massachusetts Ave @ Upland Rd,6,10,-4
+40,3/1/2014,711,77,Inbound,4220317,4220398,Massachusetts Ave @ Waterhouse St,5,10,-5
+40,3/1/2014,713,77,Inbound,4220317,4220398,Eliot St @ Bennett St,5,10,-5
+41,3/1/2014,694,77,Inbound,4220398,4220504,Arlington Heights Busway,11,10,1
+41,3/1/2014,697,77,Inbound,4220398,4220504,Massachusetts Ave @ Appleton St,6,10,-4
+41,3/1/2014,704,77,Inbound,4220398,4220504,Massachusetts Ave @ Academy St,4,10,-6
+41,3/1/2014,707,77,Inbound,4220398,4220504,Massachusetts Ave @ Lake St,4,10,-6
+41,3/1/2014,710,77,Inbound,4220398,4220504,Massachusetts Ave @ Lafayette St,2,10,-8
+41,3/1/2014,713,77,Inbound,4220398,4220504,Massachusetts Ave @ Norris St,2,10,-8
+41,3/1/2014,716,77,Inbound,4220398,4220504,Massachusetts Ave @ Upland Rd,1,10,-9
+41,3/1/2014,721,77,Inbound,4220398,4220504,Massachusetts Ave @ Waterhouse St,0,10,-10
+41,3/1/2014,723,77,Inbound,4220398,4220504,Eliot St @ Bennett St,0,10,-10
+42,3/1/2014,704,77,Inbound,4220504,4220444,Arlington Heights Busway,16,17,-1
+42,3/1/2014,707,77,Inbound,4220504,4220444,Massachusetts Ave @ Appleton St,20,17,3
+42,3/1/2014,714,77,Inbound,4220504,4220444,Massachusetts Ave @ Academy St,23,17,6
+42,3/1/2014,717,77,Inbound,4220504,4220444,Massachusetts Ave @ Lake St,23,17,6
+42,3/1/2014,720,77,Inbound,4220504,4220444,Massachusetts Ave @ Lafayette St,25,17,8
+42,3/1/2014,723,77,Inbound,4220504,4220444,Massachusetts Ave @ Norris St,25,17,8
+42,3/1/2014,726,77,Inbound,4220504,4220444,Massachusetts Ave @ Upland Rd,27,17,10
+42,3/1/2014,731,77,Inbound,4220504,4220444,Massachusetts Ave @ Waterhouse St,28,17,11
+42,3/1/2014,733,77,Inbound,4220504,4220444,Eliot St @ Bennett St,28,17,11
+43,3/1/2014,721,77,Inbound,4220444,4220649,Arlington Heights Busway,19,9,10
+43,3/1/2014,724,77,Inbound,4220444,4220649,Massachusetts Ave @ Appleton St,17,9,8
+43,3/1/2014,731,77,Inbound,4220444,4220649,Massachusetts Ave @ Academy St,16,9,7
+43,3/1/2014,734,77,Inbound,4220444,4220649,Massachusetts Ave @ Lake St,18,9,9
+43,3/1/2014,737,77,Inbound,4220444,4220649,Massachusetts Ave @ Lafayette St,18,9,9
+43,3/1/2014,740,77,Inbound,4220444,4220649,Massachusetts Ave @ Norris St,18,9,9
+43,3/1/2014,743,77,Inbound,4220444,4220649,Massachusetts Ave @ Upland Rd,19,9,10
+43,3/1/2014,748,77,Inbound,4220444,4220649,Massachusetts Ave @ Waterhouse St,20,9,11
+43,3/1/2014,750,77,Inbound,4220444,4220649,Eliot St @ Bennett St,20,9,11
+44,3/1/2014,730,77,Inbound,4220649,4220622,Arlington Heights Busway,-2,10,-12
+44,3/1/2014,733,77,Inbound,4220649,4220622,Massachusetts Ave @ Appleton St,1,10,-9
+44,3/1/2014,740,77,Inbound,4220649,4220622,Massachusetts Ave @ Academy St,1,10,-9
+44,3/1/2014,743,77,Inbound,4220649,4220622,Massachusetts Ave @ Lake St,-1,10,-11
+44,3/1/2014,746,77,Inbound,4220649,4220622,Massachusetts Ave @ Lafayette St,-2,10,-12
+44,3/1/2014,749,77,Inbound,4220649,4220622,Massachusetts Ave @ Norris St,-1,10,-11
+44,3/1/2014,752,77,Inbound,4220649,4220622,Massachusetts Ave @ Upland Rd,-4,10,-14
+44,3/1/2014,757,77,Inbound,4220649,4220622,Massachusetts Ave @ Waterhouse St,-4,10,-14
+44,3/1/2014,759,77,Inbound,4220649,4220622,Eliot St @ Bennett St,-4,10,-14
+45,3/1/2014,740,77,Inbound,4220622,4220289,Arlington Heights Busway,11,10,1
+45,3/1/2014,743,77,Inbound,4220622,4220289,Massachusetts Ave @ Appleton St,10,10,0
+45,3/1/2014,750,77,Inbound,4220622,4220289,Massachusetts Ave @ Academy St,10,10,0
+45,3/1/2014,753,77,Inbound,4220622,4220289,Massachusetts Ave @ Lake St,10,10,0
+45,3/1/2014,756,77,Inbound,4220622,4220289,Massachusetts Ave @ Lafayette St,10,10,0
+45,3/1/2014,759,77,Inbound,4220622,4220289,Massachusetts Ave @ Norris St,9,10,-1
+45,3/1/2014,762,77,Inbound,4220622,4220289,Massachusetts Ave @ Upland Rd,12,10,2
+45,3/1/2014,767,77,Inbound,4220622,4220289,Massachusetts Ave @ Waterhouse St,10,10,0
+45,3/1/2014,769,77,Inbound,4220622,4220289,Eliot St @ Bennett St,11,10,1
+46,3/1/2014,750,77,Inbound,4220289,4220319,Arlington Heights Busway,16,10,6
+46,3/1/2014,753,77,Inbound,4220289,4220319,Massachusetts Ave @ Appleton St,19,10,9
+46,3/1/2014,760,77,Inbound,4220289,4220319,Massachusetts Ave @ Academy St,21,10,11
+46,3/1/2014,763,77,Inbound,4220289,4220319,Massachusetts Ave @ Lake St,22,10,12
+46,3/1/2014,766,77,Inbound,4220289,4220319,Massachusetts Ave @ Lafayette St,23,10,13
+46,3/1/2014,769,77,Inbound,4220289,4220319,Massachusetts Ave @ Norris St,23,10,13
+46,3/1/2014,772,77,Inbound,4220289,4220319,Massachusetts Ave @ Upland Rd,23,10,13
+46,3/1/2014,777,77,Inbound,4220289,4220319,Massachusetts Ave @ Waterhouse St,26,10,16
+46,3/1/2014,779,77,Inbound,4220289,4220319,Eliot St @ Bennett St,26,11,15
+47,3/1/2014,760,77,Inbound,4220319,4220400,Arlington Heights Busway,4,10,-6
+47,3/1/2014,763,77,Inbound,4220319,4220400,Massachusetts Ave @ Appleton St,10,10,0
+47,3/1/2014,770,77,Inbound,4220319,4220400,Massachusetts Ave @ Academy St,8,10,-2
+47,3/1/2014,773,77,Inbound,4220319,4220400,Massachusetts Ave @ Lake St,6,10,-4
+47,3/1/2014,776,77,Inbound,4220319,4220400,Massachusetts Ave @ Lafayette St,4,10,-6
+47,3/1/2014,779,77,Inbound,4220319,4220400,Massachusetts Ave @ Norris St,4,10,-6
+47,3/1/2014,782,77,Inbound,4220319,4220400,Massachusetts Ave @ Upland Rd,3,10,-7
+47,3/1/2014,787,77,Inbound,4220319,4220400,Massachusetts Ave @ Waterhouse St,2,10,-8
+47,3/1/2014,790,77,Inbound,4220319,4220400,Eliot St @ Bennett St,0,10,-10
+48,3/1/2014,770,77,Inbound,4220400,4220506,Arlington Heights Busway,13,10,3
+48,3/1/2014,773,77,Inbound,4220400,4220506,Massachusetts Ave @ Appleton St,1,10,-9
+48,3/1/2014,780,77,Inbound,4220400,4220506,Massachusetts Ave @ Academy St,-1,11,-12
+48,3/1/2014,783,77,Inbound,4220400,4220506,Massachusetts Ave @ Lake St,0,11,-11
+48,3/1/2014,786,77,Inbound,4220400,4220506,Massachusetts Ave @ Lafayette St,0,11,-11
+48,3/1/2014,789,77,Inbound,4220400,4220506,Massachusetts Ave @ Norris St,1,11,-10
+48,3/1/2014,792,77,Inbound,4220400,4220506,Massachusetts Ave @ Upland Rd,-1,11,-12
+48,3/1/2014,797,77,Inbound,4220400,4220506,Massachusetts Ave @ Waterhouse St,-1,11,-12
+48,3/1/2014,800,77,Inbound,4220400,4220506,Eliot St @ Bennett St,0,11,-11
+49,3/1/2014,780,77,Inbound,4220506,4220446,Arlington Heights Busway,22,20,2
+49,3/1/2014,783,77,Inbound,4220506,4220446,Massachusetts Ave @ Appleton St,21,20,1
+49,3/1/2014,791,77,Inbound,4220506,4220446,Massachusetts Ave @ Academy St,22,20,2
+49,3/1/2014,794,77,Inbound,4220506,4220446,Massachusetts Ave @ Lake St,21,20,1
+49,3/1/2014,797,77,Inbound,4220506,4220446,Massachusetts Ave @ Lafayette St,23,20,3
+49,3/1/2014,800,77,Inbound,4220506,4220446,Massachusetts Ave @ Norris St,21,20,1
+49,3/1/2014,803,77,Inbound,4220506,4220446,Massachusetts Ave @ Upland Rd,22,20,2
+49,3/1/2014,808,77,Inbound,4220506,4220446,Massachusetts Ave @ Waterhouse St,22,20,2
+49,3/1/2014,811,77,Inbound,4220506,4220446,Eliot St @ Bennett St,22,20,2
+50,3/1/2014,800,77,Inbound,4220446,4220651,Arlington Heights Busway,15,10,5
+50,3/1/2014,803,77,Inbound,4220446,4220651,Massachusetts Ave @ Appleton St,12,10,2
+50,3/1/2014,811,77,Inbound,4220446,4220651,Massachusetts Ave @ Academy St,12,10,2
+50,3/1/2014,814,77,Inbound,4220446,4220651,Massachusetts Ave @ Lake St,13,10,3
+50,3/1/2014,817,77,Inbound,4220446,4220651,Massachusetts Ave @ Lafayette St,12,10,2
+50,3/1/2014,820,77,Inbound,4220446,4220651,Massachusetts Ave @ Norris St,12,10,2
+50,3/1/2014,823,77,Inbound,4220446,4220651,Massachusetts Ave @ Upland Rd,15,10,5
+50,3/1/2014,828,77,Inbound,4220446,4220651,Massachusetts Ave @ Waterhouse St,17,10,7
+50,3/1/2014,831,77,Inbound,4220446,4220651,Eliot St @ Bennett St,16,10,6
+51,3/1/2014,810,77,Inbound,4220651,4220624,Arlington Heights Busway,1,10,-9
+51,3/1/2014,813,77,Inbound,4220651,4220624,Massachusetts Ave @ Appleton St,6,10,-4
+51,3/1/2014,821,77,Inbound,4220651,4220624,Massachusetts Ave @ Academy St,5,10,-5
+51,3/1/2014,824,77,Inbound,4220651,4220624,Massachusetts Ave @ Lake St,3,10,-7
+51,3/1/2014,827,77,Inbound,4220651,4220624,Massachusetts Ave @ Lafayette St,3,10,-7
+51,3/1/2014,830,77,Inbound,4220651,4220624,Massachusetts Ave @ Norris St,5,10,-5
+51,3/1/2014,833,77,Inbound,4220651,4220624,Massachusetts Ave @ Upland Rd,3,10,-7
+51,3/1/2014,838,77,Inbound,4220651,4220624,Massachusetts Ave @ Waterhouse St,0,10,-10
+51,3/1/2014,841,77,Inbound,4220651,4220624,Eliot St @ Bennett St,0,10,-10
+52,3/1/2014,820,77,Inbound,4220624,4220291,Arlington Heights Busway,8,10,-2
+52,3/1/2014,823,77,Inbound,4220624,4220291,Massachusetts Ave @ Appleton St,10,10,0
+52,3/1/2014,831,77,Inbound,4220624,4220291,Massachusetts Ave @ Academy St,12,10,2
+52,3/1/2014,834,77,Inbound,4220624,4220291,Massachusetts Ave @ Lake St,14,10,4
+52,3/1/2014,837,77,Inbound,4220624,4220291,Massachusetts Ave @ Lafayette St,14,10,4
+52,3/1/2014,840,77,Inbound,4220624,4220291,Massachusetts Ave @ Norris St,13,10,3
+52,3/1/2014,843,77,Inbound,4220624,4220291,Massachusetts Ave @ Upland Rd,13,10,3
+52,3/1/2014,848,77,Inbound,4220624,4220291,Massachusetts Ave @ Waterhouse St,13,10,3
+52,3/1/2014,851,77,Inbound,4220624,4220291,Eliot St @ Bennett St,14,10,4
+53,3/1/2014,830,77,Inbound,4220291,4220321,Arlington Heights Busway,27,10,17
+53,3/1/2014,833,77,Inbound,4220291,4220321,Massachusetts Ave @ Appleton St,20,10,10
+53,3/1/2014,841,77,Inbound,4220291,4220321,Massachusetts Ave @ Academy St,18,10,8
+53,3/1/2014,844,77,Inbound,4220291,4220321,Massachusetts Ave @ Lake St,18,10,8
+53,3/1/2014,847,77,Inbound,4220291,4220321,Massachusetts Ave @ Lafayette St,18,10,8
+53,3/1/2014,850,77,Inbound,4220291,4220321,Massachusetts Ave @ Norris St,19,10,9
+53,3/1/2014,853,77,Inbound,4220291,4220321,Massachusetts Ave @ Upland Rd,19,10,9
+53,3/1/2014,858,77,Inbound,4220291,4220321,Massachusetts Ave @ Waterhouse St,21,10,11
+53,3/1/2014,861,77,Inbound,4220291,4220321,Eliot St @ Bennett St,21,10,11
+54,3/1/2014,840,77,Inbound,4220321,4220402,Arlington Heights Busway,-2,10,-12
+54,3/1/2014,843,77,Inbound,4220321,4220402,Massachusetts Ave @ Appleton St,2,10,-8
+54,3/1/2014,851,77,Inbound,4220321,4220402,Massachusetts Ave @ Academy St,3,10,-7
+54,3/1/2014,854,77,Inbound,4220321,4220402,Massachusetts Ave @ Lake St,1,10,-9
+54,3/1/2014,857,77,Inbound,4220321,4220402,Massachusetts Ave @ Lafayette St,2,10,-8
+54,3/1/2014,860,77,Inbound,4220321,4220402,Massachusetts Ave @ Norris St,1,10,-9
+54,3/1/2014,863,77,Inbound,4220321,4220402,Massachusetts Ave @ Upland Rd,0,10,-10
+54,3/1/2014,868,77,Inbound,4220321,4220402,Massachusetts Ave @ Waterhouse St,0,10,-10
+54,3/1/2014,871,77,Inbound,4220321,4220402,Eliot St @ Bennett St,1,10,-9
+55,3/1/2014,850,77,Inbound,4220402,4220508,Arlington Heights Busway,7,10,-3
+55,3/1/2014,853,77,Inbound,4220402,4220508,Massachusetts Ave @ Appleton St,10,10,0
+55,3/1/2014,861,77,Inbound,4220402,4220508,Massachusetts Ave @ Academy St,11,10,1
+55,3/1/2014,864,77,Inbound,4220402,4220508,Massachusetts Ave @ Lake St,13,10,3
+55,3/1/2014,867,77,Inbound,4220402,4220508,Massachusetts Ave @ Lafayette St,13,10,3
+55,3/1/2014,870,77,Inbound,4220402,4220508,Massachusetts Ave @ Norris St,14,10,4
+55,3/1/2014,873,77,Inbound,4220402,4220508,Massachusetts Ave @ Upland Rd,15,10,5
+55,3/1/2014,878,77,Inbound,4220402,4220508,Massachusetts Ave @ Waterhouse St,14,10,4
+55,3/1/2014,881,77,Inbound,4220402,4220508,Eliot St @ Bennett St,13,10,3
+56,3/1/2014,860,77,Inbound,4220508,4220448,Arlington Heights Busway,14,20,-6
+56,3/1/2014,863,77,Inbound,4220508,4220448,Massachusetts Ave @ Appleton St,18,20,-2
+56,3/1/2014,871,77,Inbound,4220508,4220448,Massachusetts Ave @ Academy St,17,20,-3
+56,3/1/2014,874,77,Inbound,4220508,4220448,Massachusetts Ave @ Lake St,18,20,-2
+56,3/1/2014,877,77,Inbound,4220508,4220448,Massachusetts Ave @ Lafayette St,18,20,-2
+56,3/1/2014,880,77,Inbound,4220508,4220448,Massachusetts Ave @ Norris St,19,20,-1
+56,3/1/2014,883,77,Inbound,4220508,4220448,Massachusetts Ave @ Upland Rd,19,20,-1
+56,3/1/2014,888,77,Inbound,4220508,4220448,Massachusetts Ave @ Waterhouse St,19,20,-1
+56,3/1/2014,891,77,Inbound,4220508,4220448,Eliot St @ Bennett St,19,20,-1
+57,3/1/2014,880,77,Inbound,4220448,4220653,Arlington Heights Busway,18,10,8
+57,3/1/2014,883,77,Inbound,4220448,4220653,Massachusetts Ave @ Appleton St,10,10,0
+57,3/1/2014,891,77,Inbound,4220448,4220653,Massachusetts Ave @ Academy St,9,10,-1
+57,3/1/2014,894,77,Inbound,4220448,4220653,Massachusetts Ave @ Lake St,8,10,-2
+57,3/1/2014,897,77,Inbound,4220448,4220653,Massachusetts Ave @ Lafayette St,6,10,-4
+57,3/1/2014,900,77,Inbound,4220448,4220653,Massachusetts Ave @ Norris St,4,10,-6
+57,3/1/2014,903,77,Inbound,4220448,4220653,Massachusetts Ave @ Upland Rd,3,10,-7
+57,3/1/2014,908,77,Inbound,4220448,4220653,Massachusetts Ave @ Waterhouse St,3,10,-7
+57,3/1/2014,911,77,Inbound,4220448,4220653,Eliot St @ Bennett St,2,10,-8
+58,3/1/2014,890,77,Inbound,4220653,4220626,Arlington Heights Busway,5,10,-5
+58,3/1/2014,893,77,Inbound,4220653,4220626,Massachusetts Ave @ Appleton St,10,10,0
+58,3/1/2014,901,77,Inbound,4220653,4220626,Massachusetts Ave @ Academy St,10,10,0
+58,3/1/2014,904,77,Inbound,4220653,4220626,Massachusetts Ave @ Lake St,9,10,-1
+58,3/1/2014,907,77,Inbound,4220653,4220626,Massachusetts Ave @ Lafayette St,10,10,0
+58,3/1/2014,910,77,Inbound,4220653,4220626,Massachusetts Ave @ Norris St,11,10,1
+58,3/1/2014,913,77,Inbound,4220653,4220626,Massachusetts Ave @ Upland Rd,10,10,0
+58,3/1/2014,918,77,Inbound,4220653,4220626,Massachusetts Ave @ Waterhouse St,11,10,1
+58,3/1/2014,921,77,Inbound,4220653,4220626,Eliot St @ Bennett St,13,10,3
+59,3/1/2014,900,77,Inbound,4220626,4220293,Arlington Heights Busway,10,10,0
+59,3/1/2014,903,77,Inbound,4220626,4220293,Massachusetts Ave @ Appleton St,11,10,1
+59,3/1/2014,911,77,Inbound,4220626,4220293,Massachusetts Ave @ Academy St,11,10,1
+59,3/1/2014,914,77,Inbound,4220626,4220293,Massachusetts Ave @ Lake St,11,10,1
+59,3/1/2014,917,77,Inbound,4220626,4220293,Massachusetts Ave @ Lafayette St,11,10,1
+59,3/1/2014,920,77,Inbound,4220626,4220293,Massachusetts Ave @ Norris St,12,10,2
+59,3/1/2014,923,77,Inbound,4220626,4220293,Massachusetts Ave @ Upland Rd,13,10,3
+59,3/1/2014,928,77,Inbound,4220626,4220293,Massachusetts Ave @ Waterhouse St,12,10,2
+60,3/1/2014,910,77,Inbound,4220293,4220323,Arlington Heights Busway,20,10,10
+60,3/1/2014,913,77,Inbound,4220293,4220323,Massachusetts Ave @ Appleton St,11,10,1
+60,3/1/2014,921,77,Inbound,4220293,4220323,Massachusetts Ave @ Academy St,14,10,4
+60,3/1/2014,924,77,Inbound,4220293,4220323,Massachusetts Ave @ Lake St,16,10,6
+60,3/1/2014,927,77,Inbound,4220293,4220323,Massachusetts Ave @ Lafayette St,17,10,7
+60,3/1/2014,930,77,Inbound,4220293,4220323,Massachusetts Ave @ Norris St,16,10,6
+60,3/1/2014,933,77,Inbound,4220293,4220323,Massachusetts Ave @ Upland Rd,17,10,7
+60,3/1/2014,938,77,Inbound,4220293,4220323,Massachusetts Ave @ Waterhouse St,16,10,6
+61,3/1/2014,920,77,Inbound,4220323,4220404,Arlington Heights Busway,10,10,0
+61,3/1/2014,923,77,Inbound,4220323,4220404,Massachusetts Ave @ Appleton St,10,10,0
+61,3/1/2014,931,77,Inbound,4220323,4220404,Massachusetts Ave @ Academy St,9,10,-1
+61,3/1/2014,934,77,Inbound,4220323,4220404,Massachusetts Ave @ Lake St,6,10,-4
+61,3/1/2014,937,77,Inbound,4220323,4220404,Massachusetts Ave @ Lafayette St,4,10,-6
+61,3/1/2014,940,77,Inbound,4220323,4220404,Massachusetts Ave @ Norris St,4,10,-6
+61,3/1/2014,943,77,Inbound,4220323,4220404,Massachusetts Ave @ Upland Rd,3,10,-7
+61,3/1/2014,948,77,Inbound,4220323,4220404,Massachusetts Ave @ Waterhouse St,3,10,-7
+61,3/1/2014,951,77,Inbound,4220323,4220404,Eliot St @ Bennett St,3,10,-7
+62,3/1/2014,930,77,Inbound,4220404,4220510,Arlington Heights Busway,-1,10,-11
+62,3/1/2014,933,77,Inbound,4220404,4220510,Massachusetts Ave @ Appleton St,11,10,1
+62,3/1/2014,941,77,Inbound,4220404,4220510,Massachusetts Ave @ Academy St,9,10,-1
+62,3/1/2014,944,77,Inbound,4220404,4220510,Massachusetts Ave @ Lake St,11,10,1
+62,3/1/2014,947,77,Inbound,4220404,4220510,Massachusetts Ave @ Lafayette St,13,10,3
+62,3/1/2014,950,77,Inbound,4220404,4220510,Massachusetts Ave @ Norris St,12,10,2
+62,3/1/2014,953,77,Inbound,4220404,4220510,Massachusetts Ave @ Upland Rd,13,10,3
+62,3/1/2014,958,77,Inbound,4220404,4220510,Massachusetts Ave @ Waterhouse St,13,10,3
+62,3/1/2014,961,77,Inbound,4220404,4220510,Eliot St @ Bennett St,13,10,3
+63,3/1/2014,940,77,Inbound,4220510,4220450,Arlington Heights Busway,27,20,7
+63,3/1/2014,943,77,Inbound,4220510,4220450,Massachusetts Ave @ Appleton St,18,20,-2
+63,3/1/2014,951,77,Inbound,4220510,4220450,Massachusetts Ave @ Academy St,23,20,3
+63,3/1/2014,954,77,Inbound,4220510,4220450,Massachusetts Ave @ Lake St,23,20,3
+63,3/1/2014,957,77,Inbound,4220510,4220450,Massachusetts Ave @ Lafayette St,22,20,2
+63,3/1/2014,960,77,Inbound,4220510,4220450,Massachusetts Ave @ Norris St,22,20,2
+63,3/1/2014,963,77,Inbound,4220510,4220450,Massachusetts Ave @ Upland Rd,22,20,2
+63,3/1/2014,968,77,Inbound,4220510,4220450,Massachusetts Ave @ Waterhouse St,23,20,3
+63,3/1/2014,971,77,Inbound,4220510,4220450,Eliot St @ Bennett St,23,20,3
+64,3/1/2014,960,77,Inbound,4220450,4220655,Arlington Heights Busway,4,10,-6
+64,3/1/2014,963,77,Inbound,4220450,4220655,Massachusetts Ave @ Appleton St,9,10,-1
+64,3/1/2014,971,77,Inbound,4220450,4220655,Massachusetts Ave @ Academy St,5,10,-5
+64,3/1/2014,974,77,Inbound,4220450,4220655,Massachusetts Ave @ Lake St,3,10,-7
+64,3/1/2014,977,77,Inbound,4220450,4220655,Massachusetts Ave @ Lafayette St,2,10,-8
+64,3/1/2014,980,77,Inbound,4220450,4220655,Massachusetts Ave @ Norris St,2,10,-8
+64,3/1/2014,983,77,Inbound,4220450,4220655,Massachusetts Ave @ Upland Rd,1,10,-9
+64,3/1/2014,988,77,Inbound,4220450,4220655,Massachusetts Ave @ Waterhouse St,-1,10,-11
+64,3/1/2014,991,77,Inbound,4220450,4220655,Eliot St @ Bennett St,-1,10,-11
+65,3/1/2014,970,77,Inbound,4220655,4220628,Arlington Heights Busway,10,10,0
+65,3/1/2014,973,77,Inbound,4220655,4220628,Massachusetts Ave @ Appleton St,9,10,-1
+65,3/1/2014,981,77,Inbound,4220655,4220628,Massachusetts Ave @ Academy St,8,10,-2
+65,3/1/2014,984,77,Inbound,4220655,4220628,Massachusetts Ave @ Lake St,8,10,-2
+65,3/1/2014,987,77,Inbound,4220655,4220628,Massachusetts Ave @ Lafayette St,9,10,-1
+65,3/1/2014,990,77,Inbound,4220655,4220628,Massachusetts Ave @ Norris St,9,10,-1
+65,3/1/2014,993,77,Inbound,4220655,4220628,Massachusetts Ave @ Upland Rd,8,10,-2
+65,3/1/2014,998,77,Inbound,4220655,4220628,Massachusetts Ave @ Waterhouse St,9,10,-1
+65,3/1/2014,1001,77,Inbound,4220655,4220628,Eliot St @ Bennett St,8,10,-2
+66,3/1/2014,980,77,Inbound,4220628,4220325,Arlington Heights Busway,34,20,14
+66,3/1/2014,983,77,Inbound,4220628,4220325,Massachusetts Ave @ Appleton St,26,20,6
+66,3/1/2014,991,77,Inbound,4220628,4220325,Massachusetts Ave @ Academy St,28,20,8
+66,3/1/2014,994,77,Inbound,4220628,4220325,Massachusetts Ave @ Lake St,32,20,12
+66,3/1/2014,997,77,Inbound,4220628,4220325,Massachusetts Ave @ Lafayette St,32,20,12
+66,3/1/2014,1000,77,Inbound,4220628,4220325,Massachusetts Ave @ Norris St,32,20,12
+66,3/1/2014,1003,77,Inbound,4220628,4220325,Massachusetts Ave @ Upland Rd,34,20,14
+66,3/1/2014,1008,77,Inbound,4220628,4220325,Massachusetts Ave @ Waterhouse St,34,20,14
+66,3/1/2014,1011,77,Inbound,4220628,4220325,Eliot St @ Bennett St,35,20,15
+67,3/1/2014,1000,77,Inbound,4220325,4220406,Arlington Heights Busway,1,10,-9
+67,3/1/2014,1003,77,Inbound,4220325,4220406,Massachusetts Ave @ Appleton St,5,10,-5
+67,3/1/2014,1011,77,Inbound,4220325,4220406,Massachusetts Ave @ Academy St,3,10,-7
+67,3/1/2014,1014,77,Inbound,4220325,4220406,Massachusetts Ave @ Lake St,-1,10,-11
+67,3/1/2014,1017,77,Inbound,4220325,4220406,Massachusetts Ave @ Lafayette St,0,10,-10
+67,3/1/2014,1020,77,Inbound,4220325,4220406,Massachusetts Ave @ Norris St,0,10,-10
+67,3/1/2014,1023,77,Inbound,4220325,4220406,Massachusetts Ave @ Upland Rd,-2,10,-12
+67,3/1/2014,1028,77,Inbound,4220325,4220406,Massachusetts Ave @ Waterhouse St,-1,10,-11
+67,3/1/2014,1031,77,Inbound,4220325,4220406,Eliot St @ Bennett St,0,10,-10
+68,3/1/2014,1010,77,Inbound,4220406,4220512,Arlington Heights Busway,7,10,-3
+68,3/1/2014,1013,77,Inbound,4220406,4220512,Massachusetts Ave @ Appleton St,11,10,1
+68,3/1/2014,1021,77,Inbound,4220406,4220512,Massachusetts Ave @ Academy St,11,10,1
+68,3/1/2014,1024,77,Inbound,4220406,4220512,Massachusetts Ave @ Lake St,14,10,4
+68,3/1/2014,1027,77,Inbound,4220406,4220512,Massachusetts Ave @ Lafayette St,13,10,3
+68,3/1/2014,1030,77,Inbound,4220406,4220512,Massachusetts Ave @ Norris St,16,10,6
+68,3/1/2014,1033,77,Inbound,4220406,4220512,Massachusetts Ave @ Upland Rd,16,10,6
+68,3/1/2014,1038,77,Inbound,4220406,4220512,Massachusetts Ave @ Waterhouse St,14,10,4
+68,3/1/2014,1041,77,Inbound,4220406,4220512,Eliot St @ Bennett St,13,10,3
+69,3/1/2014,1020,77,Inbound,4220512,4220657,Arlington Heights Busway,38,30,8
+69,3/1/2014,1023,77,Inbound,4220512,4220657,Massachusetts Ave @ Appleton St,31,30,1
+69,3/1/2014,1031,77,Inbound,4220512,4220657,Massachusetts Ave @ Academy St,31,30,1
+69,3/1/2014,1034,77,Inbound,4220512,4220657,Massachusetts Ave @ Lake St,29,30,-1
+69,3/1/2014,1037,77,Inbound,4220512,4220657,Massachusetts Ave @ Lafayette St,30,30,0
+69,3/1/2014,1040,77,Inbound,4220512,4220657,Massachusetts Ave @ Norris St,29,30,-1
+69,3/1/2014,1043,77,Inbound,4220512,4220657,Massachusetts Ave @ Upland Rd,32,30,2
+69,3/1/2014,1048,77,Inbound,4220512,4220657,Massachusetts Ave @ Waterhouse St,34,30,4
+69,3/1/2014,1051,77,Inbound,4220512,4220657,Eliot St @ Bennett St,34,31,3
+70,3/1/2014,1050,77,Inbound,4220657,4220327,Arlington Heights Busway,30,24,6
+70,3/1/2014,1053,77,Inbound,4220657,4220327,Massachusetts Ave @ Appleton St,30,24,6
+70,3/1/2014,1061,77,Inbound,4220657,4220327,Massachusetts Ave @ Academy St,31,23,8
+70,3/1/2014,1064,77,Inbound,4220657,4220327,Massachusetts Ave @ Lake St,33,23,10
+70,3/1/2014,1067,77,Inbound,4220657,4220327,Massachusetts Ave @ Lafayette St,35,23,12
+70,3/1/2014,1070,77,Inbound,4220657,4220327,Massachusetts Ave @ Norris St,35,23,12
+70,3/1/2014,1073,77,Inbound,4220657,4220327,Massachusetts Ave @ Upland Rd,36,23,13
+70,3/1/2014,1078,77,Inbound,4220657,4220327,Massachusetts Ave @ Waterhouse St,34,23,11
+70,3/1/2014,1082,77,Inbound,4220657,4220327,Eliot St @ Bennett St,34,23,11
+71,3/1/2014,1074,77,Inbound,4220327,4220408,Arlington Heights Busway,-4,12,-16
+71,3/1/2014,1077,77,Inbound,4220327,4220408,Massachusetts Ave @ Appleton St,4,12,-8
+71,3/1/2014,1084,77,Inbound,4220327,4220408,Massachusetts Ave @ Academy St,4,12,-8
+71,3/1/2014,1087,77,Inbound,4220327,4220408,Massachusetts Ave @ Lake St,2,12,-10
+71,3/1/2014,1090,77,Inbound,4220327,4220408,Massachusetts Ave @ Lafayette St,-1,12,-13
+71,3/1/2014,1093,77,Inbound,4220327,4220408,Massachusetts Ave @ Norris St,-3,12,-15
+71,3/1/2014,1096,77,Inbound,4220327,4220408,Massachusetts Ave @ Upland Rd,-4,12,-16
+71,3/1/2014,1101,77,Inbound,4220327,4220408,Massachusetts Ave @ Waterhouse St,-3,12,-15
+71,3/1/2014,1105,77,Inbound,4220327,4220408,Eliot St @ Bennett St,-3,12,-15
+72,3/1/2014,1086,77,Inbound,4220408,4220514,Arlington Heights Busway,23,12,11
+72,3/1/2014,1089,77,Inbound,4220408,4220514,Massachusetts Ave @ Appleton St,14,12,2
+72,3/1/2014,1096,77,Inbound,4220408,4220514,Massachusetts Ave @ Academy St,13,12,1
+72,3/1/2014,1099,77,Inbound,4220408,4220514,Massachusetts Ave @ Lake St,13,12,1
+72,3/1/2014,1102,77,Inbound,4220408,4220514,Massachusetts Ave @ Lafayette St,14,12,2
+72,3/1/2014,1105,77,Inbound,4220408,4220514,Massachusetts Ave @ Norris St,15,12,3
+72,3/1/2014,1108,77,Inbound,4220408,4220514,Massachusetts Ave @ Upland Rd,12,12,0
+72,3/1/2014,1113,77,Inbound,4220408,4220514,Massachusetts Ave @ Waterhouse St,11,12,-1
+72,3/1/2014,1117,77,Inbound,4220408,4220514,Eliot St @ Bennett St,12,12,0
+73,3/1/2014,1098,77,Inbound,4220514,4220659,Arlington Heights Busway,21,32,-11
+73,3/1/2014,1101,77,Inbound,4220514,4220659,Massachusetts Ave @ Appleton St,34,32,2
+73,3/1/2014,1108,77,Inbound,4220514,4220659,Massachusetts Ave @ Academy St,33,32,1
+73,3/1/2014,1111,77,Inbound,4220514,4220659,Massachusetts Ave @ Lake St,32,32,0
+73,3/1/2014,1114,77,Inbound,4220514,4220659,Massachusetts Ave @ Lafayette St,33,32,1
+73,3/1/2014,1117,77,Inbound,4220514,4220659,Massachusetts Ave @ Norris St,32,32,0
+73,3/1/2014,1120,77,Inbound,4220514,4220659,Massachusetts Ave @ Upland Rd,33,32,1
+73,3/1/2014,1125,77,Inbound,4220514,4220659,Massachusetts Ave @ Waterhouse St,33,32,1
+73,3/1/2014,1129,77,Inbound,4220514,4220659,Eliot St @ Bennett St,32,32,0
+74,3/1/2014,1130,77,Inbound,4220659,4220299,Arlington Heights Busway,32,12,20
+74,3/1/2014,1133,77,Inbound,4220659,4220299,Massachusetts Ave @ Appleton St,19,20,-1
+74,3/1/2014,1140,77,Inbound,4220659,4220299,Massachusetts Ave @ Academy St,21,20,1
+74,3/1/2014,1143,77,Inbound,4220659,4220299,Massachusetts Ave @ Lake St,22,20,2
+74,3/1/2014,1146,77,Inbound,4220659,4220299,Massachusetts Ave @ Lafayette St,21,20,1
+74,3/1/2014,1149,77,Inbound,4220659,4220299,Massachusetts Ave @ Norris St,21,20,1
+74,3/1/2014,1152,77,Inbound,4220659,4220299,Massachusetts Ave @ Upland Rd,20,20,0
+74,3/1/2014,1157,77,Inbound,4220659,4220299,Massachusetts Ave @ Waterhouse St,20,20,0
+74,3/1/2014,1161,77,Inbound,4220659,4220299,Eliot St @ Bennett St,19,20,-1
+75,3/1/2014,1142,77,Inbound,4220299,4220410,Arlington Heights Busway,-1,17,-18
+75,3/1/2014,1153,77,Inbound,4220299,4220410,Massachusetts Ave @ Appleton St,6,9,-3
+75,3/1/2014,1160,77,Inbound,4220299,4220410,Massachusetts Ave @ Academy St,4,9,-5
+75,3/1/2014,1163,77,Inbound,4220299,4220410,Massachusetts Ave @ Lake St,2,9,-7
+75,3/1/2014,1166,77,Inbound,4220299,4220410,Massachusetts Ave @ Lafayette St,0,9,-9
+75,3/1/2014,1169,77,Inbound,4220299,4220410,Massachusetts Ave @ Norris St,0,9,-9
+75,3/1/2014,1172,77,Inbound,4220299,4220410,Massachusetts Ave @ Upland Rd,-1,9,-10
+75,3/1/2014,1177,77,Inbound,4220299,4220410,Massachusetts Ave @ Waterhouse St,0,9,-9
+75,3/1/2014,1181,77,Inbound,4220299,4220410,Eliot St @ Bennett St,1,9,-8
+76,3/1/2014,1159,77,Inbound,4220410,4220516,Arlington Heights Busway,17,12,5
+76,3/1/2014,1162,77,Inbound,4220410,4220516,Massachusetts Ave @ Appleton St,12,12,0
+76,3/1/2014,1169,77,Inbound,4220410,4220516,Massachusetts Ave @ Academy St,13,12,1
+76,3/1/2014,1172,77,Inbound,4220410,4220516,Massachusetts Ave @ Lake St,15,12,3
+76,3/1/2014,1175,77,Inbound,4220410,4220516,Massachusetts Ave @ Lafayette St,16,12,4
+76,3/1/2014,1178,77,Inbound,4220410,4220516,Massachusetts Ave @ Norris St,16,12,4
+76,3/1/2014,1181,77,Inbound,4220410,4220516,Massachusetts Ave @ Upland Rd,20,12,8
+76,3/1/2014,1186,77,Inbound,4220410,4220516,Massachusetts Ave @ Waterhouse St,21,12,9
+76,3/1/2014,1190,77,Inbound,4220410,4220516,Eliot St @ Bennett St,21,12,9
+77,3/1/2014,1171,77,Inbound,4220516,4217141,Arlington Heights Busway,6,12,-6
+77,3/1/2014,1174,77,Inbound,4220516,4217141,Massachusetts Ave @ Appleton St,12,12,0
+77,3/1/2014,1181,77,Inbound,4220516,4217141,Massachusetts Ave @ Academy St,11,12,-1
+77,3/1/2014,1184,77,Inbound,4220516,4217141,Massachusetts Ave @ Lake St,11,12,-1
+77,3/1/2014,1187,77,Inbound,4220516,4217141,Massachusetts Ave @ Lafayette St,11,12,-1
+77,3/1/2014,1190,77,Inbound,4220516,4217141,Massachusetts Ave @ Norris St,11,12,-1
+77,3/1/2014,1193,77,Inbound,4220516,4217141,Massachusetts Ave @ Upland Rd,10,12,-2
+77,3/1/2014,1198,77,Inbound,4220516,4217141,Massachusetts Ave @ Waterhouse St,9,12,-3
+77,3/1/2014,1202,77,Inbound,4220516,4217141,Eliot St @ Bennett St,9,12,-3
+78,3/1/2014,1183,77,Inbound,4217141,4218588,Arlington Heights Busway,15,12,3
+78,3/1/2014,1186,77,Inbound,4217141,4218588,Massachusetts Ave @ Appleton St,12,12,0
+78,3/1/2014,1193,77,Inbound,4217141,4218588,Massachusetts Ave @ Academy St,13,12,1
+78,3/1/2014,1196,77,Inbound,4217141,4218588,Massachusetts Ave @ Lake St,12,12,0
+78,3/1/2014,1199,77,Inbound,4217141,4218588,Massachusetts Ave @ Lafayette St,12,12,0
+78,3/1/2014,1202,77,Inbound,4217141,4218588,Massachusetts Ave @ Norris St,12,12,0
+78,3/1/2014,1205,77,Inbound,4217141,4218588,Massachusetts Ave @ Upland Rd,12,12,0
+78,3/1/2014,1210,77,Inbound,4217141,4218588,Massachusetts Ave @ Waterhouse St,10,12,-2
+78,3/1/2014,1214,77,Inbound,4217141,4218588,Eliot St @ Bennett St,10,12,-2
+79,3/1/2014,1195,77,Inbound,4218588,4220661,Arlington Heights Busway,11,12,-1
+79,3/1/2014,1198,77,Inbound,4218588,4220661,Massachusetts Ave @ Appleton St,20,12,8
+79,3/1/2014,1205,77,Inbound,4218588,4220661,Massachusetts Ave @ Academy St,21,12,9
+79,3/1/2014,1208,77,Inbound,4218588,4220661,Massachusetts Ave @ Lake St,21,12,9
+79,3/1/2014,1211,77,Inbound,4218588,4220661,Massachusetts Ave @ Lafayette St,21,12,9
+79,3/1/2014,1214,77,Inbound,4218588,4220661,Massachusetts Ave @ Norris St,20,12,8
+79,3/1/2014,1217,77,Inbound,4218588,4220661,Massachusetts Ave @ Upland Rd,20,12,8
+79,3/1/2014,1222,77,Inbound,4218588,4220661,Massachusetts Ave @ Waterhouse St,21,11,10
+79,3/1/2014,1226,77,Inbound,4218588,4220661,Eliot St @ Bennett St,21,11,10
+80,3/1/2014,1207,77,Inbound,4220661,4220301,Arlington Heights Busway,24,12,12
+80,3/1/2014,1210,77,Inbound,4220661,4220301,Massachusetts Ave @ Appleton St,8,12,-4
+80,3/1/2014,1217,77,Inbound,4220661,4220301,Massachusetts Ave @ Academy St,6,12,-6
+80,3/1/2014,1220,77,Inbound,4220661,4220301,Massachusetts Ave @ Lake St,5,12,-7
+80,3/1/2014,1223,77,Inbound,4220661,4220301,Massachusetts Ave @ Lafayette St,4,12,-8
+80,3/1/2014,1226,77,Inbound,4220661,4220301,Massachusetts Ave @ Norris St,4,12,-8
+80,3/1/2014,1229,77,Inbound,4220661,4220301,Massachusetts Ave @ Upland Rd,3,12,-9
+80,3/1/2014,1233,77,Inbound,4220661,4220301,Massachusetts Ave @ Waterhouse St,3,12,-9
+80,3/1/2014,1237,77,Inbound,4220661,4220301,Eliot St @ Bennett St,3,12,-9
+81,3/1/2014,1219,77,Inbound,4220301,4220412,Arlington Heights Busway,1,12,-11
+81,3/1/2014,1222,77,Inbound,4220301,4220412,Massachusetts Ave @ Appleton St,8,11,-3
+81,3/1/2014,1229,77,Inbound,4220301,4220412,Massachusetts Ave @ Academy St,8,10,-2
+81,3/1/2014,1232,77,Inbound,4220301,4220412,Massachusetts Ave @ Lake St,9,10,-1
+81,3/1/2014,1235,77,Inbound,4220301,4220412,Massachusetts Ave @ Lafayette St,9,10,-1
+81,3/1/2014,1238,77,Inbound,4220301,4220412,Massachusetts Ave @ Norris St,10,10,0
+81,3/1/2014,1241,77,Inbound,4220301,4220412,Massachusetts Ave @ Upland Rd,10,10,0
+81,3/1/2014,1245,77,Inbound,4220301,4220412,Massachusetts Ave @ Waterhouse St,10,10,0
+81,3/1/2014,1249,77,Inbound,4220301,4220412,Eliot St @ Bennett St,9,10,-1
+82,3/1/2014,1231,77,Inbound,4220412,4220518,Arlington Heights Busway,11,12,-1
+82,3/1/2014,1233,77,Inbound,4220412,4220518,Massachusetts Ave @ Appleton St,12,12,0
+82,3/1/2014,1239,77,Inbound,4220412,4220518,Massachusetts Ave @ Academy St,12,12,0
+82,3/1/2014,1242,77,Inbound,4220412,4220518,Massachusetts Ave @ Lake St,11,12,-1
+82,3/1/2014,1245,77,Inbound,4220412,4220518,Massachusetts Ave @ Lafayette St,12,12,0
+82,3/1/2014,1248,77,Inbound,4220412,4220518,Massachusetts Ave @ Norris St,12,12,0
+82,3/1/2014,1251,77,Inbound,4220412,4220518,Massachusetts Ave @ Upland Rd,11,12,-1
+82,3/1/2014,1255,77,Inbound,4220412,4220518,Massachusetts Ave @ Waterhouse St,11,12,-1
+82,3/1/2014,1259,77,Inbound,4220412,4220518,Eliot St @ Bennett St,11,12,-1
+83,3/1/2014,1243,77,Inbound,4220518,4217143,Arlington Heights Busway,6,12,-6
+83,3/1/2014,1245,77,Inbound,4220518,4217143,Massachusetts Ave @ Appleton St,12,12,0
+83,3/1/2014,1251,77,Inbound,4220518,4217143,Massachusetts Ave @ Academy St,12,12,0
+83,3/1/2014,1254,77,Inbound,4220518,4217143,Massachusetts Ave @ Lake St,13,12,1
+83,3/1/2014,1257,77,Inbound,4220518,4217143,Massachusetts Ave @ Lafayette St,13,12,1
+83,3/1/2014,1260,77,Inbound,4220518,4217143,Massachusetts Ave @ Norris St,12,12,0
+83,3/1/2014,1263,77,Inbound,4220518,4217143,Massachusetts Ave @ Upland Rd,12,12,0
+83,3/1/2014,1267,77,Inbound,4220518,4217143,Massachusetts Ave @ Waterhouse St,12,12,0
+83,3/1/2014,1271,77,Inbound,4220518,4217143,Eliot St @ Bennett St,13,12,1
+84,3/1/2014,1255,77,Inbound,4217143,4218590,Arlington Heights Busway,18,12,6
+84,3/1/2014,1257,77,Inbound,4217143,4218590,Massachusetts Ave @ Appleton St,14,12,2
+84,3/1/2014,1263,77,Inbound,4217143,4218590,Massachusetts Ave @ Academy St,14,12,2
+84,3/1/2014,1266,77,Inbound,4217143,4218590,Massachusetts Ave @ Lake St,15,12,3
+84,3/1/2014,1269,77,Inbound,4217143,4218590,Massachusetts Ave @ Lafayette St,13,12,1
+84,3/1/2014,1272,77,Inbound,4217143,4218590,Massachusetts Ave @ Norris St,15,12,3
+84,3/1/2014,1275,77,Inbound,4217143,4218590,Massachusetts Ave @ Upland Rd,16,12,4
+84,3/1/2014,1279,77,Inbound,4217143,4218590,Massachusetts Ave @ Waterhouse St,15,12,3
+84,3/1/2014,1283,77,Inbound,4217143,4218590,Eliot St @ Bennett St,15,12,3
+85,3/1/2014,1267,77,Inbound,4218590,4220703,Arlington Heights Busway,21,12,9
+85,3/1/2014,1269,77,Inbound,4218590,4220703,Massachusetts Ave @ Appleton St,12,12,0
+85,3/1/2014,1275,77,Inbound,4218590,4220703,Massachusetts Ave @ Academy St,11,12,-1
+85,3/1/2014,1278,77,Inbound,4218590,4220703,Massachusetts Ave @ Lake St,10,12,-2
+85,3/1/2014,1281,77,Inbound,4218590,4220703,Massachusetts Ave @ Lafayette St,12,12,0
+85,3/1/2014,1284,77,Inbound,4218590,4220703,Massachusetts Ave @ Norris St,10,12,-2
+85,3/1/2014,1287,77,Inbound,4218590,4220703,Massachusetts Ave @ Upland Rd,8,12,-4
+85,3/1/2014,1291,77,Inbound,4218590,4220703,Massachusetts Ave @ Waterhouse St,9,12,-3
+85,3/1/2014,1295,77,Inbound,4218590,4220703,Eliot St @ Bennett St,9,12,-3
+86,3/1/2014,1281,77,Inbound,4220703,4220303,Massachusetts Ave @ Appleton St,15,15,0
+86,3/1/2014,1287,77,Inbound,4220703,4220303,Massachusetts Ave @ Academy St,15,15,0
+86,3/1/2014,1290,77,Inbound,4220703,4220303,Massachusetts Ave @ Lake St,15,15,0
+86,3/1/2014,1293,77,Inbound,4220703,4220303,Massachusetts Ave @ Lafayette St,14,15,-1
+86,3/1/2014,1296,77,Inbound,4220703,4220303,Massachusetts Ave @ Norris St,16,15,1
+86,3/1/2014,1299,77,Inbound,4220703,4220303,Massachusetts Ave @ Upland Rd,16,15,1
+86,3/1/2014,1303,77,Inbound,4220703,4220303,Massachusetts Ave @ Waterhouse St,17,15,2
+86,3/1/2014,1307,77,Inbound,4220703,4220303,Eliot St @ Bennett St,17,15,2
+87,3/1/2014,1296,77,Inbound,4220303,4220726,Massachusetts Ave @ Appleton St,15,15,0
+87,3/1/2014,1302,77,Inbound,4220303,4220726,Massachusetts Ave @ Academy St,16,15,1
+87,3/1/2014,1305,77,Inbound,4220303,4220726,Massachusetts Ave @ Lake St,18,15,3
+87,3/1/2014,1308,77,Inbound,4220303,4220726,Massachusetts Ave @ Lafayette St,18,15,3
+87,3/1/2014,1311,77,Inbound,4220303,4220726,Massachusetts Ave @ Norris St,17,15,2
+87,3/1/2014,1314,77,Inbound,4220303,4220726,Massachusetts Ave @ Upland Rd,18,15,3
+87,3/1/2014,1318,77,Inbound,4220303,4220726,Massachusetts Ave @ Waterhouse St,18,15,3
+87,3/1/2014,1322,77,Inbound,4220303,4220726,Eliot St @ Bennett St,19,15,4
+88,3/1/2014,1309,77,Inbound,4220726,4220752,Arlington Heights Busway,11,15,-4
+88,3/1/2014,1311,77,Inbound,4220726,4220752,Massachusetts Ave @ Appleton St,12,15,-3
+88,3/1/2014,1317,77,Inbound,4220726,4220752,Massachusetts Ave @ Academy St,13,15,-2
+88,3/1/2014,1320,77,Inbound,4220726,4220752,Massachusetts Ave @ Lake St,12,15,-3
+88,3/1/2014,1323,77,Inbound,4220726,4220752,Massachusetts Ave @ Lafayette St,12,15,-3
+88,3/1/2014,1326,77,Inbound,4220726,4220752,Massachusetts Ave @ Norris St,12,15,-3
+88,3/1/2014,1329,77,Inbound,4220726,4220752,Massachusetts Ave @ Upland Rd,13,15,-2
+88,3/1/2014,1333,77,Inbound,4220726,4220752,Massachusetts Ave @ Waterhouse St,13,15,-2
+88,3/1/2014,1337,77,Inbound,4220726,4220752,Eliot St @ Bennett St,12,13,-1
+89,3/1/2014,1324,77,Inbound,4220752,4220770,Arlington Heights Busway,16,15,1
+89,3/1/2014,1326,77,Inbound,4220752,4220770,Massachusetts Ave @ Appleton St,15,15,0
+89,3/1/2014,1332,77,Inbound,4220752,4220770,Massachusetts Ave @ Academy St,15,15,0
+89,3/1/2014,1335,77,Inbound,4220752,4220770,Massachusetts Ave @ Lake St,14,15,-1
+89,3/1/2014,1338,77,Inbound,4220752,4220770,Massachusetts Ave @ Lafayette St,15,14,1
+89,3/1/2014,1341,77,Inbound,4220752,4220770,Massachusetts Ave @ Norris St,14,14,0
+89,3/1/2014,1344,77,Inbound,4220752,4220770,Massachusetts Ave @ Upland Rd,13,14,-1
+89,3/1/2014,1348,77,Inbound,4220752,4220770,Massachusetts Ave @ Waterhouse St,12,13,-1
+89,3/1/2014,1350,77,Inbound,4220752,4220770,Eliot St @ Bennett St,14,12,2
+90,3/1/2014,1339,77,Inbound,4220770,4220705,Arlington Heights Busway,12,15,-3
+90,3/1/2014,1341,77,Inbound,4220770,4220705,Massachusetts Ave @ Appleton St,16,15,1
+90,3/1/2014,1347,77,Inbound,4220770,4220705,Massachusetts Ave @ Academy St,15,14,1
+90,3/1/2014,1350,77,Inbound,4220770,4220705,Massachusetts Ave @ Lake St,17,13,4
+90,3/1/2014,1352,77,Inbound,4220770,4220705,Massachusetts Ave @ Lafayette St,17,13,4
+90,3/1/2014,1355,77,Inbound,4220770,4220705,Massachusetts Ave @ Norris St,18,13,5
+90,3/1/2014,1358,77,Inbound,4220770,4220705,Massachusetts Ave @ Upland Rd,18,13,5
+90,3/1/2014,1361,77,Inbound,4220770,4220705,Massachusetts Ave @ Waterhouse St,20,13,7
+90,3/1/2014,1362,77,Inbound,4220770,4220705,Eliot St @ Bennett St,19,13,6
+91,3/1/2014,1354,77,Inbound,4220705,4220728,Arlington Heights Busway,25,15,10
+91,3/1/2014,1356,77,Inbound,4220705,4220728,Massachusetts Ave @ Appleton St,15,15,0
+91,3/1/2014,1361,77,Inbound,4220705,4220728,Massachusetts Ave @ Academy St,15,15,0
+91,3/1/2014,1363,77,Inbound,4220705,4220728,Massachusetts Ave @ Lake St,14,15,-1
+91,3/1/2014,1365,77,Inbound,4220705,4220728,Massachusetts Ave @ Lafayette St,13,15,-2
+91,3/1/2014,1368,77,Inbound,4220705,4220728,Massachusetts Ave @ Norris St,12,15,-3
+91,3/1/2014,1371,77,Inbound,4220705,4220728,Massachusetts Ave @ Upland Rd,12,15,-3
+91,3/1/2014,1374,77,Inbound,4220705,4220728,Massachusetts Ave @ Waterhouse St,10,15,-5
+91,3/1/2014,1375,77,Inbound,4220705,4220728,Eliot St @ Bennett St,10,15,-5
+92,3/1/2014,1369,77,Inbound,4220728,4220754,Arlington Heights Busway,18,15,3
+92,3/1/2014,1371,77,Inbound,4220728,4220754,Massachusetts Ave @ Appleton St,19,15,4
+92,3/1/2014,1376,77,Inbound,4220728,4220754,Massachusetts Ave @ Academy St,18,15,3
+92,3/1/2014,1378,77,Inbound,4220728,4220754,Massachusetts Ave @ Lake St,17,15,2
+92,3/1/2014,1380,77,Inbound,4220728,4220754,Massachusetts Ave @ Lafayette St,18,15,3
+92,3/1/2014,1383,77,Inbound,4220728,4220754,Massachusetts Ave @ Norris St,20,15,5
+92,3/1/2014,1386,77,Inbound,4220728,4220754,Massachusetts Ave @ Upland Rd,20,15,5
+92,3/1/2014,1389,77,Inbound,4220728,4220754,Massachusetts Ave @ Waterhouse St,20,15,5
+92,3/1/2014,1390,77,Inbound,4220728,4220754,Eliot St @ Bennett St,18,15,3
+93,3/1/2014,1384,77,Inbound,4220754,4220772,Arlington Heights Busway,9,15,-6
+93,3/1/2014,1386,77,Inbound,4220754,4220772,Massachusetts Ave @ Appleton St,12,15,-3
+93,3/1/2014,1391,77,Inbound,4220754,4220772,Massachusetts Ave @ Academy St,12,15,-3
+93,3/1/2014,1393,77,Inbound,4220754,4220772,Massachusetts Ave @ Lake St,13,15,-2
+93,3/1/2014,1395,77,Inbound,4220754,4220772,Massachusetts Ave @ Lafayette St,13,15,-2
+93,3/1/2014,1398,77,Inbound,4220754,4220772,Massachusetts Ave @ Norris St,13,15,-2
+93,3/1/2014,1401,77,Inbound,4220754,4220772,Massachusetts Ave @ Upland Rd,12,15,-3
+93,3/1/2014,1404,77,Inbound,4220754,4220772,Massachusetts Ave @ Waterhouse St,12,15,-3
+93,3/1/2014,1405,77,Inbound,4220754,4220772,Eliot St @ Bennett St,13,15,-2
+94,3/1/2014,1399,77,Inbound,4220772,4220707,Arlington Heights Busway,14,15,-1
+94,3/1/2014,1401,77,Inbound,4220772,4220707,Massachusetts Ave @ Appleton St,14,15,-1
+94,3/1/2014,1406,77,Inbound,4220772,4220707,Massachusetts Ave @ Academy St,14,15,-1
+94,3/1/2014,1408,77,Inbound,4220772,4220707,Massachusetts Ave @ Lake St,15,15,0
+94,3/1/2014,1410,77,Inbound,4220772,4220707,Massachusetts Ave @ Lafayette St,14,15,-1
+94,3/1/2014,1413,77,Inbound,4220772,4220707,Massachusetts Ave @ Norris St,13,15,-2
+94,3/1/2014,1416,77,Inbound,4220772,4220707,Massachusetts Ave @ Upland Rd,14,15,-1
+94,3/1/2014,1419,77,Inbound,4220772,4220707,Massachusetts Ave @ Waterhouse St,16,15,1
+94,3/1/2014,1420,77,Inbound,4220772,4220707,Eliot St @ Bennett St,16,15,1
+95,3/1/2014,1414,77,Inbound,4220707,4220730,Arlington Heights Busway,16,15,1
+95,3/1/2014,1416,77,Inbound,4220707,4220730,Massachusetts Ave @ Appleton St,15,15,0
+95,3/1/2014,1421,77,Inbound,4220707,4220730,Massachusetts Ave @ Academy St,16,15,1
+95,3/1/2014,1423,77,Inbound,4220707,4220730,Massachusetts Ave @ Lake St,13,15,-2
+95,3/1/2014,1425,77,Inbound,4220707,4220730,Massachusetts Ave @ Lafayette St,12,15,-3
+95,3/1/2014,1428,77,Inbound,4220707,4220730,Massachusetts Ave @ Norris St,12,15,-3
+95,3/1/2014,1431,77,Inbound,4220707,4220730,Massachusetts Ave @ Upland Rd,11,15,-4
+95,3/1/2014,1434,77,Inbound,4220707,4220730,Massachusetts Ave @ Waterhouse St,8,15,-7
+95,3/1/2014,1435,77,Inbound,4220707,4220730,Eliot St @ Bennett St,7,15,-8
+96,3/1/2014,1429,77,Inbound,4220730,4220756,Arlington Heights Busway,20,15,5
+96,3/1/2014,1431,77,Inbound,4220730,4220756,Massachusetts Ave @ Appleton St,21,15,6
+96,3/1/2014,1436,77,Inbound,4220730,4220756,Massachusetts Ave @ Academy St,21,15,6
+96,3/1/2014,1438,77,Inbound,4220730,4220756,Massachusetts Ave @ Lake St,21,15,6
+96,3/1/2014,1440,77,Inbound,4220730,4220756,Massachusetts Ave @ Lafayette St,22,15,7
+96,3/1/2014,1443,77,Inbound,4220730,4220756,Massachusetts Ave @ Norris St,22,15,7
+96,3/1/2014,1446,77,Inbound,4220730,4220756,Massachusetts Ave @ Upland Rd,22,15,7
+96,3/1/2014,1449,77,Inbound,4220730,4220756,Massachusetts Ave @ Waterhouse St,23,15,8
+96,3/1/2014,1450,77,Inbound,4220730,4220756,Eliot St @ Bennett St,23,15,8
+97,3/1/2014,1444,77,Inbound,4220756,4220774,Arlington Heights Busway,5,15,-10
+97,3/1/2014,1446,77,Inbound,4220756,4220774,Massachusetts Ave @ Appleton St,13,15,-2
+97,3/1/2014,1451,77,Inbound,4220756,4220774,Massachusetts Ave @ Academy St,13,15,-2
+97,3/1/2014,1453,77,Inbound,4220756,4220774,Massachusetts Ave @ Lake St,13,15,-2
+97,3/1/2014,1455,77,Inbound,4220756,4220774,Massachusetts Ave @ Lafayette St,13,15,-2
+97,3/1/2014,1458,77,Inbound,4220756,4220774,Massachusetts Ave @ Norris St,14,15,-1
+97,3/1/2014,1461,77,Inbound,4220756,4220774,Massachusetts Ave @ Upland Rd,13,15,-2
+97,3/1/2014,1464,77,Inbound,4220756,4220774,Massachusetts Ave @ Waterhouse St,12,15,-3
+97,3/1/2014,1465,77,Inbound,4220756,4220774,Eliot St @ Bennett St,13,15,-2
+98,3/1/2014,1459,77,Inbound,4220774,4220709,Arlington Heights Busway,24,13,11
+98,3/1/2014,1461,77,Inbound,4220774,4220709,Massachusetts Ave @ Appleton St,12,13,-1
+98,3/1/2014,1466,77,Inbound,4220774,4220709,Massachusetts Ave @ Academy St,11,13,-2
+98,3/1/2014,1468,77,Inbound,4220774,4220709,Massachusetts Ave @ Lake St,10,13,-3
+98,3/1/2014,1470,77,Inbound,4220774,4220709,Massachusetts Ave @ Lafayette St,10,13,-3
+98,3/1/2014,1473,77,Inbound,4220774,4220709,Massachusetts Ave @ Norris St,8,13,-5
+98,3/1/2014,1476,77,Inbound,4220774,4220709,Massachusetts Ave @ Upland Rd,10,13,-3
+98,3/1/2014,1479,77,Inbound,4220774,4220709,Massachusetts Ave @ Waterhouse St,9,13,-4
+98,3/1/2014,1480,77,Inbound,4220774,4220709,Eliot St @ Bennett St,9,13,-4

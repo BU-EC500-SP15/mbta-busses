@@ -1,0 +1,971 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,303,39,Inbound,4200623,4200665,Centre St @ Roseway,17,14,3
+1,3/1/2014,305,39,Inbound,4200623,4200665,S Huntington Ave @ Heath St,19,14,5
+1,3/1/2014,308,39,Inbound,4200623,4200665,Huntington Ave opp Fenwood Rd,20,14,6
+1,3/1/2014,309,39,Inbound,4200623,4200665,Huntington Ave @ Longwood Ave,19,14,5
+1,3/1/2014,311,39,Inbound,4200623,4200665,360 Huntington Ave,20,14,6
+1,3/1/2014,314,39,Inbound,4200623,4200665,Dalton St @ Boylston St,22,14,8
+1,3/1/2014,315,39,Inbound,4200623,4200665,Boylston St @ Dartmouth St,22,14,8
+1,3/1/2014,317,39,Inbound,4200623,4200665,Back Bay Station,21,14,7
+2,3/1/2014,317,39,Inbound,4200665,4200755,Centre St @ Roseway,14,15,-1
+2,3/1/2014,319,39,Inbound,4200665,4200755,S Huntington Ave @ Heath St,14,15,-1
+2,3/1/2014,322,39,Inbound,4200665,4200755,Huntington Ave opp Fenwood Rd,14,15,-1
+2,3/1/2014,323,39,Inbound,4200665,4200755,Huntington Ave @ Longwood Ave,15,15,0
+2,3/1/2014,325,39,Inbound,4200665,4200755,360 Huntington Ave,15,15,0
+2,3/1/2014,328,39,Inbound,4200665,4200755,Dalton St @ Boylston St,14,15,-1
+2,3/1/2014,329,39,Inbound,4200665,4200755,Boylston St @ Dartmouth St,14,15,-1
+2,3/1/2014,331,39,Inbound,4200665,4200755,Back Bay Station,15,15,0
+3,3/1/2014,332,39,Inbound,4200755,4200826,Centre St @ Roseway,16,15,1
+3,3/1/2014,334,39,Inbound,4200755,4200826,S Huntington Ave @ Heath St,14,15,-1
+3,3/1/2014,337,39,Inbound,4200755,4200826,Huntington Ave opp Fenwood Rd,16,15,1
+3,3/1/2014,338,39,Inbound,4200755,4200826,Huntington Ave @ Longwood Ave,15,15,0
+3,3/1/2014,340,39,Inbound,4200755,4200826,360 Huntington Ave,15,15,0
+3,3/1/2014,343,39,Inbound,4200755,4200826,Dalton St @ Boylston St,16,15,1
+3,3/1/2014,344,39,Inbound,4200755,4200826,Boylston St @ Dartmouth St,16,15,1
+3,3/1/2014,346,39,Inbound,4200755,4200826,Back Bay Station,16,17,-1
+4,3/1/2014,345,39,Inbound,4200826,4200625,Forest Hills Station,8,15,-7
+4,3/1/2014,346,39,Inbound,4200826,4200625,South St @ Sedgwick St,15,16,-1
+4,3/1/2014,347,39,Inbound,4200826,4200625,Centre St @ Roseway,15,17,-2
+4,3/1/2014,349,39,Inbound,4200826,4200625,S Huntington Ave @ Heath St,15,18,-3
+4,3/1/2014,352,39,Inbound,4200826,4200625,Huntington Ave opp Fenwood Rd,13,18,-5
+4,3/1/2014,353,39,Inbound,4200826,4200625,Huntington Ave @ Longwood Ave,14,19,-5
+4,3/1/2014,355,39,Inbound,4200826,4200625,360 Huntington Ave,14,20,-6
+4,3/1/2014,358,39,Inbound,4200826,4200625,Dalton St @ Boylston St,14,21,-7
+4,3/1/2014,359,39,Inbound,4200826,4200625,Boylston St @ Dartmouth St,13,22,-9
+4,3/1/2014,363,39,Inbound,4200826,4200625,Back Bay Station,13,22,-9
+5,3/1/2014,360,39,Inbound,4200625,4200667,Forest Hills Station,17,15,2
+5,3/1/2014,362,39,Inbound,4200625,4200667,South St @ Sedgwick St,15,15,0
+5,3/1/2014,364,39,Inbound,4200625,4200667,Centre St @ Roseway,15,15,0
+5,3/1/2014,367,39,Inbound,4200625,4200667,S Huntington Ave @ Heath St,16,15,1
+5,3/1/2014,370,39,Inbound,4200625,4200667,Huntington Ave opp Fenwood Rd,18,15,3
+5,3/1/2014,372,39,Inbound,4200625,4200667,Huntington Ave @ Longwood Ave,18,15,3
+5,3/1/2014,375,39,Inbound,4200625,4200667,360 Huntington Ave,18,15,3
+5,3/1/2014,379,39,Inbound,4200625,4200667,Dalton St @ Boylston St,18,15,3
+5,3/1/2014,381,39,Inbound,4200625,4200667,Boylston St @ Dartmouth St,19,15,4
+5,3/1/2014,385,39,Inbound,4200625,4200667,Back Bay Station,20,15,5
+6,3/1/2014,375,39,Inbound,4200667,4200757,Forest Hills Station,18,15,3
+6,3/1/2014,377,39,Inbound,4200667,4200757,South St @ Sedgwick St,15,15,0
+6,3/1/2014,379,39,Inbound,4200667,4200757,Centre St @ Roseway,15,15,0
+6,3/1/2014,382,39,Inbound,4200667,4200757,S Huntington Ave @ Heath St,15,15,0
+6,3/1/2014,385,39,Inbound,4200667,4200757,Huntington Ave opp Fenwood Rd,16,15,1
+6,3/1/2014,387,39,Inbound,4200667,4200757,Huntington Ave @ Longwood Ave,18,15,3
+6,3/1/2014,390,39,Inbound,4200667,4200757,360 Huntington Ave,18,15,3
+6,3/1/2014,394,39,Inbound,4200667,4200757,Dalton St @ Boylston St,18,15,3
+6,3/1/2014,396,39,Inbound,4200667,4200757,Boylston St @ Dartmouth St,19,15,4
+6,3/1/2014,400,39,Inbound,4200667,4200757,Back Bay Station,20,15,5
+7,3/1/2014,390,39,Inbound,4200757,4200828,Forest Hills Station,15,15,0
+7,3/1/2014,392,39,Inbound,4200757,4200828,South St @ Sedgwick St,14,15,-1
+7,3/1/2014,394,39,Inbound,4200757,4200828,Centre St @ Roseway,14,15,-1
+7,3/1/2014,397,39,Inbound,4200757,4200828,S Huntington Ave @ Heath St,15,15,0
+7,3/1/2014,400,39,Inbound,4200757,4200828,Huntington Ave opp Fenwood Rd,14,15,-1
+7,3/1/2014,402,39,Inbound,4200757,4200828,Huntington Ave @ Longwood Ave,13,15,-2
+7,3/1/2014,405,39,Inbound,4200757,4200828,360 Huntington Ave,14,15,-1
+7,3/1/2014,409,39,Inbound,4200757,4200828,Dalton St @ Boylston St,14,15,-1
+7,3/1/2014,411,39,Inbound,4200757,4200828,Boylston St @ Dartmouth St,13,15,-2
+7,3/1/2014,415,39,Inbound,4200757,4200828,Back Bay Station,12,15,-3
+8,3/1/2014,405,39,Inbound,4200828,4200627,Forest Hills Station,18,15,3
+8,3/1/2014,407,39,Inbound,4200828,4200627,South St @ Sedgwick St,14,15,-1
+8,3/1/2014,409,39,Inbound,4200828,4200627,Centre St @ Roseway,14,15,-1
+8,3/1/2014,412,39,Inbound,4200828,4200627,S Huntington Ave @ Heath St,13,15,-2
+8,3/1/2014,415,39,Inbound,4200828,4200627,Huntington Ave opp Fenwood Rd,12,15,-3
+8,3/1/2014,417,39,Inbound,4200828,4200627,Huntington Ave @ Longwood Ave,12,15,-3
+8,3/1/2014,420,39,Inbound,4200828,4200627,360 Huntington Ave,11,15,-4
+8,3/1/2014,424,39,Inbound,4200828,4200627,Dalton St @ Boylston St,9,15,-6
+8,3/1/2014,426,39,Inbound,4200828,4200627,Boylston St @ Dartmouth St,9,15,-6
+8,3/1/2014,430,39,Inbound,4200828,4200627,Back Bay Station,9,15,-6
+9,3/1/2014,420,39,Inbound,4200627,4200669,Forest Hills Station,14,15,-1
+9,3/1/2014,422,39,Inbound,4200627,4200669,South St @ Sedgwick St,16,15,1
+9,3/1/2014,424,39,Inbound,4200627,4200669,Centre St @ Roseway,17,15,2
+9,3/1/2014,427,39,Inbound,4200627,4200669,S Huntington Ave @ Heath St,18,15,3
+9,3/1/2014,430,39,Inbound,4200627,4200669,Huntington Ave opp Fenwood Rd,18,15,3
+9,3/1/2014,432,39,Inbound,4200627,4200669,Huntington Ave @ Longwood Ave,17,15,2
+9,3/1/2014,435,39,Inbound,4200627,4200669,360 Huntington Ave,18,15,3
+9,3/1/2014,439,39,Inbound,4200627,4200669,Dalton St @ Boylston St,19,16,3
+9,3/1/2014,441,39,Inbound,4200627,4200669,Boylston St @ Dartmouth St,19,16,3
+9,3/1/2014,445,39,Inbound,4200627,4200669,Back Bay Station,19,14,5
+10,3/1/2014,435,39,Inbound,4200669,4200759,Forest Hills Station,16,15,1
+10,3/1/2014,437,39,Inbound,4200669,4200759,South St @ Sedgwick St,17,15,2
+10,3/1/2014,439,39,Inbound,4200669,4200759,Centre St @ Roseway,17,16,1
+10,3/1/2014,442,39,Inbound,4200669,4200759,S Huntington Ave @ Heath St,16,16,0
+10,3/1/2014,445,39,Inbound,4200669,4200759,Huntington Ave opp Fenwood Rd,18,17,1
+10,3/1/2014,447,39,Inbound,4200669,4200759,Huntington Ave @ Longwood Ave,19,17,2
+10,3/1/2014,450,39,Inbound,4200669,4200759,360 Huntington Ave,19,17,2
+10,3/1/2014,455,39,Inbound,4200669,4200759,Dalton St @ Boylston St,20,17,3
+10,3/1/2014,457,39,Inbound,4200669,4200759,Boylston St @ Dartmouth St,20,17,3
+10,3/1/2014,459,39,Inbound,4200669,4200759,Back Bay Station,20,17,3
+11,3/1/2014,450,39,Inbound,4200759,4200830,Forest Hills Station,16,15,1
+11,3/1/2014,452,39,Inbound,4200759,4200830,South St @ Sedgwick St,12,15,-3
+11,3/1/2014,455,39,Inbound,4200759,4200830,Centre St @ Roseway,12,15,-3
+11,3/1/2014,458,39,Inbound,4200759,4200830,S Huntington Ave @ Heath St,12,15,-3
+11,3/1/2014,462,39,Inbound,4200759,4200830,Huntington Ave opp Fenwood Rd,12,15,-3
+11,3/1/2014,464,39,Inbound,4200759,4200830,Huntington Ave @ Longwood Ave,11,15,-4
+11,3/1/2014,467,39,Inbound,4200759,4200830,360 Huntington Ave,10,15,-5
+11,3/1/2014,472,39,Inbound,4200759,4200830,Dalton St @ Boylston St,10,15,-5
+11,3/1/2014,474,39,Inbound,4200759,4200830,Boylston St @ Dartmouth St,11,15,-4
+11,3/1/2014,476,39,Inbound,4200759,4200830,Back Bay Station,11,15,-4
+12,3/1/2014,465,39,Inbound,4200830,4200629,Forest Hills Station,14,15,-1
+12,3/1/2014,467,39,Inbound,4200830,4200629,South St @ Sedgwick St,16,15,1
+12,3/1/2014,470,39,Inbound,4200830,4200629,Centre St @ Roseway,17,15,2
+12,3/1/2014,473,39,Inbound,4200830,4200629,S Huntington Ave @ Heath St,17,15,2
+12,3/1/2014,477,39,Inbound,4200830,4200629,Huntington Ave opp Fenwood Rd,16,15,1
+12,3/1/2014,479,39,Inbound,4200830,4200629,Huntington Ave @ Longwood Ave,18,15,3
+12,3/1/2014,482,39,Inbound,4200830,4200629,360 Huntington Ave,18,15,3
+12,3/1/2014,487,39,Inbound,4200830,4200629,Dalton St @ Boylston St,18,15,3
+12,3/1/2014,489,39,Inbound,4200830,4200629,Boylston St @ Dartmouth St,18,15,3
+12,3/1/2014,491,39,Inbound,4200830,4200629,Back Bay Station,19,15,4
+13,3/1/2014,480,39,Inbound,4200629,4200671,Forest Hills Station,14,12,2
+13,3/1/2014,482,39,Inbound,4200629,4200671,South St @ Sedgwick St,14,12,2
+13,3/1/2014,485,39,Inbound,4200629,4200671,Centre St @ Roseway,14,12,2
+13,3/1/2014,488,39,Inbound,4200629,4200671,S Huntington Ave @ Heath St,15,12,3
+13,3/1/2014,492,39,Inbound,4200629,4200671,Huntington Ave opp Fenwood Rd,14,12,2
+13,3/1/2014,494,39,Inbound,4200629,4200671,Huntington Ave @ Longwood Ave,12,12,0
+13,3/1/2014,497,39,Inbound,4200629,4200671,360 Huntington Ave,13,12,1
+13,3/1/2014,502,39,Inbound,4200629,4200671,Dalton St @ Boylston St,12,12,0
+13,3/1/2014,504,39,Inbound,4200629,4200671,Boylston St @ Dartmouth St,11,12,-1
+13,3/1/2014,506,39,Inbound,4200629,4200671,Back Bay Station,11,12,-1
+14,3/1/2014,494,39,Inbound,4200671,4200918,South St @ Sedgwick St,11,12,-1
+14,3/1/2014,497,39,Inbound,4200671,4200918,Centre St @ Roseway,10,12,-2
+14,3/1/2014,500,39,Inbound,4200671,4200918,S Huntington Ave @ Heath St,10,12,-2
+14,3/1/2014,504,39,Inbound,4200671,4200918,Huntington Ave opp Fenwood Rd,10,12,-2
+14,3/1/2014,506,39,Inbound,4200671,4200918,Huntington Ave @ Longwood Ave,9,12,-3
+14,3/1/2014,509,39,Inbound,4200671,4200918,360 Huntington Ave,9,12,-3
+14,3/1/2014,514,39,Inbound,4200671,4200918,Dalton St @ Boylston St,10,12,-2
+14,3/1/2014,516,39,Inbound,4200671,4200918,Boylston St @ Dartmouth St,11,12,-1
+14,3/1/2014,518,39,Inbound,4200671,4200918,Back Bay Station,9,12,-3
+15,3/1/2014,506,39,Inbound,4200918,4200761,South St @ Sedgwick St,12,12,0
+15,3/1/2014,509,39,Inbound,4200918,4200761,Centre St @ Roseway,12,12,0
+15,3/1/2014,512,39,Inbound,4200918,4200761,S Huntington Ave @ Heath St,10,12,-2
+15,3/1/2014,516,39,Inbound,4200918,4200761,Huntington Ave opp Fenwood Rd,10,12,-2
+15,3/1/2014,518,39,Inbound,4200918,4200761,Huntington Ave @ Longwood Ave,12,12,0
+15,3/1/2014,521,39,Inbound,4200918,4200761,360 Huntington Ave,11,12,-1
+15,3/1/2014,526,39,Inbound,4200918,4200761,Dalton St @ Boylston St,12,12,0
+15,3/1/2014,528,39,Inbound,4200918,4200761,Boylston St @ Dartmouth St,12,13,-1
+15,3/1/2014,530,39,Inbound,4200918,4200761,Back Bay Station,14,13,1
+16,3/1/2014,516,39,Inbound,4200761,4200832,Forest Hills Station,12,12,0
+16,3/1/2014,518,39,Inbound,4200761,4200832,South St @ Sedgwick St,11,12,-1
+16,3/1/2014,521,39,Inbound,4200761,4200832,Centre St @ Roseway,12,12,0
+16,3/1/2014,524,39,Inbound,4200761,4200832,S Huntington Ave @ Heath St,15,12,3
+16,3/1/2014,528,39,Inbound,4200761,4200832,Huntington Ave opp Fenwood Rd,16,12,4
+16,3/1/2014,530,39,Inbound,4200761,4200832,Huntington Ave @ Longwood Ave,16,13,3
+16,3/1/2014,533,39,Inbound,4200761,4200832,360 Huntington Ave,17,13,4
+16,3/1/2014,538,39,Inbound,4200761,4200832,Dalton St @ Boylston St,16,14,2
+16,3/1/2014,541,39,Inbound,4200761,4200832,Boylston St @ Dartmouth St,16,14,2
+16,3/1/2014,543,39,Inbound,4200761,4200832,Back Bay Station,16,14,2
+17,3/1/2014,528,39,Inbound,4200832,4200865,Forest Hills Station,18,12,6
+17,3/1/2014,530,39,Inbound,4200832,4200865,South St @ Sedgwick St,16,12,4
+17,3/1/2014,533,39,Inbound,4200832,4200865,Centre St @ Roseway,17,14,3
+17,3/1/2014,536,39,Inbound,4200832,4200865,S Huntington Ave @ Heath St,16,14,2
+17,3/1/2014,540,39,Inbound,4200832,4200865,Huntington Ave opp Fenwood Rd,16,14,2
+17,3/1/2014,543,39,Inbound,4200832,4200865,Huntington Ave @ Longwood Ave,16,14,2
+17,3/1/2014,546,39,Inbound,4200832,4200865,360 Huntington Ave,16,14,2
+17,3/1/2014,552,39,Inbound,4200832,4200865,Dalton St @ Boylston St,17,14,3
+17,3/1/2014,555,39,Inbound,4200832,4200865,Boylston St @ Dartmouth St,18,14,4
+17,3/1/2014,557,39,Inbound,4200832,4200865,Back Bay Station,17,14,3
+18,3/1/2014,540,39,Inbound,4200865,4200631,Forest Hills Station,3,11,-8
+18,3/1/2014,542,39,Inbound,4200865,4200631,South St @ Sedgwick St,11,11,0
+18,3/1/2014,547,39,Inbound,4200865,4200631,Centre St @ Roseway,9,11,-2
+18,3/1/2014,550,39,Inbound,4200865,4200631,S Huntington Ave @ Heath St,10,11,-1
+18,3/1/2014,554,39,Inbound,4200865,4200631,Huntington Ave opp Fenwood Rd,10,11,-1
+18,3/1/2014,557,39,Inbound,4200865,4200631,Huntington Ave @ Longwood Ave,10,11,-1
+18,3/1/2014,560,39,Inbound,4200865,4200631,360 Huntington Ave,11,11,0
+18,3/1/2014,566,39,Inbound,4200865,4200631,Dalton St @ Boylston St,10,11,-1
+18,3/1/2014,569,39,Inbound,4200865,4200631,Boylston St @ Dartmouth St,10,11,-1
+19,3/1/2014,551,39,Inbound,4200631,4200673,Forest Hills Station,18,11,7
+19,3/1/2014,553,39,Inbound,4200631,4200673,South St @ Sedgwick St,10,11,-1
+19,3/1/2014,558,39,Inbound,4200631,4200673,Centre St @ Roseway,12,11,1
+19,3/1/2014,561,39,Inbound,4200631,4200673,S Huntington Ave @ Heath St,11,11,0
+19,3/1/2014,565,39,Inbound,4200631,4200673,Huntington Ave opp Fenwood Rd,12,11,1
+19,3/1/2014,568,39,Inbound,4200631,4200673,Huntington Ave @ Longwood Ave,13,11,2
+19,3/1/2014,571,39,Inbound,4200631,4200673,360 Huntington Ave,12,11,1
+19,3/1/2014,577,39,Inbound,4200631,4200673,Dalton St @ Boylston St,13,11,2
+19,3/1/2014,580,39,Inbound,4200631,4200673,Boylston St @ Dartmouth St,12,11,1
+20,3/1/2014,562,39,Inbound,4200673,4200920,Forest Hills Station,6,11,-5
+20,3/1/2014,564,39,Inbound,4200673,4200920,South St @ Sedgwick St,10,11,-1
+20,3/1/2014,569,39,Inbound,4200673,4200920,Centre St @ Roseway,10,11,-1
+20,3/1/2014,572,39,Inbound,4200673,4200920,S Huntington Ave @ Heath St,11,11,0
+20,3/1/2014,576,39,Inbound,4200673,4200920,Huntington Ave opp Fenwood Rd,10,11,-1
+20,3/1/2014,579,39,Inbound,4200673,4200920,Huntington Ave @ Longwood Ave,11,11,0
+20,3/1/2014,582,39,Inbound,4200673,4200920,360 Huntington Ave,12,11,1
+20,3/1/2014,588,39,Inbound,4200673,4200920,Dalton St @ Boylston St,12,11,1
+20,3/1/2014,591,39,Inbound,4200673,4200920,Boylston St @ Dartmouth St,12,11,1
+20,3/1/2014,593,39,Inbound,4200673,4200920,Back Bay Station,11,11,0
+21,3/1/2014,573,39,Inbound,4200920,4200763,Forest Hills Station,17,11,6
+21,3/1/2014,575,39,Inbound,4200920,4200763,South St @ Sedgwick St,10,11,-1
+21,3/1/2014,580,39,Inbound,4200920,4200763,Centre St @ Roseway,9,11,-2
+21,3/1/2014,583,39,Inbound,4200920,4200763,S Huntington Ave @ Heath St,7,11,-4
+21,3/1/2014,587,39,Inbound,4200920,4200763,Huntington Ave opp Fenwood Rd,6,11,-5
+21,3/1/2014,590,39,Inbound,4200920,4200763,Huntington Ave @ Longwood Ave,4,11,-7
+21,3/1/2014,593,39,Inbound,4200920,4200763,360 Huntington Ave,3,11,-8
+21,3/1/2014,599,39,Inbound,4200920,4200763,Dalton St @ Boylston St,4,11,-7
+21,3/1/2014,602,39,Inbound,4200920,4200763,Boylston St @ Dartmouth St,4,11,-7
+21,3/1/2014,604,39,Inbound,4200920,4200763,Back Bay Station,5,11,-6
+22,3/1/2014,584,39,Inbound,4200763,4200834,Forest Hills Station,11,11,0
+22,3/1/2014,586,39,Inbound,4200763,4200834,South St @ Sedgwick St,12,11,1
+22,3/1/2014,591,39,Inbound,4200763,4200834,Centre St @ Roseway,13,11,2
+22,3/1/2014,594,39,Inbound,4200763,4200834,S Huntington Ave @ Heath St,13,11,2
+22,3/1/2014,598,39,Inbound,4200763,4200834,Huntington Ave opp Fenwood Rd,14,11,3
+22,3/1/2014,601,39,Inbound,4200763,4200834,Huntington Ave @ Longwood Ave,12,11,1
+22,3/1/2014,604,39,Inbound,4200763,4200834,360 Huntington Ave,13,11,2
+22,3/1/2014,610,39,Inbound,4200763,4200834,Dalton St @ Boylston St,13,11,2
+22,3/1/2014,613,39,Inbound,4200763,4200834,Boylston St @ Dartmouth St,12,11,1
+22,3/1/2014,615,39,Inbound,4200763,4200834,Back Bay Station,12,11,1
+23,3/1/2014,595,39,Inbound,4200834,4200867,Forest Hills Station,18,10,8
+23,3/1/2014,597,39,Inbound,4200834,4200867,South St @ Sedgwick St,16,10,6
+23,3/1/2014,602,39,Inbound,4200834,4200867,Centre St @ Roseway,18,10,8
+23,3/1/2014,605,39,Inbound,4200834,4200867,S Huntington Ave @ Heath St,19,10,9
+23,3/1/2014,609,39,Inbound,4200834,4200867,Huntington Ave opp Fenwood Rd,20,10,10
+23,3/1/2014,612,39,Inbound,4200834,4200867,Huntington Ave @ Longwood Ave,23,10,13
+23,3/1/2014,615,39,Inbound,4200834,4200867,360 Huntington Ave,24,10,14
+23,3/1/2014,621,39,Inbound,4200834,4200867,Dalton St @ Boylston St,23,10,13
+23,3/1/2014,624,39,Inbound,4200834,4200867,Boylston St @ Dartmouth St,24,10,14
+23,3/1/2014,626,39,Inbound,4200834,4200867,Back Bay Station,25,10,15
+24,3/1/2014,605,39,Inbound,4200867,4200633,Forest Hills Station,5,20,-15
+24,3/1/2014,607,39,Inbound,4200867,4200633,South St @ Sedgwick St,15,20,-5
+24,3/1/2014,612,39,Inbound,4200867,4200633,Centre St @ Roseway,13,20,-7
+24,3/1/2014,615,39,Inbound,4200867,4200633,S Huntington Ave @ Heath St,13,20,-7
+24,3/1/2014,619,39,Inbound,4200867,4200633,Huntington Ave opp Fenwood Rd,12,20,-8
+24,3/1/2014,622,39,Inbound,4200867,4200633,Huntington Ave @ Longwood Ave,12,20,-8
+24,3/1/2014,625,39,Inbound,4200867,4200633,360 Huntington Ave,10,20,-10
+24,3/1/2014,631,39,Inbound,4200867,4200633,Dalton St @ Boylston St,10,20,-10
+24,3/1/2014,634,39,Inbound,4200867,4200633,Boylston St @ Dartmouth St,11,20,-9
+24,3/1/2014,636,39,Inbound,4200867,4200633,Back Bay Station,10,20,-10
+25,3/1/2014,625,39,Inbound,4200633,4200675,Forest Hills Station,18,10,8
+25,3/1/2014,627,39,Inbound,4200633,4200675,South St @ Sedgwick St,10,10,0
+25,3/1/2014,632,39,Inbound,4200633,4200675,Centre St @ Roseway,8,10,-2
+25,3/1/2014,635,39,Inbound,4200633,4200675,S Huntington Ave @ Heath St,6,10,-4
+25,3/1/2014,639,39,Inbound,4200633,4200675,Huntington Ave opp Fenwood Rd,6,10,-4
+25,3/1/2014,642,39,Inbound,4200633,4200675,Huntington Ave @ Longwood Ave,5,10,-5
+25,3/1/2014,645,39,Inbound,4200633,4200675,360 Huntington Ave,6,10,-4
+25,3/1/2014,651,39,Inbound,4200633,4200675,Dalton St @ Boylston St,7,10,-3
+25,3/1/2014,654,39,Inbound,4200633,4200675,Boylston St @ Dartmouth St,6,10,-4
+25,3/1/2014,656,39,Inbound,4200633,4200675,Back Bay Station,5,11,-6
+26,3/1/2014,635,39,Inbound,4200675,4200922,Forest Hills Station,12,10,2
+26,3/1/2014,637,39,Inbound,4200675,4200922,South St @ Sedgwick St,8,10,-2
+26,3/1/2014,642,39,Inbound,4200675,4200922,Centre St @ Roseway,10,10,0
+26,3/1/2014,645,39,Inbound,4200675,4200922,S Huntington Ave @ Heath St,12,10,2
+26,3/1/2014,649,39,Inbound,4200675,4200922,Huntington Ave opp Fenwood Rd,12,10,2
+26,3/1/2014,652,39,Inbound,4200675,4200922,Huntington Ave @ Longwood Ave,12,10,2
+26,3/1/2014,655,39,Inbound,4200675,4200922,360 Huntington Ave,12,11,1
+26,3/1/2014,661,39,Inbound,4200675,4200922,Dalton St @ Boylston St,10,10,0
+26,3/1/2014,664,39,Inbound,4200675,4200922,Boylston St @ Dartmouth St,10,10,0
+26,3/1/2014,667,39,Inbound,4200675,4200922,Back Bay Station,10,10,0
+27,3/1/2014,677,39,Inbound,4200922,4200893,Back Bay Station,-32,-31,-1
+28,3/1/2014,646,39,Inbound,4200893,4200739,Back Bay Station,44,42,2
+29,3/1/2014,655,39,Inbound,4200739,4200765,Forest Hills Station,8,10,-2
+29,3/1/2014,657,39,Inbound,4200739,4200765,South St @ Sedgwick St,10,11,-1
+29,3/1/2014,662,39,Inbound,4200739,4200765,Centre St @ Roseway,10,11,-1
+29,3/1/2014,665,39,Inbound,4200739,4200765,S Huntington Ave @ Heath St,10,11,-1
+29,3/1/2014,670,39,Inbound,4200739,4200765,Huntington Ave opp Fenwood Rd,10,11,-1
+29,3/1/2014,673,39,Inbound,4200739,4200765,Huntington Ave @ Longwood Ave,11,11,0
+29,3/1/2014,677,39,Inbound,4200739,4200765,360 Huntington Ave,10,11,-1
+29,3/1/2014,682,39,Inbound,4200739,4200765,Dalton St @ Boylston St,10,11,-1
+29,3/1/2014,685,39,Inbound,4200739,4200765,Boylston St @ Dartmouth St,12,11,1
+29,3/1/2014,688,39,Inbound,4200739,4200765,Back Bay Station,14,11,3
+30,3/1/2014,665,39,Inbound,4200765,4200836,Forest Hills Station,18,10,8
+30,3/1/2014,668,39,Inbound,4200765,4200836,South St @ Sedgwick St,11,10,1
+30,3/1/2014,673,39,Inbound,4200765,4200836,Centre St @ Roseway,12,10,2
+30,3/1/2014,676,39,Inbound,4200765,4200836,S Huntington Ave @ Heath St,11,10,1
+30,3/1/2014,681,39,Inbound,4200765,4200836,Huntington Ave opp Fenwood Rd,10,10,0
+30,3/1/2014,684,39,Inbound,4200765,4200836,Huntington Ave @ Longwood Ave,10,10,0
+30,3/1/2014,688,39,Inbound,4200765,4200836,360 Huntington Ave,9,10,-1
+30,3/1/2014,693,39,Inbound,4200765,4200836,Dalton St @ Boylston St,10,10,0
+30,3/1/2014,696,39,Inbound,4200765,4200836,Boylston St @ Dartmouth St,9,10,-1
+30,3/1/2014,699,39,Inbound,4200765,4200836,Back Bay Station,9,10,-1
+31,3/1/2014,675,39,Inbound,4200836,4200869,Forest Hills Station,24,10,14
+31,3/1/2014,678,39,Inbound,4200836,4200869,South St @ Sedgwick St,19,10,9
+31,3/1/2014,683,39,Inbound,4200836,4200869,Centre St @ Roseway,21,10,11
+31,3/1/2014,686,39,Inbound,4200836,4200869,S Huntington Ave @ Heath St,22,10,12
+31,3/1/2014,691,39,Inbound,4200836,4200869,Huntington Ave opp Fenwood Rd,22,10,12
+31,3/1/2014,694,39,Inbound,4200836,4200869,Huntington Ave @ Longwood Ave,22,10,12
+31,3/1/2014,698,39,Inbound,4200836,4200869,360 Huntington Ave,24,10,14
+31,3/1/2014,703,39,Inbound,4200836,4200869,Dalton St @ Boylston St,24,10,14
+31,3/1/2014,706,39,Inbound,4200836,4200869,Boylston St @ Dartmouth St,24,10,14
+31,3/1/2014,709,39,Inbound,4200836,4200869,Back Bay Station,24,10,14
+32,3/1/2014,685,39,Inbound,4200869,4200895,Forest Hills Station,-1,10,-11
+32,3/1/2014,688,39,Inbound,4200869,4200895,South St @ Sedgwick St,1,10,-9
+32,3/1/2014,693,39,Inbound,4200869,4200895,Centre St @ Roseway,-1,10,-11
+32,3/1/2014,696,39,Inbound,4200869,4200895,S Huntington Ave @ Heath St,0,10,-10
+32,3/1/2014,701,39,Inbound,4200869,4200895,Huntington Ave opp Fenwood Rd,2,10,-8
+32,3/1/2014,704,39,Inbound,4200869,4200895,Huntington Ave @ Longwood Ave,2,10,-8
+32,3/1/2014,708,39,Inbound,4200869,4200895,360 Huntington Ave,1,10,-9
+32,3/1/2014,713,39,Inbound,4200869,4200895,Dalton St @ Boylston St,1,10,-9
+32,3/1/2014,716,39,Inbound,4200869,4200895,Boylston St @ Dartmouth St,0,10,-10
+32,3/1/2014,719,39,Inbound,4200869,4200895,Back Bay Station,0,10,-10
+33,3/1/2014,695,39,Inbound,4200895,4200635,Forest Hills Station,5,10,-5
+33,3/1/2014,698,39,Inbound,4200895,4200635,South St @ Sedgwick St,9,10,-1
+33,3/1/2014,703,39,Inbound,4200895,4200635,Centre St @ Roseway,10,10,0
+33,3/1/2014,706,39,Inbound,4200895,4200635,S Huntington Ave @ Heath St,9,10,-1
+33,3/1/2014,711,39,Inbound,4200895,4200635,Huntington Ave opp Fenwood Rd,8,10,-2
+33,3/1/2014,714,39,Inbound,4200895,4200635,Huntington Ave @ Longwood Ave,8,10,-2
+33,3/1/2014,718,39,Inbound,4200895,4200635,360 Huntington Ave,10,10,0
+33,3/1/2014,723,39,Inbound,4200895,4200635,Dalton St @ Boylston St,9,10,-1
+33,3/1/2014,726,39,Inbound,4200895,4200635,Boylston St @ Dartmouth St,9,10,-1
+33,3/1/2014,729,39,Inbound,4200895,4200635,Back Bay Station,9,10,-1
+34,3/1/2014,705,39,Inbound,4200635,4200677,Forest Hills Station,14,10,4
+34,3/1/2014,708,39,Inbound,4200635,4200677,South St @ Sedgwick St,12,10,2
+34,3/1/2014,713,39,Inbound,4200635,4200677,Centre St @ Roseway,10,10,0
+34,3/1/2014,716,39,Inbound,4200635,4200677,S Huntington Ave @ Heath St,11,10,1
+34,3/1/2014,721,39,Inbound,4200635,4200677,Huntington Ave opp Fenwood Rd,10,10,0
+34,3/1/2014,724,39,Inbound,4200635,4200677,Huntington Ave @ Longwood Ave,10,10,0
+34,3/1/2014,728,39,Inbound,4200635,4200677,360 Huntington Ave,8,10,-2
+34,3/1/2014,733,39,Inbound,4200635,4200677,Dalton St @ Boylston St,10,10,0
+34,3/1/2014,736,39,Inbound,4200635,4200677,Boylston St @ Dartmouth St,9,10,-1
+34,3/1/2014,739,39,Inbound,4200635,4200677,Back Bay Station,8,10,-2
+35,3/1/2014,715,39,Inbound,4200677,4200924,Forest Hills Station,6,10,-4
+35,3/1/2014,718,39,Inbound,4200677,4200924,South St @ Sedgwick St,7,10,-3
+35,3/1/2014,723,39,Inbound,4200677,4200924,Centre St @ Roseway,9,10,-1
+35,3/1/2014,726,39,Inbound,4200677,4200924,S Huntington Ave @ Heath St,8,10,-2
+35,3/1/2014,731,39,Inbound,4200677,4200924,Huntington Ave opp Fenwood Rd,8,10,-2
+35,3/1/2014,734,39,Inbound,4200677,4200924,Huntington Ave @ Longwood Ave,6,10,-4
+35,3/1/2014,738,39,Inbound,4200677,4200924,360 Huntington Ave,6,10,-4
+35,3/1/2014,743,39,Inbound,4200677,4200924,Dalton St @ Boylston St,5,10,-5
+35,3/1/2014,746,39,Inbound,4200677,4200924,Boylston St @ Dartmouth St,5,10,-5
+35,3/1/2014,749,39,Inbound,4200677,4200924,Back Bay Station,4,10,-6
+36,3/1/2014,725,39,Inbound,4200924,4200741,Forest Hills Station,14,10,4
+36,3/1/2014,728,39,Inbound,4200924,4200741,South St @ Sedgwick St,12,10,2
+36,3/1/2014,733,39,Inbound,4200924,4200741,Centre St @ Roseway,12,10,2
+36,3/1/2014,736,39,Inbound,4200924,4200741,S Huntington Ave @ Heath St,12,10,2
+36,3/1/2014,741,39,Inbound,4200924,4200741,Huntington Ave opp Fenwood Rd,12,10,2
+36,3/1/2014,744,39,Inbound,4200924,4200741,Huntington Ave @ Longwood Ave,14,10,4
+36,3/1/2014,748,39,Inbound,4200924,4200741,360 Huntington Ave,15,10,5
+36,3/1/2014,753,39,Inbound,4200924,4200741,Dalton St @ Boylston St,15,10,5
+36,3/1/2014,756,39,Inbound,4200924,4200741,Boylston St @ Dartmouth St,16,10,6
+36,3/1/2014,759,39,Inbound,4200924,4200741,Back Bay Station,16,10,6
+37,3/1/2014,735,39,Inbound,4200741,4200767,Forest Hills Station,8,10,-2
+37,3/1/2014,738,39,Inbound,4200741,4200767,South St @ Sedgwick St,10,10,0
+37,3/1/2014,743,39,Inbound,4200741,4200767,Centre St @ Roseway,8,10,-2
+37,3/1/2014,746,39,Inbound,4200741,4200767,S Huntington Ave @ Heath St,9,10,-1
+37,3/1/2014,751,39,Inbound,4200741,4200767,Huntington Ave opp Fenwood Rd,10,10,0
+37,3/1/2014,754,39,Inbound,4200741,4200767,Huntington Ave @ Longwood Ave,12,10,2
+37,3/1/2014,758,39,Inbound,4200741,4200767,360 Huntington Ave,14,10,4
+37,3/1/2014,763,39,Inbound,4200741,4200767,Dalton St @ Boylston St,13,10,3
+37,3/1/2014,766,39,Inbound,4200741,4200767,Boylston St @ Dartmouth St,14,10,4
+37,3/1/2014,769,39,Inbound,4200741,4200767,Back Bay Station,17,10,7
+38,3/1/2014,745,39,Inbound,4200767,4200838,Forest Hills Station,14,10,4
+38,3/1/2014,748,39,Inbound,4200767,4200838,South St @ Sedgwick St,8,10,-2
+38,3/1/2014,753,39,Inbound,4200767,4200838,Centre St @ Roseway,7,10,-3
+38,3/1/2014,756,39,Inbound,4200767,4200838,S Huntington Ave @ Heath St,7,10,-3
+38,3/1/2014,761,39,Inbound,4200767,4200838,Huntington Ave opp Fenwood Rd,8,10,-2
+38,3/1/2014,764,39,Inbound,4200767,4200838,Huntington Ave @ Longwood Ave,6,10,-4
+38,3/1/2014,768,39,Inbound,4200767,4200838,360 Huntington Ave,4,10,-6
+38,3/1/2014,773,39,Inbound,4200767,4200838,Dalton St @ Boylston St,7,10,-3
+38,3/1/2014,776,39,Inbound,4200767,4200838,Boylston St @ Dartmouth St,7,10,-3
+38,3/1/2014,779,39,Inbound,4200767,4200838,Back Bay Station,6,10,-4
+39,3/1/2014,755,39,Inbound,4200838,4200871,Forest Hills Station,30,10,20
+39,3/1/2014,758,39,Inbound,4200838,4200871,South St @ Sedgwick St,31,10,21
+39,3/1/2014,763,39,Inbound,4200838,4200871,Centre St @ Roseway,34,10,24
+39,3/1/2014,766,39,Inbound,4200838,4200871,S Huntington Ave @ Heath St,34,10,24
+39,3/1/2014,771,39,Inbound,4200838,4200871,Huntington Ave opp Fenwood Rd,32,10,22
+39,3/1/2014,774,39,Inbound,4200838,4200871,Huntington Ave @ Longwood Ave,31,10,21
+39,3/1/2014,778,39,Inbound,4200838,4200871,360 Huntington Ave,30,10,20
+39,3/1/2014,783,39,Inbound,4200838,4200871,Dalton St @ Boylston St,27,10,17
+39,3/1/2014,786,39,Inbound,4200838,4200871,Boylston St @ Dartmouth St,27,10,17
+39,3/1/2014,789,39,Inbound,4200838,4200871,Back Bay Station,27,10,17
+40,3/1/2014,765,39,Inbound,4200871,4200897,Forest Hills Station,-5,10,-15
+40,3/1/2014,768,39,Inbound,4200871,4200897,South St @ Sedgwick St,1,10,-9
+40,3/1/2014,773,39,Inbound,4200871,4200897,Centre St @ Roseway,1,10,-9
+40,3/1/2014,776,39,Inbound,4200871,4200897,S Huntington Ave @ Heath St,0,10,-10
+40,3/1/2014,781,39,Inbound,4200871,4200897,Huntington Ave opp Fenwood Rd,0,10,-10
+40,3/1/2014,784,39,Inbound,4200871,4200897,Huntington Ave @ Longwood Ave,1,10,-9
+40,3/1/2014,788,39,Inbound,4200871,4200897,360 Huntington Ave,1,10,-9
+40,3/1/2014,793,39,Inbound,4200871,4200897,Dalton St @ Boylston St,1,10,-9
+40,3/1/2014,796,39,Inbound,4200871,4200897,Boylston St @ Dartmouth St,0,10,-10
+40,3/1/2014,799,39,Inbound,4200871,4200897,Back Bay Station,0,10,-10
+41,3/1/2014,775,39,Inbound,4200897,4200637,Forest Hills Station,6,10,-4
+41,3/1/2014,778,39,Inbound,4200897,4200637,South St @ Sedgwick St,2,10,-8
+41,3/1/2014,783,39,Inbound,4200897,4200637,Centre St @ Roseway,1,10,-9
+41,3/1/2014,786,39,Inbound,4200897,4200637,S Huntington Ave @ Heath St,0,10,-10
+41,3/1/2014,791,39,Inbound,4200897,4200637,Huntington Ave opp Fenwood Rd,2,10,-8
+41,3/1/2014,794,39,Inbound,4200897,4200637,Huntington Ave @ Longwood Ave,2,10,-8
+41,3/1/2014,798,39,Inbound,4200897,4200637,360 Huntington Ave,2,10,-8
+41,3/1/2014,803,39,Inbound,4200897,4200637,Dalton St @ Boylston St,1,10,-9
+41,3/1/2014,806,39,Inbound,4200897,4200637,Boylston St @ Dartmouth St,0,10,-10
+41,3/1/2014,809,39,Inbound,4200897,4200637,Back Bay Station,0,10,-10
+42,3/1/2014,785,39,Inbound,4200637,4200679,Forest Hills Station,10,10,0
+42,3/1/2014,788,39,Inbound,4200637,4200679,South St @ Sedgwick St,6,10,-4
+42,3/1/2014,793,39,Inbound,4200637,4200679,Centre St @ Roseway,7,10,-3
+42,3/1/2014,796,39,Inbound,4200637,4200679,S Huntington Ave @ Heath St,9,10,-1
+42,3/1/2014,801,39,Inbound,4200637,4200679,Huntington Ave opp Fenwood Rd,6,10,-4
+42,3/1/2014,804,39,Inbound,4200637,4200679,Huntington Ave @ Longwood Ave,6,10,-4
+42,3/1/2014,808,39,Inbound,4200637,4200679,360 Huntington Ave,6,10,-4
+42,3/1/2014,813,39,Inbound,4200637,4200679,Dalton St @ Boylston St,8,10,-2
+42,3/1/2014,816,39,Inbound,4200637,4200679,Boylston St @ Dartmouth St,8,10,-2
+42,3/1/2014,819,39,Inbound,4200637,4200679,Back Bay Station,7,10,-3
+43,3/1/2014,795,39,Inbound,4200679,4200926,Forest Hills Station,5,10,-5
+43,3/1/2014,798,39,Inbound,4200679,4200926,South St @ Sedgwick St,10,10,0
+43,3/1/2014,803,39,Inbound,4200679,4200926,Centre St @ Roseway,9,10,-1
+43,3/1/2014,806,39,Inbound,4200679,4200926,S Huntington Ave @ Heath St,8,10,-2
+43,3/1/2014,811,39,Inbound,4200679,4200926,Huntington Ave opp Fenwood Rd,8,10,-2
+43,3/1/2014,814,39,Inbound,4200679,4200926,Huntington Ave @ Longwood Ave,8,10,-2
+43,3/1/2014,818,39,Inbound,4200679,4200926,360 Huntington Ave,8,10,-2
+43,3/1/2014,823,39,Inbound,4200679,4200926,Dalton St @ Boylston St,7,10,-3
+43,3/1/2014,826,39,Inbound,4200679,4200926,Boylston St @ Dartmouth St,9,10,-1
+43,3/1/2014,829,39,Inbound,4200679,4200926,Back Bay Station,9,10,-1
+44,3/1/2014,805,39,Inbound,4200926,4200743,Forest Hills Station,12,10,2
+44,3/1/2014,808,39,Inbound,4200926,4200743,South St @ Sedgwick St,14,10,4
+44,3/1/2014,813,39,Inbound,4200926,4200743,Centre St @ Roseway,12,10,2
+44,3/1/2014,816,39,Inbound,4200926,4200743,S Huntington Ave @ Heath St,13,10,3
+44,3/1/2014,821,39,Inbound,4200926,4200743,Huntington Ave opp Fenwood Rd,15,10,5
+44,3/1/2014,824,39,Inbound,4200926,4200743,Huntington Ave @ Longwood Ave,16,10,6
+44,3/1/2014,828,39,Inbound,4200926,4200743,360 Huntington Ave,17,10,7
+44,3/1/2014,833,39,Inbound,4200926,4200743,Dalton St @ Boylston St,17,10,7
+44,3/1/2014,836,39,Inbound,4200926,4200743,Boylston St @ Dartmouth St,17,10,7
+44,3/1/2014,839,39,Inbound,4200926,4200743,Back Bay Station,18,10,8
+45,3/1/2014,815,39,Inbound,4200743,4200769,Forest Hills Station,15,10,5
+45,3/1/2014,818,39,Inbound,4200743,4200769,South St @ Sedgwick St,14,10,4
+45,3/1/2014,823,39,Inbound,4200743,4200769,Centre St @ Roseway,16,10,6
+45,3/1/2014,826,39,Inbound,4200743,4200769,S Huntington Ave @ Heath St,14,10,4
+45,3/1/2014,831,39,Inbound,4200743,4200769,Huntington Ave opp Fenwood Rd,13,10,3
+45,3/1/2014,834,39,Inbound,4200743,4200769,Huntington Ave @ Longwood Ave,12,10,2
+45,3/1/2014,838,39,Inbound,4200743,4200769,360 Huntington Ave,10,10,0
+45,3/1/2014,843,39,Inbound,4200743,4200769,Dalton St @ Boylston St,10,10,0
+45,3/1/2014,846,39,Inbound,4200743,4200769,Boylston St @ Dartmouth St,9,10,-1
+45,3/1/2014,849,39,Inbound,4200743,4200769,Back Bay Station,9,10,-1
+46,3/1/2014,825,39,Inbound,4200769,4200815,Forest Hills Station,5,10,-5
+46,3/1/2014,828,39,Inbound,4200769,4200815,South St @ Sedgwick St,4,10,-6
+46,3/1/2014,833,39,Inbound,4200769,4200815,Centre St @ Roseway,2,10,-8
+46,3/1/2014,836,39,Inbound,4200769,4200815,S Huntington Ave @ Heath St,2,10,-8
+46,3/1/2014,841,39,Inbound,4200769,4200815,Huntington Ave opp Fenwood Rd,2,10,-8
+46,3/1/2014,844,39,Inbound,4200769,4200815,Huntington Ave @ Longwood Ave,2,10,-8
+46,3/1/2014,848,39,Inbound,4200769,4200815,360 Huntington Ave,4,10,-6
+46,3/1/2014,853,39,Inbound,4200769,4200815,Dalton St @ Boylston St,7,10,-3
+46,3/1/2014,856,39,Inbound,4200769,4200815,Boylston St @ Dartmouth St,6,10,-4
+46,3/1/2014,859,39,Inbound,4200769,4200815,Back Bay Station,6,10,-4
+47,3/1/2014,835,39,Inbound,4200815,4200873,Forest Hills Station,31,10,21
+47,3/1/2014,838,39,Inbound,4200815,4200873,South St @ Sedgwick St,28,10,18
+47,3/1/2014,843,39,Inbound,4200815,4200873,Centre St @ Roseway,32,10,22
+47,3/1/2014,846,39,Inbound,4200815,4200873,S Huntington Ave @ Heath St,31,10,21
+47,3/1/2014,851,39,Inbound,4200815,4200873,Huntington Ave opp Fenwood Rd,32,10,22
+47,3/1/2014,854,39,Inbound,4200815,4200873,Huntington Ave @ Longwood Ave,31,10,21
+47,3/1/2014,858,39,Inbound,4200815,4200873,360 Huntington Ave,29,10,19
+47,3/1/2014,863,39,Inbound,4200815,4200873,Dalton St @ Boylston St,26,10,16
+47,3/1/2014,866,39,Inbound,4200815,4200873,Boylston St @ Dartmouth St,28,10,18
+47,3/1/2014,869,39,Inbound,4200815,4200873,Back Bay Station,27,10,17
+48,3/1/2014,845,39,Inbound,4200873,4200899,Forest Hills Station,0,10,-10
+48,3/1/2014,848,39,Inbound,4200873,4200899,South St @ Sedgwick St,-1,10,-11
+48,3/1/2014,853,39,Inbound,4200873,4200899,Centre St @ Roseway,-1,10,-11
+48,3/1/2014,856,39,Inbound,4200873,4200899,S Huntington Ave @ Heath St,0,10,-10
+48,3/1/2014,861,39,Inbound,4200873,4200899,Huntington Ave opp Fenwood Rd,0,10,-10
+48,3/1/2014,864,39,Inbound,4200873,4200899,Huntington Ave @ Longwood Ave,0,10,-10
+48,3/1/2014,868,39,Inbound,4200873,4200899,360 Huntington Ave,1,10,-9
+48,3/1/2014,873,39,Inbound,4200873,4200899,Dalton St @ Boylston St,2,10,-8
+48,3/1/2014,876,39,Inbound,4200873,4200899,Boylston St @ Dartmouth St,2,10,-8
+48,3/1/2014,879,39,Inbound,4200873,4200899,Back Bay Station,3,10,-7
+49,3/1/2014,855,39,Inbound,4200899,4200639,Forest Hills Station,1,10,-9
+49,3/1/2014,858,39,Inbound,4200899,4200639,South St @ Sedgwick St,1,10,-9
+49,3/1/2014,863,39,Inbound,4200899,4200639,Centre St @ Roseway,0,10,-10
+49,3/1/2014,866,39,Inbound,4200899,4200639,S Huntington Ave @ Heath St,1,10,-9
+49,3/1/2014,871,39,Inbound,4200899,4200639,Huntington Ave opp Fenwood Rd,0,10,-10
+49,3/1/2014,874,39,Inbound,4200899,4200639,Huntington Ave @ Longwood Ave,3,10,-7
+49,3/1/2014,878,39,Inbound,4200899,4200639,360 Huntington Ave,3,10,-7
+49,3/1/2014,883,39,Inbound,4200899,4200639,Dalton St @ Boylston St,2,10,-8
+49,3/1/2014,886,39,Inbound,4200899,4200639,Boylston St @ Dartmouth St,1,10,-9
+49,3/1/2014,889,39,Inbound,4200899,4200639,Back Bay Station,1,10,-9
+50,3/1/2014,865,39,Inbound,4200639,4200681,Forest Hills Station,4,10,-6
+50,3/1/2014,868,39,Inbound,4200639,4200681,South St @ Sedgwick St,10,10,0
+50,3/1/2014,873,39,Inbound,4200639,4200681,Centre St @ Roseway,9,10,-1
+50,3/1/2014,876,39,Inbound,4200639,4200681,S Huntington Ave @ Heath St,8,10,-2
+50,3/1/2014,881,39,Inbound,4200639,4200681,Huntington Ave opp Fenwood Rd,8,10,-2
+50,3/1/2014,884,39,Inbound,4200639,4200681,Huntington Ave @ Longwood Ave,6,10,-4
+50,3/1/2014,888,39,Inbound,4200639,4200681,360 Huntington Ave,5,10,-5
+50,3/1/2014,893,39,Inbound,4200639,4200681,Dalton St @ Boylston St,5,10,-5
+50,3/1/2014,896,39,Inbound,4200639,4200681,Boylston St @ Dartmouth St,4,10,-6
+50,3/1/2014,899,39,Inbound,4200639,4200681,Back Bay Station,4,10,-6
+51,3/1/2014,875,39,Inbound,4200681,4200928,Forest Hills Station,17,10,7
+51,3/1/2014,878,39,Inbound,4200681,4200928,South St @ Sedgwick St,15,10,5
+51,3/1/2014,883,39,Inbound,4200681,4200928,Centre St @ Roseway,14,10,4
+51,3/1/2014,886,39,Inbound,4200681,4200928,S Huntington Ave @ Heath St,14,10,4
+51,3/1/2014,891,39,Inbound,4200681,4200928,Huntington Ave opp Fenwood Rd,14,10,4
+51,3/1/2014,894,39,Inbound,4200681,4200928,Huntington Ave @ Longwood Ave,14,10,4
+51,3/1/2014,898,39,Inbound,4200681,4200928,360 Huntington Ave,15,10,5
+51,3/1/2014,903,39,Inbound,4200681,4200928,Dalton St @ Boylston St,15,10,5
+51,3/1/2014,906,39,Inbound,4200681,4200928,Boylston St @ Dartmouth St,17,10,7
+51,3/1/2014,909,39,Inbound,4200681,4200928,Back Bay Station,16,10,6
+52,3/1/2014,885,39,Inbound,4200928,4200745,Forest Hills Station,12,10,2
+52,3/1/2014,888,39,Inbound,4200928,4200745,South St @ Sedgwick St,9,10,-1
+52,3/1/2014,893,39,Inbound,4200928,4200745,Centre St @ Roseway,9,10,-1
+52,3/1/2014,896,39,Inbound,4200928,4200745,S Huntington Ave @ Heath St,10,10,0
+52,3/1/2014,901,39,Inbound,4200928,4200745,Huntington Ave opp Fenwood Rd,10,9,1
+52,3/1/2014,904,39,Inbound,4200928,4200745,Huntington Ave @ Longwood Ave,9,9,0
+52,3/1/2014,908,39,Inbound,4200928,4200745,360 Huntington Ave,9,9,0
+52,3/1/2014,913,39,Inbound,4200928,4200745,Dalton St @ Boylston St,8,9,-1
+52,3/1/2014,916,39,Inbound,4200928,4200745,Boylston St @ Dartmouth St,7,9,-2
+52,3/1/2014,919,39,Inbound,4200928,4200745,Back Bay Station,8,9,-1
+53,3/1/2014,895,39,Inbound,4200745,4200771,Forest Hills Station,11,10,1
+53,3/1/2014,898,39,Inbound,4200745,4200771,South St @ Sedgwick St,12,9,3
+53,3/1/2014,903,39,Inbound,4200745,4200771,Centre St @ Roseway,12,9,3
+53,3/1/2014,906,39,Inbound,4200745,4200771,S Huntington Ave @ Heath St,11,9,2
+53,3/1/2014,910,39,Inbound,4200745,4200771,Huntington Ave opp Fenwood Rd,12,9,3
+53,3/1/2014,913,39,Inbound,4200745,4200771,Huntington Ave @ Longwood Ave,13,9,4
+53,3/1/2014,917,39,Inbound,4200745,4200771,360 Huntington Ave,13,9,4
+53,3/1/2014,922,39,Inbound,4200745,4200771,Dalton St @ Boylston St,14,9,5
+53,3/1/2014,925,39,Inbound,4200745,4200771,Boylston St @ Dartmouth St,14,9,5
+53,3/1/2014,928,39,Inbound,4200745,4200771,Back Bay Station,13,9,4
+54,3/1/2014,905,39,Inbound,4200771,4200817,Forest Hills Station,5,10,-5
+54,3/1/2014,926,39,Inbound,4200771,4200817,360 Huntington Ave,16,10,6
+54,3/1/2014,931,39,Inbound,4200771,4200817,Dalton St @ Boylston St,15,10,5
+54,3/1/2014,934,39,Inbound,4200771,4200817,Boylston St @ Dartmouth St,14,10,4
+54,3/1/2014,937,39,Inbound,4200771,4200817,Back Bay Station,13,10,3
+55,3/1/2014,915,39,Inbound,4200817,4200875,Forest Hills Station,24,10,14
+55,3/1/2014,936,39,Inbound,4200817,4200875,360 Huntington Ave,21,10,11
+55,3/1/2014,941,39,Inbound,4200817,4200875,Dalton St @ Boylston St,23,10,13
+55,3/1/2014,944,39,Inbound,4200817,4200875,Boylston St @ Dartmouth St,24,10,14
+56,3/1/2014,925,39,Inbound,4200875,4200901,Forest Hills Station,4,10,-6
+56,3/1/2014,927,39,Inbound,4200875,4200901,South St @ Sedgwick St,4,10,-6
+56,3/1/2014,932,39,Inbound,4200875,4200901,Centre St @ Roseway,5,10,-5
+56,3/1/2014,935,39,Inbound,4200875,4200901,S Huntington Ave @ Heath St,3,10,-7
+56,3/1/2014,939,39,Inbound,4200875,4200901,Huntington Ave opp Fenwood Rd,0,10,-10
+56,3/1/2014,942,39,Inbound,4200875,4200901,Huntington Ave @ Longwood Ave,0,10,-10
+56,3/1/2014,946,39,Inbound,4200875,4200901,360 Huntington Ave,0,10,-10
+56,3/1/2014,951,39,Inbound,4200875,4200901,Dalton St @ Boylston St,0,10,-10
+56,3/1/2014,954,39,Inbound,4200875,4200901,Boylston St @ Dartmouth St,0,10,-10
+57,3/1/2014,935,39,Inbound,4200901,4200641,Forest Hills Station,-4,10,-14
+57,3/1/2014,937,39,Inbound,4200901,4200641,South St @ Sedgwick St,1,10,-9
+57,3/1/2014,942,39,Inbound,4200901,4200641,Centre St @ Roseway,1,10,-9
+57,3/1/2014,945,39,Inbound,4200901,4200641,S Huntington Ave @ Heath St,1,10,-9
+57,3/1/2014,949,39,Inbound,4200901,4200641,Huntington Ave opp Fenwood Rd,2,10,-8
+57,3/1/2014,952,39,Inbound,4200901,4200641,Huntington Ave @ Longwood Ave,1,10,-9
+57,3/1/2014,956,39,Inbound,4200901,4200641,360 Huntington Ave,1,10,-9
+57,3/1/2014,961,39,Inbound,4200901,4200641,Dalton St @ Boylston St,1,10,-9
+57,3/1/2014,964,39,Inbound,4200901,4200641,Boylston St @ Dartmouth St,2,10,-8
+57,3/1/2014,967,39,Inbound,4200901,4200641,Back Bay Station,1,10,-9
+58,3/1/2014,945,39,Inbound,4200641,4200683,Forest Hills Station,16,10,6
+58,3/1/2014,947,39,Inbound,4200641,4200683,South St @ Sedgwick St,7,10,-3
+58,3/1/2014,952,39,Inbound,4200641,4200683,Centre St @ Roseway,5,10,-5
+58,3/1/2014,955,39,Inbound,4200641,4200683,S Huntington Ave @ Heath St,5,10,-5
+58,3/1/2014,959,39,Inbound,4200641,4200683,Huntington Ave opp Fenwood Rd,4,10,-6
+58,3/1/2014,962,39,Inbound,4200641,4200683,Huntington Ave @ Longwood Ave,5,10,-5
+58,3/1/2014,966,39,Inbound,4200641,4200683,360 Huntington Ave,5,10,-5
+58,3/1/2014,971,39,Inbound,4200641,4200683,Dalton St @ Boylston St,4,10,-6
+58,3/1/2014,974,39,Inbound,4200641,4200683,Boylston St @ Dartmouth St,3,10,-7
+58,3/1/2014,977,39,Inbound,4200641,4200683,Back Bay Station,3,10,-7
+59,3/1/2014,955,39,Inbound,4200683,4200930,Forest Hills Station,10,10,0
+59,3/1/2014,957,39,Inbound,4200683,4200930,South St @ Sedgwick St,11,10,1
+59,3/1/2014,962,39,Inbound,4200683,4200930,Centre St @ Roseway,12,10,2
+59,3/1/2014,965,39,Inbound,4200683,4200930,S Huntington Ave @ Heath St,13,10,3
+59,3/1/2014,969,39,Inbound,4200683,4200930,Huntington Ave opp Fenwood Rd,12,10,2
+59,3/1/2014,972,39,Inbound,4200683,4200930,Huntington Ave @ Longwood Ave,12,10,2
+59,3/1/2014,976,39,Inbound,4200683,4200930,360 Huntington Ave,13,10,3
+59,3/1/2014,981,39,Inbound,4200683,4200930,Dalton St @ Boylston St,13,10,3
+59,3/1/2014,984,39,Inbound,4200683,4200930,Boylston St @ Dartmouth St,15,10,5
+59,3/1/2014,987,39,Inbound,4200683,4200930,Back Bay Station,16,10,6
+60,3/1/2014,965,39,Inbound,4200930,4200747,Forest Hills Station,-1,10,-11
+60,3/1/2014,967,39,Inbound,4200930,4200747,South St @ Sedgwick St,10,10,0
+60,3/1/2014,972,39,Inbound,4200930,4200747,Centre St @ Roseway,10,10,0
+60,3/1/2014,975,39,Inbound,4200930,4200747,S Huntington Ave @ Heath St,8,10,-2
+60,3/1/2014,979,39,Inbound,4200930,4200747,Huntington Ave opp Fenwood Rd,8,10,-2
+60,3/1/2014,982,39,Inbound,4200930,4200747,Huntington Ave @ Longwood Ave,10,10,0
+60,3/1/2014,986,39,Inbound,4200930,4200747,360 Huntington Ave,11,10,1
+60,3/1/2014,991,39,Inbound,4200930,4200747,Dalton St @ Boylston St,11,10,1
+60,3/1/2014,994,39,Inbound,4200930,4200747,Boylston St @ Dartmouth St,9,10,-1
+60,3/1/2014,997,39,Inbound,4200930,4200747,Back Bay Station,9,10,-1
+61,3/1/2014,975,39,Inbound,4200747,4200773,Forest Hills Station,22,10,12
+61,3/1/2014,977,39,Inbound,4200747,4200773,South St @ Sedgwick St,8,10,-2
+61,3/1/2014,982,39,Inbound,4200747,4200773,Centre St @ Roseway,8,10,-2
+61,3/1/2014,985,39,Inbound,4200747,4200773,S Huntington Ave @ Heath St,8,10,-2
+61,3/1/2014,989,39,Inbound,4200747,4200773,Huntington Ave opp Fenwood Rd,8,10,-2
+61,3/1/2014,992,39,Inbound,4200747,4200773,Huntington Ave @ Longwood Ave,6,10,-4
+61,3/1/2014,996,39,Inbound,4200747,4200773,360 Huntington Ave,6,10,-4
+61,3/1/2014,1001,39,Inbound,4200747,4200773,Dalton St @ Boylston St,6,10,-4
+61,3/1/2014,1004,39,Inbound,4200747,4200773,Boylston St @ Dartmouth St,6,10,-4
+61,3/1/2014,1007,39,Inbound,4200747,4200773,Back Bay Station,5,10,-5
+62,3/1/2014,985,39,Inbound,4200773,4200819,Forest Hills Station,11,10,1
+62,3/1/2014,987,39,Inbound,4200773,4200819,South St @ Sedgwick St,18,10,8
+62,3/1/2014,992,39,Inbound,4200773,4200819,Centre St @ Roseway,16,10,6
+62,3/1/2014,995,39,Inbound,4200773,4200819,S Huntington Ave @ Heath St,17,10,7
+62,3/1/2014,999,39,Inbound,4200773,4200819,Huntington Ave opp Fenwood Rd,18,10,8
+62,3/1/2014,1002,39,Inbound,4200773,4200819,Huntington Ave @ Longwood Ave,18,10,8
+62,3/1/2014,1006,39,Inbound,4200773,4200819,360 Huntington Ave,16,10,6
+62,3/1/2014,1011,39,Inbound,4200773,4200819,Dalton St @ Boylston St,17,10,7
+62,3/1/2014,1014,39,Inbound,4200773,4200819,Boylston St @ Dartmouth St,18,10,8
+62,3/1/2014,1017,39,Inbound,4200773,4200819,Back Bay Station,18,10,8
+63,3/1/2014,995,39,Inbound,4200819,4200877,Forest Hills Station,28,10,18
+63,3/1/2014,997,39,Inbound,4200819,4200877,South St @ Sedgwick St,21,10,11
+63,3/1/2014,1002,39,Inbound,4200819,4200877,Centre St @ Roseway,21,10,11
+63,3/1/2014,1005,39,Inbound,4200819,4200877,S Huntington Ave @ Heath St,20,10,10
+63,3/1/2014,1009,39,Inbound,4200819,4200877,Huntington Ave opp Fenwood Rd,19,10,9
+63,3/1/2014,1012,39,Inbound,4200819,4200877,Huntington Ave @ Longwood Ave,20,10,10
+63,3/1/2014,1016,39,Inbound,4200819,4200877,360 Huntington Ave,22,10,12
+63,3/1/2014,1021,39,Inbound,4200819,4200877,Dalton St @ Boylston St,21,10,11
+63,3/1/2014,1024,39,Inbound,4200819,4200877,Boylston St @ Dartmouth St,22,10,12
+63,3/1/2014,1027,39,Inbound,4200819,4200877,Back Bay Station,22,10,12
+64,3/1/2014,1005,39,Inbound,4200877,4200903,Forest Hills Station,0,10,-10
+64,3/1/2014,1007,39,Inbound,4200877,4200903,South St @ Sedgwick St,2,10,-8
+64,3/1/2014,1012,39,Inbound,4200877,4200903,Centre St @ Roseway,3,10,-7
+64,3/1/2014,1015,39,Inbound,4200877,4200903,S Huntington Ave @ Heath St,3,10,-7
+64,3/1/2014,1019,39,Inbound,4200877,4200903,Huntington Ave opp Fenwood Rd,5,10,-5
+64,3/1/2014,1022,39,Inbound,4200877,4200903,Huntington Ave @ Longwood Ave,4,10,-6
+64,3/1/2014,1026,39,Inbound,4200877,4200903,360 Huntington Ave,2,10,-8
+64,3/1/2014,1031,39,Inbound,4200877,4200903,Dalton St @ Boylston St,2,10,-8
+64,3/1/2014,1034,39,Inbound,4200877,4200903,Boylston St @ Dartmouth St,1,10,-9
+64,3/1/2014,1037,39,Inbound,4200877,4200903,Back Bay Station,2,10,-8
+65,3/1/2014,1015,39,Inbound,4200903,4200643,Forest Hills Station,0,10,-10
+65,3/1/2014,1017,39,Inbound,4200903,4200643,South St @ Sedgwick St,1,10,-9
+65,3/1/2014,1022,39,Inbound,4200903,4200643,Centre St @ Roseway,1,10,-9
+65,3/1/2014,1025,39,Inbound,4200903,4200643,S Huntington Ave @ Heath St,2,10,-8
+65,3/1/2014,1029,39,Inbound,4200903,4200643,Huntington Ave opp Fenwood Rd,2,10,-8
+65,3/1/2014,1032,39,Inbound,4200903,4200643,Huntington Ave @ Longwood Ave,2,10,-8
+65,3/1/2014,1036,39,Inbound,4200903,4200643,360 Huntington Ave,2,10,-8
+65,3/1/2014,1041,39,Inbound,4200903,4200643,Dalton St @ Boylston St,2,10,-8
+65,3/1/2014,1044,39,Inbound,4200903,4200643,Boylston St @ Dartmouth St,1,10,-9
+65,3/1/2014,1047,39,Inbound,4200903,4200643,Back Bay Station,0,10,-10
+66,3/1/2014,1025,39,Inbound,4200643,4200685,Forest Hills Station,7,11,-4
+66,3/1/2014,1027,39,Inbound,4200643,4200685,South St @ Sedgwick St,14,11,3
+66,3/1/2014,1032,39,Inbound,4200643,4200685,Centre St @ Roseway,14,11,3
+66,3/1/2014,1035,39,Inbound,4200643,4200685,S Huntington Ave @ Heath St,13,11,2
+66,3/1/2014,1039,39,Inbound,4200643,4200685,Huntington Ave opp Fenwood Rd,12,11,1
+66,3/1/2014,1042,39,Inbound,4200643,4200685,Huntington Ave @ Longwood Ave,12,11,1
+66,3/1/2014,1046,39,Inbound,4200643,4200685,360 Huntington Ave,12,11,1
+66,3/1/2014,1051,39,Inbound,4200643,4200685,Dalton St @ Boylston St,13,11,2
+66,3/1/2014,1054,39,Inbound,4200643,4200685,Boylston St @ Dartmouth St,13,11,2
+66,3/1/2014,1057,39,Inbound,4200643,4200685,Back Bay Station,14,11,3
+67,3/1/2014,1036,39,Inbound,4200685,4200932,Forest Hills Station,10,11,-1
+67,3/1/2014,1038,39,Inbound,4200685,4200932,South St @ Sedgwick St,8,11,-3
+67,3/1/2014,1043,39,Inbound,4200685,4200932,Centre St @ Roseway,7,11,-4
+67,3/1/2014,1046,39,Inbound,4200685,4200932,S Huntington Ave @ Heath St,9,11,-2
+67,3/1/2014,1050,39,Inbound,4200685,4200932,Huntington Ave opp Fenwood Rd,10,11,-1
+67,3/1/2014,1053,39,Inbound,4200685,4200932,Huntington Ave @ Longwood Ave,10,11,-1
+67,3/1/2014,1057,39,Inbound,4200685,4200932,360 Huntington Ave,10,11,-1
+67,3/1/2014,1062,39,Inbound,4200685,4200932,Dalton St @ Boylston St,9,11,-2
+67,3/1/2014,1065,39,Inbound,4200685,4200932,Boylston St @ Dartmouth St,10,11,-1
+67,3/1/2014,1068,39,Inbound,4200685,4200932,Back Bay Station,10,11,-1
+68,3/1/2014,1047,39,Inbound,4200932,4200749,Forest Hills Station,6,11,-5
+68,3/1/2014,1049,39,Inbound,4200932,4200749,South St @ Sedgwick St,10,11,-1
+68,3/1/2014,1054,39,Inbound,4200932,4200749,Centre St @ Roseway,10,11,-1
+68,3/1/2014,1057,39,Inbound,4200932,4200749,S Huntington Ave @ Heath St,7,11,-4
+68,3/1/2014,1061,39,Inbound,4200932,4200749,Huntington Ave opp Fenwood Rd,8,11,-3
+68,3/1/2014,1064,39,Inbound,4200932,4200749,Huntington Ave @ Longwood Ave,8,11,-3
+68,3/1/2014,1068,39,Inbound,4200932,4200749,360 Huntington Ave,8,11,-3
+68,3/1/2014,1073,39,Inbound,4200932,4200749,Dalton St @ Boylston St,9,11,-2
+68,3/1/2014,1076,39,Inbound,4200932,4200749,Boylston St @ Dartmouth St,9,11,-2
+68,3/1/2014,1079,39,Inbound,4200932,4200749,Back Bay Station,8,11,-3
+69,3/1/2014,1058,39,Inbound,4200749,4200775,Forest Hills Station,18,11,7
+69,3/1/2014,1060,39,Inbound,4200749,4200775,South St @ Sedgwick St,11,11,0
+69,3/1/2014,1065,39,Inbound,4200749,4200775,Centre St @ Roseway,11,11,0
+69,3/1/2014,1068,39,Inbound,4200749,4200775,S Huntington Ave @ Heath St,12,11,1
+69,3/1/2014,1072,39,Inbound,4200749,4200775,Huntington Ave opp Fenwood Rd,10,11,-1
+69,3/1/2014,1075,39,Inbound,4200749,4200775,Huntington Ave @ Longwood Ave,10,11,-1
+69,3/1/2014,1079,39,Inbound,4200749,4200775,360 Huntington Ave,10,11,-1
+69,3/1/2014,1084,39,Inbound,4200749,4200775,Dalton St @ Boylston St,9,11,-2
+69,3/1/2014,1087,39,Inbound,4200749,4200775,Boylston St @ Dartmouth St,11,11,0
+69,3/1/2014,1090,39,Inbound,4200749,4200775,Back Bay Station,12,11,1
+70,3/1/2014,1069,39,Inbound,4200775,4200821,Forest Hills Station,3,11,-8
+70,3/1/2014,1071,39,Inbound,4200775,4200821,South St @ Sedgwick St,12,11,1
+70,3/1/2014,1076,39,Inbound,4200775,4200821,Centre St @ Roseway,13,11,2
+70,3/1/2014,1079,39,Inbound,4200775,4200821,S Huntington Ave @ Heath St,14,11,3
+70,3/1/2014,1083,39,Inbound,4200775,4200821,Huntington Ave opp Fenwood Rd,14,11,3
+70,3/1/2014,1086,39,Inbound,4200775,4200821,Huntington Ave @ Longwood Ave,15,11,4
+70,3/1/2014,1090,39,Inbound,4200775,4200821,360 Huntington Ave,15,11,4
+70,3/1/2014,1095,39,Inbound,4200775,4200821,Dalton St @ Boylston St,14,11,3
+70,3/1/2014,1098,39,Inbound,4200775,4200821,Boylston St @ Dartmouth St,12,11,1
+70,3/1/2014,1101,39,Inbound,4200775,4200821,Back Bay Station,10,11,-1
+71,3/1/2014,1080,39,Inbound,4200821,4200879,Forest Hills Station,31,11,20
+71,3/1/2014,1082,39,Inbound,4200821,4200879,South St @ Sedgwick St,17,11,6
+71,3/1/2014,1087,39,Inbound,4200821,4200879,Centre St @ Roseway,17,11,6
+71,3/1/2014,1090,39,Inbound,4200821,4200879,S Huntington Ave @ Heath St,16,11,5
+71,3/1/2014,1094,39,Inbound,4200821,4200879,Huntington Ave opp Fenwood Rd,16,11,5
+71,3/1/2014,1097,39,Inbound,4200821,4200879,Huntington Ave @ Longwood Ave,15,11,4
+71,3/1/2014,1101,39,Inbound,4200821,4200879,360 Huntington Ave,15,11,4
+71,3/1/2014,1106,39,Inbound,4200821,4200879,Dalton St @ Boylston St,15,11,4
+71,3/1/2014,1109,39,Inbound,4200821,4200879,Boylston St @ Dartmouth St,15,11,4
+71,3/1/2014,1112,39,Inbound,4200821,4200879,Back Bay Station,15,11,4
+72,3/1/2014,1091,39,Inbound,4200879,4200905,Forest Hills Station,1,11,-10
+72,3/1/2014,1093,39,Inbound,4200879,4200905,South St @ Sedgwick St,5,11,-6
+72,3/1/2014,1098,39,Inbound,4200879,4200905,Centre St @ Roseway,3,11,-8
+72,3/1/2014,1101,39,Inbound,4200879,4200905,S Huntington Ave @ Heath St,4,11,-7
+72,3/1/2014,1105,39,Inbound,4200879,4200905,Huntington Ave opp Fenwood Rd,4,11,-7
+72,3/1/2014,1108,39,Inbound,4200879,4200905,Huntington Ave @ Longwood Ave,4,11,-7
+72,3/1/2014,1112,39,Inbound,4200879,4200905,360 Huntington Ave,4,11,-7
+72,3/1/2014,1117,39,Inbound,4200879,4200905,Dalton St @ Boylston St,5,11,-6
+72,3/1/2014,1120,39,Inbound,4200879,4200905,Boylston St @ Dartmouth St,5,11,-6
+72,3/1/2014,1123,39,Inbound,4200879,4200905,Back Bay Station,7,11,-4
+73,3/1/2014,1102,39,Inbound,4200905,4200645,Forest Hills Station,3,11,-8
+73,3/1/2014,1104,39,Inbound,4200905,4200645,South St @ Sedgwick St,13,11,2
+73,3/1/2014,1109,39,Inbound,4200905,4200645,Centre St @ Roseway,14,11,3
+73,3/1/2014,1112,39,Inbound,4200905,4200645,S Huntington Ave @ Heath St,15,11,4
+73,3/1/2014,1116,39,Inbound,4200905,4200645,Huntington Ave opp Fenwood Rd,14,11,3
+73,3/1/2014,1119,39,Inbound,4200905,4200645,Huntington Ave @ Longwood Ave,13,11,2
+73,3/1/2014,1123,39,Inbound,4200905,4200645,360 Huntington Ave,16,11,5
+73,3/1/2014,1128,39,Inbound,4200905,4200645,Dalton St @ Boylston St,16,11,5
+73,3/1/2014,1131,39,Inbound,4200905,4200645,Boylston St @ Dartmouth St,16,11,5
+73,3/1/2014,1134,39,Inbound,4200905,4200645,Back Bay Station,16,11,5
+74,3/1/2014,1113,39,Inbound,4200645,4200687,Forest Hills Station,17,11,6
+74,3/1/2014,1115,39,Inbound,4200645,4200687,South St @ Sedgwick St,9,11,-2
+74,3/1/2014,1120,39,Inbound,4200645,4200687,Centre St @ Roseway,10,11,-1
+74,3/1/2014,1123,39,Inbound,4200645,4200687,S Huntington Ave @ Heath St,8,11,-3
+74,3/1/2014,1127,39,Inbound,4200645,4200687,Huntington Ave opp Fenwood Rd,9,11,-2
+74,3/1/2014,1130,39,Inbound,4200645,4200687,Huntington Ave @ Longwood Ave,9,11,-2
+74,3/1/2014,1134,39,Inbound,4200645,4200687,360 Huntington Ave,7,11,-4
+74,3/1/2014,1139,39,Inbound,4200645,4200687,Dalton St @ Boylston St,7,11,-4
+74,3/1/2014,1142,39,Inbound,4200645,4200687,Boylston St @ Dartmouth St,7,11,-4
+74,3/1/2014,1145,39,Inbound,4200645,4200687,Back Bay Station,7,11,-4
+75,3/1/2014,1124,39,Inbound,4200687,4200934,Forest Hills Station,6,11,-5
+75,3/1/2014,1126,39,Inbound,4200687,4200934,South St @ Sedgwick St,10,11,-1
+75,3/1/2014,1131,39,Inbound,4200687,4200934,Centre St @ Roseway,10,11,-1
+75,3/1/2014,1134,39,Inbound,4200687,4200934,S Huntington Ave @ Heath St,11,11,0
+75,3/1/2014,1138,39,Inbound,4200687,4200934,Huntington Ave opp Fenwood Rd,11,11,0
+75,3/1/2014,1141,39,Inbound,4200687,4200934,Huntington Ave @ Longwood Ave,11,11,0
+75,3/1/2014,1145,39,Inbound,4200687,4200934,360 Huntington Ave,11,11,0
+75,3/1/2014,1150,39,Inbound,4200687,4200934,Dalton St @ Boylston St,12,11,1
+75,3/1/2014,1153,39,Inbound,4200687,4200934,Boylston St @ Dartmouth St,11,11,0
+75,3/1/2014,1156,39,Inbound,4200687,4200934,Back Bay Station,10,11,-1
+76,3/1/2014,1135,39,Inbound,4200934,4200751,Forest Hills Station,9,11,-2
+76,3/1/2014,1137,39,Inbound,4200934,4200751,South St @ Sedgwick St,11,11,0
+76,3/1/2014,1142,39,Inbound,4200934,4200751,Centre St @ Roseway,10,11,-1
+76,3/1/2014,1145,39,Inbound,4200934,4200751,S Huntington Ave @ Heath St,9,11,-2
+76,3/1/2014,1149,39,Inbound,4200934,4200751,Huntington Ave opp Fenwood Rd,8,11,-3
+76,3/1/2014,1152,39,Inbound,4200934,4200751,Huntington Ave @ Longwood Ave,8,11,-3
+76,3/1/2014,1156,39,Inbound,4200934,4200751,360 Huntington Ave,7,11,-4
+76,3/1/2014,1161,39,Inbound,4200934,4200751,Dalton St @ Boylston St,6,11,-5
+76,3/1/2014,1164,39,Inbound,4200934,4200751,Boylston St @ Dartmouth St,6,11,-5
+76,3/1/2014,1167,39,Inbound,4200934,4200751,Back Bay Station,7,11,-4
+77,3/1/2014,1146,39,Inbound,4200751,4200823,Forest Hills Station,21,11,10
+77,3/1/2014,1148,39,Inbound,4200751,4200823,South St @ Sedgwick St,10,11,-1
+77,3/1/2014,1153,39,Inbound,4200751,4200823,Centre St @ Roseway,10,11,-1
+77,3/1/2014,1156,39,Inbound,4200751,4200823,S Huntington Ave @ Heath St,10,11,-1
+77,3/1/2014,1160,39,Inbound,4200751,4200823,Huntington Ave opp Fenwood Rd,12,11,1
+77,3/1/2014,1163,39,Inbound,4200751,4200823,Huntington Ave @ Longwood Ave,13,11,2
+77,3/1/2014,1167,39,Inbound,4200751,4200823,360 Huntington Ave,13,11,2
+77,3/1/2014,1172,39,Inbound,4200751,4200823,Dalton St @ Boylston St,13,11,2
+77,3/1/2014,1175,39,Inbound,4200751,4200823,Boylston St @ Dartmouth St,13,11,2
+77,3/1/2014,1178,39,Inbound,4200751,4200823,Back Bay Station,12,11,1
+78,3/1/2014,1157,39,Inbound,4200823,4200881,Forest Hills Station,12,11,1
+78,3/1/2014,1159,39,Inbound,4200823,4200881,South St @ Sedgwick St,12,11,1
+78,3/1/2014,1164,39,Inbound,4200823,4200881,Centre St @ Roseway,11,11,0
+78,3/1/2014,1167,39,Inbound,4200823,4200881,S Huntington Ave @ Heath St,11,11,0
+78,3/1/2014,1171,39,Inbound,4200823,4200881,Huntington Ave opp Fenwood Rd,10,11,-1
+78,3/1/2014,1174,39,Inbound,4200823,4200881,Huntington Ave @ Longwood Ave,10,11,-1
+78,3/1/2014,1178,39,Inbound,4200823,4200881,360 Huntington Ave,9,11,-2
+78,3/1/2014,1183,39,Inbound,4200823,4200881,Dalton St @ Boylston St,8,11,-3
+78,3/1/2014,1186,39,Inbound,4200823,4200881,Boylston St @ Dartmouth St,9,11,-2
+78,3/1/2014,1189,39,Inbound,4200823,4200881,Back Bay Station,9,11,-2
+79,3/1/2014,1168,39,Inbound,4200881,4200907,Forest Hills Station,8,11,-3
+79,3/1/2014,1170,39,Inbound,4200881,4200907,South St @ Sedgwick St,10,11,-1
+79,3/1/2014,1175,39,Inbound,4200881,4200907,Centre St @ Roseway,10,11,-1
+79,3/1/2014,1178,39,Inbound,4200881,4200907,S Huntington Ave @ Heath St,10,11,-1
+79,3/1/2014,1182,39,Inbound,4200881,4200907,Huntington Ave opp Fenwood Rd,10,11,-1
+79,3/1/2014,1185,39,Inbound,4200881,4200907,Huntington Ave @ Longwood Ave,9,11,-2
+79,3/1/2014,1189,39,Inbound,4200881,4200907,360 Huntington Ave,10,11,-1
+79,3/1/2014,1194,39,Inbound,4200881,4200907,Dalton St @ Boylston St,10,12,-2
+79,3/1/2014,1197,39,Inbound,4200881,4200907,Boylston St @ Dartmouth St,10,12,-2
+79,3/1/2014,1200,39,Inbound,4200881,4200907,Back Bay Station,11,12,-1
+80,3/1/2014,1179,39,Inbound,4200907,4200647,Forest Hills Station,18,11,7
+80,3/1/2014,1181,39,Inbound,4200907,4200647,South St @ Sedgwick St,15,11,4
+80,3/1/2014,1186,39,Inbound,4200907,4200647,Centre St @ Roseway,16,11,5
+80,3/1/2014,1189,39,Inbound,4200907,4200647,S Huntington Ave @ Heath St,16,11,5
+80,3/1/2014,1193,39,Inbound,4200907,4200647,Huntington Ave opp Fenwood Rd,17,10,7
+80,3/1/2014,1196,39,Inbound,4200907,4200647,Huntington Ave @ Longwood Ave,18,10,8
+80,3/1/2014,1200,39,Inbound,4200907,4200647,360 Huntington Ave,17,8,9
+80,3/1/2014,1206,39,Inbound,4200907,4200647,Dalton St @ Boylston St,17,8,9
+80,3/1/2014,1209,39,Inbound,4200907,4200647,Boylston St @ Dartmouth St,17,8,9
+80,3/1/2014,1212,39,Inbound,4200907,4200647,Back Bay Station,16,8,8
+81,3/1/2014,1190,39,Inbound,4200647,4200689,Forest Hills Station,5,11,-6
+81,3/1/2014,1192,39,Inbound,4200647,4200689,South St @ Sedgwick St,9,11,-2
+81,3/1/2014,1197,39,Inbound,4200647,4200689,Centre St @ Roseway,9,9,0
+81,3/1/2014,1200,39,Inbound,4200647,4200689,S Huntington Ave @ Heath St,9,9,0
+81,3/1/2014,1203,39,Inbound,4200647,4200689,Huntington Ave opp Fenwood Rd,9,9,0
+81,3/1/2014,1206,39,Inbound,4200647,4200689,Huntington Ave @ Longwood Ave,12,9,3
+81,3/1/2014,1208,39,Inbound,4200647,4200689,360 Huntington Ave,13,9,4
+81,3/1/2014,1214,39,Inbound,4200647,4200689,Dalton St @ Boylston St,13,9,4
+81,3/1/2014,1217,39,Inbound,4200647,4200689,Boylston St @ Dartmouth St,13,9,4
+81,3/1/2014,1220,39,Inbound,4200647,4200689,Back Bay Station,13,9,4
+82,3/1/2014,1201,39,Inbound,4200689,4200936,Forest Hills Station,19,12,7
+82,3/1/2014,1203,39,Inbound,4200689,4200936,South St @ Sedgwick St,18,12,6
+82,3/1/2014,1206,39,Inbound,4200689,4200936,Centre St @ Roseway,19,12,7
+82,3/1/2014,1209,39,Inbound,4200689,4200936,S Huntington Ave @ Heath St,18,12,6
+82,3/1/2014,1212,39,Inbound,4200689,4200936,Huntington Ave opp Fenwood Rd,18,12,6
+82,3/1/2014,1215,39,Inbound,4200689,4200936,Huntington Ave @ Longwood Ave,13,12,1
+82,3/1/2014,1217,39,Inbound,4200689,4200936,360 Huntington Ave,13,12,1
+82,3/1/2014,1223,39,Inbound,4200689,4200936,Dalton St @ Boylston St,14,12,2
+82,3/1/2014,1226,39,Inbound,4200689,4200936,Boylston St @ Dartmouth St,14,12,2
+82,3/1/2014,1229,39,Inbound,4200689,4200936,Back Bay Station,14,12,2
+83,3/1/2014,1213,39,Inbound,4200936,4200753,Forest Hills Station,3,11,-8
+83,3/1/2014,1215,39,Inbound,4200936,4200753,South St @ Sedgwick St,2,11,-9
+83,3/1/2014,1218,39,Inbound,4200936,4200753,Centre St @ Roseway,1,11,-10
+83,3/1/2014,1221,39,Inbound,4200936,4200753,S Huntington Ave @ Heath St,2,11,-9
+83,3/1/2014,1224,39,Inbound,4200936,4200753,Huntington Ave opp Fenwood Rd,0,11,-11
+83,3/1/2014,1227,39,Inbound,4200936,4200753,Huntington Ave @ Longwood Ave,2,11,-9
+83,3/1/2014,1229,39,Inbound,4200936,4200753,360 Huntington Ave,1,11,-10
+83,3/1/2014,1235,39,Inbound,4200936,4200753,Dalton St @ Boylston St,1,11,-10
+83,3/1/2014,1238,39,Inbound,4200936,4200753,Boylston St @ Dartmouth St,0,11,-11
+83,3/1/2014,1241,39,Inbound,4200936,4200753,Back Bay Station,0,11,-11
+84,3/1/2014,1224,39,Inbound,4200753,4200825,Forest Hills Station,13,12,1
+84,3/1/2014,1226,39,Inbound,4200753,4200825,South St @ Sedgwick St,14,12,2
+84,3/1/2014,1229,39,Inbound,4200753,4200825,Centre St @ Roseway,14,12,2
+84,3/1/2014,1232,39,Inbound,4200753,4200825,S Huntington Ave @ Heath St,15,12,3
+84,3/1/2014,1235,39,Inbound,4200753,4200825,Huntington Ave opp Fenwood Rd,14,12,2
+84,3/1/2014,1238,39,Inbound,4200753,4200825,Huntington Ave @ Longwood Ave,13,12,1
+84,3/1/2014,1240,39,Inbound,4200753,4200825,360 Huntington Ave,13,12,1
+84,3/1/2014,1246,39,Inbound,4200753,4200825,Dalton St @ Boylston St,12,12,0
+84,3/1/2014,1249,39,Inbound,4200753,4200825,Boylston St @ Dartmouth St,12,11,1
+84,3/1/2014,1252,39,Inbound,4200753,4200825,Back Bay Station,12,11,1
+85,3/1/2014,1236,39,Inbound,4200825,4200883,Forest Hills Station,12,11,1
+85,3/1/2014,1238,39,Inbound,4200825,4200883,South St @ Sedgwick St,10,11,-1
+85,3/1/2014,1241,39,Inbound,4200825,4200883,Centre St @ Roseway,9,11,-2
+85,3/1/2014,1244,39,Inbound,4200825,4200883,S Huntington Ave @ Heath St,9,11,-2
+85,3/1/2014,1247,39,Inbound,4200825,4200883,Huntington Ave opp Fenwood Rd,10,11,-1
+85,3/1/2014,1250,39,Inbound,4200825,4200883,Huntington Ave @ Longwood Ave,10,10,0
+85,3/1/2014,1252,39,Inbound,4200825,4200883,360 Huntington Ave,11,11,0
+85,3/1/2014,1258,39,Inbound,4200825,4200883,Dalton St @ Boylston St,13,10,3
+85,3/1/2014,1260,39,Inbound,4200825,4200883,Boylston St @ Dartmouth St,12,10,2
+85,3/1/2014,1263,39,Inbound,4200825,4200883,Back Bay Station,11,10,1
+86,3/1/2014,1247,39,Inbound,4200883,4214391,Forest Hills Station,13,11,2
+86,3/1/2014,1249,39,Inbound,4200883,4214391,South St @ Sedgwick St,13,11,2
+86,3/1/2014,1252,39,Inbound,4200883,4214391,Centre St @ Roseway,13,10,3
+86,3/1/2014,1255,39,Inbound,4200883,4214391,S Huntington Ave @ Heath St,12,10,2
+86,3/1/2014,1258,39,Inbound,4200883,4214391,Huntington Ave opp Fenwood Rd,12,10,2
+86,3/1/2014,1260,39,Inbound,4200883,4214391,Huntington Ave @ Longwood Ave,13,10,3
+86,3/1/2014,1263,39,Inbound,4200883,4214391,360 Huntington Ave,13,10,3
+86,3/1/2014,1268,39,Inbound,4200883,4214391,Dalton St @ Boylston St,11,10,1
+86,3/1/2014,1270,39,Inbound,4200883,4214391,Boylston St @ Dartmouth St,12,10,2
+86,3/1/2014,1273,39,Inbound,4200883,4214391,Back Bay Station,14,10,4
+87,3/1/2014,1258,39,Inbound,4214391,4214400,Forest Hills Station,10,13,-3
+87,3/1/2014,1260,39,Inbound,4214391,4214400,South St @ Sedgwick St,11,13,-2
+87,3/1/2014,1262,39,Inbound,4214391,4214400,Centre St @ Roseway,11,13,-2
+87,3/1/2014,1265,39,Inbound,4214391,4214400,S Huntington Ave @ Heath St,11,13,-2
+87,3/1/2014,1268,39,Inbound,4214391,4214400,Huntington Ave opp Fenwood Rd,10,13,-3
+87,3/1/2014,1270,39,Inbound,4214391,4214400,Huntington Ave @ Longwood Ave,9,13,-4
+87,3/1/2014,1273,39,Inbound,4214391,4214400,360 Huntington Ave,7,13,-6
+87,3/1/2014,1278,39,Inbound,4214391,4214400,Dalton St @ Boylston St,6,13,-7
+87,3/1/2014,1280,39,Inbound,4214391,4214400,Boylston St @ Dartmouth St,6,13,-7
+87,3/1/2014,1283,39,Inbound,4214391,4214400,Back Bay Station,4,13,-9
+88,3/1/2014,1271,39,Inbound,4214400,4214421,Forest Hills Station,15,13,2
+88,3/1/2014,1273,39,Inbound,4214400,4214421,South St @ Sedgwick St,13,13,0
+88,3/1/2014,1275,39,Inbound,4214400,4214421,Centre St @ Roseway,12,13,-1
+88,3/1/2014,1278,39,Inbound,4214400,4214421,S Huntington Ave @ Heath St,12,13,-1
+88,3/1/2014,1281,39,Inbound,4214400,4214421,Huntington Ave opp Fenwood Rd,14,13,1
+88,3/1/2014,1283,39,Inbound,4214400,4214421,Huntington Ave @ Longwood Ave,15,13,2
+88,3/1/2014,1286,39,Inbound,4214400,4214421,360 Huntington Ave,17,13,4
+88,3/1/2014,1291,39,Inbound,4214400,4214421,Dalton St @ Boylston St,18,13,5
+88,3/1/2014,1293,39,Inbound,4214400,4214421,Boylston St @ Dartmouth St,17,13,4
+88,3/1/2014,1296,39,Inbound,4214400,4214421,Back Bay Station,18,13,5
+89,3/1/2014,1284,39,Inbound,4214421,4214389,Forest Hills Station,16,13,3
+89,3/1/2014,1286,39,Inbound,4214421,4214389,South St @ Sedgwick St,16,13,3
+89,3/1/2014,1288,39,Inbound,4214421,4214389,Centre St @ Roseway,18,13,5
+89,3/1/2014,1291,39,Inbound,4214421,4214389,S Huntington Ave @ Heath St,18,13,5
+89,3/1/2014,1294,39,Inbound,4214421,4214389,Huntington Ave opp Fenwood Rd,16,13,3
+89,3/1/2014,1296,39,Inbound,4214421,4214389,Huntington Ave @ Longwood Ave,15,13,2
+89,3/1/2014,1299,39,Inbound,4214421,4214389,360 Huntington Ave,16,13,3
+89,3/1/2014,1304,39,Inbound,4214421,4214389,Dalton St @ Boylston St,17,13,4
+89,3/1/2014,1306,39,Inbound,4214421,4214389,Boylston St @ Dartmouth St,19,13,6
+89,3/1/2014,1309,39,Inbound,4214421,4214389,Back Bay Station,19,13,6
+90,3/1/2014,1297,39,Inbound,4214389,4214429,Forest Hills Station,13,13,0
+90,3/1/2014,1299,39,Inbound,4214389,4214429,South St @ Sedgwick St,13,13,0
+90,3/1/2014,1301,39,Inbound,4214389,4214429,Centre St @ Roseway,11,13,-2
+90,3/1/2014,1304,39,Inbound,4214389,4214429,S Huntington Ave @ Heath St,11,13,-2
+90,3/1/2014,1307,39,Inbound,4214389,4214429,Huntington Ave opp Fenwood Rd,12,13,-1
+90,3/1/2014,1309,39,Inbound,4214389,4214429,Huntington Ave @ Longwood Ave,13,13,0
+90,3/1/2014,1312,39,Inbound,4214389,4214429,360 Huntington Ave,12,13,-1
+90,3/1/2014,1317,39,Inbound,4214389,4214429,Dalton St @ Boylston St,10,13,-3
+90,3/1/2014,1319,39,Inbound,4214389,4214429,Boylston St @ Dartmouth St,9,13,-4
+90,3/1/2014,1322,39,Inbound,4214389,4214429,Back Bay Station,9,13,-4
+91,3/1/2014,1310,39,Inbound,4214429,4214393,Forest Hills Station,3,13,-10
+91,3/1/2014,1312,39,Inbound,4214429,4214393,South St @ Sedgwick St,12,13,-1
+91,3/1/2014,1314,39,Inbound,4214429,4214393,Centre St @ Roseway,14,13,1
+91,3/1/2014,1317,39,Inbound,4214429,4214393,S Huntington Ave @ Heath St,13,13,0
+91,3/1/2014,1320,39,Inbound,4214429,4214393,Huntington Ave opp Fenwood Rd,14,13,1
+91,3/1/2014,1322,39,Inbound,4214429,4214393,Huntington Ave @ Longwood Ave,14,13,1
+91,3/1/2014,1325,39,Inbound,4214429,4214393,360 Huntington Ave,14,13,1
+91,3/1/2014,1330,39,Inbound,4214429,4214393,Dalton St @ Boylston St,15,13,2
+91,3/1/2014,1332,39,Inbound,4214429,4214393,Boylston St @ Dartmouth St,16,13,3
+91,3/1/2014,1335,39,Inbound,4214429,4214393,Back Bay Station,15,13,2
+92,3/1/2014,1323,39,Inbound,4214393,4214402,Forest Hills Station,12,13,-1
+92,3/1/2014,1325,39,Inbound,4214393,4214402,South St @ Sedgwick St,13,13,0
+92,3/1/2014,1327,39,Inbound,4214393,4214402,Centre St @ Roseway,11,13,-2
+92,3/1/2014,1330,39,Inbound,4214393,4214402,S Huntington Ave @ Heath St,11,13,-2
+92,3/1/2014,1333,39,Inbound,4214393,4214402,Huntington Ave opp Fenwood Rd,10,13,-3
+92,3/1/2014,1335,39,Inbound,4214393,4214402,Huntington Ave @ Longwood Ave,10,13,-3
+92,3/1/2014,1338,39,Inbound,4214393,4214402,360 Huntington Ave,10,13,-3
+92,3/1/2014,1343,39,Inbound,4214393,4214402,Dalton St @ Boylston St,10,13,-3
+92,3/1/2014,1345,39,Inbound,4214393,4214402,Boylston St @ Dartmouth St,9,13,-4
+92,3/1/2014,1348,39,Inbound,4214393,4214402,Back Bay Station,9,13,-4
+93,3/1/2014,1336,39,Inbound,4214402,4214423,Forest Hills Station,16,13,3
+93,3/1/2014,1338,39,Inbound,4214402,4214423,South St @ Sedgwick St,12,13,-1
+93,3/1/2014,1340,39,Inbound,4214402,4214423,Centre St @ Roseway,14,13,1
+93,3/1/2014,1343,39,Inbound,4214402,4214423,S Huntington Ave @ Heath St,14,13,1
+93,3/1/2014,1346,39,Inbound,4214402,4214423,Huntington Ave opp Fenwood Rd,14,13,1
+93,3/1/2014,1348,39,Inbound,4214402,4214423,Huntington Ave @ Longwood Ave,12,13,-1
+93,3/1/2014,1351,39,Inbound,4214402,4214423,360 Huntington Ave,12,13,-1
+93,3/1/2014,1356,39,Inbound,4214402,4214423,Dalton St @ Boylston St,11,13,-2
+93,3/1/2014,1358,39,Inbound,4214402,4214423,Boylston St @ Dartmouth St,11,13,-2
+93,3/1/2014,1361,39,Inbound,4214402,4214423,Back Bay Station,11,13,-2
+94,3/1/2014,1349,39,Inbound,4214423,4214435,Forest Hills Station,24,13,11
+94,3/1/2014,1351,39,Inbound,4214423,4214435,South St @ Sedgwick St,15,13,2
+94,3/1/2014,1353,39,Inbound,4214423,4214435,Centre St @ Roseway,14,13,1
+94,3/1/2014,1356,39,Inbound,4214423,4214435,S Huntington Ave @ Heath St,15,13,2
+94,3/1/2014,1359,39,Inbound,4214423,4214435,Huntington Ave opp Fenwood Rd,16,13,3
+94,3/1/2014,1361,39,Inbound,4214423,4214435,Huntington Ave @ Longwood Ave,17,13,4
+94,3/1/2014,1364,39,Inbound,4214423,4214435,360 Huntington Ave,17,13,4
+94,3/1/2014,1369,39,Inbound,4214423,4214435,Dalton St @ Boylston St,17,13,4
+94,3/1/2014,1371,39,Inbound,4214423,4214435,Boylston St @ Dartmouth St,17,13,4
+94,3/1/2014,1374,39,Inbound,4214423,4214435,Back Bay Station,19,13,6
+95,3/1/2014,1362,39,Inbound,4214435,4214431,Forest Hills Station,4,13,-9
+95,3/1/2014,1364,39,Inbound,4214435,4214431,South St @ Sedgwick St,12,13,-1
+95,3/1/2014,1366,39,Inbound,4214435,4214431,Centre St @ Roseway,11,13,-2
+95,3/1/2014,1369,39,Inbound,4214435,4214431,S Huntington Ave @ Heath St,10,13,-3
+95,3/1/2014,1372,39,Inbound,4214435,4214431,Huntington Ave opp Fenwood Rd,8,13,-5
+95,3/1/2014,1374,39,Inbound,4214435,4214431,Huntington Ave @ Longwood Ave,8,13,-5
+95,3/1/2014,1377,39,Inbound,4214435,4214431,360 Huntington Ave,9,13,-4
+95,3/1/2014,1382,39,Inbound,4214435,4214431,Dalton St @ Boylston St,10,13,-3
+95,3/1/2014,1384,39,Inbound,4214435,4214431,Boylston St @ Dartmouth St,9,13,-4
+95,3/1/2014,1387,39,Inbound,4214435,4214431,Back Bay Station,7,13,-6
+96,3/1/2014,1375,39,Inbound,4214431,4214395,Forest Hills Station,12,12,0
+96,3/1/2014,1377,39,Inbound,4214431,4214395,South St @ Sedgwick St,11,12,-1
+96,3/1/2014,1379,39,Inbound,4214431,4214395,Centre St @ Roseway,12,12,0
+96,3/1/2014,1382,39,Inbound,4214431,4214395,S Huntington Ave @ Heath St,13,12,1
+96,3/1/2014,1385,39,Inbound,4214431,4214395,Huntington Ave opp Fenwood Rd,14,12,2
+96,3/1/2014,1387,39,Inbound,4214431,4214395,Huntington Ave @ Longwood Ave,15,12,3
+96,3/1/2014,1390,39,Inbound,4214431,4214395,360 Huntington Ave,15,12,3
+96,3/1/2014,1395,39,Inbound,4214431,4214395,Dalton St @ Boylston St,15,12,3
+96,3/1/2014,1397,39,Inbound,4214431,4214395,Boylston St @ Dartmouth St,15,12,3
+96,3/1/2014,1400,39,Inbound,4214431,4214395,Back Bay Station,15,12,3
+97,3/1/2014,1387,39,Inbound,4214395,4214425,Forest Hills Station,27,24,3
+97,3/1/2014,1389,39,Inbound,4214395,4214425,South St @ Sedgwick St,24,24,0
+97,3/1/2014,1391,39,Inbound,4214395,4214425,Centre St @ Roseway,23,24,-1
+97,3/1/2014,1394,39,Inbound,4214395,4214425,S Huntington Ave @ Heath St,23,23,0
+97,3/1/2014,1397,39,Inbound,4214395,4214425,Huntington Ave opp Fenwood Rd,21,22,-1
+97,3/1/2014,1399,39,Inbound,4214395,4214425,Huntington Ave @ Longwood Ave,22,22,0
+97,3/1/2014,1402,39,Inbound,4214395,4214425,360 Huntington Ave,21,21,0
+97,3/1/2014,1407,39,Inbound,4214395,4214425,Dalton St @ Boylston St,20,20,0
+97,3/1/2014,1409,39,Inbound,4214395,4214425,Boylston St @ Dartmouth St,21,20,1
+97,3/1/2014,1412,39,Inbound,4214395,4214425,Back Bay Station,22,20,2
+98,3/1/2014,1411,39,Inbound,4214425,4214437,Forest Hills Station,9,12,-3
+98,3/1/2014,1413,39,Inbound,4214425,4214437,South St @ Sedgwick St,13,12,1
+98,3/1/2014,1415,39,Inbound,4214425,4214437,Centre St @ Roseway,14,12,2
+98,3/1/2014,1417,39,Inbound,4214425,4214437,S Huntington Ave @ Heath St,13,12,1
+98,3/1/2014,1419,39,Inbound,4214425,4214437,Huntington Ave opp Fenwood Rd,15,12,3
+98,3/1/2014,1421,39,Inbound,4214425,4214437,Huntington Ave @ Longwood Ave,12,12,0
+98,3/1/2014,1423,39,Inbound,4214425,4214437,360 Huntington Ave,13,12,1
+98,3/1/2014,1427,39,Inbound,4214425,4214437,Dalton St @ Boylston St,15,12,3
+98,3/1/2014,1429,39,Inbound,4214425,4214437,Boylston St @ Dartmouth St,14,12,2
+98,3/1/2014,1432,39,Inbound,4214425,4214437,Back Bay Station,13,12,1
+99,3/1/2014,1423,39,Inbound,4214437,4214433,Forest Hills Station,11,12,-1
+99,3/1/2014,1425,39,Inbound,4214437,4214433,South St @ Sedgwick St,11,12,-1
+99,3/1/2014,1427,39,Inbound,4214437,4214433,Centre St @ Roseway,10,12,-2
+99,3/1/2014,1429,39,Inbound,4214437,4214433,S Huntington Ave @ Heath St,10,12,-2
+99,3/1/2014,1431,39,Inbound,4214437,4214433,Huntington Ave opp Fenwood Rd,8,12,-4
+99,3/1/2014,1433,39,Inbound,4214437,4214433,Huntington Ave @ Longwood Ave,9,12,-3
+99,3/1/2014,1435,39,Inbound,4214437,4214433,360 Huntington Ave,8,12,-4
+99,3/1/2014,1439,39,Inbound,4214437,4214433,Dalton St @ Boylston St,5,12,-7
+99,3/1/2014,1441,39,Inbound,4214437,4214433,Boylston St @ Dartmouth St,5,12,-7
+99,3/1/2014,1444,39,Inbound,4214437,4214433,Back Bay Station,5,12,-7
+100,3/1/2014,1435,39,Inbound,4214433,4214397,Forest Hills Station,6,12,-6
+100,3/1/2014,1437,39,Inbound,4214433,4214397,South St @ Sedgwick St,14,12,2
+100,3/1/2014,1439,39,Inbound,4214433,4214397,Centre St @ Roseway,15,12,3
+100,3/1/2014,1441,39,Inbound,4214433,4214397,S Huntington Ave @ Heath St,15,12,3
+100,3/1/2014,1443,39,Inbound,4214433,4214397,Huntington Ave opp Fenwood Rd,18,12,6
+100,3/1/2014,1445,39,Inbound,4214433,4214397,Huntington Ave @ Longwood Ave,17,12,5
+100,3/1/2014,1447,39,Inbound,4214433,4214397,360 Huntington Ave,16,12,4
+100,3/1/2014,1451,39,Inbound,4214433,4214397,Dalton St @ Boylston St,16,12,4
+100,3/1/2014,1453,39,Inbound,4214433,4214397,Boylston St @ Dartmouth St,17,12,5
+100,3/1/2014,1456,39,Inbound,4214433,4214397,Back Bay Station,18,12,6
+101,3/1/2014,1447,39,Inbound,4214397,4214427,Forest Hills Station,34,24,10
+101,3/1/2014,1449,39,Inbound,4214397,4214427,South St @ Sedgwick St,23,24,-1
+101,3/1/2014,1451,39,Inbound,4214397,4214427,Centre St @ Roseway,22,24,-2
+101,3/1/2014,1453,39,Inbound,4214397,4214427,S Huntington Ave @ Heath St,22,24,-2
+101,3/1/2014,1455,39,Inbound,4214397,4214427,Huntington Ave opp Fenwood Rd,22,24,-2
+101,3/1/2014,1457,39,Inbound,4214397,4214427,Huntington Ave @ Longwood Ave,21,24,-3
+101,3/1/2014,1459,39,Inbound,4214397,4214427,360 Huntington Ave,22,24,-2
+101,3/1/2014,1463,39,Inbound,4214397,4214427,Dalton St @ Boylston St,24,24,0
+101,3/1/2014,1465,39,Inbound,4214397,4214427,Boylston St @ Dartmouth St,23,24,-1
+101,3/1/2014,1468,39,Inbound,4214397,4214427,Back Bay Station,22,24,-2

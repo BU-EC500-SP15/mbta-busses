@@ -1,0 +1,223 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+2,3/1/2014,350,117,Outbound,4254101,4253501,Maverick Station,39,40,-1
+2,3/1/2014,352,117,Outbound,4254101,4253501,Meridian St @ Saratoga St,41,40,1
+2,3/1/2014,357,117,Outbound,4254101,4253501,Hawthorne St @ Broadway,41,40,1
+2,3/1/2014,359,117,Outbound,4254101,4253501,Broadway @ Webster Ave,41,40,1
+2,3/1/2014,364,117,Outbound,4254101,4253501,49 Central Ave,43,40,3
+2,3/1/2014,366,117,Outbound,4254101,4253501,Beach St @ Shirley Ave - Bell Circle,42,40,2
+2,3/1/2014,372,117,Outbound,4254101,4253501,Wonderland West Busway,42,40,2
+3,3/1/2014,390,117,Outbound,4253501,4254084,Maverick Station,38,42,-4
+3,3/1/2014,392,117,Outbound,4253501,4254084,Meridian St @ Saratoga St,40,42,-2
+3,3/1/2014,397,117,Outbound,4253501,4254084,Hawthorne St @ Broadway,41,42,-1
+3,3/1/2014,399,117,Outbound,4253501,4254084,Broadway @ Webster Ave,41,42,-1
+3,3/1/2014,404,117,Outbound,4253501,4254084,49 Central Ave,40,42,-2
+3,3/1/2014,406,117,Outbound,4253501,4254084,Beach St @ Shirley Ave - Bell Circle,41,42,-1
+3,3/1/2014,412,117,Outbound,4253501,4254084,Wonderland West Busway,42,42,0
+4,3/1/2014,432,117,Outbound,4254084,4254105,Maverick Station,46,43,3
+4,3/1/2014,434,117,Outbound,4254084,4254105,Meridian St @ Saratoga St,53,43,10
+4,3/1/2014,439,117,Outbound,4254084,4254105,Hawthorne St @ Broadway,54,44,10
+4,3/1/2014,441,117,Outbound,4254084,4254105,Broadway @ Webster Ave,54,45,9
+4,3/1/2014,446,117,Outbound,4254084,4254105,49 Central Ave,55,45,10
+4,3/1/2014,448,117,Outbound,4254084,4254105,Beach St @ Shirley Ave - Bell Circle,57,45,12
+4,3/1/2014,454,117,Outbound,4254084,4254105,Wonderland West Busway,56,45,11
+5,3/1/2014,475,117,Outbound,4254105,4253505,Maverick Station,47,44,3
+5,3/1/2014,477,117,Outbound,4254105,4253505,Meridian St @ Saratoga St,37,44,-7
+5,3/1/2014,483,117,Outbound,4254105,4253505,Hawthorne St @ Broadway,36,45,-9
+5,3/1/2014,486,117,Outbound,4254105,4253505,Broadway @ Webster Ave,36,45,-9
+5,3/1/2014,491,117,Outbound,4254105,4253505,49 Central Ave,35,45,-10
+5,3/1/2014,493,117,Outbound,4254105,4253505,Beach St @ Shirley Ave - Bell Circle,33,45,-12
+5,3/1/2014,499,117,Outbound,4254105,4253505,Wonderland West Busway,33,44,-11
+6,3/1/2014,519,117,Outbound,4253505,4254088,Maverick Station,51,43,8
+6,3/1/2014,521,117,Outbound,4253505,4254088,Meridian St @ Saratoga St,53,44,9
+6,3/1/2014,528,117,Outbound,4253505,4254088,Hawthorne St @ Broadway,54,44,10
+6,3/1/2014,531,117,Outbound,4253505,4254088,Broadway @ Webster Ave,55,44,11
+6,3/1/2014,536,117,Outbound,4253505,4254088,49 Central Ave,57,46,11
+6,3/1/2014,538,117,Outbound,4253505,4254088,Beach St @ Shirley Ave - Bell Circle,58,47,11
+6,3/1/2014,543,117,Outbound,4253505,4254088,Wonderland West Busway,59,47,12
+7,3/1/2014,562,117,Outbound,4254088,4254109,Maverick Station,52,42,10
+7,3/1/2014,565,117,Outbound,4254088,4254109,Meridian St @ Saratoga St,53,43,10
+7,3/1/2014,572,117,Outbound,4254088,4254109,Hawthorne St @ Broadway,55,44,11
+7,3/1/2014,575,117,Outbound,4254088,4254109,Broadway @ Webster Ave,56,44,12
+7,3/1/2014,582,117,Outbound,4254088,4254109,49 Central Ave,56,43,13
+7,3/1/2014,585,117,Outbound,4254088,4254109,Beach St @ Shirley Ave - Bell Circle,56,43,13
+7,3/1/2014,590,117,Outbound,4254088,4254109,Wonderland West Busway,56,45,11
+8,3/1/2014,604,117,Outbound,4254109,4254144,Maverick Station,0,38,-38
+8,3/1/2014,608,117,Outbound,4254109,4254144,Meridian St @ Saratoga St,16,38,-22
+8,3/1/2014,616,117,Outbound,4254109,4254144,Hawthorne St @ Broadway,17,38,-21
+8,3/1/2014,619,117,Outbound,4254109,4254144,Broadway @ Webster Ave,18,38,-20
+8,3/1/2014,625,117,Outbound,4254109,4254144,49 Central Ave,19,38,-19
+8,3/1/2014,628,117,Outbound,4254109,4254144,Beach St @ Shirley Ave - Bell Circle,20,38,-18
+8,3/1/2014,635,117,Outbound,4254109,4254144,Wonderland West Busway,20,38,-18
+9,3/1/2014,642,117,Outbound,4254144,4254338,Maverick Station,51,26,25
+9,3/1/2014,646,117,Outbound,4254144,4254338,Meridian St @ Saratoga St,37,26,11
+9,3/1/2014,654,117,Outbound,4254144,4254338,Hawthorne St @ Broadway,38,26,12
+9,3/1/2014,657,117,Outbound,4254144,4254338,Broadway @ Webster Ave,40,26,14
+9,3/1/2014,663,117,Outbound,4254144,4254338,49 Central Ave,41,26,15
+9,3/1/2014,666,117,Outbound,4254144,4254338,Beach St @ Shirley Ave - Bell Circle,41,26,15
+9,3/1/2014,673,117,Outbound,4254144,4254338,Wonderland West Busway,40,26,14
+10,3/1/2014,668,117,Outbound,4254338,4254317,Maverick Station,29,30,-1
+10,3/1/2014,672,117,Outbound,4254338,4254317,Meridian St @ Saratoga St,27,30,-3
+10,3/1/2014,680,117,Outbound,4254338,4254317,Hawthorne St @ Broadway,23,30,-7
+10,3/1/2014,683,117,Outbound,4254338,4254317,Broadway @ Webster Ave,20,30,-10
+10,3/1/2014,689,117,Outbound,4254338,4254317,49 Central Ave,19,30,-11
+10,3/1/2014,692,117,Outbound,4254338,4254317,Beach St @ Shirley Ave - Bell Circle,21,30,-9
+10,3/1/2014,699,117,Outbound,4254338,4254317,Wonderland West Busway,22,30,-8
+11,3/1/2014,698,117,Outbound,4254317,4254146,Maverick Station,9,30,-21
+11,3/1/2014,702,117,Outbound,4254317,4254146,Meridian St @ Saratoga St,22,31,-9
+11,3/1/2014,710,117,Outbound,4254317,4254146,Hawthorne St @ Broadway,23,32,-9
+11,3/1/2014,713,117,Outbound,4254317,4254146,Broadway @ Webster Ave,22,32,-10
+11,3/1/2014,719,117,Outbound,4254317,4254146,49 Central Ave,24,33,-9
+11,3/1/2014,722,117,Outbound,4254317,4254146,Beach St @ Shirley Ave - Bell Circle,21,33,-12
+11,3/1/2014,729,117,Outbound,4254317,4254146,Wonderland West Busway,21,33,-12
+12,3/1/2014,728,117,Outbound,4254146,4254340,Maverick Station,56,30,26
+12,3/1/2014,733,117,Outbound,4254146,4254340,Meridian St @ Saratoga St,45,30,15
+12,3/1/2014,742,117,Outbound,4254146,4254340,Hawthorne St @ Broadway,50,30,20
+12,3/1/2014,745,117,Outbound,4254146,4254340,Broadway @ Webster Ave,52,30,22
+12,3/1/2014,752,117,Outbound,4254146,4254340,49 Central Ave,52,30,22
+12,3/1/2014,755,117,Outbound,4254146,4254340,Beach St @ Shirley Ave - Bell Circle,53,30,23
+12,3/1/2014,762,117,Outbound,4254146,4254340,Wonderland West Busway,52,31,21
+13,3/1/2014,758,117,Outbound,4254340,4254319,Maverick Station,9,30,-21
+13,3/1/2014,763,117,Outbound,4254340,4254319,Meridian St @ Saratoga St,17,29,-12
+13,3/1/2014,772,117,Outbound,4254340,4254319,Hawthorne St @ Broadway,11,29,-18
+13,3/1/2014,775,117,Outbound,4254340,4254319,Broadway @ Webster Ave,14,29,-15
+13,3/1/2014,782,117,Outbound,4254340,4254319,49 Central Ave,16,28,-12
+13,3/1/2014,785,117,Outbound,4254340,4254319,Beach St @ Shirley Ave - Bell Circle,14,28,-14
+13,3/1/2014,793,117,Outbound,4254340,4254319,Wonderland West Busway,15,28,-13
+14,3/1/2014,788,117,Outbound,4254319,4253982,Maverick Station,38,30,8
+14,3/1/2014,792,117,Outbound,4254319,4253982,Meridian St @ Saratoga St,29,30,-1
+14,3/1/2014,801,117,Outbound,4254319,4253982,Hawthorne St @ Broadway,31,30,1
+14,3/1/2014,804,117,Outbound,4254319,4253982,Broadway @ Webster Ave,25,30,-5
+14,3/1/2014,810,117,Outbound,4254319,4253982,49 Central Ave,21,30,-9
+14,3/1/2014,813,117,Outbound,4254319,4253982,Beach St @ Shirley Ave - Bell Circle,22,30,-8
+14,3/1/2014,821,117,Outbound,4254319,4253982,Wonderland West Busway,22,30,-8
+15,3/1/2014,818,117,Outbound,4253982,4253790,Maverick Station,21,30,-9
+15,3/1/2014,822,117,Outbound,4253982,4253790,Meridian St @ Saratoga St,29,30,-1
+15,3/1/2014,831,117,Outbound,4253982,4253790,Hawthorne St @ Broadway,44,30,14
+15,3/1/2014,834,117,Outbound,4253982,4253790,Broadway @ Webster Ave,45,30,15
+15,3/1/2014,840,117,Outbound,4253982,4253790,49 Central Ave,45,30,15
+15,3/1/2014,843,117,Outbound,4253982,4253790,Beach St @ Shirley Ave - Bell Circle,44,30,14
+15,3/1/2014,851,117,Outbound,4253982,4253790,Wonderland West Busway,44,30,14
+16,3/1/2014,848,117,Outbound,4253790,4253549,Maverick Station,40,30,10
+16,3/1/2014,852,117,Outbound,4253790,4253549,Meridian St @ Saratoga St,31,30,1
+16,3/1/2014,861,117,Outbound,4253790,4253549,Hawthorne St @ Broadway,25,30,-5
+16,3/1/2014,864,117,Outbound,4253790,4253549,Broadway @ Webster Ave,27,30,-3
+16,3/1/2014,870,117,Outbound,4253790,4253549,49 Central Ave,28,30,-2
+16,3/1/2014,873,117,Outbound,4253790,4253549,Beach St @ Shirley Ave - Bell Circle,28,30,-2
+16,3/1/2014,881,117,Outbound,4253790,4253549,Wonderland West Busway,28,30,-2
+17,3/1/2014,878,117,Outbound,4253549,4253566,Maverick Station,35,30,5
+17,3/1/2014,882,117,Outbound,4253549,4253566,Meridian St @ Saratoga St,36,30,6
+17,3/1/2014,891,117,Outbound,4253549,4253566,Hawthorne St @ Broadway,28,30,-2
+17,3/1/2014,894,117,Outbound,4253549,4253566,Broadway @ Webster Ave,25,30,-5
+17,3/1/2014,900,117,Outbound,4253549,4253566,49 Central Ave,24,30,-6
+17,3/1/2014,903,117,Outbound,4253549,4253566,Beach St @ Shirley Ave - Bell Circle,25,30,-5
+17,3/1/2014,911,117,Outbound,4253549,4253566,Wonderland West Busway,24,30,-6
+18,3/1/2014,908,117,Outbound,4253566,4253792,Maverick Station,16,30,-14
+18,3/1/2014,912,117,Outbound,4253566,4253792,Meridian St @ Saratoga St,23,30,-7
+18,3/1/2014,921,117,Outbound,4253566,4253792,Hawthorne St @ Broadway,26,30,-4
+18,3/1/2014,924,117,Outbound,4253566,4253792,Broadway @ Webster Ave,27,30,-3
+18,3/1/2014,930,117,Outbound,4253566,4253792,49 Central Ave,26,30,-4
+18,3/1/2014,933,117,Outbound,4253566,4253792,Beach St @ Shirley Ave - Bell Circle,27,30,-3
+18,3/1/2014,941,117,Outbound,4253566,4253792,Wonderland West Busway,28,30,-2
+19,3/1/2014,938,117,Outbound,4253792,4253551,Maverick Station,35,30,5
+19,3/1/2014,942,117,Outbound,4253792,4253551,Meridian St @ Saratoga St,31,30,1
+19,3/1/2014,951,117,Outbound,4253792,4253551,Hawthorne St @ Broadway,28,30,-2
+19,3/1/2014,954,117,Outbound,4253792,4253551,Broadway @ Webster Ave,29,30,-1
+19,3/1/2014,960,117,Outbound,4253792,4253551,49 Central Ave,32,30,2
+19,3/1/2014,963,117,Outbound,4253792,4253551,Beach St @ Shirley Ave - Bell Circle,30,30,0
+19,3/1/2014,971,117,Outbound,4253792,4253551,Wonderland West Busway,31,30,1
+20,3/1/2014,968,117,Outbound,4253551,4253704,Maverick Station,24,30,-6
+20,3/1/2014,972,117,Outbound,4253551,4253704,Meridian St @ Saratoga St,29,30,-1
+20,3/1/2014,981,117,Outbound,4253551,4253704,Hawthorne St @ Broadway,27,30,-3
+20,3/1/2014,984,117,Outbound,4253551,4253704,Broadway @ Webster Ave,26,30,-4
+20,3/1/2014,990,117,Outbound,4253551,4253704,49 Central Ave,23,30,-7
+20,3/1/2014,993,117,Outbound,4253551,4253704,Beach St @ Shirley Ave - Bell Circle,23,30,-7
+20,3/1/2014,1001,117,Outbound,4253551,4253704,Wonderland West Busway,22,30,-8
+21,3/1/2014,998,117,Outbound,4253704,4253794,Maverick Station,23,30,-7
+21,3/1/2014,1002,117,Outbound,4253704,4253794,Meridian St @ Saratoga St,30,30,0
+21,3/1/2014,1011,117,Outbound,4253704,4253794,Hawthorne St @ Broadway,33,30,3
+21,3/1/2014,1014,117,Outbound,4253704,4253794,Broadway @ Webster Ave,33,30,3
+21,3/1/2014,1020,117,Outbound,4253704,4253794,49 Central Ave,33,30,3
+21,3/1/2014,1023,117,Outbound,4253704,4253794,Beach St @ Shirley Ave - Bell Circle,36,30,6
+21,3/1/2014,1031,117,Outbound,4253704,4253794,Wonderland West Busway,36,30,6
+22,3/1/2014,1028,117,Outbound,4253794,4253843,Maverick Station,37,30,7
+22,3/1/2014,1032,117,Outbound,4253794,4253843,Meridian St @ Saratoga St,31,30,1
+22,3/1/2014,1041,117,Outbound,4253794,4253843,Hawthorne St @ Broadway,29,30,-1
+22,3/1/2014,1044,117,Outbound,4253794,4253843,Broadway @ Webster Ave,29,30,-1
+22,3/1/2014,1050,117,Outbound,4253794,4253843,49 Central Ave,29,30,-1
+22,3/1/2014,1053,117,Outbound,4253794,4253843,Beach St @ Shirley Ave - Bell Circle,29,30,-1
+22,3/1/2014,1061,117,Outbound,4253794,4253843,Wonderland West Busway,28,28,0
+23,3/1/2014,1058,117,Outbound,4253843,4253706,Maverick Station,30,30,0
+23,3/1/2014,1062,117,Outbound,4253843,4253706,Meridian St @ Saratoga St,29,29,0
+23,3/1/2014,1071,117,Outbound,4253843,4253706,Hawthorne St @ Broadway,28,27,1
+23,3/1/2014,1074,117,Outbound,4253843,4253706,Broadway @ Webster Ave,27,27,0
+23,3/1/2014,1080,117,Outbound,4253843,4253706,49 Central Ave,27,27,0
+23,3/1/2014,1083,117,Outbound,4253843,4253706,Beach St @ Shirley Ave - Bell Circle,25,27,-2
+23,3/1/2014,1089,117,Outbound,4253843,4253706,Wonderland West Busway,27,27,0
+24,3/1/2014,1088,117,Outbound,4253706,4254212,Maverick Station,40,30,10
+24,3/1/2014,1091,117,Outbound,4253706,4254212,Meridian St @ Saratoga St,31,30,1
+24,3/1/2014,1098,117,Outbound,4253706,4254212,Hawthorne St @ Broadway,30,30,0
+24,3/1/2014,1101,117,Outbound,4253706,4254212,Broadway @ Webster Ave,30,30,0
+24,3/1/2014,1107,117,Outbound,4253706,4254212,49 Central Ave,31,30,1
+24,3/1/2014,1110,117,Outbound,4253706,4254212,Beach St @ Shirley Ave - Bell Circle,31,30,1
+24,3/1/2014,1116,117,Outbound,4253706,4254212,Wonderland West Busway,29,30,-1
+25,3/1/2014,1118,117,Outbound,4254212,4254177,Maverick Station,38,31,7
+25,3/1/2014,1121,117,Outbound,4254212,4254177,Meridian St @ Saratoga St,39,31,8
+25,3/1/2014,1128,117,Outbound,4254212,4254177,Hawthorne St @ Broadway,39,31,8
+25,3/1/2014,1131,117,Outbound,4254212,4254177,Broadway @ Webster Ave,42,31,11
+25,3/1/2014,1137,117,Outbound,4254212,4254177,49 Central Ave,43,31,12
+25,3/1/2014,1140,117,Outbound,4254212,4254177,Beach St @ Shirley Ave - Bell Circle,44,31,13
+25,3/1/2014,1146,117,Outbound,4254212,4254177,Wonderland West Busway,44,28,16
+26,3/1/2014,1149,117,Outbound,4254177,4254214,Maverick Station,39,35,4
+26,3/1/2014,1152,117,Outbound,4254177,4254214,Meridian St @ Saratoga St,37,35,2
+26,3/1/2014,1159,117,Outbound,4254177,4254214,Hawthorne St @ Broadway,38,35,3
+26,3/1/2014,1162,117,Outbound,4254177,4254214,Broadway @ Webster Ave,38,34,4
+26,3/1/2014,1168,117,Outbound,4254177,4254214,49 Central Ave,34,34,0
+26,3/1/2014,1171,117,Outbound,4254177,4254214,Beach St @ Shirley Ave - Bell Circle,32,34,-2
+27,3/1/2014,1184,117,Outbound,4254214,4254247,Maverick Station,16,36,-20
+27,3/1/2014,1187,117,Outbound,4254214,4254247,Meridian St @ Saratoga St,25,36,-11
+27,3/1/2014,1194,117,Outbound,4254214,4254247,Hawthorne St @ Broadway,23,36,-13
+27,3/1/2014,1196,117,Outbound,4254214,4254247,Broadway @ Webster Ave,20,36,-16
+27,3/1/2014,1202,117,Outbound,4254214,4254247,49 Central Ave,20,36,-16
+27,3/1/2014,1205,117,Outbound,4254214,4254247,Beach St @ Shirley Ave - Bell Circle,22,36,-14
+28,3/1/2014,1220,117,Outbound,4254247,4256890,Maverick Station,54,40,14
+28,3/1/2014,1223,117,Outbound,4254247,4256890,Meridian St @ Saratoga St,46,40,6
+28,3/1/2014,1230,117,Outbound,4254247,4256890,Hawthorne St @ Broadway,47,40,7
+28,3/1/2014,1232,117,Outbound,4254247,4256890,Broadway @ Webster Ave,48,40,8
+28,3/1/2014,1238,117,Outbound,4254247,4256890,49 Central Ave,50,40,10
+28,3/1/2014,1241,117,Outbound,4254247,4256890,Beach St @ Shirley Ave - Bell Circle,48,40,8
+28,3/1/2014,1244,117,Outbound,4254247,4256890,Wonderland West Busway,49,40,9
+29,3/1/2014,1260,117,Outbound,4256890,4254281,Maverick Station,37,40,-3
+29,3/1/2014,1263,117,Outbound,4256890,4254281,Meridian St @ Saratoga St,35,40,-5
+29,3/1/2014,1270,117,Outbound,4256890,4254281,Hawthorne St @ Broadway,33,40,-7
+29,3/1/2014,1272,117,Outbound,4256890,4254281,Broadway @ Webster Ave,31,40,-9
+29,3/1/2014,1278,117,Outbound,4256890,4254281,49 Central Ave,30,40,-10
+29,3/1/2014,1281,117,Outbound,4256890,4254281,Beach St @ Shirley Ave - Bell Circle,31,40,-9
+29,3/1/2014,1284,117,Outbound,4256890,4254281,Wonderland West Busway,30,40,-10
+30,3/1/2014,1300,117,Outbound,4254281,4253900,Maverick Station,36,40,-4
+30,3/1/2014,1303,117,Outbound,4254281,4253900,Meridian St @ Saratoga St,38,40,-2
+30,3/1/2014,1310,117,Outbound,4254281,4253900,Hawthorne St @ Broadway,38,40,-2
+30,3/1/2014,1312,117,Outbound,4254281,4253900,Broadway @ Webster Ave,39,40,-1
+30,3/1/2014,1318,117,Outbound,4254281,4253900,49 Central Ave,39,40,-1
+30,3/1/2014,1321,117,Outbound,4254281,4253900,Beach St @ Shirley Ave - Bell Circle,39,40,-1
+30,3/1/2014,1324,117,Outbound,4254281,4253900,Wonderland West Busway,39,40,-1
+31,3/1/2014,1340,117,Outbound,4253900,4253944,Maverick Station,46,40,6
+31,3/1/2014,1343,117,Outbound,4253900,4253944,Meridian St @ Saratoga St,47,40,7
+31,3/1/2014,1350,117,Outbound,4253900,4253944,Hawthorne St @ Broadway,50,40,10
+31,3/1/2014,1352,117,Outbound,4253900,4253944,Broadway @ Webster Ave,51,40,11
+31,3/1/2014,1358,117,Outbound,4253900,4253944,49 Central Ave,52,40,12
+31,3/1/2014,1361,117,Outbound,4253900,4253944,Beach St @ Shirley Ave - Bell Circle,51,40,11
+31,3/1/2014,1364,117,Outbound,4253900,4253944,Wonderland West Busway,51,40,11
+32,3/1/2014,1380,117,Outbound,4253944,4254285,Maverick Station,33,40,-7
+32,3/1/2014,1383,117,Outbound,4253944,4254285,Meridian St @ Saratoga St,33,40,-7
+32,3/1/2014,1390,117,Outbound,4253944,4254285,Hawthorne St @ Broadway,31,40,-9
+32,3/1/2014,1392,117,Outbound,4253944,4254285,Broadway @ Webster Ave,30,40,-10
+32,3/1/2014,1398,117,Outbound,4253944,4254285,49 Central Ave,29,40,-11
+32,3/1/2014,1401,117,Outbound,4253944,4254285,Beach St @ Shirley Ave - Bell Circle,29,40,-11
+32,3/1/2014,1404,117,Outbound,4253944,4254285,Wonderland West Busway,29,40,-11
+33,3/1/2014,1420,117,Outbound,4254285,4253904,Maverick Station,37,40,-3
+33,3/1/2014,1423,117,Outbound,4254285,4253904,Meridian St @ Saratoga St,40,40,0
+33,3/1/2014,1430,117,Outbound,4254285,4253904,Hawthorne St @ Broadway,41,40,1
+33,3/1/2014,1432,117,Outbound,4254285,4253904,Broadway @ Webster Ave,42,40,2
+33,3/1/2014,1438,117,Outbound,4254285,4253904,49 Central Ave,41,40,1
+33,3/1/2014,1441,117,Outbound,4254285,4253904,Beach St @ Shirley Ave - Bell Circle,41,40,1
+33,3/1/2014,1444,117,Outbound,4254285,4253904,Wonderland West Busway,41,40,1

@@ -1,0 +1,205 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,3/1/2014,335,116,Outbound,4253499,4254082,Maverick Station,34,35,-1
+1,3/1/2014,337,116,Outbound,4253499,4254082,Meridian St @ Saratoga St,35,35,0
+1,3/1/2014,342,116,Outbound,4253499,4254082,Hawthorne St @ Broadway,38,35,3
+1,3/1/2014,344,116,Outbound,4253499,4254082,Broadway @ Webster Ave,37,35,2
+1,3/1/2014,349,116,Outbound,4253499,4254082,Broadway opp Fernwood Ave,38,35,3
+1,3/1/2014,357,116,Outbound,4253499,4254082,Wonderland West Busway,38,35,3
+2,3/1/2014,370,116,Outbound,4254082,4254103,Maverick Station,39,41,-2
+2,3/1/2014,372,116,Outbound,4254082,4254103,Meridian St @ Saratoga St,38,41,-3
+2,3/1/2014,377,116,Outbound,4254082,4254103,Hawthorne St @ Broadway,37,41,-4
+2,3/1/2014,379,116,Outbound,4254082,4254103,Broadway @ Webster Ave,39,41,-2
+2,3/1/2014,384,116,Outbound,4254082,4254103,Broadway opp Fernwood Ave,38,41,-3
+2,3/1/2014,392,116,Outbound,4254082,4254103,Wonderland West Busway,38,41,-3
+3,3/1/2014,411,116,Outbound,4254103,4253503,Maverick Station,41,42,-1
+3,3/1/2014,413,116,Outbound,4254103,4253503,Meridian St @ Saratoga St,43,42,1
+3,3/1/2014,418,116,Outbound,4254103,4253503,Hawthorne St @ Broadway,43,42,1
+3,3/1/2014,420,116,Outbound,4254103,4253503,Broadway @ Webster Ave,43,42,1
+3,3/1/2014,425,116,Outbound,4254103,4253503,Broadway opp Fernwood Ave,43,42,1
+3,3/1/2014,433,116,Outbound,4254103,4253503,Wonderland West Busway,44,42,2
+4,3/1/2014,453,116,Outbound,4253503,4254086,Maverick Station,46,44,2
+4,3/1/2014,455,116,Outbound,4253503,4254086,Meridian St @ Saratoga St,45,44,1
+4,3/1/2014,460,116,Outbound,4253503,4254086,Hawthorne St @ Broadway,52,46,6
+4,3/1/2014,462,116,Outbound,4253503,4254086,Broadway @ Webster Ave,53,47,6
+4,3/1/2014,467,116,Outbound,4253503,4254086,Broadway opp Fernwood Ave,54,47,7
+4,3/1/2014,475,116,Outbound,4253503,4254086,Wonderland West Busway,55,47,8
+5,3/1/2014,497,116,Outbound,4254086,4254107,Maverick Station,47,43,4
+5,3/1/2014,499,116,Outbound,4254086,4254107,Meridian St @ Saratoga St,46,43,3
+5,3/1/2014,506,116,Outbound,4254086,4254107,Hawthorne St @ Broadway,46,43,3
+5,3/1/2014,509,116,Outbound,4254086,4254107,Broadway @ Webster Ave,46,43,3
+5,3/1/2014,514,116,Outbound,4254086,4254107,Broadway opp Fernwood Ave,47,42,5
+5,3/1/2014,522,116,Outbound,4254086,4254107,Wonderland West Busway,49,46,3
+6,3/1/2014,540,116,Outbound,4254107,4253507,Maverick Station,34,43,-9
+6,3/1/2014,542,116,Outbound,4254107,4253507,Meridian St @ Saratoga St,39,44,-5
+6,3/1/2014,549,116,Outbound,4254107,4253507,Hawthorne St @ Broadway,33,44,-11
+6,3/1/2014,552,116,Outbound,4254107,4253507,Broadway @ Webster Ave,33,44,-11
+6,3/1/2014,556,116,Outbound,4254107,4253507,Broadway opp Fernwood Ave,30,45,-15
+6,3/1/2014,568,116,Outbound,4254107,4253507,Wonderland West Busway,30,43,-13
+7,3/1/2014,583,116,Outbound,4253507,4254315,Maverick Station,52,41,11
+7,3/1/2014,586,116,Outbound,4253507,4254315,Meridian St @ Saratoga St,50,42,8
+7,3/1/2014,593,116,Outbound,4253507,4254315,Hawthorne St @ Broadway,49,43,6
+7,3/1/2014,596,116,Outbound,4253507,4254315,Broadway @ Webster Ave,48,43,5
+7,3/1/2014,601,116,Outbound,4253507,4254315,Broadway opp Fernwood Ave,49,44,5
+7,3/1/2014,611,116,Outbound,4253507,4254315,Wonderland West Busway,50,44,6
+8,3/1/2014,624,116,Outbound,4254315,4253978,Maverick Station,19,29,-10
+8,3/1/2014,628,116,Outbound,4254315,4253978,Meridian St @ Saratoga St,19,29,-10
+8,3/1/2014,636,116,Outbound,4254315,4253978,Hawthorne St @ Broadway,18,29,-11
+8,3/1/2014,639,116,Outbound,4254315,4253978,Broadway @ Webster Ave,18,29,-11
+8,3/1/2014,645,116,Outbound,4254315,4253978,Broadway opp Fernwood Ave,18,29,-11
+8,3/1/2014,655,116,Outbound,4254315,4253978,Wonderland West Busway,17,29,-12
+9,3/1/2014,653,116,Outbound,4253978,4254019,Maverick Station,47,30,17
+9,3/1/2014,657,116,Outbound,4253978,4254019,Meridian St @ Saratoga St,48,30,18
+9,3/1/2014,665,116,Outbound,4253978,4254019,Hawthorne St @ Broadway,53,30,23
+9,3/1/2014,668,116,Outbound,4253978,4254019,Broadway @ Webster Ave,58,30,28
+9,3/1/2014,674,116,Outbound,4253978,4254019,Broadway opp Fernwood Ave,59,30,29
+9,3/1/2014,684,116,Outbound,4253978,4254019,Wonderland West Busway,60,30,30
+10,3/1/2014,683,116,Outbound,4254019,4253528,Maverick Station,13,30,-17
+10,3/1/2014,687,116,Outbound,4254019,4253528,Meridian St @ Saratoga St,15,30,-15
+10,3/1/2014,695,116,Outbound,4254019,4253528,Hawthorne St @ Broadway,11,31,-20
+10,3/1/2014,698,116,Outbound,4254019,4253528,Broadway @ Webster Ave,7,31,-24
+10,3/1/2014,704,116,Outbound,4254019,4253528,Broadway opp Fernwood Ave,8,32,-24
+10,3/1/2014,714,116,Outbound,4254019,4253528,Wonderland West Busway,7,34,-27
+11,3/1/2014,713,116,Outbound,4253528,4253980,Maverick Station,25,30,-5
+11,3/1/2014,717,116,Outbound,4253528,4253980,Meridian St @ Saratoga St,28,31,-3
+11,3/1/2014,726,116,Outbound,4253528,4253980,Hawthorne St @ Broadway,31,31,0
+11,3/1/2014,729,116,Outbound,4253528,4253980,Broadway @ Webster Ave,32,31,1
+11,3/1/2014,736,116,Outbound,4253528,4253980,Broadway opp Fernwood Ave,31,31,0
+11,3/1/2014,748,116,Outbound,4253528,4253980,Wonderland West Busway,31,31,0
+12,3/1/2014,743,116,Outbound,4253980,4254021,Maverick Station,42,30,12
+12,3/1/2014,748,116,Outbound,4253980,4254021,Meridian St @ Saratoga St,34,30,4
+12,3/1/2014,757,116,Outbound,4253980,4254021,Hawthorne St @ Broadway,32,30,2
+12,3/1/2014,760,116,Outbound,4253980,4254021,Broadway @ Webster Ave,31,30,1
+12,3/1/2014,767,116,Outbound,4253980,4254021,Broadway opp Fernwood Ave,34,29,5
+12,3/1/2014,779,116,Outbound,4253980,4254021,Wonderland West Busway,34,28,6
+13,3/1/2014,773,116,Outbound,4254021,4253530,Maverick Station,15,30,-15
+13,3/1/2014,778,116,Outbound,4254021,4253530,Meridian St @ Saratoga St,28,29,-1
+13,3/1/2014,787,116,Outbound,4254021,4253530,Hawthorne St @ Broadway,34,29,5
+13,3/1/2014,790,116,Outbound,4254021,4253530,Broadway @ Webster Ave,36,29,7
+13,3/1/2014,796,116,Outbound,4254021,4253530,Broadway opp Fernwood Ave,34,29,5
+13,3/1/2014,807,116,Outbound,4254021,4253530,Wonderland West Busway,32,29,3
+14,3/1/2014,803,116,Outbound,4253530,4253564,Maverick Station,38,30,8
+14,3/1/2014,807,116,Outbound,4253530,4253564,Meridian St @ Saratoga St,28,30,-2
+14,3/1/2014,816,116,Outbound,4253530,4253564,Hawthorne St @ Broadway,22,30,-8
+14,3/1/2014,819,116,Outbound,4253530,4253564,Broadway @ Webster Ave,22,30,-8
+14,3/1/2014,825,116,Outbound,4253530,4253564,Broadway opp Fernwood Ave,21,30,-9
+14,3/1/2014,836,116,Outbound,4253530,4253564,Wonderland West Busway,22,30,-8
+15,3/1/2014,833,116,Outbound,4253564,4254023,Maverick Station,18,30,-12
+15,3/1/2014,837,116,Outbound,4253564,4254023,Meridian St @ Saratoga St,30,30,0
+15,3/1/2014,846,116,Outbound,4253564,4254023,Hawthorne St @ Broadway,39,30,9
+15,3/1/2014,849,116,Outbound,4253564,4254023,Broadway @ Webster Ave,38,30,8
+15,3/1/2014,855,116,Outbound,4253564,4254023,Broadway opp Fernwood Ave,40,30,10
+15,3/1/2014,866,116,Outbound,4253564,4254023,Wonderland West Busway,43,30,13
+16,3/1/2014,863,116,Outbound,4254023,4254562,Maverick Station,48,30,18
+16,3/1/2014,867,116,Outbound,4254023,4254562,Meridian St @ Saratoga St,33,30,3
+16,3/1/2014,876,116,Outbound,4254023,4254562,Hawthorne St @ Broadway,27,30,-3
+16,3/1/2014,879,116,Outbound,4254023,4254562,Broadway @ Webster Ave,29,30,-1
+16,3/1/2014,885,116,Outbound,4254023,4254562,Broadway opp Fernwood Ave,29,30,-1
+16,3/1/2014,896,116,Outbound,4254023,4254562,Wonderland West Busway,28,30,-2
+17,3/1/2014,893,116,Outbound,4254562,4253759,Maverick Station,9,30,-21
+17,3/1/2014,897,116,Outbound,4254562,4253759,Meridian St @ Saratoga St,27,30,-3
+17,3/1/2014,906,116,Outbound,4254562,4253759,Hawthorne St @ Broadway,30,30,0
+17,3/1/2014,909,116,Outbound,4254562,4253759,Broadway @ Webster Ave,27,30,-3
+17,3/1/2014,915,116,Outbound,4254562,4253759,Broadway opp Fernwood Ave,31,30,1
+17,3/1/2014,926,116,Outbound,4254562,4253759,Wonderland West Busway,30,30,0
+18,3/1/2014,923,116,Outbound,4253759,4254208,Maverick Station,44,30,14
+18,3/1/2014,927,116,Outbound,4253759,4254208,Meridian St @ Saratoga St,31,30,1
+18,3/1/2014,936,116,Outbound,4253759,4254208,Hawthorne St @ Broadway,27,30,-3
+18,3/1/2014,939,116,Outbound,4253759,4254208,Broadway @ Webster Ave,29,30,-1
+18,3/1/2014,945,116,Outbound,4253759,4254208,Broadway opp Fernwood Ave,23,30,-7
+18,3/1/2014,956,116,Outbound,4253759,4254208,Wonderland West Busway,23,30,-7
+19,3/1/2014,953,116,Outbound,4254208,4254173,Maverick Station,36,30,6
+19,3/1/2014,957,116,Outbound,4254208,4254173,Meridian St @ Saratoga St,34,30,4
+19,3/1/2014,966,116,Outbound,4254208,4254173,Hawthorne St @ Broadway,35,30,5
+19,3/1/2014,969,116,Outbound,4254208,4254173,Broadway @ Webster Ave,34,30,4
+19,3/1/2014,975,116,Outbound,4254208,4254173,Broadway opp Fernwood Ave,34,30,4
+19,3/1/2014,986,116,Outbound,4254208,4254173,Wonderland West Busway,34,30,4
+20,3/1/2014,983,116,Outbound,4254173,4253761,Maverick Station,17,30,-13
+20,3/1/2014,987,116,Outbound,4254173,4253761,Meridian St @ Saratoga St,25,30,-5
+20,3/1/2014,996,116,Outbound,4254173,4253761,Hawthorne St @ Broadway,24,30,-6
+20,3/1/2014,999,116,Outbound,4254173,4253761,Broadway @ Webster Ave,26,30,-4
+20,3/1/2014,1005,116,Outbound,4254173,4253761,Broadway opp Fernwood Ave,27,30,-3
+20,3/1/2014,1016,116,Outbound,4254173,4253761,Wonderland West Busway,25,30,-5
+21,3/1/2014,1013,116,Outbound,4253761,4254210,Maverick Station,24,30,-6
+21,3/1/2014,1017,116,Outbound,4253761,4254210,Meridian St @ Saratoga St,30,30,0
+21,3/1/2014,1026,116,Outbound,4253761,4254210,Hawthorne St @ Broadway,28,30,-2
+21,3/1/2014,1029,116,Outbound,4253761,4254210,Broadway @ Webster Ave,27,30,-3
+21,3/1/2014,1035,116,Outbound,4253761,4254210,Broadway opp Fernwood Ave,25,30,-5
+21,3/1/2014,1046,116,Outbound,4253761,4254210,Wonderland West Busway,26,30,-4
+22,3/1/2014,1043,116,Outbound,4254210,4254175,Maverick Station,37,30,7
+22,3/1/2014,1047,116,Outbound,4254210,4254175,Meridian St @ Saratoga St,32,30,2
+22,3/1/2014,1056,116,Outbound,4254210,4254175,Hawthorne St @ Broadway,35,28,7
+22,3/1/2014,1059,116,Outbound,4254210,4254175,Broadway @ Webster Ave,35,28,7
+22,3/1/2014,1065,116,Outbound,4254210,4254175,Broadway opp Fernwood Ave,36,28,8
+22,3/1/2014,1076,116,Outbound,4254210,4254175,Wonderland West Busway,38,27,11
+23,3/1/2014,1073,116,Outbound,4254175,4253763,Maverick Station,22,30,-8
+23,3/1/2014,1077,116,Outbound,4254175,4253763,Meridian St @ Saratoga St,27,29,-2
+23,3/1/2014,1084,116,Outbound,4254175,4253763,Hawthorne St @ Broadway,24,29,-5
+23,3/1/2014,1087,116,Outbound,4254175,4253763,Broadway @ Webster Ave,23,29,-6
+23,3/1/2014,1093,116,Outbound,4254175,4253763,Broadway opp Fernwood Ave,24,29,-5
+23,3/1/2014,1103,116,Outbound,4254175,4253763,Wonderland West Busway,23,29,-6
+24,3/1/2014,1103,116,Outbound,4253763,4253845,Maverick Station,46,30,16
+24,3/1/2014,1106,116,Outbound,4253763,4253845,Meridian St @ Saratoga St,30,30,0
+24,3/1/2014,1113,116,Outbound,4253763,4253845,Hawthorne St @ Broadway,29,30,-1
+24,3/1/2014,1116,116,Outbound,4253763,4253845,Broadway @ Webster Ave,28,30,-2
+24,3/1/2014,1122,116,Outbound,4253763,4253845,Broadway opp Fernwood Ave,28,30,-2
+24,3/1/2014,1132,116,Outbound,4253763,4253845,Wonderland West Busway,26,30,-4
+25,3/1/2014,1133,116,Outbound,4253845,4253708,Maverick Station,28,33,-5
+25,3/1/2014,1136,116,Outbound,4253845,4253708,Meridian St @ Saratoga St,33,33,0
+25,3/1/2014,1143,116,Outbound,4253845,4253708,Hawthorne St @ Broadway,33,33,0
+25,3/1/2014,1146,116,Outbound,4253845,4253708,Broadway @ Webster Ave,31,33,-2
+25,3/1/2014,1152,116,Outbound,4253845,4253708,Broadway opp Fernwood Ave,31,33,-2
+25,3/1/2014,1162,116,Outbound,4253845,4253708,Wonderland West Busway,31,33,-2
+26,3/1/2014,1166,116,Outbound,4253708,4253847,Maverick Station,38,36,2
+26,3/1/2014,1169,116,Outbound,4253708,4253847,Meridian St @ Saratoga St,39,36,3
+26,3/1/2014,1176,116,Outbound,4253708,4253847,Hawthorne St @ Broadway,39,36,3
+26,3/1/2014,1179,116,Outbound,4253708,4253847,Broadway @ Webster Ave,40,35,5
+26,3/1/2014,1185,116,Outbound,4253708,4253847,Broadway opp Fernwood Ave,39,35,4
+26,3/1/2014,1195,116,Outbound,4253708,4253847,Wonderland West Busway,40,32,8
+27,3/1/2014,1202,116,Outbound,4253847,4254279,Maverick Station,49,38,11
+27,3/1/2014,1205,116,Outbound,4253847,4254279,Meridian St @ Saratoga St,43,38,5
+27,3/1/2014,1212,116,Outbound,4253847,4254279,Hawthorne St @ Broadway,43,38,5
+27,3/1/2014,1214,116,Outbound,4253847,4254279,Broadway @ Webster Ave,44,38,6
+27,3/1/2014,1220,116,Outbound,4253847,4254279,Broadway opp Fernwood Ave,41,38,3
+27,3/1/2014,1227,116,Outbound,4253847,4254279,Wonderland West Busway,39,38,1
+28,3/1/2014,1240,116,Outbound,4254279,4254249,Maverick Station,31,40,-9
+28,3/1/2014,1243,116,Outbound,4254279,4254249,Meridian St @ Saratoga St,31,40,-9
+28,3/1/2014,1250,116,Outbound,4254279,4254249,Hawthorne St @ Broadway,30,40,-10
+28,3/1/2014,1252,116,Outbound,4254279,4254249,Broadway @ Webster Ave,29,40,-11
+28,3/1/2014,1258,116,Outbound,4254279,4254249,Broadway opp Fernwood Ave,31,40,-9
+28,3/1/2014,1265,116,Outbound,4254279,4254249,Wonderland West Busway,33,40,-7
+29,3/1/2014,1280,116,Outbound,4254249,4256892,Maverick Station,52,40,12
+29,3/1/2014,1283,116,Outbound,4254249,4256892,Meridian St @ Saratoga St,52,40,12
+29,3/1/2014,1290,116,Outbound,4254249,4256892,Hawthorne St @ Broadway,54,40,14
+29,3/1/2014,1292,116,Outbound,4254249,4256892,Broadway @ Webster Ave,54,40,14
+29,3/1/2014,1298,116,Outbound,4254249,4256892,Broadway opp Fernwood Ave,55,40,15
+29,3/1/2014,1305,116,Outbound,4254249,4256892,Wonderland West Busway,54,40,14
+30,3/1/2014,1320,116,Outbound,4256892,4254283,Maverick Station,29,40,-11
+30,3/1/2014,1323,116,Outbound,4256892,4254283,Meridian St @ Saratoga St,29,40,-11
+30,3/1/2014,1330,116,Outbound,4256892,4254283,Hawthorne St @ Broadway,27,40,-13
+30,3/1/2014,1332,116,Outbound,4256892,4254283,Broadway @ Webster Ave,27,40,-13
+30,3/1/2014,1338,116,Outbound,4256892,4254283,Broadway opp Fernwood Ave,25,40,-15
+30,3/1/2014,1345,116,Outbound,4256892,4254283,Wonderland West Busway,24,40,-16
+31,3/1/2014,1360,116,Outbound,4254283,4253902,Maverick Station,39,40,-1
+31,3/1/2014,1363,116,Outbound,4254283,4253902,Meridian St @ Saratoga St,39,39,0
+31,3/1/2014,1370,116,Outbound,4254283,4253902,Hawthorne St @ Broadway,38,39,-1
+31,3/1/2014,1372,116,Outbound,4254283,4253902,Broadway @ Webster Ave,37,39,-2
+31,3/1/2014,1378,116,Outbound,4254283,4253902,Broadway opp Fernwood Ave,37,38,-1
+31,3/1/2014,1385,116,Outbound,4254283,4253902,Wonderland West Busway,39,38,1
+32,3/1/2014,1400,116,Outbound,4253902,4253946,Maverick Station,41,40,1
+32,3/1/2014,1402,116,Outbound,4253902,4253946,Meridian St @ Saratoga St,42,40,2
+32,3/1/2014,1409,116,Outbound,4253902,4253946,Hawthorne St @ Broadway,44,40,4
+32,3/1/2014,1411,116,Outbound,4253902,4253946,Broadway @ Webster Ave,46,40,6
+32,3/1/2014,1416,116,Outbound,4253902,4253946,Broadway opp Fernwood Ave,47,40,7
+32,3/1/2014,1423,116,Outbound,4253902,4253946,Wonderland West Busway,50,40,10
+33,3/1/2014,1440,116,Outbound,4253946,4254287,Maverick Station,36,40,-4
+33,3/1/2014,1442,116,Outbound,4253946,4254287,Meridian St @ Saratoga St,38,40,-2
+33,3/1/2014,1449,116,Outbound,4253946,4254287,Hawthorne St @ Broadway,36,40,-4
+33,3/1/2014,1451,116,Outbound,4253946,4254287,Broadway @ Webster Ave,35,40,-5
+33,3/1/2014,1456,116,Outbound,4253946,4254287,Broadway opp Fernwood Ave,34,40,-6
+33,3/1/2014,1463,116,Outbound,4253946,4254287,Wonderland West Busway,28,40,-12
+34,3/1/2014,1480,116,Outbound,4254287,4253948,Maverick Station,23,20,3
+34,3/1/2014,1482,116,Outbound,4254287,4253948,Meridian St @ Saratoga St,42,20,22
+34,3/1/2014,1489,116,Outbound,4254287,4253948,Hawthorne St @ Broadway,42,20,22
+34,3/1/2014,1491,116,Outbound,4254287,4253948,Broadway @ Webster Ave,42,20,22
+34,3/1/2014,1496,116,Outbound,4254287,4253948,Broadway opp Fernwood Ave,43,20,23
+34,3/1/2014,1503,116,Outbound,4254287,4253948,Wonderland West Busway,43,20,23
