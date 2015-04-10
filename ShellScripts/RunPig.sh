@@ -15,21 +15,25 @@ build_dirs(){
     return 0
 }
 
+if [ $# != 4 ] ; then 
+	echo "USAGE: $0 BeginDate, EndDate, Begin Time(min), End Time(min)" 
+	echo " e.g.(10am-12am): sh $0 20150101 20150301 600 720" 
+	exit 1; 
+fi 
+
 ALL_DIRS=
 beg=$1
 end=$2
-filename=$3
+begintime=$3
+endtime=$4
 
 for((;$beg<$end;))
 do  
-    DIR=$beg.csv
-    echo $ALL_DIRS  
+    DIR=$beg.csv  
     build_dirs  $DIR $ALL_DIRS   
     beg=$(date -d "$beg +1days" +%Y%m%d)
 done
-echo $build_dirs
-
 
 echo 'Doing Scirpt for these days'
-sh DiffTime.sh $build_dirs $filename
-sh TripDuration.sh $build_dirs $file_name
+sh DiffTime.sh $build_dirs $ALL_DIRS  $bginttime $endtime
+sh TripDuration.sh $build_dirs $ALL_DIRS  $bginttime $endtime
