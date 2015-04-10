@@ -5,14 +5,14 @@ HADOOP_PATH=/user/hadoop
 LOCAL_RESULT_PATH=/home/hadoop/Result
 OUTPUT_PATH_NAME=tripDurations
 
-if [ $# != 1 ] ; then 
-	echo "USAGE: $0 csv File in the Cluster" 
-	echo " e.g.: $0 oneday.csv" 
+if [ $# != 3 ] ; then 
+	echo "USAGE: $0 csv File in the Cluster, Begin Time(min), End Time(min)" 
+	echo " e.g.(10am-12am): sh $0 oneday.csv 600 720" 
 	exit 1; 
 fi 
 
 
-echo "The Input File is  $1"
+echo "The Input File is $1"
 input_path=$HADOOP_PATH/$1
 
 
@@ -21,7 +21,7 @@ hadoop fs -rmr $HADOOP_PATH/$OUTPUT_PATH_NAME
 
 echo "Doing Pig Script..."
 #pig  $SCRIPT_PATH/computeAvgTripDiffFromSched.pig
-pig  -p "csvfile="$input_path"" $SCRIPT_PATH/computeTripDurations.pig
+pig  -p "csvfile="$input_path"" -p "begin=$2" -p "end=$3" $SCRIPT_PATH/computeTripDurations.pig
 
 
 echo "Copy File to LocalDisk..."
