@@ -19,7 +19,8 @@ FilterData = FILTER FilterData BY (ScheduledTimeInMin >= $begin) AND (ScheduledT
 FilterData = FOREACH FilterData GENERATE TripID, RouteName, RouteDirectionName, PatternName,
 	                                 ScheduledTime, ScheduledTimeInMin as ScheduledT,
 	                                 ActArrivalTime, ActArrivalTimeInMin as ActArrivalT,
-	                                 (int)ABS(ScheduledTimeInMin - ActArrivalTimeInMin) as diffT, 
+	                                 (int)ABS(ScheduledTimeInMin - ActArrivalTimeInMin) as diffT,
+									 (ScheduledTimeInMin - ActArrivalTimeInMin) *  (ScheduledTimeInMin - ActArrivalTimeInMin) / 2 as squarediffT,
 	                                 StopName, CROSSING_TYPE_ID;
 
 
@@ -30,8 +31,9 @@ avgTripDifference = FOREACH GroupedData GENERATE group.RouteName as RouteName, g
 	               group.PatternName as PatternName,
 	               MIN(FilterData.ScheduledTime) as StartTime,
 	               ROUND(AVG(FilterData.diffT)) as avgDiffOnTime,
+				   ROUND(AVG(FilterData.squarediffT)) as avgSqurDiffOnTime, 
 	               group.TripID as TripID;
 
 avgTripDifference = Order avgTripDifference by RouteName, RouteDirectionName, PatternName, StartTime PARALLEL 10; 
 
-store avgTripDifference into 'avgTripDifference' PARALLEL 1;
+store avgTripDifference into 'avgTripDifference' USING PigStorage('\t') PARALLEL 1;

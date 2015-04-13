@@ -68,7 +68,7 @@ Headway = FOREACH TripsJOIN
 
 Headway = ORDER Headway BY HeadwayId, StartTimeInMin;
 
-STORE Headway INTO 'HeadwayByTrip';
+STORE Headway INTO 'HeadwayByTrip' USING PigStorage('\t') PARALLEL 1;
 
 --rmf Headway.csv;
 --STORE Headway INTO '/Headway.csv' USING org.apache.pig.piggybank.storage.CSVExcelStorage(',', 'NO_MULTILINE', 'WINDOWS');
