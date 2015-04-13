@@ -3,7 +3,7 @@ SCRIPT_PATH=/home/hadoop/mbta-busses/PigScripts
 DATA_PATH=/home/hadoop/MBTADataSet
 HADOOP_PATH=/user/hadoop
 LOCAL_RESULT_PATH=/home/hadoop/Result
-OUTPUT_PATH_NAME=tripDurations
+OUTPUT_PATH_NAME=headwayByStop
 
 if [ $# != 3 ] ; then 
 	echo "USAGE: $0 csv File in the Cluster, Begin Time(min), End Time(min)" 
@@ -12,7 +12,7 @@ if [ $# != 3 ] ; then
 fi 
 
 
-echo "The Input File is $1"
+echo "The Input File is  $1"
 input_path=$HADOOP_PATH/$1
 
 
@@ -21,7 +21,7 @@ hadoop fs -rmr $HADOOP_PATH/$OUTPUT_PATH_NAME
 
 echo "Doing Pig Script..."
 #pig  $SCRIPT_PATH/computeAvgTripDiffFromSched.pig
-pig  -p "csvfile="$input_path"" -p "begin=$2" -p "end=$3" $SCRIPT_PATH/computeTripDurations.pig
+pig  -p "csvfile="$input_path"" -p "begin=$2" -p "end=$3" $SCRIPT_PATH/computeHeadwayByStop.pig
 
 
 echo "Copy File to LocalDisk..."

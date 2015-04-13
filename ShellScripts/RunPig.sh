@@ -35,5 +35,5 @@ do
 done
 
 echo 'Doing Scirpt for these days'
-sh DiffTime.sh $build_dirs $ALL_DIRS  $bginttime $endtime
-sh TripDuration.sh $build_dirs $ALL_DIRS  $bginttime $endtime
+sh DiffTime.sh  $ALL_DIRS  $bginttime $endtime
+sh TripDuration.sh  $ALL_DIRS  $bginttime $endtime

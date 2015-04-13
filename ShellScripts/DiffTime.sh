@@ -36,7 +36,7 @@ fi
 
 echo "Get Result to LocalDisk ..."
 hadoop fs -get $HADOOP_PATH/$OUTPUT_PATH_NAME/part-* $dire
-cat $dire/* >>$LOCAL_RESULT_PATH/$OUTPUT_PATH_NAME/$OUTPUT_PATH_NAME.tsv
+cat $dire/* >>$LOCAL_RESULT_PATH/$OUTPUT_PATH_NAME/$OUTPUT_PATH_NAME_$1_$2_$3.tsv
 
 
 
