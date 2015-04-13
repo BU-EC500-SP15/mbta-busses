@@ -18,7 +18,7 @@ RawData = load '$csvfile' using PigStorage(',') as (UNIQUE_ID, ServiceDate, Rout
 	MDTLatitude, MDTLongitude,ScheduledTimeInMin:int,ActArrivalTimeInMin:int,ActDepartureTimeInMin:int,ScheduledTime:chararray, ActArrivalTime:chararray, ActDepartureTime:chararray,
 	Variation, Vehicle, IsRevenue, CROSSING_TYPE_ID);
 	
-FilterData = FILTER FilterData BY (ScheduledTimeInMin >= $begin) AND (ScheduledTimeInMin <= $end);
+FilterData = FILTER RawData BY (ScheduledTimeInMin >= $begin) AND (ScheduledTimeInMin <= $end);
 
 -- Select useful columns
 FilterData = FOREACH FilterData
