@@ -20,6 +20,8 @@ do
 	echo 'Doing Scirpt for these days'
 	sh DiffTime.sh $1 $beg $end 
 	sh TripDuration.sh $1 $beg $end
+	$beg=$beg+30
+	$end=$end+30
 done
 
 
