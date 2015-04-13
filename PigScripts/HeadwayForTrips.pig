@@ -21,7 +21,7 @@ RawData = load '$csvfile' using PigStorage(',') as (UNIQUE_ID, ServiceDate, Rout
 FilterData = FILTER FilterData BY (ScheduledTimeInMin >= $begin) AND (ScheduledTimeInMin <= $end);
 
 -- Select useful columns
-FilterData = FOREACH RouteCrossingPoint
+FilterData = FOREACH FilterData
 				GENERATE ServiceDate, TripID, RouteName,
 						RouteDirectionName, PatternName, ScheduledTimeInMin,
 						ActArrivalTimeInMin, ActDepartureTimeInMin, StopName;
