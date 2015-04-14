@@ -4,17 +4,24 @@ SET DEFAULT_PARALLEL 10;
 %declare ROUTE_NAME '28'
 %declare ROUTE_DIRECTION 'Outbound'
 
-RawData = LOAD '$INPUT_PATH' USING PigStorage(',') AS (UNIQUE_ID, ServiceDate, RouteName:chararray, TripID:int, Block,
-	RouteDirectionName:chararray, PatternName, StopOffset, StopName, Latitude, Longitude, MapLatitude, MapLongitude,
-	MDTLatitude, MDTLongitude, ScheduledTimeInMin:int, ActArrivalTimeInMin:int, ActDepartureTimeInMin:int,
-    ScheduledTime:chararray, ActArrivalTime:chararray, ActDepartureTime:chararray,
-	Variation, Vehicle, IsRevenue, CROSSING_TYPE_ID);
+--RawData = LOAD '$INPUT_PATH' USING PigStorage(',') AS (UNIQUE_ID, ServiceDate, RouteName:chararray, TripID:int, Block,
+--	RouteDirectionName:chararray, PatternName, StopOffset, StopName, Latitude, Longitude, MapLatitude, MapLongitude,
+--	MDTLatitude, MDTLongitude, ScheduledTimeInMin:int, ActArrivalTimeInMin:int, ActDepartureTimeInMin:int,
+--    ScheduledTime:chararray, ActArrivalTime:chararray, ActDepartureTime:chararray,
+--	Variation, Vehicle, IsRevenue, CROSSING_TYPE_ID);
 
 -- Filter data by route name and route direction
-RouteCrossingPoint = FILTER RawData BY RouteName == '$ROUTE_NAME' and RouteDirectionName == '$ROUTE_DIRECTION';
+--RouteCrossingPoint = FILTER RawData BY RouteName == '$ROUTE_NAME' and RouteDirectionName == '$ROUTE_DIRECTION';
+
+RawData = load '$csvfile' using PigStorage(',') as (UNIQUE_ID, ServiceDate, RouteName:int, TripID:int, Block,
+	RouteDirectionName:chararray, PatternName, StopOffset, StopName, Latitude, Longitude, MapLatitude, MapLongitude,
+	MDTLatitude, MDTLongitude,ScheduledTimeInMin:int,ActArrivalTimeInMin:int,ActDepartureTimeInMin:int,ScheduledTime:chararray, ActArrivalTime:chararray, ActDepartureTime:chararray,
+	Variation, Vehicle, IsRevenue, CROSSING_TYPE_ID);
+	
+FilterData = FILTER RawData BY (ScheduledTimeInMin >= $begin) AND (ScheduledTimeInMin <= $end);
 
 -- Select useful columns
-FilterData = FOREACH RouteCrossingPoint
+FilterData = FOREACH FilterData
 				GENERATE ServiceDate, TripID, RouteName,
 						RouteDirectionName, PatternName, ScheduledTimeInMin,
 						ActArrivalTimeInMin, ActDepartureTimeInMin, StopName;
@@ -61,8 +68,10 @@ Headway = FOREACH TripsJOIN
 
 Headway = ORDER Headway BY HeadwayId, StartTimeInMin;
 
+STORE Headway INTO 'HeadwayByTrip' USING PigStorage('\t') PARALLEL 1;
+
 --rmf Headway.csv;
 --STORE Headway INTO '/Headway.csv' USING org.apache.pig.piggybank.storage.CSVExcelStorage(',', 'NO_MULTILINE', 'WINDOWS');
 
-DESCRIBE Headway;
-DUMP Headway;
+--DESCRIBE Headway;
+--DUMP Headway;

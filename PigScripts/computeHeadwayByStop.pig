@@ -62,6 +62,6 @@ DESCRIBE GroupResult;
 FinalAvgHeadTime = FOREACH GroupResult GENERATE group , AVG(AVGResult.HeadWayTime) ,AVG(AVGResult.HeadWayRealTime);
 DESCRIBE FinalAvgHeadTime;                                                           
 
-STORE FinalAvgHeadTime INTO 'AVGHead';
+STORE FinalAvgHeadTime INTO 'AVGHead' USING PigStorage('\t') PARALLEL 1;
 
                 
