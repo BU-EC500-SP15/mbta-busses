@@ -2,10 +2,13 @@
 <html>
 <title>MBTA Key Bus Route Data Visualization</title>
 <head>
-	<link rel="stylesheet" href="/Visualizations/stylesheets/styles.css">	
+	<link rel="stylesheet" href="/Visualizations/stylesheets/styles.css">
+	<link rel="stylesheet" href="html/css/bootstrap-specific.css">	
 </head>
 <body>
 	<h1>MBTA Bus Data</h1>
+
+<h3>Wanna see some graph templates with different metrics?</br> Click <a href="Visualizations/index.html">Here!</a></h3>
 	<h3>Use the form below to generate a visualization of your desired bus data</h3>
 	<form method="GET" action="submit.php">
 	<fieldset>
@@ -46,6 +49,93 @@
 	<button type="submit" value="Submit">Submit</button>
 </form>
 
+<br></br>
+<div class = "container">
+    <div class = "row">
+      <div class = "col-md-8">
+        <div id="map-canvas"></div>   
+      </div>
+      <div class = "col-md-2">
+        <h4>MBTA 15 Key Bus Routes</h4>
+        </br>
+        <ul id="list">
+          <li>
+          <input type="checkbox" id="route1">
+          <label class="boxes" for="route1">Bus Route 1</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route15">
+          <label class="boxes" for="route15">Bus Route 15</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route22">
+          <label class="boxes" for="route22">Bus Route 22</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route23">
+          <label class="boxes" for="route23">Bus Route 23</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route28">
+          <label class="boxes" for="route28">Bus Route 28</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route32">
+          <label class="boxes" for="route32">Bus Route 32</label>
+          </li>
+        </ul>
+      </div>
+      <div class = "col-md-2">
+        <ul id="list">
+          <li>
+          <input type="checkbox" id="route39">
+          <label class="boxes" for="route39">Bus Route 39</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route57">
+          <label class="boxes" for="route57">Bus Route 57</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route66">
+          <label class="boxes" for="route66">Bus Route 66</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route71">
+          <label class="boxes" for="route71">Bus Route 71</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route73">
+          <label class="boxes" for="route73">Bus Route 73</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route77">
+          <label class="boxes" for="route77">Bus Route 77</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route111">
+          <label class="boxes" for="route111">Bus Route 111</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route116">
+          <label class="boxes" for="route116">Bus Route 116</label>
+          </li>
+          <li>
+          <input type="checkbox" id="route117">
+          <label class="boxes" for="route117">Bus Route 117</label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <h3>Want to learn more about our project?</br> Visit Our <a href="Visualizations/Home Page of MBTA Team.html">HomePage!</a></h3>
+
+  <div id = "end" class = "navbar navbar-inverse">
+    <div class = "container">
+      <a style="font-size: 14px" href = "#" class = "navbar-text pull-right">Terms of use</a>
+      <p style="font-size: 14px" class = "navbar-text pull-left">&copy; 2015 - MBTA Bus Performance. All rights reserved.</p>
+    </div>
+  </div>
 	
 	<p id="demo"></p>
 	<script>
@@ -69,5 +159,12 @@
 		//document.getElementById("demo").innerHTML = chosenRoute;
 	</script>
 
+	<script src="html/bower_components/jquery/dist/jquery.min.js"></script>
+
+	<!-- Google Map API -->
+  	<script type = "text/javascript" src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyA-klagRI08vJ54c1emqvfH7M0s9Gz5b_Q"></script>
+
+  	<script src = "html/js/bus-map.js"></script>
+  	<script src = "html/js/papaparse.min.js"></script>
 </body>
 </html>

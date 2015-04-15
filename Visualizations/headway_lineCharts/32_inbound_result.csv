@@ -497,5 +497,3 @@ Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chara
 87,3/1/2014,1519,32,Inbound,4211384,4215068,Hyde Park Ave @ Oak Street,34,17,17
 87,3/1/2014,1520,32,Inbound,4211384,4215068,Hyde Park Ave @ Thatcher St,36,17,19
 87,3/1/2014,1521,32,Inbound,4211384,4215068,Hyde Park Ave @ American Legion Hwy,35,17,18
-87,3/1/2014,1523,32,Inbound,4211384,4215068,Hyde Park Ave @ Cummins Hwy,-1405,17,-1422
-87,3/1/2014,1528,32,Inbound,4211384,4215068,Forest Hills Station Lower Busway,-1405,17,-1422

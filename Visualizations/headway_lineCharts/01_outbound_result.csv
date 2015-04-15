@@ -1,0 +1,814 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,2014-03-01,280,01,Outbound,4226029,4226288,Dudley Station,20,20,0
+1,2014-03-01,281,01,Outbound,4226029,4226288,Washington St @ Melnea Cass Blvd,22,20,2
+1,2014-03-01,283,01,Outbound,4226029,4226288,Massachusetts Ave @ Washington St,24,20,4
+1,2014-03-01,285,01,Outbound,4226029,4226288,Massachusetts Ave @ Massachusetts Ave Station,25,20,5
+1,2014-03-01,287,01,Outbound,4226029,4226288,Massachusetts Ave @ Newbury St,25,20,5
+1,2014-03-01,290,01,Outbound,4226029,4226288,77 Massachusetts Ave,26,20,6
+1,2014-03-01,293,01,Outbound,4226029,4226288,Massachusetts Ave @ Prospect St,26,20,6
+1,2014-03-01,295,01,Outbound,4226029,4226288,Massachusetts Ave @ Trowbridge St,26,20,6
+1,2014-03-01,296,01,Outbound,4226029,4226288,Massachusetts Ave @ Holyoke St,27,20,7
+2,2014-03-01,300,01,Outbound,4226288,4225279,Dudley Station,20,20,0
+2,2014-03-01,301,01,Outbound,4226288,4225279,Washington St @ Melnea Cass Blvd,19,20,-1
+2,2014-03-01,303,01,Outbound,4226288,4225279,Massachusetts Ave @ Washington St,19,20,-1
+2,2014-03-01,305,01,Outbound,4226288,4225279,Massachusetts Ave @ Massachusetts Ave Station,19,20,-1
+2,2014-03-01,307,01,Outbound,4226288,4225279,Massachusetts Ave @ Newbury St,18,20,-2
+2,2014-03-01,310,01,Outbound,4226288,4225279,77 Massachusetts Ave,18,20,-2
+2,2014-03-01,313,01,Outbound,4226288,4225279,Massachusetts Ave @ Prospect St,17,20,-3
+2,2014-03-01,315,01,Outbound,4226288,4225279,Massachusetts Ave @ Trowbridge St,17,20,-3
+2,2014-03-01,316,01,Outbound,4226288,4225279,Massachusetts Ave @ Holyoke St,17,20,-3
+3,2014-03-01,320,01,Outbound,4225279,4225236,Dudley Station,13,14,-1
+3,2014-03-01,321,01,Outbound,4225279,4225236,Washington St @ Melnea Cass Blvd,14,14,0
+3,2014-03-01,323,01,Outbound,4225279,4225236,Massachusetts Ave @ Washington St,12,14,-2
+3,2014-03-01,325,01,Outbound,4225279,4225236,Massachusetts Ave @ Massachusetts Ave Station,11,14,-3
+3,2014-03-01,327,01,Outbound,4225279,4225236,Massachusetts Ave @ Newbury St,12,14,-2
+3,2014-03-01,330,01,Outbound,4225279,4225236,77 Massachusetts Ave,12,14,-2
+3,2014-03-01,333,01,Outbound,4225279,4225236,Massachusetts Ave @ Prospect St,13,14,-1
+3,2014-03-01,335,01,Outbound,4225279,4225236,Massachusetts Ave @ Trowbridge St,12,14,-2
+3,2014-03-01,336,01,Outbound,4225279,4225236,Massachusetts Ave @ Holyoke St,11,14,-3
+4,2014-03-01,334,01,Outbound,4225236,4226031,Dudley Station,4,12,-8
+4,2014-03-01,335,01,Outbound,4225236,4226031,Washington St @ Melnea Cass Blvd,12,12,0
+4,2014-03-01,337,01,Outbound,4225236,4226031,Massachusetts Ave @ Washington St,13,12,1
+4,2014-03-01,339,01,Outbound,4225236,4226031,Massachusetts Ave @ Massachusetts Ave Station,13,12,1
+4,2014-03-01,341,01,Outbound,4225236,4226031,Massachusetts Ave @ Newbury St,12,12,0
+4,2014-03-01,344,01,Outbound,4225236,4226031,77 Massachusetts Ave,12,12,0
+4,2014-03-01,347,01,Outbound,4225236,4226031,Massachusetts Ave @ Prospect St,11,12,-1
+4,2014-03-01,349,01,Outbound,4225236,4226031,Massachusetts Ave @ Trowbridge St,12,12,0
+4,2014-03-01,350,01,Outbound,4225236,4226031,Massachusetts Ave @ Holyoke St,11,13,-2
+5,2014-03-01,346,01,Outbound,4226031,4226155,Dudley Station,4,12,-8
+5,2014-03-01,347,01,Outbound,4226031,4226155,Washington St @ Melnea Cass Blvd,12,12,0
+5,2014-03-01,349,01,Outbound,4226031,4226155,Massachusetts Ave @ Washington St,13,13,0
+5,2014-03-01,351,01,Outbound,4226031,4226155,Massachusetts Ave @ Massachusetts Ave Station,16,14,2
+5,2014-03-01,353,01,Outbound,4226031,4226155,Massachusetts Ave @ Newbury St,17,15,2
+5,2014-03-01,356,01,Outbound,4226031,4226155,77 Massachusetts Ave,17,15,2
+5,2014-03-01,359,01,Outbound,4226031,4226155,Massachusetts Ave @ Prospect St,18,16,2
+5,2014-03-01,361,01,Outbound,4226031,4226155,Massachusetts Ave @ Trowbridge St,18,16,2
+5,2014-03-01,363,01,Outbound,4226031,4226155,Massachusetts Ave @ Holyoke St,18,16,2
+6,2014-03-01,358,01,Outbound,4226155,4226290,Dudley Station,18,12,6
+6,2014-03-01,359,01,Outbound,4226155,4226290,Washington St @ Melnea Cass Blvd,14,12,2
+6,2014-03-01,362,01,Outbound,4226155,4226290,Massachusetts Ave @ Washington St,15,12,3
+6,2014-03-01,365,01,Outbound,4226155,4226290,Massachusetts Ave @ Massachusetts Ave Station,13,12,1
+6,2014-03-01,368,01,Outbound,4226155,4226290,Massachusetts Ave @ Newbury St,13,12,1
+6,2014-03-01,371,01,Outbound,4226155,4226290,77 Massachusetts Ave,13,12,1
+6,2014-03-01,375,01,Outbound,4226155,4226290,Massachusetts Ave @ Prospect St,12,12,0
+6,2014-03-01,377,01,Outbound,4226155,4226290,Massachusetts Ave @ Trowbridge St,12,12,0
+6,2014-03-01,379,01,Outbound,4226155,4226290,Massachusetts Ave @ Holyoke St,14,12,2
+7,2014-03-01,370,01,Outbound,4226290,4225281,Dudley Station,18,12,6
+7,2014-03-01,371,01,Outbound,4226290,4225281,Washington St @ Melnea Cass Blvd,10,12,-2
+7,2014-03-01,374,01,Outbound,4226290,4225281,Massachusetts Ave @ Washington St,10,12,-2
+7,2014-03-01,377,01,Outbound,4226290,4225281,Massachusetts Ave @ Massachusetts Ave Station,11,12,-1
+7,2014-03-01,380,01,Outbound,4226290,4225281,Massachusetts Ave @ Newbury St,12,12,0
+7,2014-03-01,383,01,Outbound,4226290,4225281,77 Massachusetts Ave,12,12,0
+7,2014-03-01,387,01,Outbound,4226290,4225281,Massachusetts Ave @ Prospect St,14,12,2
+7,2014-03-01,389,01,Outbound,4226290,4225281,Massachusetts Ave @ Trowbridge St,14,12,2
+7,2014-03-01,391,01,Outbound,4226290,4225281,Massachusetts Ave @ Holyoke St,14,12,2
+8,2014-03-01,382,01,Outbound,4225281,4225471,Dudley Station,21,12,9
+8,2014-03-01,383,01,Outbound,4225281,4225471,Washington St @ Melnea Cass Blvd,15,12,3
+8,2014-03-01,386,01,Outbound,4225281,4225471,Massachusetts Ave @ Washington St,15,12,3
+8,2014-03-01,389,01,Outbound,4225281,4225471,Massachusetts Ave @ Massachusetts Ave Station,15,12,3
+8,2014-03-01,392,01,Outbound,4225281,4225471,Massachusetts Ave @ Newbury St,13,12,1
+8,2014-03-01,395,01,Outbound,4225281,4225471,77 Massachusetts Ave,13,12,1
+8,2014-03-01,399,01,Outbound,4225281,4225471,Massachusetts Ave @ Prospect St,11,12,-1
+8,2014-03-01,401,01,Outbound,4225281,4225471,Massachusetts Ave @ Trowbridge St,11,12,-1
+8,2014-03-01,403,01,Outbound,4225281,4225471,Massachusetts Ave @ Holyoke St,11,12,-1
+9,2014-03-01,394,01,Outbound,4225471,4225238,Dudley Station,4,12,-8
+9,2014-03-01,395,01,Outbound,4225471,4225238,Washington St @ Melnea Cass Blvd,15,12,3
+9,2014-03-01,398,01,Outbound,4225471,4225238,Massachusetts Ave @ Washington St,15,12,3
+9,2014-03-01,401,01,Outbound,4225471,4225238,Massachusetts Ave @ Massachusetts Ave Station,15,12,3
+9,2014-03-01,404,01,Outbound,4225471,4225238,Massachusetts Ave @ Newbury St,15,12,3
+9,2014-03-01,407,01,Outbound,4225471,4225238,77 Massachusetts Ave,16,12,4
+9,2014-03-01,411,01,Outbound,4225471,4225238,Massachusetts Ave @ Prospect St,16,12,4
+9,2014-03-01,413,01,Outbound,4225471,4225238,Massachusetts Ave @ Trowbridge St,17,12,5
+9,2014-03-01,415,01,Outbound,4225471,4225238,Massachusetts Ave @ Holyoke St,16,12,4
+10,2014-03-01,406,01,Outbound,4225238,4226033,Dudley Station,2,12,-10
+10,2014-03-01,407,01,Outbound,4225238,4226033,Washington St @ Melnea Cass Blvd,7,12,-5
+10,2014-03-01,410,01,Outbound,4225238,4226033,Massachusetts Ave @ Washington St,6,12,-6
+10,2014-03-01,413,01,Outbound,4225238,4226033,Massachusetts Ave @ Massachusetts Ave Station,5,12,-7
+10,2014-03-01,416,01,Outbound,4225238,4226033,Massachusetts Ave @ Newbury St,7,12,-5
+10,2014-03-01,419,01,Outbound,4225238,4226033,77 Massachusetts Ave,5,12,-7
+10,2014-03-01,423,01,Outbound,4225238,4226033,Massachusetts Ave @ Prospect St,7,12,-5
+10,2014-03-01,425,01,Outbound,4225238,4226033,Massachusetts Ave @ Trowbridge St,6,12,-6
+10,2014-03-01,427,01,Outbound,4225238,4226033,Massachusetts Ave @ Holyoke St,7,12,-5
+11,2014-03-01,418,01,Outbound,4226033,4226157,Dudley Station,13,12,1
+11,2014-03-01,419,01,Outbound,4226033,4226157,Washington St @ Melnea Cass Blvd,11,12,-1
+11,2014-03-01,422,01,Outbound,4226033,4226157,Massachusetts Ave @ Washington St,12,12,0
+11,2014-03-01,425,01,Outbound,4226033,4226157,Massachusetts Ave @ Massachusetts Ave Station,13,12,1
+11,2014-03-01,428,01,Outbound,4226033,4226157,Massachusetts Ave @ Newbury St,12,12,0
+11,2014-03-01,431,01,Outbound,4226033,4226157,77 Massachusetts Ave,13,12,1
+11,2014-03-01,435,01,Outbound,4226033,4226157,Massachusetts Ave @ Prospect St,12,12,0
+11,2014-03-01,437,01,Outbound,4226033,4226157,Massachusetts Ave @ Trowbridge St,12,12,0
+11,2014-03-01,439,01,Outbound,4226033,4226157,Massachusetts Ave @ Holyoke St,13,12,1
+12,2014-03-01,430,01,Outbound,4226157,4226292,Dudley Station,21,12,9
+12,2014-03-01,431,01,Outbound,4226157,4226292,Washington St @ Melnea Cass Blvd,13,12,1
+12,2014-03-01,434,01,Outbound,4226157,4226292,Massachusetts Ave @ Washington St,15,12,3
+12,2014-03-01,437,01,Outbound,4226157,4226292,Massachusetts Ave @ Massachusetts Ave Station,16,12,4
+12,2014-03-01,440,01,Outbound,4226157,4226292,Massachusetts Ave @ Newbury St,18,12,6
+12,2014-03-01,443,01,Outbound,4226157,4226292,77 Massachusetts Ave,18,12,6
+12,2014-03-01,447,01,Outbound,4226157,4226292,Massachusetts Ave @ Prospect St,19,12,7
+12,2014-03-01,449,01,Outbound,4226157,4226292,Massachusetts Ave @ Trowbridge St,19,12,7
+12,2014-03-01,451,01,Outbound,4226157,4226292,Massachusetts Ave @ Holyoke St,18,12,6
+13,2014-03-01,442,01,Outbound,4226292,4225283,Dudley Station,6,12,-6
+13,2014-03-01,443,01,Outbound,4226292,4225283,Washington St @ Melnea Cass Blvd,11,12,-1
+13,2014-03-01,446,01,Outbound,4226292,4225283,Massachusetts Ave @ Washington St,9,12,-3
+13,2014-03-01,449,01,Outbound,4226292,4225283,Massachusetts Ave @ Massachusetts Ave Station,8,12,-4
+13,2014-03-01,452,01,Outbound,4226292,4225283,Massachusetts Ave @ Newbury St,9,12,-3
+13,2014-03-01,455,01,Outbound,4226292,4225283,77 Massachusetts Ave,9,12,-3
+13,2014-03-01,459,01,Outbound,4226292,4225283,Massachusetts Ave @ Prospect St,7,12,-5
+13,2014-03-01,461,01,Outbound,4226292,4225283,Massachusetts Ave @ Trowbridge St,8,12,-4
+13,2014-03-01,463,01,Outbound,4226292,4225283,Massachusetts Ave @ Holyoke St,7,12,-5
+14,2014-03-01,454,01,Outbound,4225283,4225473,Dudley Station,16,12,4
+14,2014-03-01,455,01,Outbound,4225283,4225473,Washington St @ Melnea Cass Blvd,13,12,1
+14,2014-03-01,458,01,Outbound,4225283,4225473,Massachusetts Ave @ Washington St,11,12,-1
+14,2014-03-01,461,01,Outbound,4225283,4225473,Massachusetts Ave @ Massachusetts Ave Station,11,12,-1
+14,2014-03-01,464,01,Outbound,4225283,4225473,Massachusetts Ave @ Newbury St,8,12,-4
+14,2014-03-01,467,01,Outbound,4225283,4225473,77 Massachusetts Ave,9,12,-3
+14,2014-03-01,471,01,Outbound,4225283,4225473,Massachusetts Ave @ Prospect St,10,12,-2
+14,2014-03-01,473,01,Outbound,4225283,4225473,Massachusetts Ave @ Trowbridge St,9,12,-3
+14,2014-03-01,475,01,Outbound,4225283,4225473,Massachusetts Ave @ Holyoke St,9,12,-3
+15,2014-03-01,466,01,Outbound,4225473,4225240,Dudley Station,9,12,-3
+15,2014-03-01,467,01,Outbound,4225473,4225240,Washington St @ Melnea Cass Blvd,14,12,2
+15,2014-03-01,470,01,Outbound,4225473,4225240,Massachusetts Ave @ Washington St,17,13,4
+15,2014-03-01,473,01,Outbound,4225473,4225240,Massachusetts Ave @ Massachusetts Ave Station,16,13,3
+15,2014-03-01,476,01,Outbound,4225473,4225240,Massachusetts Ave @ Newbury St,19,15,4
+15,2014-03-01,479,01,Outbound,4225473,4225240,77 Massachusetts Ave,19,16,3
+15,2014-03-01,483,01,Outbound,4225473,4225240,Massachusetts Ave @ Prospect St,19,16,3
+15,2014-03-01,485,01,Outbound,4225473,4225240,Massachusetts Ave @ Trowbridge St,20,16,4
+15,2014-03-01,487,01,Outbound,4225473,4225240,Massachusetts Ave @ Holyoke St,20,16,4
+16,2014-03-01,478,01,Outbound,4225240,4226035,Dudley Station,16,12,4
+16,2014-03-01,479,01,Outbound,4225240,4226035,Washington St @ Melnea Cass Blvd,8,12,-4
+16,2014-03-01,483,01,Outbound,4225240,4226035,Massachusetts Ave @ Washington St,6,12,-6
+16,2014-03-01,486,01,Outbound,4225240,4226035,Massachusetts Ave @ Massachusetts Ave Station,6,12,-6
+16,2014-03-01,491,01,Outbound,4225240,4226035,Massachusetts Ave @ Newbury St,5,12,-7
+16,2014-03-01,495,01,Outbound,4225240,4226035,77 Massachusetts Ave,3,12,-9
+16,2014-03-01,499,01,Outbound,4225240,4226035,Massachusetts Ave @ Prospect St,3,12,-9
+16,2014-03-01,501,01,Outbound,4225240,4226035,Massachusetts Ave @ Trowbridge St,1,12,-11
+16,2014-03-01,503,01,Outbound,4225240,4226035,Massachusetts Ave @ Holyoke St,1,12,-11
+17,2014-03-01,490,01,Outbound,4226035,4226159,Dudley Station,13,12,1
+17,2014-03-01,491,01,Outbound,4226035,4226159,Washington St @ Melnea Cass Blvd,13,12,1
+17,2014-03-01,495,01,Outbound,4226035,4226159,Massachusetts Ave @ Washington St,14,12,2
+17,2014-03-01,498,01,Outbound,4226035,4226159,Massachusetts Ave @ Massachusetts Ave Station,14,12,2
+17,2014-03-01,503,01,Outbound,4226035,4226159,Massachusetts Ave @ Newbury St,15,12,3
+17,2014-03-01,507,01,Outbound,4226035,4226159,77 Massachusetts Ave,18,12,6
+17,2014-03-01,511,01,Outbound,4226035,4226159,Massachusetts Ave @ Prospect St,19,12,7
+17,2014-03-01,513,01,Outbound,4226035,4226159,Massachusetts Ave @ Trowbridge St,20,12,8
+17,2014-03-01,515,01,Outbound,4226035,4226159,Massachusetts Ave @ Holyoke St,21,12,9
+18,2014-03-01,502,01,Outbound,4226159,4226294,Dudley Station,18,12,6
+18,2014-03-01,503,01,Outbound,4226159,4226294,Washington St @ Melnea Cass Blvd,18,12,6
+18,2014-03-01,507,01,Outbound,4226159,4226294,Massachusetts Ave @ Washington St,18,12,6
+18,2014-03-01,510,01,Outbound,4226159,4226294,Massachusetts Ave @ Massachusetts Ave Station,20,12,8
+18,2014-03-01,515,01,Outbound,4226159,4226294,Massachusetts Ave @ Newbury St,20,12,8
+18,2014-03-01,519,01,Outbound,4226159,4226294,77 Massachusetts Ave,20,12,8
+18,2014-03-01,523,01,Outbound,4226159,4226294,Massachusetts Ave @ Prospect St,20,12,8
+18,2014-03-01,525,01,Outbound,4226159,4226294,Massachusetts Ave @ Trowbridge St,22,12,10
+18,2014-03-01,527,01,Outbound,4226159,4226294,Massachusetts Ave @ Holyoke St,21,12,9
+19,2014-03-01,514,01,Outbound,4226294,4225285,Dudley Station,8,12,-4
+19,2014-03-01,515,01,Outbound,4226294,4225285,Washington St @ Melnea Cass Blvd,6,12,-6
+19,2014-03-01,519,01,Outbound,4226294,4225285,Massachusetts Ave @ Washington St,7,12,-5
+19,2014-03-01,522,01,Outbound,4226294,4225285,Massachusetts Ave @ Massachusetts Ave Station,5,12,-7
+19,2014-03-01,527,01,Outbound,4226294,4225285,Massachusetts Ave @ Newbury St,5,12,-7
+19,2014-03-01,531,01,Outbound,4226294,4225285,77 Massachusetts Ave,3,12,-9
+19,2014-03-01,535,01,Outbound,4226294,4225285,Massachusetts Ave @ Prospect St,2,12,-10
+19,2014-03-01,537,01,Outbound,4226294,4225285,Massachusetts Ave @ Trowbridge St,1,12,-11
+19,2014-03-01,539,01,Outbound,4226294,4225285,Massachusetts Ave @ Holyoke St,1,12,-11
+20,2014-03-01,526,01,Outbound,4225285,4225475,Dudley Station,9,12,-3
+20,2014-03-01,527,01,Outbound,4225285,4225475,Washington St @ Melnea Cass Blvd,11,12,-1
+20,2014-03-01,531,01,Outbound,4225285,4225475,Massachusetts Ave @ Washington St,11,12,-1
+20,2014-03-01,534,01,Outbound,4225285,4225475,Massachusetts Ave @ Massachusetts Ave Station,13,12,1
+20,2014-03-01,539,01,Outbound,4225285,4225475,Massachusetts Ave @ Newbury St,15,12,3
+20,2014-03-01,543,01,Outbound,4225285,4225475,77 Massachusetts Ave,15,12,3
+20,2014-03-01,547,01,Outbound,4225285,4225475,Massachusetts Ave @ Prospect St,18,12,6
+20,2014-03-01,549,01,Outbound,4225285,4225475,Massachusetts Ave @ Trowbridge St,18,12,6
+20,2014-03-01,551,01,Outbound,4225285,4225475,Massachusetts Ave @ Holyoke St,19,12,7
+21,2014-03-01,538,01,Outbound,4225475,4225558,Dudley Station,18,12,6
+21,2014-03-01,539,01,Outbound,4225475,4225558,Washington St @ Melnea Cass Blvd,14,12,2
+21,2014-03-01,543,01,Outbound,4225475,4225558,Massachusetts Ave @ Washington St,13,12,1
+21,2014-03-01,546,01,Outbound,4225475,4225558,Massachusetts Ave @ Massachusetts Ave Station,12,12,0
+21,2014-03-01,551,01,Outbound,4225475,4225558,Massachusetts Ave @ Newbury St,11,12,-1
+21,2014-03-01,555,01,Outbound,4225475,4225558,77 Massachusetts Ave,13,12,1
+21,2014-03-01,559,01,Outbound,4225475,4225558,Massachusetts Ave @ Prospect St,12,13,-1
+21,2014-03-01,561,01,Outbound,4225475,4225558,Massachusetts Ave @ Trowbridge St,12,14,-2
+21,2014-03-01,563,01,Outbound,4225475,4225558,Massachusetts Ave @ Holyoke St,11,15,-4
+22,2014-03-01,550,01,Outbound,4225558,4226037,Dudley Station,15,12,3
+22,2014-03-01,551,01,Outbound,4225558,4226037,Washington St @ Melnea Cass Blvd,17,12,5
+22,2014-03-01,555,01,Outbound,4225558,4226037,Massachusetts Ave @ Washington St,21,12,9
+22,2014-03-01,558,01,Outbound,4225558,4226037,Massachusetts Ave @ Massachusetts Ave Station,25,12,13
+22,2014-03-01,563,01,Outbound,4225558,4226037,Massachusetts Ave @ Newbury St,29,12,17
+22,2014-03-01,567,01,Outbound,4225558,4226037,77 Massachusetts Ave,28,12,16
+22,2014-03-01,572,01,Outbound,4225558,4226037,Massachusetts Ave @ Prospect St,26,12,14
+22,2014-03-01,575,01,Outbound,4225558,4226037,Massachusetts Ave @ Trowbridge St,27,12,15
+22,2014-03-01,578,01,Outbound,4225558,4226037,Massachusetts Ave @ Holyoke St,28,12,16
+23,2014-03-01,562,01,Outbound,4226037,4226161,Dudley Station,6,12,-6
+23,2014-03-01,563,01,Outbound,4226037,4226161,Washington St @ Melnea Cass Blvd,7,12,-5
+23,2014-03-01,567,01,Outbound,4226037,4226161,Massachusetts Ave @ Washington St,5,13,-8
+23,2014-03-01,570,01,Outbound,4226037,4226161,Massachusetts Ave @ Massachusetts Ave Station,0,14,-14
+23,2014-03-01,575,01,Outbound,4226037,4226161,Massachusetts Ave @ Newbury St,-3,14,-17
+23,2014-03-01,579,01,Outbound,4226037,4226161,77 Massachusetts Ave,-2,14,-16
+23,2014-03-01,584,01,Outbound,4226037,4226161,Massachusetts Ave @ Prospect St,-1,14,-15
+23,2014-03-01,587,01,Outbound,4226037,4226161,Massachusetts Ave @ Trowbridge St,-1,14,-15
+23,2014-03-01,590,01,Outbound,4226037,4226161,Massachusetts Ave @ Holyoke St,-1,14,-15
+24,2014-03-01,574,01,Outbound,4226161,4225591,Dudley Station,15,11,4
+24,2014-03-01,575,01,Outbound,4226161,4225591,Washington St @ Melnea Cass Blvd,13,11,2
+24,2014-03-01,580,01,Outbound,4226161,4225591,Massachusetts Ave @ Washington St,13,11,2
+24,2014-03-01,584,01,Outbound,4226161,4225591,Massachusetts Ave @ Massachusetts Ave Station,15,11,4
+24,2014-03-01,589,01,Outbound,4226161,4225591,Massachusetts Ave @ Newbury St,15,11,4
+24,2014-03-01,593,01,Outbound,4226161,4225591,77 Massachusetts Ave,14,11,3
+24,2014-03-01,598,01,Outbound,4226161,4225591,Massachusetts Ave @ Prospect St,14,11,3
+24,2014-03-01,601,01,Outbound,4226161,4225591,Massachusetts Ave @ Trowbridge St,12,11,1
+24,2014-03-01,604,01,Outbound,4226161,4225591,Massachusetts Ave @ Holyoke St,12,11,1
+25,2014-03-01,585,01,Outbound,4225591,4226296,Dudley Station,-2,10,-12
+25,2014-03-01,586,01,Outbound,4225591,4226296,Washington St @ Melnea Cass Blvd,10,10,0
+25,2014-03-01,591,01,Outbound,4225591,4226296,Massachusetts Ave @ Washington St,8,10,-2
+25,2014-03-01,595,01,Outbound,4225591,4226296,Massachusetts Ave @ Massachusetts Ave Station,7,10,-3
+25,2014-03-01,600,01,Outbound,4225591,4226296,Massachusetts Ave @ Newbury St,4,10,-6
+25,2014-03-01,604,01,Outbound,4225591,4226296,77 Massachusetts Ave,2,10,-8
+25,2014-03-01,609,01,Outbound,4225591,4226296,Massachusetts Ave @ Prospect St,2,10,-8
+25,2014-03-01,612,01,Outbound,4225591,4226296,Massachusetts Ave @ Trowbridge St,3,10,-7
+25,2014-03-01,615,01,Outbound,4225591,4226296,Massachusetts Ave @ Holyoke St,2,10,-8
+26,2014-03-01,595,01,Outbound,4226296,4225287,Dudley Station,18,10,8
+26,2014-03-01,596,01,Outbound,4226296,4225287,Washington St @ Melnea Cass Blvd,7,10,-3
+26,2014-03-01,601,01,Outbound,4226296,4225287,Massachusetts Ave @ Washington St,6,10,-4
+26,2014-03-01,605,01,Outbound,4226296,4225287,Massachusetts Ave @ Massachusetts Ave Station,6,10,-4
+26,2014-03-01,610,01,Outbound,4226296,4225287,Massachusetts Ave @ Newbury St,6,10,-4
+26,2014-03-01,614,01,Outbound,4226296,4225287,77 Massachusetts Ave,8,10,-2
+26,2014-03-01,619,01,Outbound,4226296,4225287,Massachusetts Ave @ Prospect St,8,10,-2
+26,2014-03-01,622,01,Outbound,4226296,4225287,Massachusetts Ave @ Trowbridge St,7,10,-3
+26,2014-03-01,625,01,Outbound,4226296,4225287,Massachusetts Ave @ Holyoke St,7,10,-3
+27,2014-03-01,605,01,Outbound,4225287,4225477,Dudley Station,3,10,-7
+27,2014-03-01,606,01,Outbound,4225287,4225477,Washington St @ Melnea Cass Blvd,9,10,-1
+27,2014-03-01,611,01,Outbound,4225287,4225477,Massachusetts Ave @ Washington St,12,10,2
+27,2014-03-01,615,01,Outbound,4225287,4225477,Massachusetts Ave @ Massachusetts Ave Station,15,10,5
+27,2014-03-01,620,01,Outbound,4225287,4225477,Massachusetts Ave @ Newbury St,17,10,7
+27,2014-03-01,624,01,Outbound,4225287,4225477,77 Massachusetts Ave,17,10,7
+27,2014-03-01,629,01,Outbound,4225287,4225477,Massachusetts Ave @ Prospect St,20,10,10
+27,2014-03-01,632,01,Outbound,4225287,4225477,Massachusetts Ave @ Trowbridge St,24,10,14
+27,2014-03-01,635,01,Outbound,4225287,4225477,Massachusetts Ave @ Holyoke St,25,10,15
+28,2014-03-01,615,01,Outbound,4225477,4225560,Dudley Station,18,10,8
+28,2014-03-01,616,01,Outbound,4225477,4225560,Washington St @ Melnea Cass Blvd,12,10,2
+28,2014-03-01,621,01,Outbound,4225477,4225560,Massachusetts Ave @ Washington St,11,10,1
+28,2014-03-01,625,01,Outbound,4225477,4225560,Massachusetts Ave @ Massachusetts Ave Station,9,10,-1
+28,2014-03-01,630,01,Outbound,4225477,4225560,Massachusetts Ave @ Newbury St,6,10,-4
+28,2014-03-01,634,01,Outbound,4225477,4225560,77 Massachusetts Ave,7,10,-3
+28,2014-03-01,639,01,Outbound,4225477,4225560,Massachusetts Ave @ Prospect St,5,10,-5
+28,2014-03-01,642,01,Outbound,4225477,4225560,Massachusetts Ave @ Trowbridge St,1,10,-9
+28,2014-03-01,645,01,Outbound,4225477,4225560,Massachusetts Ave @ Holyoke St,1,10,-9
+29,2014-03-01,625,01,Outbound,4225560,4225861,Dudley Station,11,10,1
+29,2014-03-01,626,01,Outbound,4225560,4225861,Washington St @ Melnea Cass Blvd,10,10,0
+29,2014-03-01,631,01,Outbound,4225560,4225861,Massachusetts Ave @ Washington St,11,10,1
+29,2014-03-01,635,01,Outbound,4225560,4225861,Massachusetts Ave @ Massachusetts Ave Station,9,10,-1
+29,2014-03-01,640,01,Outbound,4225560,4225861,Massachusetts Ave @ Newbury St,12,10,2
+29,2014-03-01,644,01,Outbound,4225560,4225861,77 Massachusetts Ave,12,10,2
+29,2014-03-01,649,01,Outbound,4225560,4225861,Massachusetts Ave @ Prospect St,11,10,1
+29,2014-03-01,652,01,Outbound,4225560,4225861,Massachusetts Ave @ Trowbridge St,14,10,4
+29,2014-03-01,655,01,Outbound,4225560,4225861,Massachusetts Ave @ Holyoke St,13,10,3
+30,2014-03-01,635,01,Outbound,4225861,4225938,Dudley Station,4,10,-6
+30,2014-03-01,636,01,Outbound,4225861,4225938,Washington St @ Melnea Cass Blvd,10,10,0
+30,2014-03-01,641,01,Outbound,4225861,4225938,Massachusetts Ave @ Washington St,8,10,-2
+30,2014-03-01,645,01,Outbound,4225861,4225938,Massachusetts Ave @ Massachusetts Ave Station,10,10,0
+30,2014-03-01,650,01,Outbound,4225861,4225938,Massachusetts Ave @ Newbury St,7,10,-3
+30,2014-03-01,654,01,Outbound,4225861,4225938,77 Massachusetts Ave,6,11,-5
+30,2014-03-01,659,01,Outbound,4225861,4225938,Massachusetts Ave @ Prospect St,9,13,-4
+30,2014-03-01,662,01,Outbound,4225861,4225938,Massachusetts Ave @ Trowbridge St,7,13,-6
+30,2014-03-01,665,01,Outbound,4225861,4225938,Massachusetts Ave @ Holyoke St,8,13,-5
+31,2014-03-01,645,01,Outbound,4225938,4226039,Dudley Station,8,10,-2
+31,2014-03-01,646,01,Outbound,4225938,4226039,Washington St @ Melnea Cass Blvd,9,10,-1
+31,2014-03-01,651,01,Outbound,4225938,4226039,Massachusetts Ave @ Washington St,10,10,0
+31,2014-03-01,655,01,Outbound,4225938,4226039,Massachusetts Ave @ Massachusetts Ave Station,9,10,-1
+31,2014-03-01,660,01,Outbound,4225938,4226039,Massachusetts Ave @ Newbury St,13,12,1
+31,2014-03-01,665,01,Outbound,4225938,4226039,77 Massachusetts Ave,13,12,1
+31,2014-03-01,672,01,Outbound,4225938,4226039,Massachusetts Ave @ Prospect St,10,12,-2
+31,2014-03-01,675,01,Outbound,4225938,4226039,Massachusetts Ave @ Trowbridge St,12,12,0
+31,2014-03-01,678,01,Outbound,4225938,4226039,Massachusetts Ave @ Holyoke St,24,12,12
+32,2014-03-01,655,01,Outbound,4226039,4226163,Dudley Station,-1,10,-11
+32,2014-03-01,656,01,Outbound,4226039,4226163,Washington St @ Melnea Cass Blvd,12,10,2
+32,2014-03-01,661,01,Outbound,4226039,4226163,Massachusetts Ave @ Washington St,11,10,1
+32,2014-03-01,665,01,Outbound,4226039,4226163,Massachusetts Ave @ Massachusetts Ave Station,12,10,2
+32,2014-03-01,672,01,Outbound,4226039,4226163,Massachusetts Ave @ Newbury St,11,10,1
+32,2014-03-01,677,01,Outbound,4226039,4226163,77 Massachusetts Ave,12,10,2
+32,2014-03-01,684,01,Outbound,4226039,4226163,Massachusetts Ave @ Prospect St,15,10,5
+32,2014-03-01,687,01,Outbound,4226039,4226163,Massachusetts Ave @ Trowbridge St,13,10,3
+32,2014-03-01,690,01,Outbound,4226039,4226163,Massachusetts Ave @ Holyoke St,1,10,-9
+33,2014-03-01,665,01,Outbound,4226163,4225593,Dudley Station,16,10,6
+33,2014-03-01,666,01,Outbound,4226163,4225593,Washington St @ Melnea Cass Blvd,9,10,-1
+33,2014-03-01,671,01,Outbound,4226163,4225593,Massachusetts Ave @ Washington St,11,10,1
+33,2014-03-01,675,01,Outbound,4226163,4225593,Massachusetts Ave @ Massachusetts Ave Station,12,10,2
+33,2014-03-01,682,01,Outbound,4226163,4225593,Massachusetts Ave @ Newbury St,11,10,1
+33,2014-03-01,687,01,Outbound,4226163,4225593,77 Massachusetts Ave,12,10,2
+33,2014-03-01,694,01,Outbound,4226163,4225593,Massachusetts Ave @ Prospect St,9,10,-1
+33,2014-03-01,697,01,Outbound,4226163,4225593,Massachusetts Ave @ Trowbridge St,9,10,-1
+33,2014-03-01,700,01,Outbound,4226163,4225593,Massachusetts Ave @ Holyoke St,9,10,-1
+34,2014-03-01,675,01,Outbound,4225593,4226298,Dudley Station,14,10,4
+34,2014-03-01,676,01,Outbound,4225593,4226298,Washington St @ Melnea Cass Blvd,16,10,6
+34,2014-03-01,681,01,Outbound,4225593,4226298,Massachusetts Ave @ Washington St,15,10,5
+34,2014-03-01,685,01,Outbound,4225593,4226298,Massachusetts Ave @ Massachusetts Ave Station,15,10,5
+34,2014-03-01,692,01,Outbound,4225593,4226298,Massachusetts Ave @ Newbury St,16,10,6
+34,2014-03-01,697,01,Outbound,4225593,4226298,77 Massachusetts Ave,14,10,4
+34,2014-03-01,704,01,Outbound,4225593,4226298,Massachusetts Ave @ Prospect St,15,10,5
+34,2014-03-01,707,01,Outbound,4225593,4226298,Massachusetts Ave @ Trowbridge St,15,10,5
+34,2014-03-01,710,01,Outbound,4225593,4226298,Massachusetts Ave @ Holyoke St,15,10,5
+35,2014-03-01,685,01,Outbound,4226298,4225289,Dudley Station,2,10,-8
+35,2014-03-01,686,01,Outbound,4226298,4225289,Washington St @ Melnea Cass Blvd,3,10,-7
+35,2014-03-01,691,01,Outbound,4226298,4225289,Massachusetts Ave @ Washington St,2,10,-8
+35,2014-03-01,695,01,Outbound,4226298,4225289,Massachusetts Ave @ Massachusetts Ave Station,1,10,-9
+35,2014-03-01,702,01,Outbound,4226298,4225289,Massachusetts Ave @ Newbury St,-1,10,-11
+35,2014-03-01,707,01,Outbound,4226298,4225289,77 Massachusetts Ave,-1,10,-11
+35,2014-03-01,714,01,Outbound,4226298,4225289,Massachusetts Ave @ Prospect St,0,10,-10
+35,2014-03-01,717,01,Outbound,4226298,4225289,Massachusetts Ave @ Trowbridge St,1,10,-9
+35,2014-03-01,720,01,Outbound,4226298,4225289,Massachusetts Ave @ Holyoke St,1,10,-9
+36,2014-03-01,695,01,Outbound,4225289,4225479,Dudley Station,32,10,22
+36,2014-03-01,696,01,Outbound,4225289,4225479,Washington St @ Melnea Cass Blvd,14,10,4
+36,2014-03-01,701,01,Outbound,4225289,4225479,Massachusetts Ave @ Washington St,13,10,3
+36,2014-03-01,705,01,Outbound,4225289,4225479,Massachusetts Ave @ Massachusetts Ave Station,12,10,2
+36,2014-03-01,712,01,Outbound,4225289,4225479,Massachusetts Ave @ Newbury St,19,10,9
+36,2014-03-01,717,01,Outbound,4225289,4225479,77 Massachusetts Ave,22,10,12
+36,2014-03-01,724,01,Outbound,4225289,4225479,Massachusetts Ave @ Prospect St,22,10,12
+36,2014-03-01,727,01,Outbound,4225289,4225479,Massachusetts Ave @ Trowbridge St,22,10,12
+36,2014-03-01,730,01,Outbound,4225289,4225479,Massachusetts Ave @ Holyoke St,21,10,11
+37,2014-03-01,705,01,Outbound,4225479,4225562,Dudley Station,-2,10,-12
+37,2014-03-01,706,01,Outbound,4225479,4225562,Washington St @ Melnea Cass Blvd,10,10,0
+37,2014-03-01,711,01,Outbound,4225479,4225562,Massachusetts Ave @ Washington St,12,10,2
+37,2014-03-01,715,01,Outbound,4225479,4225562,Massachusetts Ave @ Massachusetts Ave Station,13,10,3
+37,2014-03-01,722,01,Outbound,4225479,4225562,Massachusetts Ave @ Newbury St,19,10,9
+37,2014-03-01,727,01,Outbound,4225479,4225562,77 Massachusetts Ave,17,10,7
+37,2014-03-01,734,01,Outbound,4225479,4225562,Massachusetts Ave @ Prospect St,20,10,10
+37,2014-03-01,737,01,Outbound,4225479,4225562,Massachusetts Ave @ Trowbridge St,20,10,10
+37,2014-03-01,740,01,Outbound,4225479,4225562,Massachusetts Ave @ Holyoke St,21,10,11
+38,2014-03-01,715,01,Outbound,4225562,4225863,Dudley Station,18,10,8
+38,2014-03-01,716,01,Outbound,4225562,4225863,Washington St @ Melnea Cass Blvd,6,10,-4
+38,2014-03-01,721,01,Outbound,4225562,4225863,Massachusetts Ave @ Washington St,5,10,-5
+38,2014-03-01,725,01,Outbound,4225562,4225863,Massachusetts Ave @ Massachusetts Ave Station,6,10,-4
+38,2014-03-01,732,01,Outbound,4225562,4225863,Massachusetts Ave @ Newbury St,7,10,-3
+38,2014-03-01,737,01,Outbound,4225562,4225863,77 Massachusetts Ave,8,10,-2
+38,2014-03-01,744,01,Outbound,4225562,4225863,Massachusetts Ave @ Prospect St,6,10,-4
+38,2014-03-01,747,01,Outbound,4225562,4225863,Massachusetts Ave @ Trowbridge St,6,10,-4
+38,2014-03-01,750,01,Outbound,4225562,4225863,Massachusetts Ave @ Holyoke St,6,10,-4
+39,2014-03-01,725,01,Outbound,4225863,4225940,Dudley Station,0,10,-10
+39,2014-03-01,726,01,Outbound,4225863,4225940,Washington St @ Melnea Cass Blvd,12,10,2
+39,2014-03-01,731,01,Outbound,4225863,4225940,Massachusetts Ave @ Washington St,17,10,7
+39,2014-03-01,735,01,Outbound,4225863,4225940,Massachusetts Ave @ Massachusetts Ave Station,17,10,7
+39,2014-03-01,742,01,Outbound,4225863,4225940,Massachusetts Ave @ Newbury St,15,10,5
+39,2014-03-01,747,01,Outbound,4225863,4225940,77 Massachusetts Ave,16,10,6
+39,2014-03-01,754,01,Outbound,4225863,4225940,Massachusetts Ave @ Prospect St,14,10,4
+39,2014-03-01,757,01,Outbound,4225863,4225940,Massachusetts Ave @ Trowbridge St,15,10,5
+39,2014-03-01,760,01,Outbound,4225863,4225940,Massachusetts Ave @ Holyoke St,15,10,5
+40,2014-03-01,735,01,Outbound,4225940,4225434,Dudley Station,21,10,11
+40,2014-03-01,736,01,Outbound,4225940,4225434,Washington St @ Melnea Cass Blvd,10,10,0
+40,2014-03-01,741,01,Outbound,4225940,4225434,Massachusetts Ave @ Washington St,6,10,-4
+40,2014-03-01,745,01,Outbound,4225940,4225434,Massachusetts Ave @ Massachusetts Ave Station,7,10,-3
+40,2014-03-01,752,01,Outbound,4225940,4225434,Massachusetts Ave @ Newbury St,6,10,-4
+40,2014-03-01,757,01,Outbound,4225940,4225434,77 Massachusetts Ave,5,10,-5
+40,2014-03-01,764,01,Outbound,4225940,4225434,Massachusetts Ave @ Prospect St,10,10,0
+40,2014-03-01,767,01,Outbound,4225940,4225434,Massachusetts Ave @ Trowbridge St,9,10,-1
+40,2014-03-01,770,01,Outbound,4225940,4225434,Massachusetts Ave @ Holyoke St,9,10,-1
+41,2014-03-01,745,01,Outbound,4225434,4226041,Dudley Station,1,10,-9
+41,2014-03-01,746,01,Outbound,4225434,4226041,Washington St @ Melnea Cass Blvd,8,10,-2
+41,2014-03-01,751,01,Outbound,4225434,4226041,Massachusetts Ave @ Washington St,9,10,-1
+41,2014-03-01,755,01,Outbound,4225434,4226041,Massachusetts Ave @ Massachusetts Ave Station,6,10,-4
+41,2014-03-01,762,01,Outbound,4225434,4226041,Massachusetts Ave @ Newbury St,1,10,-9
+41,2014-03-01,767,01,Outbound,4225434,4226041,77 Massachusetts Ave,0,10,-10
+41,2014-03-01,774,01,Outbound,4225434,4226041,Massachusetts Ave @ Prospect St,-2,10,-12
+41,2014-03-01,777,01,Outbound,4225434,4226041,Massachusetts Ave @ Trowbridge St,-2,10,-12
+41,2014-03-01,780,01,Outbound,4225434,4226041,Massachusetts Ave @ Holyoke St,2,10,-8
+42,2014-03-01,755,01,Outbound,4226041,4226165,Dudley Station,13,10,3
+42,2014-03-01,756,01,Outbound,4226041,4226165,Washington St @ Melnea Cass Blvd,10,10,0
+42,2014-03-01,761,01,Outbound,4226041,4226165,Massachusetts Ave @ Washington St,9,10,-1
+42,2014-03-01,765,01,Outbound,4226041,4226165,Massachusetts Ave @ Massachusetts Ave Station,11,10,1
+42,2014-03-01,772,01,Outbound,4226041,4226165,Massachusetts Ave @ Newbury St,6,10,-4
+42,2014-03-01,777,01,Outbound,4226041,4226165,77 Massachusetts Ave,8,10,-2
+42,2014-03-01,784,01,Outbound,4226041,4226165,Massachusetts Ave @ Prospect St,9,10,-1
+42,2014-03-01,787,01,Outbound,4226041,4226165,Massachusetts Ave @ Trowbridge St,9,10,-1
+42,2014-03-01,790,01,Outbound,4226041,4226165,Massachusetts Ave @ Holyoke St,5,10,-5
+43,2014-03-01,765,01,Outbound,4226165,4226244,Dudley Station,1,10,-9
+43,2014-03-01,766,01,Outbound,4226165,4226244,Washington St @ Melnea Cass Blvd,9,10,-1
+43,2014-03-01,771,01,Outbound,4226165,4226244,Massachusetts Ave @ Washington St,11,10,1
+43,2014-03-01,775,01,Outbound,4226165,4226244,Massachusetts Ave @ Massachusetts Ave Station,10,10,0
+43,2014-03-01,782,01,Outbound,4226165,4226244,Massachusetts Ave @ Newbury St,11,10,1
+43,2014-03-01,787,01,Outbound,4226165,4226244,77 Massachusetts Ave,11,10,1
+43,2014-03-01,794,01,Outbound,4226165,4226244,Massachusetts Ave @ Prospect St,7,10,-3
+43,2014-03-01,797,01,Outbound,4226165,4226244,Massachusetts Ave @ Trowbridge St,10,10,0
+43,2014-03-01,800,01,Outbound,4226165,4226244,Massachusetts Ave @ Holyoke St,10,10,0
+44,2014-03-01,775,01,Outbound,4226244,4226300,Dudley Station,25,10,15
+44,2014-03-01,776,01,Outbound,4226244,4226300,Washington St @ Melnea Cass Blvd,13,10,3
+44,2014-03-01,781,01,Outbound,4226244,4226300,Massachusetts Ave @ Washington St,14,10,4
+44,2014-03-01,785,01,Outbound,4226244,4226300,Massachusetts Ave @ Massachusetts Ave Station,16,10,6
+44,2014-03-01,792,01,Outbound,4226244,4226300,Massachusetts Ave @ Newbury St,16,10,6
+44,2014-03-01,797,01,Outbound,4226244,4226300,77 Massachusetts Ave,15,10,5
+44,2014-03-01,804,01,Outbound,4226244,4226300,Massachusetts Ave @ Prospect St,15,10,5
+44,2014-03-01,807,01,Outbound,4226244,4226300,Massachusetts Ave @ Trowbridge St,12,10,2
+44,2014-03-01,810,01,Outbound,4226244,4226300,Massachusetts Ave @ Holyoke St,13,10,3
+45,2014-03-01,785,01,Outbound,4226300,4225399,Dudley Station,-9,10,-19
+45,2014-03-01,786,01,Outbound,4226300,4225399,Washington St @ Melnea Cass Blvd,9,10,-1
+45,2014-03-01,791,01,Outbound,4226300,4225399,Massachusetts Ave @ Washington St,5,10,-5
+45,2014-03-01,795,01,Outbound,4226300,4225399,Massachusetts Ave @ Massachusetts Ave Station,2,10,-8
+45,2014-03-01,802,01,Outbound,4226300,4225399,Massachusetts Ave @ Newbury St,-1,10,-11
+45,2014-03-01,807,01,Outbound,4226300,4225399,77 Massachusetts Ave,-1,10,-11
+45,2014-03-01,814,01,Outbound,4226300,4225399,Massachusetts Ave @ Prospect St,-1,10,-11
+45,2014-03-01,817,01,Outbound,4226300,4225399,Massachusetts Ave @ Trowbridge St,-1,10,-11
+45,2014-03-01,820,01,Outbound,4226300,4225399,Massachusetts Ave @ Holyoke St,-3,10,-13
+46,2014-03-01,795,01,Outbound,4225399,4225481,Dudley Station,25,10,15
+46,2014-03-01,796,01,Outbound,4225399,4225481,Washington St @ Melnea Cass Blvd,9,10,-1
+46,2014-03-01,801,01,Outbound,4225399,4225481,Massachusetts Ave @ Washington St,9,10,-1
+46,2014-03-01,805,01,Outbound,4225399,4225481,Massachusetts Ave @ Massachusetts Ave Station,11,10,1
+46,2014-03-01,812,01,Outbound,4225399,4225481,Massachusetts Ave @ Newbury St,16,10,6
+46,2014-03-01,817,01,Outbound,4225399,4225481,77 Massachusetts Ave,17,10,7
+46,2014-03-01,824,01,Outbound,4225399,4225481,Massachusetts Ave @ Prospect St,17,10,7
+46,2014-03-01,827,01,Outbound,4225399,4225481,Massachusetts Ave @ Trowbridge St,19,10,9
+46,2014-03-01,830,01,Outbound,4225399,4225481,Massachusetts Ave @ Holyoke St,24,10,14
+47,2014-03-01,805,01,Outbound,4225481,4225564,Dudley Station,19,10,9
+47,2014-03-01,806,01,Outbound,4225481,4225564,Washington St @ Melnea Cass Blvd,16,10,6
+47,2014-03-01,811,01,Outbound,4225481,4225564,Massachusetts Ave @ Washington St,20,10,10
+47,2014-03-01,815,01,Outbound,4225481,4225564,Massachusetts Ave @ Massachusetts Ave Station,19,10,9
+47,2014-03-01,822,01,Outbound,4225481,4225564,Massachusetts Ave @ Newbury St,14,10,4
+47,2014-03-01,827,01,Outbound,4225481,4225564,77 Massachusetts Ave,13,10,3
+47,2014-03-01,834,01,Outbound,4225481,4225564,Massachusetts Ave @ Prospect St,15,10,5
+47,2014-03-01,837,01,Outbound,4225481,4225564,Massachusetts Ave @ Trowbridge St,12,10,2
+47,2014-03-01,840,01,Outbound,4225481,4225564,Massachusetts Ave @ Holyoke St,8,10,-2
+48,2014-03-01,815,01,Outbound,4225564,4225865,Dudley Station,0,10,-10
+48,2014-03-01,816,01,Outbound,4225564,4225865,Washington St @ Melnea Cass Blvd,6,10,-4
+48,2014-03-01,821,01,Outbound,4225564,4225865,Massachusetts Ave @ Washington St,7,10,-3
+48,2014-03-01,825,01,Outbound,4225564,4225865,Massachusetts Ave @ Massachusetts Ave Station,7,10,-3
+48,2014-03-01,832,01,Outbound,4225564,4225865,Massachusetts Ave @ Newbury St,11,10,1
+48,2014-03-01,837,01,Outbound,4225564,4225865,77 Massachusetts Ave,9,10,-1
+48,2014-03-01,844,01,Outbound,4225564,4225865,Massachusetts Ave @ Prospect St,9,10,-1
+48,2014-03-01,847,01,Outbound,4225564,4225865,Massachusetts Ave @ Trowbridge St,9,10,-1
+48,2014-03-01,850,01,Outbound,4225564,4225865,Massachusetts Ave @ Holyoke St,9,10,-1
+49,2014-03-01,825,01,Outbound,4225865,4225942,Dudley Station,15,10,5
+49,2014-03-01,826,01,Outbound,4225865,4225942,Washington St @ Melnea Cass Blvd,14,10,4
+49,2014-03-01,831,01,Outbound,4225865,4225942,Massachusetts Ave @ Washington St,11,10,1
+49,2014-03-01,835,01,Outbound,4225865,4225942,Massachusetts Ave @ Massachusetts Ave Station,11,10,1
+49,2014-03-01,842,01,Outbound,4225865,4225942,Massachusetts Ave @ Newbury St,10,10,0
+49,2014-03-01,847,01,Outbound,4225865,4225942,77 Massachusetts Ave,11,10,1
+49,2014-03-01,854,01,Outbound,4225865,4225942,Massachusetts Ave @ Prospect St,10,10,0
+49,2014-03-01,857,01,Outbound,4225865,4225942,Massachusetts Ave @ Trowbridge St,11,10,1
+49,2014-03-01,860,01,Outbound,4225865,4225942,Massachusetts Ave @ Holyoke St,11,10,1
+50,2014-03-01,835,01,Outbound,4225942,4226005,Dudley Station,6,10,-4
+50,2014-03-01,836,01,Outbound,4225942,4226005,Washington St @ Melnea Cass Blvd,5,10,-5
+50,2014-03-01,841,01,Outbound,4225942,4226005,Massachusetts Ave @ Washington St,4,10,-6
+50,2014-03-01,845,01,Outbound,4225942,4226005,Massachusetts Ave @ Massachusetts Ave Station,4,10,-6
+50,2014-03-01,852,01,Outbound,4225942,4226005,Massachusetts Ave @ Newbury St,3,10,-7
+50,2014-03-01,857,01,Outbound,4225942,4226005,77 Massachusetts Ave,2,10,-8
+50,2014-03-01,864,01,Outbound,4225942,4226005,Massachusetts Ave @ Prospect St,0,10,-10
+50,2014-03-01,867,01,Outbound,4225942,4226005,Massachusetts Ave @ Trowbridge St,0,10,-10
+50,2014-03-01,870,01,Outbound,4225942,4226005,Massachusetts Ave @ Holyoke St,0,10,-10
+51,2014-03-01,845,01,Outbound,4226005,4226043,Dudley Station,4,10,-6
+51,2014-03-01,846,01,Outbound,4226005,4226043,Washington St @ Melnea Cass Blvd,14,10,4
+51,2014-03-01,851,01,Outbound,4226005,4226043,Massachusetts Ave @ Washington St,18,10,8
+51,2014-03-01,855,01,Outbound,4226005,4226043,Massachusetts Ave @ Massachusetts Ave Station,23,10,13
+51,2014-03-01,862,01,Outbound,4226005,4226043,Massachusetts Ave @ Newbury St,26,10,16
+51,2014-03-01,867,01,Outbound,4226005,4226043,77 Massachusetts Ave,26,10,16
+51,2014-03-01,874,01,Outbound,4226005,4226043,Massachusetts Ave @ Prospect St,28,10,18
+51,2014-03-01,877,01,Outbound,4226005,4226043,Massachusetts Ave @ Trowbridge St,29,10,19
+51,2014-03-01,880,01,Outbound,4226005,4226043,Massachusetts Ave @ Holyoke St,30,10,20
+52,2014-03-01,855,01,Outbound,4226043,4226167,Dudley Station,12,10,2
+52,2014-03-01,856,01,Outbound,4226043,4226167,Washington St @ Melnea Cass Blvd,9,10,-1
+52,2014-03-01,861,01,Outbound,4226043,4226167,Massachusetts Ave @ Washington St,7,10,-3
+52,2014-03-01,865,01,Outbound,4226043,4226167,Massachusetts Ave @ Massachusetts Ave Station,1,10,-9
+52,2014-03-01,872,01,Outbound,4226043,4226167,Massachusetts Ave @ Newbury St,-4,10,-14
+52,2014-03-01,877,01,Outbound,4226043,4226167,77 Massachusetts Ave,-2,10,-12
+52,2014-03-01,884,01,Outbound,4226043,4226167,Massachusetts Ave @ Prospect St,-2,10,-12
+52,2014-03-01,887,01,Outbound,4226043,4226167,Massachusetts Ave @ Trowbridge St,-4,10,-14
+52,2014-03-01,890,01,Outbound,4226043,4226167,Massachusetts Ave @ Holyoke St,-5,10,-15
+53,2014-03-01,865,01,Outbound,4226167,4226246,Dudley Station,11,10,1
+53,2014-03-01,866,01,Outbound,4226167,4226246,Washington St @ Melnea Cass Blvd,6,10,-4
+53,2014-03-01,871,01,Outbound,4226167,4226246,Massachusetts Ave @ Washington St,6,10,-4
+53,2014-03-01,875,01,Outbound,4226167,4226246,Massachusetts Ave @ Massachusetts Ave Station,7,10,-3
+53,2014-03-01,882,01,Outbound,4226167,4226246,Massachusetts Ave @ Newbury St,8,10,-2
+53,2014-03-01,887,01,Outbound,4226167,4226246,77 Massachusetts Ave,8,10,-2
+53,2014-03-01,894,01,Outbound,4226167,4226246,Massachusetts Ave @ Prospect St,7,10,-3
+53,2014-03-01,897,01,Outbound,4226167,4226246,Massachusetts Ave @ Trowbridge St,10,10,0
+53,2014-03-01,900,01,Outbound,4226167,4226246,Massachusetts Ave @ Holyoke St,10,10,0
+54,2014-03-01,875,01,Outbound,4226246,4226302,Dudley Station,21,10,11
+54,2014-03-01,876,01,Outbound,4226246,4226302,Washington St @ Melnea Cass Blvd,17,10,7
+54,2014-03-01,881,01,Outbound,4226246,4226302,Massachusetts Ave @ Washington St,20,10,10
+54,2014-03-01,885,01,Outbound,4226246,4226302,Massachusetts Ave @ Massachusetts Ave Station,20,10,10
+54,2014-03-01,892,01,Outbound,4226246,4226302,Massachusetts Ave @ Newbury St,24,10,14
+54,2014-03-01,897,01,Outbound,4226246,4226302,77 Massachusetts Ave,24,10,14
+54,2014-03-01,904,01,Outbound,4226246,4226302,Massachusetts Ave @ Prospect St,26,10,16
+54,2014-03-01,907,01,Outbound,4226246,4226302,Massachusetts Ave @ Trowbridge St,25,10,15
+54,2014-03-01,910,01,Outbound,4226246,4226302,Massachusetts Ave @ Holyoke St,24,10,14
+55,2014-03-01,885,01,Outbound,4226302,4225401,Dudley Station,-4,10,-14
+55,2014-03-01,886,01,Outbound,4226302,4225401,Washington St @ Melnea Cass Blvd,4,10,-6
+55,2014-03-01,891,01,Outbound,4226302,4225401,Massachusetts Ave @ Washington St,0,10,-10
+55,2014-03-01,895,01,Outbound,4226302,4225401,Massachusetts Ave @ Massachusetts Ave Station,0,10,-10
+55,2014-03-01,902,01,Outbound,4226302,4225401,Massachusetts Ave @ Newbury St,0,10,-10
+55,2014-03-01,907,01,Outbound,4226302,4225401,77 Massachusetts Ave,-2,10,-12
+55,2014-03-01,914,01,Outbound,4226302,4225401,Massachusetts Ave @ Prospect St,-5,10,-15
+55,2014-03-01,917,01,Outbound,4226302,4225401,Massachusetts Ave @ Trowbridge St,-6,10,-16
+55,2014-03-01,920,01,Outbound,4226302,4225401,Massachusetts Ave @ Holyoke St,2,10,-8
+56,2014-03-01,895,01,Outbound,4225401,4225483,Dudley Station,23,10,13
+56,2014-03-01,896,01,Outbound,4225401,4225483,Washington St @ Melnea Cass Blvd,15,10,5
+56,2014-03-01,901,01,Outbound,4225401,4225483,Massachusetts Ave @ Washington St,19,10,9
+56,2014-03-01,905,01,Outbound,4225401,4225483,Massachusetts Ave @ Massachusetts Ave Station,21,10,11
+56,2014-03-01,912,01,Outbound,4225401,4225483,Massachusetts Ave @ Newbury St,28,10,18
+56,2014-03-01,917,01,Outbound,4225401,4225483,77 Massachusetts Ave,31,10,21
+56,2014-03-01,924,01,Outbound,4225401,4225483,Massachusetts Ave @ Prospect St,33,10,23
+56,2014-03-01,927,01,Outbound,4225401,4225483,Massachusetts Ave @ Trowbridge St,33,10,23
+56,2014-03-01,930,01,Outbound,4225401,4225483,Massachusetts Ave @ Holyoke St,26,10,16
+57,2014-03-01,905,01,Outbound,4225483,4225566,Dudley Station,9,10,-1
+57,2014-03-01,906,01,Outbound,4225483,4225566,Washington St @ Melnea Cass Blvd,8,10,-2
+57,2014-03-01,911,01,Outbound,4225483,4225566,Massachusetts Ave @ Washington St,5,10,-5
+57,2014-03-01,915,01,Outbound,4225483,4225566,Massachusetts Ave @ Massachusetts Ave Station,2,10,-8
+57,2014-03-01,922,01,Outbound,4225483,4225566,Massachusetts Ave @ Newbury St,0,10,-10
+57,2014-03-01,927,01,Outbound,4225483,4225566,77 Massachusetts Ave,-1,10,-11
+57,2014-03-01,934,01,Outbound,4225483,4225566,Massachusetts Ave @ Prospect St,-1,10,-11
+57,2014-03-01,937,01,Outbound,4225483,4225566,Massachusetts Ave @ Trowbridge St,-1,10,-11
+57,2014-03-01,940,01,Outbound,4225483,4225566,Massachusetts Ave @ Holyoke St,-1,10,-11
+58,2014-03-01,915,01,Outbound,4225566,4225867,Dudley Station,8,10,-2
+58,2014-03-01,916,01,Outbound,4225566,4225867,Washington St @ Melnea Cass Blvd,8,10,-2
+58,2014-03-01,921,01,Outbound,4225566,4225867,Massachusetts Ave @ Washington St,9,10,-1
+58,2014-03-01,925,01,Outbound,4225566,4225867,Massachusetts Ave @ Massachusetts Ave Station,9,10,-1
+58,2014-03-01,932,01,Outbound,4225566,4225867,Massachusetts Ave @ Newbury St,7,10,-3
+58,2014-03-01,937,01,Outbound,4225566,4225867,77 Massachusetts Ave,6,10,-4
+58,2014-03-01,944,01,Outbound,4225566,4225867,Massachusetts Ave @ Prospect St,5,10,-5
+58,2014-03-01,947,01,Outbound,4225566,4225867,Massachusetts Ave @ Trowbridge St,6,10,-4
+58,2014-03-01,950,01,Outbound,4225566,4225867,Massachusetts Ave @ Holyoke St,10,10,0
+59,2014-03-01,925,01,Outbound,4225867,4225944,Dudley Station,15,10,5
+59,2014-03-01,926,01,Outbound,4225867,4225944,Washington St @ Melnea Cass Blvd,15,10,5
+59,2014-03-01,931,01,Outbound,4225867,4225944,Massachusetts Ave @ Washington St,13,10,3
+59,2014-03-01,935,01,Outbound,4225867,4225944,Massachusetts Ave @ Massachusetts Ave Station,13,10,3
+59,2014-03-01,942,01,Outbound,4225867,4225944,Massachusetts Ave @ Newbury St,10,10,0
+59,2014-03-01,947,01,Outbound,4225867,4225944,77 Massachusetts Ave,10,10,0
+59,2014-03-01,954,01,Outbound,4225867,4225944,Massachusetts Ave @ Prospect St,12,10,2
+59,2014-03-01,957,01,Outbound,4225867,4225944,Massachusetts Ave @ Trowbridge St,11,10,1
+59,2014-03-01,960,01,Outbound,4225867,4225944,Massachusetts Ave @ Holyoke St,7,10,-3
+60,2014-03-01,935,01,Outbound,4225944,4226007,Dudley Station,11,10,1
+60,2014-03-01,936,01,Outbound,4225944,4226007,Washington St @ Melnea Cass Blvd,11,10,1
+60,2014-03-01,941,01,Outbound,4225944,4226007,Massachusetts Ave @ Washington St,11,10,1
+60,2014-03-01,945,01,Outbound,4225944,4226007,Massachusetts Ave @ Massachusetts Ave Station,12,10,2
+60,2014-03-01,952,01,Outbound,4225944,4226007,Massachusetts Ave @ Newbury St,10,10,0
+60,2014-03-01,957,01,Outbound,4225944,4226007,77 Massachusetts Ave,9,10,-1
+60,2014-03-01,964,01,Outbound,4225944,4226007,Massachusetts Ave @ Prospect St,8,10,-2
+60,2014-03-01,967,01,Outbound,4225944,4226007,Massachusetts Ave @ Trowbridge St,7,10,-3
+60,2014-03-01,970,01,Outbound,4225944,4226007,Massachusetts Ave @ Holyoke St,7,10,-3
+61,2014-03-01,945,01,Outbound,4226007,4226045,Dudley Station,13,10,3
+61,2014-03-01,946,01,Outbound,4226007,4226045,Washington St @ Melnea Cass Blvd,14,10,4
+61,2014-03-01,951,01,Outbound,4226007,4226045,Massachusetts Ave @ Washington St,20,10,10
+61,2014-03-01,955,01,Outbound,4226007,4226045,Massachusetts Ave @ Massachusetts Ave Station,20,10,10
+61,2014-03-01,962,01,Outbound,4226007,4226045,Massachusetts Ave @ Newbury St,22,10,12
+61,2014-03-01,967,01,Outbound,4226007,4226045,77 Massachusetts Ave,24,10,14
+61,2014-03-01,974,01,Outbound,4226007,4226045,Massachusetts Ave @ Prospect St,28,10,18
+61,2014-03-01,977,01,Outbound,4226007,4226045,Massachusetts Ave @ Trowbridge St,30,10,20
+61,2014-03-01,980,01,Outbound,4226007,4226045,Massachusetts Ave @ Holyoke St,31,10,21
+62,2014-03-01,955,01,Outbound,4226045,4226248,Dudley Station,13,20,-7
+63,2014-03-01,975,01,Outbound,4226248,4225403,Dudley Station,18,18,0
+64,2014-03-01,993,01,Outbound,4225403,4225485,Dudley Station,9,9,0
+64,2014-03-01,994,01,Outbound,4225403,4225485,Washington St @ Melnea Cass Blvd,9,9,0
+64,2014-03-01,999,01,Outbound,4225403,4225485,Massachusetts Ave @ Washington St,8,9,-1
+64,2014-03-01,1003,01,Outbound,4225403,4225485,Massachusetts Ave @ Massachusetts Ave Station,9,9,0
+64,2014-03-01,1010,01,Outbound,4225403,4225485,Massachusetts Ave @ Newbury St,15,9,6
+64,2014-03-01,1015,01,Outbound,4225403,4225485,77 Massachusetts Ave,18,9,9
+64,2014-03-01,1022,01,Outbound,4225403,4225485,Massachusetts Ave @ Prospect St,18,9,9
+64,2014-03-01,1025,01,Outbound,4225403,4225485,Massachusetts Ave @ Trowbridge St,20,9,11
+64,2014-03-01,1028,01,Outbound,4225403,4225485,Massachusetts Ave @ Holyoke St,18,9,9
+65,2014-03-01,1002,01,Outbound,4225485,4225788,Dudley Station,-2,9,-11
+65,2014-03-01,1003,01,Outbound,4225485,4225788,Washington St @ Melnea Cass Blvd,7,9,-2
+65,2014-03-01,1008,01,Outbound,4225485,4225788,Massachusetts Ave @ Washington St,6,9,-3
+65,2014-03-01,1012,01,Outbound,4225485,4225788,Massachusetts Ave @ Massachusetts Ave Station,4,9,-5
+65,2014-03-01,1019,01,Outbound,4225485,4225788,Massachusetts Ave @ Newbury St,0,9,-9
+65,2014-03-01,1024,01,Outbound,4225485,4225788,77 Massachusetts Ave,0,9,-9
+65,2014-03-01,1031,01,Outbound,4225485,4225788,Massachusetts Ave @ Prospect St,1,9,-8
+65,2014-03-01,1034,01,Outbound,4225485,4225788,Massachusetts Ave @ Trowbridge St,0,9,-9
+65,2014-03-01,1037,01,Outbound,4225485,4225788,Massachusetts Ave @ Holyoke St,0,9,-9
+66,2014-03-01,1011,01,Outbound,4225788,4225568,Dudley Station,5,9,-4
+66,2014-03-01,1012,01,Outbound,4225788,4225568,Washington St @ Melnea Cass Blvd,8,9,-1
+66,2014-03-01,1017,01,Outbound,4225788,4225568,Massachusetts Ave @ Washington St,9,9,0
+66,2014-03-01,1021,01,Outbound,4225788,4225568,Massachusetts Ave @ Massachusetts Ave Station,11,9,2
+66,2014-03-01,1028,01,Outbound,4225788,4225568,Massachusetts Ave @ Newbury St,8,9,-1
+66,2014-03-01,1033,01,Outbound,4225788,4225568,77 Massachusetts Ave,5,9,-4
+66,2014-03-01,1040,01,Outbound,4225788,4225568,Massachusetts Ave @ Prospect St,5,9,-4
+66,2014-03-01,1043,01,Outbound,4225788,4225568,Massachusetts Ave @ Trowbridge St,5,9,-4
+66,2014-03-01,1046,01,Outbound,4225788,4225568,Massachusetts Ave @ Holyoke St,6,9,-3
+67,2014-03-01,1020,01,Outbound,4225568,4225869,Dudley Station,21,9,12
+67,2014-03-01,1021,01,Outbound,4225568,4225869,Washington St @ Melnea Cass Blvd,9,9,0
+67,2014-03-01,1026,01,Outbound,4225568,4225869,Massachusetts Ave @ Washington St,8,9,-1
+67,2014-03-01,1030,01,Outbound,4225568,4225869,Massachusetts Ave @ Massachusetts Ave Station,9,9,0
+67,2014-03-01,1037,01,Outbound,4225568,4225869,Massachusetts Ave @ Newbury St,10,9,1
+67,2014-03-01,1042,01,Outbound,4225568,4225869,77 Massachusetts Ave,13,9,4
+67,2014-03-01,1049,01,Outbound,4225568,4225869,Massachusetts Ave @ Prospect St,10,10,0
+67,2014-03-01,1052,01,Outbound,4225568,4225869,Massachusetts Ave @ Trowbridge St,8,10,-2
+67,2014-03-01,1055,01,Outbound,4225568,4225869,Massachusetts Ave @ Holyoke St,8,10,-2
+68,2014-03-01,1029,01,Outbound,4225869,4225946,Dudley Station,-5,9,-14
+68,2014-03-01,1030,01,Outbound,4225869,4225946,Washington St @ Melnea Cass Blvd,9,9,0
+68,2014-03-01,1035,01,Outbound,4225869,4225946,Massachusetts Ave @ Washington St,7,9,-2
+68,2014-03-01,1039,01,Outbound,4225869,4225946,Massachusetts Ave @ Massachusetts Ave Station,5,9,-4
+68,2014-03-01,1046,01,Outbound,4225869,4225946,Massachusetts Ave @ Newbury St,4,11,-7
+68,2014-03-01,1051,01,Outbound,4225869,4225946,77 Massachusetts Ave,1,12,-11
+68,2014-03-01,1059,01,Outbound,4225869,4225946,Massachusetts Ave @ Prospect St,1,12,-11
+68,2014-03-01,1062,01,Outbound,4225869,4225946,Massachusetts Ave @ Trowbridge St,2,12,-10
+68,2014-03-01,1065,01,Outbound,4225869,4225946,Massachusetts Ave @ Holyoke St,12,12,0
+69,2014-03-01,1038,01,Outbound,4225946,4226047,Dudley Station,32,18,14
+69,2014-03-01,1039,01,Outbound,4225946,4226047,Washington St @ Melnea Cass Blvd,17,18,-1
+69,2014-03-01,1044,01,Outbound,4225946,4226047,Massachusetts Ave @ Washington St,19,18,1
+69,2014-03-01,1048,01,Outbound,4225946,4226047,Massachusetts Ave @ Massachusetts Ave Station,19,17,2
+69,2014-03-01,1057,01,Outbound,4225946,4226047,Massachusetts Ave @ Newbury St,21,17,4
+69,2014-03-01,1063,01,Outbound,4225946,4226047,77 Massachusetts Ave,26,17,9
+69,2014-03-01,1071,01,Outbound,4225946,4226047,Massachusetts Ave @ Prospect St,29,17,12
+69,2014-03-01,1074,01,Outbound,4225946,4226047,Massachusetts Ave @ Trowbridge St,29,17,12
+69,2014-03-01,1077,01,Outbound,4225946,4226047,Massachusetts Ave @ Holyoke St,20,17,3
+70,2014-03-01,1056,01,Outbound,4226047,4226171,Dudley Station,10,9,1
+70,2014-03-01,1057,01,Outbound,4226047,4226171,Washington St @ Melnea Cass Blvd,10,9,1
+70,2014-03-01,1062,01,Outbound,4226047,4226171,Massachusetts Ave @ Washington St,9,9,0
+70,2014-03-01,1065,01,Outbound,4226047,4226171,Massachusetts Ave @ Massachusetts Ave Station,9,9,0
+70,2014-03-01,1074,01,Outbound,4226047,4226171,Massachusetts Ave @ Newbury St,9,9,0
+70,2014-03-01,1080,01,Outbound,4226047,4226171,77 Massachusetts Ave,6,9,-3
+70,2014-03-01,1088,01,Outbound,4226047,4226171,Massachusetts Ave @ Prospect St,8,9,-1
+70,2014-03-01,1091,01,Outbound,4226047,4226171,Massachusetts Ave @ Trowbridge St,9,9,0
+70,2014-03-01,1094,01,Outbound,4226047,4226171,Massachusetts Ave @ Holyoke St,14,9,5
+71,2014-03-01,1065,01,Outbound,4226171,4225405,Dudley Station,30,30,0
+71,2014-03-01,1066,01,Outbound,4226171,4225405,Washington St @ Melnea Cass Blvd,30,30,0
+71,2014-03-01,1071,01,Outbound,4226171,4225405,Massachusetts Ave @ Washington St,30,30,0
+71,2014-03-01,1074,01,Outbound,4226171,4225405,Massachusetts Ave @ Massachusetts Ave Station,29,30,-1
+71,2014-03-01,1083,01,Outbound,4226171,4225405,Massachusetts Ave @ Newbury St,28,30,-2
+71,2014-03-01,1089,01,Outbound,4226171,4225405,77 Massachusetts Ave,26,30,-4
+71,2014-03-01,1097,01,Outbound,4226171,4225405,Massachusetts Ave @ Prospect St,23,30,-7
+71,2014-03-01,1100,01,Outbound,4226171,4225405,Massachusetts Ave @ Trowbridge St,23,30,-7
+71,2014-03-01,1103,01,Outbound,4226171,4225405,Massachusetts Ave @ Holyoke St,17,30,-13
+72,2014-03-01,1095,01,Outbound,4225405,4225487,Dudley Station,4,10,-6
+72,2014-03-01,1096,01,Outbound,4225405,4225487,Washington St @ Melnea Cass Blvd,9,10,-1
+72,2014-03-01,1101,01,Outbound,4225405,4225487,Massachusetts Ave @ Washington St,11,10,1
+72,2014-03-01,1104,01,Outbound,4225405,4225487,Massachusetts Ave @ Massachusetts Ave Station,13,10,3
+72,2014-03-01,1113,01,Outbound,4225405,4225487,Massachusetts Ave @ Newbury St,13,10,3
+72,2014-03-01,1119,01,Outbound,4225405,4225487,77 Massachusetts Ave,13,10,3
+72,2014-03-01,1127,01,Outbound,4225405,4225487,Massachusetts Ave @ Prospect St,13,10,3
+72,2014-03-01,1130,01,Outbound,4225405,4225487,Massachusetts Ave @ Trowbridge St,13,10,3
+72,2014-03-01,1133,01,Outbound,4225405,4225487,Massachusetts Ave @ Holyoke St,13,10,3
+73,2014-03-01,1105,01,Outbound,4225487,4225790,Dudley Station,7,10,-3
+73,2014-03-01,1106,01,Outbound,4225487,4225790,Washington St @ Melnea Cass Blvd,11,10,1
+73,2014-03-01,1111,01,Outbound,4225487,4225790,Massachusetts Ave @ Washington St,10,10,0
+73,2014-03-01,1114,01,Outbound,4225487,4225790,Massachusetts Ave @ Massachusetts Ave Station,12,10,2
+73,2014-03-01,1123,01,Outbound,4225487,4225790,Massachusetts Ave @ Newbury St,13,10,3
+73,2014-03-01,1129,01,Outbound,4225487,4225790,77 Massachusetts Ave,16,10,6
+73,2014-03-01,1137,01,Outbound,4225487,4225790,Massachusetts Ave @ Prospect St,15,8,7
+73,2014-03-01,1140,01,Outbound,4225487,4225790,Massachusetts Ave @ Trowbridge St,13,9,4
+73,2014-03-01,1143,01,Outbound,4225487,4225790,Massachusetts Ave @ Holyoke St,18,9,9
+74,2014-03-01,1115,01,Outbound,4225790,4225871,Dudley Station,9,10,-1
+74,2014-03-01,1116,01,Outbound,4225790,4225871,Washington St @ Melnea Cass Blvd,12,10,2
+74,2014-03-01,1121,01,Outbound,4225790,4225871,Massachusetts Ave @ Washington St,12,10,2
+74,2014-03-01,1124,01,Outbound,4225790,4225871,Massachusetts Ave @ Massachusetts Ave Station,10,10,0
+74,2014-03-01,1133,01,Outbound,4225790,4225871,Massachusetts Ave @ Newbury St,10,9,1
+74,2014-03-01,1139,01,Outbound,4225790,4225871,77 Massachusetts Ave,9,9,0
+74,2014-03-01,1145,01,Outbound,4225790,4225871,Massachusetts Ave @ Prospect St,9,9,0
+74,2014-03-01,1149,01,Outbound,4225790,4225871,Massachusetts Ave @ Trowbridge St,10,9,1
+74,2014-03-01,1152,01,Outbound,4225790,4225871,Massachusetts Ave @ Holyoke St,5,9,-4
+75,2014-03-01,1125,01,Outbound,4225871,4225948,Dudley Station,10,10,0
+75,2014-03-01,1126,01,Outbound,4225871,4225948,Washington St @ Melnea Cass Blvd,9,10,-1
+75,2014-03-01,1131,01,Outbound,4225871,4225948,Massachusetts Ave @ Washington St,10,9,1
+75,2014-03-01,1134,01,Outbound,4225871,4225948,Massachusetts Ave @ Massachusetts Ave Station,11,10,1
+75,2014-03-01,1142,01,Outbound,4225871,4225948,Massachusetts Ave @ Newbury St,14,8,6
+75,2014-03-01,1148,01,Outbound,4225871,4225948,77 Massachusetts Ave,12,8,4
+75,2014-03-01,1154,01,Outbound,4225871,4225948,Massachusetts Ave @ Prospect St,11,8,3
+75,2014-03-01,1158,01,Outbound,4225871,4225948,Massachusetts Ave @ Trowbridge St,11,8,3
+75,2014-03-01,1161,01,Outbound,4225871,4225948,Massachusetts Ave @ Holyoke St,11,8,3
+76,2014-03-01,1135,01,Outbound,4225948,4226049,Dudley Station,16,20,-4
+76,2014-03-01,1136,01,Outbound,4225948,4226049,Washington St @ Melnea Cass Blvd,18,20,-2
+76,2014-03-01,1140,01,Outbound,4225948,4226049,Massachusetts Ave @ Washington St,16,19,-3
+76,2014-03-01,1144,01,Outbound,4225948,4226049,Massachusetts Ave @ Massachusetts Ave Station,15,19,-4
+76,2014-03-01,1150,01,Outbound,4225948,4226049,Massachusetts Ave @ Newbury St,10,19,-9
+76,2014-03-01,1156,01,Outbound,4225948,4226049,77 Massachusetts Ave,12,19,-7
+76,2014-03-01,1162,01,Outbound,4225948,4226049,Massachusetts Ave @ Prospect St,12,19,-7
+76,2014-03-01,1166,01,Outbound,4225948,4226049,Massachusetts Ave @ Trowbridge St,12,19,-7
+76,2014-03-01,1169,01,Outbound,4225948,4226049,Massachusetts Ave @ Holyoke St,12,19,-7
+77,2014-03-01,1155,01,Outbound,4226049,4226173,Dudley Station,20,10,10
+77,2014-03-01,1156,01,Outbound,4226049,4226173,Washington St @ Melnea Cass Blvd,11,10,1
+77,2014-03-01,1159,01,Outbound,4226049,4226173,Massachusetts Ave @ Washington St,13,10,3
+77,2014-03-01,1163,01,Outbound,4226049,4226173,Massachusetts Ave @ Massachusetts Ave Station,13,10,3
+77,2014-03-01,1169,01,Outbound,4226049,4226173,Massachusetts Ave @ Newbury St,12,10,2
+77,2014-03-01,1175,01,Outbound,4226049,4226173,77 Massachusetts Ave,12,10,2
+77,2014-03-01,1181,01,Outbound,4226049,4226173,Massachusetts Ave @ Prospect St,12,10,2
+77,2014-03-01,1185,01,Outbound,4226049,4226173,Massachusetts Ave @ Trowbridge St,13,10,3
+77,2014-03-01,1188,01,Outbound,4226049,4226173,Massachusetts Ave @ Holyoke St,13,10,3
+78,2014-03-01,1165,01,Outbound,4226173,4225407,Dudley Station,16,20,-4
+78,2014-03-01,1166,01,Outbound,4226173,4225407,Washington St @ Melnea Cass Blvd,20,20,0
+78,2014-03-01,1169,01,Outbound,4226173,4225407,Massachusetts Ave @ Washington St,16,20,-4
+78,2014-03-01,1173,01,Outbound,4226173,4225407,Massachusetts Ave @ Massachusetts Ave Station,17,20,-3
+78,2014-03-01,1179,01,Outbound,4226173,4225407,Massachusetts Ave @ Newbury St,17,20,-3
+78,2014-03-01,1185,01,Outbound,4226173,4225407,77 Massachusetts Ave,15,20,-5
+78,2014-03-01,1191,01,Outbound,4226173,4225407,Massachusetts Ave @ Prospect St,14,20,-6
+78,2014-03-01,1195,01,Outbound,4226173,4225407,Massachusetts Ave @ Trowbridge St,13,20,-7
+78,2014-03-01,1198,01,Outbound,4226173,4225407,Massachusetts Ave @ Holyoke St,13,20,-7
+79,2014-03-01,1185,01,Outbound,4225407,4225792,Dudley Station,21,14,7
+79,2014-03-01,1186,01,Outbound,4225407,4225792,Washington St @ Melnea Cass Blvd,14,14,0
+79,2014-03-01,1189,01,Outbound,4225407,4225792,Massachusetts Ave @ Washington St,16,14,2
+79,2014-03-01,1193,01,Outbound,4225407,4225792,Massachusetts Ave @ Massachusetts Ave Station,12,14,-2
+79,2014-03-01,1199,01,Outbound,4225407,4225792,Massachusetts Ave @ Newbury St,15,14,1
+79,2014-03-01,1205,01,Outbound,4225407,4225792,77 Massachusetts Ave,15,14,1
+79,2014-03-01,1211,01,Outbound,4225407,4225792,Massachusetts Ave @ Prospect St,15,14,1
+79,2014-03-01,1215,01,Outbound,4225407,4225792,Massachusetts Ave @ Trowbridge St,15,14,1
+79,2014-03-01,1218,01,Outbound,4225407,4225792,Massachusetts Ave @ Holyoke St,16,14,2
+80,2014-03-01,1199,01,Outbound,4225792,4225873,Dudley Station,-2,16,-18
+80,2014-03-01,1200,01,Outbound,4225792,4225873,Washington St @ Melnea Cass Blvd,16,16,0
+80,2014-03-01,1203,01,Outbound,4225792,4225873,Massachusetts Ave @ Washington St,15,16,-1
+80,2014-03-01,1207,01,Outbound,4225792,4225873,Massachusetts Ave @ Massachusetts Ave Station,18,16,2
+80,2014-03-01,1213,01,Outbound,4225792,4225873,Massachusetts Ave @ Newbury St,15,16,-1
+80,2014-03-01,1219,01,Outbound,4225792,4225873,77 Massachusetts Ave,15,16,-1
+80,2014-03-01,1225,01,Outbound,4225792,4225873,Massachusetts Ave @ Prospect St,16,16,0
+80,2014-03-01,1229,01,Outbound,4225792,4225873,Massachusetts Ave @ Trowbridge St,16,16,0
+80,2014-03-01,1232,01,Outbound,4225792,4225873,Massachusetts Ave @ Holyoke St,21,16,5
+81,2014-03-01,1215,01,Outbound,4225873,4233091,Dudley Station,44,34,10
+81,2014-03-01,1216,01,Outbound,4225873,4233091,Washington St @ Melnea Cass Blvd,36,34,2
+81,2014-03-01,1219,01,Outbound,4225873,4233091,Massachusetts Ave @ Washington St,38,34,4
+81,2014-03-01,1223,01,Outbound,4225873,4233091,Massachusetts Ave @ Massachusetts Ave Station,40,34,6
+81,2014-03-01,1229,01,Outbound,4225873,4233091,Massachusetts Ave @ Newbury St,41,34,7
+81,2014-03-01,1235,01,Outbound,4225873,4233091,77 Massachusetts Ave,43,34,9
+81,2014-03-01,1241,01,Outbound,4225873,4233091,Massachusetts Ave @ Prospect St,44,34,10
+81,2014-03-01,1245,01,Outbound,4225873,4233091,Massachusetts Ave @ Trowbridge St,45,34,11
+81,2014-03-01,1248,01,Outbound,4225873,4233091,Massachusetts Ave @ Holyoke St,39,34,5
+82,2014-03-01,1257,01,Outbound,4233091,4225659,Massachusetts Ave @ Massachusetts Ave Station,17,18,-1
+82,2014-03-01,1263,01,Outbound,4233091,4225659,Massachusetts Ave @ Newbury St,18,18,0
+82,2014-03-01,1269,01,Outbound,4233091,4225659,77 Massachusetts Ave,16,18,-2
+82,2014-03-01,1275,01,Outbound,4233091,4225659,Massachusetts Ave @ Prospect St,15,18,-3
+82,2014-03-01,1279,01,Outbound,4233091,4225659,Massachusetts Ave @ Trowbridge St,14,18,-4
+82,2014-03-01,1282,01,Outbound,4233091,4225659,Massachusetts Ave @ Holyoke St,14,18,-4
+83,2014-03-01,1275,01,Outbound,4225659,4225409,Massachusetts Ave @ Massachusetts Ave Station,13,18,-5
+83,2014-03-01,1281,01,Outbound,4225659,4225409,Massachusetts Ave @ Newbury St,13,18,-5
+83,2014-03-01,1287,01,Outbound,4225659,4225409,77 Massachusetts Ave,14,18,-4
+83,2014-03-01,1293,01,Outbound,4225659,4225409,Massachusetts Ave @ Prospect St,14,18,-4
+83,2014-03-01,1297,01,Outbound,4225659,4225409,Massachusetts Ave @ Trowbridge St,14,18,-4
+83,2014-03-01,1300,01,Outbound,4225659,4225409,Massachusetts Ave @ Holyoke St,13,18,-5
+84,2014-03-01,1285,01,Outbound,4225409,4225707,Dudley Station,8,18,-10
+84,2014-03-01,1286,01,Outbound,4225409,4225707,Washington St @ Melnea Cass Blvd,17,18,-1
+84,2014-03-01,1289,01,Outbound,4225409,4225707,Massachusetts Ave @ Washington St,17,18,-1
+84,2014-03-01,1293,01,Outbound,4225409,4225707,Massachusetts Ave @ Massachusetts Ave Station,17,18,-1
+84,2014-03-01,1299,01,Outbound,4225409,4225707,Massachusetts Ave @ Newbury St,15,18,-3
+84,2014-03-01,1305,01,Outbound,4225409,4225707,77 Massachusetts Ave,14,18,-4
+84,2014-03-01,1311,01,Outbound,4225409,4225707,Massachusetts Ave @ Prospect St,15,18,-3
+84,2014-03-01,1315,01,Outbound,4225409,4225707,Massachusetts Ave @ Trowbridge St,16,18,-2
+84,2014-03-01,1318,01,Outbound,4225409,4225707,Massachusetts Ave @ Holyoke St,17,18,-1
+85,2014-03-01,1303,01,Outbound,4225707,4233093,Dudley Station,53,36,17
+85,2014-03-01,1304,01,Outbound,4225707,4233093,Washington St @ Melnea Cass Blvd,36,36,0
+85,2014-03-01,1307,01,Outbound,4225707,4233093,Massachusetts Ave @ Washington St,36,36,0
+85,2014-03-01,1311,01,Outbound,4225707,4233093,Massachusetts Ave @ Massachusetts Ave Station,37,36,1
+85,2014-03-01,1317,01,Outbound,4225707,4233093,Massachusetts Ave @ Newbury St,39,35,4
+85,2014-03-01,1323,01,Outbound,4225707,4233093,77 Massachusetts Ave,40,34,6
+85,2014-03-01,1329,01,Outbound,4225707,4233093,Massachusetts Ave @ Prospect St,39,34,5
+85,2014-03-01,1333,01,Outbound,4225707,4233093,Massachusetts Ave @ Trowbridge St,39,34,5
+85,2014-03-01,1336,01,Outbound,4225707,4233093,Massachusetts Ave @ Holyoke St,39,34,5
+86,2014-03-01,1339,01,Outbound,4233093,4225661,Dudley Station,9,18,-9
+86,2014-03-01,1340,01,Outbound,4233093,4225661,Washington St @ Melnea Cass Blvd,18,18,0
+86,2014-03-01,1343,01,Outbound,4233093,4225661,Massachusetts Ave @ Washington St,18,18,0
+86,2014-03-01,1347,01,Outbound,4233093,4225661,Massachusetts Ave @ Massachusetts Ave Station,17,17,0
+86,2014-03-01,1352,01,Outbound,4233093,4225661,Massachusetts Ave @ Newbury St,18,17,1
+86,2014-03-01,1357,01,Outbound,4233093,4225661,77 Massachusetts Ave,18,17,1
+86,2014-03-01,1363,01,Outbound,4233093,4225661,Massachusetts Ave @ Prospect St,18,17,1
+86,2014-03-01,1367,01,Outbound,4233093,4225661,Massachusetts Ave @ Trowbridge St,17,17,0
+86,2014-03-01,1370,01,Outbound,4233093,4225661,Massachusetts Ave @ Holyoke St,18,17,1
+87,2014-03-01,1358,01,Outbound,4225661,4225744,Washington St @ Melnea Cass Blvd,22,18,4
+87,2014-03-01,1361,01,Outbound,4225661,4225744,Massachusetts Ave @ Washington St,21,18,3
+87,2014-03-01,1364,01,Outbound,4225661,4225744,Massachusetts Ave @ Massachusetts Ave Station,22,18,4
+87,2014-03-01,1369,01,Outbound,4225661,4225744,Massachusetts Ave @ Newbury St,20,18,2
+87,2014-03-01,1374,01,Outbound,4225661,4225744,77 Massachusetts Ave,19,18,1
+87,2014-03-01,1380,01,Outbound,4225661,4225744,Massachusetts Ave @ Prospect St,21,18,3
+87,2014-03-01,1384,01,Outbound,4225661,4225744,Massachusetts Ave @ Trowbridge St,22,18,4
+87,2014-03-01,1387,01,Outbound,4225661,4225744,Massachusetts Ave @ Holyoke St,21,18,3
+88,2014-03-01,1376,01,Outbound,4225744,4225709,Washington St @ Melnea Cass Blvd,14,18,-4
+88,2014-03-01,1379,01,Outbound,4225744,4225709,Massachusetts Ave @ Washington St,13,18,-5
+88,2014-03-01,1382,01,Outbound,4225744,4225709,Massachusetts Ave @ Massachusetts Ave Station,13,18,-5
+88,2014-03-01,1387,01,Outbound,4225744,4225709,Massachusetts Ave @ Newbury St,12,18,-6
+88,2014-03-01,1392,01,Outbound,4225744,4225709,77 Massachusetts Ave,14,18,-4
+88,2014-03-01,1398,01,Outbound,4225744,4225709,Massachusetts Ave @ Prospect St,12,18,-6
+88,2014-03-01,1402,01,Outbound,4225744,4225709,Massachusetts Ave @ Trowbridge St,12,18,-6
+88,2014-03-01,1405,01,Outbound,4225744,4225709,Massachusetts Ave @ Holyoke St,11,18,-7
+89,2014-03-01,1393,01,Outbound,4225709,4233095,Dudley Station,35,18,17
+89,2014-03-01,1394,01,Outbound,4225709,4233095,Washington St @ Melnea Cass Blvd,20,18,2
+89,2014-03-01,1397,01,Outbound,4225709,4233095,Massachusetts Ave @ Washington St,21,18,3
+89,2014-03-01,1400,01,Outbound,4225709,4233095,Massachusetts Ave @ Massachusetts Ave Station,20,18,2
+89,2014-03-01,1405,01,Outbound,4225709,4233095,Massachusetts Ave @ Newbury St,20,18,2
+89,2014-03-01,1410,01,Outbound,4225709,4233095,77 Massachusetts Ave,19,18,1
+89,2014-03-01,1416,01,Outbound,4225709,4233095,Massachusetts Ave @ Prospect St,20,18,2
+89,2014-03-01,1420,01,Outbound,4225709,4233095,Massachusetts Ave @ Trowbridge St,21,18,3
+89,2014-03-01,1423,01,Outbound,4225709,4233095,Massachusetts Ave @ Holyoke St,21,17,4
+90,2014-03-01,1411,01,Outbound,4233095,4225663,Dudley Station,22,18,4
+90,2014-03-01,1412,01,Outbound,4233095,4225663,Washington St @ Melnea Cass Blvd,21,18,3
+90,2014-03-01,1415,01,Outbound,4233095,4225663,Massachusetts Ave @ Washington St,22,18,4
+90,2014-03-01,1418,01,Outbound,4233095,4225663,Massachusetts Ave @ Massachusetts Ave Station,22,18,4
+90,2014-03-01,1423,01,Outbound,4233095,4225663,Massachusetts Ave @ Newbury St,22,18,4
+90,2014-03-01,1428,01,Outbound,4233095,4225663,77 Massachusetts Ave,21,18,3
+90,2014-03-01,1434,01,Outbound,4233095,4225663,Massachusetts Ave @ Prospect St,20,17,3
+90,2014-03-01,1438,01,Outbound,4233095,4225663,Massachusetts Ave @ Trowbridge St,18,16,2
+90,2014-03-01,1440,01,Outbound,4233095,4225663,Massachusetts Ave @ Holyoke St,18,16,2
+91,2014-03-01,1429,01,Outbound,4225663,4225746,Dudley Station,16,20,-4
+91,2014-03-01,1430,01,Outbound,4225663,4225746,Washington St @ Melnea Cass Blvd,15,20,-5
+91,2014-03-01,1433,01,Outbound,4225663,4225746,Massachusetts Ave @ Washington St,14,20,-6
+91,2014-03-01,1436,01,Outbound,4225663,4225746,Massachusetts Ave @ Massachusetts Ave Station,12,20,-8
+91,2014-03-01,1441,01,Outbound,4225663,4225746,Massachusetts Ave @ Newbury St,10,19,-9
+91,2014-03-01,1446,01,Outbound,4225663,4225746,77 Massachusetts Ave,10,19,-9
+91,2014-03-01,1451,01,Outbound,4225663,4225746,Massachusetts Ave @ Prospect St,9,19,-10
+91,2014-03-01,1454,01,Outbound,4225663,4225746,Massachusetts Ave @ Trowbridge St,8,19,-11
+91,2014-03-01,1456,01,Outbound,4225663,4225746,Massachusetts Ave @ Holyoke St,9,19,-10
+92,2014-03-01,1449,01,Outbound,4225746,4225711,Dudley Station,20,26,-6
+92,2014-03-01,1450,01,Outbound,4225746,4225711,Washington St @ Melnea Cass Blvd,32,26,6
+92,2014-03-01,1453,01,Outbound,4225746,4225711,Massachusetts Ave @ Washington St,31,26,5
+92,2014-03-01,1456,01,Outbound,4225746,4225711,Massachusetts Ave @ Massachusetts Ave Station,33,26,7
+92,2014-03-01,1460,01,Outbound,4225746,4225711,Massachusetts Ave @ Newbury St,34,26,8
+92,2014-03-01,1465,01,Outbound,4225746,4225711,77 Massachusetts Ave,35,26,9
+92,2014-03-01,1470,01,Outbound,4225746,4225711,Massachusetts Ave @ Prospect St,34,26,8
+92,2014-03-01,1473,01,Outbound,4225746,4225711,Massachusetts Ave @ Trowbridge St,36,26,10
+92,2014-03-01,1475,01,Outbound,4225746,4225711,Massachusetts Ave @ Holyoke St,36,26,10
+93,2014-03-01,1475,01,Outbound,4225711,4225665,Dudley Station,28,26,2
+93,2014-03-01,1476,01,Outbound,4225711,4225665,Washington St @ Melnea Cass Blvd,50,26,24
+93,2014-03-01,1479,01,Outbound,4225711,4225665,Massachusetts Ave @ Washington St,50,26,24
+93,2014-03-01,1482,01,Outbound,4225711,4225665,Massachusetts Ave @ Massachusetts Ave Station,49,26,23
+93,2014-03-01,1486,01,Outbound,4225711,4225665,Massachusetts Ave @ Newbury St,49,26,23
+93,2014-03-01,1491,01,Outbound,4225711,4225665,77 Massachusetts Ave,47,26,21
+93,2014-03-01,1496,01,Outbound,4225711,4225665,Massachusetts Ave @ Prospect St,48,26,22
+93,2014-03-01,1499,01,Outbound,4225711,4225665,Massachusetts Ave @ Trowbridge St,47,26,21
+93,2014-03-01,1501,01,Outbound,4225711,4225665,Massachusetts Ave @ Holyoke St,47,26,21

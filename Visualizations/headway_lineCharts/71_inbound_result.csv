@@ -533,7 +533,3 @@ Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chara
 77,3/1/2014,1510,71,Inbound,4224335,4224643,Harvard Upper Busway @ Red Line,7,15,-8
 78,3/1/2014,1511,71,Inbound,4224643,4224789,Watertown Sq Terminal,54,11,43
 78,3/1/2014,1513,71,Inbound,4224643,4224789,Mt Auburn St @ Parker St,53,11,42
-78,3/1/2014,1519,71,Inbound,4224643,4224789,Mt Auburn St opp Homer Ave,-1386,11,-1397
-78,3/1/2014,1522,71,Inbound,4224643,4224789,Mt Auburn St @ Mt Auburn Hospital,-1385,11,-1396
-78,3/1/2014,1524,71,Inbound,4224643,4224789,Mt Auburn St @ University Rd,-1386,11,-1397
-78,3/1/2014,1525,71,Inbound,4224643,4224789,Harvard Upper Busway @ Red Line,-1386,11,-1397
