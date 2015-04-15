@@ -20,7 +20,7 @@ FilterData = FOREACH FilterData GENERATE TripID, RouteName, RouteDirectionName, 
 	                                 ScheduledTime, ScheduledTimeInMin as ScheduledT,
 	                                 ActArrivalTime, ActArrivalTimeInMin as ActArrivalT,
 	                                 (int)ABS(ScheduledTimeInMin - ActArrivalTimeInMin) as diffT,
-									 (ScheduledTimeInMin - ActArrivalTimeInMin) *  (ScheduledTimeInMin - ActArrivalTimeInMin) / 2 as squarediffT,
+									 (double)((ScheduledTimeInMin - ActArrivalTimeInMin) *  (ScheduledTimeInMin - ActArrivalTimeInMin) / 2) as squarediffT,
 	                                 StopName, CROSSING_TYPE_ID;
 
 

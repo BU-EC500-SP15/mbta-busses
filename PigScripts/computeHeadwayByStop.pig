@@ -49,17 +49,17 @@ DESCRIBE GroupDataSummary;
 
 --AVG/Distribution By Stop
 GruopTwoTime = FOREACH GroupDataSummary GENERATE FLATTEN(group) as (RouteName,RouteDirectionName,StopName, i) , MAX(TotalSummary.nSchTime) - MIN(TotalSummary.nSchTime)  as HeadWayTime,
-														   MAX(TotalSummary.nArrTime) - MIN(TotalSummary.nArrTime)  as HeadWayRealTime, MAX(TotalSummary.nSchTime) as nSchTime;
+														   MAX(TotalSummary.nArrTime) - MIN(TotalSummary.nArrTime)  as HeadWayRealTime, MAX(TotalSummary.nSchTime) as nSchTime PARALLEL 10;
                                                            
 AVGResult = FILTER GruopTwoTime BY HeadWayTime > 0 AND HeadWayTime < 120;
 
 --Get Normal Result
-GroupResult = GROUP AVGResult BY (RouteName,RouteDirectionName,StopName);
+GroupResult = GROUP AVGResult BY (RouteName,RouteDirectionName,StopName) PARALLEL 10;
 DESCRIBE GroupResult;
 
 --STORE GroupResult INTO 'AVGHeadDistribution';
 
-FinalAvgHeadTime = FOREACH GroupResult GENERATE group , AVG(AVGResult.HeadWayTime) ,AVG(AVGResult.HeadWayRealTime);
+FinalAvgHeadTime = FOREACH GroupResult GENERATE group , AVG(AVGResult.HeadWayTime) ,AVG(AVGResult.HeadWayRealTime) PARALLEL 10;
 DESCRIBE FinalAvgHeadTime;                                                           
 
 STORE FinalAvgHeadTime INTO 'AVGHead' USING PigStorage('\t') PARALLEL 1;
