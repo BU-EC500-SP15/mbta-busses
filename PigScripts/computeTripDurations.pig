@@ -30,11 +30,6 @@ GroupedData = Group FilterData by (RouteName, RouteDirectionName, TripID, Patter
 tripDurations = FOREACH GroupedData GENERATE group.RouteName as RouteName, group.RouteDirectionName as RouteDirectionName, group.TripID as TripID, group.PatternName as PatternName, 
 group.ServiceDate as ServiceDate, MIN(FilterData.ScheduledTime) as StartTime, MAX(FilterData.ActDepartureT) - (int)MIN(FilterData.ActArrivalT) as tripDurationInMins:int;
 
-
---store tripDurations into 'tripDurations' USING PigStorage('\t') PARALLEL 1;
---DESCRIBE trip;
-
-DESCRIBE tripDurations;
 tripDurationsByDay = Group tripDurations by (RouteName, RouteDirectionName, ServiceDate);
 
 ResultData = FOREACH tripDurationsByDay GENERATE group.RouteName, group.RouteDirectionName, group.ServiceDate, ROUND(AVG(tripDurations.tripDurationInMins)) PARALLEL 10;
