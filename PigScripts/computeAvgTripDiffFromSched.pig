@@ -16,6 +16,7 @@ FilterData = FILTER RawData BY (RouteName == 27) OR (RouteName == 15) OR (RouteN
 FilterData = FILTER FilterData BY (ScheduledTimeInMin >= $begin) AND (ScheduledTimeInMin <= $end);
 
 --Filter data necessary for visualizations 
+FilterData = FOREACH FilterData GENERATE TripID, RouteName, RouteDirectionName,ServiceDate,
 	                                 ScheduledTime, ScheduledTimeInMin as ScheduledT,
 	                                 ActArrivalTime, ActArrivalTimeInMin as ActArrivalT,
 	                                 (int)ABS(ScheduledTimeInMin - ActArrivalTimeInMin) as diffT,
