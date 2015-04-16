@@ -122,7 +122,7 @@ function createMarker(data, array, connected, connectedLine){
         var markerPosition = new google.maps.LatLng(data[i][2], data[i][3]);
 
         var marker = new google.maps.Marker({
-            icon: ('/html/img/bus.png'),
+            icon: ('/mbta-busses/html/img/bus.png'),
             position: markerPosition,
             map: map,
             title: data[i][1]
@@ -218,13 +218,12 @@ function createMarker(data, array, connected, connectedLine){
     addLine(connectedPath);
 }
 
-/*
 function createMarker2(data, array, connected, connectedPath){
     for(var i = 22; i < data.length; i++){
         var markerPosition = new google.maps.LatLng(data[i][2], data[i][3]);
 
         var marker = new google.maps.Marker({
-            icon: ('/html/img/bus.png'),
+            icon: ('/mbta-busses/html/img/bus.png'),
             position: markerPosition,
             map: map,
             title: data[i][1]
@@ -260,7 +259,6 @@ function createMarker2(data, array, connected, connectedPath){
 
     addLine(connectedPath);
 }
-*/
 
 function parseData(url, array, connected, connectedPath, callback){
     Papa.parse(url, {
@@ -300,8 +298,8 @@ $('#route1').change(function() {
         // run the function with the csv and a callback
         // pathRoute1 = [];
         // secondPathRoute1 = [];
-        parseData("/html/data/result1/stops.txt_transfered_order", route1, connectedCoordinatesRoute1, pathRoute1, createMarker);
-        // parseData("/html/data/result1/stops.txt_transfered_order", secondRoute1, secondConnectedCoordinatesRoute1, secondPathRoute1, createMarker2);
+        parseData("/mbta-busses/html/data/result1/stops.txt_transfered_order", route1, connectedCoordinatesRoute1, pathRoute1, createMarker);
+        parseData("/mbta-busses/html/data/result1/stops.txt_transfered_order", secondRoute1, secondConnectedCoordinatesRoute1, secondPathRoute1, createMarker2);
     }
     else{
         removeMarkersAndLines(route1, secondRoute1, pathRoute1, secondPathRoute1);
@@ -311,8 +309,8 @@ $('#route1').change(function() {
 $('#route15').change(function() {
     if($('#route15').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result15/stops.txt_transfered_order", route15, connectedCoordinatesRoute15, pathRoute15, createMarker);
-        parseData("/html/data/result15/stops.txt_transfered_order", secondRoute15, secondConnectedCoordinatesRoute15, secondPathRoute15, createMarker2);
+        parseData("/mbta-busses/html/data/result15/stops.txt_transfered_order", route15, connectedCoordinatesRoute15, pathRoute15, createMarker);
+        parseData("/mbta-busses/html/data/result15/stops.txt_transfered_order", secondRoute15, secondConnectedCoordinatesRoute15, secondPathRoute15, createMarker2);
     }
     else{
         removeMarkersAndLines(route15, secondRoute15, pathRoute15, secondPathRoute15);
@@ -322,8 +320,8 @@ $('#route15').change(function() {
 $('#route22').change(function() {
     if($('#route22').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result22/stops.txt_transfered_order", route22, connectedCoordinatesRoute22, pathRoute22, createMarker);
-        parseData("/html/data/result22/stops.txt_transfered_order", secondRoute22, secondConnectedCoordinatesRoute22, secondPathRoute22, createMarker2);
+        parseData("/mbta-busses/html/data/result22/stops.txt_transfered_order", route22, connectedCoordinatesRoute22, pathRoute22, createMarker);
+        parseData("/mbta-busses/html/data/result22/stops.txt_transfered_order", secondRoute22, secondConnectedCoordinatesRoute22, secondPathRoute22, createMarker2);
     }
     else{
         removeMarkersAndLines(route22, secondRoute22, pathRoute22, secondPathRoute22);
@@ -333,8 +331,8 @@ $('#route22').change(function() {
 $('#route23').change(function() {
     if($('#route23').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result23/stops.txt_transfered_order", route23, connectedCoordinatesRoute23, pathRoute23, createMarker);
-        parseData("/html/data/result23/stops.txt_transfered_order", secondRoute23, secondConnectedCoordinatesRoute23, secondPathRoute23, createMarker2);
+        parseData("/mbta-busses/html/data/result23/stops.txt_transfered_order", route23, connectedCoordinatesRoute23, pathRoute23, createMarker);
+        parseData("/mbta-busses/html/data/result23/stops.txt_transfered_order", secondRoute23, secondConnectedCoordinatesRoute23, secondPathRoute23, createMarker2);
     }
     else{
         removeMarkersAndLines(route23, secondRoute23, pathRoute23, secondPathRoute23);
@@ -344,8 +342,8 @@ $('#route23').change(function() {
 $('#route28').change(function() {
     if($('#route28').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result28/stops.txt_transfered_order", route28, connectedCoordinatesRoute28, pathRoute28, createMarker);
-        parseData("/html/data/result28/stops.txt_transfered_order", secondRoute28, secondConnectedCoordinatesRoute28, secondPathRoute28, createMarker2);
+        parseData("/mbta-busses/html/data/result28/stops.txt_transfered_order", route28, connectedCoordinatesRoute28, pathRoute28, createMarker);
+        parseData("/mbta-busses/html/data/result28/stops.txt_transfered_order", secondRoute28, secondConnectedCoordinatesRoute28, secondPathRoute28, createMarker2);
     }
     else{
         removeMarkersAndLines(route28, secondRoute28, pathRoute28, secondPathRoute28);
@@ -355,8 +353,8 @@ $('#route28').change(function() {
 $('#route57').change(function() {
     if($('#route57').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result57/stops.txt_transfered_order", route57, connectedCoordinatesRoute57, pathRoute57, createMarker);
-        parseData("/html/data/result57/stops.txt_transfered_order", secondRoute57, secondConnectedCoordinatesRoute57, secondPathRoute57, createMarker2);
+        parseData("/mbta-busses/html/data/result57/stops.txt_transfered_order", route57, connectedCoordinatesRoute57, pathRoute57, createMarker);
+        parseData("/mbta-busses/html/data/result57/stops.txt_transfered_order", secondRoute57, secondConnectedCoordinatesRoute57, secondPathRoute57, createMarker2);
     }
     else{
         removeMarkersAndLines(route57, secondRoute57, pathRoute57, secondPathRoute57);
@@ -368,8 +366,8 @@ $('#route57').change(function() {
 $('#route32').change(function() {
     if($('#route32').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result32/stops.txt_transfered_order", route32, connectedCoordinatesRoute32, pathRoute32, createMarker);
-        parseData("/html/data/result32/stops.txt_transfered_order", secondRoute32, secondConnectedCoordinatesRoute32, secondPathRoute1, createMarker2);
+        parseData("/mbta-busses/html/data/result32/stops.txt_transfered_order", route32, connectedCoordinatesRoute32, pathRoute32, createMarker);
+        parseData("/mbta-busses/html/data/result32/stops.txt_transfered_order", secondRoute32, secondConnectedCoordinatesRoute32, secondPathRoute1, createMarker2);
     }
     else{
         removeMarkersAndLines(route32, secondRoute32, pathRoute32, secondPathRoute32);
@@ -379,8 +377,8 @@ $('#route32').change(function() {
 $('#route39').change(function() {
     if($('#route39').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result39/stops.txt_transfered_order", route39, connectedCoordinatesRoute39, pathRoute39, createMarker);
-        parseData("/html/data/result39/stops.txt_transfered_order", secondRoute39, secondConnectedCoordinatesRoute39, secondPathRoute39, createMarker2);
+        parseData("/mbta-busses/html/data/result39/stops.txt_transfered_order", route39, connectedCoordinatesRoute39, pathRoute39, createMarker);
+        parseData("/mbta-busses/html/data/result39/stops.txt_transfered_order", secondRoute39, secondConnectedCoordinatesRoute39, secondPathRoute39, createMarker2);
     }
     else{
         removeMarkersAndLines(route39, secondRoute39, pathRoute39, secondPathRoute39);
@@ -390,8 +388,8 @@ $('#route39').change(function() {
 $('#route66').change(function() {
     if($('#route66').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result66/stops.txt_transfered_order", route66, connectedCoordinatesRoute66, pathRoute66, createMarker);
-        parseData("/html/data/result66/stops.txt_transfered_order", secondRoute66, secondConnectedCoordinatesRoute66, secondPathRoute66, createMarker2);
+        parseData("/mbta-busses/html/data/result66/stops.txt_transfered_order", route66, connectedCoordinatesRoute66, pathRoute66, createMarker);
+        parseData("/mbta-busses/html/data/result66/stops.txt_transfered_order", secondRoute66, secondConnectedCoordinatesRoute66, secondPathRoute66, createMarker2);
     }
     else{
         removeMarkersAndLines(route66, secondRoute66, pathRoute66, secondPathRoute66);
@@ -401,8 +399,8 @@ $('#route66').change(function() {
 $('#route71').change(function() {
     if($('#route71').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result71/stops.txt_transfered_order", route71, connectedCoordinatesRoute71, pathRoute71, createMarker);
-        parseData("/html/data/result71/stops.txt_transfered_order", secondRoute71, secondConnectedCoordinatesRoute71, secondPathRoute71, createMarker2);
+        parseData("/mbta-busses/html/data/result71/stops.txt_transfered_order", route71, connectedCoordinatesRoute71, pathRoute71, createMarker);
+        parseData("/mbta-busses/html/data/result71/stops.txt_transfered_order", secondRoute71, secondConnectedCoordinatesRoute71, secondPathRoute71, createMarker2);
     }
     else{
         removeMarkersAndLines(route71, secondRoute71, pathRoute71, secondPathRoute71);
@@ -412,8 +410,8 @@ $('#route71').change(function() {
 $('#route73').change(function() {
     if($('#route73').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result73/stops.txt_transfered_order", route73, connectedCoordinatesRoute73, pathRoute73, createMarker);
-        parseData("/html/data/result73/stops.txt_transfered_order", secondRoute73, secondConnectedCoordinatesRoute73, secondPathRoute73, createMarker2);
+        parseData("/mbta-busses/html/data/result73/stops.txt_transfered_order", route73, connectedCoordinatesRoute73, pathRoute73, createMarker);
+        parseData("/mbta-busses/html/data/result73/stops.txt_transfered_order", secondRoute73, secondConnectedCoordinatesRoute73, secondPathRoute73, createMarker2);
     }
     else{
         removeMarkersAndLines(route73, secondRoute73, pathRoute73, secondPathRoute73);
@@ -423,8 +421,8 @@ $('#route73').change(function() {
 $('#route77').change(function() {
     if($('#route77').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result77/stops.txt_transfered_order", route77, connectedCoordinatesRoute77, pathRoute77, createMarker);
-        parseData("/html/data/result77/stops.txt_transfered_order", secondRoute77, secondConnectedCoordinatesRoute77, secondPathRoute77, createMarker2);
+        parseData("/mbta-busses/html/data/result77/stops.txt_transfered_order", route77, connectedCoordinatesRoute77, pathRoute77, createMarker);
+        parseData("/mbta-busses/html/data/result77/stops.txt_transfered_order", secondRoute77, secondConnectedCoordinatesRoute77, secondPathRoute77, createMarker2);
     }
     else{
         removeMarkersAndLines(route77, secondRoute77, pathRoute77, secondPathRoute77);
@@ -434,8 +432,8 @@ $('#route77').change(function() {
 $('#route111').change(function() {
     if($('#route111').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result111/stops.txt_transfered_order", route111, connectedCoordinatesRoute111, pathRoute111, createMarker);
-        parseData("/html/data/result111/stops.txt_transfered_order", secondRoute111, secondConnectedCoordinatesRoute111, secondPathRoute111, createMarker2);
+        parseData("/mbta-busses/html/data/result111/stops.txt_transfered_order", route111, connectedCoordinatesRoute111, pathRoute111, createMarker);
+        parseData("/mbta-busses/html/data/result111/stops.txt_transfered_order", secondRoute111, secondConnectedCoordinatesRoute111, secondPathRoute111, createMarker2);
     }
     else{
         removeMarkersAndLines(route111, secondRoute111, pathRoute111, secondPathRoute111);
@@ -445,8 +443,8 @@ $('#route111').change(function() {
 $('#route116').change(function() {
     if($('#route116').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result116/stops.txt_transfered_order", route116, connectedCoordinatesRoute116, pathRoute116, createMarker);
-        parseData("/html/data/result116/stops.txt_transfered_order", secondRoute116, secondConnectedCoordinatesRoute116, secondPathRoute116, createMarker2);
+        parseData("/mbta-busses/html/data/result116/stops.txt_transfered_order", route116, connectedCoordinatesRoute116, pathRoute116, createMarker);
+        parseData("/mbta-busses/html/data/result116/stops.txt_transfered_order", secondRoute116, secondConnectedCoordinatesRoute116, secondPathRoute116, createMarker2);
     }
     else{
         removeMarkersAndLines(route116, secondRoute116, pathRoute116, secondPathRoute116);
@@ -456,8 +454,8 @@ $('#route116').change(function() {
 $('#route117').change(function() {
     if($('#route117').prop("checked")) {
         // run the function with the csv and a callback
-        parseData("/html/data/result117/stops.txt_transfered_order", route117, connectedCoordinatesRoute117, pathRoute117, createMarker);
-        parseData("/html/data/result117/stops.txt_transfered_order", secondRoute117, secondConnectedCoordinatesRoute117, secondPathRoute117, createMarker2);
+        parseData("/mbta-busses/html/data/result117/stops.txt_transfered_order", route117, connectedCoordinatesRoute117, pathRoute117, createMarker);
+        parseData("/mbta-busses/html/data/result117/stops.txt_transfered_order", secondRoute117, secondConnectedCoordinatesRoute117, secondPathRoute117, createMarker2);
     }
     else{
         removeMarkersAndLines(route117, secondRoute117, pathRoute117, secondPathRoute117);
