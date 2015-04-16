@@ -142,13 +142,13 @@ function createMarker(data, array, connected, connectedLine){
             infowindow.open(map, marker);
         }); */
 
-        var contentString = '<div id="content">'+
+        /* var contentString = '<div id="content">'+
         data[i][1] +
         '</div>'
 
         var infowindow = new google.maps.InfoWindow({
             content: contentString
-        });    
+        }); */    
     
         // connectedCoordinates[i] = markerPosition;
         connected.push(markerPosition);
@@ -160,12 +160,14 @@ function createMarker(data, array, connected, connectedLine){
         }
         */
 
+        /*
         var eventListener = new google.maps.event.addListener(marker, 'click', function() {
             infowindow.setOptions({
                 content: contentString
             });
             infowindow.open(map, marker);
-        });
+        }); 
+        */
     }
 
     // Debug test
@@ -216,6 +218,7 @@ function createMarker(data, array, connected, connectedLine){
     addLine(connectedPath);
 }
 
+/*
 function createMarker2(data, array, connected, connectedPath){
     for(var i = 22; i < data.length; i++){
         var markerPosition = new google.maps.LatLng(data[i][2], data[i][3]);
@@ -257,13 +260,14 @@ function createMarker2(data, array, connected, connectedPath){
 
     addLine(connectedPath);
 }
+*/
 
 function parseData(url, array, connected, connectedPath, callback){
     Papa.parse(url, {
         download: true,
-        dynamicTyping: true,
         complete: function(results){
             callback(results.data, array, connected, connectedPath);
+            console.log(results.data);
         }
     });
 }
@@ -278,6 +282,7 @@ function clearData(array) {
         array[i].setMap(null);
     }
     array = [];
+    // array.length = 0;
 }
 
 function removeMarkersAndLines(route, secondRoute, pathRoute, secondPathRoute){
@@ -296,7 +301,7 @@ $('#route1').change(function() {
         // pathRoute1 = [];
         // secondPathRoute1 = [];
         parseData("/html/data/result1/stops.txt_transfered_order", route1, connectedCoordinatesRoute1, pathRoute1, createMarker);
-        parseData("/html/data/result1/stops.txt_transfered_order", secondRoute1, secondConnectedCoordinatesRoute1, secondPathRoute1, createMarker2);
+        // parseData("/html/data/result1/stops.txt_transfered_order", secondRoute1, secondConnectedCoordinatesRoute1, secondPathRoute1, createMarker2);
     }
     else{
         removeMarkersAndLines(route1, secondRoute1, pathRoute1, secondPathRoute1);

@@ -42,6 +42,16 @@ path {
     <div class="color-box" style="background-color: #FF0000;"></div>
 </div>
 
+<br></br>
+
+<div class="input-color2">
+    <input type="text2" value="Actual Headway" />
+    <div class="color-box" style="background-color: #000000;"></div>
+</div>
+<div class="input-color2">
+    <input type="text2" value="Scheduled Headway" />
+    <div class="color-box2" style="background-color: #FF0000;"></div>
+</div>
 
 <script src="http://d3js.org/d3.v3.js"></script>
 <script>
@@ -150,6 +160,121 @@ if (d.StartTimeInMin > 0 && d.StartTimeInMin < 1439) { //Bound for end of this d
       .attr("transform", "rotate(-90)")
       .attr("y", -40)
 	  .attr("x", -120)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Headway (in mins)");
+  
+//Add a legend
+
+});
+</script>
+
+<script>
+var margin2 = {top: 20, right: 20, bottom: 20, left: 50},
+    width2 = 1200 - margin.left - margin.right,
+    height2 = 460 - margin.top - margin.bottom;
+var parseDate2 = d3.time.format("%H:%M").parse;
+var x2 = d3.time.scale()
+    .domain([0, 25])
+    .range([0, width2]);
+var y2 = d3.scale.linear()
+    .range([height2, 0]);
+var xAxis2 = d3.svg.axis()
+    .scale(x2)
+    .ticks(d3.time.hours, 1)
+    .orient("bottom");
+var yAxis2 = d3.svg.axis()
+    .scale(y2)
+    .orient("left");
+  
+//Define the line
+var valueline2 = d3.svg.line()
+    .x(function(d) { return x2(d.mytime); })
+    .y(function(d) { return y2(d.ActHeadway); });
+  
+//Define the second line
+
+var valueline2 = d3.svg.line()
+
+  .x(function(d) { return x2(d.mytime); })
+    .y(function(d) { return y2(d.ScheduledHeadway); });
+  
+var svg = d3.select("body").append("svg")
+    .attr("width", width2 + margin.left + margin.right)
+    .attr("height", height2 + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  //Declaring the variables we need to convert to hours::minutes string
+var hour2; 
+var hour_str2;
+var min2; 
+var min_str2;
+var prefix_str2 = "2013-03-01T";
+var HMtime2 = d3.time.format("%H:%M");
+
+//Retrieve the data
+d3.csv("15_inbound_result.csv", function(error, data) {
+  data.forEach(function(d) {
+  d.StartTimeInMin2 = +d.StartTimeInMin; //Set this to StartTimeInMin before we convert it
+  hour2 = Math.floor(d.StartTimeInMin / 60); //Gives us the hour
+    hour_str2 = hour2.toString(); //Convert hour to string
+      if (hour_str2.length == 1) { //We add a 0 in front for correct formatting
+        hour_str2 = "0" + hour_str2;
+        } 
+  min2 = Math.floor(d.StartTimeInMin2 % 60); //Converts to minutes
+    min_str2 = min2.toString();
+      if (hour_str2.length == 1) { //We add a 0 in front for correct formatting
+        min_str2 = "0" + min_str2;
+        } 
+  HMtime2 = hour_str2 + ":" + min_str2; //Concatenate the substrings above to form HH:MM formatted string
+  
+  d.mytime = parseDate(HMtime2);
+    d.ActHeadway = +d.ActHeadway;
+  d.ScheduledHeadway = +d.ScheduledHeadway;
+   
+  });
+  
+  x2.domain(d3.extent(data, function(d) { 
+  
+if (d.StartTimeInMin > 0 && d.StartTimeInMin < 1439) { //Bound for end of this day (11:59pm = 1439 mins)
+ 
+  return d.mytime;}  }));
+  y2.domain(d3.extent(data, function(d) { return d.ActHeadway; }));
+  /* svg.append("path")
+      .datum(data)
+      .attr("class", "line")
+      .attr("d", line);
+    */
+  
+  // Add the valueline path.
+    svg.append("path")    
+        .attr("class", "line")  
+        .attr("d", valueline2(data))
+    .attr("stroke-width", 2)
+    .attr("stroke", 'black');
+  //Add the valueline2 path
+  svg.append("path")    
+    .attr("class","line")
+        .attr("d", valueline2(data))
+    .style("stroke-dasharray", ("3, 3"))
+    .attr("stroke-width", 3)
+    .attr("stroke", 'red');
+    
+  
+    
+    
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height2 + ")")
+      .call(xAxis2);
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis2)
+    .append("text2")
+      .attr("transform", "rotate(-90)")
+      .attr("y", -40)
+    .attr("x", -120)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
       .text("Headway (in mins)");
