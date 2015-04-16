@@ -16,24 +16,23 @@ FilterData = FILTER RawData BY (RouteName == 27) OR (RouteName == 15) OR (RouteN
 FilterData = FILTER FilterData BY (ScheduledTimeInMin >= $begin) AND (ScheduledTimeInMin <= $end);
 
 --Filter data necessary for visualizations 
-FilterData = FOREACH FilterData GENERATE TripID, RouteName, RouteDirectionName, PatternName,
+FilterData = FOREACH FilterData GENERATE TripID, RouteName, RouteDirectionName,ServiceDate,
 	                                 ScheduledTime, ScheduledTimeInMin as ScheduledT,
 	                                 ActArrivalTime, ActArrivalTimeInMin as ActArrivalT,
 	                                 (int)ABS(ScheduledTimeInMin - ActArrivalTimeInMin) as diffT,
-									 (ScheduledTimeInMin - ActArrivalTimeInMin) *  (ScheduledTimeInMin - ActArrivalTimeInMin) / 2 as squarediffT,
+									 (int)(ABS(ScheduledTimeInMin - ActArrivalTimeInMin) *  ABS(ScheduledTimeInMin - ActArrivalTimeInMin)) as squarediffT,
 	                                 StopName, CROSSING_TYPE_ID;
 
 
-GroupedData = Group FilterData by (RouteName, RouteDirectionName, TripID, PatternName);
+GroupedData = Group FilterData by (RouteName, RouteDirectionName, ServiceDate, StopName);
 
 --Compute avg difference bw scheduled time and actual arrival time for each trip 
 avgTripDifference = FOREACH GroupedData GENERATE group.RouteName as RouteName, group.RouteDirectionName as RouteDirectionName,
-	               group.PatternName as PatternName,
-	               MIN(FilterData.ScheduledTime) as StartTime,
-	               ROUND(AVG(FilterData.diffT)) as avgDiffOnTime,
-				   ROUND(AVG(FilterData.squarediffT)) as avgSqurDiffOnTime, 
-	               group.TripID as TripID;
+	               group.StopName as StopName,
+				   group.ServiceDate as ServiceDate,
+	               AVG(FilterData.diffT) as avgDiffOnTime,
+				   SQRT(AVG(FilterData.squarediffT) / 2) as avgSqurDiffOnTime;
 
-avgTripDifference = Order avgTripDifference by RouteName, RouteDirectionName, PatternName, StartTime PARALLEL 10; 
+avgTripDifference = Order avgTripDifference by RouteName, RouteDirectionName, ServiceDate, StopName PARALLEL 1; 
 
 store avgTripDifference into 'avgTripDifference' USING PigStorage('\t') PARALLEL 1;

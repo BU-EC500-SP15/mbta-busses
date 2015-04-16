@@ -1,0 +1,778 @@
+Headway: {HeadwayId: long,ServiceDate: chararray,StartTimeInMin,RouteName: chararray,RouteDirectionName: chararray,Trip_1: int,Trip_2: int,StopName: bytearray,ActHeadway,ScheduledHeadway,HeadwayDifference
+1,2014-03-01,310,01,Inbound,4226030,4226289,Massachusetts Ave @ Holyoke St,27,20,7
+1,2014-03-01,313,01,Inbound,4226030,4226289,Mt Auburn St @ Putnam Ave,22,20,2
+1,2014-03-01,315,01,Inbound,4226030,4226289,Massachusetts Ave @ Pearl St,21,20,1
+1,2014-03-01,317,01,Inbound,4226030,4226289,84 Massachusetts Ave,22,22,0
+1,2014-03-01,320,01,Inbound,4226030,4226289,Massachusetts Ave @ Newbury St,21,22,-1
+1,2014-03-01,322,01,Inbound,4226030,4226289,Massachusetts Ave @ Massachusetts Ave Station,21,23,-2
+1,2014-03-01,323,01,Inbound,4226030,4226289,Massachusetts Ave @ Washington St,22,24,-2
+1,2014-03-01,326,01,Inbound,4226030,4226289,Washington St @ Williams St,22,24,-2
+1,2014-03-01,328,01,Inbound,4226030,4226289,Dudley Station,22,24,-2
+2,2014-03-01,330,01,Inbound,4226289,4225280,Massachusetts Ave @ Holyoke St,17,20,-3
+2,2014-03-01,333,01,Inbound,4226289,4225280,Mt Auburn St @ Putnam Ave,19,20,-1
+2,2014-03-01,335,01,Inbound,4226289,4225280,Massachusetts Ave @ Pearl St,19,20,-1
+2,2014-03-01,339,01,Inbound,4226289,4225280,84 Massachusetts Ave,18,20,-2
+2,2014-03-01,342,01,Inbound,4226289,4225280,Massachusetts Ave @ Newbury St,19,20,-1
+2,2014-03-01,345,01,Inbound,4226289,4225280,Massachusetts Ave @ Massachusetts Ave Station,18,20,-2
+2,2014-03-01,347,01,Inbound,4226289,4225280,Massachusetts Ave @ Washington St,18,20,-2
+2,2014-03-01,350,01,Inbound,4226289,4225280,Washington St @ Williams St,18,20,-2
+2,2014-03-01,352,01,Inbound,4226289,4225280,Dudley Station,18,20,-2
+3,2014-03-01,350,01,Inbound,4225280,4225237,Massachusetts Ave @ Holyoke St,11,20,-9
+3,2014-03-01,353,01,Inbound,4225280,4225237,Mt Auburn St @ Putnam Ave,25,20,5
+3,2014-03-01,355,01,Inbound,4225280,4225237,Massachusetts Ave @ Pearl St,25,20,5
+3,2014-03-01,359,01,Inbound,4225280,4225237,84 Massachusetts Ave,25,20,5
+3,2014-03-01,362,01,Inbound,4225280,4225237,Massachusetts Ave @ Newbury St,24,20,4
+3,2014-03-01,365,01,Inbound,4225280,4225237,Massachusetts Ave @ Massachusetts Ave Station,23,20,3
+3,2014-03-01,367,01,Inbound,4225280,4225237,Massachusetts Ave @ Washington St,23,20,3
+3,2014-03-01,370,01,Inbound,4225280,4225237,Washington St @ Williams St,26,20,6
+3,2014-03-01,372,01,Inbound,4225280,4225237,Dudley Station,25,20,5
+4,2014-03-01,370,01,Inbound,4225237,4226032,Massachusetts Ave @ Holyoke St,11,12,-1
+4,2014-03-01,373,01,Inbound,4225237,4226032,Mt Auburn St @ Putnam Ave,6,12,-6
+4,2014-03-01,375,01,Inbound,4225237,4226032,Massachusetts Ave @ Pearl St,4,12,-8
+4,2014-03-01,379,01,Inbound,4225237,4226032,84 Massachusetts Ave,4,12,-8
+4,2014-03-01,382,01,Inbound,4225237,4226032,Massachusetts Ave @ Newbury St,4,12,-8
+4,2014-03-01,385,01,Inbound,4225237,4226032,Massachusetts Ave @ Massachusetts Ave Station,5,12,-7
+4,2014-03-01,387,01,Inbound,4225237,4226032,Massachusetts Ave @ Washington St,4,12,-8
+4,2014-03-01,390,01,Inbound,4225237,4226032,Washington St @ Williams St,1,12,-11
+4,2014-03-01,392,01,Inbound,4225237,4226032,Dudley Station,2,12,-10
+5,2014-03-01,382,01,Inbound,4226032,4226156,Massachusetts Ave @ Holyoke St,18,12,6
+5,2014-03-01,385,01,Inbound,4226032,4226156,Mt Auburn St @ Putnam Ave,12,12,0
+5,2014-03-01,387,01,Inbound,4226032,4226156,Massachusetts Ave @ Pearl St,14,12,2
+5,2014-03-01,391,01,Inbound,4226032,4226156,84 Massachusetts Ave,12,12,0
+5,2014-03-01,394,01,Inbound,4226032,4226156,Massachusetts Ave @ Newbury St,13,12,1
+5,2014-03-01,397,01,Inbound,4226032,4226156,Massachusetts Ave @ Massachusetts Ave Station,13,12,1
+5,2014-03-01,399,01,Inbound,4226032,4226156,Massachusetts Ave @ Washington St,13,12,1
+5,2014-03-01,402,01,Inbound,4226032,4226156,Washington St @ Williams St,13,12,1
+5,2014-03-01,404,01,Inbound,4226032,4226156,Dudley Station,13,12,1
+6,2014-03-01,394,01,Inbound,4226156,4226291,Massachusetts Ave @ Holyoke St,14,12,2
+6,2014-03-01,397,01,Inbound,4226156,4226291,Mt Auburn St @ Putnam Ave,14,12,2
+6,2014-03-01,399,01,Inbound,4226156,4226291,Massachusetts Ave @ Pearl St,15,12,3
+6,2014-03-01,403,01,Inbound,4226156,4226291,84 Massachusetts Ave,17,12,5
+6,2014-03-01,406,01,Inbound,4226156,4226291,Massachusetts Ave @ Newbury St,17,12,5
+6,2014-03-01,409,01,Inbound,4226156,4226291,Massachusetts Ave @ Massachusetts Ave Station,18,12,6
+6,2014-03-01,411,01,Inbound,4226156,4226291,Massachusetts Ave @ Washington St,19,12,7
+6,2014-03-01,414,01,Inbound,4226156,4226291,Washington St @ Williams St,21,12,9
+6,2014-03-01,416,01,Inbound,4226156,4226291,Dudley Station,21,12,9
+7,2014-03-01,406,01,Inbound,4226291,4225282,Massachusetts Ave @ Holyoke St,14,12,2
+7,2014-03-01,409,01,Inbound,4226291,4225282,Mt Auburn St @ Putnam Ave,11,12,-1
+7,2014-03-01,411,01,Inbound,4226291,4225282,Massachusetts Ave @ Pearl St,10,12,-2
+7,2014-03-01,415,01,Inbound,4226291,4225282,84 Massachusetts Ave,9,12,-3
+7,2014-03-01,418,01,Inbound,4226291,4225282,Massachusetts Ave @ Newbury St,9,12,-3
+7,2014-03-01,421,01,Inbound,4226291,4225282,Massachusetts Ave @ Massachusetts Ave Station,8,12,-4
+7,2014-03-01,423,01,Inbound,4226291,4225282,Massachusetts Ave @ Washington St,7,12,-5
+7,2014-03-01,426,01,Inbound,4226291,4225282,Washington St @ Williams St,7,12,-5
+7,2014-03-01,428,01,Inbound,4226291,4225282,Dudley Station,6,12,-6
+8,2014-03-01,418,01,Inbound,4225282,4225472,Massachusetts Ave @ Holyoke St,11,12,-1
+8,2014-03-01,421,01,Inbound,4225282,4225472,Mt Auburn St @ Putnam Ave,13,12,1
+8,2014-03-01,423,01,Inbound,4225282,4225472,Massachusetts Ave @ Pearl St,13,12,1
+8,2014-03-01,427,01,Inbound,4225282,4225472,84 Massachusetts Ave,15,12,3
+8,2014-03-01,430,01,Inbound,4225282,4225472,Massachusetts Ave @ Newbury St,15,12,3
+8,2014-03-01,433,01,Inbound,4225282,4225472,Massachusetts Ave @ Massachusetts Ave Station,15,12,3
+8,2014-03-01,435,01,Inbound,4225282,4225472,Massachusetts Ave @ Washington St,15,12,3
+8,2014-03-01,438,01,Inbound,4225282,4225472,Washington St @ Williams St,15,12,3
+8,2014-03-01,440,01,Inbound,4225282,4225472,Dudley Station,16,13,3
+9,2014-03-01,430,01,Inbound,4225472,4225239,Massachusetts Ave @ Holyoke St,16,12,4
+9,2014-03-01,433,01,Inbound,4225472,4225239,Mt Auburn St @ Putnam Ave,10,12,-2
+9,2014-03-01,435,01,Inbound,4225472,4225239,Massachusetts Ave @ Pearl St,10,12,-2
+9,2014-03-01,439,01,Inbound,4225472,4225239,84 Massachusetts Ave,8,11,-3
+9,2014-03-01,442,01,Inbound,4225472,4225239,Massachusetts Ave @ Newbury St,7,13,-6
+9,2014-03-01,445,01,Inbound,4225472,4225239,Massachusetts Ave @ Massachusetts Ave Station,8,14,-6
+9,2014-03-01,447,01,Inbound,4225472,4225239,Massachusetts Ave @ Washington St,9,15,-6
+9,2014-03-01,450,01,Inbound,4225472,4225239,Washington St @ Williams St,9,15,-6
+9,2014-03-01,453,01,Inbound,4225472,4225239,Dudley Station,9,15,-6
+10,2014-03-01,442,01,Inbound,4225239,4226034,Massachusetts Ave @ Holyoke St,7,12,-5
+10,2014-03-01,445,01,Inbound,4225239,4226034,Mt Auburn St @ Putnam Ave,11,12,-1
+10,2014-03-01,447,01,Inbound,4225239,4226034,Massachusetts Ave @ Pearl St,13,14,-1
+10,2014-03-01,450,01,Inbound,4225239,4226034,84 Massachusetts Ave,15,13,2
+10,2014-03-01,455,01,Inbound,4225239,4226034,Massachusetts Ave @ Newbury St,17,13,4
+10,2014-03-01,459,01,Inbound,4225239,4226034,Massachusetts Ave @ Massachusetts Ave Station,16,13,3
+10,2014-03-01,462,01,Inbound,4225239,4226034,Massachusetts Ave @ Washington St,16,13,3
+10,2014-03-01,465,01,Inbound,4225239,4226034,Washington St @ Williams St,16,13,3
+10,2014-03-01,468,01,Inbound,4225239,4226034,Dudley Station,16,13,3
+11,2014-03-01,454,01,Inbound,4226034,4226158,Massachusetts Ave @ Holyoke St,13,12,1
+11,2014-03-01,457,01,Inbound,4226034,4226158,Mt Auburn St @ Putnam Ave,14,12,2
+11,2014-03-01,461,01,Inbound,4226034,4226158,Massachusetts Ave @ Pearl St,14,12,2
+11,2014-03-01,463,01,Inbound,4226034,4226158,84 Massachusetts Ave,14,12,2
+11,2014-03-01,468,01,Inbound,4226034,4226158,Massachusetts Ave @ Newbury St,14,12,2
+11,2014-03-01,472,01,Inbound,4226034,4226158,Massachusetts Ave @ Massachusetts Ave Station,14,12,2
+11,2014-03-01,475,01,Inbound,4226034,4226158,Massachusetts Ave @ Washington St,13,12,1
+11,2014-03-01,478,01,Inbound,4226034,4226158,Washington St @ Williams St,13,12,1
+11,2014-03-01,481,01,Inbound,4226034,4226158,Dudley Station,13,12,1
+12,2014-03-01,466,01,Inbound,4226158,4226293,Massachusetts Ave @ Holyoke St,18,12,6
+12,2014-03-01,469,01,Inbound,4226158,4226293,Mt Auburn St @ Putnam Ave,14,12,2
+12,2014-03-01,473,01,Inbound,4226158,4226293,Massachusetts Ave @ Pearl St,13,12,1
+12,2014-03-01,475,01,Inbound,4226158,4226293,84 Massachusetts Ave,13,12,1
+12,2014-03-01,480,01,Inbound,4226158,4226293,Massachusetts Ave @ Newbury St,13,12,1
+12,2014-03-01,484,01,Inbound,4226158,4226293,Massachusetts Ave @ Massachusetts Ave Station,14,12,2
+12,2014-03-01,487,01,Inbound,4226158,4226293,Massachusetts Ave @ Washington St,17,12,5
+12,2014-03-01,490,01,Inbound,4226158,4226293,Washington St @ Williams St,18,12,6
+12,2014-03-01,493,01,Inbound,4226158,4226293,Dudley Station,18,12,6
+13,2014-03-01,478,01,Inbound,4226293,4225284,Massachusetts Ave @ Holyoke St,7,12,-5
+13,2014-03-01,481,01,Inbound,4226293,4225284,Mt Auburn St @ Putnam Ave,11,12,-1
+13,2014-03-01,485,01,Inbound,4226293,4225284,Massachusetts Ave @ Pearl St,10,12,-2
+13,2014-03-01,487,01,Inbound,4226293,4225284,84 Massachusetts Ave,13,12,1
+13,2014-03-01,492,01,Inbound,4226293,4225284,Massachusetts Ave @ Newbury St,11,12,-1
+13,2014-03-01,496,01,Inbound,4226293,4225284,Massachusetts Ave @ Massachusetts Ave Station,11,12,-1
+13,2014-03-01,499,01,Inbound,4226293,4225284,Massachusetts Ave @ Washington St,9,12,-3
+13,2014-03-01,502,01,Inbound,4226293,4225284,Washington St @ Williams St,8,14,-6
+13,2014-03-01,505,01,Inbound,4226293,4225284,Dudley Station,8,13,-5
+14,2014-03-01,490,01,Inbound,4225284,4225474,Massachusetts Ave @ Holyoke St,9,12,-3
+14,2014-03-01,493,01,Inbound,4225284,4225474,Mt Auburn St @ Putnam Ave,11,12,-1
+14,2014-03-01,497,01,Inbound,4225284,4225474,Massachusetts Ave @ Pearl St,12,12,0
+14,2014-03-01,499,01,Inbound,4225284,4225474,84 Massachusetts Ave,8,14,-6
+14,2014-03-01,504,01,Inbound,4225284,4225474,Massachusetts Ave @ Newbury St,9,15,-6
+14,2014-03-01,508,01,Inbound,4225284,4225474,Massachusetts Ave @ Massachusetts Ave Station,8,15,-7
+14,2014-03-01,511,01,Inbound,4225284,4225474,Massachusetts Ave @ Washington St,9,15,-6
+14,2014-03-01,516,01,Inbound,4225284,4225474,Washington St @ Williams St,9,15,-6
+14,2014-03-01,518,01,Inbound,4225284,4225474,Dudley Station,9,15,-6
+15,2014-03-01,502,01,Inbound,4225474,4225241,Massachusetts Ave @ Holyoke St,20,12,8
+15,2014-03-01,505,01,Inbound,4225474,4225241,Mt Auburn St @ Putnam Ave,12,13,-1
+15,2014-03-01,509,01,Inbound,4225474,4225241,Massachusetts Ave @ Pearl St,11,13,-2
+15,2014-03-01,513,01,Inbound,4225474,4225241,84 Massachusetts Ave,12,13,-1
+15,2014-03-01,519,01,Inbound,4225474,4225241,Massachusetts Ave @ Newbury St,13,13,0
+15,2014-03-01,523,01,Inbound,4225474,4225241,Massachusetts Ave @ Massachusetts Ave Station,15,13,2
+15,2014-03-01,526,01,Inbound,4225474,4225241,Massachusetts Ave @ Washington St,14,13,1
+15,2014-03-01,531,01,Inbound,4225474,4225241,Washington St @ Williams St,15,13,2
+15,2014-03-01,533,01,Inbound,4225474,4225241,Dudley Station,14,13,1
+16,2014-03-01,514,01,Inbound,4225241,4226036,Massachusetts Ave @ Holyoke St,1,12,-11
+16,2014-03-01,518,01,Inbound,4225241,4226036,Mt Auburn St @ Putnam Ave,11,12,-1
+16,2014-03-01,522,01,Inbound,4225241,4226036,Massachusetts Ave @ Pearl St,12,12,0
+16,2014-03-01,526,01,Inbound,4225241,4226036,84 Massachusetts Ave,12,12,0
+16,2014-03-01,532,01,Inbound,4225241,4226036,Massachusetts Ave @ Newbury St,15,12,3
+16,2014-03-01,536,01,Inbound,4225241,4226036,Massachusetts Ave @ Massachusetts Ave Station,15,12,3
+16,2014-03-01,539,01,Inbound,4225241,4226036,Massachusetts Ave @ Washington St,15,12,3
+16,2014-03-01,544,01,Inbound,4225241,4226036,Washington St @ Williams St,18,12,6
+16,2014-03-01,546,01,Inbound,4225241,4226036,Dudley Station,19,12,7
+17,2014-03-01,526,01,Inbound,4226036,4226160,Massachusetts Ave @ Holyoke St,21,12,9
+17,2014-03-01,530,01,Inbound,4226036,4226160,Mt Auburn St @ Putnam Ave,15,12,3
+17,2014-03-01,534,01,Inbound,4226036,4226160,Massachusetts Ave @ Pearl St,14,12,2
+17,2014-03-01,538,01,Inbound,4226036,4226160,84 Massachusetts Ave,15,12,3
+17,2014-03-01,544,01,Inbound,4226036,4226160,Massachusetts Ave @ Newbury St,11,12,-1
+17,2014-03-01,548,01,Inbound,4226036,4226160,Massachusetts Ave @ Massachusetts Ave Station,10,12,-2
+17,2014-03-01,551,01,Inbound,4226036,4226160,Massachusetts Ave @ Washington St,11,12,-1
+17,2014-03-01,556,01,Inbound,4226036,4226160,Washington St @ Williams St,5,12,-7
+17,2014-03-01,558,01,Inbound,4226036,4226160,Dudley Station,6,12,-6
+18,2014-03-01,538,01,Inbound,4226160,4226295,Massachusetts Ave @ Holyoke St,21,12,9
+18,2014-03-01,542,01,Inbound,4226160,4226295,Mt Auburn St @ Putnam Ave,12,12,0
+18,2014-03-01,546,01,Inbound,4226160,4226295,Massachusetts Ave @ Pearl St,14,12,2
+18,2014-03-01,550,01,Inbound,4226160,4226295,84 Massachusetts Ave,13,12,1
+18,2014-03-01,556,01,Inbound,4226160,4226295,Massachusetts Ave @ Newbury St,12,12,0
+18,2014-03-01,560,01,Inbound,4226160,4226295,Massachusetts Ave @ Massachusetts Ave Station,13,12,1
+18,2014-03-01,563,01,Inbound,4226160,4226295,Massachusetts Ave @ Washington St,12,12,0
+18,2014-03-01,568,01,Inbound,4226160,4226295,Washington St @ Williams St,13,12,1
+18,2014-03-01,570,01,Inbound,4226160,4226295,Dudley Station,13,12,1
+19,2014-03-01,550,01,Inbound,4226295,4225286,Massachusetts Ave @ Holyoke St,1,12,-11
+19,2014-03-01,554,01,Inbound,4226295,4225286,Mt Auburn St @ Putnam Ave,11,12,-1
+19,2014-03-01,558,01,Inbound,4226295,4225286,Massachusetts Ave @ Pearl St,10,12,-2
+19,2014-03-01,562,01,Inbound,4226295,4225286,84 Massachusetts Ave,14,12,2
+19,2014-03-01,568,01,Inbound,4226295,4225286,Massachusetts Ave @ Newbury St,15,12,3
+19,2014-03-01,572,01,Inbound,4226295,4225286,Massachusetts Ave @ Massachusetts Ave Station,16,12,4
+19,2014-03-01,575,01,Inbound,4226295,4225286,Massachusetts Ave @ Washington St,18,12,6
+19,2014-03-01,580,01,Inbound,4226295,4225286,Washington St @ Williams St,19,12,7
+19,2014-03-01,582,01,Inbound,4226295,4225286,Dudley Station,18,12,6
+20,2014-03-01,562,01,Inbound,4225286,4225476,Massachusetts Ave @ Holyoke St,19,12,7
+20,2014-03-01,566,01,Inbound,4225286,4225476,Mt Auburn St @ Putnam Ave,11,12,-1
+20,2014-03-01,570,01,Inbound,4225286,4225476,Massachusetts Ave @ Pearl St,11,12,-1
+20,2014-03-01,574,01,Inbound,4225286,4225476,84 Massachusetts Ave,7,12,-5
+20,2014-03-01,580,01,Inbound,4225286,4225476,Massachusetts Ave @ Newbury St,8,12,-4
+20,2014-03-01,584,01,Inbound,4225286,4225476,Massachusetts Ave @ Massachusetts Ave Station,7,12,-5
+20,2014-03-01,587,01,Inbound,4225286,4225476,Massachusetts Ave @ Washington St,4,12,-8
+20,2014-03-01,592,01,Inbound,4225286,4225476,Washington St @ Williams St,3,12,-9
+20,2014-03-01,594,01,Inbound,4225286,4225476,Dudley Station,3,12,-9
+21,2014-03-01,574,01,Inbound,4225476,4225559,Massachusetts Ave @ Holyoke St,11,12,-1
+21,2014-03-01,578,01,Inbound,4225476,4225559,Mt Auburn St @ Putnam Ave,12,12,0
+21,2014-03-01,582,01,Inbound,4225476,4225559,Massachusetts Ave @ Pearl St,12,12,0
+21,2014-03-01,586,01,Inbound,4225476,4225559,84 Massachusetts Ave,12,12,0
+21,2014-03-01,592,01,Inbound,4225476,4225559,Massachusetts Ave @ Newbury St,12,11,1
+21,2014-03-01,596,01,Inbound,4225476,4225559,Massachusetts Ave @ Massachusetts Ave Station,14,12,2
+21,2014-03-01,599,01,Inbound,4225476,4225559,Massachusetts Ave @ Washington St,16,13,3
+21,2014-03-01,604,01,Inbound,4225476,4225559,Washington St @ Williams St,17,13,4
+21,2014-03-01,606,01,Inbound,4225476,4225559,Dudley Station,18,13,5
+22,2014-03-01,586,01,Inbound,4225559,4226038,Massachusetts Ave @ Holyoke St,28,12,16
+22,2014-03-01,590,01,Inbound,4225559,4226038,Mt Auburn St @ Putnam Ave,24,13,11
+22,2014-03-01,594,01,Inbound,4225559,4226038,Massachusetts Ave @ Pearl St,25,14,11
+22,2014-03-01,598,01,Inbound,4225559,4226038,84 Massachusetts Ave,25,15,10
+22,2014-03-01,603,01,Inbound,4225559,4226038,Massachusetts Ave @ Newbury St,26,15,11
+22,2014-03-01,608,01,Inbound,4225559,4226038,Massachusetts Ave @ Massachusetts Ave Station,24,15,9
+22,2014-03-01,612,01,Inbound,4225559,4226038,Massachusetts Ave @ Washington St,24,15,9
+22,2014-03-01,617,01,Inbound,4225559,4226038,Washington St @ Williams St,25,15,10
+22,2014-03-01,619,01,Inbound,4225559,4226038,Dudley Station,23,15,8
+23,2014-03-01,598,01,Inbound,4226038,4226162,Massachusetts Ave @ Holyoke St,-1,12,-13
+23,2014-03-01,603,01,Inbound,4226038,4226162,Mt Auburn St @ Putnam Ave,1,12,-11
+23,2014-03-01,608,01,Inbound,4226038,4226162,Massachusetts Ave @ Pearl St,1,12,-11
+23,2014-03-01,613,01,Inbound,4226038,4226162,84 Massachusetts Ave,1,12,-11
+23,2014-03-01,618,01,Inbound,4226038,4226162,Massachusetts Ave @ Newbury St,0,12,-12
+23,2014-03-01,623,01,Inbound,4226038,4226162,Massachusetts Ave @ Massachusetts Ave Station,-2,12,-14
+23,2014-03-01,627,01,Inbound,4226038,4226162,Massachusetts Ave @ Washington St,-2,12,-14
+23,2014-03-01,632,01,Inbound,4226038,4226162,Washington St @ Williams St,-3,12,-15
+23,2014-03-01,634,01,Inbound,4226038,4226162,Dudley Station,-1,12,-13
+24,2014-03-01,610,01,Inbound,4226162,4225592,Massachusetts Ave @ Holyoke St,12,12,0
+24,2014-03-01,615,01,Inbound,4226162,4225592,Mt Auburn St @ Putnam Ave,12,12,0
+24,2014-03-01,620,01,Inbound,4226162,4225592,Massachusetts Ave @ Pearl St,12,12,0
+24,2014-03-01,625,01,Inbound,4226162,4225592,84 Massachusetts Ave,13,12,1
+24,2014-03-01,630,01,Inbound,4226162,4225592,Massachusetts Ave @ Newbury St,14,12,2
+24,2014-03-01,635,01,Inbound,4226162,4225592,Massachusetts Ave @ Massachusetts Ave Station,17,12,5
+24,2014-03-01,639,01,Inbound,4226162,4225592,Massachusetts Ave @ Washington St,17,12,5
+24,2014-03-01,644,01,Inbound,4226162,4225592,Washington St @ Williams St,16,12,4
+24,2014-03-01,646,01,Inbound,4226162,4225592,Dudley Station,16,12,4
+25,2014-03-01,622,01,Inbound,4225592,4226297,Massachusetts Ave @ Holyoke St,2,12,-10
+25,2014-03-01,627,01,Inbound,4225592,4226297,Mt Auburn St @ Putnam Ave,12,12,0
+25,2014-03-01,632,01,Inbound,4225592,4226297,Massachusetts Ave @ Pearl St,13,12,1
+25,2014-03-01,637,01,Inbound,4225592,4226297,84 Massachusetts Ave,14,12,2
+25,2014-03-01,642,01,Inbound,4225592,4226297,Massachusetts Ave @ Newbury St,13,12,1
+25,2014-03-01,647,01,Inbound,4225592,4226297,Massachusetts Ave @ Massachusetts Ave Station,13,12,1
+25,2014-03-01,651,01,Inbound,4225592,4226297,Massachusetts Ave @ Washington St,12,12,0
+25,2014-03-01,656,01,Inbound,4225592,4226297,Washington St @ Williams St,13,12,1
+25,2014-03-01,658,01,Inbound,4225592,4226297,Dudley Station,14,12,2
+26,2014-03-01,634,01,Inbound,4226297,4225288,Massachusetts Ave @ Holyoke St,7,12,-5
+26,2014-03-01,639,01,Inbound,4226297,4225288,Mt Auburn St @ Putnam Ave,13,12,1
+26,2014-03-01,644,01,Inbound,4226297,4225288,Massachusetts Ave @ Pearl St,11,12,-1
+26,2014-03-01,649,01,Inbound,4226297,4225288,84 Massachusetts Ave,9,12,-3
+26,2014-03-01,654,01,Inbound,4226297,4225288,Massachusetts Ave @ Newbury St,9,12,-3
+26,2014-03-01,659,01,Inbound,4226297,4225288,Massachusetts Ave @ Massachusetts Ave Station,6,12,-6
+26,2014-03-01,663,01,Inbound,4226297,4225288,Massachusetts Ave @ Washington St,6,12,-6
+26,2014-03-01,668,01,Inbound,4226297,4225288,Washington St @ Williams St,4,12,-8
+26,2014-03-01,670,01,Inbound,4226297,4225288,Dudley Station,2,12,-10
+27,2014-03-01,646,01,Inbound,4225288,4225478,Massachusetts Ave @ Holyoke St,25,10,15
+27,2014-03-01,651,01,Inbound,4225288,4225478,Mt Auburn St @ Putnam Ave,9,10,-1
+27,2014-03-01,656,01,Inbound,4225288,4225478,Massachusetts Ave @ Pearl St,10,10,0
+27,2014-03-01,661,01,Inbound,4225288,4225478,84 Massachusetts Ave,9,10,-1
+27,2014-03-01,666,01,Inbound,4225288,4225478,Massachusetts Ave @ Newbury St,8,10,-2
+27,2014-03-01,671,01,Inbound,4225288,4225478,Massachusetts Ave @ Massachusetts Ave Station,10,10,0
+27,2014-03-01,675,01,Inbound,4225288,4225478,Massachusetts Ave @ Washington St,11,10,1
+27,2014-03-01,680,01,Inbound,4225288,4225478,Washington St @ Williams St,15,10,5
+27,2014-03-01,682,01,Inbound,4225288,4225478,Dudley Station,32,10,22
+28,2014-03-01,656,01,Inbound,4225478,4225561,Massachusetts Ave @ Holyoke St,1,10,-9
+28,2014-03-01,661,01,Inbound,4225478,4225561,Mt Auburn St @ Putnam Ave,9,10,-1
+28,2014-03-01,666,01,Inbound,4225478,4225561,Massachusetts Ave @ Pearl St,11,10,1
+28,2014-03-01,671,01,Inbound,4225478,4225561,84 Massachusetts Ave,12,10,2
+28,2014-03-01,676,01,Inbound,4225478,4225561,Massachusetts Ave @ Newbury St,14,10,4
+28,2014-03-01,681,01,Inbound,4225478,4225561,Massachusetts Ave @ Massachusetts Ave Station,17,10,7
+28,2014-03-01,685,01,Inbound,4225478,4225561,Massachusetts Ave @ Washington St,17,10,7
+28,2014-03-01,690,01,Inbound,4225478,4225561,Washington St @ Williams St,14,10,4
+28,2014-03-01,692,01,Inbound,4225478,4225561,Dudley Station,-2,10,-12
+29,2014-03-01,666,01,Inbound,4225561,4225862,Massachusetts Ave @ Holyoke St,13,10,3
+29,2014-03-01,671,01,Inbound,4225561,4225862,Mt Auburn St @ Putnam Ave,13,10,3
+29,2014-03-01,676,01,Inbound,4225561,4225862,Massachusetts Ave @ Pearl St,11,10,1
+29,2014-03-01,681,01,Inbound,4225561,4225862,84 Massachusetts Ave,14,10,4
+29,2014-03-01,686,01,Inbound,4225561,4225862,Massachusetts Ave @ Newbury St,14,10,4
+29,2014-03-01,691,01,Inbound,4225561,4225862,Massachusetts Ave @ Massachusetts Ave Station,16,10,6
+29,2014-03-01,695,01,Inbound,4225561,4225862,Massachusetts Ave @ Washington St,16,10,6
+29,2014-03-01,700,01,Inbound,4225561,4225862,Washington St @ Williams St,19,10,9
+29,2014-03-01,702,01,Inbound,4225561,4225862,Dudley Station,18,10,8
+30,2014-03-01,676,01,Inbound,4225862,4225939,Massachusetts Ave @ Holyoke St,8,10,-2
+30,2014-03-01,681,01,Inbound,4225862,4225939,Mt Auburn St @ Putnam Ave,8,10,-2
+30,2014-03-01,686,01,Inbound,4225862,4225939,Massachusetts Ave @ Pearl St,8,10,-2
+30,2014-03-01,691,01,Inbound,4225862,4225939,84 Massachusetts Ave,5,10,-5
+30,2014-03-01,696,01,Inbound,4225862,4225939,Massachusetts Ave @ Newbury St,4,10,-6
+30,2014-03-01,701,01,Inbound,4225862,4225939,Massachusetts Ave @ Massachusetts Ave Station,2,10,-8
+30,2014-03-01,705,01,Inbound,4225862,4225939,Massachusetts Ave @ Washington St,2,10,-8
+30,2014-03-01,710,01,Inbound,4225862,4225939,Washington St @ Williams St,0,10,-10
+30,2014-03-01,712,01,Inbound,4225862,4225939,Dudley Station,0,10,-10
+31,2014-03-01,691,01,Inbound,4225939,4225433,Mt Auburn St @ Putnam Ave,13,9,4
+31,2014-03-01,696,01,Inbound,4225939,4225433,Massachusetts Ave @ Pearl St,15,9,6
+31,2014-03-01,701,01,Inbound,4225939,4225433,84 Massachusetts Ave,16,9,7
+31,2014-03-01,706,01,Inbound,4225939,4225433,Massachusetts Ave @ Newbury St,20,9,11
+31,2014-03-01,711,01,Inbound,4225939,4225433,Massachusetts Ave @ Massachusetts Ave Station,20,9,11
+31,2014-03-01,715,01,Inbound,4225939,4225433,Massachusetts Ave @ Washington St,20,9,11
+31,2014-03-01,720,01,Inbound,4225939,4225433,Washington St @ Williams St,20,9,11
+31,2014-03-01,722,01,Inbound,4225939,4225433,Dudley Station,21,9,12
+32,2014-03-01,700,01,Inbound,4225433,4226040,Mt Auburn St @ Putnam Ave,7,10,-3
+32,2014-03-01,705,01,Inbound,4225433,4226040,Massachusetts Ave @ Pearl St,5,10,-5
+32,2014-03-01,710,01,Inbound,4225433,4226040,84 Massachusetts Ave,4,10,-6
+32,2014-03-01,715,01,Inbound,4225433,4226040,Massachusetts Ave @ Newbury St,3,10,-7
+32,2014-03-01,720,01,Inbound,4225433,4226040,Massachusetts Ave @ Massachusetts Ave Station,2,10,-8
+32,2014-03-01,724,01,Inbound,4225433,4226040,Massachusetts Ave @ Washington St,1,10,-9
+32,2014-03-01,729,01,Inbound,4225433,4226040,Washington St @ Williams St,1,10,-9
+32,2014-03-01,731,01,Inbound,4225433,4226040,Dudley Station,1,10,-9
+33,2014-03-01,705,01,Inbound,4226040,4226164,Massachusetts Ave @ Holyoke St,1,10,-9
+33,2014-03-01,710,01,Inbound,4226040,4226164,Mt Auburn St @ Putnam Ave,11,10,1
+33,2014-03-01,715,01,Inbound,4226040,4226164,Massachusetts Ave @ Pearl St,10,10,0
+33,2014-03-01,720,01,Inbound,4226040,4226164,84 Massachusetts Ave,13,10,3
+33,2014-03-01,725,01,Inbound,4226040,4226164,Massachusetts Ave @ Newbury St,13,10,3
+33,2014-03-01,730,01,Inbound,4226040,4226164,Massachusetts Ave @ Massachusetts Ave Station,11,10,1
+33,2014-03-01,734,01,Inbound,4226040,4226164,Massachusetts Ave @ Washington St,12,10,2
+33,2014-03-01,739,01,Inbound,4226040,4226164,Washington St @ Williams St,14,10,4
+33,2014-03-01,741,01,Inbound,4226040,4226164,Dudley Station,13,10,3
+34,2014-03-01,715,01,Inbound,4226164,4225594,Massachusetts Ave @ Holyoke St,9,10,-1
+34,2014-03-01,720,01,Inbound,4226164,4225594,Mt Auburn St @ Putnam Ave,8,10,-2
+34,2014-03-01,725,01,Inbound,4226164,4225594,Massachusetts Ave @ Pearl St,11,10,1
+34,2014-03-01,730,01,Inbound,4226164,4225594,84 Massachusetts Ave,10,10,0
+34,2014-03-01,735,01,Inbound,4226164,4225594,Massachusetts Ave @ Newbury St,9,10,-1
+34,2014-03-01,740,01,Inbound,4226164,4225594,Massachusetts Ave @ Massachusetts Ave Station,10,10,0
+34,2014-03-01,744,01,Inbound,4226164,4225594,Massachusetts Ave @ Washington St,11,10,1
+34,2014-03-01,749,01,Inbound,4226164,4225594,Washington St @ Williams St,9,10,-1
+34,2014-03-01,751,01,Inbound,4226164,4225594,Dudley Station,10,10,0
+35,2014-03-01,725,01,Inbound,4225594,4226299,Massachusetts Ave @ Holyoke St,15,10,5
+35,2014-03-01,730,01,Inbound,4225594,4226299,Mt Auburn St @ Putnam Ave,15,10,5
+35,2014-03-01,735,01,Inbound,4225594,4226299,Massachusetts Ave @ Pearl St,15,10,5
+35,2014-03-01,740,01,Inbound,4225594,4226299,84 Massachusetts Ave,14,10,4
+35,2014-03-01,745,01,Inbound,4225594,4226299,Massachusetts Ave @ Newbury St,14,10,4
+35,2014-03-01,750,01,Inbound,4225594,4226299,Massachusetts Ave @ Massachusetts Ave Station,17,10,7
+35,2014-03-01,754,01,Inbound,4225594,4226299,Massachusetts Ave @ Washington St,15,10,5
+35,2014-03-01,759,01,Inbound,4225594,4226299,Washington St @ Williams St,16,10,6
+35,2014-03-01,761,01,Inbound,4225594,4226299,Dudley Station,16,10,6
+36,2014-03-01,735,01,Inbound,4226299,4225290,Massachusetts Ave @ Holyoke St,1,10,-9
+36,2014-03-01,740,01,Inbound,4226299,4225290,Mt Auburn St @ Putnam Ave,5,10,-5
+36,2014-03-01,745,01,Inbound,4226299,4225290,Massachusetts Ave @ Pearl St,3,10,-7
+36,2014-03-01,750,01,Inbound,4226299,4225290,84 Massachusetts Ave,1,10,-9
+36,2014-03-01,755,01,Inbound,4226299,4225290,Massachusetts Ave @ Newbury St,0,10,-10
+36,2014-03-01,760,01,Inbound,4226299,4225290,Massachusetts Ave @ Massachusetts Ave Station,-1,10,-11
+36,2014-03-01,764,01,Inbound,4226299,4225290,Massachusetts Ave @ Washington St,-1,10,-11
+36,2014-03-01,769,01,Inbound,4226299,4225290,Washington St @ Williams St,-1,10,-11
+37,2014-03-01,745,01,Inbound,4225290,4225480,Massachusetts Ave @ Holyoke St,21,10,11
+37,2014-03-01,750,01,Inbound,4225290,4225480,Mt Auburn St @ Putnam Ave,10,10,0
+37,2014-03-01,755,01,Inbound,4225290,4225480,Massachusetts Ave @ Pearl St,12,10,2
+37,2014-03-01,760,01,Inbound,4225290,4225480,84 Massachusetts Ave,14,10,4
+37,2014-03-01,765,01,Inbound,4225290,4225480,Massachusetts Ave @ Newbury St,17,10,7
+37,2014-03-01,770,01,Inbound,4225290,4225480,Massachusetts Ave @ Massachusetts Ave Station,16,10,6
+37,2014-03-01,774,01,Inbound,4225290,4225480,Massachusetts Ave @ Washington St,17,10,7
+37,2014-03-01,779,01,Inbound,4225290,4225480,Washington St @ Williams St,17,11,6
+38,2014-03-01,755,01,Inbound,4225480,4225563,Massachusetts Ave @ Holyoke St,21,10,11
+38,2014-03-01,760,01,Inbound,4225480,4225563,Mt Auburn St @ Putnam Ave,16,10,6
+38,2014-03-01,765,01,Inbound,4225480,4225563,Massachusetts Ave @ Pearl St,15,10,5
+38,2014-03-01,770,01,Inbound,4225480,4225563,84 Massachusetts Ave,16,10,6
+38,2014-03-01,775,01,Inbound,4225480,4225563,Massachusetts Ave @ Newbury St,14,12,2
+38,2014-03-01,780,01,Inbound,4225480,4225563,Massachusetts Ave @ Massachusetts Ave Station,13,12,1
+38,2014-03-01,784,01,Inbound,4225480,4225563,Massachusetts Ave @ Washington St,13,12,1
+38,2014-03-01,790,01,Inbound,4225480,4225563,Washington St @ Williams St,12,12,0
+38,2014-03-01,792,01,Inbound,4225480,4225563,Dudley Station,19,12,7
+39,2014-03-01,765,01,Inbound,4225563,4225864,Massachusetts Ave @ Holyoke St,6,10,-4
+39,2014-03-01,770,01,Inbound,4225563,4225864,Mt Auburn St @ Putnam Ave,6,10,-4
+39,2014-03-01,775,01,Inbound,4225563,4225864,Massachusetts Ave @ Pearl St,6,11,-5
+39,2014-03-01,780,01,Inbound,4225563,4225864,84 Massachusetts Ave,5,11,-6
+39,2014-03-01,787,01,Inbound,4225563,4225864,Massachusetts Ave @ Newbury St,5,11,-6
+39,2014-03-01,792,01,Inbound,4225563,4225864,Massachusetts Ave @ Massachusetts Ave Station,5,11,-6
+39,2014-03-01,796,01,Inbound,4225563,4225864,Massachusetts Ave @ Washington St,6,11,-5
+39,2014-03-01,802,01,Inbound,4225563,4225864,Washington St @ Williams St,6,11,-5
+39,2014-03-01,804,01,Inbound,4225563,4225864,Dudley Station,0,11,-11
+40,2014-03-01,775,01,Inbound,4225864,4225941,Massachusetts Ave @ Holyoke St,15,10,5
+40,2014-03-01,780,01,Inbound,4225864,4225941,Mt Auburn St @ Putnam Ave,18,10,8
+40,2014-03-01,786,01,Inbound,4225864,4225941,Massachusetts Ave @ Pearl St,17,10,7
+40,2014-03-01,791,01,Inbound,4225864,4225941,84 Massachusetts Ave,17,10,7
+40,2014-03-01,798,01,Inbound,4225864,4225941,Massachusetts Ave @ Newbury St,17,10,7
+40,2014-03-01,803,01,Inbound,4225864,4225941,Massachusetts Ave @ Massachusetts Ave Station,16,10,6
+40,2014-03-01,807,01,Inbound,4225864,4225941,Massachusetts Ave @ Washington St,16,10,6
+40,2014-03-01,813,01,Inbound,4225864,4225941,Washington St @ Williams St,16,10,6
+40,2014-03-01,815,01,Inbound,4225864,4225941,Dudley Station,15,10,5
+41,2014-03-01,785,01,Inbound,4225941,4225435,Massachusetts Ave @ Holyoke St,9,10,-1
+41,2014-03-01,790,01,Inbound,4225941,4225435,Mt Auburn St @ Putnam Ave,6,10,-4
+41,2014-03-01,796,01,Inbound,4225941,4225435,Massachusetts Ave @ Pearl St,8,10,-2
+41,2014-03-01,801,01,Inbound,4225941,4225435,84 Massachusetts Ave,10,10,0
+41,2014-03-01,808,01,Inbound,4225941,4225435,Massachusetts Ave @ Newbury St,8,10,-2
+41,2014-03-01,813,01,Inbound,4225941,4225435,Massachusetts Ave @ Massachusetts Ave Station,10,10,0
+41,2014-03-01,817,01,Inbound,4225941,4225435,Massachusetts Ave @ Washington St,9,10,-1
+41,2014-03-01,823,01,Inbound,4225941,4225435,Washington St @ Williams St,9,10,-1
+42,2014-03-01,795,01,Inbound,4225435,4226042,Massachusetts Ave @ Holyoke St,2,10,-8
+42,2014-03-01,800,01,Inbound,4225435,4226042,Mt Auburn St @ Putnam Ave,4,10,-6
+42,2014-03-01,806,01,Inbound,4225435,4226042,Massachusetts Ave @ Pearl St,3,10,-7
+42,2014-03-01,811,01,Inbound,4225435,4226042,84 Massachusetts Ave,0,10,-10
+42,2014-03-01,818,01,Inbound,4225435,4226042,Massachusetts Ave @ Newbury St,0,10,-10
+42,2014-03-01,823,01,Inbound,4225435,4226042,Massachusetts Ave @ Massachusetts Ave Station,1,10,-9
+42,2014-03-01,827,01,Inbound,4225435,4226042,Massachusetts Ave @ Washington St,1,10,-9
+42,2014-03-01,833,01,Inbound,4225435,4226042,Washington St @ Williams St,2,10,-8
+43,2014-03-01,805,01,Inbound,4226042,4226166,Massachusetts Ave @ Holyoke St,5,10,-5
+43,2014-03-01,810,01,Inbound,4226042,4226166,Mt Auburn St @ Putnam Ave,10,10,0
+43,2014-03-01,816,01,Inbound,4226042,4226166,Massachusetts Ave @ Pearl St,9,10,-1
+43,2014-03-01,821,01,Inbound,4226042,4226166,84 Massachusetts Ave,11,10,1
+43,2014-03-01,828,01,Inbound,4226042,4226166,Massachusetts Ave @ Newbury St,12,10,2
+43,2014-03-01,833,01,Inbound,4226042,4226166,Massachusetts Ave @ Massachusetts Ave Station,11,10,1
+43,2014-03-01,837,01,Inbound,4226042,4226166,Massachusetts Ave @ Washington St,12,10,2
+43,2014-03-01,843,01,Inbound,4226042,4226166,Washington St @ Williams St,11,10,1
+43,2014-03-01,845,01,Inbound,4226042,4226166,Dudley Station,12,10,2
+44,2014-03-01,815,01,Inbound,4226166,4226245,Massachusetts Ave @ Holyoke St,10,10,0
+44,2014-03-01,820,01,Inbound,4226166,4226245,Mt Auburn St @ Putnam Ave,11,10,1
+44,2014-03-01,826,01,Inbound,4226166,4226245,Massachusetts Ave @ Pearl St,11,10,1
+44,2014-03-01,831,01,Inbound,4226166,4226245,84 Massachusetts Ave,10,10,0
+44,2014-03-01,838,01,Inbound,4226166,4226245,Massachusetts Ave @ Newbury St,10,10,0
+44,2014-03-01,843,01,Inbound,4226166,4226245,Massachusetts Ave @ Massachusetts Ave Station,9,10,-1
+44,2014-03-01,847,01,Inbound,4226166,4226245,Massachusetts Ave @ Washington St,10,10,0
+44,2014-03-01,853,01,Inbound,4226166,4226245,Washington St @ Williams St,12,10,2
+44,2014-03-01,855,01,Inbound,4226166,4226245,Dudley Station,11,10,1
+45,2014-03-01,825,01,Inbound,4226245,4226301,Massachusetts Ave @ Holyoke St,13,10,3
+45,2014-03-01,830,01,Inbound,4226245,4226301,Mt Auburn St @ Putnam Ave,13,10,3
+45,2014-03-01,836,01,Inbound,4226245,4226301,Massachusetts Ave @ Pearl St,15,10,5
+45,2014-03-01,841,01,Inbound,4226245,4226301,84 Massachusetts Ave,18,10,8
+45,2014-03-01,848,01,Inbound,4226245,4226301,Massachusetts Ave @ Newbury St,18,10,8
+45,2014-03-01,853,01,Inbound,4226245,4226301,Massachusetts Ave @ Massachusetts Ave Station,19,10,9
+45,2014-03-01,857,01,Inbound,4226245,4226301,Massachusetts Ave @ Washington St,19,10,9
+45,2014-03-01,863,01,Inbound,4226245,4226301,Washington St @ Williams St,20,10,10
+45,2014-03-01,865,01,Inbound,4226245,4226301,Dudley Station,21,10,11
+46,2014-03-01,835,01,Inbound,4226301,4225400,Massachusetts Ave @ Holyoke St,-3,10,-13
+46,2014-03-01,840,01,Inbound,4226301,4225400,Mt Auburn St @ Putnam Ave,6,10,-4
+46,2014-03-01,846,01,Inbound,4226301,4225400,Massachusetts Ave @ Pearl St,4,10,-6
+46,2014-03-01,851,01,Inbound,4226301,4225400,84 Massachusetts Ave,0,10,-10
+46,2014-03-01,858,01,Inbound,4226301,4225400,Massachusetts Ave @ Newbury St,0,10,-10
+46,2014-03-01,863,01,Inbound,4226301,4225400,Massachusetts Ave @ Massachusetts Ave Station,-1,10,-11
+46,2014-03-01,867,01,Inbound,4226301,4225400,Massachusetts Ave @ Washington St,0,10,-10
+46,2014-03-01,873,01,Inbound,4226301,4225400,Washington St @ Williams St,-3,10,-13
+46,2014-03-01,875,01,Inbound,4226301,4225400,Dudley Station,-4,10,-14
+47,2014-03-01,845,01,Inbound,4225400,4225482,Massachusetts Ave @ Holyoke St,24,10,14
+47,2014-03-01,850,01,Inbound,4225400,4225482,Mt Auburn St @ Putnam Ave,10,10,0
+47,2014-03-01,856,01,Inbound,4225400,4225482,Massachusetts Ave @ Pearl St,10,10,0
+47,2014-03-01,861,01,Inbound,4225400,4225482,84 Massachusetts Ave,11,10,1
+47,2014-03-01,868,01,Inbound,4225400,4225482,Massachusetts Ave @ Newbury St,15,10,5
+47,2014-03-01,873,01,Inbound,4225400,4225482,Massachusetts Ave @ Massachusetts Ave Station,23,10,13
+47,2014-03-01,877,01,Inbound,4225400,4225482,Massachusetts Ave @ Washington St,22,10,12
+47,2014-03-01,883,01,Inbound,4225400,4225482,Washington St @ Williams St,23,10,13
+47,2014-03-01,885,01,Inbound,4225400,4225482,Dudley Station,23,10,13
+48,2014-03-01,855,01,Inbound,4225482,4225565,Massachusetts Ave @ Holyoke St,8,10,-2
+48,2014-03-01,860,01,Inbound,4225482,4225565,Mt Auburn St @ Putnam Ave,10,10,0
+48,2014-03-01,866,01,Inbound,4225482,4225565,Massachusetts Ave @ Pearl St,9,10,-1
+48,2014-03-01,871,01,Inbound,4225482,4225565,84 Massachusetts Ave,8,10,-2
+48,2014-03-01,878,01,Inbound,4225482,4225565,Massachusetts Ave @ Newbury St,6,10,-4
+48,2014-03-01,883,01,Inbound,4225482,4225565,Massachusetts Ave @ Massachusetts Ave Station,12,10,2
+48,2014-03-01,887,01,Inbound,4225482,4225565,Massachusetts Ave @ Washington St,9,10,-1
+48,2014-03-01,893,01,Inbound,4225482,4225565,Washington St @ Williams St,9,10,-1
+48,2014-03-01,895,01,Inbound,4225482,4225565,Dudley Station,9,10,-1
+49,2014-03-01,865,01,Inbound,4225565,4225866,Massachusetts Ave @ Holyoke St,9,10,-1
+49,2014-03-01,870,01,Inbound,4225565,4225866,Mt Auburn St @ Putnam Ave,11,10,1
+49,2014-03-01,876,01,Inbound,4225565,4225866,Massachusetts Ave @ Pearl St,13,10,3
+49,2014-03-01,881,01,Inbound,4225565,4225866,84 Massachusetts Ave,14,10,4
+49,2014-03-01,888,01,Inbound,4225565,4225866,Massachusetts Ave @ Newbury St,21,10,11
+49,2014-03-01,893,01,Inbound,4225565,4225866,Massachusetts Ave @ Massachusetts Ave Station,18,10,8
+49,2014-03-01,897,01,Inbound,4225565,4225866,Massachusetts Ave @ Washington St,19,10,9
+49,2014-03-01,903,01,Inbound,4225565,4225866,Washington St @ Williams St,18,10,8
+49,2014-03-01,905,01,Inbound,4225565,4225866,Dudley Station,18,10,8
+50,2014-03-01,875,01,Inbound,4225866,4225943,Massachusetts Ave @ Holyoke St,11,10,1
+50,2014-03-01,880,01,Inbound,4225866,4225943,Mt Auburn St @ Putnam Ave,10,10,0
+50,2014-03-01,886,01,Inbound,4225866,4225943,Massachusetts Ave @ Pearl St,9,10,-1
+50,2014-03-01,891,01,Inbound,4225866,4225943,84 Massachusetts Ave,8,10,-2
+50,2014-03-01,898,01,Inbound,4225866,4225943,Massachusetts Ave @ Newbury St,6,10,-4
+50,2014-03-01,903,01,Inbound,4225866,4225943,Massachusetts Ave @ Massachusetts Ave Station,5,10,-5
+50,2014-03-01,907,01,Inbound,4225866,4225943,Massachusetts Ave @ Washington St,5,10,-5
+50,2014-03-01,913,01,Inbound,4225866,4225943,Washington St @ Williams St,5,10,-5
+50,2014-03-01,915,01,Inbound,4225866,4225943,Dudley Station,5,10,-5
+51,2014-03-01,885,01,Inbound,4225943,4226006,Massachusetts Ave @ Holyoke St,0,10,-10
+51,2014-03-01,890,01,Inbound,4225943,4226006,Mt Auburn St @ Putnam Ave,10,10,0
+51,2014-03-01,896,01,Inbound,4225943,4226006,Massachusetts Ave @ Pearl St,11,10,1
+51,2014-03-01,901,01,Inbound,4225943,4226006,84 Massachusetts Ave,16,10,6
+51,2014-03-01,908,01,Inbound,4225943,4226006,Massachusetts Ave @ Newbury St,15,10,5
+51,2014-03-01,913,01,Inbound,4225943,4226006,Massachusetts Ave @ Massachusetts Ave Station,9,10,-1
+51,2014-03-01,917,01,Inbound,4225943,4226006,Massachusetts Ave @ Washington St,10,10,0
+51,2014-03-01,923,01,Inbound,4225943,4226006,Washington St @ Williams St,10,10,0
+51,2014-03-01,925,01,Inbound,4225943,4226006,Dudley Station,11,10,1
+52,2014-03-01,895,01,Inbound,4226006,4226044,Massachusetts Ave @ Holyoke St,30,10,20
+52,2014-03-01,900,01,Inbound,4226006,4226044,Mt Auburn St @ Putnam Ave,14,10,4
+52,2014-03-01,906,01,Inbound,4226006,4226044,Massachusetts Ave @ Pearl St,14,10,4
+52,2014-03-01,911,01,Inbound,4226006,4226044,84 Massachusetts Ave,10,10,0
+52,2014-03-01,918,01,Inbound,4226006,4226044,Massachusetts Ave @ Newbury St,11,10,1
+52,2014-03-01,923,01,Inbound,4226006,4226044,Massachusetts Ave @ Massachusetts Ave Station,13,10,3
+52,2014-03-01,927,01,Inbound,4226006,4226044,Massachusetts Ave @ Washington St,14,10,4
+52,2014-03-01,933,01,Inbound,4226006,4226044,Washington St @ Williams St,14,10,4
+52,2014-03-01,935,01,Inbound,4226006,4226044,Dudley Station,13,10,3
+53,2014-03-01,905,01,Inbound,4226044,4226168,Massachusetts Ave @ Holyoke St,-5,10,-15
+53,2014-03-01,910,01,Inbound,4226044,4226168,Mt Auburn St @ Putnam Ave,6,10,-4
+53,2014-03-01,916,01,Inbound,4226044,4226168,Massachusetts Ave @ Pearl St,4,10,-6
+53,2014-03-01,921,01,Inbound,4226044,4226168,84 Massachusetts Ave,4,10,-6
+53,2014-03-01,928,01,Inbound,4226044,4226168,Massachusetts Ave @ Newbury St,4,10,-6
+53,2014-03-01,933,01,Inbound,4226044,4226168,Massachusetts Ave @ Massachusetts Ave Station,3,10,-7
+53,2014-03-01,937,01,Inbound,4226044,4226168,Massachusetts Ave @ Washington St,2,10,-8
+53,2014-03-01,943,01,Inbound,4226044,4226168,Washington St @ Williams St,4,10,-6
+53,2014-03-01,945,01,Inbound,4226044,4226168,Dudley Station,4,10,-6
+54,2014-03-01,915,01,Inbound,4226168,4226247,Massachusetts Ave @ Holyoke St,10,10,0
+54,2014-03-01,920,01,Inbound,4226168,4226247,Mt Auburn St @ Putnam Ave,10,10,0
+54,2014-03-01,926,01,Inbound,4226168,4226247,Massachusetts Ave @ Pearl St,10,10,0
+54,2014-03-01,931,01,Inbound,4226168,4226247,84 Massachusetts Ave,9,10,-1
+54,2014-03-01,938,01,Inbound,4226168,4226247,Massachusetts Ave @ Newbury St,7,10,-3
+54,2014-03-01,943,01,Inbound,4226168,4226247,Massachusetts Ave @ Massachusetts Ave Station,9,10,-1
+54,2014-03-01,947,01,Inbound,4226168,4226247,Massachusetts Ave @ Washington St,8,10,-2
+54,2014-03-01,953,01,Inbound,4226168,4226247,Washington St @ Williams St,8,10,-2
+54,2014-03-01,955,01,Inbound,4226168,4226247,Dudley Station,9,10,-1
+55,2014-03-01,925,01,Inbound,4226247,4226303,Massachusetts Ave @ Holyoke St,24,10,14
+55,2014-03-01,930,01,Inbound,4226247,4226303,Mt Auburn St @ Putnam Ave,14,10,4
+55,2014-03-01,936,01,Inbound,4226247,4226303,Massachusetts Ave @ Pearl St,16,10,6
+55,2014-03-01,941,01,Inbound,4226247,4226303,84 Massachusetts Ave,16,10,6
+55,2014-03-01,948,01,Inbound,4226247,4226303,Massachusetts Ave @ Newbury St,13,10,3
+55,2014-03-01,953,01,Inbound,4226247,4226303,Massachusetts Ave @ Massachusetts Ave Station,10,10,0
+55,2014-03-01,957,01,Inbound,4226247,4226303,Massachusetts Ave @ Washington St,10,10,0
+55,2014-03-01,963,01,Inbound,4226247,4226303,Washington St @ Williams St,10,10,0
+55,2014-03-01,965,01,Inbound,4226247,4226303,Dudley Station,9,10,-1
+56,2014-03-01,935,01,Inbound,4226303,4225402,Massachusetts Ave @ Holyoke St,2,10,-8
+56,2014-03-01,940,01,Inbound,4226303,4225402,Mt Auburn St @ Putnam Ave,4,10,-6
+56,2014-03-01,946,01,Inbound,4226303,4225402,Massachusetts Ave @ Pearl St,2,10,-8
+56,2014-03-01,951,01,Inbound,4226303,4225402,84 Massachusetts Ave,2,10,-8
+56,2014-03-01,958,01,Inbound,4226303,4225402,Massachusetts Ave @ Newbury St,-1,10,-11
+56,2014-03-01,963,01,Inbound,4226303,4225402,Massachusetts Ave @ Massachusetts Ave Station,-2,10,-12
+56,2014-03-01,967,01,Inbound,4226303,4225402,Massachusetts Ave @ Washington St,-2,10,-12
+56,2014-03-01,973,01,Inbound,4226303,4225402,Washington St @ Williams St,-4,10,-14
+56,2014-03-01,975,01,Inbound,4226303,4225402,Dudley Station,9,10,-1
+57,2014-03-01,945,01,Inbound,4225402,4225484,Massachusetts Ave @ Holyoke St,26,10,16
+57,2014-03-01,950,01,Inbound,4225402,4225484,Mt Auburn St @ Putnam Ave,21,10,11
+57,2014-03-01,956,01,Inbound,4225402,4225484,Massachusetts Ave @ Pearl St,23,10,13
+57,2014-03-01,961,01,Inbound,4225402,4225484,84 Massachusetts Ave,22,10,12
+57,2014-03-01,968,01,Inbound,4225402,4225484,Massachusetts Ave @ Newbury St,25,10,15
+57,2014-03-01,973,01,Inbound,4225402,4225484,Massachusetts Ave @ Massachusetts Ave Station,22,10,12
+57,2014-03-01,977,01,Inbound,4225402,4225484,Massachusetts Ave @ Washington St,22,10,12
+57,2014-03-01,983,01,Inbound,4225402,4225484,Washington St @ Williams St,22,9,13
+57,2014-03-01,985,01,Inbound,4225402,4225484,Dudley Station,9,9,0
+58,2014-03-01,955,01,Inbound,4225484,4225567,Massachusetts Ave @ Holyoke St,-1,10,-11
+58,2014-03-01,960,01,Inbound,4225484,4225567,Mt Auburn St @ Putnam Ave,1,10,-9
+58,2014-03-01,966,01,Inbound,4225484,4225567,Massachusetts Ave @ Pearl St,0,10,-10
+58,2014-03-01,971,01,Inbound,4225484,4225567,84 Massachusetts Ave,1,10,-9
+58,2014-03-01,978,01,Inbound,4225484,4225567,Massachusetts Ave @ Newbury St,0,10,-10
+58,2014-03-01,983,01,Inbound,4225484,4225567,Massachusetts Ave @ Massachusetts Ave Station,0,11,-11
+58,2014-03-01,987,01,Inbound,4225484,4225567,Massachusetts Ave @ Washington St,0,10,-10
+58,2014-03-01,992,01,Inbound,4225484,4225567,Washington St @ Williams St,0,10,-10
+58,2014-03-01,994,01,Inbound,4225484,4225567,Dudley Station,3,10,-7
+59,2014-03-01,965,01,Inbound,4225567,4225868,Massachusetts Ave @ Holyoke St,10,10,0
+59,2014-03-01,970,01,Inbound,4225567,4225868,Mt Auburn St @ Putnam Ave,9,10,-1
+59,2014-03-01,976,01,Inbound,4225567,4225868,Massachusetts Ave @ Pearl St,9,10,-1
+59,2014-03-01,981,01,Inbound,4225567,4225868,84 Massachusetts Ave,10,10,0
+59,2014-03-01,988,01,Inbound,4225567,4225868,Massachusetts Ave @ Newbury St,13,10,3
+59,2014-03-01,994,01,Inbound,4225567,4225868,Massachusetts Ave @ Massachusetts Ave Station,13,10,3
+59,2014-03-01,997,01,Inbound,4225567,4225868,Massachusetts Ave @ Washington St,13,10,3
+59,2014-03-01,1002,01,Inbound,4225567,4225868,Washington St @ Williams St,13,10,3
+59,2014-03-01,1004,01,Inbound,4225567,4225868,Dudley Station,21,10,11
+60,2014-03-01,975,01,Inbound,4225868,4225945,Massachusetts Ave @ Holyoke St,7,10,-3
+60,2014-03-01,980,01,Inbound,4225868,4225945,Mt Auburn St @ Putnam Ave,9,10,-1
+60,2014-03-01,986,01,Inbound,4225868,4225945,Massachusetts Ave @ Pearl St,7,9,-2
+60,2014-03-01,991,01,Inbound,4225868,4225945,84 Massachusetts Ave,5,9,-4
+60,2014-03-01,998,01,Inbound,4225868,4225945,Massachusetts Ave @ Newbury St,4,9,-5
+60,2014-03-01,1004,01,Inbound,4225868,4225945,Massachusetts Ave @ Massachusetts Ave Station,5,9,-4
+60,2014-03-01,1007,01,Inbound,4225868,4225945,Massachusetts Ave @ Washington St,5,9,-4
+60,2014-03-01,1012,01,Inbound,4225868,4225945,Washington St @ Williams St,5,9,-4
+60,2014-03-01,1014,01,Inbound,4225868,4225945,Dudley Station,-5,9,-14
+61,2014-03-01,985,01,Inbound,4225945,4226008,Massachusetts Ave @ Holyoke St,7,10,-3
+61,2014-03-01,990,01,Inbound,4225945,4226008,Mt Auburn St @ Putnam Ave,12,10,2
+61,2014-03-01,995,01,Inbound,4225945,4226008,Massachusetts Ave @ Pearl St,14,10,4
+61,2014-03-01,1000,01,Inbound,4225945,4226008,84 Massachusetts Ave,16,10,6
+61,2014-03-01,1007,01,Inbound,4225945,4226008,Massachusetts Ave @ Newbury St,15,10,5
+61,2014-03-01,1013,01,Inbound,4225945,4226008,Massachusetts Ave @ Massachusetts Ave Station,17,10,7
+61,2014-03-01,1016,01,Inbound,4225945,4226008,Massachusetts Ave @ Washington St,17,10,7
+61,2014-03-01,1021,01,Inbound,4225945,4226008,Washington St @ Williams St,17,10,7
+61,2014-03-01,1023,01,Inbound,4225945,4226008,Dudley Station,16,10,6
+62,2014-03-01,995,01,Inbound,4226008,4226046,Massachusetts Ave @ Holyoke St,31,10,21
+62,2014-03-01,1000,01,Inbound,4226008,4226046,Mt Auburn St @ Putnam Ave,28,10,18
+62,2014-03-01,1005,01,Inbound,4226008,4226046,Massachusetts Ave @ Pearl St,30,10,20
+62,2014-03-01,1010,01,Inbound,4226008,4226046,84 Massachusetts Ave,33,10,23
+62,2014-03-01,1017,01,Inbound,4226008,4226046,Massachusetts Ave @ Newbury St,36,10,26
+62,2014-03-01,1023,01,Inbound,4226008,4226046,Massachusetts Ave @ Massachusetts Ave Station,35,10,25
+62,2014-03-01,1026,01,Inbound,4226008,4226046,Massachusetts Ave @ Washington St,35,10,25
+62,2014-03-01,1031,01,Inbound,4226008,4226046,Washington St @ Williams St,37,10,27
+62,2014-03-01,1033,01,Inbound,4226008,4226046,Dudley Station,37,10,27
+63,2014-03-01,1005,01,Inbound,4226046,4225404,Massachusetts Ave @ Holyoke St,14,36,-22
+63,2014-03-01,1010,01,Inbound,4226046,4225404,Mt Auburn St @ Putnam Ave,14,36,-22
+63,2014-03-01,1015,01,Inbound,4226046,4225404,Massachusetts Ave @ Pearl St,12,36,-24
+63,2014-03-01,1020,01,Inbound,4226046,4225404,84 Massachusetts Ave,10,36,-26
+63,2014-03-01,1027,01,Inbound,4226046,4225404,Massachusetts Ave @ Newbury St,5,36,-31
+63,2014-03-01,1033,01,Inbound,4226046,4225404,Massachusetts Ave @ Massachusetts Ave Station,1,36,-35
+63,2014-03-01,1036,01,Inbound,4226046,4225404,Massachusetts Ave @ Washington St,0,36,-36
+63,2014-03-01,1041,01,Inbound,4226046,4225404,Washington St @ Williams St,-2,36,-38
+63,2014-03-01,1043,01,Inbound,4226046,4225404,Dudley Station,19,36,-17
+64,2014-03-01,1041,01,Inbound,4225404,4225486,Massachusetts Ave @ Holyoke St,18,9,9
+64,2014-03-01,1046,01,Inbound,4225404,4225486,Mt Auburn St @ Putnam Ave,18,9,9
+64,2014-03-01,1051,01,Inbound,4225404,4225486,Massachusetts Ave @ Pearl St,17,9,8
+64,2014-03-01,1056,01,Inbound,4225404,4225486,84 Massachusetts Ave,16,9,7
+64,2014-03-01,1063,01,Inbound,4225404,4225486,Massachusetts Ave @ Newbury St,20,9,11
+64,2014-03-01,1069,01,Inbound,4225404,4225486,Massachusetts Ave @ Massachusetts Ave Station,22,9,13
+64,2014-03-01,1072,01,Inbound,4225404,4225486,Massachusetts Ave @ Washington St,24,9,15
+64,2014-03-01,1077,01,Inbound,4225404,4225486,Washington St @ Williams St,25,9,16
+64,2014-03-01,1079,01,Inbound,4225404,4225486,Dudley Station,4,9,-5
+65,2014-03-01,1088,01,Inbound,4225486,4226170,Dudley Station,-34,-36,2
+66,2014-03-01,1052,01,Inbound,4226170,4225569,Dudley Station,31,45,-14
+67,2014-03-01,1059,01,Inbound,4225569,4225789,Massachusetts Ave @ Holyoke St,-6,9,-15
+67,2014-03-01,1064,01,Inbound,4225569,4225789,Mt Auburn St @ Putnam Ave,11,9,2
+67,2014-03-01,1069,01,Inbound,4225569,4225789,Massachusetts Ave @ Pearl St,11,9,2
+67,2014-03-01,1074,01,Inbound,4225569,4225789,84 Massachusetts Ave,12,9,3
+67,2014-03-01,1081,01,Inbound,4225569,4225789,Massachusetts Ave @ Newbury St,10,9,1
+67,2014-03-01,1087,01,Inbound,4225569,4225789,Massachusetts Ave @ Massachusetts Ave Station,11,9,2
+67,2014-03-01,1090,01,Inbound,4225569,4225789,Massachusetts Ave @ Washington St,11,9,2
+67,2014-03-01,1095,01,Inbound,4225569,4225789,Washington St @ Williams St,11,9,2
+67,2014-03-01,1097,01,Inbound,4225569,4225789,Dudley Station,10,9,1
+68,2014-03-01,1068,01,Inbound,4225789,4225870,Massachusetts Ave @ Holyoke St,14,9,5
+68,2014-03-01,1073,01,Inbound,4225789,4225870,Mt Auburn St @ Putnam Ave,7,9,-2
+68,2014-03-01,1078,01,Inbound,4225789,4225870,Massachusetts Ave @ Pearl St,9,9,0
+68,2014-03-01,1083,01,Inbound,4225789,4225870,84 Massachusetts Ave,7,9,-2
+68,2014-03-01,1090,01,Inbound,4225789,4225870,Massachusetts Ave @ Newbury St,6,9,-3
+68,2014-03-01,1096,01,Inbound,4225789,4225870,Massachusetts Ave @ Massachusetts Ave Station,9,9,0
+68,2014-03-01,1099,01,Inbound,4225789,4225870,Massachusetts Ave @ Washington St,9,9,0
+68,2014-03-01,1104,01,Inbound,4225789,4225870,Washington St @ Williams St,9,9,0
+68,2014-03-01,1106,01,Inbound,4225789,4225870,Dudley Station,9,9,0
+69,2014-03-01,1077,01,Inbound,4225870,4225947,Massachusetts Ave @ Holyoke St,12,9,3
+69,2014-03-01,1082,01,Inbound,4225870,4225947,Mt Auburn St @ Putnam Ave,10,9,1
+69,2014-03-01,1087,01,Inbound,4225870,4225947,Massachusetts Ave @ Pearl St,10,9,1
+69,2014-03-01,1092,01,Inbound,4225870,4225947,84 Massachusetts Ave,11,9,2
+69,2014-03-01,1099,01,Inbound,4225870,4225947,Massachusetts Ave @ Newbury St,11,9,2
+69,2014-03-01,1105,01,Inbound,4225870,4225947,Massachusetts Ave @ Massachusetts Ave Station,10,9,1
+69,2014-03-01,1108,01,Inbound,4225870,4225947,Massachusetts Ave @ Washington St,9,9,0
+69,2014-03-01,1113,01,Inbound,4225870,4225947,Washington St @ Williams St,9,9,0
+69,2014-03-01,1115,01,Inbound,4225870,4225947,Dudley Station,10,9,1
+70,2014-03-01,1086,01,Inbound,4225947,4226048,Massachusetts Ave @ Holyoke St,20,20,0
+70,2014-03-01,1091,01,Inbound,4225947,4226048,Mt Auburn St @ Putnam Ave,20,20,0
+70,2014-03-01,1096,01,Inbound,4225947,4226048,Massachusetts Ave @ Pearl St,19,20,-1
+70,2014-03-01,1101,01,Inbound,4225947,4226048,84 Massachusetts Ave,19,20,-1
+70,2014-03-01,1108,01,Inbound,4225947,4226048,Massachusetts Ave @ Newbury St,20,20,0
+70,2014-03-01,1114,01,Inbound,4225947,4226048,Massachusetts Ave @ Massachusetts Ave Station,18,20,-2
+70,2014-03-01,1117,01,Inbound,4225947,4226048,Massachusetts Ave @ Washington St,18,20,-2
+70,2014-03-01,1122,01,Inbound,4225947,4226048,Washington St @ Williams St,17,20,-3
+70,2014-03-01,1124,01,Inbound,4225947,4226048,Dudley Station,16,20,-4
+71,2014-03-01,1106,01,Inbound,4226048,4226172,Massachusetts Ave @ Holyoke St,14,10,4
+71,2014-03-01,1111,01,Inbound,4226048,4226172,Mt Auburn St @ Putnam Ave,13,10,3
+71,2014-03-01,1116,01,Inbound,4226048,4226172,Massachusetts Ave @ Pearl St,14,10,4
+71,2014-03-01,1121,01,Inbound,4226048,4226172,84 Massachusetts Ave,15,10,5
+71,2014-03-01,1128,01,Inbound,4226048,4226172,Massachusetts Ave @ Newbury St,18,10,8
+71,2014-03-01,1134,01,Inbound,4226048,4226172,Massachusetts Ave @ Massachusetts Ave Station,18,10,8
+71,2014-03-01,1137,01,Inbound,4226048,4226172,Massachusetts Ave @ Washington St,18,10,8
+71,2014-03-01,1142,01,Inbound,4226048,4226172,Washington St @ Williams St,20,10,10
+71,2014-03-01,1144,01,Inbound,4226048,4226172,Dudley Station,20,10,10
+72,2014-03-01,1116,01,Inbound,4226172,4225406,Massachusetts Ave @ Holyoke St,17,20,-3
+72,2014-03-01,1121,01,Inbound,4226172,4225406,Mt Auburn St @ Putnam Ave,17,20,-3
+72,2014-03-01,1126,01,Inbound,4226172,4225406,Massachusetts Ave @ Pearl St,15,20,-5
+72,2014-03-01,1131,01,Inbound,4226172,4225406,84 Massachusetts Ave,17,20,-3
+72,2014-03-01,1138,01,Inbound,4226172,4225406,Massachusetts Ave @ Newbury St,15,20,-5
+72,2014-03-01,1144,01,Inbound,4226172,4225406,Massachusetts Ave @ Massachusetts Ave Station,13,20,-7
+72,2014-03-01,1147,01,Inbound,4226172,4225406,Massachusetts Ave @ Washington St,14,20,-6
+72,2014-03-01,1152,01,Inbound,4226172,4225406,Washington St @ Williams St,12,20,-8
+72,2014-03-01,1154,01,Inbound,4226172,4225406,Dudley Station,16,20,-4
+73,2014-03-01,1136,01,Inbound,4225406,4225488,Massachusetts Ave @ Holyoke St,13,10,3
+73,2014-03-01,1141,01,Inbound,4225406,4225488,Mt Auburn St @ Putnam Ave,10,10,0
+73,2014-03-01,1146,01,Inbound,4225406,4225488,Massachusetts Ave @ Pearl St,10,10,0
+73,2014-03-01,1151,01,Inbound,4225406,4225488,84 Massachusetts Ave,8,10,-2
+73,2014-03-01,1158,01,Inbound,4225406,4225488,Massachusetts Ave @ Newbury St,6,10,-4
+73,2014-03-01,1164,01,Inbound,4225406,4225488,Massachusetts Ave @ Massachusetts Ave Station,7,10,-3
+73,2014-03-01,1167,01,Inbound,4225406,4225488,Massachusetts Ave @ Washington St,7,10,-3
+73,2014-03-01,1172,01,Inbound,4225406,4225488,Washington St @ Williams St,8,10,-2
+73,2014-03-01,1174,01,Inbound,4225406,4225488,Dudley Station,5,10,-5
+74,2014-03-01,1146,01,Inbound,4225488,4225791,Massachusetts Ave @ Holyoke St,18,10,8
+74,2014-03-01,1151,01,Inbound,4225488,4225791,Mt Auburn St @ Putnam Ave,14,10,4
+74,2014-03-01,1156,01,Inbound,4225488,4225791,Massachusetts Ave @ Pearl St,15,10,5
+74,2014-03-01,1161,01,Inbound,4225488,4225791,84 Massachusetts Ave,16,10,6
+74,2014-03-01,1168,01,Inbound,4225488,4225791,Massachusetts Ave @ Newbury St,18,10,8
+74,2014-03-01,1174,01,Inbound,4225488,4225791,Massachusetts Ave @ Massachusetts Ave Station,17,10,7
+74,2014-03-01,1177,01,Inbound,4225488,4225791,Massachusetts Ave @ Washington St,17,10,7
+74,2014-03-01,1182,01,Inbound,4225488,4225791,Washington St @ Williams St,16,10,6
+74,2014-03-01,1184,01,Inbound,4225488,4225791,Dudley Station,16,10,6
+75,2014-03-01,1156,01,Inbound,4225791,4225872,Massachusetts Ave @ Holyoke St,5,10,-5
+75,2014-03-01,1161,01,Inbound,4225791,4225872,Mt Auburn St @ Putnam Ave,5,10,-5
+75,2014-03-01,1166,01,Inbound,4225791,4225872,Massachusetts Ave @ Pearl St,3,10,-7
+75,2014-03-01,1171,01,Inbound,4225791,4225872,84 Massachusetts Ave,1,10,-9
+75,2014-03-01,1178,01,Inbound,4225791,4225872,Massachusetts Ave @ Newbury St,0,10,-10
+75,2014-03-01,1184,01,Inbound,4225791,4225872,Massachusetts Ave @ Massachusetts Ave Station,0,10,-10
+75,2014-03-01,1187,01,Inbound,4225791,4225872,Massachusetts Ave @ Washington St,-2,10,-12
+75,2014-03-01,1192,01,Inbound,4225791,4225872,Washington St @ Williams St,-2,9,-11
+75,2014-03-01,1194,01,Inbound,4225791,4225872,Dudley Station,-2,9,-11
+76,2014-03-01,1166,01,Inbound,4225872,4225949,Massachusetts Ave @ Holyoke St,11,10,1
+76,2014-03-01,1171,01,Inbound,4225872,4225949,Mt Auburn St @ Putnam Ave,12,10,2
+76,2014-03-01,1176,01,Inbound,4225872,4225949,Massachusetts Ave @ Pearl St,14,10,4
+76,2014-03-01,1181,01,Inbound,4225872,4225949,84 Massachusetts Ave,15,10,5
+76,2014-03-01,1188,01,Inbound,4225872,4225949,Massachusetts Ave @ Newbury St,14,10,4
+76,2014-03-01,1194,01,Inbound,4225872,4225949,Massachusetts Ave @ Massachusetts Ave Station,16,8,8
+76,2014-03-01,1197,01,Inbound,4225872,4225949,Massachusetts Ave @ Washington St,17,8,9
+76,2014-03-01,1201,01,Inbound,4225872,4225949,Washington St @ Williams St,17,8,9
+76,2014-03-01,1203,01,Inbound,4225872,4225949,Dudley Station,16,8,8
+77,2014-03-01,1176,01,Inbound,4225949,4226050,Massachusetts Ave @ Holyoke St,12,23,-11
+77,2014-03-01,1181,01,Inbound,4225949,4226050,Mt Auburn St @ Putnam Ave,22,23,-1
+77,2014-03-01,1186,01,Inbound,4225949,4226050,Massachusetts Ave @ Pearl St,21,22,-1
+77,2014-03-01,1191,01,Inbound,4225949,4226050,84 Massachusetts Ave,21,23,-2
+77,2014-03-01,1198,01,Inbound,4225949,4226050,Massachusetts Ave @ Newbury St,21,22,-1
+77,2014-03-01,1202,01,Inbound,4225949,4226050,Massachusetts Ave @ Massachusetts Ave Station,20,22,-2
+77,2014-03-01,1205,01,Inbound,4225949,4226050,Massachusetts Ave @ Washington St,21,22,-1
+77,2014-03-01,1209,01,Inbound,4225949,4226050,Washington St @ Williams St,22,22,0
+77,2014-03-01,1211,01,Inbound,4225949,4226050,Dudley Station,23,22,1
+78,2014-03-01,1199,01,Inbound,4226050,4225408,Massachusetts Ave @ Holyoke St,26,34,-8
+78,2014-03-01,1204,01,Inbound,4226050,4225408,Mt Auburn St @ Putnam Ave,35,34,1
+78,2014-03-01,1208,01,Inbound,4226050,4225408,Massachusetts Ave @ Pearl St,36,34,2
+78,2014-03-01,1214,01,Inbound,4226050,4225408,84 Massachusetts Ave,35,34,1
+78,2014-03-01,1220,01,Inbound,4226050,4225408,Massachusetts Ave @ Newbury St,36,34,2
+78,2014-03-01,1224,01,Inbound,4226050,4225408,Massachusetts Ave @ Massachusetts Ave Station,35,34,1
+78,2014-03-01,1227,01,Inbound,4226050,4225408,Massachusetts Ave @ Washington St,38,34,4
+78,2014-03-01,1231,01,Inbound,4226050,4225408,Washington St @ Williams St,38,34,4
+78,2014-03-01,1233,01,Inbound,4226050,4225408,Dudley Station,38,34,4
+79,2014-03-01,1233,01,Inbound,4225408,4225874,Massachusetts Ave @ Holyoke St,37,18,19
+79,2014-03-01,1238,01,Inbound,4225408,4225874,Mt Auburn St @ Putnam Ave,16,18,-2
+79,2014-03-01,1242,01,Inbound,4225408,4225874,Massachusetts Ave @ Pearl St,16,18,-2
+79,2014-03-01,1248,01,Inbound,4225408,4225874,84 Massachusetts Ave,17,18,-1
+79,2014-03-01,1254,01,Inbound,4225408,4225874,Massachusetts Ave @ Newbury St,15,18,-3
+79,2014-03-01,1258,01,Inbound,4225408,4225874,Massachusetts Ave @ Massachusetts Ave Station,15,18,-3
+79,2014-03-01,1261,01,Inbound,4225408,4225874,Massachusetts Ave @ Washington St,10,18,-8
+79,2014-03-01,1265,01,Inbound,4225408,4225874,Washington St @ Williams St,9,18,-9
+80,2014-03-01,1251,01,Inbound,4225874,4233092,Massachusetts Ave @ Holyoke St,39,36,3
+80,2014-03-01,1256,01,Inbound,4225874,4233092,Mt Auburn St @ Putnam Ave,44,36,8
+80,2014-03-01,1260,01,Inbound,4225874,4233092,Massachusetts Ave @ Pearl St,44,36,8
+80,2014-03-01,1266,01,Inbound,4225874,4233092,84 Massachusetts Ave,45,36,9
+80,2014-03-01,1272,01,Inbound,4225874,4233092,Massachusetts Ave @ Newbury St,47,36,11
+80,2014-03-01,1276,01,Inbound,4225874,4233092,Massachusetts Ave @ Massachusetts Ave Station,49,36,13
+80,2014-03-01,1279,01,Inbound,4225874,4233092,Massachusetts Ave @ Washington St,51,36,15
+80,2014-03-01,1283,01,Inbound,4225874,4233092,Washington St @ Williams St,52,36,16
+81,2014-03-01,1287,01,Inbound,4233092,4225660,Massachusetts Ave @ Holyoke St,14,18,-4
+81,2014-03-01,1292,01,Inbound,4233092,4225660,Mt Auburn St @ Putnam Ave,12,18,-6
+81,2014-03-01,1296,01,Inbound,4233092,4225660,Massachusetts Ave @ Pearl St,11,18,-7
+81,2014-03-01,1302,01,Inbound,4233092,4225660,84 Massachusetts Ave,9,18,-9
+81,2014-03-01,1308,01,Inbound,4233092,4225660,Massachusetts Ave @ Newbury St,9,18,-9
+81,2014-03-01,1312,01,Inbound,4233092,4225660,Massachusetts Ave @ Massachusetts Ave Station,8,18,-10
+81,2014-03-01,1315,01,Inbound,4233092,4225660,Massachusetts Ave @ Washington St,8,18,-10
+81,2014-03-01,1319,01,Inbound,4233092,4225660,Washington St @ Williams St,9,18,-9
+81,2014-03-01,1321,01,Inbound,4233092,4225660,Dudley Station,9,18,-9
+82,2014-03-01,1305,01,Inbound,4225660,4225410,Massachusetts Ave @ Holyoke St,13,18,-5
+82,2014-03-01,1310,01,Inbound,4225660,4225410,Mt Auburn St @ Putnam Ave,15,18,-3
+82,2014-03-01,1314,01,Inbound,4225660,4225410,Massachusetts Ave @ Pearl St,16,18,-2
+82,2014-03-01,1320,01,Inbound,4225660,4225410,84 Massachusetts Ave,17,18,-1
+82,2014-03-01,1326,01,Inbound,4225660,4225410,Massachusetts Ave @ Newbury St,16,18,-2
+82,2014-03-01,1330,01,Inbound,4225660,4225410,Massachusetts Ave @ Massachusetts Ave Station,15,18,-3
+82,2014-03-01,1333,01,Inbound,4225660,4225410,Massachusetts Ave @ Washington St,13,18,-5
+82,2014-03-01,1337,01,Inbound,4225660,4225410,Washington St @ Williams St,9,18,-9
+82,2014-03-01,1339,01,Inbound,4225660,4225410,Dudley Station,9,18,-9
+83,2014-03-01,1323,01,Inbound,4225410,4225708,Massachusetts Ave @ Holyoke St,17,18,-1
+83,2014-03-01,1328,01,Inbound,4225410,4225708,Mt Auburn St @ Putnam Ave,19,18,1
+83,2014-03-01,1332,01,Inbound,4225410,4225708,Massachusetts Ave @ Pearl St,19,18,1
+83,2014-03-01,1338,01,Inbound,4225410,4225708,84 Massachusetts Ave,19,18,1
+83,2014-03-01,1344,01,Inbound,4225410,4225708,Massachusetts Ave @ Newbury St,18,18,0
+83,2014-03-01,1348,01,Inbound,4225410,4225708,Massachusetts Ave @ Massachusetts Ave Station,19,18,1
+83,2014-03-01,1351,01,Inbound,4225410,4225708,Massachusetts Ave @ Washington St,19,18,1
+83,2014-03-01,1355,01,Inbound,4225410,4225708,Washington St @ Williams St,22,18,4
+83,2014-03-01,1357,01,Inbound,4225410,4225708,Dudley Station,22,18,4
+84,2014-03-01,1341,01,Inbound,4225708,4233094,Massachusetts Ave @ Holyoke St,39,36,3
+84,2014-03-01,1346,01,Inbound,4225708,4233094,Mt Auburn St @ Putnam Ave,36,35,1
+84,2014-03-01,1350,01,Inbound,4225708,4233094,Massachusetts Ave @ Pearl St,35,35,0
+84,2014-03-01,1356,01,Inbound,4225708,4233094,84 Massachusetts Ave,34,33,1
+84,2014-03-01,1362,01,Inbound,4225708,4233094,Massachusetts Ave @ Newbury St,34,32,2
+84,2014-03-01,1366,01,Inbound,4225708,4233094,Massachusetts Ave @ Massachusetts Ave Station,33,32,1
+84,2014-03-01,1369,01,Inbound,4225708,4233094,Massachusetts Ave @ Washington St,36,32,4
+84,2014-03-01,1373,01,Inbound,4225708,4233094,Washington St @ Williams St,35,30,5
+84,2014-03-01,1375,01,Inbound,4225708,4233094,Dudley Station,35,31,4
+85,2014-03-01,1377,01,Inbound,4233094,4225662,Massachusetts Ave @ Holyoke St,18,18,0
+85,2014-03-01,1381,01,Inbound,4233094,4225662,Mt Auburn St @ Putnam Ave,21,18,3
+85,2014-03-01,1385,01,Inbound,4233094,4225662,Massachusetts Ave @ Pearl St,21,18,3
+85,2014-03-01,1389,01,Inbound,4233094,4225662,84 Massachusetts Ave,22,18,4
+85,2014-03-01,1394,01,Inbound,4233094,4225662,Massachusetts Ave @ Newbury St,23,18,5
+85,2014-03-01,1398,01,Inbound,4233094,4225662,Massachusetts Ave @ Massachusetts Ave Station,24,18,6
+85,2014-03-01,1401,01,Inbound,4233094,4225662,Massachusetts Ave @ Washington St,22,18,4
+85,2014-03-01,1403,01,Inbound,4233094,4225662,Washington St @ Williams St,22,18,4
+85,2014-03-01,1406,01,Inbound,4233094,4225662,Dudley Station,22,18,4
+86,2014-03-01,1395,01,Inbound,4225662,4225745,Massachusetts Ave @ Holyoke St,21,18,3
+86,2014-03-01,1399,01,Inbound,4225662,4225745,Mt Auburn St @ Putnam Ave,15,18,-3
+86,2014-03-01,1403,01,Inbound,4225662,4225745,Massachusetts Ave @ Pearl St,17,18,-1
+86,2014-03-01,1407,01,Inbound,4225662,4225745,84 Massachusetts Ave,18,18,0
+86,2014-03-01,1412,01,Inbound,4225662,4225745,Massachusetts Ave @ Newbury St,17,18,-1
+86,2014-03-01,1416,01,Inbound,4225662,4225745,Massachusetts Ave @ Massachusetts Ave Station,16,18,-2
+86,2014-03-01,1419,01,Inbound,4225662,4225745,Massachusetts Ave @ Washington St,17,18,-1
+86,2014-03-01,1421,01,Inbound,4225662,4225745,Washington St @ Williams St,16,18,-2
+86,2014-03-01,1424,01,Inbound,4225662,4225745,Dudley Station,16,18,-2
+87,2014-03-01,1413,01,Inbound,4225745,4225710,Massachusetts Ave @ Holyoke St,11,22,-11
+87,2014-03-01,1417,01,Inbound,4225745,4225710,Mt Auburn St @ Putnam Ave,21,22,-1
+87,2014-03-01,1421,01,Inbound,4225745,4225710,Massachusetts Ave @ Pearl St,20,22,-2
+87,2014-03-01,1425,01,Inbound,4225745,4225710,84 Massachusetts Ave,20,22,-2
+87,2014-03-01,1430,01,Inbound,4225745,4225710,Massachusetts Ave @ Newbury St,20,22,-2
+87,2014-03-01,1434,01,Inbound,4225745,4225710,Massachusetts Ave @ Massachusetts Ave Station,21,22,-1
+87,2014-03-01,1437,01,Inbound,4225745,4225710,Massachusetts Ave @ Washington St,19,22,-3
+87,2014-03-01,1439,01,Inbound,4225745,4225710,Washington St @ Williams St,21,22,-1
+87,2014-03-01,1442,01,Inbound,4225745,4225710,Dudley Station,20,22,-2
+88,2014-03-01,1435,01,Inbound,4225710,4225664,Massachusetts Ave @ Holyoke St,39,25,14
+88,2014-03-01,1439,01,Inbound,4225710,4225664,Mt Auburn St @ Putnam Ave,29,25,4
+88,2014-03-01,1443,01,Inbound,4225710,4225664,Massachusetts Ave @ Pearl St,28,25,3
+88,2014-03-01,1447,01,Inbound,4225710,4225664,84 Massachusetts Ave,27,25,2
+88,2014-03-01,1452,01,Inbound,4225710,4225664,Massachusetts Ave @ Newbury St,27,25,2
+88,2014-03-01,1456,01,Inbound,4225710,4225664,Massachusetts Ave @ Massachusetts Ave Station,27,25,2
+88,2014-03-01,1459,01,Inbound,4225710,4225664,Massachusetts Ave @ Washington St,28,25,3
+88,2014-03-01,1461,01,Inbound,4225710,4225664,Washington St @ Williams St,27,25,2
+88,2014-03-01,1464,01,Inbound,4225710,4225664,Dudley Station,28,25,3
+89,2014-03-01,1460,01,Inbound,4225664,4225747,Massachusetts Ave @ Holyoke St,9,25,-16
+89,2014-03-01,1464,01,Inbound,4225664,4225747,Mt Auburn St @ Putnam Ave,22,25,-3
+89,2014-03-01,1468,01,Inbound,4225664,4225747,Massachusetts Ave @ Pearl St,20,25,-5
+89,2014-03-01,1472,01,Inbound,4225664,4225747,84 Massachusetts Ave,19,25,-6
+89,2014-03-01,1477,01,Inbound,4225664,4225747,Massachusetts Ave @ Newbury St,18,25,-7
+89,2014-03-01,1481,01,Inbound,4225664,4225747,Massachusetts Ave @ Massachusetts Ave Station,17,25,-8
+89,2014-03-01,1484,01,Inbound,4225664,4225747,Massachusetts Ave @ Washington St,16,25,-9
+89,2014-03-01,1486,01,Inbound,4225664,4225747,Washington St @ Williams St,15,25,-10
+89,2014-03-01,1489,01,Inbound,4225664,4225747,Dudley Station,14,25,-11

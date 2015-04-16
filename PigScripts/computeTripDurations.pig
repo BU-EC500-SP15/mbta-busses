@@ -1,7 +1,7 @@
 SET default_parallel 10;
 
 --ReadData into Tuple
-RawData = load '$csvfile' using PigStorage(',') as (UNIQUE_ID, ServiceDate, RouteName:int, TripID:int, Block,
+RawData = load '$csvfile' using PigStorage(',') as (UNIQUE_ID, ServiceDate:chararray, RouteName:int, TripID:int, Block,
 	RouteDirectionName:chararray, PatternName, StopOffset, StopName, Latitude, Longitude, MapLatitude, MapLongitude,
 	MDTLatitude, MDTLongitude,ScheduledTimeInMin:int,ActArrivalTimeInMin:int,ActDepartureTimeInMin:int,ScheduledTime:chararray, ActArrivalTime:chararray, ActDepartureTime:chararray,
 	Variation, Vehicle, IsRevenue, CROSSING_TYPE_ID);
@@ -18,21 +18,21 @@ FilterData = FILTER FilterData BY (ScheduledTimeInMin >= $begin) AND (ScheduledT
 
 --Filter data necessary for visualizations 
 FilterData = FOREACH FilterData GENERATE TripID, RouteName, RouteDirectionName, PatternName,
-	                                 ScheduledTime,
+	                                 ScheduledTime,ServiceDate,
 	                                 ActArrivalTime, ActArrivalTimeInMin as ActArrivalT,
 	                                 ActDepartureTime, ActDepartureTimeInMin as ActDepartureT,
 	                                 StopName, CROSSING_TYPE_ID;
 
---Order data to list crossing points in the same trip in order 
--- OrderedData = Order FilterData by RouteName, RouteDirectionName, TripID, PatternName, ScheduledTime;  
--- DESCRIBE OrderedData;
-
 --store OrderedData into 'OrderedData';
 
-GroupedData = Group FilterData by (RouteName, RouteDirectionName, TripID, PatternName);
+GroupedData = Group FilterData by (RouteName, RouteDirectionName, TripID, PatternName, ServiceDate);
 
-tripDurations = FOREACH GroupedData GENERATE group.RouteName as RouteName, group.RouteDirectionName as RouteDirectionName, group.TripID as TripID, group.PatternName as PatternName, MIN(FilterData.ScheduledTime) as StartTime, MAX(FilterData.ActDepartureT) - MIN(FilterData.ActArrivalT) as tripDurationInMins;
+tripDurations = FOREACH GroupedData GENERATE group.RouteName as RouteName, group.RouteDirectionName as RouteDirectionName, group.TripID as TripID, group.PatternName as PatternName, 
+group.ServiceDate as ServiceDate, MIN(FilterData.ScheduledTime) as StartTime, MAX(FilterData.ActDepartureT) - (int)MIN(FilterData.ActArrivalT) as tripDurationInMins:int;
 
-tripDurations = Order tripDurations by RouteName, RouteDirectionName, TripID, PatternName, StartTime PARALLEL 10; 
+tripDurationsByDay = Group tripDurations by (RouteName, RouteDirectionName, ServiceDate);
 
-store tripDurations into 'tripDurations' USING PigStorage('\t') PARALLEL 1;
+ResultData = FOREACH tripDurationsByDay GENERATE group.RouteName, group.RouteDirectionName, group.ServiceDate, ROUND(AVG(tripDurations.tripDurationInMins)) PARALLEL 10;
+trip = Order ResultData by RouteName, RouteDirectionName,ServiceDate PARALLEL 10;
+
+store trip into 'tripDurations' USING PigStorage('\t') PARALLEL 1;

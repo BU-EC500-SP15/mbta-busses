@@ -27,12 +27,13 @@ FilterData = FOREACH FilterData
 						ActArrivalTimeInMin, ActDepartureTimeInMin, StopName;
 
 -- Group the data
-GroupedData = GROUP FilterData BY (RouteName, RouteDirectionName, TripID, PatternName);
+GroupedData = GROUP FilterData BY (RouteName, RouteDirectionName, TripID, PatternName,ServiceDate);
 
 -- Select the minimum ScheduledTimeInMin as start time for each trip
 TripData = FOREACH GroupedData
 				GENERATE group.TripID AS TripID,
-						MIN(FilterData.ScheduledTimeInMin) AS TripStartTime;
+						MIN(FilterData.ScheduledTimeInMin) AS TripStartTime,
+						group.ServiceDate AS ServiceDate;
 
 OrderedByTrip = ORDER TripData BY TripStartTime;
 
@@ -42,7 +43,7 @@ rankTripHeadwayStart = RANK OrderedByTrip;
 -- Minus the rank_id for the following JOIN operation
 rankTripHeadwayEnd = FOREACH rankTripHeadwayStart
 						GENERATE rank_OrderedByTrip-1 AS rank_OrderedByTrip,
-								TripID, TripStartTime;
+								TripID, TripStartTime, ServiceDate;
 
 TripStart = JOIN rankTripHeadwayStart BY TripID Left,
 				 FilterData BY TripID;
@@ -55,7 +56,7 @@ TripsJOIN = JOIN TripStart BY (rank_OrderedByTrip, StopName),
 
 Headway = FOREACH TripsJOIN
 				GENERATE TripStart::rankTripHeadwayStart::rank_OrderedByTrip AS HeadwayId,
-						'$DATE' AS ServiceDate,
+						TripStart::FilterData::ServiceDate AS ServiceDate,
 						TripStart::FilterData::ScheduledTimeInMin AS StartTimeInMin,
 						TripStart::FilterData::RouteName AS RouteName,
 						TripStart::FilterData::RouteDirectionName AS RouteDirectionName,
@@ -64,14 +65,19 @@ Headway = FOREACH TripsJOIN
 						TripStart::FilterData::StopName AS StopName,
 						TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin AS ActHeadway,
 						TripEnd::FilterData::ScheduledTimeInMin - TripStart::FilterData::ScheduledTimeInMin AS ScheduledHeadway,
-						TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin - TripEnd::FilterData::ScheduledTimeInMin + TripStart::FilterData::ScheduledTimeInMin AS HeadwayDifference;
+						ABS(TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin - TripEnd::FilterData::ScheduledTimeInMin + TripStart::FilterData::ScheduledTimeInMin) AS HeadwayDifference;
+						
 
-Headway = ORDER Headway BY HeadwayId, StartTimeInMin;
+--STORE Headway INTO 'HeadwayByTrip' USING PigStorage('\t') PARALLEL 1;
 
-STORE Headway INTO 'HeadwayByTrip' USING PigStorage('\t') PARALLEL 1;
+HeadwayResult = Group Headway by (RouteName, RouteDirectionName, ServiceDate, Trip_1);
+avgTripDifference = FOREACH HeadwayResult GENERATE group.RouteName as RouteName, group.RouteDirectionName as RouteDirectionName,
+	               group.Trip_1 as Trip_1,
+				   group.ServiceDate as ServiceDate,
+	               AVG(Headway.ActHeadway) as avgHeadway,
+				   AVG(Headway.ScheduledHeadway) as avgScheduledHeadway,
+				   AVG(Headway.HeadwayDifference) as avgHeadwayDifference  PARALLEL 10;
 
---rmf Headway.csv;
---STORE Headway INTO '/Headway.csv' USING org.apache.pig.piggybank.storage.CSVExcelStorage(',', 'NO_MULTILINE', 'WINDOWS');
+avgTripDifference = order avgTripDifference by RouteName, RouteDirectionName, ServiceDate, Trip_1 PARALLEL 1; 
 
---DESCRIBE Headway;
---DUMP Headway;
+store avgTripDifference INTO 'HeadwayByTrip' USING PigStorage('\t') PARALLEL 1;

@@ -18,16 +18,16 @@
 	$graph_link = sprintf("%s-%s-%s-%s.html",$chartType,$route,$in_out,$date);
 	
 	if (($chartType == "lineChart") || ($chartType == "barChart")){
-		echo '<a href="/Visualizations/' . $chartType .'s/' . $graph_link . '">Your requested graph</a>';
+		echo '<a href="Visualizations/' . $chartType .'s/' . $graph_link . '">Your requested graph</a>';
 	}
 	else if ($chartType == "avgDiff")
 	{
-		echo '<a href="/Visualizations/barCharts/' . $graph_link . '">Your requested graph</a>';
+		echo '<a href="Visualizations/barCharts/' . $graph_link . '">Your requested graph</a>';
 
 	}
 	else//headway
 	{
-		echo '<a href="/Visualizations/headway_lineCharts/' . $graph_link . '">Your requested graph</a>';
+		echo '<a href="Visualizations/headway_lineCharts/' . $graph_link . '">Your requested graph</a>';
 	}
 ?>
 
