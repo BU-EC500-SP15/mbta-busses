@@ -20,8 +20,7 @@ echo "Deleting the old Result..."
 hadoop fs -rmr $HADOOP_PATH/$OUTPUT_PATH_NAME
 
 echo "Doing Pig Script..."
-pig  -p "csvfile="$input_path"" -p "begin=$2" -p "end=$3" -p "startDate=$4" -p "endDate=$5" $SCRIPT_PATH/RunTime.pig
-
+pig  -p "csvfile="$input_path"" -p "begin=$2" -p "end=$3" -p "beginDate="$4"" -p "endDate="$5"" $SCRIPT_PATH/RunTime.pig
 
 echo "Copy File to LocalDisk..."
 dire=$LOCAL_RESULT_PATH/$OUTPUT_PATH_NAME/temp
@@ -35,4 +34,9 @@ fi
 
 echo "Get Result to LocalDisk ..."
 hadoop fs -get $HADOOP_PATH/$OUTPUT_PATH_NAME/part-* $dire
+
+echo "Move the Original File to bak"
+mv -f $LOCAL_RESULT_PATH/$OUTPUT_PATH_NAME/$OUTPUT_PATH_NAME_$1_$2_$3_$4_$5.tsv $LOCAL_RESULT_PATH/$OUTPUT_PATH_NAME/$OUTPUT_PATH_NAME_$1_$2_$3_$4_$5.tsv.bak
+
+echo "Writing Result to File"
 cat $dire/* >>$LOCAL_RESULT_PATH/$OUTPUT_PATH_NAME/$OUTPUT_PATH_NAME_$1_$2_$3_$4_$5.tsv

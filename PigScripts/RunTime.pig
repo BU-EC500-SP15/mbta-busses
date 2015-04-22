@@ -13,7 +13,7 @@ FilterData = FILTER RawData BY (RouteName == 27) OR (RouteName == 15) OR (RouteN
 			OR (RouteName == 71) OR (RouteName == 73) OR (RouteName == 77)
 			OR (RouteName == 111) OR (RouteName == 116) OR (RouteName == 117);
 
-FilterData = FILTER FilterData BY (ServiceDate >= ToDate($beginDate)) AND (ServiceDate <= ToDate($endDate));			
+FilterData = FILTER FilterData BY (ServiceDate >= ToDate('$beginDate')) AND (ServiceDate <= ToDate('$endDate'));			
 FilterData = FILTER FilterData BY (ScheduledTimeInMin >= $begin) AND (ScheduledTimeInMin <= $end);
 
 
@@ -29,12 +29,12 @@ FilterData = FOREACH FilterData GENERATE TripID, RouteName, RouteDirectionName, 
 GroupedData = Group FilterData by (RouteName, RouteDirectionName, TripID, PatternName);
 
 tripDurations = FOREACH GroupedData GENERATE group.RouteName as RouteName, group.RouteDirectionName as RouteDirectionName, group.TripID as TripID, group.PatternName as PatternName, 
-MIN(FilterData.SchArrivalT) as StartTime, MAX(FilterData.ActDepartureT) - (int)MIN(FilterData.ActArrivalT) as tripDurationInMins:int;
+MIN(FilterData.SchArrivalT) / 60  as StartTimeField, MAX(FilterData.ActDepartureT) - (int)MIN(FilterData.ActArrivalT) as tripDurationInMins:int;
 
-tripDurationsByDay = Group tripDurations by (RouteName, RouteDirectionName, StartTime);
+tripDurationsByDay = Group tripDurations by (RouteName, RouteDirectionName, StartTimeField);
 
-ResultData = FOREACH tripDurationsByDay GENERATE group.RouteName, group.RouteDirectionName, group.StartTime, ROUND(AVG(tripDurations.tripDurationInMins));
+ResultData = FOREACH tripDurationsByDay GENERATE group.RouteName, group.RouteDirectionName, group.StartTimeField, ROUND(AVG(tripDurations.tripDurationInMins));
 
-trip = Order ResultData by RouteName, RouteDirectionName,StartTime;
+trip = Order ResultData by RouteName, RouteDirectionName,StartTimeField;
 
 store trip into 'tripDurations' USING PigStorage('\t');
