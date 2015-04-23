@@ -18,7 +18,8 @@ RawData = load '$csvfile' using PigStorage(',') as (UNIQUE_ID, ServiceDate, Rout
 	MDTLatitude, MDTLongitude,ScheduledTimeInMin:int,ActArrivalTimeInMin:int,ActDepartureTimeInMin:int,ScheduledTime:chararray, ActArrivalTime:chararray, ActDepartureTime:chararray,
 	Variation, Vehicle, IsRevenue, CROSSING_TYPE_ID);
 	
-FilterData = FILTER RawData BY (ScheduledTimeInMin >= $begin) AND (ScheduledTimeInMin <= $end);
+FilterData = FILTER FilterData BY (ServiceDate >= ToDate('$beginDate')) AND (ServiceDate <= ToDate('$endDate'));			
+FilterData = FILTER FilterData BY (ScheduledTimeInMin >= $begin) AND (ScheduledTimeInMin <= $end);
 
 -- Select useful columns
 FilterData = FOREACH FilterData
@@ -67,17 +68,22 @@ Headway = FOREACH TripsJOIN
 						TripEnd::FilterData::ScheduledTimeInMin - TripStart::FilterData::ScheduledTimeInMin AS ScheduledHeadway,
 						ABS(TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin - TripEnd::FilterData::ScheduledTimeInMin + TripStart::FilterData::ScheduledTimeInMin) AS HeadwayDifference;
 						
-
---STORE Headway INTO 'HeadwayByTrip' USING PigStorage('\t') PARALLEL 1;
-
 HeadwayResult = Group Headway by (RouteName, RouteDirectionName, ServiceDate, Trip_1);
 avgTripDifference = FOREACH HeadwayResult GENERATE group.RouteName as RouteName, group.RouteDirectionName as RouteDirectionName,
 	               group.Trip_1 as Trip_1,
 				   group.ServiceDate as ServiceDate,
 	               AVG(Headway.ActHeadway) as avgHeadway,
 				   AVG(Headway.ScheduledHeadway) as avgScheduledHeadway,
-				   AVG(Headway.HeadwayDifference) as avgHeadwayDifference  PARALLEL 10;
+				   AVG(Headway.HeadwayDifference) as avgHeadwayDifference
+				   HeadWay.StartTimeInMin / 60 as StartTimeField;
+				   
+HeadwayByTimeField = Group avgTripDifference by (RouteName, RouteDirectionName, StartTimeField);
 
-avgTripDifference = order avgTripDifference by RouteName, RouteDirectionName, Trip_1, ServiceDate  PARALLEL 1; 
+ResultData = FOREACH HeadwayByTimeField GENERATE group.RouteName, group.RouteDirectionName, group.StartTimeField,
+												 AVG(avgTripDifference.avgHeadway)
+												 AVG(avgTripDifference.avgScheduledHeadway),
+												 AVG(avgTripDifference.avgHeadwayDifference);
 
-store avgTripDifference INTO 'HeadwayByTrip' USING PigStorage('\t') PARALLEL 1;
+HeadWayAVGByTimeField = Order ResultData by RouteName, RouteDirectionName,StartTimeField;				   
+
+store HeadWayAVGByTimeField INTO 'HeadwayByTrip' USING PigStorage('\t');

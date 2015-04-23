@@ -38,4 +38,4 @@ ResultData = FOREACH tripDurationsByDay GENERATE group.RouteName, group.RouteDir
 
 trip = Order ResultData by RouteName, RouteDirectionName,StartTimeField;
 
-store trip into 'tripDurations' USING PigStorage('\t');
+store trip into 'DiffTime' USING PigStorage('\t');
