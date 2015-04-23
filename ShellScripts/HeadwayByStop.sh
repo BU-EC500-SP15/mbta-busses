@@ -21,7 +21,7 @@ hadoop fs -rmr $HADOOP_PATH/$OUTPUT_PATH_NAME
 
 echo "Doing Pig Script..."
 #pig  $SCRIPT_PATH/computeAvgTripDiffFromSched.pig
-pig  -p "csvfile="$input_path"" -p "begin=$2" -p "end=$3" $SCRIPT_PATH/computeHeadwayByStop.pig
+pig  -p "csvfile="$input_path"" -p "begin=$2" -p "end=$3" $SCRIPT_PATH/HeadwayByStop.pig
 
 
 echo "Copy File to LocalDisk..."
