@@ -3,7 +3,7 @@ SCRIPT_PATH=/home/hadoop/mbta-busses/PigScripts
 DATA_PATH=/home/hadoop/MBTADataSet
 HADOOP_PATH=/user/hadoop
 LOCAL_RESULT_PATH=/home/hadoop/Result
-OUTPUT_PATH_NAME=DiffTime
+OUTPUT_PATH_NAME=RunTime
 
 if [ $# != 5 ] ; then 
 	echo "USAGE: $0 csv File in the Cluster, Begin Time(min), End Time(min), BeginDate, EndDate(not include)" 
@@ -20,7 +20,7 @@ echo "Deleting the old Result..."
 hadoop fs -rmr $HADOOP_PATH/$OUTPUT_PATH_NAME
 
 echo "Doing Pig Script..."
-pig  -p "csvfile="$input_path"" -p "begin=$2" -p "end=$3" -p "beginDate="$4"" -p "endDate="$5"" $SCRIPT_PATH/DiffTime.pig
+pig  -p "csvfile="$input_path"" -p "begin=$2" -p "end=$3" -p "beginDate="$4"" -p "endDate="$5"" $SCRIPT_PATH/RunTime.pig
 
 echo "Copy File to LocalDisk..."
 dire=$LOCAL_RESULT_PATH/$OUTPUT_PATH_NAME/temp
