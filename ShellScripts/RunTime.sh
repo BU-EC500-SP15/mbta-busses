@@ -3,7 +3,7 @@ SCRIPT_PATH=/home/hadoop/mbta-busses/PigScripts
 DATA_PATH=/home/hadoop/MBTADataSet
 HADOOP_PATH=/user/hadoop
 LOCAL_RESULT_PATH=/home/hadoop/Result
-OUTPUT_PATH_NAME=tripDurations
+OUTPUT_PATH_NAME=RunTime
 
 if [ $# != 5 ] ; then 
 	echo "USAGE: $0 csv File in the Cluster, Begin Time(min), End Time(min), BeginDate, EndDate(not include)" 

@@ -22,6 +22,7 @@ FilterData = FOREACH FilterData GENERATE TripID, RouteName, RouteDirectionName, 
 	                                 ActArrivalTime, ActArrivalTimeInMin as ActArrivalT,
 	                                 ActDepartureTime, ActDepartureTimeInMin as ActDepartureT,
 									 ScheduledTime,ScheduledTimeInMin as SchArrivalT,
+									 (int)ABS(ScheduledTimeInMin - ActArrivalTimeInMin) as diffT,
 	                                 StopName, CROSSING_TYPE_ID;
 
 --store OrderedData into 'OrderedData';
@@ -29,11 +30,11 @@ FilterData = FOREACH FilterData GENERATE TripID, RouteName, RouteDirectionName, 
 GroupedData = Group FilterData by (RouteName, RouteDirectionName, TripID, PatternName);
 
 tripDurations = FOREACH GroupedData GENERATE group.RouteName as RouteName, group.RouteDirectionName as RouteDirectionName, group.TripID as TripID, group.PatternName as PatternName, 
-MIN(FilterData.SchArrivalT) / 60  as StartTimeField, MAX(FilterData.ActDepartureT) - (int)MIN(FilterData.ActArrivalT) as tripDurationInMins:int;
+MIN(FilterData.SchArrivalT) / 60  as StartTimeField, AVG(FilterData.diffT) as tripDifference;
 
 tripDurationsByDay = Group tripDurations by (RouteName, RouteDirectionName, StartTimeField);
 
-ResultData = FOREACH tripDurationsByDay GENERATE group.RouteName, group.RouteDirectionName, group.StartTimeField, ROUND(AVG(tripDurations.tripDurationInMins));
+ResultData = FOREACH tripDurationsByDay GENERATE group.RouteName, group.RouteDirectionName, group.StartTimeField, AVG(tripDurations.tripDifference);
 
 trip = Order ResultData by RouteName, RouteDirectionName,StartTimeField;
 
