@@ -30,7 +30,7 @@ FilterData = FOREACH FilterData GENERATE TripID, RouteName, RouteDirectionName, 
 GroupedData = Group FilterData by (RouteName, RouteDirectionName, TripID, PatternName);
 
 tripDurations = FOREACH GroupedData GENERATE group.RouteName as RouteName, group.RouteDirectionName as RouteDirectionName, group.TripID as TripID, group.PatternName as PatternName, 
-MIN(FilterData.SchArrivalT) / 60  as StartTimeField, AVG(FilterData.diffT) as tripDifference;
+MIN(FilterData.SchArrivalT) / 10  as StartTimeField, AVG(FilterData.diffT) as tripDifference;
 
 tripDurationsByDay = Group tripDurations by (RouteName, RouteDirectionName, StartTimeField);
 
