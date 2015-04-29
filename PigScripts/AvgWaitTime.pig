@@ -65,13 +65,13 @@ Headway = FOREACH TripsJOIN
 						TripStart::rankTripHeadwayStart::TripID AS Trip_1,
 						TripEnd::rankTripHeadwayEnd::TripID AS Trip_2,
 						TripStart::FilterData::StopName AS StopName,
-						TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin AS ActHeadway,
-                        TripEnd::FilterData::ScheduledTimeInMin - TripStart::FilterData::ScheduledTimeInMin AS ScheduledHeadway,
-						TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin - TripEnd::FilterData::ScheduledTimeInMin + TripStart::FilterData::ScheduledTimeInMin AS HeadwayDifference;
+						ABS(TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin) AS ActHeadway,
+                        ABS(TripEnd::FilterData::ScheduledTimeInMin - TripStart::FilterData::ScheduledTimeInMin) AS ScheduledHeadway,
+						ABS(TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin - TripEnd::FilterData::ScheduledTimeInMin + TripStart::FilterData::ScheduledTimeInMin) AS HeadwayDifference;
 
 HeadwayGroup = GROUP Headway BY (RouteName, RouteDirectionName,StartTimeInMin)
 
-AvgHeadway = FOREACH HeadwayGroup GENERATE group.RouteName, group.RouteDirectionName, AVG(Headway.ScheduledHeadway) AS AvgScheduledHeadway, AVG(Headway.ActHeadway) AS AvgActHeadway
+AvgWaitTime = FOREACH HeadwayGroup GENERATE group.RouteName, group.RouteDirectionName, AVG(Headway.ScheduledHeadway*Headway.ScheduledHeadway/2) AS AvgScheduledWaitTime, AVG(Headway.ActHeadway*Headway.ActHeadway/2) AS AvgActWaitTime
 
 rmf /user/hadoop/HeadwayForTripsOutput
 --STORE Headway INTO '/Headway.csv' USING org.apache.pig.piggybank.storage.CSVExcelStorage(',', 'NO_MULTILINE', 'WINDOWS');
