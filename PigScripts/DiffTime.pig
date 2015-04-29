@@ -23,9 +23,11 @@ FilterData = FOREACH FilterData GENERATE TripID, RouteName, RouteDirectionName, 
 	                                 ActDepartureTime, ActDepartureTimeInMin as ActDepartureT,
 									 ScheduledTime,ScheduledTimeInMin as SchArrivalT,
 									 (int)ABS(ScheduledTimeInMin - ActArrivalTimeInMin) as diffT,
-	                                 StopName, CROSSING_TYPE_ID;
+	                                 StopName, CROSSING_TYPE_ID, 
+									 (DaysBetween(ServiceDate ,ToDate(0L)) + 4L) % 7  as Days;
 
 --store OrderedData into 'OrderedData';
+FilterData = FILTER FilterData BY (Days >= 1) AND (Days <= 5);
 
 GroupedData = Group FilterData by (RouteName, RouteDirectionName, TripID, PatternName);
 
