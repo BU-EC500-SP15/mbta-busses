@@ -17,9 +17,11 @@ FilterData = FILTER FilterData BY ServiceDate >= ToDate('$beginDate') AND Servic
 			
 -- Select useful columns
 FilterData = FOREACH FilterData GENERATE ServiceDate, TripID, RouteName,
-			RouteDirectionName, PatternName, ScheduledTimeInMin, ActArrivalTimeInMin, ActDepartureTimeInMin, StopName;
+			RouteDirectionName, PatternName, ScheduledTimeInMin, ActArrivalTimeInMin, ActDepartureTimeInMin, StopName
+			,(DaysBetween(ServiceDate ,ToDate(0L)) + 4L) % 7  as Days;
 
 -- Group the data
+FilterData = FILTER FilterData BY (Days >= 1) AND (Days <= 5);
 GroupedData = GROUP FilterData BY (ServiceDate, RouteName, RouteDirectionName, TripID, PatternName);
 
 -- Select the minimum ScheduledTimeInMin as start time for each trip
@@ -73,9 +75,9 @@ HeadwayGroup = GROUP Headway BY (RouteName, RouteDirectionName,StartTimeInMin);
 
 AvgHeadway = FOREACH HeadwayGroup GENERATE group.RouteName AS RouteName,
 		group.RouteDirectionName AS RouteDirectionName, group.StartTimeInMin AS ScheduledTimeInMin,
-		AVG(Headway.ScheduledHeadway) AS AvgScheduledHeadway, AVG(Headway.ActHeadway) AS AvgActHeadway;
+		AVG(Headway.ScheduledHeadway) AS AvgScheduledHeadway, AVG(Headway.ActHeadway) AS AvgActHeadway,
+		AVG(Headway.HeadwayDifference) AS AvgHeadwayDifference;
 
 AvgHeadway = ORDER AvgHeadway BY RouteName,RouteDirectionName,ScheduledTimeInMin;
 
-rmf /user/hadoop/AvgHeadwayTest;
-STORE AvgHeadway INTO '/user/hadoop/AvgHeadwayTest' USING org.apache.pig.piggybank.storage.CSVExcelStorage('\t', 'NO_MULTILINE', 'WINDOWS');
+store AvgHeadway into 'Headway' USING PigStorage('\t');

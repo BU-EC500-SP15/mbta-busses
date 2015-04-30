@@ -27,6 +27,7 @@ FilterData = FOREACH FilterData GENERATE TripID, RouteName, RouteDirectionName, 
 
 --store OrderedData into 'OrderedData';
 FilterData = FILTER FilterData BY (Days >= 1) AND (Days <= 5);
+
 GroupedData = Group FilterData by (RouteName, RouteDirectionName, TripID, PatternName);
 
 tripDurations = FOREACH GroupedData GENERATE group.RouteName as RouteName, group.RouteDirectionName as RouteDirectionName, group.TripID as TripID, group.PatternName as PatternName, 
