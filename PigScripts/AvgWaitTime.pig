@@ -65,13 +65,16 @@ Headway = FOREACH TripsJOIN
 						TripStart::rankTripHeadwayStart::TripID AS Trip_1,
 						TripEnd::rankTripHeadwayEnd::TripID AS Trip_2,
 						TripStart::FilterData::StopName AS StopName,
-						ABS(TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin) AS ActHeadway,
-                        ABS(TripEnd::FilterData::ScheduledTimeInMin - TripStart::FilterData::ScheduledTimeInMin) AS ScheduledHeadway,
-						ABS(TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin - TripEnd::FilterData::ScheduledTimeInMin + TripStart::FilterData::ScheduledTimeInMin) AS HeadwayDifference;
+						TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin AS ActHeadway,
+                        TripEnd::FilterData::ScheduledTimeInMin - TripStart::FilterData::ScheduledTimeInMin AS ScheduledHeadway,
+						TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin - TripEnd::FilterData::ScheduledTimeInMin + TripStart::FilterData::ScheduledTimeInMin AS HeadwayDifference;
 
-HeadwayGroup = GROUP Headway BY (RouteName, RouteDirectionName,StartTimeInMin)
+HeadwayGroup = GROUP Headway BY (RouteName, RouteDirectionName,StartTimeInMin);
 
-AvgWaitTime = FOREACH HeadwayGroup GENERATE group.RouteName, group.RouteDirectionName, AVG(Headway.ScheduledHeadway*Headway.ScheduledHeadway/2) AS AvgScheduledWaitTime, AVG(Headway.ActHeadway*Headway.ActHeadway/2) AS AvgActWaitTime
+AvgWaitTime = FOREACH HeadwayGroup GENERATE group.RouteName AS RouteName, group.RouteDirectionName AS RouteDirectionName,
+		AVG(Headway.ScheduledHeadway*Headway.ScheduledHeadway/2) AS AvgScheduledWaitTime, AVG(Headway.ActHeadway*Headway.ActHeadway/2) AS AvgActWaitTime;
 
-rmf /user/hadoop/HeadwayForTripsOutput
---STORE Headway INTO '/Headway.csv' USING org.apache.pig.piggybank.storage.CSVExcelStorage(',', 'NO_MULTILINE', 'WINDOWS');
+AvgWaitTime = ORDER AvgWaitTime BY RouteName,RouteDirectionName,ScheduledTimeInMin;
+
+rmf /user/hadoop/AvgWaitTimeOutput
+STORE Headway INTO '/user/hadoop/AvgWaitTimeOutput' USING org.apache.pig.piggybank.storage.CSVExcelStorage('\t', 'NO_MULTILINE', 'WINDOWS');

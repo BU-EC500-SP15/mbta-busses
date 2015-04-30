@@ -69,9 +69,13 @@ Headway = FOREACH TripsJOIN
                         TripEnd::FilterData::ScheduledTimeInMin - TripStart::FilterData::ScheduledTimeInMin AS ScheduledHeadway,
 						TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin - TripEnd::FilterData::ScheduledTimeInMin + TripStart::FilterData::ScheduledTimeInMin AS HeadwayDifference;
 
-HeadwayGroup = GROUP Headway BY (RouteName, RouteDirectionName,StartTimeInMin)
+HeadwayGroup = GROUP Headway BY (RouteName, RouteDirectionName,StartTimeInMin);
 
-AvgHeadway = FOREACH HeadwayGroup GENERATE group.RouteName, group.RouteDirectionName, AVG(Headway.ScheduledHeadway) AS AvgScheduledHeadway, AVG(Headway.ActHeadway) AS AvgActHeadway
+AvgHeadway = FOREACH HeadwayGroup GENERATE group.RouteName AS RouteName,
+		group.RouteDirectionName AS RouteDirectionName, group.StartTimeInMin AS ScheduledTimeInMin,
+		AVG(Headway.ScheduledHeadway) AS AvgScheduledHeadway, AVG(Headway.ActHeadway) AS AvgActHeadway;
 
-rmf /user/hadoop/HeadwayForTripsOutput
---STORE Headway INTO '/Headway.csv' USING org.apache.pig.piggybank.storage.CSVExcelStorage(',', 'NO_MULTILINE', 'WINDOWS');
+AvgHeadway = ORDER AvgHeadway BY RouteName,RouteDirectionName,ScheduledTimeInMin;
+
+rmf /user/hadoop/AvgHeadwayTest;
+STORE AvgHeadway INTO '/user/hadoop/AvgHeadwayTest' USING org.apache.pig.piggybank.storage.CSVExcelStorage('\t', 'NO_MULTILINE', 'WINDOWS');
