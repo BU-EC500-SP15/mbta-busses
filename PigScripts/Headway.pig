@@ -17,9 +17,11 @@ FilterData = FILTER FilterData BY ServiceDate >= ToDate('$beginDate') AND Servic
 			
 -- Select useful columns
 FilterData = FOREACH FilterData GENERATE ServiceDate, TripID, RouteName,
-			RouteDirectionName, PatternName, ScheduledTimeInMin, ActArrivalTimeInMin, ActDepartureTimeInMin, StopName;
+			RouteDirectionName, PatternName, ScheduledTimeInMin, ActArrivalTimeInMin, ActDepartureTimeInMin, StopName
+			,(DaysBetween(ServiceDate ,ToDate(0L)) + 4L) % 7  as Days;
 
 -- Group the data
+FilterData = FILTER FilterData BY (Days >= 1) AND (Days <= 5);
 GroupedData = GROUP FilterData BY (ServiceDate, RouteName, RouteDirectionName, TripID, PatternName);
 
 -- Select the minimum ScheduledTimeInMin as start time for each trip
@@ -69,9 +71,13 @@ Headway = FOREACH TripsJOIN
                         TripEnd::FilterData::ScheduledTimeInMin - TripStart::FilterData::ScheduledTimeInMin AS ScheduledHeadway,
 						TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin - TripEnd::FilterData::ScheduledTimeInMin + TripStart::FilterData::ScheduledTimeInMin AS HeadwayDifference;
 
-HeadwayGroup = GROUP Headway BY (RouteName, RouteDirectionName,StartTimeInMin)
+HeadwayGroup = GROUP Headway BY (RouteName, RouteDirectionName,StartTimeInMin);
 
-AvgHeadway = FOREACH HeadwayGroup GENERATE group.RouteName, group.RouteDirectionName, AVG(Headway.ScheduledHeadway) AS AvgScheduledHeadway, AVG(Headway.ActHeadway) AS AvgActHeadway
+AvgHeadway = FOREACH HeadwayGroup GENERATE group.RouteName AS RouteName,
+		group.RouteDirectionName AS RouteDirectionName, group.StartTimeInMin AS ScheduledTimeInMin,
+		AVG(Headway.ScheduledHeadway) AS AvgScheduledHeadway, AVG(Headway.ActHeadway) AS AvgActHeadway,
+		AVG(Headway.HeadwayDifference) AS AvgHeadwayDifference;
 
-rmf /user/hadoop/HeadwayForTripsOutput
---STORE Headway INTO '/Headway.csv' USING org.apache.pig.piggybank.storage.CSVExcelStorage(',', 'NO_MULTILINE', 'WINDOWS');
+AvgHeadway = ORDER AvgHeadway BY RouteName,RouteDirectionName,ScheduledTimeInMin;
+
+store AvgHeadway into 'Headway' USING PigStorage('\t');
