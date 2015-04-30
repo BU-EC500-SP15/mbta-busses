@@ -22,14 +22,15 @@ FilterData = FOREACH FilterData GENERATE TripID, RouteName, RouteDirectionName, 
 	                                 ActArrivalTime, ActArrivalTimeInMin as ActArrivalT,
 	                                 ActDepartureTime, ActDepartureTimeInMin as ActDepartureT,
 									 ScheduledTime,ScheduledTimeInMin as SchArrivalT,
-	                                 StopName, CROSSING_TYPE_ID;
+	                                 StopName, CROSSING_TYPE_ID,
+									 (DaysBetween(ServiceDate ,ToDate(0L)) + 4L) % 7  as Days;
 
 --store OrderedData into 'OrderedData';
-
+FilterData = FILTER FilterData BY (Days >= 1) AND (Days <= 5);
 GroupedData = Group FilterData by (RouteName, RouteDirectionName, TripID, PatternName);
 
 tripDurations = FOREACH GroupedData GENERATE group.RouteName as RouteName, group.RouteDirectionName as RouteDirectionName, group.TripID as TripID, group.PatternName as PatternName, 
-MIN(FilterData.SchArrivalT) / 60  as StartTimeField, MAX(FilterData.ActDepartureT) - (int)MIN(FilterData.ActArrivalT) as tripDurationInMins:int;
+MIN(FilterData.SchArrivalT) / 10  as StartTimeField, MAX(FilterData.ActDepartureT) - (int)MIN(FilterData.ActArrivalT) as tripDurationInMins:int;
 
 tripDurationsByDay = Group tripDurations by (RouteName, RouteDirectionName, StartTimeField);
 
@@ -37,4 +38,4 @@ ResultData = FOREACH tripDurationsByDay GENERATE group.RouteName, group.RouteDir
 
 trip = Order ResultData by RouteName, RouteDirectionName,StartTimeField;
 
-store trip into 'tripDurations' USING PigStorage('\t');
+store trip into 'RunTime' USING PigStorage('\t');
