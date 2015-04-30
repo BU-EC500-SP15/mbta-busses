@@ -65,16 +65,15 @@ Headway = FOREACH TripsJOIN
 						TripStart::rankTripHeadwayStart::TripID AS Trip_1,
 						TripEnd::rankTripHeadwayEnd::TripID AS Trip_2,
 						TripStart::FilterData::StopName AS StopName,
-						TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin AS ActHeadway,
-                        TripEnd::FilterData::ScheduledTimeInMin - TripStart::FilterData::ScheduledTimeInMin AS ScheduledHeadway,
-						TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin - TripEnd::FilterData::ScheduledTimeInMin + TripStart::FilterData::ScheduledTimeInMin AS HeadwayDifference;
+						(TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin)*(TripEnd::FilterData::ActArrivalTimeInMin - TripStart::FilterData::ActArrivalTimeInMin) AS ActHeadwaySQR,
+                        (TripEnd::FilterData::ScheduledTimeInMin - TripStart::FilterData::ScheduledTimeInMin)*(TripEnd::FilterData::ScheduledTimeInMin - TripStart::FilterData::ScheduledTimeInMin) AS ScheduledHeadwaySQR;
 
 HeadwayGroup = GROUP Headway BY (RouteName, RouteDirectionName,StartTimeInMin);
 
-AvgWaitTime = FOREACH HeadwayGroup GENERATE group.RouteName AS RouteName, group.RouteDirectionName AS RouteDirectionName,
-		AVG(Headway.ScheduledHeadway*Headway.ScheduledHeadway/2) AS AvgScheduledWaitTime, AVG(Headway.ActHeadway*Headway.ActHeadway/2) AS AvgActWaitTime;
+AvgWaitTime = FOREACH HeadwayGroup GENERATE group.RouteName AS RouteName, group.RouteDirectionName AS RouteDirectionName,group.StartTimeInMin AS StartTimeInMin,
+             AVG(Headway.ScheduledHeadwaySQR)/2 AS AvgScheduledWaitTime, AVG(Headway.ActHeadwaySQR)/2 AS AvgActWaitTime;
 
-AvgWaitTime = ORDER AvgWaitTime BY RouteName,RouteDirectionName,ScheduledTimeInMin;
+AvgWaitTime = ORDER AvgWaitTime BY RouteName,RouteDirectionName,StartTimeInMin;
 
 rmf /user/hadoop/AvgWaitTimeOutput
 STORE AvgWaitTime INTO '/user/hadoop/AvgWaitTimeOutput' USING org.apache.pig.piggybank.storage.CSVExcelStorage('\t', 'NO_MULTILINE', 'WINDOWS');
