@@ -77,4 +77,9 @@ AvgWaitTime = FOREACH HeadwayGroup GENERATE group.RouteName AS RouteName, group.
 
 AvgWaitTime = ORDER AvgWaitTime BY RouteName,RouteDirectionName,StartTimeInMin;
 
+<<<<<<< HEAD
 store AvgWaitTime into 'AvgWaitTime' USING PigStorage('\t');
+=======
+rmf /user/hadoop/AvgWaitTimeOutput
+STORE AvgWaitTime INTO '/user/hadoop/AvgWaitTimeOutput' USING org.apache.pig.piggybank.storage.CSVExcelStorage('\t', 'NO_MULTILINE', 'WINDOWS');
+>>>>>>> origin/master
