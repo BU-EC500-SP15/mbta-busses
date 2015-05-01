@@ -1,6 +1,6 @@
 function parseTripDur(infile)
 %function to parse trip duration data into separate files
-infile = 'RunTime201208.tsv';
+%infile = 'RunTime201208.tsv';
 fid = fopen(infile);
 if fid==-1
     disp('File open failed');
