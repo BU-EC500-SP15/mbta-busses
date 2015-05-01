@@ -1,6 +1,6 @@
 function parseTripDur(infile)
 %function to parse trip duration data into separate files
-%infile = 'RunTime201208.tsv';
+infile = 'RunTime201208.tsv';
 fid = fopen(infile);
 if fid==-1
     disp('File open failed');
@@ -34,10 +34,14 @@ for i=1:length(keyRoutes)
     fprintf(wofid,'date\tclose\n');
     
     for j=1:length(inHr)
-        fprintf(wifid,'%d\t%d\n',inHr(j),inVal(j));
+        if(cast(inHr(j),'double') < 144)
+            fprintf(wifid,'%s\t%d\n',minutesToHrMin(cast(inHr(j),'double')),inVal(j));
+        end
     end
     for k=1:length(outHr)
-        fprintf(wofid,'%d\t%d\n',outHr(k),outVal(k));
+        if (cast(outHr(k),'double') < 144)
+            fprintf(wofid,'%s\t%d\n',minutesToHrMin(cast(outHr(k),'double')),outVal(k));
+        end
     end
     fclose(wifid);
     fclose(wofid);
