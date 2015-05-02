@@ -10,7 +10,7 @@ Documentation for MBTA Bus Performance project lives on Github at:
 
 [mm]:	https://github.com/BU-EC500-SP15/mbta-busses/wiki
 
-### Intallation And Deployment
+### Intallation and Deployment
 
 This project contains two main components, one of which is data analysis with Apache Pig , another is an UI tool to display the analysis result. This tutorial is to introduce how to get all source code of this project and how to deploy it in Linux. The first part is about run analysis in Linux shipped with Pig (We will use Hortonworks Data Platform) and the second is about deploying the website tool in Apache Httpd server.
 
