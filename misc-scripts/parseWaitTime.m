@@ -16,15 +16,20 @@ keyRoutes = [1,15,22,23,28,32,39,57,66,71,73,77,111,116,117];
 for i=1:length(keyRoutes)
     routeIndecies=find(file_array{1} == keyRoutes(i));
     inout=file_array{2}(routeIndecies);
+    
+    Hrs=file_array{3}(routeIndecies);
+    Val=file_array{4}(routeIndecies);
+    Val2=file_array{5}(routeIndecies);
+    
     inIndex=find(strcmp(inout,'Inbound'));
     outIndex=find(strcmp(inout,'Outbound'));
     
-    inHr = file_array{3}(inIndex);
-    inVal = file_array{4}(inIndex);
-    inVal2 = file_array{5}(inIndex);
-    outHr = file_array{3}(outIndex);
-    outVal = file_array{4}(outIndex);
-    outVal2 = file_array{5}(outIndex);
+    inHr = Hrs(inIndex);
+    inVal = Val(inIndex);
+    inVal2 = Val2(inIndex);
+    outHr = Hrs(outIndex);
+    outVal = Val(outIndex);
+    outVal2 = Val2(outIndex);
     
     inFile = sprintf('%d-%s.tsv',keyRoutes(i),'inbound');
     outFile = sprintf('%d-%s.tsv',keyRoutes(i),'outbound');
