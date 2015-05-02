@@ -43,5 +43,4 @@ sudo yum install git
 Clone mbta-busses repository:
 ```
 git clone https://github.com/BU-EC500-SP15/mbta-busses.git
-
 ```
