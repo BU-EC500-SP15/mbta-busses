@@ -13,8 +13,8 @@ FilterData = FILTER RawData BY (RouteName == 1) OR (RouteName == 15) OR (RouteNa
 			OR (RouteName == 71) OR (RouteName == 73) OR (RouteName == 77)
 			OR (RouteName == 111) OR (RouteName == 116) OR (RouteName == 117);
 
-FilterData = FILTER FilterData BY (ServiceDate >= ToDate('$beginDate')) AND (ServiceDate <= ToDate('$endDate'));			
-FilterData = FILTER FilterData BY (ScheduledTimeInMin >= $begin) AND (ScheduledTimeInMin <= $end);
+FilterData = FILTER FilterData BY (ServiceDate >= ToDate('$beginDate')) AND (ServiceDate <= ToDate('$endDate'))			
+								   AND (ScheduledTimeInMin >= $begin) AND (ScheduledTimeInMin <= $end);
 
 
 --Filter data necessary for visualizations 
@@ -32,6 +32,8 @@ GroupedData = Group FilterData by (RouteName, RouteDirectionName, TripID, Patter
 
 tripDurations = FOREACH GroupedData GENERATE group.RouteName as RouteName, group.RouteDirectionName as RouteDirectionName, group.TripID as TripID, group.PatternName as PatternName, 
 MIN(FilterData.SchArrivalT) / 10  as StartTimeField, MAX(FilterData.ActDepartureT) - (int)MIN(FilterData.ActArrivalT) as tripDurationInMins:int;
+
+tripDurations = FILTER tripDurations BY (tripDurationInMins < 150) AND (tripDurationInMins > 0);
 
 tripDurationsByDay = Group tripDurations by (RouteName, RouteDirectionName, StartTimeField);
 
