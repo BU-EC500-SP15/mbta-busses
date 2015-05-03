@@ -32,7 +32,7 @@ Here is a nice official [tutorial](http://hortonworks.com/products/hortonworks-s
 
 #### Clone code from github
 
-Once the Hortonworks Data Platform (HDP) is set up we can have clone the source code from our repository. First we can ssh from host into the HDP by using delow command with password "hadoop":
+Once the Hortonworks Data Platform (HDP) is set up, we can clone the source code from our repository to the linux. First we can ssh from host into the HDP by using delow command with password "hadoop":
 ```
 $ ssh root@127.0.0.1 -P 2222
 ```
