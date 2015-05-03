@@ -20,7 +20,7 @@ Some background about the platform we will use in this tutorial
 
 ##### What is [Hortonworks](http://en.wikipedia.org/wiki/Hortonworks):
 
-Hortonworks is a business computer software company based in Palo Alto, California. The company focuses on the development and support of Apache Hadoop, a framework that allows for the distributed processing of large data sets across clusters of computers[1]. There is no necessity to use Hortonworks Data Plaform to deply this project, it's because it's an off-the-shell Hadoop and Pig environment.
+Hortonworks is a business computer software company based in Palo Alto, California. The company focuses on the development and support of Apache Hadoop, a framework that allows for the distributed processing of large data sets across clusters of computers[1]. There is no necessity to use Hortonworks Data Plaform to deploy this project, we use it because it's an off-the-shell Hadoop and Pig environment.
 
 ##### What is [Pig](http://hortonworks.com/hadoop-tutorial/how-to-process-data-with-apache-pig/):
 
