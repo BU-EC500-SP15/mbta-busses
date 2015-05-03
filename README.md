@@ -10,7 +10,7 @@ Documentation for MBTA Bus Performance project lives on Github at:
 
 [mm]:	https://github.com/BU-EC500-SP15/mbta-busses/wiki
 
-### Intallation and Deployment
+### Installation and Deployment
 
 This project contains two main components, one of which is data analysis with Apache Pig , another is an UI tool to display the analysis result. This tutorial is to introduce how to get all source code of this project and how to deploy it in Linux. The first part is about run analysis in Linux shipped with Pig (We will use Hortonworks Data Platform) and the second is about deploying the website tool in Apache Httpd server.
 
@@ -32,7 +32,7 @@ Here is a nice official [tutorial](http://hortonworks.com/products/hortonworks-s
 
 #### Clone code from github
 
-Once the Hortonworks Data Platform (HDP) is set up, we can clone the source code from our repository to the linux. First we can ssh from host into the HDP by using delow command with password "hadoop":
+Once the Hortonworks Data Platform (HDP) is set up, we can clone the source code from our repository to the linux. First we can ssh from host into the HDP by using command below with password "hadoop":
 ```
 $ ssh root@127.0.0.1 -P 2222
 ```
@@ -71,20 +71,25 @@ drwxr-xr-x   - hdfs   hdfs            0 2014-12-16 19:07 /system
 drwxrwxrwx   - hdfs   hdfs            0 2015-05-02 19:07 /tmp
 drwxr-xr-x   - hdfs   hdfs            0 2015-05-02 19:07 /user
 ```
-Then we can process our data with Pig scripts for different metrics analysis. But we provide shell scripts to trigger Pig scripts individually.
+Then we can process our data with Pig scripts for different metrics analysis and we provide shell scripts to trigger Pig scripts individually. With some defined parameters for the shell, we can generate analysis result for data of specific time period. Below is some example of running this scripts.
 
-1 All Metrics for 2 years
+*** All Metrics for 2 years ***
 Run all the metrics for 2 yeas... 8 more hours, can do it during the night by crontab
-nohup sh RunAll.sh &
-
-You can run Different  Metrics for 2 years
+```
+$ nohup sh RunAll.sh &
+```
+You can run different metrics analysis for 2 years individually
 ```
 $ sh MonthlyHeadway.sh                --> Performance of Headways
 $ sh MonthlyAvgWaitTime.sh			--> Performance of AvgWaitTime
 $ sh RunTime.sh						--> Performance of RunTime
 $ sh DiffTime.sh 						--> Performance of Difference Between Scheduled and Actual 
 ```
-3 Metrics for specific time period
-sh Headway.sh "Your data on the hadoop" "begin time" "end time" "begin date" "end date" (in Minitess)
-e.g. sh Headway.sh oneyear.csv 0 1440 2013-01-01 2013-02-01
-all the other metrics are similar to this command
+Metrics for specific time period
+```
+$ sh Headway.sh "Your data on the hadoop" "begin time" "end time" "begin date" "end date" (in Minute)
+
+e.g. $ sh Headway.sh oneyear.csv 0 1440 2013-01-01 2013-02-01
+```
+The other metrics are similar to this command
+
