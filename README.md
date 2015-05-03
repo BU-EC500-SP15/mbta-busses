@@ -20,7 +20,7 @@ Some background about the platform we will use in this tutorial
 
 ##### What is [Hortonworks](http://en.wikipedia.org/wiki/Hortonworks):
 
-Hortonworks is a business computer software company based in Palo Alto, California. The company focuses on the development and support of Apache Hadoop, a framework that allows for the distributed processing of large data sets across clusters of computers[1]. There is no necessity to use Hortonworks Data Plaform to deploy this project, we use it because it's an off-the-shell Hadoop and Pig environment.
+Hortonworks is a business computer software company based in Palo Alto, California. The company focuses on the development and support of Apache Hadoop, a framework that allows for the distributed processing of large data sets across clusters of computers[1]. **There is no necessity to use Hortonworks Data Plaform to deploy this project, we use it because it's an off-the-shell Hadoop and Pig environment**.
 
 ##### What is [Pig](http://hortonworks.com/hadoop-tutorial/how-to-process-data-with-apache-pig/):
 
@@ -71,3 +71,18 @@ drwxr-xr-x   - hdfs   hdfs            0 2014-12-16 19:07 /system
 drwxrwxrwx   - hdfs   hdfs            0 2015-05-02 19:07 /tmp
 drwxr-xr-x   - hdfs   hdfs            0 2015-05-02 19:07 /user
 ```
+1 All Metrics for 2 years
+Run all the metrics for 2 yeas... 8 more hours, can do it during the night by crontab
+nohup sh RunAll.sh &
+
+2 Different  Metrics for 2 years
+```
+sh MonthlyHeadway.sh                --> Performance of Headways
+sh MonthlyAvgWaitTime.sh			--> Performance of AvgWaitTime
+sh RunTime.sh						--> Performance of RunTime
+sh DiffTime.sh 						--> Performance of Difference Between Scheduled and Actual 
+```
+3 Metrics for specific time period
+sh Headway.sh "Your data on the hadoop" "begin time" "end time" "begin date" "end date" (in Minitess)
+e.g. sh Headway.sh oneyear.csv 0 1440 2013-01-01 2013-02-01
+all the other metrics are similar to this command
