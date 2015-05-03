@@ -48,7 +48,26 @@ Verify the repository by open the mbta-busses directory:
 ```
 $ cd mbta-busses
 ```
-Copy one day data set from MBTA/Dataset to Hadoop in HDP under mbta-busses directory:
+Copy one day data set from the repository to Hadoop in HDP under mbta-busses directory:
 ```
 $ hadoop fs -copyFromLocal ./DataSet/20140301.csv
+```
+Verify the file in hadoop:
+```
+hadoop fs -ls /
+```
+By default you can see the files in hadoop's HDFS as below:
+```
+Found 11 items
+-rw-r--r--   1 root   hdfs      4300707 2015-05-03 00:08 /20140301.csv
+drwxrwxrwx   - yarn   hadoop          0 2014-12-16 19:05 /app-logs
+drwxr-xr-x   - hdfs   hdfs            0 2014-12-16 19:11 /apps
+drwxr-xr-x   - hdfs   hdfs            0 2014-12-16 19:41 /demo
+drwxr-xr-x   - hdfs   hdfs            0 2014-12-16 19:06 /hdp
+drwxr-xr-x   - mapred hdfs            0 2014-12-16 19:05 /mapred
+drwxr-xr-x   - hdfs   hdfs            0 2014-12-16 19:05 /mr-history
+drwxr-xr-x   - hdfs   hdfs            0 2014-12-16 19:31 /ranger
+drwxr-xr-x   - hdfs   hdfs            0 2014-12-16 19:07 /system
+drwxrwxrwx   - hdfs   hdfs            0 2015-05-02 19:07 /tmp
+drwxr-xr-x   - hdfs   hdfs            0 2015-05-02 19:07 /user
 ```
