@@ -44,11 +44,11 @@ Clone mbta-busses repository:
 ```
 $ git clone https://github.com/BU-EC500-SP15/mbta-busses.git
 ```
-Verify the repository:
+Verify the repository by open the mbta-busses directory:
 ```
 $ cd mbta-busses
 ```
-Copy one day data set from MBTA/Dataset to Hadoop in HDP:
+Copy one day data set from MBTA/Dataset to Hadoop in HDP under mbta-busses directory:
 ```
-$ hadoop fs -copyFromLocal mbta-busses/DataSet/20140301.csv
+$ hadoop fs -copyFromLocal ./DataSet/20140301.csv
 ```
