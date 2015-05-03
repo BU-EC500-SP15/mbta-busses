@@ -71,7 +71,7 @@ drwxr-xr-x   - hdfs   hdfs            0 2014-12-16 19:07 /system
 drwxrwxrwx   - hdfs   hdfs            0 2015-05-02 19:07 /tmp
 drwxr-xr-x   - hdfs   hdfs            0 2015-05-02 19:07 /user
 ```
-Then we can process our data with Pig scripts for different metrics analysis and we provide shell scripts to trigger Pig scripts individually. With some defined parameters for the shell, we can generate analysis result for data of specific time period. Below is some example of running this scripts.
+Then we can process our data with Pig scripts for different metrics analysis and we provide shell scripts to trigger Pig scripts individually. With some defined parameters for the shell, we can generate analysis result for data of specific time period. Below is an example of running this scripts.
 
 Run all the metrics for 2 yeas... 8 more hours, can do it during the night by crontab
 ```
