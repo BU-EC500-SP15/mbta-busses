@@ -20,11 +20,11 @@ Some background about the platform we will use in this tutorial
 
 ##### What is [Hortonworks](http://en.wikipedia.org/wiki/Hortonworks):
 
-Hortonworks is a business computer software company based in Palo Alto, California. The company focuses on the development and support of Apache Hadoop, a framework that allows for the distributed processing of large data sets across clusters of computers[1]. **There is no necessity to use Hortonworks Data Plaform to deploy this project, we use it because it's an off-the-shell Hadoop and Pig environment**.
+Hortonworks is a business computer software company based in Palo Alto, California. The company focuses on the development and support of Apache Hadoop, a framework that allows for the distributed processing of large data sets across clusters of computers[[1]](http://en.wikipedia.org/wiki/Hortonworks). **There is no necessity to use Hortonworks Data Plaform to deploy this project, we use it because it's an off-the-shell Hadoop and Pig environment**.
 
 ##### What is [Pig](http://hortonworks.com/hadoop-tutorial/how-to-process-data-with-apache-pig/):
 
-Pig is a high level scripting language that is used with Apache Hadoop. Pig excels at describing data analysis problems as data flows. Pig is complete in that you can do all the required data manipulations in Apache Hadoop with Pig. In addition through the User Defined Functions(UDF) facility in Pig you can have Pig invoke code in many languages like JRuby, Jython and Java. Conversely you can execute Pig scripts in other languages. The result is that you can use Pig as a component to build larger and more complex applications that tackle real business problems[2].
+Pig is a high level scripting language that is used with Apache Hadoop. Pig excels at describing data analysis problems as data flows. Pig is complete in that you can do all the required data manipulations in Apache Hadoop with Pig. In addition through the User Defined Functions(UDF) facility in Pig you can have Pig invoke code in many languages like JRuby, Jython and Java. Conversely you can execute Pig scripts in other languages. The result is that you can use Pig as a component to build larger and more complex applications that tackle real business problems[[2]](http://hortonworks.com/hadoop-tutorial/how-to-process-data-with-apache-pig/).
 
 ##### How to download and install the Hortonworks Sandbox image for Virtualbox:
 
