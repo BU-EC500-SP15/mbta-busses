@@ -38,14 +38,17 @@ $ ssh root@127.0.0.1 -P 2222
 ```
 Install GIT client:
 ```
-sudo yum install git
+$ sudo yum install git
 ```
 Clone mbta-busses repository:
 ```
-git clone https://github.com/BU-EC500-SP15/mbta-busses.git
+$ git clone https://github.com/BU-EC500-SP15/mbta-busses.git
 ```
-
+Verify the repository:
+```
+$ cd mbta-busses
+```
 Copy one day data set from MBTA/Dataset to Hadoop in HDP:
 ```
-hadoop fs -copyFromLocal mbta-busses/DataSet/20140301.csv
+$ hadoop fs -copyFromLocal mbta-busses/DataSet/20140301.csv
 ```
