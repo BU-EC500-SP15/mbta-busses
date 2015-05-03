@@ -85,11 +85,11 @@ $ sh MonthlyAvgWaitTime.sh			--> Performance of AvgWaitTime
 $ sh RunTime.sh						--> Performance of RunTime
 $ sh DiffTime.sh 						--> Performance of Difference Between Scheduled and Actual 
 ```
-Metrics for specific time period
+To compute metrics for specific time period, you must provide parameters "Your data on the hadoop", "begin time", "end time", "begin date", "end date" to run those shell. Here is one example for calling Headway.sh, and so on so forth:
 ```
 $ sh Headway.sh "Your data on the hadoop" "begin time" "end time" "begin date" "end date" (in Minute)
 
 e.g. $ sh Headway.sh oneyear.csv 0 1440 2013-01-01 2013-02-01
 ```
-The other metrics are similar to this command
+
 
