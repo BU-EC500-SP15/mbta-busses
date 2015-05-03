@@ -24,7 +24,7 @@ Hortonworks is a business computer software company based in Palo Alto, Californ
 
 ##### What is [Pig](http://hortonworks.com/hadoop-tutorial/how-to-process-data-with-apache-pig/):
 
-> Pig is a high level scripting language that is used with Apache Hadoop. Pig excels at describing data analysis problems as data flows. Pig is complete in that you can do all the required data manipulations in Apache Hadoop with Pig. In addition through the User Defined Functions(UDF) facility in Pig you can have Pig invoke code in many languages like JRuby, Jython and Java. Conversely you can execute Pig scripts in other languages. The result is that you can use Pig as a component to build larger and more complex applications that tackle real business problems[2].
+Pig is a high level scripting language that is used with Apache Hadoop. Pig excels at describing data analysis problems as data flows. Pig is complete in that you can do all the required data manipulations in Apache Hadoop with Pig. In addition through the User Defined Functions(UDF) facility in Pig you can have Pig invoke code in many languages like JRuby, Jython and Java. Conversely you can execute Pig scripts in other languages. The result is that you can use Pig as a component to build larger and more complex applications that tackle real business problems[2].
 
 ##### How to download and install the Hortonworks Sandbox image for Virtualbox:
 
@@ -71,16 +71,18 @@ drwxr-xr-x   - hdfs   hdfs            0 2014-12-16 19:07 /system
 drwxrwxrwx   - hdfs   hdfs            0 2015-05-02 19:07 /tmp
 drwxr-xr-x   - hdfs   hdfs            0 2015-05-02 19:07 /user
 ```
+Then we can process our data with Pig scripts for different metrics analysis. But we provide shell scripts to trigger Pig scripts individually.
+
 1 All Metrics for 2 years
 Run all the metrics for 2 yeas... 8 more hours, can do it during the night by crontab
 nohup sh RunAll.sh &
 
-2 Different  Metrics for 2 years
+You can run Different  Metrics for 2 years
 ```
-sh MonthlyHeadway.sh                --> Performance of Headways
-sh MonthlyAvgWaitTime.sh			--> Performance of AvgWaitTime
-sh RunTime.sh						--> Performance of RunTime
-sh DiffTime.sh 						--> Performance of Difference Between Scheduled and Actual 
+$ sh MonthlyHeadway.sh                --> Performance of Headways
+$ sh MonthlyAvgWaitTime.sh			--> Performance of AvgWaitTime
+$ sh RunTime.sh						--> Performance of RunTime
+$ sh DiffTime.sh 						--> Performance of Difference Between Scheduled and Actual 
 ```
 3 Metrics for specific time period
 sh Headway.sh "Your data on the hadoop" "begin time" "end time" "begin date" "end date" (in Minitess)
