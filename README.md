@@ -90,5 +90,5 @@ $ sh Headway.sh "Your data on the hadoop" "begin time" "end time" "begin date" "
 
 e.g. $ sh Headway.sh oneyear.csv 0 1440 2013-01-01 2013-02-01
 ```
-All the result will be stored in a tsv file and saved in a result directory, and we can put the results to our website tool to project dynamically.
+All the result will be stored in a tsv file and saved in a result directory, and we can put the results to our website for projection on the charts dynamically.
 
